@@ -588,23 +588,29 @@ function openExport(){
 function closeExport(){document.getElementById('expModal').classList.remove('open');}
 document.getElementById('expModal').addEventListener('click',e=>{if(e.target===e.currentTarget)closeExport();});
 
-function dl(name,content,type){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([content],{type}));a.download=name;a.click();}
+function dl(name,content,type){
+  const a=document.createElement('a');
+  const url=URL.createObjectURL(new Blob([content],{type:type||'application/octet-stream'}));
+  a.href=url;a.download=name;a.click();
+  setTimeout(()=>URL.revokeObjectURL(url),0);
+}
 
 document.getElementById('exCsv').addEventListener('click',()=>{
-  let c='Berbers,Nederlands\n';
-  for(const it of st.my)c+='"'+it.t.replace(/"/g,'""')+'","'+it.d.replace(/"/g,'""')+'"\n';
-  dl('mijn_tarifit.csv',c,'text/csv');
+  const escField=s=>String(s??'').replace(/"/g,'""');
+  let c='\ufeffBerbers,Nederlands\r\n';
+  for(const it of st.my)c+='"'+escField(it.t)+'","'+escField(it.d)+'"\r\n';
+  dl('mijn_tarifit.csv',c,'text/csv;charset=utf-8');
   toast('📄 CSV gedownload ('+st.my.length+' woorden)');
 });
 document.getElementById('exAnki').addEventListener('click',()=>{
   let t='#separator:tab\n#html:false\n';
-  for(const it of st.my)t+=it.d+'\t'+it.t+'\n';
-  dl('mijn_tarifit_anki.txt',t,'text/plain');
+  for(const it of st.my)t+=String(it.d??'')+'\t'+String(it.t??'')+'\n';
+  dl('mijn_tarifit_anki.txt',t,'text/plain;charset=utf-8');
   toast('🎴 Anki-bestand gedownload');
 });
 document.getElementById('exJson').addEventListener('click',()=>{
   const out=st.my.map(it=>({tarifit:it.t,nederlands:it.d,eigen:!!it.own}));
-  dl('mijn_tarifit.json',JSON.stringify(out,null,2),'application/json');
+  dl('mijn_tarifit.json',JSON.stringify(out,null,2),'application/json;charset=utf-8');
   toast('{ } JSON gedownload');
 });
 
