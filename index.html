@@ -630,13 +630,17 @@ function renderRemCount(){
 
 document.getElementById('exRemCsv').addEventListener('click',()=>{
   const pending=getPending();
-  let rows='Berbers,Nederlands,In_lijsten\n';
+  let rows='\ufeffBerbers,Nederlands,In_lijsten\n';
   for(const g of pending){
-    const bestT=g.e.length>0?g.e[0].t:g.key;
-    const bestD=g.bd;
-    rows+='"'+bestT.replace(/"/g,'""')+'","'+bestD.replace(/"/g,'""')+'",'+g.sc+'\n';
+    const tarifit=g.e.length>0?g.e.map(e=>e.t):[g.key];
+    const dutch=g.dv.length>0?g.dv:[g.bd];
+    for(const t of tarifit){
+      for(const d of dutch){
+        rows+='"'+t.replace(/"/g,'""')+'","'+d.replace(/"/g,'""')+'",'+g.sc+'\n';
+      }
+    }
   }
-  dl('tarifit_overig.csv',rows,'text/csv');
+  dl('tarifit_overig.csv',rows,'text/csv;charset=utf-8');
   toast('📄 '+pending.length+' overige woorden gedownload');
 });
 
@@ -644,8 +648,13 @@ document.getElementById('exRemAnki').addEventListener('click',()=>{
   const pending=getPending();
   let txt='#separator:tab\n#html:false\n';
   for(const g of pending){
-    const bestT=g.e.length>0?g.e[0].t:g.key;
-    txt+=g.bd+'\t'+bestT+'\n';
+    const tarifit=g.e.length>0?g.e.map(e=>e.t):[g.key];
+    const dutch=g.dv.length>0?g.dv:[g.bd];
+    for(const t of tarifit){
+      for(const d of dutch){
+        txt+=d+'\t'+t+'\n';
+      }
+    }
   }
   dl('tarifit_overig_anki.txt',txt,'text/plain');
   toast('🎴 '+pending.length+' overige woorden (Anki) gedownload');
