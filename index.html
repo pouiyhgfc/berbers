@@ -187,6 +187,11 @@ function updStats(){
 function renderList(){
   var d=filtered();
   document.getElementById('lc').textContent=d.length;
+  var hasCurrent=false;
+  for(var j=0;j<d.length;j++){
+    if(d[j].id===st.cur){hasCurrent=true;break;}
+  }
+  if(!hasCurrent) st.cur=d.length?d[0].id:null;
   var gl=document.getElementById('gl');
   var html='';
   for(var i=0;i<d.length;i++){
@@ -204,6 +209,7 @@ function renderList(){
     html+='</div>';
   }
   gl.innerHTML=html;
+  if(st.cur!==null) renderCard(st.cur);
   updStats();
 }
 
