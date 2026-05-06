@@ -547,12 +547,14 @@ document.getElementById('btnExp').onclick=function(){
     var g=getGroupById(parseInt(id));
     return {ber:st.approved[id].ber,nl:st.approved[id].nl,key:g?g.key:''};
   }).sort(function(a,b){return a.key<b.key?-1:a.key>b.key?1:0;});
-  var csv='Berbers,Nederlands\r\n';
+  var csv='\ufeffBerbers,Nederlands\r\n';
   items.forEach(function(item){csv+='"'+item.ber.replace(/"/g,'""')+'","'+item.nl.replace(/"/g,'""')+'"\r\n';});
   var blob=new Blob([csv],{type:'text/csv;charset=utf-8;'});
   var a=document.createElement('a');
-  a.href=URL.createObjectURL(blob);a.download='tarifit_mijn_lijst.csv';
+  var url=URL.createObjectURL(blob);
+  a.href=url;a.download='tarifit_mijn_lijst.csv';
   document.body.appendChild(a);a.click();document.body.removeChild(a);
+  setTimeout(function(){URL.revokeObjectURL(url);},500);
 };
 
 var mdlEditId=null;
