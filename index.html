@@ -242,6 +242,14 @@ mark{background:#ffdd57;border-radius:2px;padding:0 1px}
       <div class="exbtn" id="exAnki"><div class="ei">🎴</div><div class="el">Anki</div><div class="ed">Tab-gescheiden</div></div>
       <div class="exbtn" id="exJson"><div class="ei">{ }</div><div class="el">JSON</div><div class="ed">Volledige data</div></div>
     </div>
+    <div style="border-top:1px solid var(--bord);padding-top:.9rem;margin-top:.2rem">
+      <div style="font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--mut);margin-bottom:.6rem">📤 Exporteer overige woorden (nog niet behandeld)</div>
+      <div style="display:flex;gap:.6rem;flex-wrap:wrap">
+        <div class="exbtn" id="exRemCsv" style="flex:1;min-width:100px"><div class="ei">📄</div><div class="el">CSV</div><div class="ed">Resterende woorden</div></div>
+        <div class="exbtn" id="exRemAnki" style="flex:1;min-width:100px"><div class="ei">🎴</div><div class="el">Anki</div><div class="ed">Resterende woorden</div></div>
+      </div>
+      <div id="remCount" style="font-size:.75rem;color:var(--mut);margin-top:.5rem;font-style:italic"></div>
+    </div>
   </div>
 </div>
 <style>
@@ -583,35 +591,64 @@ function renderMyList(){
 }
 function openExport(){
   renderMyList();
+  renderRemCount();
   document.getElementById('expModal').classList.add('open');
 }
 function closeExport(){document.getElementById('expModal').classList.remove('open');}
 document.getElementById('expModal').addEventListener('click',e=>{if(e.target===e.currentTarget)closeExport();});
 
-function dl(name,content,type){
-  const a=document.createElement('a');
-  const url=URL.createObjectURL(new Blob([content],{type:type||'application/octet-stream'}));
-  a.href=url;a.download=name;a.click();
-  setTimeout(()=>URL.revokeObjectURL(url),0);
-}
+function dl(name,content,type){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([content],{type}));a.download=name;a.click();}
 
 document.getElementById('exCsv').addEventListener('click',()=>{
-  const escField=s=>String(s??'').replace(/"/g,'""');
-  let c='\ufeffBerbers,Nederlands\r\n';
-  for(const it of st.my)c+='"'+escField(it.t)+'","'+escField(it.d)+'"\r\n';
-  dl('mijn_tarifit.csv',c,'text/csv;charset=utf-8');
+  let c='Berbers,Nederlands\n';
+  for(const it of st.my)c+='"'+it.t.replace(/"/g,'""')+'","'+it.d.replace(/"/g,'""')+'"\n';
+  dl('mijn_tarifit.csv',c,'text/csv');
   toast('📄 CSV gedownload ('+st.my.length+' woorden)');
 });
 document.getElementById('exAnki').addEventListener('click',()=>{
   let t='#separator:tab\n#html:false\n';
-  for(const it of st.my)t+=String(it.d??'')+'\t'+String(it.t??'')+'\n';
-  dl('mijn_tarifit_anki.txt',t,'text/plain;charset=utf-8');
+  for(const it of st.my)t+=it.d+'\t'+it.t+'\n';
+  dl('mijn_tarifit_anki.txt',t,'text/plain');
   toast('🎴 Anki-bestand gedownload');
 });
 document.getElementById('exJson').addEventListener('click',()=>{
   const out=st.my.map(it=>({tarifit:it.t,nederlands:it.d,eigen:!!it.own}));
-  dl('mijn_tarifit.json',JSON.stringify(out,null,2),'application/json;charset=utf-8');
+  dl('mijn_tarifit.json',JSON.stringify(out,null,2),'application/json');
   toast('{ } JSON gedownload');
+});
+
+function getPending(){
+  // Pure read - never writes to localStorage
+  return D.filter(g=>!st.c[g.id]);
+}
+
+function renderRemCount(){
+  const n=getPending().length;
+  const el=document.getElementById('remCount');
+  if(el)el.textContent=n+' groepen nog niet behandeld';
+}
+
+document.getElementById('exRemCsv').addEventListener('click',()=>{
+  const pending=getPending();
+  let rows='Berbers,Nederlands,In_lijsten\n';
+  for(const g of pending){
+    const bestT=g.e.length>0?g.e[0].t:g.key;
+    const bestD=g.bd;
+    rows+='"'+bestT.replace(/"/g,'""')+'","'+bestD.replace(/"/g,'""')+'",'+g.sc+'\n';
+  }
+  dl('tarifit_overig.csv',rows,'text/csv');
+  toast('📄 '+pending.length+' overige woorden gedownload');
+});
+
+document.getElementById('exRemAnki').addEventListener('click',()=>{
+  const pending=getPending();
+  let txt='#separator:tab\n#html:false\n';
+  for(const g of pending){
+    const bestT=g.e.length>0?g.e[0].t:g.key;
+    txt+=g.bd+'\t'+bestT+'\n';
+  }
+  dl('tarifit_overig_anki.txt',txt,'text/plain');
+  toast('🎴 '+pending.length+' overige woorden (Anki) gedownload');
 });
 
 function doReset(){
