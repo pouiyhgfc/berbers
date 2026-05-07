@@ -1,0 +1,7 @@
+assets/js/supabase-config.js
+__pycache__/
+*.pyc
+.env
+.env.local
+# Grote boek-PDF past niet op GitHub (>100 MB); voeg lokaal toe of gebruik Git LFS
+assets/boek/tarifit-boek-hires.pdf

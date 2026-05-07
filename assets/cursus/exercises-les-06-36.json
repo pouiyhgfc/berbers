@@ -1,0 +1,2018 @@
+{
+  "les-06": [
+    {
+      "type": "mc",
+      "q": "Waarom staat <span class=\"tar\">qqim</span> in woordenlijsten als basisvorm?",
+      "options": [
+        "Het is de imperatief / gebiedende wijs — daarop bouwt de vervoeging",
+        "Het is altijd verleden",
+        "Het is een zelfstandig naamwoord",
+        "Het is alleen meervoud"
+      ],
+      "correct": 0,
+      "explain": "Tarifit-woordenboeken gebruiken de korte stam (imperatief)."
+    },
+    {
+      "type": "mc",
+      "q": "Wat is typisch voor Tarifit-vervoeging t.o.v. Nederlands?",
+      "options": [
+        "alleen suffixen",
+        "prefix én suffix rond de stam",
+        "geen persoonsvorm",
+        "altijd hetzelfde als het Arabisch"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Vorm voor <strong>ik zit</strong> (stam <span class=\"tar\">qqim</span>):",
+      "correct": "qqimey",
+      "placeholder": "Antwoord",
+      "explain": "1SG: stam + <span class=\"tar\">-ey</span>."
+    },
+    {
+      "type": "translate",
+      "q": "Wat betekent <span class=\"tar\">ṯeqqimeḏ</span>?",
+      "correct": "jij zit",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "jij zit"
+      ]
+    },
+    {
+      "type": "match",
+      "q": "Koppel persoon en vorm (<span class=\"tar\">qqim</span>).",
+      "pairs": [
+        {
+          "left": "hij zit",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">yeqqim</span>"
+        },
+        {
+          "left": "zij zit (vrouw)",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">ṯeqqim</span>"
+        },
+        {
+          "left": "wij zitten",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">neqqim</span>"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-07": [
+    {
+      "type": "mc",
+      "q": "Welk suffix hoort bij <strong>ik</strong> in het standaardpatroon?",
+      "options": [
+        "-<span class=\"tar\">eḏ</span>",
+        "-<span class=\"tar\">ey</span>",
+        "-<span class=\"tar\">en</span>",
+        "-<span class=\"tar\">em</span>"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "mc",
+      "q": "Hoe scheid je <strong>hij</strong> en <strong>zij</strong> (ev.)?",
+      "options": [
+        "alleen een klinker in de stam",
+        "prefix <span class=\"tar\">y-</span> versus <span class=\"tar\">ṯ-</span>",
+        "alleen het verschil in suffix",
+        "ze zijn identiek"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Vervoeg <span class=\"tar\">cc</span> 'eten' voor <strong>hij</strong>:",
+      "correct": "ycc",
+      "placeholder": "Antwoord",
+      "explain": ""
+    },
+    {
+      "type": "translate",
+      "q": "Letterlijk+vertaling kern: <span class=\"tar\">ṯeqqimeḏ</span> = …",
+      "correct": "jij zit",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "jij zit"
+      ]
+    },
+    {
+      "type": "match",
+      "q": "Patronen enkelvoud",
+      "pairs": [
+        {
+          "left": "ik",
+          "leftIsTar": false,
+          "right": "STAM-<span class=\"tar\">ey</span>"
+        },
+        {
+          "left": "jij",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">ṯ</span>-STAM-<span class=\"tar\">eḏ</span>"
+        },
+        {
+          "left": "hij",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">y</span>-STAM"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-08": [
+    {
+      "type": "mc",
+      "q": "Welk prefix heeft <strong>wij</strong> in het voorbeeld <span class=\"tar\">neqqim</span>?",
+      "options": [
+        "<span class=\"tar\">ṯ-</span>",
+        "<span class=\"tar\">n-</span>",
+        "<span class=\"tar\">y-</span>",
+        "<span class=\"tar\">m-</span>"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Hoe zeg je <strong>zij zitten</strong> (M/gemengd, stam <span class=\"tar\">qqim</span>)?",
+      "correct": "qqimen",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "qqimen"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Wat betekent <span class=\"tar\">ṯeqqimem</span>?",
+      "correct": "jullie zitten",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "jullie zitten"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Wanneer gebruik je vrouwelijk meervoud <span class=\"tar\">-enṯ</span>?",
+      "options": [
+        "als er minstens één man bij is",
+        "alleen als de groep uitsluitend uit vrouwen bestaat",
+        "altijd in verleden",
+        "nooit"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Koppel klopt bij de les",
+      "pairs": [
+        {
+          "left": "1PL",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">n</span>-STAM"
+        },
+        {
+          "left": "2PL M",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">ṯ</span>-STAM-<span class=\"tar\">em</span>"
+        },
+        {
+          "left": "3PL F",
+          "leftIsTar": false,
+          "right": "STAM-<span class=\"tar\">enṯ</span>"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-09": [
+    {
+      "type": "mc",
+      "q": "Waar denkt Tarifit primair in: <strong>tijd</strong> of <strong>aspect</strong>?",
+      "options": [
+        "alleen tijd",
+        "aspect (afgerond / lopend / basis)",
+        "alleen plaats",
+        "alleen ontkenning"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "mc",
+      "q": "Welke vorm hoort bij een <em>gewoonte</em> 'ik eet' volgens de les?",
+      "options": [
+        "Perfectief",
+        "Imperfectief",
+        "alleen Aorist zonder hulp",
+        "geen verschil"
+      ],
+      "correct": 1,
+      "explain": "Voorbeeld <span class=\"tar\">tetey</span> (Imperfectief)."
+    },
+    {
+      "type": "fill",
+      "q": "Noem één van de drie hoofdaspecten uit de tabel (één woord, Nederlands).",
+      "correct": "perfectief",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "perfectief",
+        "imperfectief",
+        "aorist"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Wat betekent ongeveer <span class=\"tar\">cciy</span> in de les (eten)?",
+      "correct": "ik heb gegeten",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "ik at",
+        "ik heb gegeten"
+      ]
+    },
+    {
+      "type": "match",
+      "q": "Aspect",
+      "pairs": [
+        {
+          "left": "één afgeronde keer",
+          "leftIsTar": false,
+          "right": "Perfectief"
+        },
+        {
+          "left": "bezig / gewoonte",
+          "leftIsTar": false,
+          "right": "Imperfectief"
+        },
+        {
+          "left": "met <span class=\"tar\">ad</span> + toekomst",
+          "leftIsTar": false,
+          "right": "Aorist-clause"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-10": [
+    {
+      "type": "mc",
+      "q": "Welk partikel markeert de toekomst bij <span class=\"tar\">ad cciy</span> 'ik zal eten'?",
+      "options": [
+        "<span class=\"tar\">ṯuya</span>",
+        "<span class=\"tar\">ad</span>",
+        "<span class=\"tar\">qa</span>",
+        "<span class=\"tar\">ma</span>"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Vul aan: <span class=\"tar\">___ cciy</span> — ik zal eten / ik ga eten.",
+      "correct": "ad",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "ad"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Vertaal: <span class=\"tar\">ad cciy</span>.",
+      "correct": "ik zal eten",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "ik zal eten",
+        "ik ga eten"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Wat volgt na <span class=\"tar\">ad</span> in deze constructie?",
+      "options": [
+        "Imperfectief",
+        "Aorist (basisstam-vorm)",
+        "alleen een naamwoord",
+        "alleen een voorzetsel"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Toekomst",
+      "pairs": [
+        {
+          "left": "marker",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">ad</span>"
+        },
+        {
+          "left": "voorbeeld 'eten' 1SG",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">ad cciy</span>"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-11": [
+    {
+      "type": "mc",
+      "q": "Hoe ziet een typisch <strong>vrouwelijk enkelvoud</strong> eruit?",
+      "options": [
+        "<span class=\"tar\">a-</span> … <span class=\"tar\">-en</span>",
+        "<span class=\"tar\">ṯa-</span> … <span class=\"tar\">-ṯ</span>",
+        "alleen <span class=\"tar\">i-</span>",
+        "zonder prefix"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Welk prefix heeft mannelijk enkelvoud vaak (bijv. <span class=\"tar\">aayaz</span>)?",
+      "correct": "a",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "a"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Betekenis van <span class=\"tar\">ṯamɣaṯ</span>?",
+      "correct": "vrouw",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "vrouw",
+        "een vrouw"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Welk geslacht hoort bij <span class=\"tar\">aayaz</span>?",
+      "options": [
+        "vrouwelijk",
+        "mannelijk",
+        "onzijdig",
+        "alleen meervoud"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Geslacht",
+      "pairs": [
+        {
+          "left": "M ev",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">a-</span>"
+        },
+        {
+          "left": "V ev",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">ṯa-</span> … <span class=\"tar\">-ṯ</span>"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-12": [
+    {
+      "type": "mc",
+      "q": "De hoofdregel voor mannelijk meervoud: <span class=\"tar\">a-</span> wordt …",
+      "options": [
+        "<span class=\"tar\">u-</span>",
+        "<span class=\"tar\">i-</span>",
+        "<span class=\"tar\">ṯi-</span>",
+        "verdwijnt altijd"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Meervoud van <span class=\"tar\">afunas</span> 'rund':",
+      "correct": "ifunasen",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "ifunasen"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Meervoud van <span class=\"tar\">ṯafunasṯ</span> 'koe':",
+      "correct": "ṯifunasin",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "ṯifunasin",
+        "tifunasin"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Waarom zijn uitzonderingen zoals <span class=\"tar\">uma</span> → <span class=\"tar\">ayeṯma</span> belangrijk?",
+      "options": [
+        "ze bestaan niet",
+        "suppletieve meervouden moet je per woord leren",
+        "alleen voor leenwoorden",
+        "alleen in het Arabisch"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Meervoud",
+      "pairs": [
+        {
+          "left": "V-ev → V-mv",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">ṯi-</span> … <span class=\"tar\">-in</span>"
+        },
+        {
+          "left": "M-ev → M-mv",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">i-</span> … <span class=\"tar\">-en</span>"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-13": [
+    {
+      "type": "fill",
+      "q": "Familiewoord voor <strong>mijn vader</strong> (één woord):",
+      "correct": "baba",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "baba"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Wat betekent <span class=\"tar\">yemma-c</span>?",
+      "correct": "jouw moeder (tegen man)",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "jouw moeder"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Hoe zeg je <strong>zijn broer</strong> met een familiewoord?",
+      "options": [
+        "<span class=\"tar\">uma</span>",
+        "<span class=\"tar\">uma-s</span>",
+        "<span class=\"tar\">uma-ṯ</span>",
+        "<span class=\"tar\">n uma</span>"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Suffixen op familiewoorden",
+      "pairs": [
+        {
+          "left": "jij (M)",
+          "leftIsTar": false,
+          "right": "-<span class=\"tar\">c</span>"
+        },
+        {
+          "left": "zijn/haar",
+          "leftIsTar": false,
+          "right": "-<span class=\"tar\">s</span>"
+        }
+      ],
+      "explain": ""
+    },
+    {
+      "type": "mc",
+      "q": "Waarom betekent <span class=\"tar\">baba</span> niet 'de vader in het algemeen'?",
+      "options": [
+        "wel algemeen",
+        "het is possessief: mijn vader",
+        "omdat het Arabisch is",
+        "geen reden"
+      ],
+      "correct": 1,
+      "explain": ""
+    }
+  ],
+  "les-14": [
+    {
+      "type": "mc",
+      "q": "Welk achtervoegsel betekent <strong>deze</strong> (dichtbij)?",
+      "options": [
+        "-<span class=\"tar\">in</span>",
+        "-<span class=\"tar\">a</span>",
+        "-<span class=\"tar\">enni</span>",
+        "-<span class=\"tar\">u</span>"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Hoe schrijf je <strong>deze man</strong> (<span class=\"tar\">aayaz</span> + deze)?",
+      "correct": "aayaz-a",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "aayaz-a"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Betekenis van losse <span class=\"tar\">win</span> (M, 'die' verweg)?",
+      "correct": "die",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "die"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Wat drukt <span class=\"tar\">-enni</span> uit?",
+      "options": [
+        "alleen meervoud",
+        "‘die we al noemden’ / eerder genoemd",
+        "alleen vrouwelijk",
+        "vraag"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Aanwijzers",
+      "pairs": [
+        {
+          "left": "deze (M) los",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">wa</span>"
+        },
+        {
+          "left": "hier",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">ḏa</span>"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-15": [
+    {
+      "type": "mc",
+      "q": "Wat is de <strong>vrije staat</strong>?",
+      "options": [
+        "vorm na voorzetnsel dat bindt",
+        "lexicale / woordenboekvorm",
+        "alleen meervoud",
+        "alleen werkwoord"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "mc",
+      "q": "Na welk element volgt meestal <strong>verbonden staat</strong>?",
+      "options": [
+        "geen voorbeeld",
+        "veel voorzetsels en possessieve <span class=\"tar\">n</span>",
+        "alleen in titels",
+        "alleen bij Arabisch"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Welke vorm gebruikt <span class=\"tar\">aayaz</span> vaak in verbonden staat (heel woord)?",
+      "correct": "waayaz",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "waayaz"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Noem het Nederlandse kernwoord voor wat voorzetsels vaak afdwingen (binding / …).",
+      "correct": "verbonden",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "verbonden",
+        "verbonden staat"
+      ]
+    },
+    {
+      "type": "match",
+      "q": "Staat",
+      "pairs": [
+        {
+          "left": "woordboek",
+          "leftIsTar": false,
+          "right": "vrij"
+        },
+        {
+          "left": "na <span class=\"tar\">n</span> ‘van’",
+          "leftIsTar": false,
+          "right": "verbonden"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-16": [
+    {
+      "type": "mc",
+      "q": "Welk acronym uit de les beschrijft een typische woordorde?",
+      "options": [
+        "SVO",
+        "VSO",
+        "OSV",
+        "VOS"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "In één woord: komt het werkwoord in Tarifit-verbalzinnen vaak eerder of later dan in standaard-Nederlands?",
+      "correct": "eerder",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "eerder",
+        "vroeger",
+        "voor"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Wat valt op bij <span class=\"tar\">yexḏem waayaz</span> t.o.v. Nederlands?",
+      "correct": "onderwerp na werkwoord",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "werkwoord eerst",
+        "VSO",
+        "onderwerp na werkwoord"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Waarom is WO studeren waard?",
+      "options": [
+        "niet nodig",
+        "clitics en topic kunnen afwijken",
+        "Tarifit heeft geen WO",
+        "alleen voor Engels"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Patronen",
+      "pairs": [
+        {
+          "left": "werkwoord",
+          "leftIsTar": false,
+          "right": "kan eerst"
+        },
+        {
+          "left": "onderwerp NP na V",
+          "leftIsTar": false,
+          "right": "zoals in voorbeelden"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-17": [
+    {
+      "type": "fill",
+      "q": "Voorzetsel voor <strong>in</strong> (kort):",
+      "correct": "ḏi",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "ḏi",
+        "di"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Betekenis van <span class=\"tar\">ɣaa</span> in de les?",
+      "correct": "naar, bij",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "naar",
+        "bij",
+        "naar, bij"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Welke twee voorzetsels nemen <strong>vrije staat</strong> (uitzondering)?",
+      "options": [
+        "<span class=\"tar\">ḏi</span> en <span class=\"tar\">x</span>",
+        "<span class=\"tar\">aṛ</span> en <span class=\"tar\">břa</span>",
+        "<span class=\"tar\">n</span> en <span class=\"tar\">s</span>",
+        "geen uitzonderingen"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Voorzetsels",
+      "pairs": [
+        {
+          "left": "<span class=\"tar\">x</span>",
+          "leftIsTar": true,
+          "right": "op"
+        },
+        {
+          "left": "<span class=\"tar\">zi</span>",
+          "leftIsTar": true,
+          "right": "van / uit"
+        }
+      ],
+      "explain": ""
+    },
+    {
+      "type": "mc",
+      "q": "Hoe zeg je ‘ik heb een auto’ volgens de les-constructie?",
+      "options": [
+        "<span class=\"tar\">yari ijjen ṯṯumubin</span>",
+        "<span class=\"tar\">necc d ṯṯumubin</span>",
+        "alleen Arabisch",
+        "kan niet"
+      ],
+      "correct": 0,
+      "explain": ""
+    }
+  ],
+  "les-18": [
+    {
+      "type": "fill",
+      "q": "Hoe schrijf je <strong>2</strong> (cijfer)?",
+      "correct": "ṯnayen",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "ṯnayen",
+        "tnayen"
+      ]
+    },
+    {
+      "type": "fill",
+      "q": "Hoe schrijf je <strong>5</strong>?",
+      "correct": "xemsa",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "xemsa"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Vertaal: <strong>10</strong> (Tarifit).",
+      "correct": "ɛecra",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "ɛecra",
+        "ecra"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Hoe tel je drie vrouwen op?",
+      "options": [
+        "<span class=\"tar\">ṯřaṯa n ṯemɣarin</span>",
+        "<span class=\"tar\">ijjen n ṯemɣarin</span>",
+        "<span class=\"tar\">xemsa waayaz</span>",
+        "<span class=\"tar\">ṯnayen</span> alleen"
+      ],
+      "correct": 0,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Structuur",
+      "pairs": [
+        {
+          "left": "2 en hoger + znw",
+          "leftIsTar": false,
+          "right": "cijfer + <span class=\"tar\">n</span> + znw"
+        },
+        {
+          "left": "‘één’",
+          "leftIsTar": false,
+          "right": "geen <span class=\"tar\">n</span> ertussen"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-19": [
+    {
+      "type": "fill",
+      "q": "Vraagwoord voor <strong>wie</strong>?",
+      "correct": "wi",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "wi"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Betekenis van <span class=\"tar\">mayemmi</span>?",
+      "correct": "waarom",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "waarom"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Welk partikel opent vaak een ja/nee-vraag?",
+      "options": [
+        "<span class=\"tar\">illa</span>",
+        "<span class=\"tar\">ma</span>",
+        "<span class=\"tar\">ad</span>",
+        "<span class=\"tar\">min</span>"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Vragen",
+      "pairs": [
+        {
+          "left": "<span class=\"tar\">min</span>",
+          "leftIsTar": true,
+          "right": "wat"
+        },
+        {
+          "left": "<span class=\"tar\">mani</span>",
+          "leftIsTar": true,
+          "right": "waar"
+        }
+      ],
+      "explain": ""
+    },
+    {
+      "type": "mc",
+      "q": "Hoe maak je informeel ‘is het deze?’ volgens de les?",
+      "options": [
+        "<span class=\"tar\">d wa?</span>",
+        "<span class=\"tar\">ma d wa?</span>",
+        "<span class=\"tar\">min d wa?</span>",
+        "kan niet"
+      ],
+      "correct": 0,
+      "explain": ""
+    }
+  ],
+  "les-20": [
+    {
+      "type": "mc",
+      "q": "Het sterke ontkenningsframe in de les is:",
+      "options": [
+        "<span class=\"tar\">waa</span> … <span class=\"tar\">ca</span>",
+        "<span class=\"tar\">axa</span> alleen",
+        "<span class=\"tar\">ad</span> … <span class=\"tar\">ca</span>",
+        "dubbel geen"
+      ],
+      "correct": 0,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Vul aan: <span class=\"tar\">waa</span> … ___",
+      "correct": "ca",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "ca"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Vertaal: <span class=\"tar\">waa yusin ca</span>.",
+      "correct": "hij is niet gekomen",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "hij kwam niet",
+        "hij is niet gekomen"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Ontkenning met Imperfectief vraagt soms:",
+      "options": [
+        "geen verandering",
+        "een eigen negatieve imperfectief-vorm",
+        "alleen Arabisch",
+        "alleen een emoji"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Ontkenning",
+      "pairs": [
+        {
+          "left": "kader",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">waa</span> … <span class=\"tar\">ca</span>"
+        },
+        {
+          "left": "voorbeeld les",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">waa ssiney ca</span>"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-21": [
+    {
+      "type": "mc",
+      "q": "Wat volgt op <span class=\"tar\">xes</span> ‘willen’?",
+      "options": [
+        "Imperfectief alleen",
+        "<span class=\"tar\">ad</span> + Aorist",
+        "alleen een znw",
+        "geen regel"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "mc",
+      "q": "Wat volgt op <span class=\"tar\">bda</span> ‘beginnen’?",
+      "options": [
+        "<span class=\"tar\">ad</span> + Aorist",
+        "Imperfectief",
+        "Perfectief alleen",
+        "alleen Arabisch"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Hulpwerkwoord voor <strong>kunnen</strong> in de tabel:",
+      "correct": "zemmaa",
+      "placeholder": "Antwoord",
+      "explain": "Let op spelling in cursus.",
+      "accept": [
+        "zemmaa",
+        "zemmɣa"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Wat betekent ruwweg: <span class=\"tar\">xsey ad ariy</span>?",
+      "correct": "ik wil schrijven",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "ik wil schrijven"
+      ]
+    },
+    {
+      "type": "match",
+      "q": "Complement",
+      "pairs": [
+        {
+          "left": "<span class=\"tar\">xes</span>",
+          "leftIsTar": true,
+          "right": "<span class=\"tar\">ad</span> + Aorist"
+        },
+        {
+          "left": "<span class=\"tar\">bda</span>",
+          "leftIsTar": true,
+          "right": "Imperfectief"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-22": [
+    {
+      "type": "mc",
+      "q": "Welk suffix is lijdend voorwerp <strong>hem/haar</strong> achter het werkwoord?",
+      "options": [
+        "-<span class=\"tar\">yi</span>",
+        "-<span class=\"tar\">ṯ</span>",
+        "-<span class=\"tar\">c</span>",
+        "-<span class=\"tar\">en</span>"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Suffix voor <strong>mij</strong> (lijdend) vaak geschreven als:",
+      "correct": "-ayi",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "-ayi",
+        "ayi"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Wat voeg je toe in het kort om ‘ons’ als lijdend voorwerp te plakken?",
+      "correct": "-aney",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "-aney",
+        "-ay"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Clitics kunnen:",
+      "options": [
+        "alleen vóór het werkwoord",
+        "verspringen (fronting) — zie les",
+        "bestaan niet",
+        "alleen in Engels"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Suffix",
+      "pairs": [
+        {
+          "left": "jou (M)",
+          "leftIsTar": false,
+          "right": "-<span class=\"tar\">c</span>"
+        },
+        {
+          "left": "hen (M)",
+          "leftIsTar": false,
+          "right": "-<span class=\"tar\">ṯen</span>"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-23": [
+    {
+      "type": "mc",
+      "q": "Hoe zeg je ‘en’ <em>tussen twee werkwoordzinnen</em> volgens de les?",
+      "options": [
+        "altijd <span class=\"tar\">d</span>",
+        "meestal geen apart woord — zinnen naast elkaar",
+        "alleen <span class=\"tar\">min</span>",
+        "alleen Arabisch"
+      ],
+      "correct": 1,
+      "explain": "Tussen naamwoorden: <span class=\"tar\">d</span>; tussen zinnen: vaak juxtapositie."
+    },
+    {
+      "type": "fill",
+      "q": "Voegwoord voor ‘of’:",
+      "correct": "niɣ",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "niɣ"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Welk woord verbindt <strong>alleen naamwoordgroepen</strong> met ‘en’?",
+      "options": [
+        "<span class=\"tar\">d</span>",
+        "<span class=\"tar\">niɣ</span>",
+        "<span class=\"tar\">ma</span>",
+        "<span class=\"tar\">qa</span>"
+      ],
+      "correct": 0,
+      "explain": ""
+    },
+    {
+      "type": "translate",
+      "q": "Een woord voor ‘maar’ (informeel) uit de les:",
+      "correct": "maca",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "maca"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Welk ‘als’ gebruik je voor een open <em>hypothese</em>?",
+      "options": [
+        "<span class=\"tar\">mři</span>",
+        "<span class=\"tar\">mařa</span>",
+        "<span class=\"tar\">niɣ</span>",
+        "<span class=\"tar\">d</span>"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Voegwoorden",
+      "pairs": [
+        {
+          "left": "ik en mijn broer (NP)",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">necc d uma</span>"
+        },
+        {
+          "left": "rood of wit?",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">niɣ</span>"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-24": [
+    {
+      "type": "mc",
+      "q": "Welk partikel zet handelingen in de context ‘vóór nu’ / verleden?",
+      "options": [
+        "<span class=\"tar\">ad</span>",
+        "<span class=\"tar\">tuya</span>",
+        "<span class=\"tar\">qa</span>",
+        "<span class=\"tar\">illa</span>"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Hoe schrijf je ‘morgen’ volgens de tabel?",
+      "correct": "ṯiwecca",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "ṯiwecca",
+        "tiwecca"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "‘Nu’ volgens de tijd-bijwoordentabel:",
+      "correct": "řexxu",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "řexxu",
+        "řexṯu"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Waarom hebben jaar/maand/dag soms een <em>tweetal</em>-vorm?",
+      "options": [
+        "alleen spelling",
+        "Arabische dualis (twee eenheden) — zie les",
+        "niet waar",
+        "alleen in Engels"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Tijd",
+      "pairs": [
+        {
+          "left": "twee dagen",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">yumayen</span>"
+        },
+        {
+          "left": "twee jaar",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">ɛamayen</span>"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-25": [
+    {
+      "type": "mc",
+      "q": "Welke klank komt historisch uit een <strong>l</strong> in Tarifit?",
+      "options": [
+        "<span class=\"tar\">y</span>",
+        "<span class=\"tar\">ř</span>",
+        "<span class=\"tar\">q</span>",
+        "<span class=\"tar\">ɛ</span>"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Hoe wordt <span class=\"tar\">Naḍur</span> vaak <strong>uitgesproken</strong> (met vocalisatie)?",
+      "correct": "Naḍuar",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "Naḍuar",
+        "naḍuar",
+        "Naduar"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Dubbele <span class=\"tar\">ll</span> werd in tarifiyt vaak:",
+      "options": [
+        "<span class=\"tar\">r</span>",
+        "<span class=\"tar\">ž</span>",
+        "<span class=\"tar\">t</span>",
+        "ongewijzigd"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "translate",
+      "q": "Wat gebeurt er met <span class=\"tar\">-ar</span> aan het eind volgens vocalisatie-regels?",
+      "correct": "wordt -aa",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "lange a",
+        "-aa",
+        "aa"
+      ]
+    },
+    {
+      "type": "match",
+      "q": "L → ř",
+      "pairs": [
+        {
+          "left": "<span class=\"tar\">ul</span> ‘hart’",
+          "leftIsTar": true,
+          "right": "<span class=\"tar\">uř</span>"
+        },
+        {
+          "left": "<span class=\"tar\">tili</span>",
+          "leftIsTar": true,
+          "right": "<span class=\"tar\">ṯiři</span>"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-26": [
+    {
+      "type": "mc",
+      "q": "Bijvoeglijke naamwoorden gedragen zich grammaticaal vooral als:",
+      "options": [
+        "werkwoord",
+        "naamwoord (geslacht/getal)",
+        "alleen voorzetsel",
+        "alleen cijfer"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Wat blijft vaak in <strong>vrije staat</strong>, ook als het znw verbonden is?",
+      "correct": "bijvoeglijk",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "bijvoeglijk naamwoord",
+        "adj",
+        "epitheton"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Vertaal kern: <span class=\"tar\">ameqqṛan</span> (M ev).",
+      "correct": "groot",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "groot"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Welke twee woorden verbuigen <strong>niet</strong> voor geslacht/getal?",
+      "options": [
+        "<span class=\"tar\">berkan</span> en <span class=\"tar\">azeggʷaɣ</span>",
+        "<span class=\"tar\">jjdid</span> en <span class=\"tar\">nneɣni</span>",
+        "<span class=\"tar\">wa</span> en <span class=\"tar\">min</span>",
+        "geen"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Constructie",
+      "pairs": [
+        {
+          "left": "bepaald",
+          "leftIsTar": false,
+          "right": "naast elkaar"
+        },
+        {
+          "left": "onbepaald",
+          "leftIsTar": false,
+          "right": "met <span class=\"tar\">d</span>"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-27": [
+    {
+      "type": "mc",
+      "q": "Collectief vs telbaar: <span class=\"tar\">ɛenba</span> vs <span class=\"tar\">ṯaɛenbaṯ</span> — wat is het verschil?",
+      "options": [
+        "geen",
+        "soort algemeen vs één stuk",
+        "alleen geslacht",
+        "werkwoord"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Welke vorm gebruik je voor ‘ik kocht druiven (in het algemeen)’?",
+      "correct": "ɛenba",
+      "placeholder": "Antwoord",
+      "explain": "<span class=\"tar\">syiy ɛenba</span> in de les.",
+      "accept": [
+        "ɛenba"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "‘Één druif’ (kern zonder werkwoord):",
+      "correct": "ṯaɛenbaṯ",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "ṯaɛenbaṯ"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "<span class=\"tar\">aman</span> ‘water’ is grammaticaal:",
+      "options": [
+        "enkelvoud",
+        "meervoud (plurale tantum)",
+        "werkwoord",
+        "voorzetsel"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Groente/fruit",
+      "pairs": [
+        {
+          "left": "algemene soort",
+          "leftIsTar": false,
+          "right": "collectief"
+        },
+        {
+          "left": "meerdere stuks",
+          "leftIsTar": false,
+          "right": "telbaar mv"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-28": [
+    {
+      "type": "mc",
+      "q": "Wat betekent prefix <span class=\"tar\">aṯ</span> in <span class=\"tar\">aṯ Naḍuar</span>?",
+      "options": [
+        "‘zonder’",
+        "‘die van / behorend tot’",
+        "‘klein’",
+        "‘twee’"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Prefix voor ‘die met (kenmerk)’ bij mannelijk, type <span class=\"tar\">bu ṯmarṯ</span>:",
+      "correct": "bu",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "bu"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Wat is de vrouwelijke variant (voorbeeld uit les met <span class=\"tar\">mm</span>) — noem het prefix:",
+      "correct": "mm",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "mm",
+        "m"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "<span class=\"tar\">arifi</span> ‘Riffijn’ heeft meervoud:",
+      "options": [
+        "<span class=\"tar\">arifiyen</span>",
+        "<span class=\"tar\">irifiyen</span>",
+        "<span class=\"tar\">rifan</span>",
+        "geen"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Patronen",
+      "pairs": [
+        {
+          "left": "stam-leden",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">i-</span> + stam (<span class=\"tar\">iqeṛɛiyen</span>)"
+        },
+        {
+          "left": "bu-",
+          "leftIsTar": false,
+          "right": "kenmerk-man"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-29": [
+    {
+      "type": "mc",
+      "q": "Wat doet prefix <span class=\"tar\">ss-</span> semantisch?",
+      "options": [
+        "alleen verleden",
+        "laten / causatief",
+        "alleen vraag",
+        "alleen vrouwelijk"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Causatief van <span class=\"tar\">cc</span> ‘eten’:",
+      "correct": "ssecc",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "ssecc"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Betekenis-truc: <span class=\"tar\">ggenfa</span> → <span class=\"tar\">sgenfa</span> na <span class=\"tar\">ss-</span> (dubbele klank):",
+      "correct": "genezen → helen",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "helen",
+        "genezen laten"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Initiële <span class=\"tar\">a</span> van <span class=\"tar\">adef</span> wordt in causatief:",
+      "options": [
+        "blijft <span class=\"tar\">a</span>",
+        "<span class=\"tar\">i</span> → <span class=\"tar\">ssidef</span>",
+        "verdwijnt",
+        "wordt <span class=\"tar\">u</span> altijd"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Voorbeelden",
+      "pairs": [
+        {
+          "left": "<span class=\"tar\">ffey</span> uitgaan",
+          "leftIsTar": true,
+          "right": "<span class=\"tar\">ssufey</span> uitlaten"
+        },
+        {
+          "left": "<span class=\"tar\">cc</span>",
+          "leftIsTar": true,
+          "right": "<span class=\"tar\">ssecc</span> voeren"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-30": [
+    {
+      "type": "mc",
+      "q": "Wat drukt <span class=\"tar\">mm-</span> vaak uit?",
+      "options": [
+        "alleen passief",
+        "wederkerig / middel (elkaar)",
+        "alleen toekomst",
+        "alleen geslacht"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Passief-prefix uit de lestitel:",
+      "correct": "twa",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "twa",
+        "twa-"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Betekenis: <span class=\"tar\">mřaya</span> van <span class=\"tar\">řaya</span> ‘roepen’:",
+      "correct": "elkaar roepen",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "elkaar roepen"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Verschil Passief vs Imperfectief bij verkoopbaar-voorbeeld auto:",
+      "options": [
+        "geen",
+        "Perfectief ‘verkocht’ vs Imperfectief ‘verkoopbaar’",
+        "alleen spelling",
+        "alleen Arabisch"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Prefixen",
+      "pairs": [
+        {
+          "left": "elkaar",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">mm-</span>"
+        },
+        {
+          "left": "worden gedaan",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">twa-</span>"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-31": [
+    {
+      "type": "mc",
+      "q": "Wat klopt voor pseudo-werkwoorden?",
+      "options": [
+        "ze hebben een volledige perfectief/imperfectief-drieling",
+        "geen volledige werkwoord-vervoeging, wél persoonsuffixen mogelijk",
+        "ze zijn altijd zelfstandige naamwoorden",
+        "ze bestaan niet in Tarifit"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Welk pseudo-werkwoord betekent ongeveer ‘kijk hier’ / presenteren?",
+      "correct": "aqqa",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "aqqa"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Wat betekent <span class=\"tar\">ay-am</span>?",
+      "correct": "alsjeblieft (tegen vrouw)",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "alsjeblieft",
+        "hier heb je"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Waarvoor gebruik je <span class=\"tar\">qa</span> volgens de les?",
+      "options": [
+        "alleen verleden",
+        "o.a. non-verbale ‘hier is’, Imperfectief-progressief, en recent perfectief",
+        "alleen vraag",
+        "alleen in Arabisch"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Pseudo",
+      "pairs": [
+        {
+          "left": "<span class=\"tar\">aqq-ec mliḥ?</span>",
+          "leftIsTar": true,
+          "right": "begroeting"
+        },
+        {
+          "left": "<span class=\"tar\">qa yetru</span>",
+          "leftIsTar": true,
+          "right": "aan het huilen"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-32": [
+    {
+      "type": "mc",
+      "q": "Bij bepaalde relatieve bijzinnen ontbreekt:",
+      "options": [
+        "het hoofdwoord",
+        "anaphorisch pronomen naar het hoofd",
+        "werkwoord",
+        "alleen mannelijk"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Participium-omlijsting: prefix + stam + welke uitgang in de les-voorbeelden?",
+      "correct": "-en",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "-en"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "In bijzinnen wordt <span class=\"tar\">ad</span> vaak:",
+      "correct": "ya",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "ya"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Onbepaalde bijzin plakt:",
+      "options": [
+        "alleen vóór",
+        "direct achter het hoofdwoord",
+        "nooit",
+        "alleen in Engels"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Relatief",
+      "pairs": [
+        {
+          "left": "lijdend voorwerp / prep",
+          "leftIsTar": false,
+          "right": "marker <span class=\"tar\">i</span>"
+        },
+        {
+          "left": "‘aan wie’",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">umi</span>"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-33": [
+    {
+      "type": "mc",
+      "q": "Een cleft bestaat uit predicaat (vaak met <span class=\"tar\">d</span>) plus:",
+      "options": [
+        "geen bijzin",
+        "relatieve bijzin met <span class=\"tar\">i</span>",
+        "alleen Arabisch",
+        "alleen een cijfer"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "In <span class=\"tar\">(d) Mimun i zriy</span> — wie wordt benadrukt?",
+      "correct": "Mimoun",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "Mimoun",
+        "mimoun"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Verschil met vraag: cleft gebruikt wel <span class=\"tar\">d</span> en ___ vóór het relatieve deel.",
+      "correct": "i",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "i"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Waarom gebruik je een cleft?",
+      "options": [
+        "nodzaak grammaticaal",
+        "nadruk / contrast",
+        "alleen in geschriften",
+        "nooit"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Vergelijk",
+      "pairs": [
+        {
+          "left": "<span class=\"tar\">d netta i d-yusin</span>",
+          "leftIsTar": true,
+          "right": "cleft"
+        },
+        {
+          "left": "<span class=\"tar\">wi d-yusin?</span>",
+          "leftIsTar": true,
+          "right": "wie-vraag"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-34": [
+    {
+      "type": "mc",
+      "q": "In <span class=\"tar\">am necc am wattas n yewdan mamec i ɛeqřey</span> betekent <span class=\"tar\">i</span> hier ruwweg:",
+      "options": [
+        "wat",
+        "relatieve marker ‘hoe ik…’",
+        "en",
+        "alleen vraag"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Wat markeert verleden in <span class=\"tar\">ṯuya ṯessen</span>-achtige zinnen?",
+      "correct": "ṯuya",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "ṯuya"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "<span class=\"tar\">Ḥenna</span> in deze tekst:",
+      "correct": "mijn oma / grootmoeder",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "oma",
+        "grootmoeder"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Waarom staat <span class=\"tar\">ya</span> i.p.v. <span class=\"tar\">ad</span> in bepaalde bijzinnen?",
+      "options": [
+        "foutje",
+        "regel bij rel. / bijzinnen (zie les 32–34)",
+        "alleen poëzie",
+        "Arabische leenconstructie altijd"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Tekst",
+      "pairs": [
+        {
+          "left": "<span class=\"tar\">xminni</span>",
+          "leftIsTar": true,
+          "right": "wanneer"
+        },
+        {
+          "left": "<span class=\"tar\">waa … ca</span>",
+          "leftIsTar": true,
+          "right": "ontkenning"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-35": [
+    {
+      "type": "mc",
+      "q": "Wat introduceert volgens de les traditioneel een Tarifit-sprookje?",
+      "options": [
+        "<span class=\"tar\">waxxa</span> alleen",
+        "<span class=\"tar\">yekkaa</span> ‘er was eens / het rees’",
+        "<span class=\"tar\">qa</span> alleen",
+        "geen vaste formule"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Arabisch leenwoord in de les dat ongeveer ‘ik vertel (je)’ / verhaal-opener markeert:",
+      "correct": "Ḥajit-ek",
+      "placeholder": "Antwoord",
+      "explain": "Zoals in de cursus gespeld.",
+      "accept": [
+        "Ḥajit-ek",
+        "ḥajit-ek"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Wat betekent <span class=\"tar\">ijjen yiyyaa</span> uit de eerste zin?",
+      "correct": "één veld",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "een veld",
+        "één veld"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Welke voorwaardelijke woorden uit het sprookje noemt de les uitdrukkelijk?",
+      "options": [
+        "alleen <span class=\"tar\">mařa</span>",
+        "<span class=\"tar\">mri</span> en <span class=\"tar\">mařa</span>",
+        "alleen <span class=\"tar\">niɣ</span>",
+        "geen"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Lezen",
+      "pairs": [
+        {
+          "left": "bezit ‘hij heeft’",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">ɣaas</span>"
+        },
+        {
+          "left": "koning in openingszin",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">ijj uzedjid</span>"
+        }
+      ],
+      "explain": ""
+    }
+  ],
+  "les-36": [
+    {
+      "type": "mc",
+      "q": "In dialogen leer je vooral:",
+      "options": [
+        "alleen grammaticale tabellen",
+        "routine, beleefdheid, turn-taking",
+        "alleen Arabisch",
+        "niets"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "fill",
+      "q": "Welke begroeting uit les 05 herken je vaak in dialogen?",
+      "correct": "aqq-ec mliḥ",
+      "placeholder": "Antwoord",
+      "explain": "",
+      "accept": [
+        "aqqa ec mliḥ",
+        "aqq-ec mliḥ?",
+        "aqqac mliḥ"
+      ]
+    },
+    {
+      "type": "translate",
+      "q": "Wat betekent <span class=\"tar\">waxxa</span>?",
+      "correct": "oké",
+      "placeholder": "Vertaling",
+      "explain": "",
+      "accept": [
+        "oké",
+        "oke"
+      ]
+    },
+    {
+      "type": "mc",
+      "q": "Code-switching met Arabisch in familiecontext is:",
+      "options": [
+        "onbestaand",
+        "soms normaal (zoals bij ‘bedankt’ besproken)",
+        "verboden",
+        "alleen in Schrift"
+      ],
+      "correct": 1,
+      "explain": ""
+    },
+    {
+      "type": "match",
+      "q": "Dialoog",
+      "pairs": [
+        {
+          "left": "bevestigen",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">waxxa</span>"
+        },
+        {
+          "left": "check welzijn",
+          "leftIsTar": false,
+          "right": "<span class=\"tar\">aqq</span>-… <span class=\"tar\">mliḥ</span>"
+        }
+      ],
+      "explain": ""
+    }
+  ]
+}

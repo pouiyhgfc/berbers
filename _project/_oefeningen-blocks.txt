@@ -1,0 +1,297 @@
+les-01
+[
+  {
+    "type": "mc",
+    "q": "Hoeveel <strong>echte</strong> klinkers heeft Tarifit?",
+    "options": ["2", "3", "5", "7"],
+    "correct": 1,
+    "explain": "Drie echte klinkers (a, i, u). De schwa <span class=\"tar\">e</span> telt niet als volwaardige klinker."
+  },
+  {
+    "type": "mc",
+    "q": "Welke klank hoort bij <span class=\"tar\">ɣ</span>?",
+    "options": [
+      "scherpe keel-h, zoals Nederlandse <em>ch</em> in <em>lachen</em>",
+      "de Arabische ﻍ — een 'gh'-klank zoals in <em>Maghreb</em>",
+      "knijpende klank, dieper in de keel",
+      "k zo diep mogelijk in de keel"
+    ],
+    "correct": 1,
+    "explain": "<span class=\"tar\">ɣ</span> is de Arabische غ — een 'gh'-klank, zoals in <em>Maghreb</em> of de zachte Nederlandse <em>g</em>."
+  },
+  {
+    "type": "mc",
+    "q": "Wat is het verschil tussen <span class=\"tar\">ḏ</span> en <span class=\"tar\">ṯ</span>?",
+    "options": [
+      "<span class=\"tar\">ḏ</span> is donker, <span class=\"tar\">ṯ</span> is licht",
+      "<span class=\"tar\">ḏ</span> = th in <em>this</em> (stemhebbend); <span class=\"tar\">ṯ</span> = th in <em>thin</em> (stemloos)",
+      "ze zijn identiek, alleen verschillend geschreven",
+      "<span class=\"tar\">ḏ</span> komt vooraan, <span class=\"tar\">ṯ</span> achteraan in een woord"
+    ],
+    "correct": 1,
+    "explain": "Beide hebben een streepje onder en zijn blazend uitgesproken — zoals in Engels <em>this</em> versus <em>thin</em>."
+  },
+  {
+    "type": "match",
+    "q": "Koppel elke keelklank aan zijn beschrijving.",
+    "pairs": [
+      { "left": "<span class=\"tar\">q</span>", "leftIsTar": true, "right": "k zo diep mogelijk in de keel" },
+      { "left": "<span class=\"tar\">ḥ</span>", "leftIsTar": true, "right": "uitademen door een vernauwde keel" },
+      { "left": "<span class=\"tar\">ɛ</span>", "leftIsTar": true, "right": "knijpende klank, Arabische ع" },
+      { "left": "<span class=\"tar\">x</span>", "leftIsTar": true, "right": "scherpe keel-h, ch in <em>lachen</em>" }
+    ]
+  },
+  {
+    "type": "mc",
+    "q": "De letter <span class=\"tar\">ř</span> komt historisch uit een…",
+    "options": ["r", "l", "n", "d"],
+    "correct": 1,
+    "explain": "In Tarifit is de oude <em>l</em> een r-achtige klank geworden, geschreven als <span class=\"tar\">ř</span>. De dubbele <em>ll</em> werd <span class=\"tar\">ž</span>."
+  },
+  {
+    "type": "fill",
+    "q": "De drie 'donkere' (faryngale) medeklinkers met een puntje onder zijn <span class=\"tar\">ḍ, ṣ, ṭ, ẓ</span> en…",
+    "correct": "ṛ",
+    "accept": ["ṛ", "r̩"],
+    "placeholder": "Eén letter",
+    "explain": "<span class=\"tar\">ṛ</span> is de donkere variant van de gewone <em>r</em>. De donkerheid kleurt het hele woord."
+  }
+]
+---
+les-02
+[
+  {
+    "type": "mc",
+    "q": "Welke vorm gebruik je tegen een <strong>vrouw</strong> als je 'jij' wilt zeggen?",
+    "options": [
+      "<span class=\"tar\">cekk</span>",
+      "<span class=\"tar\">cemm</span>",
+      "<span class=\"tar\">netta</span>",
+      "<span class=\"tar\">kenniw</span>"
+    ],
+    "correct": 1,
+    "explain": "<span class=\"tar\">cemm</span> tegen een vrouw, <span class=\"tar\">cekk</span> tegen een man."
+  },
+  {
+    "type": "fill",
+    "q": "Schrijf het Tarifit-woord voor <strong>'wij'</strong>.",
+    "correct": "neccin",
+    "placeholder": "tarifit",
+    "explain": "<span class=\"tar\">neccin</span> — let op de dubbele <em>cc</em>."
+  },
+  {
+    "type": "mc",
+    "q": "Wat betekent <span class=\"tar\">netta</span>?",
+    "options": ["ik", "jij (M)", "hij", "zij"],
+    "correct": 2,
+    "explain": "<span class=\"tar\">netta</span> = hij. <span class=\"tar\">nettaṯ</span> = zij — onthoud het verschil aan de slot-<span class=\"tar\">ṯ</span>."
+  },
+  {
+    "type": "translate",
+    "q": "Vertaal naar Tarifit: <strong>'ik ben Mimoun'</strong>.",
+    "correct": "necc d Mimun",
+    "accept": ["necc d Mimun", "necc d mimun"],
+    "placeholder": "necc d …",
+    "explain": "Het kleine partikel <span class=\"tar\">d</span> doet hier het werk van 'is/ben'."
+  },
+  {
+    "type": "mc",
+    "q": "Welke vorm gebruik je voor 'jullie' als de groep <strong>volledig</strong> uit vrouwen bestaat?",
+    "options": [
+      "<span class=\"tar\">kenniw</span>",
+      "<span class=\"tar\">kenninṯ</span>",
+      "<span class=\"tar\">niḥni</span>",
+      "<span class=\"tar\">niṯenṯi</span>"
+    ],
+    "correct": 1,
+    "explain": "<span class=\"tar\">kenninṯ</span> alleen voor pure vrouwen-groepen; bij één man erbij wordt het automatisch <span class=\"tar\">kenniw</span>."
+  },
+  {
+    "type": "match",
+    "q": "Koppel elk Tarifit-voornaamwoord aan zijn betekenis.",
+    "pairs": [
+      { "left": "<span class=\"tar\">necc</span>", "leftIsTar": true, "right": "ik" },
+      { "left": "<span class=\"tar\">cekk</span>", "leftIsTar": true, "right": "jij (M)" },
+      { "left": "<span class=\"tar\">netta</span>", "leftIsTar": true, "right": "hij" },
+      { "left": "<span class=\"tar\">nettaṯ</span>", "leftIsTar": true, "right": "zij" },
+      { "left": "<span class=\"tar\">neccin</span>", "leftIsTar": true, "right": "wij" }
+    ]
+  }
+]
+---
+les-03
+[
+  {
+    "type": "fill",
+    "q": "Vul het ontbrekende partikel in: <span class=\"tar\">necc <span class=\"blank\">?</span> Mimun</span> — 'ik ben Mimoun'.",
+    "correct": "d",
+    "placeholder": "één letter",
+    "explain": "<span class=\"tar\">d</span> doet het werk van 'zijn' in non-verbale zinnen: <em>X · d · Y</em>."
+  },
+  {
+    "type": "translate",
+    "q": "Vertaal naar Tarifit: <strong>'hij is een man'</strong>. (Tip: 'man' = <span class=\"tar\">aayaz</span>.)",
+    "correct": "netta d aayaz",
+    "accept": ["netta d aayaz", "netta d ayaz"],
+    "placeholder": "netta d …"
+  },
+  {
+    "type": "mc",
+    "q": "Wanneer gebruik je <span class=\"tar\">d</span> <strong>niet</strong>?",
+    "options": [
+      "Als wat erna komt een naamwoord is",
+      "Als wat erna komt een voorzetselgroep of bijwoord is",
+      "In een vraag",
+      "Bij vrouwelijke onderwerpen"
+    ],
+    "correct": 1,
+    "explain": "<span class=\"tar\">d</span> staat alleen vóór een naamwoord of voornaamwoord. Voor bijwoorden (zoals <span class=\"tar\">ammu</span> 'zo') blijft <span class=\"tar\">d</span> weg: <span class=\"tar\">necc ammu</span>."
+  },
+  {
+    "type": "mc",
+    "q": "Wat betekent <span class=\"tar\">d necc</span>?",
+    "options": [
+      "ik ga",
+      "ik ben het",
+      "ik en jij",
+      "ik niet"
+    ],
+    "correct": 1,
+    "explain": "<span class=\"tar\">d necc</span> — letterlijk 'het is ik'. Met <span class=\"tar\">d</span> vooraan gaat de nadruk op het predicaat."
+  },
+  {
+    "type": "translate",
+    "q": "Vertaal naar Tarifit: <strong>'het is mijn broer'</strong>. (Tip: 'mijn broer' = <span class=\"tar\">uma</span>.)",
+    "correct": "d uma",
+    "accept": ["d uma"],
+    "placeholder": "d …",
+    "explain": "<span class=\"tar\">d uma</span> — geen los voornaamwoord ervoor, want <span class=\"tar\">uma</span> heeft 'mijn' al ingebakken (Klasse III, zie volgende les)."
+  }
+]
+---
+les-04
+[
+  {
+    "type": "match",
+    "q": "Koppel elk familiewoord aan zijn betekenis.",
+    "pairs": [
+      { "left": "<span class=\"tar\">baba</span>", "leftIsTar": true, "right": "mijn vader" },
+      { "left": "<span class=\"tar\">yemma</span>", "leftIsTar": true, "right": "mijn moeder" },
+      { "left": "<span class=\"tar\">uma</span>", "leftIsTar": true, "right": "mijn broer" },
+      { "left": "<span class=\"tar\">učma</span>", "leftIsTar": true, "right": "mijn zus" },
+      { "left": "<span class=\"tar\">jeddi</span>", "leftIsTar": true, "right": "mijn opa" },
+      { "left": "<span class=\"tar\">ḥenna</span>", "leftIsTar": true, "right": "mijn oma" }
+    ]
+  },
+  {
+    "type": "mc",
+    "q": "Wat betekent <span class=\"tar\">baba-c</span>?",
+    "options": [
+      "mijn vader",
+      "jouw vader (als je tegen een man praat)",
+      "zijn vader",
+      "onze vader"
+    ],
+    "correct": 1,
+    "explain": "Suffix <span class=\"tar\">-c</span> = 'jouw (M)'. Voor een vrouw zou je <span class=\"tar\">baba-m</span> zeggen."
+  },
+  {
+    "type": "fill",
+    "q": "Vul aan: <span class=\"tar\">yemma-<span class=\"blank\">?</span></span> betekent 'zijn / haar moeder'.",
+    "correct": "s",
+    "placeholder": "één letter",
+    "explain": "Suffix <span class=\"tar\">-s</span> dekt zowel 'zijn' als 'haar' — context bepaalt welke."
+  },
+  {
+    "type": "mc",
+    "q": "Van wie is <span class=\"tar\">ɛzizi</span> de oom?",
+    "options": [
+      "moeders kant",
+      "vaders kant",
+      "alle ooms",
+      "schoonfamilie"
+    ],
+    "correct": 1,
+    "explain": "<span class=\"tar\">ɛzizi</span> = oom van vaders kant. <span class=\"tar\">xari</span> = oom van moeders kant. Tarifit maakt dit onderscheid altijd."
+  },
+  {
+    "type": "translate",
+    "q": "Vertaal: <strong>'hij is mijn broer'</strong>. (Combineer les 03 + 04.)",
+    "correct": "netta d uma",
+    "accept": ["netta d uma"],
+    "placeholder": "netta d …"
+  },
+  {
+    "type": "mc",
+    "q": "Welk woord heeft 'mijn' <strong>niet</strong> automatisch in zich?",
+    "options": [
+      "<span class=\"tar\">baba</span>",
+      "<span class=\"tar\">aayaz</span>",
+      "<span class=\"tar\">uma</span>",
+      "<span class=\"tar\">učma</span>"
+    ],
+    "correct": 1,
+    "explain": "<span class=\"tar\">aayaz</span> 'man' is een gewoon Klasse-I-naamwoord. De andere drie zijn familiewoorden (Klasse III) met 'mijn' ingebouwd."
+  }
+]
+---
+les-05
+[
+  {
+    "type": "mc",
+    "q": "Wat betekent <span class=\"tar\">aqq-ec mliḥ?</span> letterlijk?",
+    "options": [
+      "ben jij goed?",
+      "waar ga je heen?",
+      "wat doe je?",
+      "welkom"
+    ],
+    "correct": 0,
+    "explain": "Letterlijk 'ben jij goed?' — een vaste begroeting in Riffijnse families."
+  },
+  {
+    "type": "mc",
+    "q": "Wat betekent <span class=\"tar\">waxxa</span>?",
+    "options": ["dank je", "oké, akkoord", "wacht even", "tot ziens"],
+    "correct": 1,
+    "explain": "<span class=\"tar\">waxxa</span> is een veelgebruikt instemming-woord in alle Marokkaanse talen."
+  },
+  {
+    "type": "fill",
+    "q": "Vul aan: <span class=\"tar\">ay-am-<span class=\"blank\">?</span></span> betekent 'hier heb je het (V)' (= aanbieding van een ding aan een vrouw).",
+    "correct": "ṯ",
+    "accept": ["ṯ", "t̲"],
+    "placeholder": "één letter",
+    "explain": "<span class=\"tar\">-ṯ</span> is het direct-object-clitic 'het' (3SG:M). De volgorde in <span class=\"tar\">ay-am-ṯ</span> is: <em>ay</em> + indirect object (aan jou V) + direct object (het)."
+  },
+  {
+    "type": "translate",
+    "q": "Vertaal: <strong>'ik ben het'</strong>.",
+    "correct": "d necc",
+    "accept": ["d necc"],
+    "placeholder": "d …",
+    "explain": "Met <span class=\"tar\">d</span> vooraan benadruk je het predicaat — 'het is ik (en niemand anders)'."
+  },
+  {
+    "type": "match",
+    "q": "Koppel elke uitdrukking aan zijn betekenis.",
+    "pairs": [
+      { "left": "<span class=\"tar\">řexxu</span>", "leftIsTar": true, "right": "nu" },
+      { "left": "<span class=\"tar\">ammu</span>", "leftIsTar": true, "right": "zo, op deze manier" },
+      { "left": "<span class=\"tar\">waxxa</span>", "leftIsTar": true, "right": "oké" },
+      { "left": "<span class=\"tar\">d necc</span>", "leftIsTar": true, "right": "ik ben het" }
+    ]
+  },
+  {
+    "type": "mc",
+    "q": "Welke vorm van <span class=\"tar\">ay-…</span> gebruik je tegen <strong>meerdere mannen</strong> als je hen iets aanbiedt?",
+    "options": [
+      "<span class=\"tar\">ay-am</span>",
+      "<span class=\"tar\">ay-ac</span>",
+      "<span class=\"tar\">ay-awem</span>",
+      "<span class=\"tar\">ay-as</span>"
+    ],
+    "correct": 2,
+    "explain": "<span class=\"tar\">-awem</span> is het indirect-object-clitic 'aan jullie (M)'. <span class=\"tar\">-am</span> = aan jou (V), <span class=\"tar\">-ac</span> = aan jou (M), <span class=\"tar\">-as</span> = aan hem/haar."
+  }
+]

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Woord voorstellen · Tarifit</title>
+  <link rel="stylesheet" href="styles.css?v=3">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>arifit</a>
+      <nav class="topnav">
+        <a href="cursus.html">Cursus</a>
+        <a href="oefeningen.html">Oefeningen</a>
+        <a href="uitleg.html">Uitleg</a>
+        <a href="woordenlijst.html">Woordenlijst</a>
+        <a href="boek.html">Het boek</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="boek-container" style="max-width: 680px;">
+    <div class="eyebrow">bijdragen</div>
+    <h1>Woord voorstellen</h1>
+    <p class="lead">Staat een woord nog niet (goed) op de woordenlijst? Stuur hier een voorstel. Inhoud wordt beoordeeld voordat het eventueel wordt toegevoegd aan de CSV.</p>
+
+    <div id="cfg-error" class="box" style="display:none; border-left: 3px solid #b85c00; background: #fff4e6;">
+      <p style="margin:0"><strong>Configuratie ontbreekt.</strong> Kopieer <code>assets/js/supabase-config.example.js</code> naar <code>assets/js/supabase-config.js</code> en vul URL + anon key in (zie <code>_project/supabase-setup.md</code>).</p>
+    </div>
+
+    <form id="word-form" class="box" style="margin-top: 24px;">
+      <p style="margin-top:0"><label for="berber"><strong>Tarifit-vorm</strong></label></p>
+      <input type="text" id="berber" name="berber" required autocomplete="off"
+        class="wl-search" style="margin-bottom: 16px;"
+        placeholder="bijv. aman">
+
+      <p><label for="dutch"><strong>Nederlandse vertaling</strong></label></p>
+      <input type="text" id="dutch" name="dutch" required autocomplete="off"
+        class="wl-search" style="margin-bottom: 16px;"
+        placeholder="bijv. water">
+
+      <p><label for="notes">Opmerking (optioneel)</label></p>
+      <textarea id="notes" name="notes" rows="3" class="wl-search" style="resize: vertical;"
+        placeholder="Dialectvariant, bron, context…"></textarea>
+
+      <p style="margin: 20px 0 0;">
+        <button type="submit" class="exercise-submit">Versturen</button>
+      </p>
+      <p id="form-status" style="margin: 16px 0 0; font-size: 15px; color: var(--text-soft);"></p>
+    </form>
+
+    <p style="margin-top: 32px; font-size: 14px; color: var(--text-muted);">
+      Configureer eerst Supabase volgens <code>_project/supabase-setup.md</code> in deze repository (SQL, RLS, Auth). Het formulier gebruikt alleen de publieke anon key.
+    </p>
+  </main>
+
+  <footer>
+    <p>Gebaseerd op Mourigh &amp; Kossmann (2019).</p>
+  </footer>
+
+  <script src="assets/js/supabase-config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script>
+(function () {
+  'use strict';
+  var cfg = window.TARIFIT_SUPABASE;
+  if (!cfg || !cfg.url || !cfg.anonKey || cfg.url.indexOf('YOUR_PROJECT') !== -1) {
+    document.getElementById('cfg-error').style.display = 'block';
+    document.getElementById('word-form').style.display = 'none';
+    return;
+  }
+  var client = window.supabase.createClient(cfg.url, cfg.anonKey);
+  var form = document.getElementById('word-form');
+  var statusEl = document.getElementById('form-status');
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    statusEl.textContent = 'Bezig met versturen…';
+    var berber = document.getElementById('berber').value.trim();
+    var dutch = document.getElementById('dutch').value.trim();
+    var notes = document.getElementById('notes').value.trim();
+    client.from('word_submissions').insert({
+      berber: berber,
+      dutch: dutch,
+      notes: notes || null,
+      status: 'pending'
+    }).then(function (res) {
+      if (res.error) {
+        statusEl.textContent = 'Fout: ' + res.error.message;
+        return;
+      }
+      statusEl.textContent = 'Bedankt! Je voorstel is opgeslagen ter beoordeling.';
+      form.reset();
+    });
+  });
+})();
+  </script>
+</body>
+</html>

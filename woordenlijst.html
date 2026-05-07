@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Woordenlijst · Tarifit Cursus</title>
+  <link rel="stylesheet" href="styles.css?v=3">
+  <style>
+    .wl-controls {
+      position: sticky;
+      top: 65px;
+      background: var(--bg);
+      padding: 16px 0 8px;
+      z-index: 50;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 24px;
+    }
+    .wl-search {
+      width: 100%;
+      padding: 12px 18px;
+      font-family: var(--font-serif);
+      font-size: 17px;
+      border: 1px solid var(--rule-strong);
+      background: white;
+      color: var(--text);
+      border-radius: 4px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .wl-search:focus { border-color: var(--accent); }
+    .wl-stats {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 8px;
+      font-style: italic;
+    }
+    .wl-letter-section {
+      margin: 48px 0 0;
+      scroll-margin-top: 220px;
+    }
+    .wl-letter-section h2 {
+      font-family: var(--font-display);
+      font-size: 56px;
+      font-weight: 500;
+      color: var(--accent);
+      margin: 0 0 16px;
+      letter-spacing: -0.02em;
+      border-bottom: 2px solid var(--rule);
+      padding-bottom: 8px;
+    }
+    .wl-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 32px;
+    }
+    @media (max-width: 700px) {
+      .wl-grid { grid-template-columns: 1fr; }
+    }
+    .wl-entry {
+      padding: 8px 0;
+      border-bottom: 1px solid var(--rule);
+      break-inside: avoid;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .wl-word {
+      font-family: var(--font-serif);
+      font-style: italic;
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 17px;
+    }
+    .wl-meaning {
+      color: var(--text);
+      margin-left: 4px;
+    }
+    .wl-empty {
+      text-align: center;
+      padding: 48px;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+    .wl-letters-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-top: 12px;
+    }
+    .wl-letters-nav a {
+      display: inline-block;
+      padding: 4px 10px;
+      font-family: var(--font-display);
+      font-size: 14px;
+      color: var(--text-soft);
+      text-decoration: none;
+      border-radius: 3px;
+      border: 1px solid var(--rule);
+      transition: all 0.15s;
+    }
+    .wl-letters-nav a:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+    .wl-letters-nav a.is-active {
+      color: white;
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+    .wl-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      margin-top: 12px;
+      font-size: 13px;
+    }
+    .wl-filter-group {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .wl-filter-label {
+      color: var(--text-muted);
+      font-style: italic;
+      margin-right: 6px;
+    }
+    .wl-filter-btn {
+      padding: 5px 11px;
+      min-height: 32px;
+      font-family: var(--font-display);
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      color: var(--text-soft);
+      background: var(--bg);
+      border: 1px solid var(--rule);
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+    }
+    .wl-filter-btn:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+    .wl-filter-btn.is-active {
+      color: white;
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+    .wl-export-btn {
+      margin-left: auto;
+      padding: 8px 16px;
+      font-family: var(--font-display);
+      font-size: 12px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: white;
+      background: var(--accent);
+      border: 1px solid var(--accent);
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.15s ease, border-color 0.15s ease;
+    }
+    .wl-export-btn:hover {
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+    .wl-tags {
+      display: inline-flex;
+      gap: 4px;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+    .wl-tag {
+      display: inline-block;
+      padding: 1px 5px;
+      font-family: var(--font-display);
+      font-size: 10px;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      background: var(--bg-warm);
+      border: 1px solid var(--rule);
+      border-radius: 2px;
+      line-height: 1.4;
+      text-transform: uppercase;
+    }
+    .wl-tag.wl-niveau-A1, .wl-tag.wl-niveau-A2 { color: #2d5f3e; border-color: #c8e0d0; background: #e8f1e9; }
+    .wl-tag.wl-niveau-B1, .wl-tag.wl-niveau-B2 { color: #5e3a00; border-color: #e6d4b3; background: #f7eed9; }
+    .wl-tag.wl-niveau-C1, .wl-tag.wl-niveau-C2 { color: #6b1d2c; border-color: #e3c0c4; background: #f5e0e2; }
+    .wl-info {
+      background: var(--bg-warm);
+      border: 1px solid var(--rule);
+      padding: 18px 22px;
+      border-radius: 4px;
+      margin-bottom: 24px;
+      font-size: 15px;
+      line-height: 1.55;
+    }
+    .wl-info p { margin: 0 0 8px; }
+    .wl-info p:last-child { margin: 0; }
+    .wl-error {
+      background: #fff4e6;
+      border-left: 3px solid #b85c00;
+      padding: 18px 22px;
+      border-radius: 0 4px 4px 0;
+      color: #5e2f00;
+      margin: 24px 0;
+    }
+    .wl-error code {
+      background: rgba(0,0,0,0.06);
+      padding: 1px 6px;
+      border-radius: 3px;
+      font-family: var(--font-mono);
+      font-size: 0.9em;
+      color: #5e2f00;
+    }
+    .wl-loading {
+      text-align: center;
+      padding: 64px;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>arifit</a>
+      <nav class="topnav">
+        <a href="cursus.html">Cursus</a>
+        <a href="oefeningen.html">Oefeningen</a>
+        <a href="uitleg.html">Uitleg</a>
+        <a href="woordenlijst.html" class="active">Woordenlijst</a>
+        <a href="boek.html">Het boek</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="boek-container" style="max-width: 1080px;">
+    <div class="boek-intro" style="margin-bottom: 24px;">
+      <div class="eyebrow">naslagwerk</div>
+      <h1 style="font-family: var(--font-display); font-size: 44px; font-weight: 500; letter-spacing: -0.02em; margin: 0 0 16px;">Woordenlijst</h1>
+      <p class="lead">Een verzamelde lijst van Tarifit-woorden met Nederlandse vertaling, opgeladen uit <code>assets/woordenlijst/woordenlijst.csv</code>.</p>
+
+      <div class="wl-info">
+        <p><strong>Notatie:</strong> de lijst gebruikt onder andere <em class="tar">ř</em> (zachte r), <em class="tar">ɛ</em> (ayin), <em class="tar">ɣ</em> (gain), <em class="tar">ḥ</em> (scherpe h), en de "donkere" varianten <em class="tar">ḍ ṣ ṭ ẓ ṛ</em>. Letters met streepje of lijntje (<em class="tar">ṯ ḏ ḇ ḵ</em>) klinken zacht/blazend.</p>
+        <p><strong>Varianten:</strong> woorden gescheiden door een schuine streep (bijv. <em class="tar">ssiɣ / ccel</em>) zijn gelijkwaardige alternatieven — beide vormen zijn correct.</p>
+        <p><strong>Zoeken &amp; filteren:</strong> diakritische tekens worden genegeerd, dus <code>tmazight</code> vindt zowel <em class="tar">ṯmazixt</em> als <em class="tar">t̲mazixt̲</em>. Filter op CEFR-niveau (A1–C2) of op woordsoort om gericht te leren.</p>
+        <p><strong>Anki-export:</strong> de exportknop maakt een tab-gescheiden bestand met hierarchische tags (<code>tarifit::cefr::A1</code>, <code>tarifit::woordsoort::znw_m_ev</code>). Importeer in Anki via <em>File → Import</em>; de filters (niveau, woordsoort, zoekterm) bepalen welke woorden worden meegenomen.</p>
+        <p><strong>Woord missen:</strong> na configuratie van Supabase kun je een voorstel indienen via <a href="woord-inzenden.html">woord-inzenden</a> (Zie <code>_project/supabase-setup.md</code>).</p>
+      </div>
+    </div>
+
+    <div class="wl-controls">
+      <input type="text" class="wl-search" id="searchBox" placeholder="Zoek een woord (Tarifit of Nederlands)..." autocomplete="off">
+
+      <div class="wl-filters">
+        <div class="wl-filter-group" id="niveauFilter">
+          <span class="wl-filter-label">Niveau:</span>
+          <button class="wl-filter-btn is-active" data-niveau="">Alle</button>
+          <button class="wl-filter-btn" data-niveau="A1">A1</button>
+          <button class="wl-filter-btn" data-niveau="A2">A2</button>
+          <button class="wl-filter-btn" data-niveau="B1">B1</button>
+          <button class="wl-filter-btn" data-niveau="B2">B2</button>
+          <button class="wl-filter-btn" data-niveau="C1">C1</button>
+          <button class="wl-filter-btn" data-niveau="C2">C2</button>
+        </div>
+        <div class="wl-filter-group" id="soortFilter">
+          <span class="wl-filter-label">Woordsoort:</span>
+          <select id="soortSelect" class="wl-filter-btn" style="font-family: var(--font-display); padding: 4px 9px;">
+            <option value="">alle</option>
+            <option value="ww">werkwoord</option>
+            <option value="znw_m_ev">zelfst.nw. (m, ev)</option>
+            <option value="znw_m_mv">zelfst.nw. (m, mv)</option>
+            <option value="znw_v_ev">zelfst.nw. (v, ev)</option>
+            <option value="znw_v_mv">zelfst.nw. (v, mv)</option>
+            <option value="znw">zelfst.nw. (overig)</option>
+            <option value="vnw_pers">pers. vnw.</option>
+            <option value="vnw_bez">bezit. vnw.</option>
+            <option value="vnw_aanw">aanw. vnw.</option>
+            <option value="vraagw">vraagwoord</option>
+            <option value="vz">voorzetsel</option>
+            <option value="voegw">voegwoord</option>
+            <option value="telw">telwoord</option>
+            <option value="ontk">ontkenning</option>
+          </select>
+        </div>
+        <button class="wl-export-btn" id="exportBtn" title="Exporteer als tab-gescheiden bestand voor Anki (File → Import)">
+          Exporteer voor Anki
+        </button>
+      </div>
+
+      <div class="wl-stats" id="stats"></div>
+      <nav class="wl-letters-nav" id="lettersNav"></nav>
+    </div>
+
+    <div id="wordlist">
+      <div class="wl-loading">Woordenlijst laden…</div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Bron: <code>assets/woordenlijst/woordenlijst.csv</code> — kan op elk moment bijgewerkt worden zonder de pagina te raken.</p>
+  </footer>
+
+  <script>
+    // ==============================================================
+    // CSV-parser — handelt quoted velden en escaped quotes correct af
+    // ==============================================================
+    function parseCSV(text) {
+      const rows = [];
+      let field = '';
+      let row = [];
+      let inQuotes = false;
+      let i = 0;
+      while (i < text.length) {
+        const c = text[i];
+        if (inQuotes) {
+          if (c === '"' && text[i+1] === '"') { field += '"'; i += 2; continue; }
+          if (c === '"') { inQuotes = false; i++; continue; }
+          field += c; i++; continue;
+        }
+        if (c === '"') { inQuotes = true; i++; continue; }
+        if (c === ',') { row.push(field); field = ''; i++; continue; }
+        if (c === '\r') { i++; continue; }
+        if (c === '\n') {
+          row.push(field); field = '';
+          if (row.some(v => v.trim() !== '')) rows.push(row);
+          row = []; i++; continue;
+        }
+        field += c; i++;
+      }
+      if (field !== '' || row.length > 0) {
+        row.push(field);
+        if (row.some(v => v.trim() !== '')) rows.push(row);
+      }
+      return rows;
+    }
+
+    // ==============================================================
+    // Letter-mapping: van eerste karakter naar groep-letter
+    // ==============================================================
+    const LETTER_MAP = {
+      'a': 'A', 'b': 'B', 'ḇ': 'B',
+      'c': 'C',
+      'd': 'D', 'ḍ': 'D', 'ḏ': 'D',
+      'e': 'E',
+      'f': 'F',
+      'g': 'G',
+      'h': 'H', 'ḥ': 'Ḥ',
+      'i': 'I',
+      'k': 'K', 'ḵ': 'K',
+      'l': 'L', 'ḷ': 'L',
+      'm': 'M',
+      'n': 'N',
+      'o': 'O',
+      'p': 'P',
+      'q': 'Q',
+      'r': 'R', 'ř': 'Ř', 'ṛ': 'R',
+      's': 'S', 'ṣ': 'S',
+      't': 'T', 'ṭ': 'T', 'ṯ': 'T',
+      'u': 'U',
+      'v': 'V',
+      'w': 'W',
+      'x': 'X',
+      'y': 'Y',
+      'z': 'Z', 'ẓ': 'Z', 'ž': 'Ž',
+      'ɛ': 'Ɛ',
+      'ɣ': 'Ɣ'
+    };
+
+    const LETTERS_ORDER = [
+      'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'Ḥ',
+      'I', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'Ř',
+      'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'Ž', 'Ɛ', 'Ɣ'
+    ];
+
+    function getLetter(word) {
+      // Pak het deel vóór de eerste '/' (varianten zoals "ssiɣ / ccel")
+      const main = word.split('/')[0].trim().toLowerCase();
+      if (!main) return '?';
+      // Eerst: probeer het originele karakter — zo behouden ḥ, ž, ɛ, ř etc. hun eigen rubriek
+      const orig = main[0];
+      if (LETTER_MAP[orig]) return LETTER_MAP[orig];
+      // Fallback: voor decomposed vormen (t + combining U+0331) eerst combining marks strippen
+      const stripped = main.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+      const c = stripped[0] || orig;
+      return LETTER_MAP[c] || c.toUpperCase();
+    }
+
+    // ==============================================================
+    // Normaliseren voor zoeken — alle diakrieten en speciale tekens
+    // worden teruggebracht naar basisletters
+    // ==============================================================
+    function normalize(s) {
+      return s.toLowerCase()
+        .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        .replace(/ḏ/g, 'd').replace(/ḍ/g, 'd')
+        .replace(/ṯ/g, 't').replace(/ṭ/g, 't')
+        .replace(/ḥ/g, 'h')
+        .replace(/ɣ/g, 'g').replace(/ɛ/g, 'a')
+        .replace(/ř/g, 'r').replace(/ṛ/g, 'r')
+        .replace(/ẓ/g, 'z').replace(/ž/g, 'j')
+        .replace(/ṣ/g, 's')
+        .replace(/ǧ/g, 'g').replace(/ḇ/g, 'b').replace(/ḵ/g, 'k')
+        .replace(/ḷ/g, 'l');
+    }
+
+    // ==============================================================
+    // Render
+    // ==============================================================
+    let ENTRIES = [];
+    let FILTER_NIVEAU = '';
+    let FILTER_SOORT = '';
+    let FILTER_QUERY = '';
+
+    const SOORT_LABELS = {
+      ww: 'ww',
+      znw_m_ev: 'znw m·ev',
+      znw_m_mv: 'znw m·mv',
+      znw_v_ev: 'znw v·ev',
+      znw_v_mv: 'znw v·mv',
+      znw: 'znw',
+      vnw_pers: 'vnw·pers',
+      vnw_bez: 'vnw·bez',
+      vnw_aanw: 'vnw·aanw',
+      vraagw: 'vraagw',
+      vz: 'vz',
+      voegw: 'voegw',
+      telw: 'telw',
+      ontk: 'ontk',
+    };
+
+    function renderEntry(e) {
+      // Niveau wordt bewust niet getoond — alleen woordsoort als kleine
+      // hint. Niveau zit wel in de data (filterbaar) en gaat mee in de
+      // Anki-export.
+      const soortLabel = SOORT_LABELS[e.soort] || e.soort || '';
+      const soortTag = soortLabel
+        ? `<span class="wl-tags"><span class="wl-tag">${soortLabel}</span></span>`
+        : '';
+      return `<div class="wl-entry">`
+        + `<span class="wl-word">${escapeHtml(e.word)}</span>`
+        + `<span class="wl-meaning">— ${escapeHtml(e.meaning)}</span>`
+        + soortTag
+        + `</div>`;
+    }
+
+    function renderList(entries) {
+      const grouped = {};
+      entries.forEach(e => {
+        if (!grouped[e.letter]) grouped[e.letter] = [];
+        grouped[e.letter].push(e);
+      });
+
+      const container = document.getElementById('wordlist');
+      if (entries.length === 0) {
+        container.innerHTML = '<div class="wl-empty">Geen woorden gevonden voor de huidige filters.</div>';
+        return;
+      }
+
+      let html = '';
+      LETTERS_ORDER.forEach(letter => {
+        if (!grouped[letter]) return;
+        const sorted = grouped[letter].slice().sort((a, b) =>
+          normalize(a.word).localeCompare(normalize(b.word))
+        );
+        html += `<section class="wl-letter-section" id="letter-${letter}">`;
+        html += `<h2>${letter}</h2>`;
+        html += `<div class="wl-grid">`;
+        sorted.forEach(e => { html += renderEntry(e); });
+        html += `</div></section>`;
+      });
+
+      Object.keys(grouped).forEach(letter => {
+        if (LETTERS_ORDER.includes(letter)) return;
+        const sorted = grouped[letter].slice().sort((a, b) =>
+          normalize(a.word).localeCompare(normalize(b.word))
+        );
+        html += `<section class="wl-letter-section" id="letter-${letter}">`;
+        html += `<h2>${letter}</h2>`;
+        html += `<div class="wl-grid">`;
+        sorted.forEach(e => { html += renderEntry(e); });
+        html += `</div></section>`;
+      });
+
+      container.innerHTML = html;
+    }
+
+    function escapeHtml(s) {
+      return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    function buildLettersNav(entries) {
+      const present = new Set(entries.map(e => e.letter));
+      const nav = document.getElementById('lettersNav');
+      nav.innerHTML = LETTERS_ORDER
+        .filter(l => present.has(l))
+        .map(l => `<a href="#letter-${l}" data-letter="${l}">${l}</a>`)
+        .join('');
+      setupLetterObserver();
+    }
+
+    function setupLetterObserver() {
+      // Highlight de nav-link voor de zichtbare letter-sectie
+      const navLinks = document.querySelectorAll('.wl-letters-nav a');
+      const linkByLetter = {};
+      navLinks.forEach(a => { linkByLetter[a.dataset.letter] = a; });
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          let topMost = null;
+          let topMostY = Infinity;
+          entries.forEach(en => {
+            if (en.isIntersecting) {
+              const y = en.boundingClientRect.top;
+              if (y < topMostY) {
+                topMostY = y;
+                topMost = en.target;
+              }
+            }
+          });
+          if (topMost) {
+            const letter = topMost.id.replace('letter-', '');
+            navLinks.forEach(a => a.classList.remove('is-active'));
+            if (linkByLetter[letter]) {
+              linkByLetter[letter].classList.add('is-active');
+            }
+          }
+        },
+        { rootMargin: '-220px 0px -60% 0px', threshold: 0 }
+      );
+
+      document.querySelectorAll('.wl-letter-section').forEach(section => {
+        observer.observe(section);
+      });
+    }
+
+    function updateStats(entries) {
+      document.getElementById('stats').textContent =
+        `${entries.length} van ${ENTRIES.length} woorden`;
+    }
+
+    function applyFilters() {
+      const q = FILTER_QUERY.trim().toLowerCase();
+      const nq = q ? normalize(q) : '';
+      const filtered = ENTRIES.filter(e => {
+        if (FILTER_NIVEAU && e.niveau !== FILTER_NIVEAU) return false;
+        if (FILTER_SOORT && e.soort !== FILTER_SOORT) return false;
+        if (q) {
+          if (e.searchText.includes(nq)) return true;
+          if (e.meaningLower.includes(q)) return true;
+          return false;
+        }
+        return true;
+      });
+      renderList(filtered);
+      buildLettersNav(filtered);
+      updateStats(filtered);
+      return filtered;
+    }
+
+    function setNiveauFilter(niveau) {
+      FILTER_NIVEAU = niveau;
+      document.querySelectorAll('#niveauFilter .wl-filter-btn').forEach(b => {
+        b.classList.toggle('is-active', b.dataset.niveau === niveau);
+      });
+      applyFilters();
+    }
+
+    function setSoortFilter(soort) {
+      FILTER_SOORT = soort;
+      applyFilters();
+    }
+
+    function setSearchQuery(q) {
+      FILTER_QUERY = q;
+      applyFilters();
+    }
+
+    // ==============================================================
+    // Anki-export — schrijft een tab-gescheiden bestand naar disk.
+    //
+    // Format per regel:
+    //   <Tarifit-woord>\t<Nederlandse betekenis>\t<tags>
+    // Anki File → Import → Type: Basic → Field separator: Tab
+    // Lees Notes (with same first field) merge: yes
+    // ==============================================================
+    const NIVEAU_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+
+    function exportAnki() {
+      const filtered = applyFilters().slice();
+      if (filtered.length === 0) {
+        alert('Geen woorden om te exporteren — pas je filters aan.');
+        return;
+      }
+      // Sorteer eerst op CEFR-niveau (A1→C2) en daarna alfabetisch op
+      // het Tarifit-woord; zonder niveau gaan woorden achteraan.
+      filtered.sort((a, b) => {
+        const ai = NIVEAU_ORDER.indexOf(a.niveau);
+        const bi = NIVEAU_ORDER.indexOf(b.niveau);
+        const an = ai === -1 ? 99 : ai;
+        const bn = bi === -1 ? 99 : bi;
+        if (an !== bn) return an - bn;
+        return normalize(a.word).localeCompare(normalize(b.word));
+      });
+      const lines = ['#separator:tab', '#html:false', '#tags column:3'];
+      filtered.forEach(e => {
+        const front = e.word.replace(/\t/g, ' ').trim();
+        const back = e.meaning.replace(/\t/g, ' ').trim();
+        const tag = e.ankiTag || '';
+        lines.push(`${front}\t${back}\t${tag}`);
+      });
+      const blob = new Blob([lines.join('\n')], {
+        type: 'text/plain;charset=utf-8',
+      });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      const stamp = new Date().toISOString().slice(0, 10);
+      let suffix = '';
+      if (FILTER_NIVEAU) suffix += '-' + FILTER_NIVEAU;
+      if (FILTER_SOORT) suffix += '-' + FILTER_SOORT;
+      a.download = `tarifit-anki${suffix}-${stamp}.txt`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    function showError(html) {
+      document.getElementById('wordlist').innerHTML =
+        `<div class="wl-error">${html}</div>`;
+    }
+
+    // ==============================================================
+    // CSV laden en initialiseren
+    // ==============================================================
+    fetch('assets/woordenlijst/woordenlijst.csv')
+      .then(resp => {
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        return resp.text();
+      })
+      .then(text => {
+        const rows = parseCSV(text);
+        const dataRows = rows.slice(1);
+        ENTRIES = dataRows
+          .filter(r => r.length >= 2 && r[0].trim() && r[1].trim())
+          .map(r => {
+            const word = r[0].trim();
+            const meaning = r[1].trim();
+            const niveau = (r[2] || '').trim();
+            const soort = (r[3] || '').trim();
+            const ankiTag = (r[4] || '').trim();
+            const variants = word.split('/').map(s => s.trim()).filter(Boolean);
+            const searchText = variants.map(normalize).join(' ');
+            return {
+              word, meaning, niveau, soort, ankiTag,
+              letter: getLetter(word),
+              searchText: searchText,
+              meaningLower: meaning.toLowerCase(),
+            };
+          });
+        renderList(ENTRIES);
+        buildLettersNav(ENTRIES);
+        updateStats(ENTRIES);
+
+        document.getElementById('searchBox').addEventListener('input', e => {
+          setSearchQuery(e.target.value);
+        });
+        document.querySelectorAll('#niveauFilter .wl-filter-btn').forEach(b => {
+          b.addEventListener('click', () => setNiveauFilter(b.dataset.niveau));
+        });
+        document.getElementById('soortSelect').addEventListener('change', e => {
+          setSoortFilter(e.target.value);
+        });
+        document.getElementById('exportBtn').addEventListener('click', exportAnki);
+      })
+      .catch(err => {
+        const onFile = location.protocol === 'file:';
+        if (onFile) {
+          showError(
+            '<strong>De woordenlijst kan niet rechtstreeks vanaf je harde schijf geladen worden.</strong>' +
+            '<p>Browsers blokkeren <code>fetch()</code> op <code>file://</code>-adressen om veiligheidsredenen. Start de meegeleverde lokale server:</p>' +
+            '<p><code>.\\serve.ps1</code> in PowerShell, en open daarna <code>http://127.0.0.1:8080/woordenlijst.html</code>.</p>'
+          );
+        } else {
+          showError(
+            '<strong>De woordenlijst kon niet geladen worden.</strong>' +
+            `<p>Foutmelding: <code>${escapeHtml(err.message)}</code></p>` +
+            '<p>Controleer of <code>assets/woordenlijst/woordenlijst.csv</code> bestaat naast deze pagina.</p>'
+          );
+        }
+      });
+  </script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Het boek · Tarifit Cursus</title>
+  <link rel="stylesheet" href="styles.css?v=3">
+  <style>
+    .pdf-tabs {
+      display: flex;
+      gap: 0;
+      border-bottom: 1px solid var(--rule);
+      margin: 24px 0 0;
+    }
+    .pdf-tab {
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid transparent;
+      padding: 12px 20px;
+      font-family: var(--font-serif);
+      font-size: 15px;
+      color: var(--text-soft);
+      cursor: pointer;
+      transition: color 0.15s, border-color 0.15s;
+      margin-bottom: -1px;
+    }
+    .pdf-tab:hover { color: var(--text); }
+    .pdf-tab.active {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+      font-weight: 600;
+    }
+    .pdf-tab .tab-meta {
+      display: inline-block;
+      margin-left: 6px;
+      font-size: 12px;
+      color: var(--text-muted);
+      font-weight: 400;
+    }
+    .pdf-panel { display: none; }
+    .pdf-panel.active { display: block; }
+    .pdf-meta {
+      margin: 12px 0 0;
+      font-size: 13px;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+    .pdf-meta a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      font-style: normal;
+    }
+    .pdf-meta a:hover { text-decoration: underline; }
+    .pdf-placeholder {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: calc(100vh - 280px);
+      min-height: 400px;
+      border: 1px dashed var(--rule-strong);
+      border-radius: 4px;
+      padding: 32px;
+      background: var(--bg-warm);
+    }
+    .pdf-placeholder-title {
+      font-family: var(--font-display);
+      font-size: 22px;
+      font-weight: 500;
+      color: var(--text);
+      margin: 0 0 8px;
+    }
+    .pdf-placeholder-text {
+      color: var(--text-soft);
+      max-width: 420px;
+      margin: 0 0 20px;
+    }
+    .pdf-load-btn {
+      background: var(--accent);
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-family: var(--font-serif);
+      font-size: 15px;
+      font-weight: 600;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .pdf-load-btn:hover { background: var(--accent-hover); }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>arifit</a>
+      <nav class="topnav">
+        <a href="cursus.html">Cursus</a>
+        <a href="oefeningen.html">Oefeningen</a>
+        <a href="uitleg.html">Uitleg</a>
+        <a href="woordenlijst.html">Woordenlijst</a>
+        <a href="boek.html" class="active">Het boek</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="boek-container">
+    <div class="boek-intro">
+      <div class="eyebrow">de bron</div>
+      <h1 style="font-family: var(--font-display); font-size: 44px; font-weight: 500; letter-spacing: -0.02em; margin: 0 0 16px;">An Introduction to Tarifiyt Berber</h1>
+      <p class="lead">Khalid Mourigh &amp; Maarten Kossmann (2019). De academische bron waar alle uitleg en lessen op deze site uit voortkomen.</p>
+      <p>
+        Het boek beschrijft het Tarifit van Nador (Iqeṛɛiyen / Aziɣnɣan) systematisch — van klanken tot zinsbouw. Het is geschreven voor taalkundigen, dus formeel — maar elk verschijnsel staat erin met voorbeelden.
+      </p>
+      <p>
+        Twee versies beschikbaar: de <strong>standaardweergave</strong> is gecomprimeerd én bevat een tekstlaag, dus laadt snel en je kunt erin zoeken en kopiëren. De <strong>hoge-resolutie scan</strong> is een stuk zwaarder maar geeft een scherpere weergave — handig om kleine drukletters of voetnoten goed te kunnen lezen.
+      </p>
+    </div>
+
+    <div class="pdf-tabs" role="tablist">
+      <button class="pdf-tab active" data-target="ocr" role="tab" aria-selected="true">Standaard (zoekbaar) <span class="tab-meta">5 MB</span></button>
+      <button class="pdf-tab" data-target="hires" role="tab" aria-selected="false">Hoge resolutie <span class="tab-meta">287 MB</span></button>
+    </div>
+
+    <div class="pdf-panel active" id="panel-ocr" role="tabpanel">
+      <embed src="assets/boek/tarifit-boek.pdf" type="application/pdf" class="pdf-embed">
+      <p class="pdf-meta">
+        Gecomprimeerde versie met OCR-tekstlaag — snel én zoekbaar.
+        <a href="assets/boek/tarifit-boek.pdf" target="_blank" rel="noopener">↓ Open in nieuw tabblad</a>
+      </p>
+    </div>
+
+    <div class="pdf-panel" id="panel-hires" role="tabpanel">
+      <div class="pdf-placeholder" id="hires-placeholder">
+        <div class="pdf-placeholder-title">Hoge-resolutie scan (287 MB)</div>
+        <p class="pdf-placeholder-text">Deze versie geeft een scherpere weergave maar laadt langzamer. Klik om te laden.</p>
+        <button class="pdf-load-btn" id="hires-load-btn">Laad hoge-resolutie versie</button>
+      </div>
+      <p class="pdf-meta">
+        <a href="assets/boek/tarifit-boek-hires.pdf" target="_blank" rel="noopener">↓ Hoge-resolutie versie direct in nieuw tabblad openen</a>
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <p>Mourigh &amp; Kossmann (2019). PDF lokaal ingebed.</p>
+  </footer>
+
+  <script>
+    const tabs = document.querySelectorAll('.pdf-tab');
+    const panels = document.querySelectorAll('.pdf-panel');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const target = tab.dataset.target;
+        tabs.forEach(t => {
+          t.classList.toggle('active', t === tab);
+          t.setAttribute('aria-selected', t === tab ? 'true' : 'false');
+        });
+        panels.forEach(p => {
+          p.classList.toggle('active', p.id === 'panel-' + target);
+        });
+      });
+    });
+
+    const hiresBtn = document.getElementById('hires-load-btn');
+    if (hiresBtn) {
+      hiresBtn.addEventListener('click', () => {
+        const placeholder = document.getElementById('hires-placeholder');
+        const embed = document.createElement('embed');
+        embed.src = 'assets/boek/tarifit-boek-hires.pdf';
+        embed.type = 'application/pdf';
+        embed.className = 'pdf-embed';
+        placeholder.parentNode.replaceChild(embed, placeholder);
+      });
+    }
+  </script>
+</body>
+</html>
