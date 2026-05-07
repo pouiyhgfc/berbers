@@ -528,6 +528,8 @@ em, i { font-style: italic; }
   font-style: italic;
   color: var(--accent);
   font-weight: 500;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
 }
 
 /* Tables */
