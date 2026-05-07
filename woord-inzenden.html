@@ -24,10 +24,10 @@
   <main class="boek-container" style="max-width: 680px;">
     <div class="eyebrow">bijdragen</div>
     <h1>Woord voorstellen</h1>
-    <p class="lead">Staat een woord nog niet (goed) op de woordenlijst? Stuur hier een voorstel. Inhoud wordt beoordeeld voordat het eventueel handmatig in de CSV komt.</p>
+    <p class="lead">Staat een woord nog niet (goed) op de <a href="woordenlijst.html">woordenlijst</a>? Stuur hier een voorstel. Alles wordt eerst bekeken; daarna kan het handmatig bij de woordenlijst worden gezet.</p>
 
     <div id="cfg-error" class="box" style="display:none; border-left: 3px solid #b85c00; background: #fff4e6;">
-      <p style="margin:0"><strong>Configuratie ontbreekt of is nog een placeholder.</strong> Zet <code>url</code> en <code>anonKey</code> in <code>assets/js/supabase-config.js</code> (kopieer van <code>supabase-config.example.js</code>). Voer daarna de SQL uit <code>_project/supabase-setup.md</code> uit.</p>
+      <p style="margin:0"><strong>Even niet beschikbaar.</strong> Probeer het later opnieuw.</p>
     </div>
 
     <form id="word-form" class="box" style="margin-top: 24px;">
@@ -52,7 +52,7 @@
     </form>
 
     <p style="margin-top: 28px; font-size: 14px; color: var(--text-muted);">
-      Het formulier gebruikt alleen de <strong>publieke anon key</strong> (veilig in de browser). Beheer na inloggen: <a href="woord-inzenden-admin.html">woord-inzenden-admin</a>.
+      Goedgekeurde woorden komen op de <a href="woordenlijst.html">woordenlijst</a>. Beheer voor ingelogde beheerders: <a href="woord-inzenden-admin.html">inzendingen beheren</a>.
     </p>
   </main>
 
@@ -72,11 +72,11 @@ const { client, cfg } = createTarifitClient();
 if (!client) {
   cfgError.style.display = 'block';
   if (cfg && cfg.reason === 'secret_key') {
-    cfgError.querySelector('p').innerHTML =
-      '<strong>Verkeerde key.</strong> Gebruik de <strong>publieke anon</strong> key (JWT die begint met <code>eyJ</code>), niet <code>sb_secret_</code> of service role. Zie <code>_project/supabase-setup.md</code>.';
+    cfgError.querySelector('p').textContent =
+      'Technische fout bij de verbinding. Probeer het later opnieuw of neem contact op met de beheerder.';
   } else if (cfg && cfg.reason === 'missing') {
-    cfgError.querySelector('p').innerHTML =
-      '<strong>Config JS ontbreekt op de server.</strong> Controleer of <code>assets/js/supabase-config.js</code> bestaat op je site (na deploy / GitHub Pages).';
+    cfgError.querySelector('p').textContent =
+      'Deze pagina is nog niet goed gekoppeld aan de server. Probeer het later opnieuw.';
   }
   form.style.display = 'none';
 } else {
@@ -97,10 +97,10 @@ if (!client) {
     if (error) {
       let msg = error.message || String(error);
       if (/row-level security|rls|policy/i.test(msg)) {
-        msg += ' — Staat RLS goed? Zie _project/supabase-setup.md (policy insert voor rol anon).';
+        msg += ' De server weigert de aanvraag.';
       }
       if (/relation|does not exist/i.test(msg)) {
-        msg += ' — Bestaat de tabel word_submissions al? Voer het SQL-blok uit supabase-setup.md uit.';
+        msg += ' De server is nog niet klaar voor voorstellen.';
       }
       statusEl.textContent = 'Fout: ' + msg;
       return;

@@ -35,11 +35,11 @@
   <main class="boek-container" style="max-width: 960px;">
     <div class="eyebrow">beheer</div>
     <h1>Woord-inzendingen</h1>
-    <p class="lead">Log in met een <strong>Supabase Auth</strong>-account. RLS moet ingelogde gebruikers <strong>select</strong> en <strong>update</strong> laten doen op <code>word_submissions</code>. Gebruik nooit de service role key in de browser.</p>
-    <p style="font-size: 15px; color: var(--text-soft);"><a href="woord-inzenden.html">← Terug naar het publieke formulier</a></p>
+    <p class="lead">Log in om binnengekomen woordvoorstellen te bekijken en goed te keuren of af te wijzen. Goedgekeurde woorden kunnen daarna op de <a href="woordenlijst.html">woordenlijst</a> komen.</p>
+    <p style="font-size: 15px; color: var(--text-soft);"><a href="woord-inzenden.html">← Terug naar woord voorstellen</a></p>
 
     <div id="cfg-error" class="box" style="display:none; border-left: 3px solid #b85c00; background: #fff4e6;">
-      <p style="margin:0">Zet <code>assets/js/supabase-config.js</code> klaar met echte <code>url</code> en <code>anonKey</code> (zie <code>_project/supabase-setup.md</code>).</p>
+      <p style="margin:0"><strong>Even niet beschikbaar.</strong> Probeer het later opnieuw.</p>
     </div>
 
     <div id="login-panel" class="box wi-admin-login">
@@ -95,10 +95,10 @@ if (!client) {
   cfgErr.style.display = 'block';
   if (cfg && cfg.reason === 'secret_key') {
     cfgErr.querySelector('p').textContent =
-      'Verkeerde key: gebruik de publieke anon JWT (eyJ…), niet sb_secret_ of service role. Zie _project/supabase-setup.md.';
+      'Technische fout bij de verbinding. Probeer het later opnieuw.';
   } else if (cfg && cfg.reason === 'missing') {
     cfgErr.querySelector('p').textContent =
-      'assets/js/supabase-config.js ontbreekt op deze server — deploy dat bestand mee.';
+      'Deze pagina is nog niet goed gekoppeld. Probeer het later opnieuw.';
   }
   loginPanel.style.display = 'none';
 } else {
@@ -147,7 +147,7 @@ if (!client) {
     if (error) {
       let m = error.message;
       if (/row-level security|rls|policy/i.test(m)) {
-        m += ' — Voeg een SELECT-policy toe voor rol authenticated (zie supabase-setup.md).';
+        m += ' Geen toegang met dit account.';
       }
       log('Fout: ' + m);
       return;
