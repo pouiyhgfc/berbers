@@ -175,3 +175,11 @@ Voor incrementele toevoeging via de AI-prompt is dit niet nodig.
 | `voegw` | voegwoord | arami, mara, mli, ammu… | "want, als, omdat" |
 | `telw` | telwoord | ijj, ṯin, sin, ṯřaṯa… | "1, 2, 3…" |
 | `ontk` | ontkenning | waa, war, ca, bu… | "niet, geen" |
+
+---
+
+## Na het toevoegen in de CSV
+
+1. Draai **`python _project/normalize_woordenlijst_csv.py --write`** (NFC + controle-rapport).
+2. Commit **`assets/woordenlijst/woordenlijst.csv`** en push. **`woordenlijst.html` niet aanpassen** — de pagina laadt de CSV bij elke bezoeker.
+3. Op Vercel: na deploy eventueel de site **hard vernieuwen** (cache) om de nieuwe woorden direct te zien.

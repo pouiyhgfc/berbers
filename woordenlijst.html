@@ -329,7 +329,7 @@
   </main>
 
   <footer>
-    <p>Bron: <code>assets/woordenlijst/woordenlijst.csv</code> — kan op elk moment bijgewerkt worden zonder de pagina te raken.</p>
+    <p>Data: <code>assets/woordenlijst/woordenlijst.csv</code>. Nieuwe rijen hoef je alleen in die CSV te zetten en te pushen — deze pagina laadt de lijst automatisch (geen aparte HTML-wijziging). Bij een oudere weergave: hard vernieuwen (Ctrl+F5).</p>
   </footer>
 
   <script>
@@ -665,7 +665,7 @@
     // ==============================================================
     // CSV laden en initialiseren
     // ==============================================================
-    fetch('assets/woordenlijst/woordenlijst.csv')
+    fetch('assets/woordenlijst/woordenlijst.csv', { cache: 'no-cache' })
       .then(resp => {
         if (!resp.ok) throw new Error('HTTP ' + resp.status);
         return resp.text();

@@ -25,6 +25,6 @@
 
 ## Vervolg
 
-1.draai NFC-normalisatie op `assets/woordenlijst/woordenlijst.csv` en diff bekijken.  
-2. Visuele steekproef op 20 woorden met `ḥ`, `ɣ`, `ř`, onderstreep-combinaties.  
+1. Draai `python _project/normalize_woordenlijst_csv.py --write` na grotere CSV-edits (NFC + rapport).
+2. Visuele steekproef op 20 woorden met `ḥ`, `ɣ`, `ř`, onderstreep-combinaties.
 3. Pas zo nodig `--font-serif`-stack aan voor `.tar` / `.wl-word` alleen.
