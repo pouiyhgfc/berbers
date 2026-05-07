@@ -90,9 +90,16 @@ const cfgErr = document.getElementById('cfg-error');
 const loginPanel = document.getElementById('login-panel');
 const adminPanel = document.getElementById('admin-panel');
 
-const { client } = createTarifitClient();
+const { client, cfg } = createTarifitClient();
 if (!client) {
   cfgErr.style.display = 'block';
+  if (cfg && cfg.reason === 'secret_key') {
+    cfgErr.querySelector('p').textContent =
+      'Verkeerde key: gebruik de publieke anon JWT (eyJ…), niet sb_secret_ of service role. Zie _project/supabase-setup.md.';
+  } else if (cfg && cfg.reason === 'missing') {
+    cfgErr.querySelector('p').textContent =
+      'assets/js/supabase-config.js ontbreekt op deze server — deploy dat bestand mee.';
+  }
   loginPanel.style.display = 'none';
 } else {
   function setSessionUi(session) {

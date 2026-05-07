@@ -1,8 +1,8 @@
 /**
- * Kopieer dit bestand naar supabase-config.js (zelfde map) en vul je project in.
- * Bestand supabase-config.js staat in .gitignore — commit die nooit.
+ * Voorbeeld: kopieer naar supabase-config.js en vul in, of bewerk supabase-config.js
+ * in de repo (alleen de publieke anon JWT, geen service role / sb_secret_*).
  *
- * Je vindt URL en anon key onder Supabase → Project Settings → API.
+ * URL en anon key: Supabase → Project Settings → API.
  */
 window.TARIFIT_SUPABASE = {
   url: 'https://YOUR_PROJECT_ID.supabase.co',

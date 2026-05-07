@@ -68,9 +68,16 @@ const cfgError = document.getElementById('cfg-error');
 const form = document.getElementById('word-form');
 const statusEl = document.getElementById('form-status');
 
-const { client } = createTarifitClient();
+const { client, cfg } = createTarifitClient();
 if (!client) {
   cfgError.style.display = 'block';
+  if (cfg && cfg.reason === 'secret_key') {
+    cfgError.querySelector('p').innerHTML =
+      '<strong>Verkeerde key.</strong> Gebruik de <strong>publieke anon</strong> key (JWT die begint met <code>eyJ</code>), niet <code>sb_secret_</code> of service role. Zie <code>_project/supabase-setup.md</code>.';
+  } else if (cfg && cfg.reason === 'missing') {
+    cfgError.querySelector('p').innerHTML =
+      '<strong>Config JS ontbreekt op de server.</strong> Controleer of <code>assets/js/supabase-config.js</code> bestaat op je site (na deploy / GitHub Pages).';
+  }
   form.style.display = 'none';
 } else {
   form.addEventListener('submit', async function (e) {

@@ -2,7 +2,7 @@
  * Gedeelde Supabase-client voor statische pagina's (ES module).
  * Laadt vóór deze module: <script src="assets/js/supabase-config.js"></script>
  */
-import { createClient } from 'https://esm.sh/@supabase/supabase-js@2.49.1';
+import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.1/+esm';
 
 export function getSupabaseConfig() {
   const c = window.TARIFIT_SUPABASE;
@@ -16,6 +16,9 @@ export function getSupabaseConfig() {
   }
   if (url.includes('YOUR_PROJECT') || anonKey.includes('YOUR_PUBLIC')) {
     return { ok: false, reason: 'placeholder' };
+  }
+  if (/^sb_secret_/i.test(anonKey)) {
+    return { ok: false, reason: 'secret_key' };
   }
   return { ok: true, url, anonKey };
 }

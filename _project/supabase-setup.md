@@ -1,17 +1,17 @@
 # Supabase: woordsuggesties (`word_submissions`)
 
-Geen **service role**- of **anon**-keys in git. Zet in **`assets/js/supabase-config.js`** (staat in `.gitignore`):
+**Publieke anon key** mag in **`assets/js/supabase-config.js`** staan (standaard voor static sites; RLS beschermt de database). **Nooit** de **service role** of **`sb_secret_*`-keys** in de browser of in dit bestand.
 
 ```js
 window.TARIFIT_SUPABASE = {
   url: 'https://<project-ref>.supabase.co',
-  anonKey: '<anon public key>',
+  anonKey: '<anon public JWT (begint met eyJ…)>',
 };
 ```
 
 Kopieer van `assets/js/supabase-config.example.js`. Optioneel mag ook `anon_key` i.p.v. `anonKey`.
 
-**Vercel / andere hosting:** zorg dat `supabase-config.js` op de server staat (upload handmatig, of genereer in een build-stap uit geheimen — niet in de repo committen).
+**Deploy:** commit `supabase-config.js` mee (alleen anon), of injecteer bij build uit hosting-secrets — zorg dat het bestand op de live URL bereikbaar is (`…/assets/js/supabase-config.js`), anders blijft het formulier op “configuratie ontbreekt”.
 
 ---
 
@@ -91,6 +91,6 @@ De client wordt geladen via **ESM** (`assets/js/tarifit-supabase-client.js` + `e
 | RLS / policy error bij versturen | Geen `insert`-policy voor `anon`, of `status` ≠ `pending` |
 | Login lukt niet | Verkeerd wachtwoord, of e-mail nog niet bevestigd |
 | Na login: geen rijen / RLS bij select | Geen `select`-policy voor `authenticated`, of verkeerde API key |
-| Leeg scherm / module error | Netwerk blokkeert `esm.sh`; probeer andere browser of VPN |
+| Leeg scherm / module error | Netwerk blokkeert CDN; client laadt via jsDelivr (`cdn.jsdelivr.net`). Controleer DevTools → Network / Console. |
 
 **Als je per ongeluk een anon key in git had gezet:** draai in Supabase **Project Settings → API** de anon key opnieuw (rotate) en werk alleen `supabase-config.js` bij.
