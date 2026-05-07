@@ -132,6 +132,24 @@ body {
   background: var(--accent);
 }
 
+.topnav a.nav-quiet {
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.topnav a.nav-quiet:hover {
+  color: var(--text);
+}
+
+.topnav a.nav-quiet.active {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.topnav a.nav-quiet.active::after {
+  display: none;
+}
+
 /* ============================================
    Layout: home page
    ============================================ */

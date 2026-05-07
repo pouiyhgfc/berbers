@@ -6,9 +6,10 @@
   <title>Woord-inzendingen beheer · Tarifit</title>
   <link rel="stylesheet" href="styles.css?v=3">
   <style>
-    .wi-admin-login { max-width: 400px; margin-bottom: 32px; }
+    .wi-admin-login { max-width: 420px; margin-bottom: 32px; }
     .wi-admin-login input { width: 100%; margin-bottom: 12px; padding: 10px 14px; font-family: var(--font-serif); font-size: 16px; border: 1px solid var(--rule-strong); border-radius: 4px; }
-    .wi-table { width: 100%; border-collapse: collapse; font-size: 15px; margin-top: 16px; }
+    .wi-admin-bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 16px; }
+    .wi-table { width: 100%; border-collapse: collapse; font-size: 15px; margin-top: 8px; }
     .wi-table th, .wi-table td { border: 1px solid var(--rule); padding: 8px 10px; text-align: left; vertical-align: top; }
     .wi-table th { background: var(--bg-warm); font-family: var(--font-display); font-weight: 600; }
     .wi-actions button { margin-right: 8px; margin-top: 4px; font-size: 13px; padding: 4px 10px; cursor: pointer; border: 1px solid var(--rule); border-radius: 3px; background: var(--bg); }
@@ -25,6 +26,7 @@
         <a href="oefeningen.html">Oefeningen</a>
         <a href="uitleg.html">Uitleg</a>
         <a href="woordenlijst.html">Woordenlijst</a>
+        <a href="woord-inzenden.html" class="nav-quiet">Woord voorstellen</a>
         <a href="boek.html">Het boek</a>
       </nav>
     </div>
@@ -33,10 +35,11 @@
   <main class="boek-container" style="max-width: 960px;">
     <div class="eyebrow">beheer</div>
     <h1>Woord-inzendingen</h1>
-    <p class="lead">Log in met een Supabase-gebruiker die door RLS <strong>select</strong> en <strong>update</strong> mag op <code>word_submissions</code>. Gebruik geen service role key in de browser.</p>
+    <p class="lead">Log in met een <strong>Supabase Auth</strong>-account. RLS moet ingelogde gebruikers <strong>select</strong> en <strong>update</strong> laten doen op <code>word_submissions</code>. Gebruik nooit de service role key in de browser.</p>
+    <p style="font-size: 15px; color: var(--text-soft);"><a href="woord-inzenden.html">← Terug naar het publieke formulier</a></p>
 
     <div id="cfg-error" class="box" style="display:none; border-left: 3px solid #b85c00; background: #fff4e6;">
-      <p style="margin:0">Zet eerst <code>assets/js/supabase-config.js</code> klaar (zie <code>_project/supabase-setup.md</code>).</p>
+      <p style="margin:0">Zet <code>assets/js/supabase-config.js</code> klaar met echte <code>url</code> en <code>anonKey</code> (zie <code>_project/supabase-setup.md</code>).</p>
     </div>
 
     <div id="login-panel" class="box wi-admin-login">
@@ -44,12 +47,14 @@
       <input type="email" id="email" autocomplete="username">
       <p><strong>Wachtwoord</strong></p>
       <input type="password" id="password" autocomplete="current-password">
-      <p><button type="button" class="exercise-submit" id="btn-login">Inloggen</button>
-         <button type="button" class="exercise-reset" id="btn-logout" style="display:none;">Uitloggen</button></p>
+      <p><button type="button" class="exercise-submit" id="btn-login">Inloggen</button></p>
     </div>
 
     <div id="admin-panel" style="display:none;">
-      <p><button type="button" class="exercise-reset" id="btn-refresh">Vernieuwen</button></p>
+      <div class="wi-admin-bar">
+        <button type="button" class="exercise-reset" id="btn-logout">Uitloggen</button>
+        <button type="button" class="exercise-submit" id="btn-refresh">Vernieuwen</button>
+      </div>
       <div style="overflow-x: auto;">
         <table class="wi-table" id="tbl">
           <thead>
@@ -75,32 +80,31 @@
   </footer>
 
   <script src="assets/js/supabase-config.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script>
-(function () {
-  'use strict';
-  var cfg = window.TARIFIT_SUPABASE;
-  var logEl = document.getElementById('wi-log');
-  function log(msg) { logEl.textContent = msg || ''; }
+  <script type="module">
+import { createTarifitClient } from './assets/js/tarifit-supabase-client.js';
 
-  if (!cfg || !cfg.url || !cfg.anonKey || cfg.url.indexOf('YOUR_PROJECT') !== -1) {
-    document.getElementById('cfg-error').style.display = 'block';
-    document.getElementById('login-panel').style.display = 'none';
-    return;
-  }
+const logEl = document.getElementById('wi-log');
+function log(msg) { logEl.textContent = msg || ''; }
 
-  var client = window.supabase.createClient(cfg.url, cfg.anonKey);
+const cfgErr = document.getElementById('cfg-error');
+const loginPanel = document.getElementById('login-panel');
+const adminPanel = document.getElementById('admin-panel');
 
-  function setSessionUi(sess) {
-    var loggedIn = !!(sess && sess.user);
-    document.getElementById('btn-logout').style.display = loggedIn ? 'inline-block' : 'none';
-    document.getElementById('admin-panel').style.display = loggedIn ? 'block' : 'none';
-    document.getElementById('login-panel').style.display = loggedIn ? 'none' : 'block';
+const { client } = createTarifitClient();
+if (!client) {
+  cfgErr.style.display = 'block';
+  loginPanel.style.display = 'none';
+} else {
+  function setSessionUi(session) {
+    const loggedIn = !!(session && session.user);
+    loginPanel.style.display = loggedIn ? 'none' : 'block';
+    adminPanel.style.display = loggedIn ? 'block' : 'none';
   }
 
   client.auth.getSession().then(function (r) {
-    setSessionUi(r.data && r.data.session);
-    if (r.data && r.data.session) loadRows();
+    const session = r.data && r.data.session;
+    setSessionUi(session);
+    if (session) loadRows();
   });
 
   client.auth.onAuthStateChange(function (_evt, session) {
@@ -108,61 +112,73 @@
     if (session) loadRows();
   });
 
-  document.getElementById('btn-login').onclick = function () {
-    var em = document.getElementById('email').value.trim();
-    var pw = document.getElementById('password').value;
+  document.getElementById('btn-login').onclick = async function () {
+    const em = document.getElementById('email').value.trim();
+    const pw = document.getElementById('password').value;
     log('Inloggen…');
-    client.auth.signInWithPassword({ email: em, password: pw }).then(function (res) {
-      if (res.error) { log('Login mislukt: ' + res.error.message); return; }
-      log('');
-    });
+    const { error } = await client.auth.signInWithPassword({ email: em, password: pw });
+    if (error) {
+      log('Login mislukt: ' + error.message);
+      return;
+    }
+    log('');
   };
 
-  document.getElementById('btn-logout').onclick = function () {
-    client.auth.signOut();
+  document.getElementById('btn-logout').onclick = async function () {
+    await client.auth.signOut();
     log('Uitgelogd.');
   };
 
   document.getElementById('btn-refresh').onclick = loadRows;
 
-  function loadRows() {
+  async function loadRows() {
     log('Laden…');
-    client.from('word_submissions').select('*').order('created_at', { ascending: false }).limit(200)
-      .then(function (res) {
-        if (res.error) { log('Fout: ' + res.error.message); return; }
-        log('');
-        var tb = document.querySelector('#tbl tbody');
-        tb.innerHTML = '';
-        (res.data || []).forEach(function (row) {
-          var tr = document.createElement('tr');
-          var d = row.created_at ? new Date(row.created_at).toLocaleString('nl-NL') : '';
-          tr.innerHTML =
-            '<td>' + escapeHtml(d) + '</td>' +
-            '<td>' + escapeHtml(row.berber) + '</td>' +
-            '<td>' + escapeHtml(row.dutch) + '</td>' +
-            '<td>' + escapeHtml(row.notes || '') + '</td>' +
-            '<td>' + escapeHtml(row.status) + '</td>' +
-            '<td class="wi-actions"></td>';
-          var act = tr.querySelector('.wi-actions');
-          if (row.status === 'pending') {
-            act.appendChild(mkBtn('Goedkeuren', function () { setStatus(row.id, 'approved'); }));
-            act.appendChild(mkBtn('Afwijzen', function () { setStatus(row.id, 'rejected'); }));
-          }
-          tb.appendChild(tr);
-        });
-      });
-  }
-
-  function setStatus(id, status) {
-    log('Opslaan…');
-    client.from('word_submissions').update({ status: status }).eq('id', id).then(function (res) {
-      if (res.error) { log('Fout: ' + res.error.message); return; }
-      loadRows();
+    const { data, error } = await client.from('word_submissions')
+      .select('*')
+      .order('created_at', { ascending: false })
+      .limit(200);
+    if (error) {
+      let m = error.message;
+      if (/row-level security|rls|policy/i.test(m)) {
+        m += ' — Voeg een SELECT-policy toe voor rol authenticated (zie supabase-setup.md).';
+      }
+      log('Fout: ' + m);
+      return;
+    }
+    log('');
+    const tb = document.querySelector('#tbl tbody');
+    tb.innerHTML = '';
+    (data || []).forEach(function (row) {
+      const tr = document.createElement('tr');
+      const d = row.created_at ? new Date(row.created_at).toLocaleString('nl-NL') : '';
+      tr.innerHTML =
+        '<td>' + escapeHtml(d) + '</td>' +
+        '<td>' + escapeHtml(row.berber) + '</td>' +
+        '<td>' + escapeHtml(row.dutch) + '</td>' +
+        '<td>' + escapeHtml(row.notes || '') + '</td>' +
+        '<td>' + escapeHtml(row.status) + '</td>' +
+        '<td class="wi-actions"></td>';
+      const act = tr.querySelector('.wi-actions');
+      if (row.status === 'pending') {
+        act.appendChild(mkBtn('Goedkeuren', function () { setStatus(row.id, 'approved'); }));
+        act.appendChild(mkBtn('Afwijzen', function () { setStatus(row.id, 'rejected'); }));
+      }
+      tb.appendChild(tr);
     });
   }
 
+  async function setStatus(id, status) {
+    log('Opslaan…');
+    const { error } = await client.from('word_submissions').update({ status }).eq('id', id);
+    if (error) {
+      log('Fout: ' + error.message);
+      return;
+    }
+    await loadRows();
+  }
+
   function mkBtn(label, fn) {
-    var b = document.createElement('button');
+    const b = document.createElement('button');
     b.type = 'button';
     b.textContent = label;
     b.onclick = fn;
@@ -172,7 +188,7 @@
   function escapeHtml(s) {
     return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
-})();
+}
   </script>
 </body>
 </html>

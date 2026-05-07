@@ -15,6 +15,7 @@
         <a href="oefeningen.html">Oefeningen</a>
         <a href="uitleg.html">Uitleg</a>
         <a href="woordenlijst.html">Woordenlijst</a>
+        <a href="woord-inzenden.html" class="nav-quiet active">Woord voorstellen</a>
         <a href="boek.html">Het boek</a>
       </nav>
     </div>
@@ -23,10 +24,10 @@
   <main class="boek-container" style="max-width: 680px;">
     <div class="eyebrow">bijdragen</div>
     <h1>Woord voorstellen</h1>
-    <p class="lead">Staat een woord nog niet (goed) op de woordenlijst? Stuur hier een voorstel. Inhoud wordt beoordeeld voordat het eventueel wordt toegevoegd aan de CSV.</p>
+    <p class="lead">Staat een woord nog niet (goed) op de woordenlijst? Stuur hier een voorstel. Inhoud wordt beoordeeld voordat het eventueel handmatig in de CSV komt.</p>
 
     <div id="cfg-error" class="box" style="display:none; border-left: 3px solid #b85c00; background: #fff4e6;">
-      <p style="margin:0"><strong>Configuratie ontbreekt.</strong> Kopieer <code>assets/js/supabase-config.example.js</code> naar <code>assets/js/supabase-config.js</code> en vul URL + anon key in (zie <code>_project/supabase-setup.md</code>).</p>
+      <p style="margin:0"><strong>Configuratie ontbreekt of is nog een placeholder.</strong> Zet <code>url</code> en <code>anonKey</code> in <code>assets/js/supabase-config.js</code> (kopieer van <code>supabase-config.example.js</code>). Voer daarna de SQL uit <code>_project/supabase-setup.md</code> uit.</p>
     </div>
 
     <form id="word-form" class="box" style="margin-top: 24px;">
@@ -50,8 +51,8 @@
       <p id="form-status" style="margin: 16px 0 0; font-size: 15px; color: var(--text-soft);"></p>
     </form>
 
-    <p style="margin-top: 32px; font-size: 14px; color: var(--text-muted);">
-      Configureer eerst Supabase volgens <code>_project/supabase-setup.md</code> in deze repository (SQL, RLS, Auth). Het formulier gebruikt alleen de publieke anon key.
+    <p style="margin-top: 28px; font-size: 14px; color: var(--text-muted);">
+      Het formulier gebruikt alleen de <strong>publieke anon key</strong> (veilig in de browser). Beheer na inloggen: <a href="woord-inzenden-admin.html">woord-inzenden-admin</a>.
     </p>
   </main>
 
@@ -60,41 +61,47 @@
   </footer>
 
   <script src="assets/js/supabase-config.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script>
-(function () {
-  'use strict';
-  var cfg = window.TARIFIT_SUPABASE;
-  if (!cfg || !cfg.url || !cfg.anonKey || cfg.url.indexOf('YOUR_PROJECT') !== -1) {
-    document.getElementById('cfg-error').style.display = 'block';
-    document.getElementById('word-form').style.display = 'none';
-    return;
-  }
-  var client = window.supabase.createClient(cfg.url, cfg.anonKey);
-  var form = document.getElementById('word-form');
-  var statusEl = document.getElementById('form-status');
+  <script type="module">
+import { createTarifitClient } from './assets/js/tarifit-supabase-client.js';
 
-  form.addEventListener('submit', function (e) {
+const cfgError = document.getElementById('cfg-error');
+const form = document.getElementById('word-form');
+const statusEl = document.getElementById('form-status');
+
+const { client } = createTarifitClient();
+if (!client) {
+  cfgError.style.display = 'block';
+  form.style.display = 'none';
+} else {
+  form.addEventListener('submit', async function (e) {
     e.preventDefault();
     statusEl.textContent = 'Bezig met versturen…';
-    var berber = document.getElementById('berber').value.trim();
-    var dutch = document.getElementById('dutch').value.trim();
-    var notes = document.getElementById('notes').value.trim();
-    client.from('word_submissions').insert({
-      berber: berber,
-      dutch: dutch,
+    const berber = document.getElementById('berber').value.trim();
+    const dutch = document.getElementById('dutch').value.trim();
+    const notes = document.getElementById('notes').value.trim();
+
+    const { error } = await client.from('word_submissions').insert({
+      berber,
+      dutch,
       notes: notes || null,
-      status: 'pending'
-    }).then(function (res) {
-      if (res.error) {
-        statusEl.textContent = 'Fout: ' + res.error.message;
-        return;
-      }
-      statusEl.textContent = 'Bedankt! Je voorstel is opgeslagen ter beoordeling.';
-      form.reset();
+      status: 'pending',
     });
+
+    if (error) {
+      let msg = error.message || String(error);
+      if (/row-level security|rls|policy/i.test(msg)) {
+        msg += ' — Staat RLS goed? Zie _project/supabase-setup.md (policy insert voor rol anon).';
+      }
+      if (/relation|does not exist/i.test(msg)) {
+        msg += ' — Bestaat de tabel word_submissions al? Voer het SQL-blok uit supabase-setup.md uit.';
+      }
+      statusEl.textContent = 'Fout: ' + msg;
+      return;
+    }
+    statusEl.textContent = 'Bedankt! Je voorstel is opgeslagen ter beoordeling.';
+    form.reset();
   });
-})();
+}
   </script>
 </body>
 </html>

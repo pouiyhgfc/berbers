@@ -116,6 +116,7 @@ html = f"""<!DOCTYPE html>
         <a href="oefeningen.html" class="active">Oefeningen</a>
         <a href="uitleg.html">Uitleg</a>
         <a href="woordenlijst.html">Woordenlijst</a>
+        <a href="woord-inzenden.html" class="nav-quiet">Woord voorstellen</a>
         <a href="boek.html">Het boek</a>
       </nav>
     </div>

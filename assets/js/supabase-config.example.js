@@ -1,8 +1,11 @@
 /**
- * Kopieer naar supabase-config.js en vul je Supabase-project in.
- * Bestand supabase-config.js staat bewust niet in git (zie project-root .gitignore).
+ * Kopieer dit bestand naar supabase-config.js (zelfde map) en vul je project in.
+ * Bestand supabase-config.js staat in .gitignore — commit die nooit.
+ *
+ * Je vindt URL en anon key onder Supabase → Project Settings → API.
  */
 window.TARIFIT_SUPABASE = {
-  url: 'https://dopgdnkfuhhdeuxjxojg.supabase.co',
-  anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRvcGdkbmtmdWhoZGV1eGp4b2pnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgxNTAxNzgsImV4cCI6MjA5MzcyNjE3OH0.xwu4Og74O8PKHxoRCBq5d1fLkdk4uwKb-qYPLf5kaks',
+  url: 'https://YOUR_PROJECT_ID.supabase.co',
+  anonKey: 'YOUR_PUBLIC_ANON_KEY',
+  // alternatief: anon_key: '...'
 };
