@@ -249,7 +249,7 @@ Other non-universal quantifiers and indefinites .......................100
 10.3 ‘whoever’, ‘wherever’, etc............................................................................................. 102
 11. The Noun Phrase ..........................................................................................................................103
 11.1 The structure of the Noun Phrase ..........................................................................103
-11.2 Adjectives...............................................................................................................................104
+11.2 Aǧectives...............................................................................................................................104
 12. Interrogation.....................................................  
  
 107
@@ -418,7 +418,7 @@ Tunisia:
 DJerba and a number of villages in southern Tunisia (highly
 endangered)
 Libya: 
-Djebel Nefusa and Zuara (western Libya)
+Ǧebel Nefusa and Zuara (western Libya)
 A number of oasis dialects
 Egypt: 
 Siwa
@@ -599,7 +599,7 @@ second, over 100 years later, the elementary course by Jahfar Hassan Yahia
 lexicon in Catalan.
 Grammars: The comprehensive study of Iqefeiyen Berber grammar by Chami 
 (1979) has unfortunately remained unpublished. Among recent works, 
-Kossmann (2000) provides an overview of an adjacent variety, Beni Iznasen. 
+Kossmann (2000) provides an overview of an aǧacent variety, Beni Iznasen. 
 Lafkioui’s dialect atlas (2007) is very rich in materials and an analyses, and 
 the maps and comments cover a large part of the phonology and morphology 
 of Tarifiyt. Of course, the older grammars (Biarnay 1911, 1917; Renisio 1932) 
@@ -977,7 +977,7 @@ d
 d
 d
 d
-dj.g
+ǧ.g
 f
 g
 (i)
@@ -1174,7 +1174,7 @@ oa
 ===== PAGE 23 =====
 2.2 Vowels
 25
-The central vowel schwa is often assimilated to adjacent consonants; it is 
+The central vowel schwa is often assimilated to aǧacent consonants; it is 
 pronounced like a short central vowel [e] before w, like short [s] before y, and 
 like short [b] in the vicinity of pharyngealized consonants, uvulars, and 
 pharyngeals. Depending on context and speech tempo, schwa may be 
@@ -1497,7 +1497,7 @@ In Iqefeiyen Tarifiyt, the final element of a word-final consonant cluster does
 not undergo spirantization, e.g. taeeddist ‘belly’. The rule only applies on 
 word level. It does not apply to the direct object clitic t, which preserves its 
 spirantized pronunciation, e.g. zrixt (< *zriy-t) ‘I saw him’, yiwyast (< yiwy-as- 
-t) ‘he brought it to him ’. Similarly, the adjunction of a vowel-initial clitic 
+t) ‘he brought it to him ’. Similarly, the aǧunction of a vowel-initial clitic 
 does not undo the despirantization, e.g. we have taeeddist-a ‘this belly’, not 
 taeeddist-a.
 Vocalized /r/ does not count as a consonant in the application of this rule, and 
@@ -1516,7 +1516,7 @@ clusters; therefore most examples below have final t rather than t.
 2.4 Consonant assimilations 
 3 1
 tazedzaft (< *tazedzabt)
-‘gown (djellaba)’
+‘gown (ǧellaba)’
 z +1 > st/st
 talwist (< *talwizt)
 ‘gold coin’
@@ -1705,8 +1705,8 @@ the
 class 
 of nouns 
 includes 
-adjectives; 
-adjectives 
+aǧectives; 
+aǧectives 
 are 
 morphologically the same as nouns, they only differ somewhat with respect to 
 their syntactic behavior (see 11.2),
@@ -1719,12 +1719,12 @@ Class III
 Nouns without affixes
 Class I is the largest. It consists of the great majority of nouns with a Berber 
 etymology, as well as a fair number of loanwords from Arabic and European 
-languages. Morever, almost all adjectives belong in this class. The category of 
+languages. Morever, almost all aǧectives belong in this class. The category of 
 nouns with Arabic morphology consists of loanwords from Arabic, as well as 
 many loans from European languages. The third category consists of basic 
 kinship terms and a few other nouns.
 Tarifiyt nouns distinguish three categories: gender, number and case/state. 
-Adjectives and verbs agree with the noun in gender and number, but not in 
+Aǧectives and verbs agree with the noun in gender and number, but not in 
 state.
 In this chapter, we will first give an overview of the main categories that are 
 expressed in the noun, gender, number, and state. This will be followed by an 
@@ -2047,7 +2047,7 @@ PRED / sour“'®°-'’^ / milk'^^-this
 d. 
 After a few pre-nominal elements, see 3.5.
 State is only expressed in Class I nouns; the other noun types have no state 
-distinction. A modifying adjective is always in the Free State, whatever the 
+distinction. A modifying aǧective is always in the Free State, whatever the 
 state of the noun it modifies, e.g.
 s uyi asemmam
 with / milk^5 / sour“^5=^f5
@@ -2086,7 +2086,7 @@ in the prefix.
 In the following paragraphs the many irregularities in the formation of the 
 noun will be explained. It is, however, useful to give an overview of the most 
 common forms first. The following table lists the different forms of the 
-adjective ameqqran ‘big’:
+aǧective ameqqran ‘big’:
 ameqqran 
 tameqqrant 
 imeqqranen 
@@ -2101,7 +2101,7 @@ Gender derivation" is relatively straightforward. The feminine is derived from
 the masculine form by adding an element t to the prefix, as well as the use of 
 special gender suffixes. The feminine singular suffix is mostly -t. According to 
 phonological rules, in word-final consonant clusters, -t appears as -t (For 
-assimilations due to the adjunction of-t, see 2.4.2).
+assimilations due to the aǧunction of-t, see 2.4.2).
 cam (M) 
 ‘stone’ 
 tazrut (f) 
@@ -2492,7 +2492,7 @@ timyarin
 amyaa 
 vs. fiygg 
 tamyaat
-The adjunction of-en, -an and -in may lead to changes in the position o f schwa 
+The aǧunction of-en, -an and -in may lead to changes in the position o f schwa 
 (see 2.2), e.g.
 asfem 
 isefman 
@@ -3087,7 +3087,7 @@ schwa, e.g.yudef‘he went in’, yaawer ‘he fled’.
 b. When the stem starts in a consonant followed by a vowel (plain a, i, u or 
 schwa), there is no schwa in the prefix. The 3SG:M prefix ye- is realized i- 
 under this condition, e.g. isedzem ‘he greeted’.
-c. Because of the constraint against schwa in open syllables, the adjunction of 
+c. Because of the constraint against schwa in open syllables, the aǧunction of 
 a subject suffix may lead to changes in the syllable structure of the stem, e.g. 
 sne/‘roast!’ 1:SG senfey ‘I roasted’.
 In addition, in verbs with final *ey and *ew the semivowel becomes i and u, 
@@ -4818,7 +4818,7 @@ PRED / 1 / that / not / him“°-seeing'^’’
 8. Pseudo-verbs
 In addition to normal verbs, there are a couple of elements that on the one 
 hand lack some basic verbal properties (e.g. aspectual morphology), but on the 
-other hand allovf for the adjunction of pronominal clitics and the deictic d, 
+other hand allovf for the aǧunction of pronominal clitics and the deictic d, 
 otherwise only possible with verbs. Because of their ambiguous nature they 
 are called here pseudo-verbs. They are not unlike French constructions such as 
 le-void ‘here he is’, where one has a particle void ‘here’, which gets a Direct 
@@ -5683,7 +5683,7 @@ QA / not / at-you’"-'’^ / not / family / entirely
 waa ssinen qae
 not / they^.know^’’ / entirely
 ‘they don’t know at all’
-It also appears as a quantification on an adjective, e.g. 
+It also appears as a quantification on an aǧective, e.g. 
 aneggam qae
 lastM:sG:Fs j  entirely
 ‘the very last’
@@ -5728,7 +5728,7 @@ pronoun or a quantifier, as in iyezz-as) tfata ‘(he left him) three (things)�
 the core is a free pronoun, it cannot be determined or modified by any 
 element except (m)marra ‘all’ or a relative clause. The basic structure of the 
 Noun Phrase is as follows:
-[Indefinite] [Quantifier] (n) [Noun/Pronoun]-[*Pro]-[Deictic] [Adjective] [n + Noun 
+[Indefinite] [Quantifier] (n) [Noun/Pronoun]-[*Pro]-[Deictic] [Aǧective] [n + Noun 
 Phrase] [(m)marra]
 In this scheme, *Pro stands for the possessive pronouns which are suffixed to 
 some kinship terms (see 5.2.6). In addition to this, the Noun Phrase can be 
@@ -5783,7 +5783,7 @@ daughters-her-that / of / ogress''^
 anzeq nnes marra 
 fortune / his / all
 ‘all his fortune’
-Adjectives follow possessive pronouns (as found with kinship terms) and 
+Aǧectives follow possessive pronouns (as found with kinship terms) and 
 deictic clitics. In possessive constructions with the preposition n both orders 
 are possible, e.g.
 wecma-tsent-enni tameqqrant ‘this older sister of theirs’ 
@@ -5795,11 +5795,11 @@ patrun risen ameqqran
 b oss/their“ /b ig“ ^“ ^^V
 patmn ameqqran nsen 
 b oss/b ig“ ^'=^"/their“
-11.2 Adjectives
-Adjectives in Tarifiyt form a sub-class of the noun. They have all properties of 
+11.2 Aǧectives
+Aǧectives in Tarifiyt form a sub-class of the noun. They have all properties of 
 normal nouns, but are special in that they they can follow the core of a Noun 
 Phrase to modify it. When functioning themselves as the core of the Noun 
-Phrase, adjectives behave exactly like other nouns and are inflected for 
+Phrase, aǧectives behave exactly like other nouns and are inflected for 
 gender, number and state, e.g.
 tameqqrant (FS) 
 ‘the big one (feminine)’
@@ -5811,14 +5811,14 @@ always have the Free State, e.g.
 n tmuat tameqqrant 
 o f/earth "
 ‘of the big country’
-There are two basic constructions with adjectives when used as modifiers. The 
+There are two basic constructions with aǧectives when used as modifiers. The 
 first construction is used when the Noun Phrase has a definite meaning. This 
 may be explicit due to the use of deictic clitics, but it may also be inferred from 
-context. It consists of simple juxtaposition of the adjective without any further 
+context. It consists of simple juxtaposition of the aǧective without any further 
 linking element, e.g.
 
 ===== PAGE 97 =====
-11.2 Adjectives
+11.2 Aǧectives
 105
 tammuat taweqqrant
 tammuqt-a tameqqrant 
@@ -5829,7 +5829,7 @@ The second construction is used when the Noun Phrase is semantically
 indefinite. More often than not, this is explicit due to the presence of an 
 indefinite determiner such as izzen ‘a’, or sa ‘some’; however, these 
 determiners are not obligatory and indefinite semantics can also be inferred 
-from context. In this construction the adjective is linked to the core by means 
+from context. In this construction the aǧective is linked to the core by means 
 of the predicative particle d (see 13.5), e.g.
 izzen weyyuf d ameqqran 
 ‘a big donkey’ 
@@ -5837,20 +5837,20 @@ one / donkey*® / pred /
 ayyuf d ameqqran 
 donkey’’® / pred / big’^'®''-’^
 ‘a big donkey’
-All adjectives are Class I nouns, except for zzdid ‘new’. This adjective has no 
+All aǧectives are Class I nouns, except for zzdid ‘new’. This aǧective has no 
 gender/number inflection. Moreover, it has different syntax from the others 
 in the definite construction. When the core is definite, zzdid is linked to it by 
 means of the preposition n ‘o f. The indefinite construction is the same as with 
-the other adjectives, e.g.
+the other aǧectives, e.g.
 qama n zzdid 
 bed / of / new
 izzen qama d zzdid 
 one / bed / pred / new
 ‘the new bed’
 ‘a new bed’
-Another unusual adjective is nneyni ~ nnedni ‘other’. Like zzdid it remains the 
+Another unusual aǧective is nneyni ~ nnedni ‘other’. Like zzdid it remains the 
 same in both genders and numbers. When modifying a noun, it is syntactically 
-similar to normal Class I adjectives. However, when the core of the Noun 
+similar to normal Class I aǧectives. However, when the core of the Noun 
 Phrase is a demonstrative pronoun, it is directly suffixed to the pronominal 
 base, e.g.
 aayaz-a nneyni 
@@ -5864,8 +5864,8 @@ ti-nneyni
 ‘the other (SG:F)’ 
 ‘the others (PL:M)’ 
 ‘the others (PL;F)
-Adjectival concepts are often expressed by verbs in Tarifiyt. In such cases, 
-where English would use a modifying adjective, Tarifiyt uses a relative clause 
+Aǧectival concepts are often expressed by verbs in Tarifiyt. In such cases, 
+where English would use a modifying aǧective, Tarifiyt uses a relative clause 
 instead, e.g.
 quci-nni yeyfan 
 car-that / being.expensive’’
@@ -6126,7 +6126,7 @@ asfem xmiyetmetta di febhaa, inettar-it-id febhaa
 fish ’’^ / w h e n  / he.dies' / in / sea / h e.throw s‘-h im ‘’°-h ith er / sea
 ‘a fish, when it dies (l) in the sea, the sea throws (l) it out (on the land)’
 a kis d-ifehheg zzenn itegg gas mayen texsed
-AD /  with.you*^-^^ / hither-he.arrives'^ / djinn / he.does' / entirely / w h at / you^'^.want’’
+AD /  with.you*^-^^ / hither-he.arrives'^ / ǧinn / he.does' / entirely / w h at / you^'^.want’’
 ‘a ghost will come out (ad + A) to you who does (l) everything you want’
 yetqedzab i tehramin ufa d isten ma tus-az-d
 he.tried' / to / girls*^ / even / pred / one'’ / not / she.went'’-her‘°-hither
@@ -6391,7 +6391,7 @@ home’) constructions, but they do not concern the basic tenets of the
 structure, nor do they involve different verbs.
 The non-verbal construction consists minimally of a predicate, which may or 
 may not be accompanied by a subject. The form of the predicate depends on 
-word class: when the predicate is a noun (incl. adjectives) or a pronoun, it is 
+word class: when the predicate is a noun (incl. aǧectives) or a pronoun, it is 
 preceded by a special predicative particle, d, e.g.
 d ness 
 ‘it’s me’
@@ -7028,7 +7028,7 @@ heads often -  but not always - have a marker of indefiniteness, such as izzen �
 one’ or sa ‘some, a certain’. When definiteness is not explicitly marked in the 
 head, only the type of relative construction permits one to recognize it. The 
 difference between definite and indefinite relative clauses is similar to that 
-between definite and indefinite adjectival constructions (see 11.2).
+between definite and indefinite aǧectival constructions (see 11.2).
 15.1 Indefinite relatives
 Relative clauses with indefinite heads do not have specific marking of the 
 relative clause. They are simply Juxtaposed to the head. The verb has normal 
@@ -10402,7 +10402,7 @@ qfeb 1 = 1 qnb / qedzeb / = / NA
 aqedzeb ‘to turn around, to flip, 
 to try, to taste’
 qubbu (u-) / iqubbuten (i-) ‘cloak, 
-djellaba’
+ǧellaba’
 quci (u-) / iquciten ‘car’
 R, R,R
 fa ‘also’
@@ -10920,7 +10920,7 @@ battery’
 tazyawt (te-) / tizyawin (te-) ‘basket’ 
 tazditt / tizdad ‘small bird’ 
 tazedzaft (t-) / 0edzabin (t-) ‘small 
-djellaba, small gown’ 
+ǧellaba, small gown’ 
 taseddist (t-) / tieeddisin (t-) ‘belly’ 
 taeesmaat (t-) / tieesmura (t-) ‘small 
 beard’
@@ -11356,7 +11356,7 @@ zzawen / zziwen / = / tyawan / lyiwin
 / NA yawant ‘to be full, to be 
 satisfied (from eating)’ 
 zzdid ‘new’
-zzenn / zzmn ‘spirit, djinn’ 
+zzenn / zzmn ‘spirit, ǧinn’ 
 zzih / fezbub ‘pocket’
 cgqd 1 = 1 = 1 zoned / = / na aerad 
 ‘to invite’

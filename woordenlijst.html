@@ -393,7 +393,7 @@
       'w': 'W',
       'x': 'X',
       'y': 'Y',
-      'z': 'Z', 'ẓ': 'Z', 'ž': 'Ž',
+      'z': 'Z', 'ẓ': 'Z', 'ǧ': 'Ǧ',
       'ɛ': 'Ɛ',
       'ɣ': 'Ɣ'
     };
@@ -401,14 +401,14 @@
     const LETTERS_ORDER = [
       'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'Ḥ',
       'I', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'Ř',
-      'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'Ž', 'Ɛ', 'Ɣ'
+      'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'Ǧ', 'Ɛ', 'Ɣ'
     ];
 
     function getLetter(word) {
       // Pak het deel vóór de eerste '/' (varianten zoals "ssiɣ / ccel")
       const main = word.split('/')[0].trim().toLowerCase();
       if (!main) return '?';
-      // Eerst: probeer het originele karakter — zo behouden ḥ, ž, ɛ, ř etc. hun eigen rubriek
+      // Eerst: probeer het originele karakter — zo behouden ḥ, ǧ, ɛ, ř etc. hun eigen rubriek
       const orig = main[0];
       if (LETTER_MAP[orig]) return LETTER_MAP[orig];
       // Fallback: voor decomposed vormen (t + combining U+0331) eerst combining marks strippen
@@ -429,7 +429,7 @@
         .replace(/ḥ/g, 'h')
         .replace(/ɣ/g, 'g').replace(/ɛ/g, 'a')
         .replace(/ř/g, 'r').replace(/ṛ/g, 'r')
-        .replace(/ẓ/g, 'z').replace(/ž/g, 'j')
+        .replace(/ẓ/g, 'z').replace(/ǧ/g, 'j')
         .replace(/ṣ/g, 's')
         .replace(/ǧ/g, 'g').replace(/ḇ/g, 'b').replace(/ḵ/g, 'k')
         .replace(/ḷ/g, 'l');

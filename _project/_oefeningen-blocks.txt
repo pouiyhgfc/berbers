@@ -46,7 +46,7 @@ les-01
     "q": "De letter <span class=\"tar\">ř</span> komt historisch uit een…",
     "options": ["r", "l", "n", "d"],
     "correct": 1,
-    "explain": "In Tarifit is de oude <em>l</em> een r-achtige klank geworden, geschreven als <span class=\"tar\">ř</span>. De dubbele <em>ll</em> werd <span class=\"tar\">ž</span>."
+    "explain": "In Tarifit is de oude <em>l</em> een r-achtige klank geworden, geschreven als <span class=\"tar\">ř</span>. De dubbele <em>ll</em> werd <span class=\"tar\">ǧ</span>."
   },
   {
     "type": "fill",
