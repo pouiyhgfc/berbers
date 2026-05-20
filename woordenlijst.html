@@ -272,10 +272,10 @@
       <p class="lead">Een verzamelde lijst van Tarifit-woorden met Nederlandse vertaling.</p>
 
       <div class="wl-info">
-        <p><strong>Notatie:</strong> de lijst gebruikt onder andere <em class="tar">ř</em> (zachte r), <em class="tar">ɛ</em> (ayin), <em class="tar">ɣ</em> (gain), <em class="tar">ḥ</em> (scherpe h), en de "donkere" varianten <em class="tar">ḍ ṣ ṭ ẓ ṛ</em>. Letters met streepje of lijntje (<em class="tar">ṯ ḏ ḇ ḵ</em>) klinken zacht/blazend.</p>
+        <p><strong>Notatie:</strong> de lijst gebruikt onder andere <em class="tar">ř</em> (zachte r), <em class="tar">ɛ</em> (ayin), <em class="tar">ɣ</em> (gain), <em class="tar">ḥ</em> (scherp) en <em class="tar">ǧ</em> (gelabiaaliseerde j-klank, afkomstig uit historische ll).</p>
         <p><strong>Varianten:</strong> woorden gescheiden door een schuine streep (bijv. <em class="tar">ssiɣ / ccel</em>) zijn gelijkwaardige alternatieven — beide vormen zijn correct.</p>
-        <p><strong>Zoeken &amp; filteren:</strong> diakritische tekens worden genegeerd, dus <code>tmazight</code> vindt zowel <em class="tar">ṯmazixt</em> als <em class="tar">t̲mazixt̲</em>. Filter op CEFR-niveau (A1–C2) of op woordsoort om gericht te leren.</p>
-        <p><strong>Anki-export:</strong> de exportknop maakt een tab-gescheiden bestand met hierarchische tags (<code>tarifit::cefr::A1</code>, <code>tarifit::woordsoort::znw_m_ev</code>). Importeer in Anki via <em>File → Import</em>; de filters (niveau, woordsoort, zoekterm) bepalen welke woorden worden meegenomen.</p>
+        <p><strong>Zoeken &amp; filteren:</strong> diakritische tekens worden genegeerd, dus <code>tmazight</code> vindt zowel <em class="tar">ṯmazixt</em> als <em class="tar">t̲mazixt̲</em>.</p>
+        <p><strong>Anki-export:</strong> de exportknop maakt een tab-gescheiden bestand met hierarchische tags (<code>tarifit::cefr::A1</code>, <code>tarifit::woordsoort::znw_m_ev</code>). Importeer in Anki via File → Import → Type: Basic → Field separator: Tab.</p>
         <p><strong>Woord mist?</strong> Stel een aanvulling voor via <a href="woord-inzenden.html">woord voorstellen</a>.</p>
       </div>
     </div>
@@ -329,13 +329,10 @@
   </main>
 
   <footer>
-    <p>Data: <code>assets/woordenlijst/woordenlijst.csv</code>. Nieuwe rijen hoef je alleen in die CSV te zetten en te pushen — deze pagina laadt de lijst automatisch (geen aparte HTML-wijziging). Bij een oudere weergave: hard vernieuwen (Ctrl+F5).</p>
+    <p>Data: <code>assets/woordenlijst/woordenlijst.csv</code>. Nieuwe rijen hoef je alleen in die CSV te zetten en te pushen — deze pagina laadt de lijst automatisch (geen aparte HTML-wijziging).</p>
   </footer>
 
   <script>
-    // ==============================================================
-    // CSV-parser — handelt quoted velden en escaped quotes correct af
-    // ==============================================================
     function parseCSV(text) {
       const rows = [];
       let field = '';
@@ -366,9 +363,6 @@
       return rows;
     }
 
-    // ==============================================================
-    // Letter-mapping: van eerste karakter naar groep-letter
-    // ==============================================================
     const LETTER_MAP = {
       'a': 'A', 'b': 'B', 'ḇ': 'B',
       'c': 'C',
@@ -393,7 +387,7 @@
       'w': 'W',
       'x': 'X',
       'y': 'Y',
-      'z': 'Z', 'ẓ': 'Z', 'ž': 'Ž',
+      'z': 'Z', 'ẓ': 'Z', 'ǧ': 'Ǧ',
       'ɛ': 'Ɛ',
       'ɣ': 'Ɣ'
     };
@@ -401,26 +395,19 @@
     const LETTERS_ORDER = [
       'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'Ḥ',
       'I', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'Ř',
-      'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'Ž', 'Ɛ', 'Ɣ'
+      'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'Ǧ', 'Ɛ', 'Ɣ'
     ];
 
     function getLetter(word) {
-      // Pak het deel vóór de eerste '/' (varianten zoals "ssiɣ / ccel")
       const main = word.split('/')[0].trim().toLowerCase();
       if (!main) return '?';
-      // Eerst: probeer het originele karakter — zo behouden ḥ, ž, ɛ, ř etc. hun eigen rubriek
       const orig = main[0];
       if (LETTER_MAP[orig]) return LETTER_MAP[orig];
-      // Fallback: voor decomposed vormen (t + combining U+0331) eerst combining marks strippen
       const stripped = main.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
       const c = stripped[0] || orig;
       return LETTER_MAP[c] || c.toUpperCase();
     }
 
-    // ==============================================================
-    // Normaliseren voor zoeken — alle diakrieten en speciale tekens
-    // worden teruggebracht naar basisletters
-    // ==============================================================
     function normalize(s) {
       return s.toLowerCase()
         .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
@@ -429,15 +416,12 @@
         .replace(/ḥ/g, 'h')
         .replace(/ɣ/g, 'g').replace(/ɛ/g, 'a')
         .replace(/ř/g, 'r').replace(/ṛ/g, 'r')
-        .replace(/ẓ/g, 'z').replace(/ž/g, 'j')
+        .replace(/ẓ/g, 'z').replace(/ǧ/g, 'j')
         .replace(/ṣ/g, 's')
         .replace(/ǧ/g, 'g').replace(/ḇ/g, 'b').replace(/ḵ/g, 'k')
         .replace(/ḷ/g, 'l');
     }
 
-    // ==============================================================
-    // Render
-    // ==============================================================
     let ENTRIES = [];
     let FILTER_NIVEAU = '';
     let FILTER_SOORT = '';
@@ -461,9 +445,6 @@
     };
 
     function renderEntry(e) {
-      // Niveau wordt bewust niet getoond — alleen woordsoort als kleine
-      // hint. Niveau zit wel in de data (filterbaar) en gaat mee in de
-      // Anki-export.
       const soortLabel = SOORT_LABELS[e.soort] || e.soort || '';
       const soortTag = soortLabel
         ? `<span class="wl-tags"><span class="wl-tag">${soortLabel}</span></span>`
@@ -531,7 +512,6 @@
     }
 
     function setupLetterObserver() {
-      // Highlight de nav-link voor de zichtbare letter-sectie
       const navLinks = document.querySelectorAll('.wl-letters-nav a');
       const linkByLetter = {};
       navLinks.forEach(a => { linkByLetter[a.dataset.letter] = a; });
@@ -607,14 +587,6 @@
       applyFilters();
     }
 
-    // ==============================================================
-    // Anki-export — schrijft een tab-gescheiden bestand naar disk.
-    //
-    // Format per regel:
-    //   <Tarifit-woord>\t<Nederlandse betekenis>\t<tags>
-    // Anki File → Import → Type: Basic → Field separator: Tab
-    // Lees Notes (with same first field) merge: yes
-    // ==============================================================
     const NIVEAU_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 
     function exportAnki() {
@@ -623,8 +595,6 @@
         alert('Geen woorden om te exporteren — pas je filters aan.');
         return;
       }
-      // Sorteer eerst op CEFR-niveau (A1→C2) en daarna alfabetisch op
-      // het Tarifit-woord; zonder niveau gaan woorden achteraan.
       filtered.sort((a, b) => {
         const ai = NIVEAU_ORDER.indexOf(a.niveau);
         const bi = NIVEAU_ORDER.indexOf(b.niveau);
@@ -662,9 +632,6 @@
         `<div class="wl-error">${html}</div>`;
     }
 
-    // ==============================================================
-    // CSV laden en initialiseren
-    // ==============================================================
     fetch('assets/woordenlijst/woordenlijst.csv', { cache: 'no-cache' })
       .then(resp => {
         if (!resp.ok) throw new Error('HTTP ' + resp.status);
@@ -711,7 +678,7 @@
           showError(
             '<strong>De woordenlijst kan niet rechtstreeks vanaf je harde schijf geladen worden.</strong>' +
             '<p>Browsers blokkeren <code>fetch()</code> op <code>file://</code>-adressen om veiligheidsredenen. Start de meegeleverde lokale server:</p>' +
-            '<p><code>.\\serve.ps1</code> in PowerShell, en open daarna <code>http://127.0.0.1:8080/woordenlijst.html</code>.</p>'
+            '<p><code>.\\ serve.ps1</code> in PowerShell, en open daarna <code>http://127.0.0.1:8080/woordenlijst.html</code>.</p>'
           );
         } else {
           showError(
