@@ -22,7 +22,12 @@
   </header>
 
   <div class="app">
-    <aside class="sidebar">
+    <aside class="sidebar" id="sidebar">
+      <button class="sidebar-toggle" id="sidebar-toggle" aria-expanded="false" aria-controls="sidebar-nav">
+        <span class="sidebar-toggle-label">Naar hoofdstuk springen</span>
+        <span class="sidebar-toggle-arrow" aria-hidden="true">▾</span>
+      </button>
+      <div class="sidebar-nav" id="sidebar-nav">
 <div class="sidebar-title">Inhoud</div>
 <div class="sidebar-section">
 <a href="#h1"><span class="num">·</span>Cursus-aantekeningen</a>
@@ -46,7 +51,8 @@
 <a href="#h19"><span class="num">18</span>Voorbeeldteksten en dialogen</a>
 <a href="#h20"><span class="num">★</span>EINDSAMENVATTING — De belangrijkste lessen</a>
 </div>
-</aside>
+      </div><!-- /.sidebar-nav -->
+    </aside>
     <main class="content">
       <div class="eyebrow">nederlandse uitleg</div>
       <h1>De grammatica, hertaald</h1>
@@ -57,7 +63,7 @@
       <section id="h1">
 <h1>Cursus-aantekeningen</h1>
 <p><strong>Bron</strong>: Mourigh &amp; Kossmann (2019), <em>An Introduction to Tarifiyt Berber (Nador, Morocco)</em>.</p>
-<p><strong>Schrijfwijze</strong>: het Latijns-Berber alfabet zoals gebruikt op learntarifit. Waar het boek <em>š, č, ǧ, ǧ</em> schrijft, schrijven wij <em>c, tc, ǧ, j</em>. Voorbeelden zijn waar nodig naar deze conventie omgezet.</p>
+<p><strong>Schrijfwijze</strong>: het Latijns-Berber alfabet zoals gebruikt op learntarifit. Waar het boek <em>š, č, ǧ, ž</em> schrijft, schrijven wij <em>c, tc, ǧ, j</em>. Voorbeelden zijn waar nodig naar deze conventie omgezet.</p>
 <p><strong>Pagina-referenties</strong>: aan het begin van elk hoofdstuk en bij belangrijke subhoofdstukken staat de bron-pagina vermeld als <em>📖 Boek p. X</em>. Open de PDF op de <a href="boek.html">boek-pagina</a> om mee te lezen.</p>
 <hr />
 </section><section id="h2">
@@ -123,232 +129,292 @@
 </section><section id="h3">
 <h1>Hoofdstuk 2 — Klanken, schrijfwijze en uitspraak</h1>
 <p class="source">📖 Boek p. 21–33</p>
-<p class="lead">Hoe Tarifit klinkt, hoe het op verschillende manieren wordt geschreven, en waarom sommige woorden er anders uitzien dan je zou verwachten. Wie de klanken eenmaal te pakken heeft, klinkt meteen veel natuurlijker.</p>
+<p class="lead">Hoe Tarifit klinkt, hoe het wordt geschreven, en waarom sommige woorden er anders uitzien dan je zou verwachten. Wie de klanken eenmaal te pakken heeft, klinkt meteen veel natuurlijker.</p>
 
-<h2>2.1 Hoe schrijf je Tarifit?</h2>
-<p class="source">📖 Boek p. 21–23</p>
+<h2>Uitspraakoverzicht</h2>
+<p>Alle letters van het schrijfsysteem op een rij. De kolom <em>Veelgebruikte variant</em> toont hoe de klank op het internet en in informele teksten vaak verschijnt.</p>
 
-<p>Er bestaat geen officieel schrijfsysteem voor Tarifit. In de praktijk circuleren vier varianten:</p>
-
-<p><strong>1. Wetenschappelijke transcriptie</strong> — gebruikt door taalkundigen. Probeert elke klank zo nauwkeurig mogelijk weer te geven. Het boek gebruikt dit systeem.</p>
-
-<p><strong>2. Afgesproken Latijnse spelling</strong> — vastgesteld in 1996 in Utrecht. Klinkt logisch maar wordt in praktijk nauwelijks gebruikt: hij maakt onderscheid in klanken die in Tarifit niet bestaan, en verbergt andere die er wél zijn.</p>
-
-<p><strong>3. Praktische Latijnse spelling</strong> — soepelere versie van het bovenstaande, waarbij schrijvers de lastige punten weglaten. Komt voor in de meeste gedrukte Berberse literatuur.</p>
-
-<p><strong>4. Internetspelling</strong> — volledig individueel. Iedereen schrijft op zijn eigen manier, vaak afhankelijk van de Frans-, Nederlands- of Arabische schrijfgewoonten die hij heeft geleerd. Een paar tekens zijn wijdverbreid:</p>
-
+<div style="overflow-x:auto;">
 <table>
-<thead><tr><th>Internetteken</th><th>Klank</th></tr></thead>
+<thead><tr><th>Letter</th><th>IPA</th><th>Veelgebruikte variant</th><th>Arabisch</th><th>Klinkt als</th></tr></thead>
 <tbody>
-<tr><td><code>9</code></td><td>q</td></tr>
-<tr><td><code>3</code></td><td>ɛ (de ayin, zoals in Arabisch)</td></tr>
-<tr><td><code>7</code></td><td>ḥ</td></tr>
-<tr><td><code>gh</code></td><td>ɣ</td></tr>
-<tr><td><code>kh</code> of <code>ch</code></td><td>x</td></tr>
+<tr><td><strong>a</strong></td><td>/æ/, /ɛ/, /ɑ/</td><td>a</td><td>ا</td><td>normaal: <em>a</em> in <em>bad</em>; naast donkere letters: <em>a</em> in <em>vader</em></td></tr>
+<tr><td><strong>i</strong></td><td>/ɪ/</td><td>i</td><td>ي</td><td><em>i</em> in <em>bit</em></td></tr>
+<tr><td><strong>u</strong></td><td>/ʊ/, /ɔ/</td><td>ou, o</td><td>و</td><td>normaal: <em>oe</em> in <em>boek</em>; naast donkere letters: <em>o</em></td></tr>
+<tr><td><strong>e</strong></td><td>/ə/</td><td>e, a</td><td>—</td><td>schwa, zoals <em>e</em> in <em>de</em></td></tr>
+<tr><td><strong>b</strong></td><td>/b/</td><td>b</td><td>ب</td><td><em>b</em> in <em>bed</em></td></tr>
+<tr><td><strong>ḇ</strong></td><td>/β/</td><td>b, v</td><td>—</td><td>zachte Spaanse <em>b</em> — lippen sluiten niet helemaal</td></tr>
+<tr><td><strong>d</strong></td><td>/d/</td><td>d</td><td>د</td><td><em>d</em> in <em>dag</em></td></tr>
+<tr><td><strong>ḏ</strong></td><td>/ð/</td><td>dh</td><td>ذ</td><td><em>th</em> in Engels <em>this</em></td></tr>
+<tr><td><strong>ḍ</strong></td><td>/dˤ/</td><td>d</td><td>ض</td><td><em>d</em>, dieper uitgesproken vanuit de keel</td></tr>
+<tr><td><strong>ǧ</strong></td><td>/ʤ/</td><td>dj</td><td>ج</td><td><em>j</em> in Engels <em>joke</em></td></tr>
+<tr><td><strong>f</strong></td><td>/f/</td><td>f</td><td>ف</td><td><em>f</em> in <em>fiets</em></td></tr>
+<tr><td><strong>g</strong></td><td>/g/</td><td>g</td><td>گ</td><td><em>g</em> in <em>goal</em></td></tr>
+<tr><td><strong>ggʷ</strong></td><td>/g:w/</td><td>gw</td><td>—</td><td><em>gw</em> in Engels <em>Gwen</em></td></tr>
+<tr><td><strong>ɣ</strong></td><td>/ɣ/</td><td>gh</td><td>غ</td><td>zachte Nederlandse <em>g</em>, of Frans <em>r</em></td></tr>
+<tr><td><strong>h</strong></td><td>/h/</td><td>h</td><td>هـ</td><td><em>h</em> in <em>huis</em></td></tr>
+<tr><td><strong>ḥ</strong></td><td>/ħ/</td><td>7</td><td>ح</td><td>Arabische <em>ح</em> — harder en scherper dan een gewone h</td></tr>
+<tr><td><strong>x</strong></td><td>/x/</td><td>kh</td><td>خ</td><td>Nederlands <em>ch</em> in <em>lachen</em></td></tr>
+<tr><td><strong>j</strong></td><td>/ʒ/</td><td>j</td><td>ج</td><td><em>j</em> in <em>déjà-vu</em></td></tr>
+<tr><td><strong>k</strong></td><td>/k/</td><td>k</td><td>ك</td><td><em>k</em> in <em>kat</em></td></tr>
+<tr><td><strong>ḵ</strong></td><td>/ç/</td><td>—</td><td>—</td><td>zachte <em>k</em>, zoals <em>ch</em> in Duits <em>ich</em></td></tr>
+<tr><td><strong>kkʷ</strong></td><td>/k:w/</td><td>kw</td><td>—</td><td><em>qu</em> in Engels <em>quick</em></td></tr>
+<tr><td><strong>l</strong></td><td>/l/</td><td>l</td><td>ل</td><td><em>l</em> in <em>lamp</em></td></tr>
+<tr><td><strong>m</strong></td><td>/m/</td><td>m</td><td>م</td><td><em>m</em> in <em>map</em></td></tr>
+<tr><td><strong>n</strong></td><td>/n/</td><td>n</td><td>ن</td><td><em>n</em> in <em>net</em></td></tr>
+<tr><td><strong>p</strong></td><td>/p/</td><td>p</td><td>—</td><td><em>p</em> in <em>pan</em></td></tr>
+<tr><td><strong>q</strong></td><td>/q/</td><td>9</td><td>ق</td><td>als <em>k</em>, maar dieper achter in de keel</td></tr>
+<tr><td><strong>r</strong></td><td>/ɾ/</td><td>r</td><td>—</td><td>zachte <em>r</em>, vergelijkbaar met Spaanse <em>r</em> in <em>pero</em></td></tr>
+<tr><td><strong>ṛ</strong></td><td>/rˤ/</td><td>r</td><td>ر</td><td>donkere <em>r</em></td></tr>
+<tr><td><strong>ř</strong></td><td>/r/</td><td>r</td><td>ر</td><td>rollende <em>r</em> (was historisch een <em>l</em>)</td></tr>
+<tr><td><strong>s</strong></td><td>/s/</td><td>s</td><td>س</td><td><em>s</em> in <em>zee</em></td></tr>
+<tr><td><strong>ṣ</strong></td><td>/sˤ/</td><td>s</td><td>ص</td><td>donkere <em>s</em></td></tr>
+<tr><td><strong>c</strong></td><td>/ʃ/</td><td>ch, sh</td><td>ش</td><td><em>sj</em> in <em>sjaal</em></td></tr>
+<tr><td><strong>t</strong></td><td>/t/</td><td>t</td><td>ت</td><td><em>t</em> in <em>tafel</em></td></tr>
+<tr><td><strong>ṯ</strong></td><td>/θ/</td><td>th</td><td>ث</td><td><em>th</em> in Engels <em>think</em></td></tr>
+<tr><td><strong>ṭ</strong></td><td>/tˤ/</td><td>t</td><td>ط</td><td>donkere <em>t</em></td></tr>
+<tr><td><strong>tc</strong></td><td>/tʃ/</td><td>tch</td><td>تش</td><td><em>ch</em> in Engels <em>China</em></td></tr>
+<tr><td><strong>w</strong></td><td>/w/</td><td>w</td><td>وْ</td><td><em>w</em> in <em>water</em></td></tr>
+<tr><td><strong>y</strong></td><td>/j/</td><td>y</td><td>يْ</td><td><em>j</em> in <em>ja</em></td></tr>
+<tr><td><strong>z</strong></td><td>/z/</td><td>z</td><td>ز</td><td><em>z</em> in <em>zee</em></td></tr>
+<tr><td><strong>ẓ</strong></td><td>/zˤ/</td><td>z</td><td>—</td><td>donkere <em>z</em></td></tr>
+<tr><td><strong>ɛ</strong></td><td>/ʕ/</td><td>3</td><td>ع</td><td>Arabische <em>ayn</em> — knijpende keelklank</td></tr>
+<tr><td><strong>'</strong></td><td>/ʔ/</td><td>2</td><td>ء</td><td>glottisslag — de pauze in <em>uh-oh</em></td></tr>
 </tbody>
 </table>
+</div>
+
+<h3>R-vormen</h3>
+<p>Wanneer een <em>r</em> in Nador-Tarifit niet direct gevolgd wordt door een echte klinker, verandert de uitspraak. In schrijfwijze bewaren we de <em>r</em> maar geven de klankverandering aan met een macron (streepje boven de klinker):</p>
+
+<table>
+<thead><tr><th>Schrijfwijze (deze cursus)</th><th>IPA</th></tr></thead>
+<tbody>
+<tr><td><em>-ār</em></td><td>/aː/</td></tr>
+<tr><td><em>-ar</em></td><td>/æ/</td></tr>
+<tr><td><em>-uār</em></td><td>/wa/</td></tr>
+<tr><td><em>-yār</em></td><td>/ja/</td></tr>
+</tbody>
+</table>
+
+<h2>2.1 Waarom deze letters?</h2>
+
+<p>Op het internet en in informele teksten schrijven mensen Tarifit op allerlei manieren — afhankelijk van of ze Frans, Nederlands of Arabisch als schrijftaal hebben geleerd. Een paar gewoontes zijn wijdverbreid (zoals <em>9</em> voor <em>q</em> en <em>3</em> voor <em>ɛ</em>), maar er is geen vaste standaard.</p>
+
+<p>Deze cursus gebruikt het Latijns-Berber alfabet zoals gehanteerd op learntarifit. De keuzes zijn niet willekeurig:</p>
+
+<p><strong>Eén teken per klank.</strong> In Tarifit worden veel medeklinkers verdubbeld — ook klanken die gewoonlijk als twee letters geschreven worden, zoals <em>kh</em> of <em>ch</em>. Het woord voor "rook" zou dan <em>dekhkhan</em> worden — lang en onleesbaar. Omdat <em>kh</em> één klank is, schrijven wij één teken: <em>x</em> (ook het IPA-teken hiervoor). Zo ook: <em>ɣ</em> voor <em>gh</em>, <em>c</em> voor <em>ch/sh</em>, <em>ǧ</em> voor <em>dj</em>. Uitzondering: <em>tc</em> wordt zelden verdubbeld — als het al dubbel staat, schrijf je <em>č</em>.</p>
+
+<p><strong>Letters, geen cijfers.</strong> Op het internet staan <em>7</em>, <em>3</em> en <em>9</em> voor de klanken <em>ḥ</em>, <em>ɛ</em> en <em>q</em>. In deze cursus worden alleen letters gebruikt — cijfers zijn voor getallen.</p>
+
+<p><strong>Spirantisering zichtbaar.</strong> De zachte varianten van <em>b, d, t</em> — uitgesproken als zachte Spaanse <em>b</em>, Engels <em>th</em> in <em>this</em>, en Engels <em>th</em> in <em>think</em> — krijgen een streepje onder de letter: <em>ḇ, ḏ, ṯ</em>.</p>
+
+<div class="box tip">
+<div class="box-title">Arabisch als houvast</div>
+<p style="margin: 0;">Wie Arabisch kent, herkent vrijwel alle "moeilijke" klanken: <em>ɣ</em> = غ, <em>x</em> = خ, <em>q</em> = ق, <em>ɛ</em> = ع, <em>ḥ</em> = ح. De donkere varianten (puntje onder de letter) komen overeen met de Arabische nadrukletters ض، ط، ص.</p>
+</div>
 
 <h2>2.2 De klinkers</h2>
 <p class="source">📖 Boek p. 24</p>
 
-<p>Tarifit heeft drie echte klinkers en één bijzondere.</p>
+<p>Tarifit heeft drie echte klinkers — <strong>a, i, u</strong> — en één neutrale: de schwa <strong>e</strong>.</p>
 
-<table>
-<thead><tr><th>Letter</th><th>Klank</th><th>Voorbeeld</th></tr></thead>
-<tbody>
-<tr><td><strong>a</strong></td><td>als de <em>a</em> in <em>bad</em></td><td><span class="tar">aayaz</span> "man"</td></tr>
-<tr><td><strong>i</strong></td><td>als de <em>ie</em> in <em>bier</em></td><td><span class="tar">iaḏen</span> "tarwe"</td></tr>
-<tr><td><strong>u</strong></td><td>als de <em>oe</em> in <em>boek</em></td><td><span class="tar">aḏu</span> "onder"</td></tr>
-</tbody>
-</table>
+<h3>a, i en u</h3>
+
+<p>De <strong>a</strong> klinkt normaal als de <em>a</em> in <em>bad</em>. Woorden met een <em>a</em>: <span class="tar">wa</span> "dit", <span class="tar">bna</span> "bouwen", <span class="tar">lalla</span> "mevrouw".</p>
+
+<p>De <strong>i</strong> klinkt als de <em>i</em> in <em>bit</em>. Woorden met een <em>i</em>: <span class="tar">ini</span> "zeggen", <span class="tar">ifri</span> "grot", <span class="tar">mani</span> "waar".</p>
+
+<p>De <strong>u</strong> klinkt als de <em>oe</em> in <em>boek</em>. Woorden met een <em>u</em>: <span class="tar">ru</span> "huilen", <span class="tar">ura</span> "noch", <span class="tar">smun</span> "verzamelen".</p>
+
+<h3>De donkere a, i en u</h3>
+
+<p>De klinkers <em>a, i, u</em> klinken doffer en dieper wanneer ze naast een <strong>donkere medeklinker</strong> staan. De donkere medeklinkers zijn de letters met een puntje eronder: <strong>ḍ, ḏ̣, ṛ, ṣ, ṭ, ẓ</strong>. Staat er zo'n letter in een woord, dan worden álle klinkers in dat woord donker — de donkerte verspreidt zich.</p>
+
+<ul>
+<li>Donkere <strong>a</strong>: als de <em>a</em> in <em>vader</em></li>
+<li>Donkere <strong>u</strong>: als de <em>ou</em> in <em>jouw</em></li>
+<li>Donkere <strong>i</strong>: nauwelijks hoorbaar verschil</li>
+</ul>
+
+<p>Voorbeeldwoorden: <span class="tar">iṭan</span> "honden", <span class="tar">ṭuṛu</span> "zij baarde", <span class="tar">ssuḍeṣ</span> "in slaap brengen".</p>
+
+<p>Soms worden klinkers ook donker zonder zichtbare donkere letter — <em>ɣ, q, l</em> of <em>c</em> kunnen dat ook veroorzaken. Dat leer je per woord. Voorbeelden: <span class="tar">mucc</span> "kat", <span class="tar">ameqqran</span> "groot".</p>
 
 <h3>De schwa <em>e</em></h3>
 
-<p>De <strong>e</strong> is een korte tussenklinker — zoiets als de <em>u</em> in het Engelse <em>but</em>. Hij hoort er fonologisch bij maar valt in snel gesprek vaak weg. Drie regels:</p>
+<p>De <strong>e</strong> is een korte neutrale tussenklinker — vergelijkbaar met de <em>e</em> in <em>de</em>. Hij telt niet mee als echte klinker bij de r-vocalisatie (zie §2.5). Drie regels:</p>
 
 <ul>
 <li>De schwa staat <strong>nooit in een open lettergreep</strong> — als hij daar door een grammaticale stap zou belanden, valt hij weg of wordt de omliggende medeklinker langer.</li>
-<li>Hij verschuift naar de voorlaatste medeklinker van een cluster. Vuistregel: het werkwoord <span class="tar">xdem</span> "werken" wordt in vervoeging <span class="tar">xeḏmey</span> "ik werk" — de schwa schuift naar de positie vóór de tweede medeklinker.</li>
-<li>Moedertaalsprekers <em>weten</em> waar hij hoort, maar spreken hem in snelle spraak vaak niet uit. De transcriptie in het boek noteert hem altijd, ook als je hem in praktijk niet hoort.</li>
+<li>Hij verschuift naar de positie vóór de tweede medeklinker in een cluster. Voorbeeld: <span class="tar">xdem</span> "werken" → <span class="tar">xeḏmey</span> "ik werk".</li>
+<li>In snelle spraak wordt hij vaak niet uitgesproken, maar in de transcriptie staat hij altijd.</li>
 </ul>
 
-<h3>Klinkers naast donkere medeklinkers</h3>
-
-<p>Naast de zogenaamde faryngaliseringsmedeklinkers (zie §2.5) klinken klinkers doffer en dieper. De <em>a</em> wordt meer naar achteren in de mond uitgesproken, de <em>u</em> klinkt eerder als een <em>o</em>. Dit is geen losse regel die je hoeft te leren — het gebeurt vanzelf zodra je de medeklinkers goed uitspreekt.</p>
+<p>Werkwoorden die alleen uit een dubbele medeklinker bestaan, krijgen een <em>e</em> vooraan:</p>
+<ul>
+<li><span class="tar">ekk</span> "passeren", <span class="tar">egg</span> "doen", <span class="tar">ecc</span> "eten", <span class="tar">ejj</span> "laten"</li>
+</ul>
 
 <h2>2.3 De medeklinkers</h2>
-<p class="source">📖 Boek p. 25</p>
+<p class="source">📖 Boek p. 25–28</p>
 
-<p>Tarifit heeft een uitgebreider medeklinkersysteem dan Nederlands of Frans. Om het overzichtelijk te houden: drie groepen.</p>
+<p>De meeste medeklinkers schrijf je gewoon zoals je ze hoort. De letters <em>b, d, f, g, h, j, k, l, m, n, p, s, t, w, y, z</em> zijn herkenbaar uit het Nederlands of Engels. Voor de keelklanken <em>x, ḥ, ɣ, ɛ, q</em> zijn Arabische uitspraakvideo's nuttig — het zijn exact dezelfde klanken als خ، ح، غ، ع، ق.</p>
 
-<h3>Groep 1 — Vertrouwde klanken</h3>
+<h3>Donkere medeklinkers</h3>
 
-<p>Deze letters klinken zoals je ze kent uit het Nederlands of Engels: <em>b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z</em>. Sommige hebben in Tarifit een zachte of donkere variant — die komen verderop.</p>
-
-<h3>Groep 2 — Keelklanken</h3>
-
-<p>Voor wie Tarifit niet als moedertaal heeft, zijn dit de meest onbekende klanken. Ze worden achter in de keel gemaakt.</p>
+<p>Een aantal medeklinkers wordt uitgesproken met extra spierspanning achterin de keel — dieper en voller. We noemen ze <strong>donkere medeklinkers</strong>, aangegeven met een puntje onder de letter:</p>
 
 <table>
-<thead><tr><th>Letter</th><th>Hoe het klinkt</th><th>Vergelijking</th></tr></thead>
+<thead><tr><th>Letter</th><th>Uitspraak</th><th>Arabisch equivalent</th></tr></thead>
 <tbody>
-<tr><td><strong>ɣ</strong></td><td>Arabische ﻍ — "gh"</td><td>als in <em>Maghreb</em>; ook vergelijkbaar met de zachte Nederlandse <em>g</em> zoals in <em>Groningen</em></td></tr>
-<tr><td><strong>x</strong></td><td>scherpe keel-ch</td><td>Nederlands <em>ch</em> in <em>lachen</em>, Arabisch خ</td></tr>
-<tr><td><strong>q</strong></td><td>k achter in de keel</td><td>Arabisch ق — geen Nederlandse equivalent</td></tr>
-<tr><td><strong>ɛ</strong></td><td>knijpende keelklank</td><td>Arabisch ع — de ayin</td></tr>
-<tr><td><strong>ḥ</strong></td><td>schurende, geforceerde h</td><td>Arabisch ح — harder en scherper dan een gewone h</td></tr>
-<tr><td><strong>h</strong></td><td>gewone h</td><td>Nederlands <em>huis</em></td></tr>
-</tbody>
-</table>
-
-<div class="box tip">
-<div class="box-title">Tip voor q, ɛ en ḥ</div>
-<p style="margin: 0;">Wie Arabisch kent, herkent dit als ق, ع en ح — exact dezelfde drie klanken. Voor wie geen Arabisch kent: er zijn veel video's te vinden van Arabische uitspraaklessen waarin deze drie in detail worden behandeld.</p>
-</div>
-
-<h3>Groep 3 — Speciale varianten</h3>
-
-<p>Sommige bekende medeklinkers bestaan in Tarifit in twee versies: een gewone en een aangepaste. De aanpassing wordt aangegeven met een streepje of lijntje onder de letter (zachte versie) of een puntje onder de letter (donkere versie). Meer hierover in §2.4 en §2.5.</p>
-
-<h2>2.4 Spirantisering — de zachte varianten</h2>
-<p class="source">📖 Boek p. 26</p>
-
-<p>De stops <em>b, d, t, g, k</em> worden in de meeste omstandigheden niet hard uitgesproken maar zacht en blazend. Dit heet <em>spirantisering</em>. Het boek markeert deze klanken met een streepje of lijntje onder de letter.</p>
-
-<table>
-<thead><tr><th>Letter</th><th>Zachte uitspraak</th><th>Vergelijking</th></tr></thead>
-<tbody>
-<tr><td><strong>ḇ</strong></td><td>zachte v-achtige klank</td><td>Spaanse zachte <em>b</em>, lippen sluiten niet helemaal</td></tr>
-<tr><td><strong>ḏ</strong></td><td>als <em>th</em> in Engels <em>this</em></td><td>tong tussen de tanden</td></tr>
-<tr><td><strong>ṯ</strong></td><td>als <em>th</em> in Engels <em>think</em></td><td>tong tussen de tanden, stemloos</td></tr>
-<tr><td><strong>ḵ</strong></td><td>als <em>ch</em> in Duits <em>ich</em></td><td>in Nador-Tarifit is deze klank vrijwel verdwenen — vervangen door een <em>s</em></td></tr>
-<tr><td><strong>g</strong></td><td>in Nador volledig vervangen door <strong>y</strong></td><td><span class="tar">ugur</span> → <span class="tar">uyur</span></td></tr>
-</tbody>
-</table>
-
-<h3>Wanneer blijft de klank wel hard?</h3>
-
-<p>Drie situaties:</p>
-
-<ol>
-<li>Als de medeklinker <strong>verdubbeld</strong> is: <span class="tar">yeddaa</span> "hij woont" — de <em>dd</em> is hard.</li>
-<li><strong>Direct na <em>n</em></strong>: <span class="tar">yenḏu</span> "hij sprong" — de <em>d</em> direct na <em>n</em> is hard.</li>
-<li>In een <strong>medeklinkercluster aan het einde</strong> van een woord: <span class="tar">ṯafunasṯ</span> "koe" — de <em>t</em> aan het eind blijft hard.</li>
-</ol>
-
-<p>In leenwoorden uit het Arabisch of Spaans blijven de letters meestal ook hard:</p>
-
-<ul>
-<li><span class="tar">řbanku</span> (bank, uit Spaans <em>banco</em>)</li>
-<li><span class="tar">atay</span> (thee, uit Marokkaans Arabisch)</li>
-<li><span class="tar">kisu</span> (kaas, uit Spaans <em>queso</em>)</li>
-</ul>
-
-<div class="box warn">
-<div class="box-title">Dialect-verschil</div>
-<p style="margin: 0;">In Iqeṛɛiyen-Tarifit (Nador) is <em>ḵ</em> vrijwel verdwenen en is <em>g</em> regelmatig <em>y</em> geworden. In andere Rif-dialecten (zoals Ayt Weryaghel rond Al Hoceima) bestaan die klanken nog wel.</p>
-</div>
-
-<h2>2.5 Faryngalisering — de donkere varianten</h2>
-<p class="source">📖 Boek p. 27</p>
-
-<p>Sommige medeklinkers worden uitgesproken met extra spierspanning achterin de keel, waardoor ze voller en donkerder klinken. Vergelijkbaar met de "nadruk"-medeklinkers in het Arabisch (ص، ض، ط، ظ). Het boek markeert ze met een puntje onder de letter.</p>
-
-<table>
-<thead><tr><th>Letter</th><th>Wat het is</th><th>Arabisch equivalent</th></tr></thead>
-<tbody>
-<tr><td><strong>ḍ</strong></td><td>donkere stop-d (en in spirantiserende contexten een donkere "th"-d)</td><td>ض / ظ</td></tr>
+<tr><td><strong>ḍ</strong></td><td>donkere d</td><td>ض / ظ</td></tr>
 <tr><td><strong>ṭ</strong></td><td>donkere t</td><td>ط</td></tr>
 <tr><td><strong>ẓ</strong></td><td>donkere z</td><td>—</td></tr>
 <tr><td><strong>ṣ</strong></td><td>donkere s</td><td>ص</td></tr>
-<tr><td><strong>ṛ</strong></td><td>donkere r</td><td>—</td></tr>
-<tr><td><strong>ḷ</strong></td><td>donkere l</td><td>ل (zeldzaam in Tarifit)</td></tr>
+<tr><td><strong>ṛ</strong></td><td>donkere r</td><td>ر</td></tr>
 </tbody>
 </table>
 
-<p>De <em>ḍ</em> heeft twee uitspraakvarianten: een harde en een geblazen ("th"-achtige) versie. Welke je gebruikt hangt af van de positie in het woord — in praktijk leer je dat per woord.</p>
+<p><strong>Donkerte verspreidt zich.</strong> Staat er één donkere medeklinker in een woord, dan kleuren alle andere klanken mee. In <span class="tar">nẓumm</span> "wij vasten" is alleen de <em>ẓ</em> formeel donker, maar in uitspraak klinkt het als <em>ṇẓụṃṃ</em>.</p>
 
-<p><strong>Belangrijke eigenschap</strong>: faryngalisering verspreidt zich door het hele woord. Zit er één donkere medeklinker in, dan kleurt de hele rest mee. In <span class="tar">nẓum</span> "wij vasten" is alleen de <em>ẓ</em> formeel donker, maar de <em>n</em> en <em>u</em> klinken in praktijk ook donkerder.</p>
-
-<p>Van deze letters komen <em>ḍ</em>, <em>ẓ</em> en <em>ṛ</em> het meest voor in woorden van Berberse oorsprong. <em>ṭ</em>, <em>ṣ</em> en <em>ḷ</em> staan vooral in leenwoorden uit het Arabisch of Spaans.</p>
-
-<h2>2.6 De ng-klank (η)</h2>
-<p class="source">📖 Boek p. 28</p>
-
-<p>De klank <em>η</em> — dezelfde als de <em>ng</em> in het Engelse <em>king</em> — bestaat in Tarifit alleen <strong>vóór een <em>w</em></strong>. Het is een automatische variant van <em>n</em>.</p>
-
+<p>Vergelijk normaal vs. donker:</p>
 <ul>
-<li><span class="tar">yegʷa</span> "het kookte" — de stam-<em>n</em> wordt automatisch <em>η</em>-achtig in uitspraak</li>
-<li><span class="tar">gʷaman</span> "van het water" — uit <span class="tar">n waman</span>: de <em>n</em> assimileert tot <em>ŋw</em></li>
+<li><span class="tar">zu</span> vs <span class="tar">ẓẓu</span> "blaffen / planten"</li>
+<li><span class="tar">swa</span> vs <span class="tar">ẓwa</span> "kosten / oversteken"</li>
 </ul>
 
-<p>Dit hoef je niet actief te leren — het gebeurt vanzelf bij het uitspreken.</p>
+<h3>De gelabializeerde <em>ggʷ</em> en <em>kkʷ</em></h3>
 
-<h2>2.7 De gelabializeerde <em>ggʷ</em> en <em>kkʷ</em></h2>
-<p class="source">📖 Boek p. 28</p>
-
-<p>Bij deze klanken rond je je lippen tijdens de uitspraak — vergelijkbaar met de <em>qu</em> in Engels <em>quick</em>. Ze bestaan <strong>alleen als verdubbelde medeklinker</strong>: nooit als losse <em>gw</em> of <em>kw</em>.</p>
+<p>Bij <em>ggʷ</em> en <em>kkʷ</em> rond je je lippen tijdens de uitspraak — vergelijkbaar met <em>qu</em> in Engels <em>quick</em> of <em>gw</em> in Engels <em>Gwen</em>. Ze bestaan <strong>alleen als verdubbelde medeklinker</strong>.</p>
 
 <ul>
-<li><span class="tar">aḏeggʷaṛ</span> "schoonvader"</li>
-<li><span class="tar">yeddakkʷaḥ</span> "hij gaat altijd naar huis"</li>
+<li><span class="tar">aseggʷas</span> "jaar"</li>
+<li><span class="tar">iggʷeḏ</span> "vrezen"</li>
+<li><span class="tar">hekkʷa</span> "neerdalen"</li>
+<li><span class="tar">sekkʷa</span> "kosten"</li>
 </ul>
 
-<h2>2.8 De l die veranderd is — l, ll en wat ervan geworden is</h2>
+<h3>Spirantisering — de zachte varianten</h3>
+<p class="source">📖 Boek p. 26</p>
+
+<p>De stops <em>b, d, t, g, k</em> worden in de meeste omstandigheden zacht uitgesproken. Dit heet <em>spirantisering</em>. De zachte varianten worden aangegeven met een streepje onder de letter:</p>
+
+<table>
+<thead><tr><th>Letter</th><th>IPA</th><th>Vergelijking</th></tr></thead>
+<tbody>
+<tr><td><strong>ḇ</strong></td><td>/β/</td><td>zachte Spaanse <em>b</em> — lippen sluiten niet helemaal</td></tr>
+<tr><td><strong>ḏ</strong></td><td>/ð/</td><td><em>th</em> in Engels <em>this</em></td></tr>
+<tr><td><strong>ṯ</strong></td><td>/θ/</td><td><em>th</em> in Engels <em>think</em></td></tr>
+<tr><td><strong>ḵ</strong></td><td>/ç/</td><td><em>ch</em> in Duits <em>ich</em> — in Nador-Tarifit vrijwel verdwenen</td></tr>
+<tr><td><strong>g</strong></td><td>→ <strong>y</strong></td><td>in Nador volledig vervangen door <em>y</em></td></tr>
+</tbody>
+</table>
+
+<p><strong>Wanneer blijft de klank hard?</strong></p>
+<ol>
+<li>Als de medeklinker <strong>verdubbeld</strong> is: <span class="tar">yeddaa</span> "hij woont".</li>
+<li><strong>Direct na <em>n</em></strong>: <span class="tar">yenḏu</span> "hij sprong".</li>
+<li>In een <strong>medeklinkercluster aan het einde</strong> van een woord: <span class="tar">ṯafunasṯ</span> "koe".</li>
+</ol>
+
+<div class="box warn">
+<div class="box-title">Dialect-verschil</div>
+<p style="margin: 0;">In Iqeṛɛiyen-Tarifit (Nador) is <em>ḵ</em> vrijwel verdwenen en is <em>g</em> regelmatig <em>y</em> geworden. In andere Rif-dialecten (zoals Ayt Weryaghel) bestaan die klanken nog wel.</p>
+</div>
+
+<h2>2.4 Historische L — ř, ǧ en tc</h2>
 <p class="source">📖 Boek p. 28–29</p>
 
-<p>Een van de meest opvallende klankverschijnselen van Tarifit. In andere Berbertalen bestaat gewoon de <em>l</em>. In Tarifit zijn er in de loop van de geschiedenis twee veranderingen opgetreden:</p>
+<p>Een van de meest opvallende kenmerken van Tarifit vergeleken met andere Berbertalen: de <em>l</em> is op drie manieren veranderd. Als je een <em>ř</em>, <em>ǧ</em> of <em>tc</em> ziet, weet je dat daar ooit een <em>l</em> of <em>ll</em> stond.</p>
 
-<ul>
-<li>De <strong>enkele <em>l</em></strong> is een <em>r</em>-achtige klank geworden, geschreven als <strong>ř</strong> (r met een haakje). In uitspraak lijkt het sterk op de gewone <em>r</em>, maar heeft minder invloed op de klinkers eromheen.</li>
-<li>De <strong>dubbele <em>ll</em></strong> is een klank als de <em>j</em> in Engels <em>joke</em> geworden, geschreven als <strong>ǧ</strong>.</li>
-</ul>
+<h3>Enkelvoudige l → ř</h3>
 
-<p>Dat verklaart waarom je in vervoegingen soms andere medeklinkers ziet voor dezelfde stam:</p>
+<p>In de meeste Berbertalen staat gewoon een <em>l</em>. In Tarifit is die <em>l</em> veranderd in een <em>r</em>-achtige klank, geschreven als <strong>ř</strong> (r met haakje). In de oostelijke dialecten (Ikebdanen, Ayt Iznassen) bestaat de oude <em>l</em> nog.</p>
 
-<ul>
-<li><span class="tar">yeqřa</span> "hij bakte" tegenover <span class="tar">iqeǧǧa</span> "hij bakt altijd" — de <em>ř</em> wordt <em>ǧǧ</em> bij verdubbeling</li>
-<li><span class="tar">ǧiřeṯ</span> "nacht" — uit Marokkaans Arabisch <em>l-lila</em>: de eerste <em>ll</em> werd <em>ǧ</em>, de tweede <em>l</em> werd <em>ř</em></li>
-</ul>
+<table>
+<thead><tr><th>Andere Berbertalen</th><th>Tarifit</th><th>Betekenis</th></tr></thead>
+<tbody>
+<tr><td>ul</td><td><span class="tar">uř</span></td><td>hart</td></tr>
+<tr><td>aɣyul</td><td><span class="tar">aɣyuř</span></td><td>ezel</td></tr>
+<tr><td>tili</td><td><span class="tar">ṯiři</span></td><td>schaduw</td></tr>
+<tr><td>acemlal</td><td><span class="tar">acemřař</span></td><td>wit</td></tr>
+</tbody>
+</table>
+
+<h3>Dubbele ll → ǧ</h3>
+
+<p>De dubbele <em>ll</em> is in Tarifit de klank geworden van de <em>j</em> in Engels <em>joke</em>, geschreven als <strong>ǧ</strong>. In sommige dialecten werd het een <em>dd</em>.</p>
+
+<table>
+<thead><tr><th>Andere Berbertalen</th><th>Tarifit</th><th>Betekenis</th></tr></thead>
+<tbody>
+<tr><td>yelli</td><td><span class="tar">yeǧi</span></td><td>dochter</td></tr>
+<tr><td>ulli</td><td><span class="tar">uǧi</span></td><td>vee</td></tr>
+<tr><td>allun</td><td><span class="tar">aǧun</span></td><td>tamboerijn</td></tr>
+<tr><td>lluz</td><td><span class="tar">ǧuz</span></td><td>honger hebben</td></tr>
+</tbody>
+</table>
+
+<h3>lt-combinatie → tc</h3>
+
+<p>De combinatie <em>lt</em> is niet veranderd naar <em>řt</em> zoals je zou verwachten, maar is nog verder gegaan: het werd <strong>tc</strong> (/tʃ/, zoals <em>ch</em> in Engels <em>China</em>).</p>
+
+<table>
+<thead><tr><th>Andere Berbertalen</th><th>Tarifit</th><th>Betekenis</th></tr></thead>
+<tbody>
+<tr><td>taɣyult</td><td><span class="tar">taɣyutc</span></td><td>ezelin</td></tr>
+<tr><td>tacemlalt</td><td><span class="tar">tacemřatc</span></td><td>wit (vrouwelijk)</td></tr>
+<tr><td>tanwalt</td><td><span class="tar">tanwatc</span></td><td>hut</td></tr>
+</tbody>
+</table>
 
 <div class="box tip">
 <div class="box-title">Patroon herkennen</div>
-<p style="margin: 0;">Zie je een <em>ǧ</em>? Dan zat daar oorspronkelijk een <em>ll</em>. Zie je een <em>ř</em>? Dan zat daar een <em>l</em>. Een vrouwelijk woord op <em>-c</em>? Dan was de stam-eind oorspronkelijk <em>-ř</em> en is de vrouwelijke <em>-ṯ</em> daarmee samengevallen. Voorbeeld: <span class="tar">ameǧač</span> komt uit <span class="tar">ameǧař + ṯ</span> — meervoud <span class="tar">ṯimeǧařin</span>. Eén woordfamilie waarin <em>ǧ</em>, <em>ř</em> en <em>č</em> alle drie sporen zijn van dezelfde oude <em>l</em>.</p>
+<p style="margin: 0;">Zie je een <em>ř</em>? Dan was dat een <em>l</em>. Zie je een <em>ǧ</em>? Dan was dat een <em>ll</em>. Zie je een <em>tc</em>? Dan was dat een <em>lt</em>. Eén woordfamilie toont alle drie: <span class="tar">ameǧař</span> (ei, m) — meervoud <span class="tar">imeǧařen</span> — vrouwelijk <span class="tar">tameǧatc</span> — vrouwelijk meervoud <span class="tar">timeǧařin</span>.</p>
 </div>
 
-<h2>2.9 De r in Nador — een klank die klinker wordt</h2>
+<h2>2.5 De r in Nador — een klank die klinker wordt</h2>
 <p class="source">📖 Boek p. 28</p>
 
-<p>Misschien de meest opvallende uitspraakregel van Nador-Tarifit, en de reden dat veel woorden er anders uitzien dan in andere dialecten.</p>
+<p>In historisch Tarifit en andere Berbertalen werd elke <em>r</em> als <em>r</em> uitgesproken. In Nador-Tarifit is de <em>r</em> langzaam veranderd in een klinkerklank — voornamelijk een /a/-klank — wanneer hij niet direct gevolgd wordt door een echte klinker. De neutrale <em>e</em> telt daarbij niet mee.</p>
 
-<p><strong>De regel</strong>: wanneer een <em>r</em> niet direct gevolgd wordt door een echte klinker (<em>a</em>, <em>i</em> of <em>u</em>), wordt hij in Nador niet als <em>r</em> uitgesproken. In plaats daarvan wordt de klinker ervóór langer. De schwa (<em>e</em>) telt daarbij niet als echte klinker.</p>
-
-<p>Het boek schrijft deze verandering met een extra <em>a</em> achter de klinker:</p>
+<p>In schrijfwijze bewaren we de <em>r</em>, maar we geven de klankverandering aan met een macron:</p>
 
 <table>
-<thead><tr><th>Wat er stond</th><th>Hoe het klinkt</th><th>Voorbeeld</th></tr></thead>
+<thead><tr><th>Historisch</th><th>Moderne uitspraak</th><th>Schrijfwijze in deze cursus</th></tr></thead>
 <tbody>
-<tr><td><em>er</em> of <em>ar</em></td><td>→ <strong>aa</strong></td><td>(historische vorm) <span class="tar">yekker</span> → <span class="tar">yekkaa</span> "hij stond op"</td></tr>
-<tr><td><em>ur</em></td><td>→ <strong>ua</strong></td><td>(historische vorm) <span class="tar">curdu</span> → <span class="tar">cuaḏu</span> "vlo"</td></tr>
-<tr><td><em>ir</em></td><td>→ <strong>ia</strong></td><td>(historische vorm) <span class="tar">irden</span> → <span class="tar">iaḏen</span> "tarwe"</td></tr>
+<tr><td><em>-ar</em></td><td>[aː]</td><td><em>-ār</em></td></tr>
+<tr><td><em>-er</em> of losse <em>r</em></td><td>[æ]</td><td><em>-ar</em></td></tr>
+<tr><td><em>-ur</em></td><td>[wa]</td><td><em>-uār</em></td></tr>
+<tr><td><em>-ir</em></td><td>[ja]</td><td><em>-yār</em></td></tr>
 </tbody>
 </table>
 
-<p>Dit geldt ook voor de donkere <em>ṛ</em>: <em>aṛ</em> wordt <em>aa</em>, <em>uṛ</em> wordt <em>ua</em>, <em>iṛ</em> wordt <em>ia</em>.</p>
+<p>De <em>r</em> wordt wél als <em>r</em> uitgesproken als hij direct voor een echte klinker staat: <span class="tar">ru</span> "huilen", <span class="tar">ura</span> "noch", <span class="tar">ari</span> "esparto-gras".</p>
 
-<p><strong>Wanneer blijft de <em>r</em> wel hoorbaar?</strong> Wanneer hij direct voor een echte klinker staat. Hij klinkt dan als een korte tik-r, vergelijkbaar met de Spaanse <em>r</em> in <em>pero</em>. Voorbeelden: <span class="tar">ari</span> "esparto-gras", <span class="tar">aṛu</span> "geboorte geven".</p>
+<p>Voorbeelden van de verandering:</p>
+<ul>
+<li><span class="tar">ɣār</span> "naar" (historisch: <em>ɣar</em>)</li>
+<li><span class="tar">ḏ̣ār</span> "voet" (historisch: <em>ḍar</em>)</li>
+<li><span class="tar">kkar</span> "opstaan" (historisch: <em>kker</em>)</li>
+<li><span class="tar">t̲addart̲</span> "huis" (historisch: <em>taddert</em>)</li>
+<li><span class="tar">cuarḏu</span> "vlo" (historisch: <em>curdu</em>)</li>
+<li><span class="tar">yārḏen</span> "tarwe" (historisch: <em>irden</em>)</li>
+</ul>
 
-<p>De <strong>dubbele <em>rr</em></strong> wordt als triller uitgesproken, zoals de <em>rr</em> in Spaans <em>perro</em>. Hij heeft hetzelfde verlengende effect op de klinker ervóór als de enkele <em>r</em>.</p>
+<p>De reden om de <em>r</em> in schrijfwijze te bewaren: in andere vormen van hetzelfde woord kan de <em>r</em> zichtbaar terugkomen. Als we hem weglaten in één vorm en hij ineens opduikt in een andere, wordt het verwarrend.</p>
 
-<h2>2.10 Verdubbelde medeklinkers (geminatie)</h2>
+<h2>2.6 Verdubbelde medeklinkers (geminatie)</h2>
 <p class="source">📖 Boek p. 29</p>
 
-<p>Wanneer een medeklinker dubbel geschreven is, hou je hem langer aan. Geen spelling-kwestie — geminatie kan de betekenis veranderen. Voorbeeld: <span class="tar">yezḏey</span> "hij woont" tegenover <span class="tar">izeddey</span> "hij woont altijd" — alleen de dubbele <em>dd</em> verschilt.</p>
+<p>Een dubbele medeklinker hou je langer aan. Geminatie kan de betekenis veranderen — het is geen spelfout. Voorbeeld: <span class="tar">yezḏey</span> "hij woont" tegenover <span class="tar">izeddey</span> "hij woont altijd".</p>
+
+<p>Lettergrepen helpen: <span class="tar">uccen</span> "wolf" = <em>uc-cen</em>; <span class="tar">nnem</span> "jouw (vrouwelijk)" = <em>en-nem</em>.</p>
 
 <h3>Onregelmatige verdubbeling</h3>
 
-<p>Bij een aantal medeklinkers is de verdubbelde versie niet gewoon twee keer dezelfde klank, maar een andere klank:</p>
+<p>Bij een aantal medeklinkers is de verdubbelde vorm niet gewoon twee keer dezelfde klank:</p>
 
 <table>
 <thead><tr><th>Enkelvoud</th><th>Verdubbeld</th><th>Voorbeeld</th></tr></thead>
@@ -360,24 +426,22 @@
 </tbody>
 </table>
 
-<p>Deze patronen zijn vooral relevant voor werkwoorden: dezelfde stam, andere vorm in de Imperfectief.</p>
-
-<h2>2.11 Semivowels w en y</h2>
+<h2>2.7 Semivowels w en y</h2>
 <p class="source">📖 Boek p. 30</p>
 
-<p>In Tarifit zijn <em>w</em> en <em>y</em> als medeklinkers duidelijk te onderscheiden van de klinkers <em>u</em> en <em>i</em>. Dat is niet in alle Berbertalen zo. Twee situaties waar het onderscheid wegvalt:</p>
+<p>De <em>w</em> en <em>y</em> zijn als medeklinkers te onderscheiden van de klinkers <em>u</em> en <em>i</em>, maar vallen in twee situaties samen:</p>
 
 <ol>
 <li>Als <em>ye-</em> of <em>we-</em> in een open lettergreep komen, worden ze <em>i-</em> of <em>u-</em>. Voorbeeld: <span class="tar">yefhem</span> "hij begreep" tegenover <span class="tar">ifehm-as</span> "hij begreep het voor hem".</li>
-<li>Aan het einde van een woord veranderen <em>-ey</em> en <em>-ew</em> in <em>-i</em> en <em>-u</em>. Voorbeeld: (historisch) <span class="tar">yufey</span> → <span class="tar">yufi</span> "hij ging omhoog", (historisch) <span class="tar">yenḏew</span> → <span class="tar">yenḏu</span> "hij sprong".</li>
+<li>Aan het einde van een woord veranderen <em>-ey</em> en <em>-ew</em> in <em>-i</em> en <em>-u</em>. Maar alleen als ze de allerlaatste positie innemen: <span class="tar">yenḏew</span> → <span class="tar">yenḏu</span> "hij sprong"; <span class="tar">iney</span> → <span class="tar">ini</span> "zeggen".</li>
 </ol>
 
-<h2>2.12 Klanken die elkaar beïnvloeden (assimilaties)</h2>
+<h2>2.8 Klanken die elkaar beïnvloeden (assimilaties)</h2>
 <p class="source">📖 Boek p. 30–32</p>
 
 <h3>Geen spirantisering aan het woordeinde</h3>
 
-<p>In Iqeṛɛiyen-Tarifit (Nador) krijgt de laatste medeklinker van een cluster aan het einde van een woord <strong>geen</strong> zachte uitspraak. <span class="tar">ṯaɛeḏḏisṯ</span> "buik" eindigt op een harde <em>t</em>, niet de zachte variant. Dit is dialect-specifiek — in Ayt Seid (oostelijker) geldt dit niet.</p>
+<p>In Iqeṛɛiyen-Tarifit (Nador) krijgt de laatste medeklinker van een cluster aan het einde van een woord geen zachte uitspraak. <span class="tar">ṯaɛeḏḏisṯ</span> "buik" eindigt op een harde <em>t</em>. In andere dialecten geldt dit niet.</p>
 
 <h3>De vrouwelijke <em>-ṯ</em> verandert de letter ervóór</h3>
 
@@ -390,33 +454,31 @@
 <tr><td><em>ṯalwiz + ṯ</em></td><td><span class="tar">ṯalwisṯ</span></td><td>goudmunt</td></tr>
 <tr><td><em>ṯmaziɣ + ṯ</em></td><td><span class="tar">ṯmazixṯ</span></td><td>Berbertaal</td></tr>
 <tr><td><em>ṯabriḏ + ṯ</em></td><td><span class="tar">ṯabriṭ</span></td><td>pad</td></tr>
-<tr><td><em>ṯameǧař + ṯ</em></td><td><span class="tar">ṯameǧač</span></td><td>ei (V)</td></tr>
+<tr><td><em>ṯameǧař + ṯ</em></td><td><span class="tar">ṯameǧatc</span></td><td>ei (vrouwelijk)</td></tr>
 </tbody>
 </table>
 
-<p>In het meervoud verdwijnt de uitgang en zie je de oorspronkelijke stam terug: <span class="tar">ṯameǧač</span> (ei) — meervoud <span class="tar">ṯimeǧařin</span>.</p>
+<p>In het meervoud verdwijnt de uitgang en zie je de oorspronkelijke stam terug: <span class="tar">ṯameǧatc</span> — meervoud <span class="tar">ṯimeǧařin</span>.</p>
 
 <h3>Geen spirantisering na <em>n</em></h3>
 
-<p>Na de alveolaire nasaal <em>n</em> worden zachte medeklinkers hard. Dit geldt ook over woordgrenzen heen, hoewel het boek dat in transcripties niet altijd weergeeft.</p>
+<p>Na de <em>n</em> worden zachte medeklinkers hard — ook over woordgrenzen heen.</p>
 
 <h3>De voorzetsels <em>ḏi</em> en <em>zzi</em> voor klinkers</h3>
 
-<p>Het voorzetsel <span class="tar">ḏi</span> "in" en <span class="tar">zzi</span> "van/uit" veranderen wanneer ze voor <em>i</em>, <em>y</em>, <em>w</em> of <em>u</em> staan: ze worden <em>ḏegg</em> of <em>zegg</em>.</p>
+<p>Het voorzetsel <span class="tar">ḏi</span> "in" en <span class="tar">zzi</span> "van/uit" veranderen voor <em>i, y, w</em> of <em>u</em> in <em>ḏegg</em> of <em>zegg</em>.</p>
 
 <ul>
 <li><span class="tar">ḏi yifri</span> → <span class="tar">ḏegg ifri</span> "in de grot"</li>
 <li><span class="tar">zzi iḏuraa</span> → <span class="tar">zzegg ḏuraa</span> "van de bergen"</li>
 </ul>
 
-<p>Voor <em>w</em> of <em>u</em> wordt het <em>ḏeggʷ</em> of <em>zeggʷ</em>.</p>
-
 <h3>Het partikel <em>n</em> "van" gedraagt zich onregelmatig</h3>
 
 <ul>
-<li>Vóór <em>u</em> of <em>i</em>: de <em>n</em> valt volledig weg. <span class="tar">ṯaḏḏarṯ ujeǧiḏ</span> "het huis van de koning" — de <em>n</em> is onzichtbaar.</li>
-<li>Vóór <em>w</em>: de <em>n</em> wordt een <em>η</em> (ng-klank).</li>
-<li>Vóór een lipklank, keelklank of <em>l</em>: de <em>n</em> assimileert volledig. Voorbeelden: <span class="tar">m midden</span> "van mensen", <span class="tar">f Faḍma</span> "van Faḍma", <span class="tar">l ralla</span> "van de mevrouw".</li>
+<li>Vóór <em>u</em> of <em>i</em>: de <em>n</em> valt weg. Voorbeeld: <span class="tar">ṯaḏḏarṯ ujeǧiḏ</span> "het huis van de koning".</li>
+<li>Vóór <em>w</em>: de <em>n</em> wordt een ng-klank.</li>
+<li>Vóór een lipklank, keelklank of <em>l</em>: de <em>n</em> assimileert volledig.</li>
 </ul>
 
 <h2>Samenvatting</h2>
@@ -424,17 +486,16 @@
 <table>
 <thead><tr><th>Concept</th><th>Kernpunt</th></tr></thead>
 <tbody>
-<tr><td>Schrijfsystemen</td><td>Vier in omloop — dit boek gebruikt de wetenschappelijke transcriptie</td></tr>
-<tr><td>Klinkers</td><td>Drie echte (<em>a, i, u</em>) plus schwa (<em>e</em>) die vaak wegvalt in spraak</td></tr>
-<tr><td>Donkere klinkers</td><td>Kleuren automatisch mee naast faryngaliseringsmedeklinkers</td></tr>
-<tr><td>Keelklanken</td><td><em>ɣ, x, q, ɛ, ḥ</em> — nieuw voor Nederlandstaligen, identiek aan Arabisch غ خ ق ع ح</td></tr>
-<tr><td>Spirantisering</td><td><em>ḇ, ḏ, ṯ, ḵ, g</em> — zacht behalve verdubbeld, na <em>n</em>, of in een slot-cluster</td></tr>
-<tr><td>Faryngalisering</td><td>Puntje onder de letter — donkere klank die de hele woordklank kleurt</td></tr>
-<tr><td>l → ř / ll → ǧ</td><td>Historische verandering — verklaart waarom je in vervoegingen verschillende medeklinkers voor dezelfde stam ziet</td></tr>
-<tr><td>Gevocaliseerde <em>r</em></td><td><em>r</em> zonder volgende klinker → klinker ervóór wordt lang: <em>ar/er</em>→<em>aa</em>, <em>ur</em>→<em>ua</em>, <em>ir</em>→<em>ia</em></td></tr>
-<tr><td>Verdubbeling</td><td>Lang aanhouden — soms verandert de klank zelf (<em>ɣ</em>→<em>qq</em>, <em>ř</em>→<em>ǧǧ</em>)</td></tr>
-<tr><td><em>ggʷ</em> en <em>kkʷ</em></td><td>Lipronden tijdens uitspraak — alleen als geminaat</td></tr>
-<tr><td>Semivowels</td><td><em>w</em> en <em>y</em> zijn aparte medeklinkers van <em>u</em> en <em>i</em>, kunnen samenvallen aan een woordeinde</td></tr>
+<tr><td>Schrijfsysteem</td><td>Eén teken per klank; letters geen cijfers; zachte varianten met streepje onder</td></tr>
+<tr><td>Klinkers a, i, u</td><td>Drie echte klinkers plus schwa (<em>e</em>) die vaak wegvalt in spraak</td></tr>
+<tr><td>Donkere klinkers</td><td>Klinken doffer naast donkere medeklinkers — verspreidt zich door het hele woord</td></tr>
+<tr><td>Donkere medeklinkers</td><td>Puntje onder de letter: <em>ḍ, ṭ, ẓ, ṣ, ṛ</em> — identiek aan Arabische nadrukletters</td></tr>
+<tr><td>Spirantisering</td><td><em>ḇ, ḏ, ṯ, ḵ</em> — zacht behalve verdubbeld, na <em>n</em>, of in slot-cluster</td></tr>
+<tr><td>ggʷ / kkʷ</td><td>Lipronden tijdens uitspraak — alleen als geminaat</td></tr>
+<tr><td>l → ř / ll → ǧ / lt → tc</td><td>Historische verandering — verklaart wisselende medeklinkers in vervoegingen</td></tr>
+<tr><td>Gevocaliseerde <em>r</em></td><td><em>r</em> zonder volgende klinker → <em>-ār, -uār, -yār, -ar</em></td></tr>
+<tr><td>Verdubbeling</td><td>Lang aanhouden — soms verandert de klank zelf (<em>ɣ→qq, ř→ǧǧ</em>)</td></tr>
+<tr><td>Semivowels</td><td><em>w</em> en <em>y</em> kunnen samenvallen met <em>u</em> en <em>i</em> aan het woordeinde</td></tr>
 <tr><td>Assimilaties</td><td>Vrouwelijke <em>-ṯ</em>, voorzetsels <em>ḏi/zzi</em> en partikel <em>n</em> veranderen klanken op vaste manieren</td></tr>
 </tbody>
 </table>
@@ -2867,6 +2928,24 @@
     }, { rootMargin: '-100px 0px -60% 0px' });
 
     sections.forEach(s => observer.observe(s));
+
+    // Mobile sidebar toggle
+    const sidebar = document.getElementById('sidebar');
+    const toggle  = document.getElementById('sidebar-toggle');
+    const nav     = document.getElementById('sidebar-nav');
+    function isMobile() { return window.innerWidth <= 900; }
+    toggle.addEventListener('click', () => {
+      const open = sidebar.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', String(open));
+    });
+    nav.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        if (isMobile()) {
+          sidebar.classList.remove('is-open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    });
   </script>
 </body>
 </html>
