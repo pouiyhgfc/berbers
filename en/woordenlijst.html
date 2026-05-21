@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Woordenlijst · Tarifit Cursus</title>
+  <title>Wordlist · Tarifit Course</title>
   <link rel="stylesheet" href="/styles.css?v=7">
   <style>
     .wl-controls {
@@ -253,7 +253,7 @@
 <body>
   <header class="topbar">
     <div class="topbar-inner">
-      <a href="index.html" class="brand" aria-label="Tarifit — naar home">
+      <a href="index.html" class="brand" aria-label="Tarifit — to home">
         <span class="brand-mark var-diamond" aria-hidden="true">
           <span class="lozenge"><span class="yaz">ⵣ</span></span>
         </span>
@@ -266,13 +266,13 @@
         <span class="brand-word">Tarif<span class="accent">it</span></span>
       </a>
       <nav class="topnav">
-        <a href="cursus.html">Cursus</a>
-        <a href="oefeningen.html">Oefeningen</a>
-        <a href="uitleg.html">Uitleg</a>
-        <a href="woordenlijst.html" class="active">Woordenlijst</a>
-        <a href="woord-inzenden.html" class="nav-quiet">Woord voorstellen</a>
-        <a href="boek.html">Het boek</a>
-      
+        <a href="cursus.html">Course</a>
+        <a href="oefeningen.html">Exercises</a>
+        <a href="uitleg.html">Grammar</a>
+        <a href="woordenlijst.html" class="active">Wordlist</a>
+        <a href="woord-inzenden.html" class="nav-quiet">Suggest a word</a>
+        <a href="boek.html">The book</a>
+
         <span class="lang-switch" role="group" aria-label="Language">
           <a href="/nl/woordenlijst.html" hreflang="nl">NL</a>
           <span class="lang-sep" aria-hidden="true">/</span>
@@ -284,26 +284,26 @@
 
   <main class="boek-container" style="max-width: 1080px;">
     <div class="boek-intro" style="margin-bottom: 24px;">
-      <div class="eyebrow">naslagwerk</div>
-      <h1 style="font-family: var(--font-display); font-size: 44px; font-weight: 500; letter-spacing: -0.02em; margin: 0 0 16px;">Woordenlijst</h1>
-      <p class="lead">Een verzamelde lijst van Tarifit-woorden met Nederlandse vertaling.</p>
+      <div class="eyebrow">reference</div>
+      <h1 style="font-family: var(--font-display); font-size: 44px; font-weight: 500; letter-spacing: -0.02em; margin: 0 0 16px;">Wordlist</h1>
+      <p class="lead">A collected list of Tarifit words with English translations.</p>
 
       <div class="wl-info">
-        <p><strong>Notatie:</strong> de lijst volgt het learntarifit-alfabet. Eén teken per klank: <em class="tar">c</em> = sj, <em class="tar">ǧ</em> = dj, <em class="tar">tc</em> = ch. Donkere medeklinkers (puntje onder: <em class="tar">ḍ ṣ ṭ ẓ ṛ</em>) kleuren het hele woord. Spiranten (streepje onder: <em class="tar">ṯ ḏ ḇ ḵ</em>) klinken blazend. <em class="tar">ř</em> was historisch een <em>l</em>.</p>
-        <p><strong>Varianten:</strong> woorden gescheiden door een schuine streep (bijv. <em class="tar">ssiɣ / ccel</em>) zijn gelijkwaardige alternatieven — beide vormen zijn correct.</p>
-        <p><strong>Zoeken &amp; filteren:</strong> diakritische tekens worden genegeerd, dus <code>tmazight</code> vindt zowel <em class="tar">ṯmazixt</em> als <em class="tar">t̲mazixt̲</em>. Filter op CEFR-niveau (A1–C2) of op woordsoort om gericht te leren.</p>
-        <p><strong>Anki-export:</strong> de exportknop maakt een tab-gescheiden bestand met hierarchische tags (<code>tarifit::cefr::A1</code>, <code>tarifit::woordsoort::znw_m_ev</code>). Importeer in Anki via <em>File → Import</em>; de filters (niveau, woordsoort, zoekterm) bepalen welke woorden worden meegenomen.</p>
-        <p><strong>Woord mist?</strong> Stel een aanvulling voor via <a href="woord-inzenden.html">woord voorstellen</a>.</p>
+        <p><strong>Notation:</strong> the list follows the learntarifit alphabet. One character per sound: <em class="tar">c</em> = sh, <em class="tar">ǧ</em> = j (as in "judge"), <em class="tar">tc</em> = ch. Emphatic consonants (dot below: <em class="tar">ḍ ṣ ṭ ẓ ṛ</em>) colour the whole word. Spirants (line below: <em class="tar">ṯ ḏ ḇ ḵ</em>) have a breathy quality. <em class="tar">ř</em> was historically an <em>l</em>.</p>
+        <p><strong>Variants:</strong> words separated by a slash (e.g. <em class="tar">ssiɣ / ccel</em>) are equivalent alternatives — both forms are correct.</p>
+        <p><strong>Search &amp; filter:</strong> diacritics are ignored, so <code>tmazight</code> finds both <em class="tar">ṯmazixt</em> and <em class="tar">t̲mazixt̲</em>. Filter by CEFR level (A1–C2) or by part of speech to study selectively.</p>
+        <p><strong>Anki export:</strong> the export button generates a tab-separated file with hierarchical tags (<code>tarifit::cefr::A1</code>, <code>tarifit::woordsoort::znw_m_ev</code>). Import into Anki via <em>File → Import</em>; the filters (level, part of speech, search term) determine which words are included.</p>
+        <p><strong>Word missing?</strong> Propose an addition via <a href="woord-inzenden.html">suggest a word</a>.</p>
       </div>
     </div>
 
     <div class="wl-controls">
-      <input type="text" class="wl-search" id="searchBox" placeholder="Zoek een woord (Tarifit of Nederlands)..." autocomplete="off">
+      <input type="text" class="wl-search" id="searchBox" placeholder="Search a word (Tarifit or English)..." autocomplete="off">
 
       <div class="wl-filters">
         <div class="wl-filter-group" id="niveauFilter">
-          <span class="wl-filter-label">Niveau:</span>
-          <button class="wl-filter-btn is-active" data-niveau="">Alle</button>
+          <span class="wl-filter-label">Level:</span>
+          <button class="wl-filter-btn is-active" data-niveau="">All</button>
           <button class="wl-filter-btn" data-niveau="A1">A1</button>
           <button class="wl-filter-btn" data-niveau="A2">A2</button>
           <button class="wl-filter-btn" data-niveau="B1">B1</button>
@@ -312,27 +312,27 @@
           <button class="wl-filter-btn" data-niveau="C2">C2</button>
         </div>
         <div class="wl-filter-group" id="soortFilter">
-          <span class="wl-filter-label">Woordsoort:</span>
+          <span class="wl-filter-label">Part of speech:</span>
           <select id="soortSelect" class="wl-filter-btn" style="font-family: var(--font-display); padding: 4px 9px;">
-            <option value="">alle</option>
-            <option value="ww">werkwoord</option>
-            <option value="znw_m_ev">zelfst.nw. (m, ev)</option>
-            <option value="znw_m_mv">zelfst.nw. (m, mv)</option>
-            <option value="znw_v_ev">zelfst.nw. (v, ev)</option>
-            <option value="znw_v_mv">zelfst.nw. (v, mv)</option>
-            <option value="znw">zelfst.nw. (overig)</option>
-            <option value="vnw_pers">pers. vnw.</option>
-            <option value="vnw_bez">bezit. vnw.</option>
-            <option value="vnw_aanw">aanw. vnw.</option>
-            <option value="vraagw">vraagwoord</option>
-            <option value="vz">voorzetsel</option>
-            <option value="voegw">voegwoord</option>
-            <option value="telw">telwoord</option>
-            <option value="ontk">ontkenning</option>
+            <option value="">all</option>
+            <option value="ww">verb</option>
+            <option value="znw_m_ev">noun (m, sg)</option>
+            <option value="znw_m_mv">noun (m, pl)</option>
+            <option value="znw_v_ev">noun (f, sg)</option>
+            <option value="znw_v_mv">noun (f, pl)</option>
+            <option value="znw">noun (other)</option>
+            <option value="vnw_pers">personal pron.</option>
+            <option value="vnw_bez">possessive pron.</option>
+            <option value="vnw_aanw">demonstrative pron.</option>
+            <option value="vraagw">question word</option>
+            <option value="vz">preposition</option>
+            <option value="voegw">conjunction</option>
+            <option value="telw">numeral</option>
+            <option value="ontk">negation</option>
           </select>
         </div>
-        <button class="wl-export-btn" id="exportBtn" title="Exporteer als tab-gescheiden bestand voor Anki (File → Import)">
-          Exporteer voor Anki
+        <button class="wl-export-btn" id="exportBtn" title="Export as tab-separated file for Anki (File → Import)">
+          Export for Anki
         </button>
       </div>
 
@@ -341,17 +341,17 @@
     </div>
 
     <div id="wordlist">
-      <div class="wl-loading">Woordenlijst laden…</div>
+      <div class="wl-loading">Loading wordlist…</div>
     </div>
   </main>
 
   <footer>
-    <p>Data: <code>assets/woordenlijst/woordenlijst.csv</code>. Nieuwe rijen hoef je alleen in die CSV te zetten en te pushen — deze pagina laadt de lijst automatisch (geen aparte HTML-wijziging). Bij een oudere weergave: hard vernieuwen (Ctrl+F5).</p>
+    <p>Data: <code>assets/woordenlijst/woordenlijst.csv</code>. To add new rows, just edit that CSV and push — this page loads the list automatically (no separate HTML change needed). If you see an older view: hard refresh (Ctrl+F5).</p>
   </footer>
 
   <script>
     // ==============================================================
-    // CSV-parser — handelt quoted velden en escaped quotes correct af
+    // CSV parser — correctly handles quoted fields and escaped quotes
     // ==============================================================
     function parseCSV(text) {
       const rows = [];
@@ -384,7 +384,7 @@
     }
 
     // ==============================================================
-    // Letter-mapping: van eerste karakter naar groep-letter
+    // Letter mapping: from first character to group letter
     // ==============================================================
     const LETTER_MAP = {
       'a': 'A', 'b': 'B', 'ḇ': 'B',
@@ -422,21 +422,21 @@
     ];
 
     function getLetter(word) {
-      // Pak het deel vóór de eerste '/' (varianten zoals "ssiɣ / ccel")
+      // Take the part before the first '/' (variants like "ssiɣ / ccel")
       const main = word.split('/')[0].trim().toLowerCase();
       if (!main) return '?';
-      // Eerst: probeer het originele karakter — zo behouden ḥ, ǧ, ɛ, ř etc. hun eigen rubriek
+      // First: try the original character — this way ḥ, ǧ, ɛ, ř etc. keep their own section
       const orig = main[0];
       if (LETTER_MAP[orig]) return LETTER_MAP[orig];
-      // Fallback: voor decomposed vormen (t + combining U+0331) eerst combining marks strippen
+      // Fallback: for decomposed forms (t + combining U+0331) strip combining marks first
       const stripped = main.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
       const c = stripped[0] || orig;
       return LETTER_MAP[c] || c.toUpperCase();
     }
 
     // ==============================================================
-    // Normaliseren voor zoeken — alle diakrieten en speciale tekens
-    // worden teruggebracht naar basisletters
+    // Normalising for search — all diacritics and special characters
+    // are reduced to base letters
     // ==============================================================
     function normalize(s) {
       return s.toLowerCase()
@@ -461,26 +461,26 @@
     let FILTER_QUERY = '';
 
     const SOORT_LABELS = {
-      ww: 'ww',
-      znw_m_ev: 'znw m·ev',
-      znw_m_mv: 'znw m·mv',
-      znw_v_ev: 'znw v·ev',
-      znw_v_mv: 'znw v·mv',
-      znw: 'znw',
-      vnw_pers: 'vnw·pers',
-      vnw_bez: 'vnw·bez',
-      vnw_aanw: 'vnw·aanw',
-      vraagw: 'vraagw',
-      vz: 'vz',
-      voegw: 'voegw',
-      telw: 'telw',
-      ontk: 'ontk',
+      ww: 'verb',
+      znw_m_ev: 'n m·sg',
+      znw_m_mv: 'n m·pl',
+      znw_v_ev: 'n f·sg',
+      znw_v_mv: 'n f·pl',
+      znw: 'noun',
+      vnw_pers: 'pron·pers',
+      vnw_bez: 'pron·poss',
+      vnw_aanw: 'pron·dem',
+      vraagw: 'qword',
+      vz: 'prep',
+      voegw: 'conj',
+      telw: 'num',
+      ontk: 'neg',
     };
 
     function renderEntry(e) {
-      // Niveau wordt bewust niet getoond — alleen woordsoort als kleine
-      // hint. Niveau zit wel in de data (filterbaar) en gaat mee in de
-      // Anki-export.
+      // Level is intentionally not displayed — only part of speech as a small
+      // hint. Level is in the data (filterable) and is included in the
+      // Anki export.
       const soortLabel = SOORT_LABELS[e.soort] || e.soort || '';
       const soortTag = soortLabel
         ? `<span class="wl-tags"><span class="wl-tag">${soortLabel}</span></span>`
@@ -501,7 +501,7 @@
 
       const container = document.getElementById('wordlist');
       if (entries.length === 0) {
-        container.innerHTML = '<div class="wl-empty">Geen woorden gevonden voor de huidige filters.</div>';
+        container.innerHTML = '<div class="wl-empty">No words found for the current filters.</div>';
         return;
       }
 
@@ -548,7 +548,7 @@
     }
 
     function setupLetterObserver() {
-      // Highlight de nav-link voor de zichtbare letter-sectie
+      // Highlight the nav link for the visible letter section
       const navLinks = document.querySelectorAll('.wl-letters-nav a');
       const linkByLetter = {};
       navLinks.forEach(a => { linkByLetter[a.dataset.letter] = a; });
@@ -584,7 +584,7 @@
 
     function updateStats(entries) {
       document.getElementById('stats').textContent =
-        `${entries.length} van ${ENTRIES.length} woorden`;
+        `${entries.length} of ${ENTRIES.length} words`;
     }
 
     function applyFilters() {
@@ -625,23 +625,23 @@
     }
 
     // ==============================================================
-    // Anki-export — schrijft een tab-gescheiden bestand naar disk.
+    // Anki export — writes a tab-separated file to disk.
     //
-    // Format per regel:
-    //   <Tarifit-woord>\t<Nederlandse betekenis>\t<tags>
+    // Format per line:
+    //   <Tarifit word>\t<English meaning>\t<tags>
     // Anki File → Import → Type: Basic → Field separator: Tab
-    // Lees Notes (with same first field) merge: yes
+    // Read Notes (with same first field) merge: yes
     // ==============================================================
     const NIVEAU_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 
     function exportAnki() {
       const filtered = applyFilters().slice();
       if (filtered.length === 0) {
-        alert('Geen woorden om te exporteren — pas je filters aan.');
+        alert('No words to export — adjust your filters.');
         return;
       }
-      // Sorteer eerst op CEFR-niveau (A1→C2) en daarna alfabetisch op
-      // het Tarifit-woord; zonder niveau gaan woorden achteraan.
+      // First sort by CEFR level (A1→C2) and then alphabetically by
+      // the Tarifit word; entries without a level go at the end.
       filtered.sort((a, b) => {
         const ai = NIVEAU_ORDER.indexOf(a.niveau);
         const bi = NIVEAU_ORDER.indexOf(b.niveau);
@@ -680,7 +680,7 @@
     }
 
     // ==============================================================
-    // CSV laden en initialiseren
+    // Load CSV and initialise
     // ==============================================================
     fetch('assets/woordenlijst/woordenlijst.csv', { cache: 'no-cache' })
       .then(resp => {
@@ -726,15 +726,15 @@
         const onFile = location.protocol === 'file:';
         if (onFile) {
           showError(
-            '<strong>De woordenlijst kan niet rechtstreeks vanaf je harde schijf geladen worden.</strong>' +
-            '<p>Browsers blokkeren <code>fetch()</code> op <code>file://</code>-adressen om veiligheidsredenen. Start de meegeleverde lokale server:</p>' +
-            '<p><code>.\\serve.ps1</code> in PowerShell, en open daarna <code>http://127.0.0.1:8080/woordenlijst.html</code>.</p>'
+            '<strong>The wordlist cannot be loaded directly from your hard drive.</strong>' +
+            '<p>Browsers block <code>fetch()</code> on <code>file://</code> addresses for security reasons. Start the included local server:</p>' +
+            '<p><code>.\\serve.ps1</code> in PowerShell, then open <code>http://127.0.0.1:8080/woordenlijst.html</code>.</p>'
           );
         } else {
           showError(
-            '<strong>De woordenlijst kon niet geladen worden.</strong>' +
-            `<p>Foutmelding: <code>${escapeHtml(err.message)}</code></p>` +
-            '<p>Controleer of <code>assets/woordenlijst/woordenlijst.csv</code> bestaat naast deze pagina.</p>'
+            '<strong>The wordlist could not be loaded.</strong>' +
+            `<p>Error message: <code>${escapeHtml(err.message)}</code></p>` +
+            '<p>Check that <code>assets/woordenlijst/woordenlijst.csv</code> exists alongside this page.</p>'
           );
         }
       });
