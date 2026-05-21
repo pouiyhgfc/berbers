@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Woord voorstellen · Tarifit</title>
-  <link rel="stylesheet" href="styles.css?v=7">
+  <link rel="stylesheet" href="/styles.css?v=7">
 </head>
 <body>
   <header class="topbar">
@@ -28,6 +28,12 @@
         <a href="woordenlijst.html">Woordenlijst</a>
         <a href="woord-inzenden.html" class="nav-quiet active">Woord voorstellen</a>
         <a href="boek.html">Het boek</a>
+      
+        <span class="lang-switch" role="group" aria-label="Language">
+          <a href="/nl/woord-inzenden.html" hreflang="nl">NL</a>
+          <span class="lang-sep" aria-hidden="true">/</span>
+          <a href="/en/woord-inzenden.html" class="active" hreflang="en">EN</a>
+        </span>
       </nav>
     </div>
   </header>
@@ -71,7 +77,7 @@
     <p>Gebaseerd op Mourigh &amp; Kossmann (2019).</p>
   </footer>
 
-  <script src="assets/js/supabase-config.js"></script>
+  <script src="/assets/js/supabase-config.js"></script>
   <script type="module">
 import { createTarifitClient } from './assets/js/tarifit-supabase-client.js';
 

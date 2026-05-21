@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Woord-inzendingen beheer · Tarifit</title>
-  <link rel="stylesheet" href="styles.css?v=7">
+  <link rel="stylesheet" href="/styles.css?v=7">
   <style>
     .wi-admin-login { max-width: 420px; margin-bottom: 32px; }
     .wi-admin-login input { width: 100%; margin-bottom: 12px; padding: 10px 14px; font-family: var(--font-serif); font-size: 16px; border: 1px solid var(--rule-strong); border-radius: 4px; }
@@ -39,6 +39,12 @@
         <a href="woordenlijst.html">Woordenlijst</a>
         <a href="woord-inzenden.html" class="nav-quiet">Woord voorstellen</a>
         <a href="boek.html">Het boek</a>
+      
+        <span class="lang-switch" role="group" aria-label="Language">
+          <a href="/nl/woord-inzenden-admin.html" class="active" hreflang="nl">NL</a>
+          <span class="lang-sep" aria-hidden="true">/</span>
+          <a href="/en/woord-inzenden-admin.html" hreflang="en">EN</a>
+        </span>
       </nav>
     </div>
   </header>
@@ -90,7 +96,7 @@
     <p>Gebaseerd op Mourigh &amp; Kossmann (2019).</p>
   </footer>
 
-  <script src="assets/js/supabase-config.js"></script>
+  <script src="/assets/js/supabase-config.js"></script>
   <script type="module">
 import { createTarifitClient } from './assets/js/tarifit-supabase-client.js';
 

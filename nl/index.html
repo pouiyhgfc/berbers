@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Tarifit — Leer de taal van het Rif</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <!--
+    Aesthetic, v2 — gestripped naar één coherent palet:
+    - Eén accentkleur: Rif-rood (#B22222) op zand/klei achtergrond.
+    - Géén Amazigh-tricolor in de UI; de identiteit zit in vorm (ruit, ⵣ) en typografie.
+    - Type: Instrument Serif (display, karaktervolle italics) + Newsreader (body, sterke diakritiek).
+    - Patroon: één monochrome zigzag-divider, optioneel.
+  -->
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="index.html" class="brand" aria-label="Tarifit — naar home">
+        <span class="brand-mark var-diamond" aria-hidden="true">
+          <span class="lozenge"><span class="yaz">ⵣ</span></span>
+        </span>
+        <span class="brand-mark var-wordmark" aria-hidden="true">
+          <span class="yaz-large">ⵣ</span>
+        </span>
+        <span class="brand-mark var-tile" aria-hidden="true">
+          <span class="tile"></span>
+        </span>
+        <span class="brand-word">Tarif<span class="accent">it</span></span>
+      </a>
+      <nav class="topnav" aria-label="Hoofdmenu">
+        <a href="cursus.html" class="active">Cursus</a>
+        <a href="oefeningen.html">Oefeningen</a>
+        <a href="uitleg.html">Uitleg</a>
+        <a href="woordenlijst.html">Woordenlijst</a>
+        <a href="woord-inzenden.html" class="quiet">Woord voorstellen</a>
+        <a href="boek.html">Het boek</a>
+      
+        <span class="lang-switch" role="group" aria-label="Language">
+          <a href="/nl/index.html" class="active" hreflang="nl">NL</a>
+          <span class="lang-sep" aria-hidden="true">/</span>
+          <a href="/en/index.html" hreflang="en">EN</a>
+        </span>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================================
+         HERO
+         ============================================ -->
+    <section class="hero" data-screen-label="01 Hero">
+      <span class="hero-tifi" aria-hidden="true">ⵜⴰⵔⵉⴼⵉⵜ</span>
+
+      <div class="hero-inner">
+        <div class="hero-main">
+          <div class="hero-eyebrow">
+            <span>Tmazixt · taal van het Rif</span>
+            <span class="sep">·</span>
+            <span class="tifi">ⵜⵎⴰⵣⵉⵖⵜ</span>
+          </div>
+
+          <h1>
+            Leer <em>Tarifit</em>,<br>
+            stap voor stap.
+          </h1>
+
+          <p class="hero-sub">
+            Een cursus voor wie de Berbertaal van zijn familie wil leren spreken — opgebouwd uit het wetenschappelijke werk van Mourigh &amp; Kossmann, hertaald naar het Nederlands.
+          </p>
+
+          <div class="hero-cta-row">
+            <a href="cursus.html" class="hero-cta">Begin met les 01</a>
+            <a href="uitleg.html" class="hero-cta-secondary">Of bekijk de grammatica</a>
+          </div>
+        </div>
+
+        <aside class="hero-side" aria-hidden="true">
+          <div class="hero-mark">ⵣ</div>
+          <div class="hero-meta">
+            <div class="hero-meta-row">
+              <div class="k">Sprekers</div>
+              <div class="v"><em>1,3M</em></div>
+            </div>
+            <div class="hero-meta-row">
+              <div class="k">Lessen</div>
+              <div class="v">28<em>+</em></div>
+            </div>
+            <div class="hero-meta-row">
+              <div class="k">Bron</div>
+              <div class="v">Mourigh &amp; Kossmann</div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <div class="bw-strip" aria-hidden="true"></div>
+
+    <!-- ============================================
+         LESSONS — three lanes, monochrome
+         ============================================ -->
+    <section class="lessons" data-screen-label="02 Drie lagen">
+      <header class="section-head">
+        <div>
+          <div class="num">§ 01 · Drie lagen</div>
+          <h2>Drie ingangen, <em>één taal</em>.</h2>
+        </div>
+        <p class="lede">Leer in volgorde, verdiep waar je vastloopt, of duik direct in de academische bron. Alle drie zijn aan elkaar gekoppeld — kies een ingang die past bij waar jij staat.</p>
+      </header>
+
+      <div class="cards">
+        <a href="cursus.html" class="card">
+          <div class="card-num">01 · Beginnen</div>
+          <div class="card-tifi">ⵜⵉⵖⵔⵉ</div>
+          <h3 class="card-title">De <em>cursus</em></h3>
+          <p class="card-desc">Stap voor stap leren — van uitspraak tot bijzinnen. Per les een duidelijk doel en geverifieerde voorbeelden.</p>
+          <span class="card-link">Start les 01</span>
+        </a>
+
+        <a href="uitleg.html" class="card">
+          <div class="card-num">02 · Verdiepen</div>
+          <div class="card-tifi">ⵜⴰⵎⵙⵙⵓⴳⵔⵜ</div>
+          <h3 class="card-title">De <em>uitleg</em></h3>
+          <p class="card-desc">De volledige grammatica van het boek, vertaald en uitgelegd in begrijpelijke taal. Voor wie dieper wil graven.</p>
+          <span class="card-link">Naar de grammatica</span>
+        </a>
+
+        <a href="boek.html" class="card">
+          <div class="card-num">03 · Bron</div>
+          <div class="card-tifi">ⴰⴷⵍⵉⵙ</div>
+          <h3 class="card-title">Het <em>boek</em></h3>
+          <p class="card-desc">Het volledige originele werk van Mourigh &amp; Kossmann (2019). De academische bron achter alles op deze site.</p>
+          <span class="card-link">Open het boek</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============================================
+         INTRO — sticky side + body
+         ============================================ -->
+    <section class="intro" data-screen-label="03 Hoe het werkt">
+      <aside class="intro-side">
+        <div class="eyebrow">§ 02 · Over de site</div>
+        <h2>Hoe deze site <em>werkt</em>.</h2>
+        <div class="glyph" aria-hidden="true">ⵣ</div>
+      </aside>
+
+      <div class="intro-body">
+        <p>
+          Tarifit (eigen naam: <span class="tar">tmazixt</span>) is de Berbertaal van het Rifgebergte, gesproken door ongeveer 1,3 miljoen mensen in Marokko en grote gemeenschappen in Nederland, België, Duitsland en Spanje.
+        </p>
+        <p>
+          De site werkt in drie lagen: leren, begrijpen, controleren. Mankeert er een woord? Gebruik <a href="woord-inzenden.html">Woord voorstellen</a> in het menu.
+        </p>
+
+        <div class="layers">
+          <div class="layer">
+            <div class="n">01</div>
+            <div>
+              <h3 class="t">De cursus</h3>
+              <p class="d">Voor lerén. Kort, gericht en in de juiste volgorde.</p>
+            </div>
+            <span class="tag">Leren</span>
+          </div>
+          <div class="layer">
+            <div class="n">02</div>
+            <div>
+              <h3 class="t">De uitleg</h3>
+              <p class="d">Voor begríjpen. Alle grammatica per onderwerp, vertaald uit het boek.</p>
+            </div>
+            <span class="tag">Begrijpen</span>
+          </div>
+          <div class="layer">
+            <div class="n">03</div>
+            <div>
+              <h3 class="t">Het boek</h3>
+              <p class="d">Voor controleren. De academische bron waar alles vandaan komt.</p>
+            </div>
+            <span class="tag">Bron</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         ALPHABET — schrijfwijze
+         ============================================ -->
+    <section class="alpha" data-screen-label="04 Schrijfwijze">
+      <div class="alpha-inner">
+        <div class="alpha-head">
+          <div>
+            <div class="eyebrow">§ 03 · Schrijfwijze</div>
+            <h2>Het <em>Latijns-Berber</em> alfabet.</h2>
+          </div>
+          <p class="lede">
+            We gebruiken de schrijfwijze van <a href="https://learntarifit.notion.site/Writing-in-Tarifit-164c13db52da80259699daa2e6c0c32e" target="_blank" rel="noopener">learntarifit</a>. Hieronder de letters die anders klinken dan je verwacht — klanken die het Latijnse alfabet niet vanzelf aanbiedt.
+          </p>
+        </div>
+
+        <div class="alpha-grid">
+          <div class="glyph-cell">
+            <span class="g">c</span>
+            <span class="ipa">ʃ</span>
+            <span class="desc">"sh" zoals in <em>show</em></span>
+          </div>
+          <div class="glyph-cell">
+            <span class="g">tc</span>
+            <span class="ipa">tʃ</span>
+            <span class="desc">"tch" zoals in <em>China</em></span>
+          </div>
+          <div class="glyph-cell">
+            <span class="g">ǧ</span>
+            <span class="ipa">dʒ</span>
+            <span class="desc">Engelse <em>j</em> in <em>joke</em>; online vaak <em>dj</em></span>
+          </div>
+          <div class="glyph-cell">
+            <span class="g">y</span>
+            <span class="ipa">j</span>
+            <span class="desc">palataal; <em>j</em> in <em>ja</em>, <em>yoga</em></span>
+          </div>
+          <div class="glyph-cell">
+            <span class="g">ɣ</span>
+            <span class="ipa">ɣ</span>
+            <span class="desc">Arabische ﻍ, "gh" zoals in <em>Maghreb</em></span>
+          </div>
+          <div class="glyph-cell">
+            <span class="g">x</span>
+            <span class="ipa">x</span>
+            <span class="desc">harde keel-h, "ch" in <em>lachen</em></span>
+          </div>
+          <div class="glyph-cell">
+            <span class="g">q</span>
+            <span class="ipa">q</span>
+            <span class="desc">diepe k achter in de keel</span>
+          </div>
+          <div class="glyph-cell">
+            <span class="g">ḥ</span>
+            <span class="ipa">ħ</span>
+            <span class="desc">scherpe ademende h (Arabisch ح)</span>
+          </div>
+          <div class="glyph-cell">
+            <span class="g">ɛ</span>
+            <span class="ipa">ʕ</span>
+            <span class="desc">knijpende keelklank (Arabisch ع)</span>
+          </div>
+          <div class="glyph-cell">
+            <span class="g">b̲ ḏ t̲ ḵ</span>
+            <span class="ipa">spirant</span>
+            <span class="desc">streepje onder — blazend uitgesproken</span>
+          </div>
+          <div class="glyph-cell">
+            <span class="g">ḍ ṣ ṭ ẓ ṛ</span>
+            <span class="ipa">emfatisch</span>
+            <span class="desc">puntje onder — donker, dieper in de mond</span>
+          </div>
+          <div class="glyph-cell cta">
+            <span class="g">Mis je iets?</span>
+            <span class="ipa">→</span>
+            <span class="desc"><a href="woord-inzenden.html">Stel een woord voor</a> en help de woordenlijst groeien.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-mark" aria-hidden="true"><span class="yaz">ⵣ</span></div>
+      <p>
+        Gebaseerd op Mourigh &amp; Kossmann, <em>An Introduction to Tarifiyt Berber (Nador, Morocco)</em> (2019). Gemaakt met respect voor de sprekers van het Rif.
+      </p>
+      <div class="meta">ⵜⴰⵔⵉⴼⵉⵜ · 2026</div>
+    </div>
+  </footer>
+
+  <!-- Tweaks panel mount -->
+  <div id="tweaks-root"></div>
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <script type="text/babel" src="/tweaks-panel.jsx"></script>
+  <script type="text/babel" src="/tweaks-app.jsx"></script>
+
+</body>
+</html>
