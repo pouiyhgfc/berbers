@@ -615,7 +615,7 @@
     // ==============================================================
     // CSV laden en initialiseren
     // ==============================================================
-    fetch('/assets/woordenlijst/woordenlijst-engels-import.csv', { cache: 'no-cache' }).then(resp => {
+    fetch('/assets/woordenlijst/woordenlijst.csv', { cache: 'no-cache' }).then(resp => {
         if (!resp.ok) throw new Error('HTTP ' + resp.status);
         return resp.text();
       }).then(text => {
@@ -623,10 +623,10 @@
         const dataRows = rows.slice(1);
         ENTRIES = dataRows.filter(r => r.length >= 2 && r[0].trim() && r[1].trim()).map(r => {
             const word = r[0].trim();
-            const meaning = r[1].trim();
-            const niveau = (r[2] || '').trim();
-            const soort = (r[3] || '').trim();
-            const ankiTag = (r[4] || '').trim();
+            const meaning = r[2].trim();
+            const niveau = (r[3] || '').trim();
+            const soort = (r[4] || '').trim();
+            const ankiTag = (r[5] || '').trim();
             const variants = word.split('/').map(s => s.trim()).filter(Boolean);
             const searchText = variants.map(normalize).join(' ');
             return {
@@ -659,7 +659,7 @@
         } else {
           showError('<strong>The wordlist could not be loaded.</strong>' +
             `<p>Error: <code>${escapeHtml(err.message)}</code></p>` +
-            '<p>Check if <code>assets/woordenlijst/woordenlijst-engels-import.csv</code> exists.</p>');
+            '<p>Check if <code>assets/woordenlijst/woordenlijst.csv</code> exists.</p>');
         }
       });
   </script>
