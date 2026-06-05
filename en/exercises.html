@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Exercises · Tarifit</title>
+  <link rel="stylesheet" href="/styles.css?v=7">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="index.html" class="brand" aria-label="Tarifit — home">
+        <span class="brand-mark var-diamond" aria-hidden="true">
+          <span class="lozenge"><span class="yaz">ⵣ</span></span>
+        </span>
+        <span class="brand-mark var-wordmark" aria-hidden="true">
+          <span class="yaz-large">ⵣ</span>
+        </span>
+        <span class="brand-mark var-tile" aria-hidden="true">
+          <span class="tile"></span>
+        </span>
+        <span class="brand-word">Tarif<span class="accent">it</span></span>
+      </a>
+      <nav class="topnav" aria-label="Main menu">
+        <a href="course.html">Course</a>
+        <a class="active" href="exercises.html">Exercises</a>
+        <a href="grammar.html">Grammar</a>
+        <a href="wordlist.html">Wordlist</a>
+        <a href="suggest-word.html" class="nav-quiet">Suggest a word</a>
+        <a href="book.html">The book</a>
+        <span class="lang-switch" role="group" aria-label="Language">
+          <a href="/nl/oefeningen.html" hreflang="nl">NL</a>
+          <span class="lang-sep" aria-hidden="true">/</span>
+          <a class="active" href="/en/exercises.html" hreflang="en">EN</a>
+        </span>
+      </nav>
+    </div>
+  </header>
+
+  <div class="app">
+    <aside class="sidebar" id="sidebar">
+      <button class="sidebar-toggle" id="sidebar-toggle" aria-expanded="false" aria-controls="sidebar-nav">
+        <span class="sidebar-toggle-label">Jump to lesson</span>
+        <span class="sidebar-toggle-arrow" aria-hidden="true">▾</span>
+      </button>
+      <div class="sidebar-nav" id="sidebar-nav">
+        <div class="sidebar-title">The Exercises</div>
+
+        <div class="sidebar-section">
+          <div class="sidebar-section-label">Level 1 · The basics</div>
+          <a href="#oef-les-01"><span class="num">01</span> Sounds &amp; alphabet</a>
+          <a href="#oef-les-02"><span class="num">02</span> Pronouns</a>
+          <a href="#oef-les-03"><span class="num">03</span> "I am..."</a>
+          <a href="#oef-les-04"><span class="num">04</span> Family words</a>
+          <a href="#oef-les-05"><span class="num">05</span> Greetings</a>
+        </div>
+
+        <div class="sidebar-section">
+          <div class="sidebar-section-label">Level 2 · Verbs</div>
+          <a href="#oef-les-06"><span class="num">06</span> What is a verb</a>
+          <a href="#oef-les-07"><span class="num">07</span> Conjugation I/you/he/she</a>
+          <a href="#oef-les-08"><span class="num">08</span> Conjugation we/you/they</a>
+          <a href="#oef-les-09"><span class="num">09</span> Aspect: completed vs ongoing</a>
+          <a href="#oef-les-10"><span class="num">10</span> Future with <em>ad</em></a>
+        </div>
+
+        <div class="sidebar-section">
+          <div class="sidebar-section-label">Level 3 · Nouns</div>
+          <a href="#oef-les-11"><span class="num">11</span> Masculine vs feminine</a>
+          <a href="#oef-les-12"><span class="num">12</span> Singular vs plural</a>
+          <a href="#oef-les-13"><span class="num">13</span> "My, your, his..."</a>
+          <a href="#oef-les-14"><span class="num">14</span> "This" and "that"</a>
+          <a href="#oef-les-15"><span class="num">15</span> Free &amp; annexed state</a>
+        </div>
+
+        <div class="sidebar-section">
+          <div class="sidebar-section-label">Level 4 · Building sentences</div>
+          <a href="#oef-les-16"><span class="num">16</span> Word order (VSO)</a>
+          <a href="#oef-les-17"><span class="num">17</span> Prepositions</a>
+          <a href="#oef-les-18"><span class="num">18</span> Numerals 1–10</a>
+          <a href="#oef-les-19"><span class="num">19</span> Question words</a>
+          <a href="#oef-les-20"><span class="num">20</span> Negation</a>
+        </div>
+
+        <div class="sidebar-section">
+          <div class="sidebar-section-label">Level 5 · Saying more</div>
+          <a href="#oef-les-21"><span class="num">21</span> Wanting, being able, beginning</a>
+          <a href="#oef-les-22"><span class="num">22</span> Pronoun suffixes</a>
+          <a href="#oef-les-23"><span class="num">23</span> And, or, but, if</a>
+          <a href="#oef-les-24"><span class="num">24</span> Time expressions</a>
+        </div>
+
+        <div class="sidebar-section">
+          <div class="sidebar-section-label">Level 6 · Refinement</div>
+          <a href="#oef-les-25"><span class="num">25</span> Special pronunciation</a>
+          <a href="#oef-les-26"><span class="num">26</span> Adjectives</a>
+          <a href="#oef-les-27"><span class="num">27</span> Collective vs countable</a>
+          <a href="#oef-les-28"><span class="num">28</span> Tribal names, <em>bu-, mu-</em></a>
+        </div>
+
+        <div class="sidebar-section">
+          <div class="sidebar-section-label">Level 7 · Advanced</div>
+          <a href="#oef-les-29"><span class="num">29</span> Causative <em>ss-</em></a>
+          <a href="#oef-les-30"><span class="num">30</span> Middle <em>mm-</em> &amp; passive <em>twa-</em></a>
+          <a href="#oef-les-31"><span class="num">31</span> Pseudo-verbs</a>
+          <a href="#oef-les-32"><span class="num">32</span> Relative clauses</a>
+          <a href="#oef-les-33"><span class="num">33</span> Cleft sentences</a>
+        </div>
+
+        <div class="sidebar-section">
+          <div class="sidebar-section-label">Level 8 · Practice</div>
+          <a href="#oef-les-34"><span class="num">34</span> Reading a story</a>
+          <a href="#oef-les-35"><span class="num">35</span> The fairy tale</a>
+          <a href="#oef-les-36"><span class="num">36</span> Dialogues</a>
+        </div>
+      </div><!-- /.sidebar-nav -->
+    </aside>
+
+    <main class="content">
+      <div class="eyebrow">the exercises</div>
+      <h1>Exercises</h1>
+      <p class="lead">All interactive tasks per lesson. Your progress is saved in this browser. Jump to a lesson via the sidebar or via <strong>Exercises for this lesson</strong> on the course page.</p>
+
+      <section class="oef-lesson" id="oef-les-01">
+        <h2>Lesson 01 — Sounds &amp; alphabet</h2>
+        <p class="oef-back"><a href="course.html#les-01">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-01"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-02">
+        <h2>Lesson 02 — Pronouns</h2>
+        <p class="oef-back"><a href="course.html#les-02">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-02"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-03">
+        <h2>Lesson 03 — "I am..."</h2>
+        <p class="oef-back"><a href="course.html#les-03">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-03"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-04">
+        <h2>Lesson 04 — Family words</h2>
+        <p class="oef-back"><a href="course.html#les-04">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-04"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-05">
+        <h2>Lesson 05 — Greetings</h2>
+        <p class="oef-back"><a href="course.html#les-05">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-05"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-06">
+        <h2>Lesson 06 — What is a verb</h2>
+        <p class="oef-back"><a href="course.html#les-06">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-06"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-07">
+        <h2>Lesson 07 — Conjugation I/you/he/she</h2>
+        <p class="oef-back"><a href="course.html#les-07">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-07"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-08">
+        <h2>Lesson 08 — Conjugation we/you/they</h2>
+        <p class="oef-back"><a href="course.html#les-08">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-08"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-09">
+        <h2>Lesson 09 — Aspect: completed vs ongoing</h2>
+        <p class="oef-back"><a href="course.html#les-09">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-09"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-10">
+        <h2>Lesson 10 — Future with <em>ad</em></h2>
+        <p class="oef-back"><a href="course.html#les-10">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-10"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-11">
+        <h2>Lesson 11 — Masculine vs feminine</h2>
+        <p class="oef-back"><a href="course.html#les-11">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-11"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-12">
+        <h2>Lesson 12 — Singular vs plural</h2>
+        <p class="oef-back"><a href="course.html#les-12">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-12"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-13">
+        <h2>Lesson 13 — "My, your, his..."</h2>
+        <p class="oef-back"><a href="course.html#les-13">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-13"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-14">
+        <h2>Lesson 14 — "This" and "that"</h2>
+        <p class="oef-back"><a href="course.html#les-14">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-14"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-15">
+        <h2>Lesson 15 — Free &amp; annexed state</h2>
+        <p class="oef-back"><a href="course.html#les-15">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-15"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-16">
+        <h2>Lesson 16 — Word order (VSO)</h2>
+        <p class="oef-back"><a href="course.html#les-16">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-16"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-17">
+        <h2>Lesson 17 — Prepositions</h2>
+        <p class="oef-back"><a href="course.html#les-17">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-17"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-18">
+        <h2>Lesson 18 — Numerals 1–10</h2>
+        <p class="oef-back"><a href="course.html#les-18">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-18"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-19">
+        <h2>Lesson 19 — Question words</h2>
+        <p class="oef-back"><a href="course.html#les-19">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-19"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-20">
+        <h2>Lesson 20 — Negation</h2>
+        <p class="oef-back"><a href="course.html#les-20">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-20"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-21">
+        <h2>Lesson 21 — Wanting, being able, beginning</h2>
+        <p class="oef-back"><a href="course.html#les-21">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-21"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-22">
+        <h2>Lesson 22 — Pronoun suffixes</h2>
+        <p class="oef-back"><a href="course.html#les-22">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-22"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-23">
+        <h2>Lesson 23 — And, or, but, if</h2>
+        <p class="oef-back"><a href="course.html#les-23">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-23"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-24">
+        <h2>Lesson 24 — Time expressions</h2>
+        <p class="oef-back"><a href="course.html#les-24">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-24"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-25">
+        <h2>Lesson 25 — Special pronunciation</h2>
+        <p class="oef-back"><a href="course.html#les-25">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-25"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-26">
+        <h2>Lesson 26 — Adjectives</h2>
+        <p class="oef-back"><a href="course.html#les-26">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-26"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-27">
+        <h2>Lesson 27 — Collective vs countable</h2>
+        <p class="oef-back"><a href="course.html#les-27">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-27"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-28">
+        <h2>Lesson 28 — Tribal names, <em>bu-, mu-</em></h2>
+        <p class="oef-back"><a href="course.html#les-28">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-28"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-29">
+        <h2>Lesson 29 — Causative <em>ss-</em></h2>
+        <p class="oef-back"><a href="course.html#les-29">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-29"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-30">
+        <h2>Lesson 30 — Middle <em>mm-</em> &amp; passive <em>twa-</em></h2>
+        <p class="oef-back"><a href="course.html#les-30">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-30"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-31">
+        <h2>Lesson 31 — Pseudo-verbs</h2>
+        <p class="oef-back"><a href="course.html#les-31">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-31"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-32">
+        <h2>Lesson 32 — Relative clauses</h2>
+        <p class="oef-back"><a href="course.html#les-32">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-32"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-33">
+        <h2>Lesson 33 — Cleft sentences</h2>
+        <p class="oef-back"><a href="course.html#les-33">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-33"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-34">
+        <h2>Lesson 34 — Reading a story</h2>
+        <p class="oef-back"><a href="course.html#les-34">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-34"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-35">
+        <h2>Lesson 35 — The fairy tale</h2>
+        <p class="oef-back"><a href="course.html#les-35">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-35"></div>
+      </section>
+
+      <section class="oef-lesson" id="oef-les-36">
+        <h2>Lesson 36 — Dialogues</h2>
+        <p class="oef-back"><a href="course.html#les-36">Read the lesson in the course first</a></p>
+        <div class="exercises" data-lesson="les-36"></div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <p>Based on Mourigh &amp; Kossmann (2019). Writing system by learntarifit.</p>
+      <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-light);">
+        Questions or feedback? <a href="#" onclick="window.location.href = 'mai' + 'lto:' + 'Idriesti' + '@' + 'outlook.com'; return false;" style="color: inherit; text-decoration: underline;">Idriesti@outlook.com</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="/assets/cursus/cursus.js?v=8"></script>
+  <script>
+    // Highlight active sidebar link based on scroll
+    const links = document.querySelectorAll('.sidebar a');
+    const sections = document.querySelectorAll('.content .oef-lesson');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          links.forEach(l => l.classList.remove('active'));
+          const link = document.querySelector(`.sidebar a[href="#${e.target.id}"]`);
+          if (link) {
+            link.classList.add('active');
+            if (window.innerWidth <= 900) {
+              const nav = document.getElementById('sidebar-nav');
+              if (nav && nav.getBoundingClientRect) {
+                const lRect = link.getBoundingClientRect();
+                const nRect = nav.getBoundingClientRect();
+                if (lRect.top < nRect.top || lRect.bottom > nRect.bottom) {
+                  link.scrollIntoView({ block: 'nearest' });
+                }
+              }
+            }
+          }
+        }
+      });
+    }, { rootMargin: '-100px 0px -60% 0px' });
+
+    sections.forEach(s => observer.observe(s));
+
+    // Mobile sidebar toggle
+    const sidebar = document.getElementById('sidebar');
+    const toggle = document.getElementById('sidebar-toggle');
+    const nav = document.getElementById('sidebar-nav');
+
+    function isMobile() { return window.innerWidth <= 900; }
+
+    function openSidebar() {
+      sidebar.classList.add('is-open');
+      toggle.setAttribute('aria-expanded', 'true');
+    }
+    function closeSidebar() {
+      sidebar.classList.remove('is-open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+
+    toggle.addEventListener('click', () => {
+      if (sidebar.classList.contains('is-open')) closeSidebar();
+      else openSidebar();
+    });
+
+    nav.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', () => {
+        if (isMobile()) closeSidebar();
+      });
+    });
+  </script>
+
+  <script>
+    // Preserve scroll position when switching languages
+    document.querySelectorAll('.lang-switch a').forEach(function(a) {
+      a.addEventListener('click', function(e) {
+        if (window.location.hash) {
+          e.preventDefault();
+          window.location.href = a.getAttribute('href') + window.location.hash;
+        }
+      });
+    });
+  </script>
+</body>
+</html>

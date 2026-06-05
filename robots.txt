@@ -1,0 +1,3 @@
+# Geen “verborgen” content: alles is publiek HTML. Richtlijn voor nette crawlers.
+User-agent: *
+Allow: /

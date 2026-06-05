@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<title>Suggest a word · Tarifit</title>
+<link href="/styles.css?v=7" rel="stylesheet"/>
+</head>
+<body>
+<header class="topbar">
+<div class="topbar-inner">
+<a aria-label="Tarifit — home" class="brand" href="index.html">
+<span aria-hidden="true" class="brand-mark var-diamond">
+<span class="lozenge"><span class="yaz">ⵣ</span></span>
+</span>
+<span aria-hidden="true" class="brand-mark var-wordmark">
+<span class="yaz-large">ⵣ</span>
+</span>
+<span aria-hidden="true" class="brand-mark var-tile">
+<span class="tile"></span>
+</span>
+<span class="brand-word">Tarif<span class="accent">it</span></span>
+</a>
+<nav class="topnav" aria-label="Main menu"><a href="course.html">Course</a>
+        <a href="exercises.html">Exercises</a>
+        <a href="grammar.html">Grammar</a>
+        <a href="wordlist.html">Wordlist</a>
+        <a class="nav-quiet active" href="suggest-word.html">Suggest a word</a>
+        <a href="book.html">The book</a>
+        <span aria-label="Language" class="lang-switch" role="group">
+          <a href="/nl/woord-inzenden.html" hreflang="nl">NL</a>
+          <span aria-hidden="true" class="lang-sep">/</span>
+          <a class="active" href="/en/suggest-word.html" hreflang="en">EN</a>
+        </span></nav>
+</div>
+</header>
+<main class="boek-container" style="max-width: 680px;">
+<div class="eyebrow">contribute</div>
+<h1>Suggest a word</h1>
+<p class="lead">Is a word missing from the <a href="wordlist.html">wordlist</a>, or not quite right? Send a suggestion here. Each entry is reviewed before it's added.</p>
+<div class="box" id="cfg-error" style="display:none; border-left: 3px solid #b85c00; background: #fff4e6;">
+<p style="margin:0"><strong>Temporarily unavailable.</strong> Please try again later.</p>
+</div>
+<form class="box" id="word-form" style="margin-top: 24px;">
+<p style="margin-top:0"><label for="berber"><strong>Tarifit form</strong></label></p>
+<input autocomplete="off" class="wl-search" id="berber" maxlength="200" name="berber" placeholder="e.g. aman" required="" style="margin-bottom: 16px;" type="text"/>
+<p><label for="dutch"><strong>Translation</strong></label></p>
+<input autocomplete="off" class="wl-search" id="dutch" maxlength="200" name="dutch" placeholder="e.g. water" required="" style="margin-bottom: 16px;" type="text"/>
+<p><label for="notes">Notes (optional)</label></p>
+<textarea class="wl-search" id="notes" maxlength="500" name="notes" placeholder="Dialect variant, source, context…" rows="3" style="resize: vertical;"></textarea>
+<p style="margin: 20px 0 0;">
+<button class="exercise-submit" type="submit">Submit</button>
+</p>
+<p id="form-status" style="margin: 16px 0 0; font-size: 15px; color: var(--text-soft);"></p>
+</form>
+<p style="margin-top: 28px; font-size: 14px; color: var(--text-muted);">
+      Approved words are added to the <a href="wordlist.html">wordlist</a>. Admin access: <a href="suggest-word-admin.html">manage submissions</a>.
+    </p>
+</main>
+<footer>
+<p>Based on Mourigh &amp; Kossmann (2019).</p>
+    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-light);">
+      Questions or feedback? <a href="#" onclick="window.location.href = 'mai' + 'lto:' + 'Idriesti' + '@' + 'outlook.com'; return false;" style="color: inherit; text-decoration: underline;">Idriesti@outlook.com</a>
+    </p>
+  </footer>
+<script src="/assets/js/supabase-config.js"></script>
+<script type="module">
+import { createTarifitClient } from '/assets/js/tarifit-supabase-client.js';
+
+const cfgError = document.getElementById('cfg-error');
+const form = document.getElementById('word-form');
+const statusEl = document.getElementById('form-status');
+
+const { client, cfg } = createTarifitClient();
+if (!client) {
+  cfgError.style.display = 'block';
+  if (cfg && cfg.reason === 'secret_key') {
+    cfgError.querySelector('p').textContent =
+      'Technical error with the connection. Please try again later or contact the administrator.';
+  } else if (cfg && cfg.reason === 'missing') {
+    cfgError.querySelector('p').textContent =
+      'This page is not yet connected to the server. Please try again later.';
+  }
+  form.style.display = 'none';
+} else {
+  let _submitting = false;
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    if (_submitting) return;
+    _submitting = true;
+    statusEl.textContent = 'Sending…';
+    const berber = document.getElementById('berber').value.trim();
+    const dutch = document.getElementById('dutch').value.trim();
+    const notes = document.getElementById('notes').value.trim();
+
+    try {
+      const cfg = window.TARIFIT_SUPABASE;
+      const resp = await fetch(cfg.url + '/rest/v1/word_submissions', {
+        method: 'POST',
+        headers: {
+          'apikey': cfg.anonKey,
+          'Authorization': 'Bearer ' + cfg.anonKey,
+          'Content-Type': 'application/json',
+          'Prefer': 'return=minimal',
+        },
+        body: JSON.stringify({ berber, dutch, notes: notes || null, status: 'pending' }),
+      });
+      if (!resp.ok) {
+        const body = await resp.json().catch(() => ({}));
+        throw new Error(body.message || resp.statusText);
+      }
+      statusEl.textContent = 'Thanks! Your suggestion has been saved for review.';
+      form.reset();
+      setTimeout(() => { _submitting = false; }, 5000);
+    } catch (err) {
+      statusEl.textContent = 'Error: ' + (err.message || String(err));
+      setTimeout(() => { _submitting = false; }, 5000);
+    }
+  });
+}
+  </script>
+
+  <script>
+    // Preserve scroll position when switching languages
+    document.querySelectorAll('.lang-switch a').forEach(function(a) {
+      a.addEventListener('click', function(e) {
+        if (window.location.hash) {
+          e.preventDefault();
+          window.location.href = a.getAttribute('href') + window.location.hash;
+        }
+      });
+    });
+  </script>
+</body>
+</html>

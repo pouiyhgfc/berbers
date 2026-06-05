@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tarifit</title>
+  <script>
+    (function () {
+      var stored = null;
+      try { stored = localStorage.getItem('tarifit-lang'); } catch (e) {}
+      var lang = stored;
+      if (!lang) {
+        var nav = (navigator.language || navigator.userLanguage || 'nl').toLowerCase();
+        lang = nav.startsWith('nl')? 'nl': 'en';
+      }
+      location.replace('/' + lang + '/');
+    })();
+  </script>
+  <meta http-equiv="refresh" content="0; url=/nl/">
+</head>
+<body>
+  <p style="font-family: system-ui, sans-serif; padding: 24px;">
+    <a href="/nl/">Nederlands</a> &middot; <a href="/en/">English</a>
+  </p>
+
+  <script>
+    // Preserve scroll position when switching languages
+    document.querySelectorAll('.lang-switch a').forEach(function(a) {
+      a.addEventListener('click', function(e) {
+        if (window.location.hash) {
+          e.preventDefault();
+          window.location.href = a.getAttribute('href') + window.location.hash;
+        }
+      });
+    });
+  </script>
+</body>
+</html>

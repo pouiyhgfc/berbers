@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<title>The book · Tarifit Course</title>
+<link href="/styles.css?v=7" rel="stylesheet"/>
+<style>.pdf-meta {
+      margin: 12px 0 0;
+      font-size: 13px;
+      color: var(--text-muted);
+      font-style: italic;
+    }.pdf-meta a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      font-style: normal;
+    }.pdf-meta a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+<header class="topbar">
+<div class="topbar-inner">
+<a aria-label="Tarifit — home" class="brand" href="index.html">
+<span aria-hidden="true" class="brand-mark var-diamond">
+<span class="lozenge"><span class="yaz">ⵣ</span></span>
+</span>
+<span aria-hidden="true" class="brand-mark var-wordmark">
+<span class="yaz-large">ⵣ</span>
+</span>
+<span aria-hidden="true" class="brand-mark var-tile">
+<span class="tile"></span>
+</span>
+<span class="brand-word">Tarif<span class="accent">it</span></span>
+</a>
+<nav class="topnav" aria-label="Main menu"><a href="course.html">Course</a>
+        <a href="exercises.html">Exercises</a>
+        <a href="grammar.html">Grammar</a>
+        <a href="wordlist.html">Wordlist</a>
+        <a class="nav-quiet" href="suggest-word.html">Suggest a word</a>
+        <a class="active" href="book.html">The book</a>
+        <span aria-label="Language" class="lang-switch" role="group">
+          <a href="/nl/boek.html" hreflang="nl">NL</a>
+          <span aria-hidden="true" class="lang-sep">/</span>
+          <a class="active" href="/en/book.html" hreflang="en">EN</a>
+        </span></nav>
+</div>
+</header>
+<main class="boek-container">
+<div class="boek-intro">
+<div class="eyebrow">the source</div>
+<h1 style="font-family: var(--font-display); font-size: 44px; font-weight: 500; letter-spacing: -0.02em; margin: 0 0 16px;">An Introduction to Tarifiyt Berber</h1>
+<p class="lead">Khalid Mourigh &amp; Maarten Kossmann (2019). The academic source that all explanations and lessons on this site are based on.</p>
+<p>
+        The book describes the Tarifit of Nador (Iqeṛɛiyen / Azghenghan) systematically — from sounds to sentence structure. It is written for linguists, so formal — but every phenomenon is illustrated with examples.
+      </p>
+<p>
+        The version below is compressed and contains a text layer — it loads quickly and is searchable and copyable.
+      </p>
+<div class="box tip">
+<div class="box-title">More resources: tarifiyt.com</div>
+<p style="margin: 0;">A hub site for Tarifit materials: dictionaries (including the Ayt Waryaghel dictionary by Jamal Abarrou), texts, books, and a community forum. A good complement to the Mourigh &amp; Kossmann book. <a href="https://tarifiyt.com/" rel="noopener" target="_blank">Visit tarifiyt.com →</a></p>
+</div>
+</div>
+<embed class="pdf-embed" src="/assets/boek/tarifit-boek.pdf" type="application/pdf"/>
+<p class="pdf-meta">
+      Compressed version with OCR text layer — fast and searchable.
+      <a href="/assets/boek/tarifit-boek.pdf" rel="noopener" target="_blank">↓ Open in new tab</a>
+</p>
+</main>
+<footer>
+<p>Mourigh &amp; Kossmann (2019). PDF embedded locally.</p>
+    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-light);">
+      Questions or feedback? <a href="#" onclick="window.location.href = 'mai' + 'lto:' + 'Idriesti' + '@' + 'outlook.com'; return false;" style="color: inherit; text-decoration: underline;">Idriesti@outlook.com</a>
+    </p>
+  </footer>
+
+  <script>
+    // Preserve scroll position when switching languages
+    document.querySelectorAll('.lang-switch a').forEach(function(a) {
+      a.addEventListener('click', function(e) {
+        if (window.location.hash) {
+          e.preventDefault();
+          window.location.href = a.getAttribute('href') + window.location.hash;
+        }
+      });
+    });
+  </script>
+</body>
+</html>

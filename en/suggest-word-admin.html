@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<title>Word submissions admin · Tarifit</title>
+<link href="/styles.css?v=7" rel="stylesheet"/>
+<style>.wi-admin-login { max-width: 420px; margin-bottom: 32px; }.wi-admin-login input { width: 100%; margin-bottom: 12px; padding: 10px 14px; font-family: var(--font-serif); font-size: 16px; border: 1px solid var(--rule-strong); border-radius: 4px; }.wi-admin-bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 16px; }.wi-table { width: 100%; border-collapse: collapse; font-size: 15px; margin-top: 8px; }.wi-table th,.wi-table td { border: 1px solid var(--rule); padding: 8px 10px; text-align: left; vertical-align: top; }.wi-table th { background: var(--bg-warm); font-family: var(--font-display); font-weight: 600; }.wi-actions button { margin-right: 8px; margin-top: 4px; font-size: 13px; padding: 4px 10px; cursor: pointer; border: 1px solid var(--rule); border-radius: 3px; background: var(--bg); }.wi-actions button:hover { border-color: var(--accent); color: var(--accent); }
+    #wi-log { font-size: 14px; color: var(--text-soft); margin-top: 16px; }
+  </style>
+</head>
+<body>
+<header class="topbar">
+<div class="topbar-inner">
+<a aria-label="Tarifit — home" class="brand" href="index.html">
+<span aria-hidden="true" class="brand-mark var-diamond">
+<span class="lozenge"><span class="yaz">ⵣ</span></span>
+</span>
+<span aria-hidden="true" class="brand-mark var-wordmark">
+<span class="yaz-large">ⵣ</span>
+</span>
+<span aria-hidden="true" class="brand-mark var-tile">
+<span class="tile"></span>
+</span>
+<span class="brand-word">Tarif<span class="accent">it</span></span>
+</a>
+<nav class="topnav" aria-label="Main menu"><a href="course.html">Course</a>
+        <a href="exercises.html">Exercises</a>
+        <a href="grammar.html">Grammar</a>
+        <a href="wordlist.html">Wordlist</a>
+        <a class="nav-quiet" href="suggest-word.html">Suggest a word</a>
+        <a href="book.html">The book</a>
+        <span aria-label="Language" class="lang-switch" role="group">
+          <a href="/nl/woord-inzenden-admin.html" hreflang="nl">NL</a>
+          <span aria-hidden="true" class="lang-sep">/</span>
+          <a class="active" href="/en/suggest-word-admin.html" hreflang="en">EN</a>
+        </span></nav>
+</div>
+</header>
+<main class="boek-container" style="max-width: 960px;">
+<div class="eyebrow">admin</div>
+<h1>Word submissions</h1>
+<p class="lead">Sign in to review and approve or reject incoming word suggestions. Approved words can then be added to the <a href="wordlist.html">wordlist</a>.</p>
+<p style="font-size: 15px; color: var(--text-soft);"><a href="suggest-word.html">← Back to suggest a word</a></p>
+<div class="box" id="cfg-error" style="display:none; border-left: 3px solid #b85c00; background: #fff4e6;">
+<p style="margin:0"><strong>Temporarily unavailable.</strong> Please try again later.</p>
+</div>
+<div class="box wi-admin-login" id="login-panel">
+<p><strong>Email</strong></p>
+<input autocomplete="username" id="email" type="email"/>
+<p><strong>Password</strong></p>
+<input autocomplete="current-password" id="password" type="password"/>
+<p><button class="exercise-submit" id="btn-login" type="button">Sign in</button></p>
+</div>
+<div id="admin-panel" style="display:none;">
+<div class="wi-admin-bar">
+<button class="exercise-reset" id="btn-logout" type="button">Sign out</button>
+<button class="exercise-submit" id="btn-refresh" type="button">Refresh</button>
+</div>
+<div style="overflow-x: auto;">
+<table class="wi-table" id="tbl">
+<thead>
+<tr>
+<th>Created</th>
+<th>Tarifit</th>
+<th>Translation</th>
+<th>Notes</th>
+<th>Status</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+</div>
+</div>
+<p id="wi-log"></p>
+</main>
+<footer>
+<p>Based on Mourigh &amp; Kossmann (2019).</p>
+    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-light);">
+      Questions or feedback? <a href="#" onclick="window.location.href = 'mai' + 'lto:' + 'Idriesti' + '@' + 'outlook.com'; return false;" style="color: inherit; text-decoration: underline;">Idriesti@outlook.com</a>
+    </p>
+  </footer>
+<script src="/assets/js/supabase-config.js"></script>
+<script type="module">
+import { createTarifitClient } from '/assets/js/tarifit-supabase-client.js';
+
+const logEl = document.getElementById('wi-log');
+function log(msg) { logEl.textContent = msg || ''; }
+
+const cfgErr = document.getElementById('cfg-error');
+const loginPanel = document.getElementById('login-panel');
+const adminPanel = document.getElementById('admin-panel');
+
+const { client, cfg } = createTarifitClient();
+if (!client) {
+  cfgErr.style.display = 'block';
+  if (cfg && cfg.reason === 'secret_key') {
+    cfgErr.querySelector('p').textContent =
+      'Technical error with the connection. Please try again later.';
+  } else if (cfg && cfg.reason === 'missing') {
+    cfgErr.querySelector('p').textContent =
+      'This page is not yet connected. Please try again later.';
+  }
+  loginPanel.style.display = 'none';
+} else {
+  function setSessionUi(session) {
+    const loggedIn =!!(session && session.user);
+    loginPanel.style.display = loggedIn? 'none': 'block';
+    adminPanel.style.display = loggedIn? 'block': 'none';
+  }
+
+  client.auth.getSession().then(function (r) {
+    const session = r.data && r.data.session;
+    setSessionUi(session);
+    if (session) loadRows();
+  });
+
+  client.auth.onAuthStateChange(function (_evt, session) {
+    setSessionUi(session);
+    if (session) loadRows();
+  });
+
+  document.getElementById('btn-login').onclick = async function () {
+    const em = document.getElementById('email').value.trim();
+    const pw = document.getElementById('password').value;
+    log('Signing in…');
+    const { error } = await client.auth.signInWithPassword({ email: em, password: pw });
+    if (error) {
+      log('Sign-in failed: ' + error.message);
+      return;
+    }
+    log('');
+  };
+
+  document.getElementById('btn-logout').onclick = async function () {
+    await client.auth.signOut();
+    log('Signed out.');
+  };
+
+  document.getElementById('btn-refresh').onclick = loadRows;
+
+  async function loadRows() {
+    log('Loading…');
+    const { data, error } = await client.from('word_submissions').select('*').order('created_at', { ascending: false }).limit(200);
+    if (error) {
+      let m = error.message;
+      if (/row-level security|rls|policy/i.test(m)) {
+        m += ' No access with this account.';
+      }
+      log('Error: ' + m);
+      return;
+    }
+    log('');
+    const tb = document.querySelector('#tbl tbody');
+    tb.innerHTML = '';
+    (data || []).forEach(function (row) {
+      const tr = document.createElement('tr');
+      const d = row.created_at? new Date(row.created_at).toLocaleString('en-GB'): '';
+      tr.innerHTML =
+        '<td>' + escapeHtml(d) + '</td>' +
+        '<td>' + escapeHtml(row.berber) + '</td>' +
+        '<td>' + escapeHtml(row.dutch) + '</td>' +
+        '<td>' + escapeHtml(row.notes || '') + '</td>' +
+        '<td>' + escapeHtml(row.status) + '</td>' +
+        '<td class="wi-actions"></td>';
+      const act = tr.querySelector('.wi-actions');
+      if (row.status === 'pending') {
+        act.appendChild(mkBtn('Approve', function () { setStatus(row.id, 'approved'); }));
+        act.appendChild(mkBtn('Reject', function () { setStatus(row.id, 'rejected'); }));
+      }
+      tb.appendChild(tr);
+    });
+  }
+
+  async function setStatus(id, status) {
+    log('Saving…');
+    const { error } = await client.from('word_submissions').update({ status }).eq('id', id);
+    if (error) {
+      log('Error: ' + error.message);
+      return;
+    }
+    await loadRows();
+  }
+
+  function mkBtn(label, fn) {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.textContent = label;
+    b.onclick = fn;
+    return b;
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+}
+  </script>
+
+  <script>
+    // Preserve scroll position when switching languages
+    document.querySelectorAll('.lang-switch a').forEach(function(a) {
+      a.addEventListener('click', function(e) {
+        if (window.location.hash) {
+          e.preventDefault();
+          window.location.href = a.getAttribute('href') + window.location.hash;
+        }
+      });
+    });
+  </script>
+</body>
+</html>
