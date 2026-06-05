@@ -1,3 +1,7 @@
+<!-- AUTO-GEGENEREERD uit sjabloon + berekende cijfers (CSV, _ai/cursus.md, _ai/grammatica.md)
+     door _project/scripts/gen_index_md.py
+     NIET met de hand bewerken. Bewerk de bron en draai `make build`. Zie WIJZIGINGEN.md. -->
+
 # Tarifit Kennisbank — Instructies voor AI
 
 ## Wat is dit?
@@ -53,7 +57,7 @@ Laad selectief: laad alleen de bestanden die relevant zijn voor de vraag.
 ## Inhoud
 
 ### Woordenlijst
-1848 woorden → [woordenlijst.md](woordenlijst.md)
+1781 woorden → [woordenlijst.md](woordenlijst.md)
 
 ### Cursus (36 lessen)
 Alle 36 lessen in één bestand → [cursus.md](cursus.md)

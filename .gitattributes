@@ -1,0 +1,15 @@
+# Houd build-kritieke bestanden op LF, ook op Windows (core.autocrlf=true).
+# Reden: `make` op de Linux-CI struikelt over CR in recipes, en de generatoren schrijven de
+# afgeleide markdown met \n — als git daar CRLF van maakt, ziet de drift-check (`git diff
+# --exit-code _ai/`) een vals verschil. LF afdwingen houdt regeneratie reproduceerbaar.
+
+Makefile          text eol=lf
+*.py              text eol=lf
+*.yml             text eol=lf
+*.yaml            text eol=lf
+
+# Gegenereerde AI-context: altijd LF zodat `make build` byte-identiek blijft over platforms heen.
+_ai/*.md          text eol=lf
+
+# Canonieke bronnen die de generatoren inlezen: stabiele LF voorkomt drift door regel-einden.
+assets/woordenlijst/woordenlijst.csv  text eol=lf

@@ -15,23 +15,31 @@
 | Wijzigen… | Bewerk dit | Regenereert | Sync-let-op |
 |---|---|---|---|
 | Een **woord** | `assets/woordenlijst/woordenlijst.csv` | `_ai/woordenlijst.md`, `_ai/index.md` | NL+EN in één bestand → automatisch synchroon |
-| Een **les** | `nl/cursus.html` **én** `en/course.html` | `_ai/cursus.md` | Tarifit in beide identiek; alleen uitleg-taal verschilt |
-| **Grammatica** | `nl/uitleg.html` **én** `en/grammar.html` | `_ai/grammatica.md` | idem |
+| Een **les** | `nl/cursus.html` **én** `en/course.html` | `_ai/cursus.md`, `_ai/index.md` | Tarifit in beide identiek; alleen uitleg-taal verschilt |
+| **Grammatica** | `nl/uitleg.html` **én** `en/grammar.html` | `_ai/grammatica.md`, `_ai/index.md` | idem |
 | **Oefeningen** | `assets/oefeningen/exercises-nl.json` **én** `-en.json` | (niets) | beide talen gelijk opbouwen |
 
 ## Concreet
-- **Woord:** pas de rij in `woordenlijst.csv` aan (`Berbers, Nederlands, Engels, niveau, woordsoort,
-  anki_tag`). Tarifit uit een bestaande/eigen lijst, nooit verzonnen. `make build` → `make check` →
-  commit.
+- **Woord:** pas de rij in `woordenlijst.csv` aan (kolommen `tarifit, nl, en, cefr, woordsoort,
+  tags`). De Tarifit-vorm staat in kolom `tarifit` — uit een bestaande/eigen lijst, nooit verzonnen.
+  `make build` → `make check` → commit.
 - **Les / grammatica:** pas NL én EN aan; Tarifit-voorbeelden in beide exact gelijk. `make build` →
-  `make check` (de pariteitscheck waarschuwt als NL/EN uit elkaar lopen) → commit.
+  `make check`. De round-trip-check faalt als een Tarifit-token uit de HTML niet in de gegenereerde
+  markdown terugkomt; de pariteitscheck waarschuwt als NL/EN uit elkaar lopen. → commit.
 - **Oefening:** pas `exercises-nl.json` en `exercises-en.json` allebei aan, test de oefenpagina,
   commit.
+
+## Bekende afwijking (pariteit)
+`make parity` staat op *waarschuwen* omdat er nog één bewust/onbedoeld verschil is: het token `uyi`
+(AS-vorm van `aɣi` "milk") staat alleen in `en/grammar.html`, niet in `nl/uitleg.html`. Los je dit op
+(voeg het NL-voorbeeld toe of haal het EN-voorbeeld weg), zet dan `PARITY_MODE = "strict"` in
+`_project/scripts/check_parity.py` zodat de check voortaan hard faalt bij elk NL/EN-verschil.
 
 ## Waarom dit standhoudt, ook bij iemand anders
 - Elk gegenereerd bestand begint met "NIET met de hand bewerken".
 - Bewerkt iemand tóch een `_ai/`-bestand, dan regenereert de pre-commit hook het en **faalt de
-  commit**.
+  commit** (`git diff --exit-code _ai/`).
 - `CLAUDE.md` zorgt dat elke Claude Code-sessie deze regels automatisch meekrijgt.
+- De GitHub-workflow `check-generated.yml` draait dezelfde `make check` bij elke push/PR.
 
 > Werk je met een oude kopie? `git pull` eerst. De waarheid staat in de canonieke bronnen hierboven.

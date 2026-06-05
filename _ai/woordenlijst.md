@@ -1,6 +1,9 @@
+<!-- AUTO-GEGENEREERD uit assets/woordenlijst/woordenlijst.csv door _project/scripts/gen_woordenlijst_md.py
+     NIET met de hand bewerken. Bewerk de bron en draai `make build`. Zie WIJZIGINGEN.md. -->
+
 # Tarifit Woordenlijst
 > **REGEL:** Gebruik ALLEEN woorden die letterlijk in deze lijst staan.
-> Totaal: 1848 woorden.
+> Totaal: 1781 woorden.
 
 **Afkortingen woordsoort:** ww = werkwoord · znw = zelfstandig naamwoord · vnw = voornaamwoord · voegw = voegwoord · bvnw = bijvoeglijk naamwoord · byw = bijwoord
 
@@ -9,7 +12,7 @@
 | Tarifit | Nederlands | Engels | Soort |
 |---------|------------|--------|-------|
 | a / wa / waḏ | Deze | This | vnw_aanw |
-| aayaz | man / echtgenoot | husband/husband | znw_m_ev |
+| aayaz | man, echtgenoot | husband, husband | znw_m_ev |
 | aman | Water | Water | znw_m_ev |
 | aqemmum | mond | mouth | znw_m_ev |
 | atay | thee | tea | znw_m_ev |
@@ -17,13 +20,13 @@
 | baba | Papa | Dad | ww |
 | i | relatief-marker | relative-marker | vz |
 | i / ɣaa | Aan (Naar) | On (To) | vz |
-| ini | Vertellen/zeggen | Tell/say | ww |
+| ini | Vertellen, zeggen | Tell, say | ww |
 | lla | nee | no | ww |
 | mmi | de zoon | the son | znw |
 | necc | ik | I | ww |
 | neccin | wij | we | vnw_pers |
 | netta | hij | he | vnw_pers |
-| nettaṯ | zij | they/she | vnw_pers |
+| nettaṯ | zij | they, she | vnw_pers |
 | ru | huilen | to cry | ww |
 | setta | zes | six | telw |
 | uma | Broer | Brother | ww |
@@ -41,7 +44,6 @@
 
 | Tarifit | Nederlands | Engels | Soort |
 |---------|------------|--------|-------|
-| ari | esparto-gras | esparto grass | znw_m_ev |
 | ari | schrijven | to write | ww |
 | aṣebḥan / mliḥ / cen | goed | Good | voegw |
 | cc | eten | to eat | ww |
@@ -58,13 +60,11 @@
 | cchaṛ n ɛecra | Oktober | October | znw_m_ev |
 | cchaṛ n ḥḍac | November | November | znw_m_ev |
 | ccmeɛ | kaars | candle | znw |
-| ma | vraagpartikel (ja/nee) | question particle (yes/no) | vraagw |
+| ma | vraagpartikel (ja, nee) | question particle (yes, no) | vraagw |
 | mliḥ | Fijn, goed, goed gaand | Fine, good, going well | voegw |
-| qqim | blijven / zitten | stay/sit | ww |
-| qqim | zitten | to sit | ww |
+| qqim | blijven, zitten | to stay, to sit | ww |
 | učma | Zus | Sister | ww |
-| waxxa | Hoewel | Although | ww |
-| waxxa | zelfs als / oké | even if / okay | ww |
+| waxxa | hoewel, zelfs als, oké | although, even if, okay | ww |
 | řexxu | nu | now | ww |
 | ɛafak / cukran | Bedankt | Thank you | ww |
 | ɛenti | de tante (vaderszijde) | paternal aunt | znw |
@@ -84,11 +84,10 @@
 | aaz | vernietigen | destroy | ww |
 | aazu | zoeken | to search | ww |
 | aaz’ | breken | break | ww |
-| aaɣ | heet | is called | znw_m_ev |
-| aaɣ | schijnen | to shine | ww |
+| aaɣ | heet, schijnen | to shine, to be called | ww |
 | aca | voelen | to feel | ww |
 | acaa | stelen | to steal | ww |
-| ad | zullen | shall/will | ww |
+| ad | zullen | shall, will | ww |
 | adu | onder | under | znw_m_ev |
 | agi | weigeren | to refuse | ww |
 | akeccuḏ | stok | stick | znw_m_ev |
@@ -129,9 +128,9 @@
 | aɛřa | hoog, ondiep | high, shallow | znw_m_ev |
 | aɣi | melk | milk | znw_m_ev |
 | aḇeř | wimper | eyelash | znw_m_ev |
-| aḏ | Om, partikel voor toekomst/wens | Om, particle for future/wish | ww |
+| aḏ | Om, partikel voor toekomst, wens | Om, particle for future, wish | ww |
 | aḏaa | laag | low | znw_m_ev |
-| aḏef | binnengaan / binnenkomen | to enter / enter | znw_m_ev |
+| aḏef | binnengaan, binnenkomen | to enter, enter | znw_m_ev |
 | aḏes | dichtbij | near | znw_m_ev |
 | aḏiř / zzḇiḇ | Duif | Pigeon | znw_m_ev |
 | aḥeř | moe zijn, gefrustreerd raken | be tired, get frustrated | znw_m_ev |
@@ -141,7 +140,6 @@
 | caah | haten | hate | ww |
 | cab | [voorgesteld] | turn gray | ww |
 | cař | grond, klei | soil, clay | ww |
-| cař | de leem steen | the clay stone | znw |
 | ccaa | vullen | to fill | ww |
 | ccař / ijḏi | Zand | Sand | znw_m_mv |
 | ccwa/cnef | roosteren, grillen | roasting, grilling | ww |
@@ -156,11 +154,10 @@
 | cḏeḥ | dansen | dancing | ww |
 | ddat | lichaam | body | ww |
 | ddez | stampen, platslaan | stomp, crush | ww |
-| ddin | Godsdienst | Religion | ww |
-| ddin | religie | religion | ww |
+| ddin | godsdienst, religie | religion | znw_m_ev |
 | ddra | maïs | corn | ww |
 | ddwa | Medicijnen | Medicines | ww |
-| Dekk | Aanstampen/pletten | Tamping/crushing | ww |
+| Dekk | Aanstampen, pletten | Tamping, crushing | ww |
 | ewc | geven | give | ww |
 | exs | houden van | love | ww |
 | eŋw | rijp | ripe | ww |
@@ -172,7 +169,7 @@
 | fezz | kauwen | chew | ww |
 | ffaa | verbergen | hide | ww |
 | ffaḏ | dorst hebben | be thirsty | ww |
-| ffeɣ | uitgaan / Buitengaan | going out / going out | ww |
+| ffeɣ | uitgaan, Buitengaan | going out, going out | ww |
 | fhem | begrijpen | understand | ww |
 | fiza | visum | visa | ww |
 | fiřu | Draad | Wire | ww |
@@ -214,12 +211,9 @@
 | ixef | zelf (reflexief) | self (reflexive) | znw_m_mv |
 | ixṣa / yaṛez | Kapot | Broken | znw_m_mv |
 | izi | vlieg | fly | znw_m_mv |
-| iřef | het varken | the pig | znw_m_mv |
-| iřef | wild zwijn | wild boar | znw_m_mv |
+| iřef | het varken, wild zwijn | the pig, wild boar | znw_m_mv |
 | iřes | tong | tongue | znw_m_mv |
-| iři | Hals | Neck | znw_m_mv |
-| iři | nek | to be/his | znw_m_mv |
-| iři | zijn | to be/his | znw_m_mv |
+| iri | hals, nek, zijn | neck, to be | znw_m_mv |
 | iǧi | het touw | the rope | znw_m_mv |
 | iɣza | rivier | river | znw_m_mv |
 | iɣřa | duur | duration | znw_m_mv |
@@ -228,14 +222,11 @@
 | iṯri | ster | star | znw_m_mv |
 | jaaḥ | verwonden | injure | ww |
 | jbeḏ | trekken | Pull | ww |
-| jheḏ | luid | loud | ww |
 | jjenn | geest, ǧinn | spirit, ǧinn | ww |
 | jjuf / ibbec | borst | chest | znw_m_mv |
-| jmeɛ | Opruimen | Clean up | ww |
-| jmeɛ | verzamelen | collect | ww |
+| jmeɛ | opruimen, verzamelen | to clean up, to collect | ww |
 | jmeḏ | bevriezen | freeze | ww |
-| kebb | gieten | to pour | ww |
-| kebb | Inschenken | Pour | ww |
+| kebb | gieten, inschenken | to pour | ww |
 | Kicc | Met jou | With you | ww |
 | kiḏi | Met mij | With me | ww |
 | kkes | verwijderen | to delete | ww |
@@ -249,19 +240,17 @@
 | luɣa / awař | Taal | Language | znw_m_ev |
 | lyaw | Klimaat | Climate | ww |
 | lɛud | luit | lute | ww |
-| mami | lieveling | favorite | vraagw |
-| mami | terwijl | while | vraagw |
+| mami | terwijl, lieveling | while, favorite | vraagw |
 | man | welke | which | ww |
 | mbra | Behalve | Except | ww |
 | mceḏ | kammen | combs | ww |
 | meɛɛec / dɛa | smeken, vervloeken | beg, curse | ww |
 | mjaa | maaien | mow | ww |
-| mmeṯ | Doodgaan | Dying | ww |
-| mmeṯ | sterven | die | ww |
+| mmeṯ | doodgaan, sterven | to die | ww |
 | mmuḏ | de vlecht, weven of vlechten | the braid, to weave or to braid | znw |
 | mneɛ | verbieden, vasthouden | forbid, detain | ww |
 | msaa | gebeuren | to happen | ww |
-| mseḥ / Sfaḍ | Afvegen/wissen | Wipe/wipe | ww |
+| mseḥ / Sfaḍ | Afvegen, wissen | Wipe, wipe | ww |
 | mucc | kat | cat | ww |
 | muka | uil | owl | ww |
 | mun | vergezellen | accompany | ww |
@@ -300,7 +289,7 @@
 | qḏes | Knippen | To cut | ww |
 | qḏeɛ | puntig, scherp | pointed, sharp | ww |
 | raja | wachten | to wait | ww |
-| rexras / swa | Kosten/inkomen | Costs/income | ww |
+| rexras / swa | Kosten, inkomen | Costs, income | ww |
 | rqaḏ | de aap | the monkey | znw |
 | rucc | spatten | splashing | ww |
 | ruḥ | gaan | to go | ww |
@@ -310,8 +299,7 @@
 | seɣ | Kopen | Buy | ww |
 | seḥḥ | gezond | healthy | ww |
 | siɣi | doorgaan, voortzetten | continue, continue | ww |
-| siḏi | de Heer / meester | the Lord/master | znw |
-| siḏi | Majesteit | Majesty | ww |
+| siḏi | de heer, meester, majesteit | the lord, master, majesty | znw |
 | smeḥ / ɛfu | Overgeven | Yield | ww |
 | smun | samenbrengen, verzamelen | to bring together, to collect | ww |
 | ssa | vanaf hier | from here | ww |
@@ -347,7 +335,7 @@
 | uřuf | de scheiding | the divorce | znw |
 | uḏay | Jood | Jew | ww |
 | uḏem / aɣembub | gezicht | sight | znw_m_ev |
-| uḏum | druipen / druppelen | drip / drip | ww |
+| uḏum | druipen, druppelen | drip, drip | ww |
 | uṛu | handvol, Euro | handful, Euro | ww |
 | wata | plat | flat | ww |
 | wařa / zaa | zien | to see | ww |
@@ -359,10 +347,9 @@
 | wzen | wegen | to weigh | ww |
 | wɛaa / iqṣeḥ | moeilijk | difficult | znw_m_mv |
 | wḏa | vallen | to fall | ww |
-| Wṣṣa | Adviseren/opdragen | Advise/instruct | ww |
+| Wṣṣa | Adviseren, opdragen | Advise, instruct | ww |
 | xarrebbi / ikfa | genoeg | enough | znw_m_mv |
-| xači | tante (moederszijde) | maternal aunt | ww |
-| xači | de tante (moederszijde) | maternal aunt | znw |
+| xači | tante (moederszijde) | maternal aunt | znw |
 | xaři | de oom (moederszijde) | maternal uncle | znw |
 | xizu | wortel (collectief) | carrot (collective) | ww |
 | xs | willen, houden van | to want, to love | ww |
@@ -379,8 +366,7 @@
 | yis / akiḏaa | Paard | Horse | znw_m_ev |
 | ymaa | jagen | hunting | ww |
 | zaaḏ | scheten laten | farting | ww |
-| zemm | knijpen, drukken | pinch, press | ww |
-| zemm | zuigen | suck | ww |
+| zemm | knijpen, drukken, zuigen | to pinch, to press, to suck | ww |
 | zic | vroeg | early | ww |
 | zid | ga door! (uitroep) | keep going! (exclamation) | ww |
 | ziru | nul | zero | ww |
@@ -419,11 +405,9 @@
 | ɛfes | stappen op | steps up | ww |
 | ɛgez | lui | lazy | ww |
 | ɛizz | geliefd zijn | be loved | ww |
-| ɛqeř | herinneren, herkennen | remember, recognize | ww |
-| ɛqeř | onthouden | to remember | ww |
+| ɛqeř | herinneren, herkennen, onthouden | to remember, to recognize | ww |
 | ɛḏes | niezen | sneezing | ww |
 | ɛḏeř | maken, repareren | make, repair | ww |
-| ɛḏeř | repareren | to repair | ww |
 | ɛḏu | passeren | pass | ww |
 | ɛṛahaṛ / ggua | bijna | almost | ww |
 | ɣaaq | verdrinken | drown | ww |
@@ -441,8 +425,7 @@
 | ḇinu | de wijn | the wine | znw |
 | ḇna | bouwen | build | ww |
 | ḇřa | zonder | without | ww |
-| ḇḏa | beginnen | start | ww |
-| ḇḏa | delen | to share | ww |
+| ḇḏa | beginnen, delen | to start, to share | ww |
 | Ḍuru | 0,5 dirham (munt) | 0.5 dirham (coin) | ww |
 | ḍḍaa | afstappen, uitstappen | get off, get off | ww |
 | ḏaa | Been | Leg | ww |
@@ -450,7 +433,7 @@
 | ḏaḏ | vinger | finger | ww |
 | ḏebbaa / ḥkem | regelen, regeren | to regulate, to govern | ww |
 | ḏeř | bedekken | cover | ww |
-| ḏfaa | volgen / Achtervolgen | to follow / to chase | ww |
+| ḏfaa | volgen, Achtervolgen | to follow, to chase | ww |
 | ḏfes | (op)vouwen | to fold | ww |
 | ḏrus | weinig | little | ww |
 | ḏu / faafaa | vliegen | to fly | ww |
@@ -461,7 +444,7 @@
 | ḏřeq | loslaten | let go | ww |
 | ḏřeq / fekk | bevrijden, oplossen | liberate, dissolve | ww |
 | ḏɛef / yaxu | zwak | weak | ww |
-| ḏḥec / ssfianen | lachen / glimlachen | laughing/smiling | ww |
+| ḏḥec / ssfianen | lachen, glimlachen | laughing, smiling | ww |
 | ḏṛuj | Trap | Stairs | ww |
 | ḥaay | vermalen | grind | ww |
 | ḥarek / hjem | de aanval | the attack | znw |
@@ -480,7 +463,7 @@
 | ḥḏaa | een oogje in 't zeil houden | keep an eye on things | znw |
 | ḥḏaj | de behoefte | the need | znw |
 | ḥṛu | slurpen, dik soep eten | slurping, eating thick soup | ww |
-| ḵsi | Dragen / nemen / pakken / optillen | Carry / take / grab / lift | ww |
+| ḵsi | Dragen, nemen, pakken, optillen | Carry, take, grab, lift | ww |
 | ṛqa | tegen iets aanlopen, spontaan ontmoeten | bumping into something, meeting spontaneously | ww |
 | ṛwaḥ | [voorgesteld] | Flu | ww |
 | ṣṣaa | verzachten, beschermen | soften, protect | ww |
@@ -496,7 +479,7 @@
 | ṯisi | de bodem | the bottom | znw_v_mv |
 | ṯitt | oog | eye | znw_v_mv |
 | ṯixsi | het ooi | the ewe | znw_v_mv |
-| ṯizi | Bergpas (vallei), de vallei | Mountain pass (valley), the valley | znw_v_mv |
+| ṯizi | vallei, gang | valley, corridor | znw_v_mv |
 | ṯrankir / aas | Kalm | Calm | znw_m_ev |
 | ṯsa | lever | liver | ww |
 | ṯwaṛa / muṛ | Keer | Time | ww |
@@ -521,8 +504,7 @@
 | aaqqem | het sieraad | the jewelry | znw_m_ev |
 | aawaḥ | kom! (alleen imperatief) | come! (imperative only) | znw_m_ev |
 | aawes | gelijkaardig | similar | znw_m_ev |
-| aaweř | terugtrekken | withdraw | ww |
-| aaweř | vluchten | to flee | ww |
+| aaweř | terugtrekken, vluchten | to withdraw, to flee | ww |
 | aaxes | goedkoop | cheap | znw_m_ev |
 | aayyeq / ṛefḏuṛ | Ontbijt | Breakfast | znw_m_ev |
 | aazem | openen | open | ww |
@@ -548,8 +530,7 @@
 | acuﬀuṛ | Chauffeur | Driver | znw_m_ev |
 | adjey | diep | deep | znw_m_ev |
 | afaattu | de vlinder | the butterfly | znw_m_ev |
-| afarran | Bakker | Baker | znw_m_ev |
-| afarran | Oven | Oven | ww |
+| afarran | bakker, oven | baker, oven | znw_m_ev |
 | afriw | vleugel | wing | znw_m_ev |
 | afunas | stier | bull | znw_m_ev |
 | afusi | rechts | right | znw_m_ev |
@@ -561,7 +542,6 @@
 | ajaaṭiř | de mat | the mat | znw_m_ev |
 | ajdiḏ | vogel | bird | znw_m_ev |
 | ajenna | de lucht | sky, air | znw_m_ev |
-| ajenna | [voorgesteld] | the air | znw_m_ev |
 | ajjaj | Onweer | Storm | znw_m_ev |
 | ajjař | de weduwnaar | the widower | znw_m_ev |
 | ajjaṛ | Buurman | Neighbour | znw_m_ev |
@@ -571,14 +551,14 @@
 | akebbuḏ / palto | Jas | Jacket | znw_m_ev |
 | akennas | staart | tail | znw_m_ev |
 | Aliman | Duitsland, Duitser | Germany, German | znw_m_ev |
-| am | zoals | like/as | ww |
+| am | zoals | like, as | ww |
 | amaazag | bitter | bitter | znw_m_ev |
 | Amastan/abugadu | Advocaat | Lawyer | znw_m_ev |
 | amcan | plaats, plek | place, place | znw_m_ev |
 | amcum | stout persoon | naughty person | znw_m_ev |
 | amecři | de lunch | the lunch | znw_m_ev |
 | amenni | zo, op die manier | so, in that way | znw_m_ev |
-| amensi | avondmaal / Avondeten | supper / Dinner | znw_m_ev |
+| amensi | avondmaal, Avondeten | supper, Dinner | znw_m_ev |
 | amenɣi | Ruzie | Row | znw_m_ev |
 | amesmia | de spijker | the nail | znw_m_ev |
 | amesřem | moslim | Muslim | znw_m_ev |
@@ -586,7 +566,6 @@
 | amesṯen | Bescherming | Protection | znw_m_ev |
 | ametta | traan | tear | znw_m_ev |
 | amettin | dode persoon, lijk | dead person, corpse | znw_m_ev |
-| amettin | dood | dead | znw_m_ev |
 | amezzuɣ | oor | ear | znw_m_ev |
 | amezḏag | schoon | beautiful | znw_m_ev |
 | ameřɣiɣ | de hersenen | the brain | znw_m_ev |
@@ -605,7 +584,6 @@
 | andraa | de dorsvloer | the threshing floor | znw_m_ev |
 | anejjaa | de timmerman | the carpenter | znw_m_ev |
 | anewji | bezoeker, gast | visitor, guest | znw_m_ev |
-| anewji | de gast | the guest | znw_m_ev |
 | anewyew | Bezoek | Visit | znw_m_ev |
 | aneḇḏu / řexrif / rmiṣta | Zomer | Summer | znw_m_ev |
 | aneḏḏah | Bestuurder | Director | znw_m_ev |
@@ -635,11 +613,10 @@
 | arric | de veer | the feather | znw_m_ev |
 | Arrima | Aanmeren | Mooring | ww |
 | arruz | Rijst | Rice | znw_m_ev |
-| arruḏ | kleren / kleding | clothes/garments | ww |
+| arruḏ | kleren, kleding | clothes, garments | ww |
 | arruḥ | de ziel of geest | the soul or spirit | znw_m_ev |
 | arrḇeḥ | de overwinning | the victory | znw_m_ev |
 | arrḇiɛ | de lente | Grass | znw_m_ev |
-| arrḇiɛ | [voorgesteld] | spring | znw_m_ev |
 | aryiyi | Bibberen | Shivering | ww |
 | asaaḏun | muildier | mule | znw_m_ev |
 | Asegbar | Acteur | Actor | znw_m_ev |
@@ -666,7 +643,7 @@
 | awraɣ | geel | yellow | znw_m_ev |
 | awrud | hierheen, naar hier | over here, over here | znw_m_ev |
 | awṯem | mannelijk | male | znw_m_ev |
-| axeddam | Arbeider / bediende | Worker / employee | znw_m_ev |
+| axeddam | Arbeider, bediende | Worker, employee | znw_m_ev |
 | axeddam | werknemer | employee | znw_m_ev |
 | axenza | de steenpuist | the boil | znw_m_ev |
 | axeyyaḏ | de kleermaker | the tailor | znw_m_ev |
@@ -692,8 +669,7 @@
 | aziza | [voorgesteld] | green, blue | znw_m_ev |
 | azizun | stom | stupid | znw_m_ev |
 | aziḏan / rqabus | het geweer | the gun | znw_m_ev |
-| azwaa | de ader of slagader | the vein or artery | znw_m_ev |
-| azwaa | de pees | the tendon | znw_m_ev |
+| azwaa | de ader, slagader, de pees | the vein, artery, the tendon | znw_m_ev |
 | azyen | helft | half | znw_m_ev |
 | azḏaḏ | dun | thin | znw_m_ev |
 | azḏuz | de stamper | the pestle | znw_m_ev |
@@ -710,8 +686,7 @@
 | aɛessas | de bewaker | the guard | znw_m_ev |
 | aɛezri | de jonge man | the young man | znw_m_ev |
 | aɛrab | Arabier (M) | Arab (M) | znw_m_ev |
-| aɛrua | de achterkant | the back | znw_m_ev |
-| aɛrua | rug | back | znw_m_ev |
+| aɛrua | de achterkant, rug | the back | znw_m_ev |
 | aɛjeb | Bevallen (leuk vinden) | Like (like) | ww |
 | aɛḇan | de weegschaal | the scale | znw_m_ev |
 | aɣaaḏa | de muis of rat | the mouse or rat | znw_m_ev |
@@ -771,7 +746,7 @@
 | buaxs | de sprinkhaan | the grasshopper | znw |
 | buṛcu | Handtas | Handbag | ww |
 | bṣṣaḥa | Eet smakelijk | Enjoy your meal | ww |
-| ca (n) | wat/enkele | some/a few | ww |
+| ca (n) | wat, enkele | some, a few | ww |
 | caacaa | de waterval | the waterfall | znw |
 | caccu | houten frame van een zeef | wooden frame of a sieve | znw |
 | calimu | de schoorsteen | the chimney | znw |
@@ -863,7 +838,7 @@
 | ifassen | Handen | Hands | ww |
 | ifsus | Licht (gewicht) | Light (weight) | znw_m_mv |
 | iggʷey | ver zijn | be far | ww |
-| ihseḏ | Jaloers/afgunst | Jealous/envy | znw_m_mv |
+| ihseḏ | Jaloers, afgunst | Jealous, envy | znw_m_mv |
 | ijjen | één | one | znw_m_mv |
 | imenɣi | Gevecht | Fight | znw_m_mv |
 | imexṯan | de besnijdenis | the circumcision | znw_m_mv |
@@ -874,8 +849,7 @@
 | isawen | Behulpzaam | Helpful | znw_m_mv |
 | isiyni | de naald | the needle | znw_m_mv |
 | iwzan | ruw gemalen tarwe | roughly milled wheat | znw_m_mv |
-| iwḏan | mensen | people | ww |
-| iwḏan | het volk | the people | znw_m_mv |
+| iwḏan | mensen, het volk | people | znw_m_mv |
 | ixḏaa | kiezen | to elect | ww |
 | iyaǧen | het schouderblad | the shoulder blade | znw_m_mv |
 | iyyaa | veld | field | znw_m_mv |
@@ -895,11 +869,10 @@
 | jeddi | Grootvader | Grandfather | ww |
 | jeyyef | stikken | to suffocate | ww |
 | jjaaf | de klif of afgrond | big rock | znw |
-| jjaaf | [voorgesteld] | the cliff or abyss | znw |
 | jjařḏa | Tuin | Garden | ww |
 | jjaǧ | zweren | to swear | ww |
 | jjdiḏ | nieuw | new | ww |
-| jjeddi | Opa / Grootvader | Grandpa / Grandfather | ww |
+| jjeddi | Opa, Grootvader | Grandpa, Grandfather | ww |
 | jjemɛa | vrijdag | Friday | ww |
 | jjnun | de woede | the anger | znw |
 | jjuanal | de krant | the newspaper | znw |
@@ -941,9 +914,8 @@
 | lixiya | Bleekmiddel | Bleach | ww |
 | liṯru | Liter | Litre | ww |
 | ljanuḇ | het zuiden | the south | znw_m_ev |
-| ljarima | misdaad | crime | ww |
-| ljarima | het misdrijf | the crime | znw_m_ev |
-| ljeḥḏ | kracht, sterkte | power, strength | ww |
+| ljarima | misdaad, misdrijf | crime | znw_m_ev |
+| jheḏ | kracht, sterkte | power, strength | ww |
 | ljihad | heilige strijd | holy battle | ww |
 | lkanisa | kerk | church | ww |
 | lkitab | boek | book | ww |
@@ -999,7 +971,7 @@
 | meskin | arme stakker (medelijden) | poor wretch (pity) | ww |
 | meřmi | wanneer | when | ww |
 | milyun | miljoen | million | ww |
-| Minzi | Want/omdat/daarom/doordat/wegens | Because/since/therefore/due to | ww |
+| Minzi | Want, omdat, daarom, doordat, wegens | Because, since, therefore, due to | ww |
 | miriw | breed | wide | ww |
 | miziḏ | zoet | sweet | ww |
 | mmenz | verkocht worden | be sold | ww |
@@ -1021,10 +993,10 @@
 | mřaḏas | naderen tot elkaar | approaching each other | ww |
 | mřewṯa | elkaar slaan | hitting each other | ww |
 | mɛacaṯ | Gezelschap | Company | ww |
-| Neffeḍ | Afstoffen/uitschudden | Dust/shake out | ww |
+| Neffeḍ | Afstoffen, uitschudden | Dust, shake out | ww |
 | neffeḥ | snuiven | sniff | ww |
 | nehřa | geen behoefte | no need | ww |
-| nican | juist/correct, recht, rechtdoor | right/correct, straight, straight ahead | ww |
+| nican | juist, correct, recht, rechtdoor | right, correct, straight, straight ahead | ww |
 | niccan | Eerlijk, Precies, Rechtdoor | Honest, Precise, Straightforward | ww |
 | nnamus | de mug | the mosquito | znw |
 | Nnaḍuṛ | Nador | Nador | ww |
@@ -1102,7 +1074,7 @@
 | spitaa | ziekenhuis | hospital | ww |
 | sqaṛṛeb | naderbij brengen, verplaatsen | to approach, to move | ww |
 | ssaaf / nneɛnaɛ | Munt (geld) | Coin (money) | ww |
-| ssaas | neerleggen/zetten | put down/put down | ww |
+| ssaas | neerleggen, zetten | put down, put down | ww |
 | ssaaweṯ | dorsen | threshing | ww |
 | ssalam | Hallo, de vrede | Hello, peace | znw |
 | ssaḇun | Zeep | Soap | ww |
@@ -1130,8 +1102,7 @@
 | sseḇsi | de pijp | the pipe | znw |
 | sseḏha | schamen | ashamed | ww |
 | sseḥḥ | waarheid | truth | ww |
-| ssiaḏ | iemand kleden | dress someone | ww |
-| ssiaḏ | wassen | to wash | ww |
+| ssiaḏ / sird | wassen, kleden | to wash, to dress someone | ww |
 | ssibba / sabab | Reden | Rode | ww |
 | ssiweř | praten, spreken | talk, speak | ww |
 | ssiweḏ | iets brengen, doen aankomen | to bring something, to make something arrive | ww |
@@ -1157,10 +1128,9 @@
 | susef | spuwen | spit | ww |
 | susiṯ | de worst | the sausage | znw |
 | swaday | Hieronder | Below | ww |
-| swadday | naar beneden, omlaag | down, down | ww |
-| swadday | Omlaag | Down | ww |
+| swadday | naar beneden, omlaag | down | ww |
 | sřuddi | kwijlen | drool | ww |
-| Tadsa | [voorgesteld] | Joking/laughing | ww |
+| Tadsa | [voorgesteld] | Joking, laughing | ww |
 | tajjač | de weduwe | the widow | znw |
 | tambaa | de postzegel | the postage stamp | znw |
 | tejjaa | rijk | rich | ww |
@@ -1172,8 +1142,7 @@
 | ttaḇeɛ | het litteken | the scar | znw |
 | tteḇheṯ | verrast of verbaasd | surprised or amazed | ww |
 | tteḇsi | Bord | Board | ww |
-| ttfuḥ | geurig | fragrant | ww |
-| ttfuḥ | ruiken | smell | ww |
+| ttfuḥ | ruiken, geurig | to smell, fragrant | ww |
 | ttimsaḥ | het krokodil | the crocodile | znw |
 | ttqacia | de sok of kous | the sock or stocking | znw |
 | ttuḇis | Bus | Bus | ww |
@@ -1182,7 +1151,6 @@
 | tuddinṯ | druppel | drop | ww |
 | tumaṭic | Tomaat | Tomato | ww |
 | ṯaak | alleen laten (+ IO) | leave alone (+ IO) | ww |
-| ṯacna | andere vrouw van dezelfde man | another wife of the same man | ww |
 | ṯaftic | wiek (van olielamp) | wick (of oil lamp) | ww |
 | ṯamza | ogress (vrouwelijk monster) | ogress (female monster) | ww |
 | ṯazṛuṭ / biṭariya | kleine steen, batterij | small stone, battery | ww |
@@ -1190,29 +1158,23 @@
 | ṯesɛin | negentig | ninety | ww |
 | ṯicti | blaas, klap | blow, blow | ww |
 | ṯini | dadel | date | ww |
-| ṯizi | gang, eigen belang | course, self-interest | ww |
-| ṯiři | waarschijnlijk | probably | ww |
 | ṯrist | schapenwol | sheep's wool | ww |
 | ṯwacc | gegeten worden | be eaten | ww |
 | ṯwazzu | geplant worden | be planted | ww |
 | ṯřatin | dertig | thirty | ww |
-| uccen | jakhals | jackal | ww |
-| uccen | de wolf | the wolf | znw |
+| uccen | jakhals, de wolf | jackal, the wolf | znw_m_ev |
 | ulaḇudd / mya ḏi mya | zeker | sure | ww |
 | ussan | dagen, periode | days, period | ww |
-| uzzař | IJzer | Iron | ww |
-| uzzař | het schild | the shield | znw |
+| uzzař | het schild, ijzer | the shield, iron | znw |
 | waa-ssi | ik weet niet | I don't know | ww |
 | waadyi | is niet (negator non-verbale predicaten) | is not (negator non-verbal predicates) | ww |
-| walu | Geen | No | ww |
-| walu | niets/ geen | nothing/none | ww |
+| walu | geen, niets | no, nothing | ww |
 | wantis | de handschoen | the glove | znw |
 | warda | Roze | Pink | ww |
-| Waxxa | Oke | Okay | ww |
 | weddaa | verdwijnen | disappear | ww |
 | weddi | uitroep | exclamation | ww |
 | welleh | bij God | with God | ww |
-| Wenni/ayenni | Dat/deze | That/these | vnw_aanw |
+| Wenni/ayenni | Dat, deze | That, these | vnw_aanw |
 | wessex | vies | dirty | ww |
 | wi | wie? | who? | ww |
 | wřaḏi | mijn kinderen | my children | ww |
@@ -1258,8 +1220,7 @@
 | řefɛeř | de verkrachting | the rape | znw |
 | řehna | rust, kalmte | peace, tranquility | ww |
 | řejbub | zakken (mv. van ǧǧib) | pockets (pl. of ǧǧib) | ww |
-| řejduḏ | de grootouders | the grandparents | znw |
-| řejduḏ | voorouders | ancestors | ww |
+| řejduḏ | de grootouders, voorouders | the grandparents, ancestors | znw |
 | řeknina | de pil of tablet | the pill or tablet | znw |
 | řemmez | hebzuchtig | greedy | ww |
 | řemraḥ | de binnenplaats | the courtyard | znw |
@@ -1272,17 +1233,15 @@
 | řexrif | Herfst | Autumn | ww |
 | řeybaa | mest | manure | ww |
 | řeynuy | lieǧes | lieǧes | ww |
-| řeɛqeř | verstand | mind | ww |
-| řeɛqeř | wijs | wise | ww |
+| řeɛqeř | verstand, wijs | mind, wise | ww |
 | řeɛzib | het kamp | the camp | znw |
 | řeɛḏu | vijand | enemy | ww |
 | řeḇḏa | Altijd | Always | ww |
-| řeḇḥaa | de oceaan | the ocean | znw |
-| řeḇḥaa | zee | sea | ww |
+| řeḇḥaa | zee, de oceaan | sea, the ocean | znw |
 | řeḥkam | het oordeel | the judgment | znw |
 | řeḥmu | warmte | heat | ww |
 | řeḥram | iets verboden door religie | something forbidden by religion | ww |
-| řeḥria | zijde | side/silk | ww |
+| řeḥria | zijde | side, silk | ww |
 | řeḥriq | Pijn | Pain | ww |
 | řeḥrua | specerijen (alleen mv.) | spices (pl. only) | ww |
 | řeḥsaḇ | rekening, telling | bill, count | ww |
@@ -1290,7 +1249,7 @@
 | řfaaq | verschil | difference | ww |
 | řfaxaa | houtskool | charcoal | ww |
 | řfut’a | Handdoek | Towel | ww |
-| řgeɛḏeṯ | vlakte / plateau | plain / plateau | ww |
+| řgeɛḏeṯ | vlakte, plateau | plain, plateau | ww |
 | řgiḥḥ | het etter | the pus | znw |
 | řimaaṯ | de voetstap | the footstep | znw |
 | řkazi | raam | window | ww |
@@ -1311,7 +1270,7 @@
 | řqanun / sharia | wet | law | ww |
 | řqaḏi | de rechter | the judge | znw |
 | řqedd | de leeftijd | the age | znw |
-| řqehwa | koffie / café | coffee/cafe | ww |
+| řqehwa | koffie, café | coffee, cafe | ww |
 | řqenḏiř | olielamp | oil lamp | ww |
 | řqews | de boog | the arch | znw |
 | řqiřc | de haai | the shark | znw |
@@ -1321,8 +1280,7 @@
 | řweḥc / abaɛoc | Beest | Beast | znw_m_ev |
 | řxaḏaa | wens | wish | ww |
 | řxeḏmeṯ | werk | work | ww |
-| řxuḏaaṯ | Fruit | Fruit | ww |
-| řxuḏaaṯ | Groente | Vegetable | ww |
+| řxuḏaaṯ | fruit, groente | fruit, vegetable | ww |
 | řɛucc | het nest | the nest | znw |
 | řɣaraḏ | de bedoeling | the intention | znw |
 | řɣaḇeṯ | woud of bos | forest or woods | ww |
@@ -1354,7 +1312,6 @@
 | ɛicrin | twintig | twenty | ww |
 | ɛifrit | de demon, het spook | the demon, the ghost | znw |
 | ɣa | exclamatief partikel ('wat een!') | exclamative particle ('what a!') | ww |
-| ɣaa | hebben | to have | vz |
 | ɣaa | Naar | Nasty | vz |
 | ɣaa (2) | lezen | read | ww |
 | ɣaas / carreg / qqaas | scheuren | cracks | ww |
@@ -1385,10 +1342,8 @@
 | ḏaa (1) | Voet | Foot | ww |
 | ḏarrez | weven | to weave | ww |
 | ḏarreɛ | omhelzen | embrace | ww |
-| ḏeɣya | binnenkort | soon | ww |
-| ḏeɣya | snel | quickly | ww |
-| ḏi | door | Through | vz |
-| ḏi | in | in | vz |
+| ḏeɣya | snel, binnenkort | quickly, soon | ww |
+| ḏi | in, door | in, through | vz |
 | ḏin | daar | there | ww |
 | ḥaawec | oprapen | pick up | ww |
 | ḥalawit | snoep | sweets | ww |
@@ -1398,8 +1353,7 @@
 | ḥaweř | voorzichtig zijn | to be careful | ww |
 | ḥayaa | verbaasd | surprised | ww |
 | ḥayawan / imuddar | Dieren | Animals | ww |
-| ḥedd | begrenzen | limit | ww |
-| ḥedd | Iemand | Someone | ww |
+| ḥedd | begrenzen, iemand | to limit, someone | ww |
 | ḥeddeṯ | prediken | preach | ww |
 | ḥidɛac | elf | eleven | ww |
 | ḥřuttef | glijden | slide | ww |
@@ -1410,12 +1364,11 @@
 | ṛeḥṛua / ṛečub | Kruiden | Spices | ww |
 | ṛmaṛyu | Kast | Closet | ww |
 | ṛqebb | kap (van ǧellaba) | hood (from ǧellaba) | ww |
-| ṛxeḏini | Dan (Toen) | Then (Then) | ww |
-| ṛxeḏini | dan / toen / vervolgens | then/then/then | ww |
+| ṛxeḏini | dan, toen, vervolgens | then, then, then | ww |
 | ṛṛaqem | nummer | number | ww |
 | ṛṛiḏu | Gordijn | Curtain | ww |
 | ṣaḥafi | Journalist | Journalist | ww |
-| ṣṣaɛeṯ | Klok / uur | Clock / hour | ww |
+| ṣṣaɛeṯ | Klok, uur | Clock, hour | ww |
 | ṣṣaḥeṯ | gezondheid | health | ww |
 | ṣṣaṛf | (terug)wisselgeld | (return) change | ww |
 | ṣṣbeṛ | Geduld | Patience | ww |
@@ -1437,13 +1390,11 @@
 | ṯaddaaṯ | huis | house | znw_v_ev |
 | ṯaddexṯ | de oksel | the armpit | znw_v_ev |
 | ṯafarṯ | Pagina | Page | znw_v_ev |
-| ṯafřewṯ | hout | wood | znw_v_ev |
-| ṯafřewṯ | de plank | the plank | znw_v_ev |
+| ṯafřewṯ | de plank, hout | the plank, wood | znw_v_ev |
 | ṯakciṯa | de jurk | the dress | znw_v_ev |
 | ṯallajṯ | Koelkast | Refrigerator | znw_v_ev |
 | ṯalwisṯ | stuk goud | piece of gold | znw_v_ev |
-| ṯamcett | de borstel | the brush | znw_v_ev |
-| ṯamcett | Kam | Crest | znw_v_ev |
+| ṯamcett | de borstel, kam | the brush, comb | znw_v_ev |
 | ṯamcunṯ | stoute vrouw | naughty woman | znw_v_ev |
 | ṯameddiṯ | avond | evening | znw_v_ev |
 | ṯamja | fluit | whistle | znw_v_ev |
@@ -1456,8 +1407,7 @@
 | ṯaqcuaṯ | de roos (roos in het haar) | the dandruff (dandruff in the hair) | znw_v_ev |
 | ṯaqsefṯ | de vesting | the fortress | znw_v_ev |
 | ṯaruṯ | de long | the lung | znw_v_ev |
-| ṯasiaṯ | kies (tand) | molar (tooth) | znw_v_ev |
-| ṯasiaṯ | de molen | the mill | znw_v_ev |
+| ṯasiaṯ | de molen, kies (tand) | the mill, molar (tooth) | znw_v_ev |
 | ṯasrafṯ | de draaikolk | the whirlpool | znw_v_ev |
 | ṯasřiṯ | de schoondochter (van een man) | the daughter-in-law (of a man) | znw_v_ev |
 | ṯasṛiṯ | bruid | bride | znw_v_ev |
@@ -1472,15 +1422,14 @@
 | ṯayya | slaaf | slave | znw_v_ev |
 | ṯayzint | de brandnetel | the nettle | znw_v_ev |
 | ṯayḏa | de den | the pine | znw_v_ev |
-| ṯazewḏa | het gerecht/schaal | the dish/bowl | znw_v_ev |
+| ṯazewḏa | het gerecht, schaal | the dish, bowl | znw_v_ev |
 | ṯaziri | volle maan | full moon | znw_v_ev |
 | ṯazyawṯ | mand | basket | znw_v_ev |
 | ṯazzaaṯ | de hark, de hooivork | the rake, the pitchfork | znw_v_ev |
 | ṯazřent | de paling | the eel | znw_v_ev |
 | ṯaɣrasṯ | de bijenkorf | the beehive | znw_v_ev |
 | ṯaɣrutt | Schouder | Shoulder | znw_v_ev |
-| ṯaḇrat | Brief (post) | Letter (mail) | znw_v_ev |
-| ṯaḇrat | de post | the mail | znw_v_ev |
+| ṯaḇrat | brief, de post | letter, the mail | znw_v_ev |
 | ṯaḏunt | vet | fat | znw_v_ev |
 | ṯaḏ’ufṯ | de wol | the wool | znw_v_ev |
 | ṯaḥnacṯ | de balk | the beam | znw_v_ev |
@@ -1503,11 +1452,9 @@
 | ṯifḏent | Teen | Toe | ww |
 | ṯiggwḏi / ṯiwḏi | Angst | Fear | znw_v_mv |
 | ṯilifun | Mobiel | Mobile | znw_v_mv |
-| ṯimessi | de koorts | the fever | znw_v_mv |
-| ṯimessi | vuur | fire | znw_v_mv |
+| ṯimessi | de koorts, vuur | the fever, fire | znw_v_mv |
 | ṯimmi | wenkbrauw | eyebrow | znw_v_mv |
-| ṯinzaa | Neus | Nose | znw_v_mv |
-| ṯinzaa | het neusgat | the nostril | znw_v_mv |
+| ṯinzaa | neus, het neusgat | nose, the nostril | znw_v_mv |
 | ṯinɣi | de uier | the udder | znw_v_mv |
 | ṯiscarṯ | Knoflook | Garlic | znw_v_mv |
 | ṯisiṯ | Spiegel | Mirror | znw_v_mv |
@@ -1526,10 +1473,9 @@
 | ṯkuppat | de kop | the head | znw |
 | ṯmaaṯ | baard | beard | ww |
 | ṯmaqřaṭ | kleine koekenpan | small frying pan | ww |
-| ṯmijja | Keel | Throat | ww |
-| ṯmijja | de stem | the voice | znw |
+| ṯmijja | keel, de stem | throat, the voice | znw |
 | ṯnayen | twee | two | ww |
-| ṯpaḇut / ṯabrikṯ n waman | kalkoen / eend | turkey/duck | ww |
+| ṯpaḇut / ṯabrikṯ n waman | kalkoen, eend | turkey, duck | ww |
 | ṯqaaqra | kikker | frog | ww |
 | ṯqiccit | de bovenkant | the top | znw |
 | ṯracca | het visnet | the fishing net | znw |
@@ -1552,8 +1498,7 @@
 | ṯřixṯ | klei | clay | ww |
 | ṯžaḏjiṯ | de eed | the oath | znw |
 | ṯɣaasṯ | het offer | the sacrifice | znw |
-| ṯḥanett | de werkplaats | the workshop | znw |
-| ṯḥanett | winkel | shop | ww |
+| ṯḥanett | de werkplaats, winkel | the workshop, shop | znw |
 | ṯṣawaṛ | Foto | Photo | ww |
 | ṯṯarix | Geschiedenis | History | ww |
 
@@ -1568,8 +1513,7 @@
 | ameddukeř | vriend | friend | znw_m_ev |
 | ameqqṛan | Groot | Big | znw_m_ev |
 | amezwaru | eerste | first | znw_m_ev |
-| aneggaru | het einde | the end | znw_m_ev |
-| aneggaru | laatste | last | znw_m_ev |
+| aneggaru | het einde, laatste | the end, last | znw_m_ev |
 | aqeṛɛi | lid van Iqeṛɛiyen-stam | member of Iqeṛɛiyen tribe | znw_m_ev |
 | arifi | Riffijn | Riffin | znw_m_ev |
 | arr nnefs | ademen | to breathe | ww |
@@ -1578,8 +1522,7 @@
 | asemmam | zuur | sour | znw_m_ev |
 | aspanyu | Spanjaard | Spaniard | znw_m_ev |
 | aspiraṯor | (stof)zuigen | to vacuum | znw_m_ev |
-| attas | vaak, voor lange tijd | often, for long periods of time | znw_m_ev |
-| attas | veel, een hoop | a lot, a lot | znw_m_ev |
+| attas | vaak, voor lange tijd, veel, een hoop | often, for a long time, a lot | znw_m_ev |
 | awessaa | oude man | old man | znw_m_ev |
 | awiḏ kicc | Meenemen | Take away | ww |
 | ayeř (1) | ophangen | to hang | ww |
@@ -1611,7 +1554,7 @@
 | gg imi ḏi | beschuldigen | accuse | ww |
 | gg řqařeḇ | smeden | forging | ww |
 | ggw jenna | omhoog | upwards | ww |
-| imendi | gerst | barley | znw_m_mv |
+| imendi | gerst, graan | barley, grain | znw_m_mv |
 | imeǧařen | de testikels | the testicles | znw_m_mv |
 | imqeddef | de peddel | the paddle | znw_m_mv |
 | isḏeḥḥac | [voorgesteld] | Funny | znw_m_mv |
@@ -1671,8 +1614,7 @@
 | sraqezzit | de kakkerlak | the cockroach | znw |
 | ssehnunneḍ | wikkelen | to wrap | ww |
 | ssejjaaṯ | boom (collectief) | tree (collective) | ww |
-| ssensřeṯ | ketting | chain | ww |
-| ssensřeṯ | de ruggengraat | the spine | znw |
+| ssensřeṯ / tisersetc | ketting, de ruggengraat | chain, the spine | znw |
 | sseqnunni | rollen | roll | ww |
 | ssnuffaa | verstoppen | hide | ww |
 | ssxarreq | liegen | lie | ww |
@@ -1714,7 +1656,7 @@
 | řeṯnayen | maandag | Monday | ww |
 | řfeřfeř | paprika (collectief) | paprika (collective) | ww |
 | řmencaa’ | de zaag | the saw | znw |
-| řmeḥkama | het hof/rechtbank | the court/court | znw |
+| řmeḥkama | het hof, rechtbank | the court, court | znw |
 | řqendaaṯ | brug | bridge | ww |
 | řḥedd (1) | zondag | Sunday | ww |
 | řḥedd (2) | [voorgesteld] | the border | znw |
@@ -1747,8 +1689,7 @@
 | ṯameḏwasṯ | Bezem | Broom | znw_v_ev |
 | ṯameḥṯac | vrouw die gras snijdt | woman who cuts grass | znw_v_ev |
 | ṯameṣɛecṯ | vrouwelijke bedelaar | female beggar | znw_v_ev |
-| ṯammuaṯ | land | country | znw_v_ev |
-| ṯammuaṯ | Vloer | Floor | znw_v_ev |
+| ṯammuaṯ | land, vloer | country, floor | znw_v_ev |
 | ṯamziyḏa | moskee | mosque | znw_v_ev |
 | ṯanewwacṯ | de bloem | the flower | znw_v_ev |
 | ṯanyana | weer, opnieuw | again | ww |
@@ -1759,7 +1700,7 @@
 | ṯaqmijaṯ | Blouse | Blouse | znw_v_ev |
 | ṯaqmijjaṯ | Hemd | Shirt | znw_v_ev |
 | ṯaquřacṯ | de cirkel | the circle | znw_v_ev |
-| ṯarifecṯ | Riffijnse vrouw / Riffijnse taal | Riffian woman / Riffian language | znw_v_ev |
+| ṯarifecṯ | Riffijnse vrouw, Riffijnse taal | Riffian woman, Riffian language | znw_v_ev |
 | ṯasaaḏunṯ | vrouwelijk muildier | female mule | znw_v_ev |
 | ṯasebbač | Kraan | Crane | znw_v_ev |
 | ṯasebnecṯ | traditionele hoofddoek | traditional headscarf | znw_v_ev |
@@ -1774,7 +1715,7 @@
 | ṯayaazicṯ | vrouwelijke haas | female hare | znw_v_ev |
 | ṯayarṛarṯ | Band (auto) | Tire (car) | znw_v_ev |
 | ṯayaṛṛabuṯ | kleine boot | small boat | znw_v_ev |
-| ṯayenjacṯ | lepel | spoon | znw_v_ev |
+| ṯaɣenjacṯ | lepel | spoon | znw_v_ev |
 | ṯayezzaaṯ | het eiland | the island | znw_v_ev |
 | ṯayeḏǧafṯ | kleine ǧellaba | little ǧellaba | znw_v_ev |
 | ṯayujiṯc | weesmeisje | orphan girl | znw_v_ev |
@@ -1794,8 +1735,7 @@
 | ṯaḥarrafṯ | de waaier | the fan | znw_v_ev |
 | ṯelṯemya | Driehonderd | Three hundred | ww |
 | ṯijaacřecṯ | de kwartel | the quail | znw_v_mv |
-| ṯisiynefṯ | de injectie | the injection | znw_v_mv |
-| ṯisiynefṯ | speld | pin | znw_v_mv |
+| ṯisiynefṯ | speld, de injectie | pin, the injection | znw_v_mv |
 | ṯiwecca | morgen | tomorrow | ww |
 | ṯiřetteṯ | pinkje | little finger | znw_v_mv |
 | ṯiři | schaduw | shadow | znw_v_mv |
@@ -1815,8 +1755,7 @@
 | aɣ | presentatief partikel ('hier!') | presentational particle ('here!') | ww |
 | aysum | vlees | meat | znw_m_ev |
 | azyen n nnhaa | het middaguur | the noon | znw_m_ev |
-| azzeř | rennen | run | ww |
-| azzeř | stromen | flow | ww |
+| azzeř | rennen, stromen | to run, to flow | ww |
 | aɛrua n titt | het ooglid | the eyelid | znw_m_ev |
 | aɣrum n tḇaɣřa | de paddenstoel | the mushroom | znw_m_ev |
 | aḏan n tmuaṯ | worm | worm | znw_m_ev |
@@ -1827,10 +1766,8 @@
 | ddhen aḥuři | ghee | ghee | ww |
 | Genoeg ergens van | Mewjud | Mewjud | ww |
 | ggenfa | genezen, beter worden | heal, get better | ww |
-| imendi | graan | grain | znw_m_mv |
 | iri (n) umaayuř | de kraag | the collar | znw_m_mv |
-| kk | duren | to last | ww |
-| kk | voorbijgaan, passeren | to pass by | ww |
+| kk | duren, voorbijgaan, passeren | to last, to pass by | ww |
 | kkaa | opstaan | to get up | ww |
 | lḥayawan n ṯaḏḏarṯ | Huisdier | Pet | ww |
 | mani nneɣniṯ | Ergens | Somewhere | ww |
@@ -1855,7 +1792,7 @@
 | uma amezzyan | de jongere broer | the younger brother | znw |
 | učma ṯameqqrant | de oudere zus | the older sister | znw |
 | učma ṯamezzyant | de jongere zus | the younger sister | znw |
-| wenni ḏ yusin | volgende | next | ww |
+| wenni d yusin | volgende | next | ww |
 | wenni isteḏɛan | de gedaagde | the defendant | znw |
 | wenni itteḏɛan | de eiser | the plaintiff | znw |
 | wweṯ s uqaatas | schieten | to shoot | ww |
@@ -1880,4 +1817,3 @@
 | ṯriq salama | Goede reis | Have a nice trip | ww |
 | ṯřaṯa (n) imuan | driemaal | three times | ww |
 | ẓẓu | planten | plants | ww |
-
