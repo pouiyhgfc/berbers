@@ -242,8 +242,8 @@ De stops b, d, t, g, k worden in de meeste omstandigheden zacht uitgesproken. Di
 | ḇ | /β/ | zachte Spaanse b — lippen sluiten niet helemaal |
 | ḏ | /ð/ | th in Engels this |
 | ṯ | /θ/ | th in Engels think |
-| ḵ | /ç/ | ch in Duits ich — in Nador-Tarifit vrijwel verdwenen |
-| g | → y | in Nador volledig vervangen door y |
+| ḵ | /ç/ | ch in Duits ich — in Nador-Tarifit veranderd in š |
+| ǧ | → y | de gespirantiseerde (zachte) variant is in Nador veranderd in y |
 
 Wanneer blijft de klank hard?
 
@@ -251,7 +251,7 @@ Wanneer blijft de klank hard?
 2. Direct na n: `yenḍu` "hij sprong".
 3. In een medeklinkercluster aan het einde van een woord: `ṯafunasṯ` "koe".
 
-> **Dialect-verschil:** In Iqeṛɛiyen-Tarifit (Nador) is ḵ vrijwel verdwenen en is g regelmatig y geworden. In andere Rif-dialecten (zoals Ayt Weryaghel) bestaan die klanken nog wel.
+> **Dialect-verschil:** In Iqeṛɛiyen-Tarifit (Nador) is de klank ḵ veranderd in š, en is de gespirantiseerde variant ǧ (uitspraak [j]) veranderd in y. In andere Rif-dialecten (zoals Ayt Weryaghel) bestaan die klanken nog wel.
 
 ### 2.4 Historische L — ř, ǧ en tc
 
@@ -283,7 +283,7 @@ De dubbele ll is in Tarifit de klank geworden van de j in Engels joke, geschreve
 
 #### lt-combinatie → tc
 
-De combinatie lt is niet veranderd naar řt zoals je zou verwachten, maar is nog verder gegaan: het werd tc (/tʃ/, zoals ch in Engels China ).
+De combinatie lt is historisch via de tussenstap řt uiteindelijk getransformeerd tot tc (/tʃ/, zoals ch in Engels China ): eerst werd l regelmatig ř (zie hierboven), en vervolgens werd de combinatie řt klankwettig tc. Zie het woordfamilie-voorbeeld hieronder ( `ameǧař` / `tameǧatc` ) voor hoe deze twee stappen samen tot de moderne vorm leiden.
 
 | Andere Berbertalen | Tarifit | Betekenis |
 | --- | --- | --- |
@@ -1014,11 +1014,11 @@ Voor ontkenning staat altijd het partikel `waa` ervoor. Zie Hoofdstuk 13 voor de
 
 📖 Boek p. 113–115
 
-Aorist — neutraal, alleen met partikels:
+Aorist — neutrale basisvorm:
 
 - `ad` + Aorist = toekomst, wens, mogelijkheid: `ad yegg` "hij zal doen / mocht hij doen"
 - `xad` + Aorist = modale variant met sterkere aanname, vaak in een waarschuwing
-- Aorist na een Perfectief in een verhaal — drukt opeenvolgende acties uit ("…en toen X-en, en toen Y-en"). Praktisch belangrijk bij het lezen of vertellen van verhalen.
+- Aorist zonder partikel wordt uitsluitend gebruikt voor de gebiedende wijs (imperatief).
 
 Perfectief — afgeronde actie of toestand:
 
@@ -2362,7 +2362,7 @@ Bij ontkenning gebruik je `ma` in plaats van `illa`:
 - `netta ḏ umeddukeř nnes` "hij en zijn vriend"
 - `imendi ḏ farina ḏ yārḏen` "gerst, zacht graan en tarwe"
 
-`ḏ` verbindt nooit hele zinnen. Voor "en daarna" tussen zinnen gebruik je intonatie of een Aorist-vervolg.
+`ḏ` verbindt nooit hele zinnen. Voor "en daarna" tussen zinnen gebruik je intonatie.
 
 #### `niɣ` "of"
 
@@ -2469,7 +2469,7 @@ Voorbeelden:
 - `yekkaa ijj uzeǧid` "er was eens een koning" — verhaal-opener met Perfectief
 - `ɣaas ijjen yiyyaa n yārḏen yemyaa` "hij had een groot tarweveld" — bezit met `ɣaa` (Hoofdstuk 13.4)
 
-> **Aanbevolen leesvolgorde:** Begin met de korte dialogen — daar herken je het meest van wat in deze cursus aan bod is gekomen. Het sprookje is ideaal voor het oefenen van Aorist-narratieve vervolgketens (Hoofdstuk 4.3) en clitic-fronting na `umi` (Hoofdstuk 7.3). De Islamitische preek bevat veel formele Arabische leenwoorden en is qua spreektaal het minst direct bruikbaar.
+> **Aanbevolen leesvolgorde:** Begin met de korte dialogen — daar herken je het meest van wat in deze cursus aan bod is gekomen. Het sprookje is ideaal voor het oefenen van clitic-fronting na `umi` (Hoofdstuk 7.3). De Islamitische preek bevat veel formele Arabische leenwoorden en is qua spreektaal het minst direct bruikbaar.
 
 ## Eindsamenvatting — De belangrijkste lessen
 

@@ -138,7 +138,7 @@
 | beḏḏ | Halt | Halt | ww |
 | caaf | vastbinden | tie up | ww |
 | caah | haten | hate | ww |
-| cab | [voorgesteld] | turn gray | ww |
+| cab | grijs worden | turn gray | ww |
 | cař | grond, klei | soil, clay | ww |
 | ccaa | vullen | to fill | ww |
 | ccař / ijḏi | Zand | Sand | znw_m_mv |
@@ -257,7 +257,7 @@
 | myaa | oogsten, maaien | harvest, mow | ww |
 | mřec | trouwen | to marry | ww |
 | Mřič | Melilla | Melilla | ww |
-| mɣaa / ɣmi | [voorgesteld] | To grow | ww |
+| mɣaa / ɣmi | groeien | To grow | ww |
 | mẓaa | elkaar zien | see each other | ww |
 | n | van (bezit) | of (possession) | vz |
 | ndeh / gewweḏ | leiden | to lead | ww |
@@ -317,7 +317,7 @@
 | tsɛa | negen | nine | ww |
 | ttaa | verzoeken | requests | ww |
 | ttaaf (i) / zzaṭ | naast | next to | ww |
-| ttef | [voorgesteld] | grab, catch, get | ww |
+| ttef | grijpen, vangen, krijgen | grab, catch, get | ww |
 | ttes | slapen | to sleep | ww |
 | ttu | vergeten | forget | ww |
 | tub | berouw hebben | to repent | ww |
@@ -450,7 +450,7 @@
 | ḥarek / hjem | de aanval | the attack | znw |
 | ḥaḏa | aanraken | to touch | ww |
 | ḥekk | wrijven | to rub | ww |
-| ḥfaa | [voorgesteld] | to dig | ww |
+| ḥfaa | graven | to dig | ww |
 | ḥkem | veroordelen | condemn | ww |
 | ḥma | warm | warm | ww |
 | ḥra | verdienen | earn | ww |
@@ -465,7 +465,7 @@
 | ḥṛu | slurpen, dik soep eten | slurping, eating thick soup | ww |
 | ḵsi | Dragen, nemen, pakken, optillen | Carry, take, grab, lift | ww |
 | ṛqa | tegen iets aanlopen, spontaan ontmoeten | bumping into something, meeting spontaneously | ww |
-| ṛwaḥ | [voorgesteld] | Flu | ww |
+| ṛwaḥ | griep | Flu | ww |
 | ṣṣaa | verzachten, beschermen | soften, protect | ww |
 | ṭṭuṛ | Lengte | Length | ww |
 | ṯafunasṯ | koe | cow | znw_v_ev |
@@ -650,7 +650,7 @@
 | axmaa | het spinnenweb | the spider web | znw_m_ev |
 | axwwan | Inbreker | Burglar | znw_m_ev |
 | axřuř | het snot | the snot | znw_m_ev |
-| axḇuc | [voorgesteld] | the ditch, the hole | znw_m_ev |
+| axḇuc | de greppel, het gat | the ditch, the hole | znw_m_ev |
 | ayaaziz | de haas | the hare | znw_m_ev |
 | ayawya | elkaar | each other | znw_m_ev |
 | ayaṛṛaf | waterkruik | water jug | znw_m_ev |
@@ -666,7 +666,7 @@
 | azeɛɛam | dapper | brave | znw_m_ev |
 | aziyza | blauw | blue | znw_m_ev |
 | aziyza | rauw | raw | znw_m_ev |
-| aziza | [voorgesteld] | green, blue | znw_m_ev |
+| aziza | groen, blauw | green, blue | znw_m_ev |
 | azizun | stom | stupid | znw_m_ev |
 | aziḏan / rqabus | het geweer | the gun | znw_m_ev |
 | azwaa | de ader, slagader, de pees | the vein, artery, the tendon | znw_m_ev |
@@ -734,7 +734,7 @@
 | barrem | boren | to drill | ww |
 | baṛkun | Balkon | Balcony | ww |
 | baṭaṭa | aardappel (collectief) | potato (collective) | ww |
-| baṭer | [voorgesteld] | Free | ww |
+| baṭer | gratis | Free | ww |
 | belleɣ | (mondeling) overdragen | transfer (orally). | ww |
 | bellɛ | sluiten, gesloten zijn | to close, to be closed | ww |
 | Biljik | België | Belgium | ww |
@@ -1030,7 +1030,7 @@
 | plastik | het plastic | the plastic | znw |
 | puerṯo / řmuyyi | haven | harbour | ww |
 | qaddef | roeien | rowing | ww |
-| qandaw | [voorgesteld] | the latch | znw |
+| qandaw | de grendel | the latch | znw |
 | qarrem | mank | limp | ww |
 | qawieṯ | Pinda | Peanut | ww |
 | qaṛṛeb | naderen, dichterbij komen | to approach, to come closer | ww |
@@ -1130,7 +1130,7 @@
 | swaday | Hieronder | Below | ww |
 | swadday | naar beneden, omlaag | down | ww |
 | sřuddi | kwijlen | drool | ww |
-| Tadsa | [voorgesteld] | Joking, laughing | ww |
+| Tadsa | grapje / lachen | Joking, laughing | ww |
 | tajjač | de weduwe | the widow | znw |
 | tambaa | de postzegel | the postage stamp | znw |
 | tejjaa | rijk | rich | ww |
@@ -1557,7 +1557,7 @@
 | imendi | gerst, graan | barley, grain | znw_m_mv |
 | imeǧařen | de testikels | the testicles | znw_m_mv |
 | imqeddef | de peddel | the paddle | znw_m_mv |
-| isḏeḥḥac | [voorgesteld] | Funny | znw_m_mv |
+| isḏeḥḥac | grappig | Funny | znw_m_mv |
 | itsegweḏ | Eng | Scary | znw_m_mv |
 | iwettḏen | de neet | the nee | znw_m_mv |
 | iweṯ unẓaṛ | Regenen | Rain | ww |
@@ -1659,7 +1659,7 @@
 | řmeḥkama | het hof, rechtbank | the court, court | znw |
 | řqendaaṯ | brug | bridge | ww |
 | řḥedd (1) | zondag | Sunday | ww |
-| řḥedd (2) | [voorgesteld] | the border | znw |
+| řḥedd (2) | de grens | the border | znw |
 | ɛamayen | twee jaar | two years | ww |
 | ɛaweḏ (2) | opnieuw | again | ww |
 | ḇaḇaɣayyu | de papegaai | the parrot | znw |
