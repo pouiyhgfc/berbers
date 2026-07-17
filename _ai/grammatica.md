@@ -45,7 +45,7 @@ Spanje heeft het Rifgebied tussen 1912 en 1956 gekoloniseerd, en de stadsstaat M
 
 Op deze site gebruiken we het Latijns-Berber alfabet zoals op learntarifit (https://learntarifit.notion.site/Writing-in-Tarifit-164c13db52da80259699daa2e6c0c32e). Dat sluit aan bij wat de meeste Riffijnen in praktijk zelf schrijven. Daarnaast bestaan:
 
-- Tifinagh (ⵜⵎⴰⵣⵉⵖⵜ) — sinds 2003 de officiële standaard in Marokko, gebruikt in onderwijs en op straatborǧes.
+- Tifinagh (ⵜⵎⴰⵣⵉⵖⵜ) — sinds 2003 de officiële standaard in Marokko, gebruikt in onderwijs en op straatbordjes.
 - Arabisch schrift — vooral in religieuze contexten.
 - Internet-spelling — informeel, met cijfer-substituties: 9 voor q, 3 voor ɛ, 7 voor ḥ, gh voor ɣ, kh of ch voor x. We gebruiken dit hier niet — één teken per klank houdt de zaak helder.
 
@@ -1551,13 +1551,13 @@ Het indirect-object is altijd verplicht — het direct-object is optioneel als d
 
 📖 Boek p. 87–96
 
-*De kleine woorǧes die relaties uitdrukken: in, op, naar, met, van, tot, zonder, zoals. Bijna allemaal eisen ze Annexed State na zich — drie uitzonderingen vormen de hoofdregel.*
+*De kleine woordjes die relaties uitdrukken: in, op, naar, met, van, tot, zonder, zoals. Bijna allemaal eisen ze Annexed State na zich — drie uitzonderingen vormen de hoofdregel.*
 
 ---
 
 ### Hoofdstuk 9 — Voorzetsels
 
-*De kleine woorǧes die relaties uitdrukken: in, op, naar, met, van, tot, zonder, zoals. Bijna allemaal eisen ze Annexed State na zich — drie uitzonderingen vormen de hoofdregel.*
+*De kleine woordjes die relaties uitdrukken: in, op, naar, met, van, tot, zonder, zoals. Bijna allemaal eisen ze Annexed State na zich — drie uitzonderingen vormen de hoofdregel.*
 
 ### 9.1 De basis-voorzetsels
 

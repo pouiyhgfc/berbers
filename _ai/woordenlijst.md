@@ -3,7 +3,7 @@
 
 # Tarifit Woordenlijst
 > **REGEL:** Gebruik ALLEEN woorden die letterlijk in deze lijst staan.
-> Totaal: 1781 woorden.
+> Totaal: 1785 woorden.
 
 **Afkortingen woordsoort:** ww = werkwoord · znw = zelfstandig naamwoord · vnw = voornaamwoord · voegw = voegwoord · bvnw = bijvoeglijk naamwoord · byw = bijwoord
 
@@ -363,6 +363,7 @@
 | xṣaa | rot | rotten | ww |
 | xṣaa / wedda | verliezen | to lose | ww |
 | yaɛḏ | Kleden | Dress | ww |
+| yārḏen | tarwe | wheat | znw_m_mv |
 | yis / akiḏaa | Paard | Horse | znw_m_ev |
 | ymaa | jagen | hunting | ww |
 | zaaḏ | scheten laten | farting | ww |
@@ -608,6 +609,7 @@
 | aqṛab | Rugtas | Backpack | znw_m_ev |
 | Aremmas | Aannemer | Contractor | znw_m_ev |
 | arrayes | de president | the president | znw_m_ev |
+| arriš | veren, pluimage | feathers, plume | znw_m_ev |
 | arraḏyu | Radio | Radio | znw_m_ev |
 | arrez | gebroken | broken | ww |
 | arric | de veer | the feather | znw_m_ev |
@@ -839,6 +841,7 @@
 | ifsus | Licht (gewicht) | Light (weight) | znw_m_mv |
 | iggʷey | ver zijn | be far | ww |
 | ihseḏ | Jaloers, afgunst | Jealous, envy | znw_m_mv |
+| iǧdi | zand | sand | znw |
 | ijjen | één | one | znw_m_mv |
 | imenɣi | Gevecht | Fight | znw_m_mv |
 | imexṯan | de besnijdenis | the circumcision | znw_m_mv |
@@ -1212,6 +1215,7 @@
 | řaaḇɛa | woensdag | Wednesday | ww |
 | řbacua / ṯazaaṯ | vijg | fig | znw_v_ev |
 | řbanku | bank | bank | ww |
+| řehrua | kruiden, specerijen | herbs, spices | znw |
 | řbuameṯ | couscousstoom-pan | couscous steamer | ww |
 | řebni | gebouw | building | ww |
 | řebɛaḏ | een paar | a few | znw |

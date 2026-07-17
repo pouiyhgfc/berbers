@@ -1,0 +1,36 @@
+01 niveau_nl=1 niveau_en=1 | NL: Klanken &amp; alfabet | EN: Sounds &amp; alphabet -> OK
+02 niveau_nl=1 niveau_en=1 | NL: Persoonlijke voornaamwoorden | EN: Personal pronouns -> OK
+03 niveau_nl=1 niveau_en=1 | NL: "Ik ben..." — zinnen zonder werkwoord | EN: “I am…” — sentences without a verb -> OK
+04 niveau_nl=1 niveau_en=1 | NL: Familiewoorden | EN: Family words -> OK
+05 niveau_nl=1 niveau_en=1 | NL: Begroetingen &amp; dagelijkse uitdrukkingen | EN: Greetings &amp; Daily Expressions -> OK
+06 niveau_nl=2 niveau_en=2 | NL: Wat is een werkwoord in Tarifit? | EN: What is a verb in Tarifit? -> OK
+07 niveau_nl=2 niveau_en=2 | NL: Vervoeging: ik / jij / hij / zij | EN: Conjugation: I / you / he / she -> OK
+08 niveau_nl=2 niveau_en=2 | NL: Vervoeging: wij / jullie / zij | EN: Conjugation: we / you / they -> OK
+09 niveau_nl=2 niveau_en=2 | NL: Aspect: afgerond vs lopend | EN: Aspect: rounded vs ongoing -> OK
+10 niveau_nl=2 niveau_en=2 | NL: Toekomst met <span class="tar">ad</span> | EN: Future with <span class="tar">ad</span> -> OK
+11 niveau_nl=3 niveau_en=3 | NL: Mannelijk vs vrouwelijk | EN: Male vs female -> OK
+12 niveau_nl=3 niveau_en=3 | NL: Enkelvoud vs meervoud | EN: Singular vs plural -> OK
+13 niveau_nl=3 niveau_en=3 | NL: "Mijn, jouw, zijn, haar..." | EN: "My, your, his, her..." -> OK
+14 niveau_nl=3 niveau_en=3 | NL: "Deze" en "die" | EN: "this" and "those" -> OK
+15 niveau_nl=3 niveau_en=3 | NL: Vrije &amp; verbonden staat | EN: Free &amp; connected state -> OK
+16 niveau_nl=4 niveau_en=4 | NL: Zinsvolgorde: VSO | EN: Sentence order: VSO -> OK
+17 niveau_nl=4 niveau_en=4 | NL: Voorzetsels | EN: Prepositions -> OK
+18 niveau_nl=4 niveau_en=4 | NL: Telwoorden 1–10 | EN: Counting words 1–10 -> OK
+19 niveau_nl=4 niveau_en=4 | NL: Vraagwoorden | EN: Question words -> OK
+20 niveau_nl=4 niveau_en=4 | NL: Ontkenning: "niet" | EN: Disclaimer: "not" -> OK
+21 niveau_nl=5 niveau_en=5 | NL: Willen, kunnen, beginnen | EN: Wanting, being able to, starting -> OK
+22 niveau_nl=5 niveau_en=5 | NL: Voornaamwoorden-suffixen | EN: Pronoun suffixes -> OK
+23 niveau_nl=5 niveau_en=5 | NL: En, of, maar, als | EN: And, or, but, if -> OK
+24 niveau_nl=5 niveau_en=5 | NL: Tijd-uitdrukkingen | EN: Time expressions -> OK
+25 niveau_nl=6 niveau_en=6 | NL: Bijzondere uitspraak: gevocaliseerde R | EN: Special pronunciation: vocalized R -> OK
+26 niveau_nl=6 niveau_en=6 | NL: Bijvoeglijke naamwoorden | EN: Adjectives -> OK
+27 niveau_nl=6 niveau_en=6 | NL: Collectief vs telbaar — fruit, groente, dieren | EN: Collective vs. countable — fruits, vegetables, animals -> OK
+28 niveau_nl=6 niveau_en=6 | NL: Tribale namen, <span class="tar">bu-</span>, <span class="tar">mu-</span> | EN: tribal names, <span class="tar">bu-</span>, <span class="tar">mu-</span> -> OK
+29 niveau_nl=7 niveau_en=7 | NL: Causatief: laat iemand X doen | EN: Causative: make someone do X -> OK
+30 niveau_nl=7 niveau_en=7 | NL: Middel <span class="tar">mm-</span> en passief <span class="tar">twa-</span> | EN: Reciprocal <span class="tar">mm-</span> and passive <span class="tar">twa-</span> -> OK
+31 niveau_nl=7 niveau_en=7 | NL: Pseudo-werkwoorden: <span class="tar">aqqa, ṯɣiř, ay</span> | EN: Pseudo-verbs:<span class="tar">aqqa, ṯɣiř, ay</span> -> OK
+32 niveau_nl=7 niveau_en=7 | NL: Betrekkelijke bijzinnen ("die...") | EN: Relative clauses ("that...") -> OK
+33 niveau_nl=7 niveau_en=7 | NL: Cleft-zinnen ("het is X die...") | EN: Cleft sentences ("it is X that...") -> OK
+34 niveau_nl=8 niveau_en=8 | NL: Een verhaal lezen — over sprookjes vertellen | EN: Reading a story — about telling fairy tales -> OK
+35 niveau_nl=8 niveau_en=8 | NL: Het sprookje van de parel-jongen | EN: The fairy tale of the pearl boy -> OK
+36 niveau_nl=8 niveau_en=8 | NL: Praktische dialogen | EN: Practical dialogues -> OK

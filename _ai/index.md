@@ -57,10 +57,10 @@ Laad selectief: laad alleen de bestanden die relevant zijn voor de vraag.
 ## Inhoud
 
 ### Woordenlijst
-1781 woorden → [woordenlijst.md](woordenlijst.md)
+1785 woorden → [woordenlijst.md](woordenlijst.md)
 
-### Cursus (36 lessen)
-Alle 36 lessen in één bestand → [cursus.md](cursus.md)
+### Cursus (38 lessen)
+Alle 38 lessen in één bestand → [cursus.md](cursus.md)
 
 ### Grammatica (20 hoofdstukken)
 Alle 20 hoofdstukken in één bestand → [grammatica.md](grammatica.md)
