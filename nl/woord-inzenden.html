@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Woord voorstellen · Tarifit</title>
+  <link rel="stylesheet" href="/styles.css?v=7">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="index.html" class="brand" aria-label="Tarifit — naar home">
+        <span class="brand-mark var-diamond" aria-hidden="true">
+          <span class="lozenge"><span class="yaz">ⵣ</span></span>
+        </span>
+        <span class="brand-mark var-wordmark" aria-hidden="true">
+          <span class="yaz-large">ⵣ</span>
+        </span>
+        <span class="brand-mark var-tile" aria-hidden="true">
+          <span class="tile"></span>
+        </span>
+        <span class="brand-word">Tarif<span class="accent">it</span></span>
+      </a>
+      <nav class="topnav" aria-label="Hoofdmenu">
+        <a href="cursus.html">Cursus</a>
+        <a href="oefeningen.html">Oefeningen</a>
+        <a href="uitleg.html">Uitleg</a>
+        <a href="woordenlijst.html">Woordenlijst</a>
+        <a href="zinnen.html">Zinnen</a>
+        <a href="woord-inzenden.html" class="nav-quiet active">Woord voorstellen</a>
+        <a href="boek.html">Het boek</a>
+      
+        <span class="lang-switch" role="group" aria-label="Language">
+          <a href="/nl/woord-inzenden.html" class="active" hreflang="nl">NL</a>
+          <span class="lang-sep" aria-hidden="true">/</span>
+          <a href="/en/suggest-word.html" hreflang="en">EN</a>
+        </span>
+      </nav>
+    </div>
+  </header>
+
+  <main class="boek-container" style="max-width: 680px;">
+    <div class="eyebrow">bijdragen</div>
+    <h1>Woord voorstellen</h1>
+    <p class="lead">Staat een woord nog niet (goed) op de <a href="woordenlijst.html">woordenlijst</a>? Stuur hier een voorstel. Alles wordt eerst bekeken; daarna kan het handmatig bij de woordenlijst worden gezet.</p>
+
+    <div id="cfg-error" class="box" style="display:none; border-left: 3px solid #b85c00; background: #fff4e6;">
+      <p style="margin:0"><strong>Even niet beschikbaar.</strong> Probeer het later opnieuw.</p>
+    </div>
+
+    <form id="word-form" class="box" style="margin-top: 24px;">
+      <p style="margin-top:0"><label for="berber"><strong>Tarifit-vorm</strong></label></p>
+      <input type="text" id="berber" name="berber" required autocomplete="off"
+        maxlength="200" class="wl-search" style="margin-bottom: 16px;"
+        placeholder="bijv. aman">
+
+      <p><label for="dutch"><strong>Nederlandse vertaling</strong></label></p>
+      <input type="text" id="dutch" name="dutch" required autocomplete="off"
+        maxlength="200" class="wl-search" style="margin-bottom: 16px;"
+        placeholder="bijv. water">
+
+      <p><label for="notes">Opmerking (optioneel)</label></p>
+      <textarea id="notes" name="notes" rows="3" maxlength="500" class="wl-search" style="resize: vertical;"
+        placeholder="Dialectvariant, bron, context…"></textarea>
+
+      <p style="margin: 20px 0 0;">
+        <button type="submit" class="exercise-submit">Versturen</button>
+      </p>
+      <p id="form-status" style="margin: 16px 0 0; font-size: 15px; color: var(--text-soft);"></p>
+    </form>
+
+    <p style="margin-top: 28px; font-size: 14px; color: var(--text-muted);">
+      Goedgekeurde woorden komen op de <a href="woordenlijst.html">woordenlijst</a>. Beheer voor ingelogde beheerders: <a href="woord-inzenden-admin.html">inzendingen beheren</a>.
+    </p>
+  </main>
+
+  <footer>
+    <p>Gebaseerd op Mourigh &amp; Kossmann (2019).</p>
+      <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-light);">
+      Vragen of opmerkingen? <a href="#" onclick="window.location.href = 'mai' + 'lto:' + 'Idriesti' + '@' + 'outlook.com'; return false;" style="color: inherit; text-decoration: underline;">Idriesti@outlook.com</a>
+    </p>
+  </footer>
+
+  <script src="/assets/js/supabase-config.js"></script>
+  <script type="module">
+import { createTarifitClient } from '/assets/js/tarifit-supabase-client.js';
+
+const cfgError = document.getElementById('cfg-error');
+const form = document.getElementById('word-form');
+const statusEl = document.getElementById('form-status');
+
+const { client, cfg } = createTarifitClient();
+if (!client) {
+  cfgError.style.display = 'block';
+  if (cfg && cfg.reason === 'secret_key') {
+    cfgError.querySelector('p').textContent =
+      'Technische fout bij de verbinding. Probeer het later opnieuw of neem contact op met de beheerder.';
+  } else if (cfg && cfg.reason === 'missing') {
+    cfgError.querySelector('p').textContent =
+      'Deze pagina is nog niet goed gekoppeld aan de server. Probeer het later opnieuw.';
+  }
+  form.style.display = 'none';
+} else {
+  let _submitting = false;
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    if (_submitting) return;
+    _submitting = true;
+    statusEl.textContent = 'Bezig met versturen…';
+    const berber = document.getElementById('berber').value.trim();
+    const dutch = document.getElementById('dutch').value.trim();
+    const notes = document.getElementById('notes').value.trim();
+
+    try {
+      const cfg = window.TARIFIT_SUPABASE;
+      const resp = await fetch(cfg.url + '/rest/v1/word_submissions', {
+        method: 'POST',
+        headers: {
+          'apikey': cfg.anonKey,
+          'Authorization': 'Bearer ' + cfg.anonKey,
+          'Content-Type': 'application/json',
+          'Prefer': 'return=minimal',
+        },
+        body: JSON.stringify({ berber, dutch, notes: notes || null, status: 'pending' }),
+      });
+      if (!resp.ok) {
+        const body = await resp.json().catch(() => ({}));
+        throw new Error(body.message || resp.statusText);
+      }
+      statusEl.textContent = 'Bedankt! Je voorstel is opgeslagen ter beoordeling.';
+      form.reset();
+      setTimeout(() => { _submitting = false; }, 5000);
+    } catch (err) {
+      statusEl.textContent = 'Fout: ' + (err.message || String(err));
+      setTimeout(() => { _submitting = false; }, 5000);
+    }
+  });
+}
+  </script>
+
+  <script>
+    // Preserve scroll position when switching languages
+    document.querySelectorAll('.lang-switch a').forEach(function(a) {
+      a.addEventListener('click', function(e) {
+        if (window.location.hash) {
+          e.preventDefault();
+          window.location.href = a.getAttribute('href') + window.location.hash;
+        }
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,4614 @@
+{
+ "les-01": [
+  {
+   "type": "mc",
+   "q": "Hoeveel <strong>echte</strong> klinkers heeft Tarifit?",
+   "options": [
+    "2",
+    "3",
+    "5",
+    "7"
+   ],
+   "correct": 1,
+   "explain": "Drie echte klinkers (a, i, u). De schwa <span class=\"tar\">e</span> telt niet als volwaardige klinker."
+  },
+  {
+   "type": "mc",
+   "q": "Welke klank hoort bij <span class=\"tar\">ɣ</span>?",
+   "options": [
+    "scherpe keel-h, zoals Nederlandse <em>ch</em> in <em>lachen</em>",
+    "de Arabische ﻍ — een 'gh'-klank zoals in <em>Maghreb</em>",
+    "knijpende klank, dieper in de keel",
+    "k zo diep mogelijk in de keel"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ɣ</span> is de Arabische غ — een 'gh'-klank, zoals in <em>Maghreb</em> of de zachte Nederlandse <em>g</em>."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is het verschil tussen <span class=\"tar\">ḏ</span> en <span class=\"tar\">ṯ</span>?",
+   "options": [
+    "<span class=\"tar\">ḏ</span> is donker, <span class=\"tar\">ṯ</span> is licht",
+    "<span class=\"tar\">ḏ</span> = th in <em>this</em> (stemhebbend); <span class=\"tar\">ṯ</span> = th in <em>thin</em> (stemloos)",
+    "ze zijn identiek, alleen verschillend geschreven",
+    "<span class=\"tar\">ḏ</span> komt vooraan, <span class=\"tar\">ṯ</span> achteraan in een woord"
+   ],
+   "correct": 1,
+   "explain": "Beide hebben een streepje onder en zijn blazend uitgesproken — zoals in Engels <em>this</em> versus <em>thin</em>."
+  },
+  {
+   "type": "match",
+   "q": "Koppel elke keelklank aan zijn beschrijving.",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">q</span>",
+     "leftIsTar": true,
+     "right": "k zo diep mogelijk in de keel"
+    },
+    {
+     "left": "<span class=\"tar\">ḥ</span>",
+     "leftIsTar": true,
+     "right": "uitademen door een vernauwde keel"
+    },
+    {
+     "left": "<span class=\"tar\">ɛ</span>",
+     "leftIsTar": true,
+     "right": "knijpende klank, Arabische ع"
+    },
+    {
+     "left": "<span class=\"tar\">x</span>",
+     "leftIsTar": true,
+     "right": "scherpe keel-h, ch in <em>lachen</em>"
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "q": "De letter <span class=\"tar\">ř</span> komt historisch uit een…",
+   "options": [
+    "r",
+    "l",
+    "n",
+    "d"
+   ],
+   "correct": 1,
+   "explain": "In Tarifit is de oude <em>l</em> een r-achtige klank geworden, geschreven als <span class=\"tar\">ř</span>. De dubbele <em>ll</em> werd <span class=\"tar\">ǧ</span>."
+  },
+  {
+   "type": "mc",
+   "q": "De vijf donkere medeklinkers (puntje onder) zijn <span class=\"tar\">ḍ, ṣ, ṭ, ẓ</span> en…",
+   "options": [
+    "<span class=\"tar\">ṛ</span>",
+    "<span class=\"tar\">r</span>",
+    "<span class=\"tar\">l</span>",
+    "<span class=\"tar\">ǧ</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ṛ</span> is de donkere variant van de gewone <em>r</em>. De donkerheid kleurt het hele woord."
+  },
+  {
+   "type": "mc",
+   "q": "Welke letter is de stemhebbende tegenhanger van <span class=\"tar\">x</span> (de scherpe keel-h)?",
+   "options": [
+    "<span class=\"tar\">ɣ</span>",
+    "<span class=\"tar\">ḥ</span>",
+    "<span class=\"tar\">q</span>",
+    "<span class=\"tar\">ɛ</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ɣ</span> en <span class=\"tar\">x</span> zijn een stemhebbend/stemloos paar — dezelfde mondpositie, maar <span class=\"tar\">ɣ</span> trilt de stembanden mee."
+  },
+  {
+   "type": "mc",
+   "q": "Welk effect hebben donkere medeklinkers (<span class=\"tar\">ḍ, ṣ, ṭ, ẓ, ṛ</span>) op omringende klinkers?",
+   "options": [
+    "Ze maken de klinkers korter",
+    "Ze kleuren de omringende klinkers donkerder",
+    "Ze verwijderen de klinkers volledig",
+    "Ze hebben geen effect op klinkers"
+   ],
+   "correct": 1,
+   "explain": "Donkere medeklinkers (herkenbaar aan het puntje eronder) kleuren omliggende klinkers donkerder — een kenmerk van de faryngalisering in Tarifit."
+  },
+  {
+   "type": "mc",
+   "q": "Welke <strong>drie</strong> zijn de echte klinkers van Tarifit?",
+   "options": [
+    "<span class=\"tar\">a, e, i</span>",
+    "<span class=\"tar\">a, i, u</span>",
+    "<span class=\"tar\">a, o, u</span>",
+    "<span class=\"tar\">e, i, u</span>"
+   ],
+   "correct": 1,
+   "explain": "Tarifit heeft drie echte klinkers: <span class=\"tar\">a</span>, <span class=\"tar\">i</span> en <span class=\"tar\">u</span>. De schwa <span class=\"tar\">e</span> is niet volwaardig en heeft een andere status."
+  }
+ ],
+ "les-02": [
+  {
+   "type": "mc",
+   "q": "Welke vorm gebruik je tegen een <strong>vrouw</strong> als je 'jij' wilt zeggen?",
+   "options": [
+    "<span class=\"tar\">cekk</span>",
+    "<span class=\"tar\">cemm</span>",
+    "<span class=\"tar\">netta</span>",
+    "<span class=\"tar\">kenniw</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">cemm</span> tegen een vrouw, <span class=\"tar\">cekk</span> tegen een man."
+  },
+  {
+   "type": "mc",
+   "q": "Schrijf het Tarifit-woord voor <strong>'wij'</strong>.",
+   "options": [
+    "<span class=\"tar\">neccin</span>",
+    "<span class=\"tar\">neccem</span>",
+    "<span class=\"tar\">neccit</span>",
+    "<span class=\"tar\">neccid</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">neccin</span> — let op de dubbele <em>cc</em>."
+  },
+  {
+   "type": "mc",
+   "q": "Wat betekent <span class=\"tar\">netta</span>?",
+   "options": [
+    "ik",
+    "jij (M)",
+    "hij",
+    "zij"
+   ],
+   "correct": 2,
+   "explain": "<span class=\"tar\">netta</span> = hij. <span class=\"tar\">nettaṯ</span> = zij — onthoud het verschil aan de slot-<span class=\"tar\">ṯ</span>."
+  },
+  {
+   "type": "mc",
+   "q": "Vertaal naar Tarifit: <strong>'ik ben Mimoun'</strong>.",
+   "options": [
+    "<span class=\"tar\">necc ḏ Mimun</span>",
+    "<span class=\"tar\">netta ḏ Mimun</span>",
+    "<span class=\"tar\">kem ḏ Mimun</span>",
+    "<span class=\"tar\">necc Mimun</span>"
+   ],
+   "correct": 0,
+   "explain": "Het kleine partikel <span class=\"tar\">ḏ</span> doet hier het werk van 'is/ben'."
+  },
+  {
+   "type": "mc",
+   "q": "Welke vorm gebruik je voor 'jullie' als de groep <strong>volledig</strong> uit vrouwen bestaat?",
+   "options": [
+    "<span class=\"tar\">kenniw</span>",
+    "<span class=\"tar\">kennint</span>",
+    "<span class=\"tar\">niḥni</span>",
+    "<span class=\"tar\">niṯenti</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">kennint</span> alleen voor pure vrouwen-groepen; bij één man erbij wordt het automatisch <span class=\"tar\">kenniw</span>."
+  },
+  {
+   "type": "match",
+   "q": "Koppel elk Tarifit-voornaamwoord aan zijn betekenis.",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">necc</span>",
+     "leftIsTar": true,
+     "right": "ik"
+    },
+    {
+     "left": "<span class=\"tar\">cekk</span>",
+     "leftIsTar": true,
+     "right": "jij (M)"
+    },
+    {
+     "left": "<span class=\"tar\">netta</span>",
+     "leftIsTar": true,
+     "right": "hij"
+    },
+    {
+     "left": "<span class=\"tar\">nettaṯ</span>",
+     "leftIsTar": true,
+     "right": "zij"
+    },
+    {
+     "left": "<span class=\"tar\">neccin</span>",
+     "leftIsTar": true,
+     "right": "wij"
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "q": "Welk voornaamwoord gebruik je voor 'zij' in het <strong>meervoud</strong> als de groep <strong>uitsluitend</strong> uit vrouwen bestaat?",
+   "options": [
+    "<span class=\"tar\">nitni</span>",
+    "<span class=\"tar\">nitnenṯ</span>",
+    "<span class=\"tar\">neccin</span>",
+    "<span class=\"tar\">kunnemṯ</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">nitnenṯ</span> is voor een groep uitsluitend vrouwen. Bij een gemengde groep of mannen gebruik je <span class=\"tar\">nitni</span>."
+  }
+ ],
+ "les-03": [
+  {
+   "type": "mc",
+   "q": "Vul het ontbrekende partikel in: <span class=\"tar\">necc <span class=\"blank\">?</span> Mimun</span> — 'ik ben Mimoun'.",
+   "options": [
+    "<span class=\"tar\">ḏ</span>",
+    "<span class=\"tar\">ur</span>",
+    "<span class=\"tar\">a</span>",
+    "<span class=\"tar\">s</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ḏ</span> doet het werk van 'zijn' in non-verbale zinnen: <em>X · ḏ · Y</em>."
+  },
+  {
+   "type": "mc",
+   "q": "Vertaal naar Tarifit: <strong>'hij is een man'</strong>. (Tip: 'man' = <span class=\"tar\">āryaz</span>.)",
+   "options": [
+    "<span class=\"tar\">netta ḏ āryaz</span>",
+    "<span class=\"tar\">necc ḏ āryaz</span>",
+    "<span class=\"tar\">netta āryaz</span>",
+    "<span class=\"tar\">netta ḏ ṯamɣārṯ</span>"
+   ],
+   "correct": 0
+  },
+  {
+   "type": "mc",
+   "q": "Wanneer gebruik je <span class=\"tar\">ḏ</span> <strong>niet</strong>?",
+   "options": [
+    "Als wat erna komt een naamwoord is",
+    "Als wat erna komt een voorzetselgroep of bijwoord is",
+    "In een vraag",
+    "Bij vrouwelijke onderwerpen"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ḏ</span> staat alleen vóór een naamwoord of voornaamwoord. Voor bijwoorden (zoals <span class=\"tar\">ammu</span> 'zo') blijft <span class=\"tar\">ḏ</span> weg: <span class=\"tar\">necc ammu</span>."
+  },
+  {
+   "type": "mc",
+   "q": "Wat betekent <span class=\"tar\">ḏ necc</span>?",
+   "options": [
+    "ik ga",
+    "ik ben het",
+    "ik en jij",
+    "ik niet"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ḏ necc</span> — letterlijk 'het is ik'. Met <span class=\"tar\">ḏ</span> vooraan gaat de nadruk op het predicaat."
+  },
+  {
+   "type": "mc",
+   "q": "Vertaal naar Tarifit: <strong>'het is mijn broer'</strong>. (Tip: 'mijn broer' = <span class=\"tar\">uma</span>.)",
+   "options": [
+    "<span class=\"tar\">ḏ uma</span>",
+    "<span class=\"tar\">ḏ baba</span>",
+    "<span class=\"tar\">ḏ yemma</span>",
+    "<span class=\"tar\">necc ḏ uma</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ḏ uma</span> — geen los voornaamwoord ervoor, want <span class=\"tar\">uma</span> heeft 'mijn' al ingebakken (Klasse III, zie volgende les)."
+  },
+  {
+   "type": "mc",
+   "q": "Het partikel <span class=\"tar\">ḏ</span> (copula) wordt <strong>nooit</strong> verbogen. Wat betekent dat?",
+   "options": [
+    "Het verandert mee met het geslacht van het onderwerp",
+    "Het blijft altijd dezelfde vorm, ongeacht wie het onderwerp is",
+    "Het heeft een meervoudsvorm <span class=\"tar\">di</span>",
+    "Het valt weg in vragen"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ḏ</span> is onveranderlijk — dezelfde vorm voor ik, jij, hij, zij, wij. Dat maakt het een van de eenvoudigste elementen van Tarifit."
+  },
+  {
+   "type": "mc",
+   "q": "Welke woordvolgorde is correct voor 'zij is een vrouw'? (vrouw = <span class=\"tar\">ṯamɣārṯ</span>)",
+   "options": [
+    "<span class=\"tar\">ḏ nettaṯ ṯamɣārṯ</span>",
+    "<span class=\"tar\">ṯamɣārṯ ḏ nettaṯ</span>",
+    "<span class=\"tar\">nettaṯ ḏ ṯamɣārṯ</span>",
+    "<span class=\"tar\">nettaṯ ṯamɣārṯ ḏ</span>"
+   ],
+   "correct": 2,
+   "explain": "De volgorde is: ONDERWERP + <span class=\"tar\">ḏ</span> + NAAMWOORD. Dus: <span class=\"tar\">nettaṯ ḏ ṯamɣārṯ</span> = \"zij is een vrouw\"."
+  },
+  {
+   "type": "mc",
+   "q": "Wat betekent <span class=\"tar\">āryaz</span>?",
+   "options": [
+    "broer",
+    "vader",
+    "man",
+    "jongen"
+   ],
+   "correct": 2,
+   "explain": "<span class=\"tar\">āryaz</span> betekent \"man\". In de zin <span class=\"tar\">netta ḏ āryaz</span> = \"hij is een man\" fungeert het als predikaat na <span class=\"tar\">ḏ</span>."
+  }
+ ],
+ "les-04": [
+  {
+   "type": "match",
+   "q": "Koppel elk familiewoord aan zijn betekenis.",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">baba</span>",
+     "leftIsTar": true,
+     "right": "mijn vader"
+    },
+    {
+     "left": "<span class=\"tar\">yemma</span>",
+     "leftIsTar": true,
+     "right": "mijn moeder"
+    },
+    {
+     "left": "<span class=\"tar\">uma</span>",
+     "leftIsTar": true,
+     "right": "mijn broer"
+    },
+    {
+     "left": "<span class=\"tar\">učma</span>",
+     "leftIsTar": true,
+     "right": "mijn zus"
+    },
+    {
+     "left": "<span class=\"tar\">jeddi</span>",
+     "leftIsTar": true,
+     "right": "mijn opa"
+    },
+    {
+     "left": "<span class=\"tar\">ḥenna</span>",
+     "leftIsTar": true,
+     "right": "mijn oma"
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "q": "Wat betekent <span class=\"tar\">baba-c</span>?",
+   "options": [
+    "mijn vader",
+    "jouw vader (als je tegen een man praat)",
+    "zijn vader",
+    "onze vader"
+   ],
+   "correct": 1,
+   "explain": "Suffix <span class=\"tar\">-c</span> = 'jouw (M)'. Voor een vrouw zou je <span class=\"tar\">baba-m</span> zeggen."
+  },
+  {
+   "type": "mc",
+   "q": "Vul aan: <span class=\"tar\">yemma-<span class=\"blank\">?</span></span> betekent 'zijn / haar moeder'.",
+   "options": [
+    "<span class=\"tar\">-s</span>",
+    "<span class=\"tar\">-k</span>",
+    "<span class=\"tar\">-m</span>",
+    "<span class=\"tar\">-wen</span>"
+   ],
+   "correct": 0,
+   "explain": "Suffix <span class=\"tar\">-s</span> dekt zowel 'zijn' als 'haar' — context bepaalt welke."
+  },
+  {
+   "type": "mc",
+   "q": "Van wie is <span class=\"tar\">ɛzizi</span> de oom?",
+   "options": [
+    "moeders kant",
+    "vaders kant",
+    "alle ooms",
+    "schoonfamilie"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ɛzizi</span> = oom van vaders kant. <span class=\"tar\">xari</span> = oom van moeders kant. Tarifit maakt dit onderscheid altijd."
+  },
+  {
+   "type": "mc",
+   "q": "Vertaal: <strong>'hij is mijn broer'</strong>. (Combineer les 03 + 04.)",
+   "options": [
+    "<span class=\"tar\">netta ḏ uma</span>",
+    "<span class=\"tar\">necc ḏ uma</span>",
+    "<span class=\"tar\">netta ḏ baba</span>",
+    "<span class=\"tar\">netta uma</span>"
+   ],
+   "correct": 0
+  },
+  {
+   "type": "mc",
+   "q": "Welk woord heeft 'mijn' <strong>niet</strong> automatisch in zich?",
+   "options": [
+    "<span class=\"tar\">baba</span>",
+    "<span class=\"tar\">āryaz</span>",
+    "<span class=\"tar\">uma</span>",
+    "<span class=\"tar\">učma</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">āryaz</span> 'man' is een gewoon Klasse-I-naamwoord. De andere drie zijn familiewoorden (Klasse III) met 'mijn' ingebouwd."
+  },
+  {
+   "type": "mc",
+   "q": "Welk suffix gebruik je voor 'jouw' als je tegen een <strong>vrouw</strong> praat?",
+   "options": [
+    "<span class=\"tar\">-c</span>",
+    "<span class=\"tar\">-s</span>",
+    "<span class=\"tar\">-m</span>",
+    "<span class=\"tar\">-wen</span>"
+   ],
+   "correct": 2,
+   "explain": "Suffix <span class=\"tar\">-m</span> = \"jouw (V)\". Bijv. <span class=\"tar\">baba-m</span> = \"jouw vader (als je een vrouw bent)\". Het suffix <span class=\"tar\">-c</span> is voor mannelijke gesprekspartners."
+  },
+  {
+   "type": "mc",
+   "q": "Wat betekent <span class=\"tar\">yemma-s</span>?",
+   "options": [
+    "mijn moeder",
+    "jouw moeder (M)",
+    "zijn of haar moeder",
+    "onze moeder"
+   ],
+   "correct": 2,
+   "explain": "Suffix <span class=\"tar\">-s</span> dekt zowel \"zijn\" als \"haar\" — context bepaalt welke. <span class=\"tar\">yemma-s</span> = \"zijn/haar moeder\"."
+  },
+  {
+   "type": "mc",
+   "q": "Waarom heeft <span class=\"tar\">āryaz</span> \"man\" geen ingebouwd \"mijn\", terwijl <span class=\"tar\">baba</span> dat wel heeft?",
+   "options": [
+    "Omdat <span class=\"tar\">āryaz</span> een leenwoord is",
+    "Omdat <span class=\"tar\">āryaz</span> een gewoon zelfstandig naamwoord is, geen familieterm",
+    "Omdat \"man\" geen bezitter kan hebben",
+    "Omdat het te lang is om een suffix aan toe te voegen"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">baba</span>, <span class=\"tar\">yemma</span> en <span class=\"tar\">uma</span> zijn familietermen die \"mijn\" al bevatten. <span class=\"tar\">āryaz</span> is een gewoon naamwoord zonder ingebouwd bezit."
+  }
+ ],
+ "les-05": [
+  {
+   "type": "mc",
+   "q": "Wat betekent <span class=\"tar\">aqq-ec mliḥ?</span> letterlijk?",
+   "options": [
+    "ben jij goed?",
+    "waar ga je heen?",
+    "wat doe je?",
+    "welkom"
+   ],
+   "correct": 0,
+   "explain": "Letterlijk 'ben jij goed?' — een vaste begroeting in Riffijnse families."
+  },
+  {
+   "type": "mc",
+   "q": "Wat betekent <span class=\"tar\">waxxa</span>?",
+   "options": [
+    "dank je",
+    "oké, akkoord",
+    "wacht even",
+    "tot ziens"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">waxxa</span> is een veelgebruikt instemming-woord in alle Marokkaanse talen."
+  },
+  {
+   "type": "mc",
+   "q": "Vul aan: <span class=\"tar\">aɣ-am-<span class=\"blank\">?</span></span> betekent 'hier heb je het (V)' (= aanbieding van een ding aan een vrouw).",
+   "options": [
+    "<span class=\"tar\">-ṯ</span>",
+    "<span class=\"tar\">-s</span>",
+    "<span class=\"tar\">-m</span>",
+    "<span class=\"tar\">-d</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">-ṯ</span> is het direct-object-clitic 'het' (3SG:M). De volgorde in <span class=\"tar\">aɣ-am-ṯ</span> is: <em>aɣ</em> + indirect object (aan jou V) + direct object (het)."
+  },
+  {
+   "type": "mc",
+   "q": "Vertaal: <strong>'ik ben het'</strong>.",
+   "options": [
+    "<span class=\"tar\">ḏ necc</span>",
+    "<span class=\"tar\">necc ḏ</span>",
+    "<span class=\"tar\">ḏ netta</span>",
+    "<span class=\"tar\">ḏ kem</span>"
+   ],
+   "correct": 0,
+   "explain": "Met <span class=\"tar\">ḏ</span> vooraan benadruk je het predicaat — 'het is ik (en niemand anders)'."
+  },
+  {
+   "type": "match",
+   "q": "Koppel elke uitdrukking aan zijn betekenis.",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">řexxu</span>",
+     "leftIsTar": true,
+     "right": "nu"
+    },
+    {
+     "left": "<span class=\"tar\">ammu</span>",
+     "leftIsTar": true,
+     "right": "zo, op deze manier"
+    },
+    {
+     "left": "<span class=\"tar\">waxxa</span>",
+     "leftIsTar": true,
+     "right": "oké"
+    },
+    {
+     "left": "<span class=\"tar\">ḏ necc</span>",
+     "leftIsTar": true,
+     "right": "ik ben het"
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "q": "Welke vorm van <span class=\"tar\">aɣ-…</span> gebruik je tegen <strong>meerdere mannen</strong> als je hen iets aanbiedt?",
+   "options": [
+    "<span class=\"tar\">aɣ-am</span>",
+    "<span class=\"tar\">aɣ-ac</span>",
+    "<span class=\"tar\">aɣ-awem</span>",
+    "<span class=\"tar\">aɣ-as</span>"
+   ],
+   "correct": 2,
+   "explain": "<span class=\"tar\">-awem</span> is het indirect-object-clitic 'aan jullie (M)'. <span class=\"tar\">-am</span> = aan jou (V), <span class=\"tar\">-ac</span> = aan jou (M), <span class=\"tar\">-as</span> = aan hem/haar."
+  },
+  {
+   "type": "mc",
+   "q": "Wat betekent <span class=\"tar\">aɣ-am</span>?",
+   "options": [
+    "hier heb je het (aan een man)",
+    "hier heb je het (aan een vrouw)",
+    "hier heb je het (aan meerdere mannen)",
+    "goed zo"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">aɣ-am</span> = \"hier heb je het\", gericht aan een man. Voor een vrouw is het <span class=\"tar\">aɣ-am-ṯ</span>, voor meerdere mannen <span class=\"tar\">aɣ-awem</span>."
+  },
+  {
+   "type": "mc",
+   "q": "Je wilt \"ik ben het\" zeggen in het Tarifit. Welke vorm gebruik je?",
+   "options": [
+    "<span class=\"tar\">necc ḏ</span>",
+    "<span class=\"tar\">ḏ necc</span>",
+    "<span class=\"tar\">necc</span>",
+    "<span class=\"tar\">ḏ necc ḏ</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ḏ necc</span> — met <span class=\"tar\">ḏ</span> vooraan ligt de nadruk op het predikaat: \"het is ik (en niemand anders)\"."
+  },
+  {
+   "type": "mc",
+   "q": "Welk woord betekent \"oké\" of \"akkoord\" in Tarifit?",
+   "options": [
+    "<span class=\"tar\">mliḥ</span>",
+    "<span class=\"tar\">řexxu</span>",
+    "<span class=\"tar\">waxxa</span>",
+    "<span class=\"tar\">aɣ-am</span>"
+   ],
+   "correct": 2,
+   "explain": "<span class=\"tar\">waxxa</span> betekent \"oké, akkoord\" en is een veelgebruikt instemmingswoord."
+  }
+ ],
+ "les-06": [
+  {
+   "type": "mc",
+   "q": "In een Tarifit-woordenlijst zoek je 'zitten' op. Welke vorm verwacht je daar?",
+   "options": [
+    "<span class=\"tar\">yeqqim</span> (hij zit)",
+    "<span class=\"tar\">qqim</span> (zit! / de stam)",
+    "<span class=\"tar\">qqimeɣ</span> (ik zit)",
+    "<span class=\"tar\">qqimen</span> (zij zitten)"
+   ],
+   "correct": 1,
+   "explain": "Tarifit-woordenboeken nemen de imperatief / kale stam als trefwoord. Nederlandse woordenboeken nemen de infinitief — Tarifit heeft die niet."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is typisch voor de Tarifit-vervoeging vergeleken met Nederlands?",
+   "options": [
+    "alleen suffixen, net als Nederlands",
+    "een prefix én een suffix rond de stam",
+    "helemaal geen persoonsvorm — context bepaalt alles",
+    "exact hetzelfde als in het Arabisch"
+   ],
+   "correct": 1,
+   "explain": "Veel personen krijgen aan beide kanten iets: 'jij zit' = <span class=\"tar\">ṯ-</span> qqim<span class=\"tar\">-eḏ</span>. Nederlands heeft alleen suffixen ('jij loopt')."
+  },
+  {
+   "type": "mc",
+   "q": "Tarifit-werkwoorden coderen geen 'tijd', maar…",
+   "options": [
+    "geslacht van de spreker",
+    "aspect — afgerond, lopend, of nog-niet-gebeurd",
+    "afstand tot de luisteraar",
+    "beleefdheidsniveau"
+   ],
+   "correct": 1,
+   "explain": "Een werkwoord zegt iets over <em>hoe</em> de actie ervoor staat, niet <em>wanneer</em>. Tijd druk je uit met partikels en context. Diep duik je hierin in Les 09."
+  },
+  {
+   "type": "mc",
+   "q": "Vorm voor <strong>ik zit</strong> (stam <span class=\"tar\">qqim</span>):",
+   "options": [
+    "<span class=\"tar\">qqimeɣ</span>",
+    "<span class=\"tar\">yeqqim</span>",
+    "<span class=\"tar\">ṯeqqimeḏ</span>",
+    "<span class=\"tar\">neqqim</span>"
+   ],
+   "correct": 0,
+   "explain": "1SG = STAM + <span class=\"tar\">-eɣ</span>. Geen prefix bij 'ik' — dat onthoud je makkelijk."
+  },
+  {
+   "type": "mc",
+   "q": "Vorm voor <strong>hij zit</strong> (stam <span class=\"tar\">qqim</span>):",
+   "options": [
+    "<span class=\"tar\">yeqqim</span>",
+    "<span class=\"tar\">qqimeɣ</span>",
+    "<span class=\"tar\">ṯeqqim</span>",
+    "<span class=\"tar\">qqimen</span>"
+   ],
+   "correct": 0,
+   "explain": "3SG:M = <span class=\"tar\">y-</span> + STAM. De <em>e</em> tussen <em>y</em> en <em>q</em> is een hulpklinker (schwa) die de uitspraak makkelijker maakt."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">ṯeqqimeḏ</span>",
+   "correct": "jij zit",
+   "placeholder": "Nederlands",
+   "explain": "Twee aanwijzingen: prefix <span class=\"tar\">ṯ-</span> én suffix <span class=\"tar\">-eḏ</span>. Die combinatie hoort bij 2SG ('jij'), zowel tegen man als vrouw.",
+   "accept": [
+    "jij zit"
+   ]
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">ṯeqqim</span>",
+   "correct": "zij zit",
+   "placeholder": "Nederlands",
+   "explain": "Wel <span class=\"tar\">ṯ-</span>-prefix, maar géén <span class=\"tar\">-eḏ</span>-suffix. Dat is 3SG:V ('zij'). Het verschil met 'jij' zit dus alleen in dat suffix.",
+   "accept": [
+    "zij zit"
+   ]
+  },
+  {
+   "type": "match",
+   "q": "Koppel persoon en vorm voor stam <span class=\"tar\">qqim</span> 'zitten':",
+   "pairs": [
+    {
+     "left": "ik zit",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">qqimeɣ</span>"
+    },
+    {
+     "left": "jij zit",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">ṯeqqimeḏ</span>"
+    },
+    {
+     "left": "hij zit",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">yeqqim</span>"
+    },
+    {
+     "left": "zij zit",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">ṯeqqim</span>"
+    },
+    {
+     "left": "wij zitten",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">neqqim</span>"
+    }
+   ],
+   "explain": "Vijf patronen, één stam. Zodra je deze kent, kun je elk standaard-werkwoord vervoegen — dat doe je in Les 07 en 08."
+  },
+  {
+   "type": "mc",
+   "q": "Welke vorm heeft \"wij zitten\" (stam <span class=\"tar\">qqim</span>)?",
+   "options": [
+    "<span class=\"tar\">neqqim</span>",
+    "<span class=\"tar\">qqimeɣ</span>",
+    "<span class=\"tar\">ṯeqqimem</span>",
+    "<span class=\"tar\">yeqqim</span>"
+   ],
+   "correct": 0,
+   "explain": "1PL = <span class=\"tar\">n-</span> + stam: <span class=\"tar\">neqqim</span>. Geen suffix bij \"wij\" — net als bij \"hij\" en \"zij\" (enkelvoud)."
+  },
+  {
+   "type": "mc",
+   "q": "Welke persoon heeft <strong>geen prefix</strong> in de Tarifit-vervoeging?",
+   "options": [
+    "hij (3SG:M)",
+    "jij (2SG)",
+    "ik (1SG)",
+    "wij (1PL)"
+   ],
+   "correct": 2,
+   "explain": "Alleen \"ik\" (1SG) heeft geen prefix. De vorm is puur STAM + <span class=\"tar\">-eɣ</span>, zoals in <span class=\"tar\">qqimeɣ</span> \"ik zit\"."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is de correcte vorm voor \"zij zitten\" (uitsluitend vrouwen, stam <span class=\"tar\">qqim</span>)?",
+   "options": [
+    "<span class=\"tar\">qqimenṯ</span>",
+    "<span class=\"tar\">qqimen</span>",
+    "<span class=\"tar\">ṯeqqim</span>",
+    "<span class=\"tar\">ṯeqqimenṯ</span>"
+   ],
+   "correct": 0,
+   "explain": "3PL:V = STAM + <span class=\"tar\">-enṯ</span>: <span class=\"tar\">qqimenṯ</span>. Let op: geen prefix bij de derde persoon meervoud."
+  }
+ ],
+ "les-07": [
+  {
+   "type": "mc",
+   "q": "Welk suffix hoort bij <strong>ik</strong> in het standaardpatroon?",
+   "options": [
+    "<span class=\"tar\">-eḏ</span>",
+    "<span class=\"tar\">-eɣ</span>",
+    "<span class=\"tar\">-en</span>",
+    "<span class=\"tar\">-em</span>"
+   ],
+   "correct": 1,
+   "explain": "1SG (ik) krijgt geen prefix en het suffix <span class=\"tar\">-eɣ</span>. <span class=\"tar\">-eḏ</span> hoort bij 2SG ('jij'), <span class=\"tar\">-en</span> bij 3PL:M ('zij M'), <span class=\"tar\">-em</span> bij 2PL:M ('jullie M')."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is het enige verschil tussen <strong>hij</strong> en <strong>zij</strong> (enkelvoud)?",
+   "options": [
+    "een klinkerwisseling in de stam",
+    "het prefix: <span class=\"tar\">y-</span> voor hij, <span class=\"tar\">ṯ-</span> voor zij",
+    "het suffix: hij krijgt <span class=\"tar\">-a</span>, zij niets",
+    "ze zijn identiek — context bepaalt de betekenis"
+   ],
+   "correct": 1,
+   "explain": "Allebei hebben ze geen suffix; alleen het prefix verschilt. <span class=\"tar\">y-</span> = mannelijk, <span class=\"tar\">ṯ-</span> = vrouwelijk. Datzelfde <span class=\"tar\">ṯ-</span> kom je ook bij 'jij' tegen — daar staat dan een suffix achter."
+  },
+  {
+   "type": "mc",
+   "q": "Welke prefixen heeft <strong>jij</strong> (2SG)?",
+   "options": [
+    "alleen <span class=\"tar\">y-</span>",
+    "alleen <span class=\"tar\">n-</span>",
+    "<span class=\"tar\">ṯ-</span> als prefix én <span class=\"tar\">-eḏ</span> als suffix",
+    "geen prefix en geen suffix"
+   ],
+   "correct": 2,
+   "explain": "2SG is de enige enkelvouds-vorm met zowel een prefix (<span class=\"tar\">ṯ-</span>) als een suffix (<span class=\"tar\">-eḏ</span>). Daardoor is het de gemakkelijkst te herkennen vorm."
+  },
+  {
+   "type": "mc",
+   "q": "Vervoeg <span class=\"tar\">ari</span> 'schrijven' voor <strong>ik</strong>:",
+   "options": [
+    "<span class=\"tar\">ariɣ</span>",
+    "<span class=\"tar\">ɣariɣ</span>",
+    "<span class=\"tar\">ṯariḏ</span>",
+    "<span class=\"tar\">nari</span>"
+   ],
+   "correct": 0,
+   "explain": "Stam <span class=\"tar\">ari</span> + suffix <span class=\"tar\">-eɣ</span>. De twee <em>i</em>'s versmelten in de spelling tot <span class=\"tar\">ariɣ</span>."
+  },
+  {
+   "type": "mc",
+   "q": "Vervoeg <span class=\"tar\">ari</span> 'schrijven' voor <strong>jij</strong>:",
+   "options": [
+    "<span class=\"tar\">ṯariḏ</span>",
+    "<span class=\"tar\">ariɣ</span>",
+    "<span class=\"tar\">ɣariɣ</span>",
+    "<span class=\"tar\">nari</span>"
+   ],
+   "correct": 0,
+   "explain": "Werkwoorden die op een klinker eindigen krijgen <span class=\"tar\">-iḏ</span> (niet <span class=\"tar\">-eḏ</span>) als 2SG-suffix. Dat geldt ook voor 'jij' bij <span class=\"tar\">cfa</span>, <span class=\"tar\">wḏa</span> enz."
+  },
+  {
+   "type": "mc",
+   "q": "Vervoeg <span class=\"tar\">cc</span> 'eten' voor <strong>hij</strong> (Aorist-vorm):",
+   "options": [
+    "<span class=\"tar\">yecc</span>",
+    "<span class=\"tar\">cciɣ</span>",
+    "<span class=\"tar\">ṯecc</span>",
+    "<span class=\"tar\">necc</span>"
+   ],
+   "correct": 0,
+   "explain": "Prefix <span class=\"tar\">y-</span> + stam <span class=\"tar\">cc</span> = <span class=\"tar\">yecc</span>, met een schwa-<em>e</em> ertussen voor uitspreekbaarheid. In de Perfectief krijgt 'eten' een extra <em>a</em>: <span class=\"tar\">yecca</span> 'hij heeft gegeten' (Les 09)."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">ṯeqqimeḏ</span>",
+   "correct": "jij zit",
+   "accept": [
+    "jij zit",
+    "je zit"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">ṯ-</span> + STAM + <span class=\"tar\">-eḏ</span> is altijd 2SG. Werkt voor man én vrouw — Tarifit maakt hier geen onderscheid in 'jij'."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">ɣari</span>",
+   "correct": "hij schrijft",
+   "accept": [
+    "hij schrijft"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "Prefix <span class=\"tar\">y-</span> = 3SG:M. Geen suffix. Voor 'zij schrijft' zou er <span class=\"tar\">ṯari</span> staan."
+  },
+  {
+   "type": "match",
+   "q": "Koppel elk patroon aan zijn persoon:",
+   "pairs": [
+    {
+     "left": "STAM-<span class=\"tar\">eɣ</span>",
+     "leftIsTar": false,
+     "right": "ik (1SG)"
+    },
+    {
+     "left": "<span class=\"tar\">ṯ</span>-STAM-<span class=\"tar\">eḏ</span>",
+     "leftIsTar": false,
+     "right": "jij (2SG)"
+    },
+    {
+     "left": "<span class=\"tar\">y</span>-STAM",
+     "leftIsTar": false,
+     "right": "hij (3SG:M)"
+    },
+    {
+     "left": "<span class=\"tar\">ṯ</span>-STAM",
+     "leftIsTar": false,
+     "right": "zij (3SG:V)"
+    }
+   ],
+   "explain": "Vier patronen voor enkelvoud. Truc: 'ik' heeft alleen suffix, 'hij/zij' alleen prefix, 'jij' allebei."
+  },
+  {
+   "type": "mc",
+   "q": "Vervoeg <span class=\"tar\">ari</span> \"schrijven\" voor <strong>hij</strong>:",
+   "options": [
+    "<span class=\"tar\">ɣari</span>",
+    "<span class=\"tar\">ariɣ</span>",
+    "<span class=\"tar\">ṯariḏ</span>",
+    "<span class=\"tar\">nari</span>"
+   ],
+   "correct": 0,
+   "explain": "3SG:M = <span class=\"tar\">y-</span> + stam: <span class=\"tar\">ɣari</span>. Geen suffix. Voor \"zij schrijft\" zou het <span class=\"tar\">ṯari</span> zijn."
+  },
+  {
+   "type": "mc",
+   "q": "Vervoeg <span class=\"tar\">ari</span> \"schrijven\" voor <strong>wij</strong>:",
+   "options": [
+    "<span class=\"tar\">nari</span>",
+    "<span class=\"tar\">ariɣ</span>",
+    "<span class=\"tar\">ɣari</span>",
+    "<span class=\"tar\">ṯariḏ</span>"
+   ],
+   "correct": 0,
+   "explain": "1PL = <span class=\"tar\">n-</span> + stam: <span class=\"tar\">nari</span>. Hetzelfde patroon als bij <span class=\"tar\">neqqim</span> \"wij zitten\"."
+  },
+  {
+   "type": "mc",
+   "q": "Vervoeg <span class=\"tar\">cc</span> \"eten\" voor <strong>ik</strong> (Aorist):",
+   "options": [
+    "<span class=\"tar\">cciɣ</span>",
+    "<span class=\"tar\">yecc</span>",
+    "<span class=\"tar\">ṯecc</span>",
+    "<span class=\"tar\">necc</span>"
+   ],
+   "correct": 0,
+   "explain": "1SG = stam + <span class=\"tar\">-iɣ</span>: <span class=\"tar\">cciɣ</span>. Let op: <span class=\"tar\">necc</span> betekent \"ik\" (voornaamwoord), <span class=\"tar\">cciɣ</span> is de werkwoordsvorm."
+  }
+ ],
+ "les-08": [
+  {
+   "type": "mc",
+   "q": "Welk prefix heeft <strong>wij</strong> in <span class=\"tar\">neqqim</span>?",
+   "options": [
+    "<span class=\"tar\">ṯ-</span>",
+    "<span class=\"tar\">n-</span>",
+    "<span class=\"tar\">y-</span>",
+    "<span class=\"tar\">m-</span>"
+   ],
+   "correct": 1,
+   "explain": "1PL is het simpelst: <span class=\"tar\">n-</span> + STAM. Geen suffix. Hetzelfde patroon als 3SG:M maar dan met <span class=\"tar\">n-</span> in plaats van <span class=\"tar\">y-</span>."
+  },
+  {
+   "type": "mc",
+   "q": "Wanneer gebruik je het vrouwelijk-meervoud-suffix <span class=\"tar\">-enṯ</span>?",
+   "options": [
+    "altijd in een groep met meer dan twee personen",
+    "alleen als de groep <strong>uitsluitend</strong> uit vrouwen bestaat",
+    "altijd in een verleden-tijd-context",
+    "alleen in formele gesprekken"
+   ],
+   "correct": 1,
+   "explain": "Eén man in de groep? Dan val je terug op de mannelijke vorm <span class=\"tar\">-em</span> / <span class=\"tar\">-en</span>. Vergelijkbaar met Frans (<em>elles</em> wordt <em>ils</em> bij gemengde groep)."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is het verschil tussen <span class=\"tar\">qqimen</span> en <span class=\"tar\">ṯeqqimem</span>?",
+   "options": [
+    "betekenis is identiek, alleen schrijfvariant",
+    "<span class=\"tar\">qqimen</span> = 'zij zitten' (M), <span class=\"tar\">ṯeqqimem</span> = 'jullie zitten' (M)",
+    "het eerste is verleden, het tweede heden",
+    "het eerste is enkelvoud, het tweede meervoud"
+   ],
+   "correct": 1,
+   "explain": "3PL:M heeft géén prefix maar wel suffix <span class=\"tar\">-en</span>. 2PL:M heeft prefix <span class=\"tar\">ṯ-</span> én suffix <span class=\"tar\">-em</span>. Het <span class=\"tar\">ṯ-</span>-prefix is dus het signaal voor 'jij/jullie' tegenover 'hij/zij'."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe zeg je <strong>zij zitten</strong> (M / gemengd, stam <span class=\"tar\">qqim</span>)?",
+   "options": [
+    "<span class=\"tar\">qqimen</span>",
+    "<span class=\"tar\">qqimenṯ</span>",
+    "<span class=\"tar\">neqqim</span>",
+    "<span class=\"tar\">qqimeɣ</span>"
+   ],
+   "correct": 0,
+   "explain": "STAM + <span class=\"tar\">-en</span>, geen prefix. Een groep gemengde mannen en vrouwen valt onder dezelfde mannelijke vorm."
+  },
+  {
+   "type": "mc",
+   "q": "Vervoeg <span class=\"tar\">qqim</span> voor <strong>zij zitten — alleen vrouwen</strong>:",
+   "options": [
+    "<span class=\"tar\">qqimenṯ</span>",
+    "<span class=\"tar\">qqimen</span>",
+    "<span class=\"tar\">ṯeqqim</span>",
+    "<span class=\"tar\">neqqim</span>"
+   ],
+   "correct": 0,
+   "explain": "STAM + <span class=\"tar\">-enṯ</span>. Dit is dezelfde uitgang als 2PL:V (<span class=\"tar\">ṯeqqimenṯ</span> 'jullie V zitten') — het verschil zit in het wel/niet aanwezig zijn van het prefix <span class=\"tar\">ṯ-</span>."
+  },
+  {
+   "type": "mc",
+   "q": "Vervoeg <span class=\"tar\">xḏem</span> 'werken' voor <strong>wij</strong>:",
+   "options": [
+    "<span class=\"tar\">nexḏem</span>",
+    "<span class=\"tar\">xḏemeɣ</span>",
+    "<span class=\"tar\">yexḏem</span>",
+    "<span class=\"tar\">ṯexḏemeḏ</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">n-</span> + <span class=\"tar\">xḏem</span>, met een schwa-<em>e</em> tussen <em>n</em> en <em>x</em>. Het werkwoord <span class=\"tar\">xḏem</span> 'werken' (uit het Arabisch) gebruik je in alle voorbeelden met <em>aspect</em> in Les 09."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">neqqim</span>",
+   "correct": "wij zitten",
+   "accept": [
+    "wij zitten",
+    "we zitten"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">n-</span> = 1PL. Geen onderscheid mannelijk/vrouwelijk in 'wij' — net als in Nederlands."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">ṯeqqimenṯ</span>",
+   "correct": "jullie zitten",
+   "accept": [
+    "jullie zitten",
+    "jullie (vrouwen) zitten",
+    "jullie vrouwen zitten"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">ṯ-</span> + STAM + <span class=\"tar\">-enṯ</span> is 2PL:V — een groep waarin álle aangesprokenen vrouw zijn. Bij gemengde groep zou het <span class=\"tar\">ṯeqqimem</span> worden."
+  },
+  {
+   "type": "match",
+   "q": "Koppel elk meervoudspatroon aan zijn persoon:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">n-</span> STAM",
+     "leftIsTar": false,
+     "right": "wij (1PL)"
+    },
+    {
+     "left": "<span class=\"tar\">ṯ-</span> STAM-<span class=\"tar\">em</span>",
+     "leftIsTar": false,
+     "right": "jullie M (2PL:M)"
+    },
+    {
+     "left": "<span class=\"tar\">ṯ-</span> STAM-<span class=\"tar\">enṯ</span>",
+     "leftIsTar": false,
+     "right": "jullie V (2PL:V)"
+    },
+    {
+     "left": "STAM-<span class=\"tar\">en</span>",
+     "leftIsTar": false,
+     "right": "zij M (3PL:M)"
+    },
+    {
+     "left": "STAM-<span class=\"tar\">enṯ</span>",
+     "leftIsTar": false,
+     "right": "zij V (3PL:V)"
+    }
+   ],
+   "explain": "Met de vier enkelvoudsvormen uit Les 07 + deze vijf heb je het complete vervoegingsschema. Negen vormen — alle andere werkwoorden volgen hetzelfde stramien."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe luidt de imperatief (gebiedende wijs) voor <strong>jullie M</strong> bij <span class=\"tar\">qqim</span>?",
+   "options": [
+    "<span class=\"tar\">qqim</span>",
+    "<span class=\"tar\">qqimeɣ</span>",
+    "<span class=\"tar\">qqimeṯ</span> of <span class=\"tar\">qqimem</span>",
+    "<span class=\"tar\">neqqim</span>"
+   ],
+   "correct": 2,
+   "explain": "De imperatief tegen één persoon is de kale stam (<span class=\"tar\">qqim</span> 'zit!'). Tegen jullie M / gemengd: <span class=\"tar\">qqimeṯ</span> of <span class=\"tar\">qqimem</span>. Tegen jullie V: <span class=\"tar\">qqimenṯ</span>."
+  },
+  {
+   "type": "mc",
+   "q": "Vervoeg <span class=\"tar\">xḏem</span> \"werken\" voor <strong>zij (M/gemengd, meervoud)</strong>:",
+   "options": [
+    "<span class=\"tar\">xḏemen</span>",
+    "<span class=\"tar\">xḏemenṯ</span>",
+    "<span class=\"tar\">nexḏem</span>",
+    "<span class=\"tar\">ṯexḏemem</span>"
+   ],
+   "correct": 0,
+   "explain": "3PL:M = STAM + <span class=\"tar\">-en</span>: <span class=\"tar\">xḏemen</span>. Geen prefix bij de derde persoon meervoud — dat onderscheidt het van \"jullie M\" (<span class=\"tar\">ṯexḏemem</span>)."
+  },
+  {
+   "type": "mc",
+   "q": "Vervoeg <span class=\"tar\">xḏem</span> \"werken\" voor <strong>zij (uitsluitend vrouwen)</strong>:",
+   "options": [
+    "<span class=\"tar\">xḏemenṯ</span>",
+    "<span class=\"tar\">xḏemen</span>",
+    "<span class=\"tar\">ṯexḏemenṯ</span>",
+    "<span class=\"tar\">nexḏem</span>"
+   ],
+   "correct": 0,
+   "explain": "3PL:V = STAM + <span class=\"tar\">-enṯ</span>: <span class=\"tar\">xḏemenṯ</span>. Het suffix <span class=\"tar\">-enṯ</span> is het signaal voor een uitsluitend vrouwelijke groep."
+  },
+  {
+   "type": "mc",
+   "q": "Vervoeg <span class=\"tar\">xḏem</span> \"werken\" voor <strong>jullie (M)</strong>:",
+   "options": [
+    "<span class=\"tar\">ṯexḏemem</span>",
+    "<span class=\"tar\">xḏemen</span>",
+    "<span class=\"tar\">nexḏem</span>",
+    "<span class=\"tar\">xḏemenṯ</span>"
+   ],
+   "correct": 0,
+   "explain": "2PL:M = <span class=\"tar\">ṯ-</span> + STAM + <span class=\"tar\">-em</span>: <span class=\"tar\">ṯexḏemem</span>. Het prefix <span class=\"tar\">ṯ-</span> is het signaal dat het om \"jullie\" gaat (niet \"zij\")."
+  }
+ ],
+ "les-09": [
+  {
+   "type": "mc",
+   "q": "Wat codeert een Tarifit-werkwoord <strong>niet</strong> rechtstreeks?",
+   "options": [
+    "of de actie afgerond is",
+    "of de actie nog loopt",
+    "<strong>wanneer</strong> de actie plaatsvond (verleden / heden / toekomst)",
+    "of de actie zich herhaalt"
+   ],
+   "correct": 2,
+   "explain": "Tarifit codeert aspect, niet tijd. Tijd druk je uit met partikels (<span class=\"tar\">qa</span>, <span class=\"tar\">ad</span>, <span class=\"tar\">ṯuɣa</span>) en context. Voor Nederlandstaligen is dit de grootste mentale omschakeling."
+  },
+  {
+   "type": "mc",
+   "q": "'Ik werk al jaren bij die bakker' — welke aspect-vorm gebruik je?",
+   "options": [
+    "Aorist (basisstam)",
+    "Perfectief (afgeronde vorm)",
+    "Imperfectief (gewoonte / lopende actie)",
+    "Negatief Imperfectief"
+   ],
+   "correct": 2,
+   "explain": "Een gewoonte of doorlopende toestand → Imperfectief. Voor 'werken' is dat <span class=\"tar\">xeddmeɣ</span>. Pas met <span class=\"tar\">qa</span> ervoor (<span class=\"tar\">qa xeddmeɣ</span>) wordt het 'ik ben nu aan het werken'."
+  },
+  {
+   "type": "mc",
+   "q": "'Ik heb gisteren brood gegeten' — welke aspect-vorm gebruik je?",
+   "options": [
+    "Imperfectief",
+    "Perfectief",
+    "Aorist met <span class=\"tar\">ad</span>",
+    "Negatief Perfectief"
+   ],
+   "correct": 1,
+   "explain": "Eén afgeronde gebeurtenis → Perfectief. Voor 'eten' is dat <span class=\"tar\">cciɣ</span> 'ik at / ik heb gegeten'. De Perfectief dekt zowel onze voltooid tegenwoordige tijd ('heb gegeten') als imperfect ('at')."
+  },
+  {
+   "type": "mc",
+   "q": "Wat doet het partikel <span class=\"tar\">qa</span> voor een werkwoord?",
+   "options": [
+    "het maakt het werkwoord verleden tijd",
+    "het ontkent het werkwoord",
+    "samen met de Imperfectief: 'op dit moment bezig'",
+    "het maakt er een vraag van"
+   ],
+   "correct": 2,
+   "explain": "<span class=\"tar\">qa</span> + Imperfectief = lopende actie nu. Zonder <span class=\"tar\">qa</span> heeft de Imperfectief eerder een gewoonte-betekenis. <span class=\"tar\">qa</span> is een pseudo-werkwoord (Les 31)."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">qa teteɣ</span>",
+   "correct": "ik ben aan het eten",
+   "accept": [
+    "ik ben aan het eten",
+    "ik eet nu",
+    "ik zit te eten"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">teteɣ</span> is de 1SG van de Imperfectief van 'eten' (stam-Imperfectief: <span class=\"tar\">tett</span>). Met <span class=\"tar\">qa</span> wordt het: 'op dit moment bezig met eten'."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">cciɣ</span>",
+   "correct": "ik heb gegeten",
+   "accept": [
+    "ik heb gegeten",
+    "ik at"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "Perfectief 1SG van 'eten' — afgeronde actie. De stam in de Perfectief is <span class=\"tar\">cci</span> (uit Aorist <span class=\"tar\">cc</span> + extra klinker). De vertaling kan 'ik at' óf 'ik heb gegeten' zijn."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is de Imperfectief-stam van <span class=\"tar\">cc</span> 'eten'?",
+   "options": [
+    "<span class=\"tar\">tett</span>",
+    "<span class=\"tar\">cc</span>",
+    "<span class=\"tar\">icc</span>",
+    "<span class=\"tar\">ttcc</span>"
+   ],
+   "correct": 0,
+   "explain": "De Imperfectief is bij veel werkwoorden compleet anders dan de Aorist. Hier: <span class=\"tar\">cc</span> → <span class=\"tar\">tett</span>. Daarom adviseert de cursus: leer per werkwoord de drie stammen samen — net als 'go / went / gone'."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is de Imperfectief-stam van <span class=\"tar\">su</span> 'drinken'?",
+   "options": [
+    "<span class=\"tar\">sess</span>",
+    "<span class=\"tar\">su</span>",
+    "<span class=\"tar\">isu</span>",
+    "<span class=\"tar\">issu</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">su</span> → <span class=\"tar\">sess</span>. Verschilt patroon-technisch van <span class=\"tar\">cc</span> → <span class=\"tar\">tett</span>, hoewel beide klinker-eindigend zijn. Onregelmatigheid is hier de regel."
+  },
+  {
+   "type": "match",
+   "q": "Koppel elke situatie aan de juiste aspect-vorm:",
+   "pairs": [
+    {
+     "left": "een eenmalige afgeronde actie ('hij viel')",
+     "leftIsTar": false,
+     "right": "Perfectief"
+    },
+    {
+     "left": "een gewoonte ('hij werkt als bakker')",
+     "leftIsTar": false,
+     "right": "Imperfectief"
+    },
+    {
+     "left": "wat nu bezig is ('hij is aan het eten')",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">qa</span> + Imperfectief"
+    },
+    {
+     "left": "een toekomstige actie ('hij zal werken')",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">ad</span> + Aorist"
+    }
+   ],
+   "explain": "Vier kerncombinaties — genoeg om 90% van wat je in dagelijkse Tarifit hoort, te kunnen plaatsen. <span class=\"tar\">ad</span> + Aorist behandel je in Les 10."
+  },
+  {
+   "type": "mc",
+   "q": "Waarom is de Imperfectief het lastigste deel van Tarifit-vervoeging?",
+   "options": [
+    "het bestaat niet meer in moderne taal",
+    "er zijn meerdere patronen zonder regel die altijd klopt — leren per werkwoord",
+    "het is identiek aan Nederlands",
+    "alleen oudere sprekers gebruiken het"
+   ],
+   "correct": 1,
+   "explain": "Vier hoofdpatronen (zie uitleg H4): tweede medeklinker verdubbelen, <span class=\"tar\">t-</span>/<span class=\"tar\">tt-</span> ervoor, klinker veranderen, of combinaties. Geen voorspelbare regel — daarom leer je elk werkwoord met zijn drie stammen tegelijk."
+  },
+  {
+   "type": "mc",
+   "q": "Welk aspect gebruik je voor een actie die een <strong>gewoonte</strong> uitdrukt?",
+   "options": [
+    "Perfectief",
+    "Imperfectief",
+    "Aorist",
+    "<span class=\"tar\">qa</span> + Imperfectief"
+   ],
+   "correct": 1,
+   "explain": "Een gewoonte of doorlopende toestand → Imperfectief. Het partikel <span class=\"tar\">qa</span> voeg je toe als de actie <em>op dit moment</em> bezig is."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is de Imperfectief-stam van <span class=\"tar\">su</span> \"drinken\"?",
+   "options": [
+    "<span class=\"tar\">sess</span>",
+    "<span class=\"tar\">su</span>",
+    "<span class=\"tar\">tett</span>",
+    "<span class=\"tar\">issu</span>"
+   ],
+   "correct": 0,
+   "explain": "De Imperfectief-stam van <span class=\"tar\">su</span> \"drinken\" is <span class=\"tar\">sess</span>. Net als bij <span class=\"tar\">cc</span> → <span class=\"tar\">tett</span> moet je deze stamvorm per werkwoord leren."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is het verschil tussen <span class=\"tar\">cciɣ</span> en <span class=\"tar\">qa teteɣ</span>?",
+   "options": [
+    "Er is geen betekenisverschil",
+    "<span class=\"tar\">cciɣ</span> = ik heb gegeten (Perfectief); <span class=\"tar\">qa teteɣ</span> = ik ben aan het eten (lopend nu)",
+    "<span class=\"tar\">cciɣ</span> = ik ga eten; <span class=\"tar\">qa teteɣ</span> = ik heb gegeten",
+    "<span class=\"tar\">cciɣ</span> is enkelvoud; <span class=\"tar\">qa teteɣ</span> is meervoud"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">cciɣ</span> is de Perfectief (afgeronde actie). <span class=\"tar\">qa teteɣ</span> combineert het partikel <span class=\"tar\">qa</span> met de Imperfectief-stam <span class=\"tar\">tett</span> om een lopende actie nu uit te drukken."
+  }
+ ],
+ "les-10": [
+  {
+   "type": "mc",
+   "q": "Wat maakt een pseudo-werkwoord anders dan een gewoon werkwoord?",
+   "options": [
+    "het heeft geen betekenis",
+    "het heeft geen aspect-drieling (Perfectief / Imperfectief / Aorist), maar kan wél persoonssuffixen krijgen",
+    "het bestaat alleen in het meervoud",
+    "het wordt nooit gebruikt in dagelijkse spraak"
+   ],
+   "correct": 1,
+   "explain": "Pseudo-werkwoorden gedragen zich op het grensvlak: ze nemen wél voornaamwoord-suffixen en het richting-element <span class=\"tar\">-d</span>, maar kennen geen werkwoord-aspect. Vergelijk Frans <em>voici</em>: geen werkwoord, maar je kunt wel <em>le-voici</em> zeggen."
+  },
+  {
+   "type": "mc",
+   "q": "Wat doet <span class=\"tar\">aqqa</span>?",
+   "options": [
+    "het ontkent",
+    "het presenteert iets of iemand — 'kijk hier, hier is...'",
+    "het stelt een vraag",
+    "het drukt toekomst uit"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">aqqa ṯxaḏenṯ</span> 'hier is de ring'. <span class=\"tar\">aqq-eṯ</span> 'hier is hij'. <span class=\"tar\">aqq-ayi</span> 'hier ben ik'. De stam <span class=\"tar\">aqq-</span> neemt dan het DO-suffix."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">aqq-ec mliḥ?</span>",
+   "correct": "ben jij goed?",
+   "accept": [
+    "ben jij goed?",
+    "gaat het goed met jou?"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "De standaardbegroeting in Tarifit. Letterlijk: 'kijk jij — goed?' <span class=\"tar\">aqq-ec</span> = 'jij hier' (2SG-suffix). <span class=\"tar\">mliḥ</span> = 'goed'. Al geleerd in Les 05 — nu zie je de pseudo-werkwoord-structuur."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe zeg je <strong>'hier ben ik'</strong> met <span class=\"tar\">aqqa</span>?",
+   "options": [
+    "<span class=\"tar\">aqq-ayi</span>",
+    "<span class=\"tar\">aqqa</span>",
+    "<span class=\"tar\">aqq-as</span>",
+    "<span class=\"tar\">aqq-ak</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">aqq-</span> + DO-suffix <span class=\"tar\">-ayi</span> (mij) = <span class=\"tar\">aqq-ayi</span>. Je hoeft geen los voornaamwoord erbij te zetten."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">ṯɣiř-ayi ḏ ssehh</span>",
+   "correct": "het lijkt mij waar",
+   "accept": [
+    "het lijkt mij waar",
+    "ik dacht dat het waar was",
+    "naar mijn idee is het waar"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">ṯɣiř</span> + IO-suffix = 'het lijkt aan X'. <span class=\"tar\">-ayi</span> = aan mij. <span class=\"tar\">ḏ ssehh</span> = 'het is de waarheid'. Samen: 'mij lijkt het waar'."
+  },
+  {
+   "type": "mc",
+   "q": "Wat zijn de <strong>drie</strong> hoofdgebruiken van <span class=\"tar\">qa</span>?",
+   "options": [
+    "toekomst, verleden, vraag",
+    "locatief ('hier is'), lopende actie (+ Imperfectief), recente perfectief ('net gebeurd')",
+    "ontkenning, bevestiging, herhaling",
+    "het heeft maar één gebruik"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">qa-ṯ ḏiha</span> (hij is daar). <span class=\"tar\">qa yetru</span> (hij is aan het huilen). <span class=\"tar\">qa yenna-ac</span> (hij heeft je net gezegd...). Drie functies, één partikel."
+  },
+  {
+   "type": "mc",
+   "q": "Waar kan <span class=\"tar\">qa</span> <strong>niet</strong> gebruikt worden?",
+   "options": [
+    "in hoofdzinnen",
+    "in bijzinnen of na vraagwoorden",
+    "met de Imperfectief",
+    "het is altijd bruikbaar"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">qa</span> is een hoofdzin-partikel. Na vraagwoorden (<span class=\"tar\">min, mani</span>) en in bijzinnen valt het weg en gebruik je de werkwoordsvorm zonder <span class=\"tar\">qa</span>. Ook kan het niet ontkend worden."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">ṯuɣa-c ḏ ameddukeř inu</span>",
+   "correct": "jij was mijn vriend",
+   "accept": [
+    "jij was mijn vriend",
+    "je was mijn vriend"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">ṯuɣa</span> + suffix <span class=\"tar\">-c</span> (jij) = 'jij was'. <span class=\"tar\">ḏ ameddukeř inu</span> = 'mijn vriend'. Negatief: <span class=\"tar\">ṯuyi</span>."
+  },
+  {
+   "type": "match",
+   "q": "Koppel pseudo-werkwoord aan functie:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">aqqa</span>",
+     "leftIsTar": true,
+     "right": "'hier is / kijk hier' (presentatief)"
+    },
+    {
+     "left": "<span class=\"tar\">aɣ</span>",
+     "leftIsTar": true,
+     "right": "'hier heb je het' (bij overhandigen)"
+    },
+    {
+     "left": "<span class=\"tar\">ṯɣiř</span>",
+     "leftIsTar": true,
+     "right": "'het lijkt' (+ IO: aan X)"
+    },
+    {
+     "left": "<span class=\"tar\">qa</span>",
+     "leftIsTar": true,
+     "right": "huidige relevantie (lopend, locatief, recent)"
+    },
+    {
+     "left": "<span class=\"tar\">ṯuɣa</span>",
+     "leftIsTar": true,
+     "right": "verleden toestand ('was')"
+    }
+   ],
+   "explain": "Vijf pseudo-werkwoorden, elk met een eigen niche. <span class=\"tar\">qa</span> en <span class=\"tar\">ṯuɣa</span> zijn de meest frequente in verhalen en gesprekken."
+  }
+ ],
+ "les-11": [
+  {
+   "type": "mc",
+   "q": "Welk partikel zet je vóór de Aorist om 'ik zal eten' te zeggen?",
+   "options": [
+    "<span class=\"tar\">ṯuɣa</span>",
+    "<span class=\"tar\">ad</span>",
+    "<span class=\"tar\">qa</span>",
+    "<span class=\"tar\">ma</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ad</span> markeert dat de actie nog niet gerealiseerd is. <span class=\"tar\">qa</span> doet juist het tegenovergestelde: bezig zijn nu (Les 09). <span class=\"tar\">ṯuɣa</span> hoort bij verleden, <span class=\"tar\">ma</span> introduceert vragen."
+  },
+  {
+   "type": "mc",
+   "q": "Wat volgt na <span class=\"tar\">ad</span> in deze constructie?",
+   "options": [
+    "de Imperfectief",
+    "de Aorist (basisstam-vorm)",
+    "alleen een naamwoord",
+    "altijd de Perfectief"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ad</span> + Aorist is de standaardconstructie voor toekomst, wens of mogelijkheid. <span class=\"tar\">qa</span> daarentegen kiest de Imperfectief."
+  },
+  {
+   "type": "mc",
+   "q": "Vóór een <span class=\"tar\">ṯ-</span> of <span class=\"tar\">n-</span>-prefix gebeurt iets met <span class=\"tar\">ad</span>. Wat?",
+   "options": [
+    "het verdubbelt: <span class=\"tar\">add</span>",
+    "het verdwijnt volledig",
+    "het wordt verkort tot <span class=\"tar\">a</span>",
+    "het verandert in <span class=\"tar\">aɣ</span>"
+   ],
+   "correct": 2,
+   "explain": "<span class=\"tar\">ad ṯeffeɣ</span> wordt in de praktijk <span class=\"tar\">a ṯeffeɣ</span> 'zij zal naar buiten gaan'. Hetzelfde bij <span class=\"tar\">a neffeɣ</span> 'wij zullen naar buiten gaan'. Een echte Riffijn schrijft het met <em>a</em>, niet met <em>ad</em>."
+  },
+  {
+   "type": "mc",
+   "q": "Vul aan: 'ik zal eten' = <span class=\"tar\">___ cciɣ</span>",
+   "options": [
+    "<span class=\"tar\">ad</span>",
+    "<span class=\"tar\">a</span>",
+    "<span class=\"tar\">ur</span>",
+    "<span class=\"tar\">waa</span>"
+   ],
+   "correct": 0,
+   "explain": "Vóór 1SG (geen <span class=\"tar\">ṯ-</span> of <span class=\"tar\">n-</span>) blijft <span class=\"tar\">ad</span> gewoon <span class=\"tar\">ad</span>."
+  },
+  {
+   "type": "mc",
+   "q": "Vul aan: 'wij zullen naar buiten gaan' = <span class=\"tar\">___ neffeɣ</span>",
+   "options": [
+    "<span class=\"tar\">a</span>",
+    "<span class=\"tar\">ad</span>",
+    "<span class=\"tar\">ur</span>",
+    "<span class=\"tar\">waa</span>"
+   ],
+   "correct": 0,
+   "explain": "Vóór <span class=\"tar\">n-</span> versmelt <span class=\"tar\">ad</span> tot <span class=\"tar\">a</span>. Letterlijk werd het ooit <span class=\"tar\">ad neffeɣ</span>, maar dat hoor je niet meer."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">a ṯeffeɣ</span>",
+   "correct": "zij zal naar buiten gaan",
+   "accept": [
+    "zij zal naar buiten gaan",
+    "ze zal naar buiten gaan",
+    "zij zal uitgaan",
+    "ze gaat naar buiten"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">a</span> = uit <span class=\"tar\">ad</span>; <span class=\"tar\">ṯeffeɣ</span> = 3SG:V van <span class=\"tar\">ffeɣ</span> 'naar buiten gaan'. <span class=\"tar\">ad</span> drukt soms ook wens of mogelijkheid uit, dus 'zij gaat misschien naar buiten' is in context ook denkbaar."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">ad yaggweḥ</span>",
+   "correct": "hij zal naar huis gaan",
+   "accept": [
+    "hij zal naar huis gaan",
+    "hij gaat naar huis",
+    "hij gaat misschien naar huis",
+    "hij zou naar huis moeten gaan"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">aggweḥ</span> 'naar huis gaan' is een eigen werkwoord (geen vorm van 'gaan'). <span class=\"tar\">ad</span> + Aorist is hier toekomst óf wens, afhankelijk van de context."
+  },
+  {
+   "type": "mc",
+   "q": "<span class=\"tar\">xa yeyya</span> in plaats van <span class=\"tar\">a yeyya</span> — wat doet de spreker?",
+   "options": [
+    "twijfelen of het wel gaat gebeuren",
+    "het in de verre toekomst plaatsen",
+    "een sterkere aanname uitdrukken — 'hij gáát zeker komen'",
+    "het beleefder formuleren"
+   ],
+   "correct": 2,
+   "explain": "<span class=\"tar\">xad</span> (verkort tot <span class=\"tar\">xa</span>) is een modale variant van <span class=\"tar\">ad</span>: meer zekerheid, vaak met de bijklank van een waarschuwing. Gebruik het niet in bijzinnen of na vraagwoorden — daar werkt het niet."
+  },
+  {
+   "type": "mc",
+   "q": "<span class=\"tar\">ad</span> + Aorist betekent altijd toekomst — waar of niet waar?",
+   "options": [
+    "waar — het is de standaardtoekomst",
+    "niet waar — het kan ook wens, mogelijkheid of 'na willen' uitdrukken",
+    "waar — alleen in spreektaal",
+    "niet waar — alleen verleden"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ad</span> markeert 'nog-niet-gerealiseerd' in brede zin. Vandaar ook <span class=\"tar\">xseɣ ad meřceɣ</span> 'ik wil trouwen' (lett. 'ik wil ik-zal-trouwen' — Les 21)."
+  },
+  {
+   "type": "match",
+   "q": "Koppel elk preverbaal partikel aan zijn functie:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">ad</span>",
+     "leftIsTar": true,
+     "right": "toekomst / wens (+ Aorist)"
+    },
+    {
+     "left": "<span class=\"tar\">xad</span>",
+     "leftIsTar": true,
+     "right": "sterkere toekomst / waarschuwing"
+    },
+    {
+     "left": "<span class=\"tar\">qa</span>",
+     "leftIsTar": true,
+     "right": "lopende actie nu (+ Imperfectief)"
+    },
+    {
+     "left": "<span class=\"tar\">waa</span>",
+     "leftIsTar": true,
+     "right": "ontkenning (+ Negatief)"
+    }
+   ],
+   "explain": "Vier preverbale partikels regelen samen het grootste deel van Tarifit-werkwoordsemantiek. <span class=\"tar\">waa</span> behandel je in Les 20."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe zeg je \"hij zal naar huis gaan\"? (werkwoord: <span class=\"tar\">aggweḥ</span>)",
+   "options": [
+    "<span class=\"tar\">ad yaggweḥ</span>",
+    "<span class=\"tar\">a yaggweḥ</span>",
+    "<span class=\"tar\">qa yaggweḥ</span>",
+    "<span class=\"tar\">ad aggweḥ</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ad</span> + Aorist 3SG:M: <span class=\"tar\">ad yaggweḥ</span>. Vóór het prefix <span class=\"tar\">y-</span> blijft <span class=\"tar\">ad</span> onveranderd — de <span class=\"tar\">ḏ</span> valt alleen weg voor <span class=\"tar\">ṯ-</span> en <span class=\"tar\">n-</span>."
+  },
+  {
+   "type": "mc",
+   "q": "<span class=\"tar\">ad</span> drukt niet alleen toekomst uit. Wat kan het <strong>ook</strong> betekenen?",
+   "options": [
+    "Alleen verleden tijd",
+    "Wens of mogelijkheid",
+    "Ontkenning",
+    "Lopende actie nu"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ad</span> markeert \"nog-niet-gerealiseerd\" in brede zin: toekomst, wens én mogelijkheid. Lopende actie nu druk je uit met <span class=\"tar\">qa</span> + Imperfectief."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe zeg je \"zij zal naar buiten gaan\"? (werkwoord: <span class=\"tar\">ffeɣ</span>)",
+   "options": [
+    "<span class=\"tar\">a ṯeffeɣ</span>",
+    "<span class=\"tar\">ad ṯeffeɣ</span>",
+    "<span class=\"tar\">xa ṯeffeɣ</span>",
+    "<span class=\"tar\">a yeffeɣ</span>"
+   ],
+   "correct": 0,
+   "explain": "Vóór het prefix <span class=\"tar\">ṯ-</span> wordt <span class=\"tar\">ad</span> verkort tot <span class=\"tar\">a</span>: <span class=\"tar\">a ṯeffeɣ</span>. De <span class=\"tar\">ḏ</span> valt weg voor <span class=\"tar\">ṯ-</span> en <span class=\"tar\">n-</span>."
+  }
+ ],
+ "les-12": [
+  {
+   "type": "mc",
+   "q": "Hoe ziet de meeste vrouwelijke enkelvoudsvorm eruit?",
+   "options": [
+    "<span class=\"tar\">a-</span> + STAM + <span class=\"tar\">-en</span>",
+    "<span class=\"tar\">ṯa-</span> + STAM + <span class=\"tar\">-ṯ</span>",
+    "alleen <span class=\"tar\">i-</span> + STAM",
+    "STAM zonder prefix of suffix"
+   ],
+   "correct": 1,
+   "explain": "De gouden regel: vrouwelijk = mannelijk omhuld door <span class=\"tar\">ṯ-</span> aan beide kanten. <span class=\"tar\">afunas</span> 'rund' → <span class=\"tar\">ṯafunasṯ</span> 'koe'."
+  },
+  {
+   "type": "mc",
+   "q": "Welk geslacht heeft <span class=\"tar\">āryaz</span>?",
+   "options": [
+    "vrouwelijk",
+    "mannelijk",
+    "onzijdig",
+    "alleen meervoud"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">āryaz</span> 'man' begint met <span class=\"tar\">a-</span> en eindigt op een medeklinker — typisch mannelijk. De vrouwelijke pendant is hier niet de regelmatige variant maar het suppletieve <span class=\"tar\">ṯamɣārṯ</span> 'vrouw'."
+  },
+  {
+   "type": "mc",
+   "q": "Maak van <span class=\"tar\">ayyaw</span> 'kleinzoon' de vrouwelijke vorm:",
+   "options": [
+    "<span class=\"tar\">ṯayyawṯ</span>",
+    "<span class=\"tar\">ṯayyaw</span>",
+    "<span class=\"tar\">ayyawṯ</span>",
+    "<span class=\"tar\">ṯayyawit</span>"
+   ],
+   "correct": 0,
+   "explain": "Standaardafleiding: <span class=\"tar\">ṯ-</span> ervoor, <span class=\"tar\">-ṯ</span> erachter. Werkt zo voor <span class=\"tar\">aɛabib</span> → <span class=\"tar\">ṯaɛabibṯ</span>, <span class=\"tar\">aḥenjia</span> → <span class=\"tar\">ṯaḥenjiaṯ</span>, enz."
+  },
+  {
+   "type": "mc",
+   "q": "Maak van <span class=\"tar\">afunas</span> 'rund' de vrouwelijke vorm:",
+   "options": [
+    "<span class=\"tar\">ṯafunasṯ</span>",
+    "<span class=\"tar\">ṯafunas</span>",
+    "<span class=\"tar\">afunasṯ</span>",
+    "<span class=\"tar\">ṯifunasin</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ṯ-</span> + <span class=\"tar\">afunas</span> + <span class=\"tar\">-ṯ</span> = <span class=\"tar\">ṯafunasṯ</span> 'koe'. De <em>a-</em> blijft staan."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">ṯamɣārṯ</span>",
+   "correct": "vrouw",
+   "accept": [
+    "vrouw",
+    "een vrouw",
+    "de vrouw"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">ṯamɣārṯ</span> 'vrouw' is geen regelmatige afleiding van <span class=\"tar\">āryaz</span> 'man' — het is een aparte stam (suppletief). Net zoals 'koe' geen afleiding is van 'stier' in het Nederlands."
+  },
+  {
+   "type": "mc",
+   "q": "Welk paar volgt <strong>niet</strong> de regelmatige <span class=\"tar\">ṯ-…-ṯ</span>-regel?",
+   "options": [
+    "<span class=\"tar\">afunas</span> / <span class=\"tar\">ṯafunasṯ</span>",
+    "<span class=\"tar\">aḥenjia</span> / <span class=\"tar\">ṯaḥenjiaṯ</span>",
+    "<span class=\"tar\">āryaz</span> / <span class=\"tar\">ṯamɣārṯ</span>",
+    "<span class=\"tar\">ayyaw</span> / <span class=\"tar\">ṯayyawṯ</span>"
+   ],
+   "correct": 2,
+   "explain": "<span class=\"tar\">āryaz</span> en <span class=\"tar\">ṯamɣārṯ</span> hebben totaal verschillende stammen — typisch suppletief. Net als <span class=\"tar\">amyan</span> / <span class=\"tar\">ṯyatṯ</span> 'bok / geit', <span class=\"tar\">yis</span> / <span class=\"tar\">řeɛawḏa</span> 'paard / merrie'."
+  },
+  {
+   "type": "mc",
+   "q": "Welk geslacht hebben <strong>talen</strong> in Tarifit?",
+   "options": [
+    "altijd mannelijk",
+    "altijd vrouwelijk",
+    "afhankelijk van de spreker",
+    "geen geslacht"
+   ],
+   "correct": 1,
+   "explain": "Talen zijn standaard vrouwelijk: <span class=\"tar\">ṯmazixṯ</span> 'Berbertaal', <span class=\"tar\">ṯaɛrabṯ</span> 'Arabisch', <span class=\"tar\">ṯaspanyuṯ</span> 'Spaans'. Hetzelfde woord betekent ook 'een vrouw uit die taalgemeenschap'."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">ṯakeccutṯ</span>",
+   "correct": "takje",
+   "accept": [
+    "takje",
+    "klein takje",
+    "kleine stok"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "Hier doet de vrouwelijke vorm dienst als verkleinwoord: <span class=\"tar\">akeccuḏ</span> = 'grote stok', <span class=\"tar\">ṯakeccutṯ</span> = 'takje'. Hetzelfde patroon bij <span class=\"tar\">attaw</span> 'groot oog' / <span class=\"tar\">ṯitṯ</span> 'gewoon oog'."
+  },
+  {
+   "type": "match",
+   "q": "Koppel mannelijk en vrouwelijk:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">āryaz</span>",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">ṯamɣārṯ</span> (V, suppletief)"
+    },
+    {
+     "left": "<span class=\"tar\">afunas</span>",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">ṯafunasṯ</span> (V, regelmatig)"
+    },
+    {
+     "left": "<span class=\"tar\">amyan</span>",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">ṯyatṯ</span> (V, suppletief)"
+    },
+    {
+     "left": "<span class=\"tar\">āryaz</span> (alleen M)",
+     "leftIsTar": true,
+     "right": "geen <span class=\"tar\">ṯ-…-ṯ</span>-vrouw mogelijk"
+    }
+   ],
+   "explain": "Belangrijk inzicht: niet elk M-woord heeft een regelmatige V-pendant. Voor mensen / dieren waar de twee echt verschillen, gebruikt Tarifit aparte stammen — net als Nederlands."
+  }
+ ],
+ "les-13": [
+  {
+   "type": "mc",
+   "q": "De hoofdregel voor mannelijk meervoud: <span class=\"tar\">a-</span> wordt …",
+   "options": [
+    "<span class=\"tar\">u-</span>",
+    "<span class=\"tar\">i-</span>",
+    "<span class=\"tar\">ṯi-</span>",
+    "verdwijnt altijd"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">afunas</span> 'rund' → <span class=\"tar\">ifunasen</span> 'runderen'. Vaak komt er ook een <span class=\"tar\">-en</span> of <span class=\"tar\">-an</span> achter de stam."
+  },
+  {
+   "type": "mc",
+   "q": "De hoofdregel voor vrouwelijk meervoud: <span class=\"tar\">ṯa-</span> wordt … en …",
+   "options": [
+    "<span class=\"tar\">ṯi-</span> + suffix <span class=\"tar\">-in</span>",
+    "<span class=\"tar\">i-</span> + suffix <span class=\"tar\">-en</span>",
+    "alleen <span class=\"tar\">a-</span>",
+    "blijft hetzelfde"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ṯafunasṯ</span> 'koe' → <span class=\"tar\">ṯifunasin</span> 'koeien'. Klinker-shift voorop (<span class=\"tar\">ṯa-</span> → <span class=\"tar\">ṯi-</span>) en een suffix <span class=\"tar\">-in</span> achteraan."
+  },
+  {
+   "type": "mc",
+   "q": "Meervoud van <span class=\"tar\">afunas</span> 'rund':",
+   "options": [
+    "<span class=\"tar\">ifunasen</span>",
+    "<span class=\"tar\">ṯifunasin</span>",
+    "<span class=\"tar\">afunasn</span>",
+    "<span class=\"tar\">ifunas</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">a-</span> wordt <span class=\"tar\">i-</span>, en achter de stam komt <span class=\"tar\">-en</span>. Het hoofdpatroon."
+  },
+  {
+   "type": "mc",
+   "q": "Meervoud van <span class=\"tar\">ṯafunasṯ</span> 'koe':",
+   "options": [
+    "<span class=\"tar\">ṯifunasin</span>",
+    "<span class=\"tar\">ifunasen</span>",
+    "<span class=\"tar\">ṯafunasṯ</span>",
+    "<span class=\"tar\">ṯifunasn</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ṯa-</span> → <span class=\"tar\">ṯi-</span>, suffix <span class=\"tar\">-in</span>. Let op: in het meervoud verdwijnt de <span class=\"tar\">-ṯ</span> aan het eind."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">izra</span>",
+   "correct": "stenen",
+   "accept": [
+    "stenen",
+    "de stenen"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "Enkelvoud is <span class=\"tar\">azru</span> 'steen'. Hier verandert óók de stam-klinker: <span class=\"tar\">u</span> wordt <span class=\"tar\">a</span>. Patroon dat je per woord moet leren."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">iṯan</span>",
+   "correct": "honden",
+   "accept": [
+    "honden",
+    "de honden"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "Enkelvoud is <span class=\"tar\">aydi</span> 'hond'. Volledig andere stam — een suppletief meervoud, vergelijkbaar met Nederlands 'persoon / mensen'."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is bijzonder aan <span class=\"tar\">uř</span> → <span class=\"tar\">uřawen</span> 'hart / harten'?",
+   "options": [
+    "het is regelmatig",
+    "er wordt een element <span class=\"tar\">-aw-</span> tussen stam en suffix ingevoegd",
+    "het meervoud is identiek aan enkelvoud",
+    "alleen vrouwelijke woorden doen dit"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">-aw-</span>-infix komt voor bij eenlettergrepige stammen: <span class=\"tar\">uř</span> → <span class=\"tar\">uřawen</span>, <span class=\"tar\">ṯitṯ</span> → <span class=\"tar\">ṯitṯawin</span> 'oog / ogen'."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is een <strong>suppletief</strong> meervoud?",
+   "options": [
+    "een meervoud zonder eindletter",
+    "een meervoud met een totaal andere stam dan het enkelvoud",
+    "een meervoud dat alleen in literatuur voorkomt",
+    "een meervoud van leenwoorden"
+   ],
+   "correct": 1,
+   "explain": "Voorbeelden: <span class=\"tar\">uma</span> → <span class=\"tar\">ayeṯma</span> 'broer / broers', <span class=\"tar\">aydi</span> → <span class=\"tar\">iṯan</span> 'hond / honden'. Niet af te leiden — gewoon leren als paar."
+  },
+  {
+   "type": "match",
+   "q": "Koppel het meervoudspatroon aan het type:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">afunas</span> → <span class=\"tar\">ifunasen</span>",
+     "leftIsTar": true,
+     "right": "hoofdregel: <span class=\"tar\">a-</span> → <span class=\"tar\">i-</span> + suffix"
+    },
+    {
+     "left": "<span class=\"tar\">ṯafunasṯ</span> → <span class=\"tar\">ṯifunasin</span>",
+     "leftIsTar": true,
+     "right": "hoofdregel V: <span class=\"tar\">ṯa-</span> → <span class=\"tar\">ṯi-</span> + <span class=\"tar\">-in</span>"
+    },
+    {
+     "left": "<span class=\"tar\">azru</span> → <span class=\"tar\">izra</span>",
+     "leftIsTar": true,
+     "right": "stam-klinker verandert"
+    },
+    {
+     "left": "<span class=\"tar\">uř</span> → <span class=\"tar\">uřawen</span>",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">-aw-</span> ingevoegd"
+    },
+    {
+     "left": "<span class=\"tar\">aydi</span> → <span class=\"tar\">iṯan</span>",
+     "leftIsTar": true,
+     "right": "suppletief (andere stam)"
+    }
+   ],
+   "explain": "Vijf hoofdpatronen. Praktisch advies uit de cursus: leer enkelvoud + meervoud altijd samen — net als Duits 'der Mann / die Männer'."
+  },
+  {
+   "type": "mc",
+   "q": "Iemand zegt 'ik heb 1 schaap, maar voor 2 zou ik nooit raden hoe het meervoud is'. Wat is het beste advies?",
+   "options": [
+    "geen probleem — er is één voorspelbare regel",
+    "niet erg — er bestaan geen meervouden in Tarifit",
+    "leer enkelvoud + meervoud per woord als paar — er is geen regel die altijd klopt",
+    "alleen meervoud van werkwoorden"
+   ],
+   "correct": 2,
+   "explain": "Naast de hoofdregel zijn er stam-shifts, infix <span class=\"tar\">-aw-</span> en suppletieve meervouden. Geen voorspelregel werkt 100% — vandaar: paarsgewijs leren."
+  }
+ ],
+ "les-14": [
+  {
+   "type": "mc",
+   "q": "Wat betekent <span class=\"tar\">baba</span> op zichzelf, zonder verdere toevoeging?",
+   "options": [
+    "vader (algemeen)",
+    "<strong>mijn</strong> vader — het bezit '1SG' zit al ingebouwd",
+    "een formele aanspreking voor oudere mannen",
+    "het Arabische woord voor 'papa'"
+   ],
+   "correct": 1,
+   "explain": "Familiewoorden in Tarifit hebben 'mijn' al verwerkt: <span class=\"tar\">baba</span> = 'mijn vader', <span class=\"tar\">yemma</span> = 'mijn moeder', <span class=\"tar\">mmi</span> = 'mijn zoon'. Voor andermans vader zeg je <span class=\"tar\">baba-c</span>, <span class=\"tar\">baba-s</span> enz."
+  },
+  {
+   "type": "mc",
+   "q": "Welk suffix gebruik je op een familiewoord voor <strong>'jouw' (M)</strong>?",
+   "options": [
+    "<span class=\"tar\">-s</span>",
+    "<span class=\"tar\">-c</span>",
+    "<span class=\"tar\">-m</span>",
+    "<span class=\"tar\">-neɣ</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">-c</span> = 2SG:M ('jouw' tegen man). Tegen vrouw: <span class=\"tar\">-m</span>. <span class=\"tar\">-s</span> is 3SG (zijn / haar), <span class=\"tar\">-neɣ</span> is 1PL ('onze')."
+  },
+  {
+   "type": "mc",
+   "q": "Vorm voor <strong>jouw moeder</strong> (tegen man):",
+   "options": [
+    "<span class=\"tar\">yemma-c</span>",
+    "<span class=\"tar\">yemma-k</span>",
+    "<span class=\"tar\">yemma-s</span>",
+    "<span class=\"tar\">yemma-m</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">yemma</span> = 'mijn moeder'. Met suffix <span class=\"tar\">-c</span>: 'jouw moeder' (M)."
+  },
+  {
+   "type": "mc",
+   "q": "Vorm voor <strong>zijn broer</strong>:",
+   "options": [
+    "<span class=\"tar\">uma-s</span>",
+    "<span class=\"tar\">uma-c</span>",
+    "<span class=\"tar\">uma-k</span>",
+    "<span class=\"tar\">uma-wen</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">uma</span> = 'mijn broer'. Suffix <span class=\"tar\">-s</span> = 3SG (zijn / haar). Diezelfde <span class=\"tar\">-s</span> dekt zowel 'zijn' als 'haar'."
+  },
+  {
+   "type": "mc",
+   "q": "Voor <strong>niet-familie</strong>-woorden (bijv. <span class=\"tar\">ṯaḏḏarṯ</span> 'huis') gebruik je…",
+   "options": [
+    "ook directe suffixen zoals <span class=\"tar\">-c</span>, <span class=\"tar\">-s</span>",
+    "het voorzetsel <span class=\"tar\">n</span> + bezitsvorm (<span class=\"tar\">inu</span>, <span class=\"tar\">nnec</span>, <span class=\"tar\">nnes</span>…)",
+    "geen bezit — alleen context",
+    "altijd het Arabische bezitssysteem"
+   ],
+   "correct": 1,
+   "explain": "Twee systemen naast elkaar: familiewoorden plakken het bezit direct vast, alle andere woorden gebruiken een losstaande bezitsvorm na <span class=\"tar\">n</span>: <span class=\"tar\">ṯaḏḏarṯ-inu</span> 'mijn huis', <span class=\"tar\">ṯaḏḏarṯ nnec</span> 'jouw huis (M)'."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">ṯaḏḏarṯ-inu</span>",
+   "correct": "mijn huis",
+   "accept": [
+    "mijn huis",
+    "mijn eigen huis"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "Letterlijk 'het huis van mij'. <span class=\"tar\">inu</span> is de speciale 1SG-bezitsvorm — <strong>onregelmatig</strong>: niet <em>nni</em> zoals het patroon zou voorspellen."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">āryaz-nnes</span>",
+   "correct": "haar man",
+   "accept": [
+    "haar man",
+    "zijn man",
+    "haar echtgenoot",
+    "haar partner"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">nnes</span> = 'van hem / van haar' — geslachtsverschil bestaat hier niet. Context bepaalt of het 'zijn' of 'haar' is. <span class=\"tar\">āryaz-nnes</span> kan dus ook 'zijn echtgenoot' zijn — al is dat in een traditionele context onwaarschijnlijker."
+  },
+  {
+   "type": "mc",
+   "q": "Waarom is <span class=\"tar\">inu</span> een uitzondering?",
+   "options": [
+    "het wordt door jongeren niet meer gebruikt",
+    "het is de enige bezitsvorm bij <span class=\"tar\">n</span> die niet met <span class=\"tar\">nn-</span> begint",
+    "het bestaat alleen in formele taal",
+    "het komt uit het Arabisch"
+   ],
+   "correct": 1,
+   "explain": "Het patroon <span class=\"tar\">nn-</span> + suffix werkt voor alle andere personen (<span class=\"tar\">nnec, nnem, nnes, nneɣ, nwem…</span>). Alleen 1SG breekt het: <span class=\"tar\">inu</span>, niet *<span class=\"tar\">nni</span>."
+  },
+  {
+   "type": "mc",
+   "q": "Vorm voor <strong>jouw huis</strong> (tegen man):",
+   "options": [
+    "<span class=\"tar\">ṯaḏḏarṯ nnec</span>",
+    "<span class=\"tar\">ṯaḏḏarṯ nnek</span>",
+    "<span class=\"tar\">ṯaḏḏarṯ nnes</span>",
+    "<span class=\"tar\">ṯaḏḏarṯ nneɣ</span>"
+   ],
+   "correct": 0,
+   "explain": "Niet-familiewoord → twee woorden: zelfstandig nw + bezit. Tegen vrouw zou het <span class=\"tar\">ṯaḏḏarṯ nnem</span> worden."
+  },
+  {
+   "type": "match",
+   "q": "Koppel elke bezitsvorm aan zijn betekenis:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">inu</span>",
+     "leftIsTar": true,
+     "right": "van mij"
+    },
+    {
+     "left": "<span class=\"tar\">nnec</span>",
+     "leftIsTar": true,
+     "right": "van jou (M)"
+    },
+    {
+     "left": "<span class=\"tar\">nnem</span>",
+     "leftIsTar": true,
+     "right": "van jou (V)"
+    },
+    {
+     "left": "<span class=\"tar\">nnes</span>",
+     "leftIsTar": true,
+     "right": "van hem / van haar"
+    },
+    {
+     "left": "<span class=\"tar\">nneɣ</span>",
+     "leftIsTar": true,
+     "right": "van ons"
+    }
+   ],
+   "explain": "Onthoud: 'jou' splitst altijd in M (<span class=\"tar\">-c</span>) en V (<span class=\"tar\">-m</span>); 'hem' en 'haar' vallen samen in <span class=\"tar\">-s</span>."
+  }
+ ],
+ "les-15": [
+  {
+   "type": "mc",
+   "q": "Welk achtervoegsel betekent <strong>'deze'</strong> (dichtbij de spreker)?",
+   "options": [
+    "<span class=\"tar\">-in</span>",
+    "<span class=\"tar\">-a</span>",
+    "<span class=\"tar\">-enni</span>",
+    "<span class=\"tar\">-u</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">-a</span> = dichtbij (deze). <span class=\"tar\">-in</span> = verder weg of bij de luisteraar (die). <span class=\"tar\">-enni</span> = al genoemd in het gesprek."
+  },
+  {
+   "type": "mc",
+   "q": "Wat drukt <span class=\"tar\">-enni</span> uit, dat Nederlands niet zo apart heeft?",
+   "options": [
+    "alleen vrouwelijk meervoud",
+    "'die we al noemden in dit gesprek' — een soort 'aforementioned'",
+    "alleen verleden tijd",
+    "een vraag stellen"
+   ],
+   "correct": 1,
+   "explain": "Drie graden van afstand: ruimtelijk (-a, -in) plus 'discursief' (-enni 'eerder in dit gesprek'). Engelse 'aforementioned X' komt het dichtst in de buurt."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe schrijf je <strong>deze man</strong> (<span class=\"tar\">āryaz</span> + 'deze')?",
+   "options": [
+    "<span class=\"tar\">āryaz-a</span>",
+    "<span class=\"tar\">āryaz-in</span>",
+    "<span class=\"tar\">āryaz-lli</span>",
+    "<span class=\"tar\">āryaz-ad</span>"
+   ],
+   "correct": 0,
+   "explain": "Suffix <span class=\"tar\">-a</span> direct achter het naamwoord. Met streepje of vast geschreven, beide zie je. De spelling met streepje maakt de morfologie zichtbaar."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe schrijf je <strong>die man</strong> (<span class=\"tar\">āryaz</span> + 'die, verder weg')?",
+   "options": [
+    "<span class=\"tar\">āryaz-in</span>",
+    "<span class=\"tar\">āryaz-a</span>",
+    "<span class=\"tar\">āryaz-lli</span>",
+    "<span class=\"tar\">āryaz-ad</span>"
+   ],
+   "correct": 0,
+   "explain": "Suffix <span class=\"tar\">-in</span>. Hetzelfde patroon werkt voor V (<span class=\"tar\">ṯaḏḏarṯ-in</span> 'dat huis') en MV (<span class=\"tar\">irgazen-in</span> 'die mannen')."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">āryaz-enni</span>",
+   "correct": "die man (eerder genoemd)",
+   "accept": [
+    "die man",
+    "die man waar we het over hadden",
+    "de eerder genoemde man",
+    "die man (eerder genoemd)"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "Letterlijk 'die man die we eerder noemden'. Onmisbaar in verhalen — zo signaleer je dat een personage al bekend is bij de luisteraar."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is <span class=\"tar\">wa</span> (zonder achtervoegsel) als het op zichzelf staat?",
+   "options": [
+    "een vraagwoord",
+    "los aanwijzend voornaamwoord 'deze' (M, ev) — zonder naamwoord",
+    "een ontkenning",
+    "het partikel voor toekomst"
+   ],
+   "correct": 1,
+   "explain": "Losse aanwijzers staan zonder naamwoord: <span class=\"tar\">wa</span> 'deze (M)', <span class=\"tar\">ṯa</span> 'deze (V)', <span class=\"tar\">ina</span> 'deze (M-MV)', <span class=\"tar\">ṯina</span> 'deze (V-MV)'. De 'deze die jij vasthoudt' = <span class=\"tar\">wa</span>."
+  },
+  {
+   "type": "mc",
+   "q": "Bijwoord voor <strong>'hier'</strong>:",
+   "options": [
+    "<span class=\"tar\">ḏa</span>",
+    "<span class=\"tar\">ḏin</span>",
+    "<span class=\"tar\">ḏihin</span>",
+    "<span class=\"tar\">ɣaa</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ḏa</span> = hier; <span class=\"tar\">ḏin</span> = daar; <span class=\"tar\">ḏiha</span> = daarginds, ver weg. Drie afstanden — net als bij de aanwijzers."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is het verschil tussen <span class=\"tar\">ḏin</span> en <span class=\"tar\">ḏiha</span>?",
+   "options": [
+    "geen verschil — synoniemen",
+    "<span class=\"tar\">ḏin</span> = daar (zichtbaar / dichterbij); <span class=\"tar\">ḏiha</span> = daarginds (ver, vaak buiten zicht)",
+    "<span class=\"tar\">ḏin</span> is M, <span class=\"tar\">ḏiha</span> is V",
+    "<span class=\"tar\">ḏin</span> is verleden, <span class=\"tar\">ḏiha</span> is toekomst"
+   ],
+   "correct": 1,
+   "explain": "Tarifit onderscheidt twee niveaus van 'daar'. <span class=\"tar\">ḏiha</span> markeert echte afstand of niet-zichtbaarheid — vergelijkbaar met Spaans 'allí' vs 'allá'."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">řexxu</span>",
+   "correct": "nu",
+   "accept": [
+    "nu",
+    "op dit moment"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">řexxu</span> 'nu' is een veelgebruikt bijwoord. Komt vaak terug in dialogen: <span class=\"tar\">řexxu ḏ necc</span> 'nu ben ik het'."
+  },
+  {
+   "type": "match",
+   "q": "Koppel elk los aanwijzend voornaamwoord aan zijn betekenis:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">wa</span>",
+     "leftIsTar": true,
+     "right": "deze (M, ev)"
+    },
+    {
+     "left": "<span class=\"tar\">ṯa</span>",
+     "leftIsTar": true,
+     "right": "deze (V, ev)"
+    },
+    {
+     "left": "<span class=\"tar\">ina</span>",
+     "leftIsTar": true,
+     "right": "deze (M, mv)"
+    },
+    {
+     "left": "<span class=\"tar\">win</span>",
+     "leftIsTar": true,
+     "right": "die (M, ev — verder weg)"
+    },
+    {
+     "left": "<span class=\"tar\">wenni</span>",
+     "leftIsTar": true,
+     "right": "die (M, eerder genoemd)"
+    }
+   ],
+   "explain": "Drie afstanden × twee geslachten × ev/mv = twaalf vormen totaal. Alle volgen <span class=\"tar\">w-</span>/<span class=\"tar\">ṯ-</span>/<span class=\"tar\">i-</span>/<span class=\"tar\">ṯi-</span> + <span class=\"tar\">a/in/enni</span>."
+  }
+ ],
+ "les-16": [
+  {
+   "type": "mc",
+   "q": "Wat is de <strong>vrije staat</strong>?",
+   "options": [
+    "een vorm die alleen na een voorzetsel voorkomt",
+    "de woordenboekvorm — het woord 'in rust', alleen of vooraan in de zin",
+    "alleen de meervoudsvorm",
+    "een werkwoordsvorm"
+   ],
+   "correct": 1,
+   "explain": "De vrije staat (FS) is wat je in een woordenlijst aantreft. <span class=\"tar\">āryaz</span> 'man', <span class=\"tar\">ṯafunasṯ</span> 'koe' — dat zijn FS-vormen."
+  },
+  {
+   "type": "mc",
+   "q": "Wanneer gebruik je de <strong>verbonden staat</strong>?",
+   "options": [
+    "altijd",
+    "nooit — die bestaat niet meer",
+    "vooral na voorzetsels en als onderwerp <em>na</em> het werkwoord",
+    "alleen in geschreven taal"
+   ],
+   "correct": 2,
+   "explain": "Verbonden staat (AS) verschijnt waar het naamwoord zich aan iets vasthecht: na de meeste voorzetsels (<span class=\"tar\">n wāryaz</span> 'van de man') en als VSO-onderwerp (<span class=\"tar\">yexḏem wāryaz</span> 'de man werkt')."
+  },
+  {
+   "type": "mc",
+   "q": "Wat gebeurt er met <span class=\"tar\">a-</span> bij de overgang naar verbonden staat (M ev)?",
+   "options": [
+    "het verdwijnt zonder vervanging",
+    "het wordt <span class=\"tar\">wa-</span> of <span class=\"tar\">u-</span>",
+    "het wordt <span class=\"tar\">ṯa-</span>",
+    "het verdubbelt"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">āryaz</span> (FS) → <span class=\"tar\">wāryaz</span> (AS); <span class=\"tar\">afunas</span> → <span class=\"tar\">wafunas</span>. De <span class=\"tar\">w-</span> wijst op de oude beklemtoning die in FS verloren ging."
+  },
+  {
+   "type": "mc",
+   "q": "Verbonden staat van <span class=\"tar\">āryaz</span> 'man':",
+   "options": [
+    "<span class=\"tar\">wāryaz</span>",
+    "<span class=\"tar\">āryaz</span>",
+    "<span class=\"tar\">uryaz</span>",
+    "<span class=\"tar\">yāryaz</span>"
+   ],
+   "correct": 0,
+   "explain": "Bijvoorbeeld in <span class=\"tar\">yeqqim wāryaz</span> 'de man bleef' (onderwerp na werkwoord, dus AS)."
+  },
+  {
+   "type": "mc",
+   "q": "Verbonden staat van <span class=\"tar\">ṯafunasṯ</span> 'koe':",
+   "options": [
+    "<span class=\"tar\">ṯfunasṯ</span>",
+    "<span class=\"tar\">ṯafunasṯ</span>",
+    "<span class=\"tar\">afunasṯ</span>",
+    "<span class=\"tar\">ṯifunasṯ</span>"
+   ],
+   "correct": 0,
+   "explain": "V ev: <span class=\"tar\">ṯa-</span> wordt <span class=\"tar\">ṯ-</span>. De <em>a</em> verdwijnt. Idem <span class=\"tar\">ṯamɣārṯ</span> → <span class=\"tar\">ṯmɣārṯ</span>."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">yeqqim wāryaz</span>",
+   "correct": "de man bleef",
+   "accept": [
+    "de man bleef",
+    "de man bleef zitten",
+    "de man is gebleven"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "Het werkwoord komt eerst (VSO), het onderwerp <span class=\"tar\">āryaz</span> komt erna en moet daarom in AS — vandaar <span class=\"tar\">wāryaz</span>. Zinsvolgorde wordt uitgewerkt in Les 16."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is het verschil tussen <span class=\"tar\">āryaz yexḏem</span> en <span class=\"tar\">yexḏem wāryaz</span>?",
+   "options": [
+    "het eerste is verleden, het tweede heden",
+    "het eerste is een vraag, het tweede een bewering",
+    "geen betekenisverschil — alleen positie en daardoor staat: SV (FS) of VS (AS)",
+    "het eerste is M, het tweede V"
+   ],
+   "correct": 2,
+   "explain": "Beide betekenen 'de man werkt'. Verschil zit in <em>structuur</em>: onderwerp vooraan = FS (<span class=\"tar\">āryaz</span>); onderwerp na ww = AS (<span class=\"tar\">wāryaz</span>). Stilistisch en met nadruk verschil, maar niet semantisch."
+  },
+  {
+   "type": "mc",
+   "q": "Welk type woord heeft <strong>geen</strong> staat-onderscheid?",
+   "options": [
+    "Klasse-I-naamwoorden (de meeste)",
+    "Klasse-II-leenwoorden (<span class=\"tar\">ssaḇun</span> 'zeep') en familiewoorden (<span class=\"tar\">baba</span>)",
+    "alleen meervoudsvormen",
+    "alle naamwoorden hebben staat-onderscheid"
+   ],
+   "correct": 1,
+   "explain": "Klasse II (Arabische leenwoorden) en Klasse III (familiewoorden) blijven onveranderd in elke positie. Ook bijvoeglijke naamwoorden staan altijd in vrije staat — ongeacht het woord dat ze beschrijven."
+  },
+  {
+   "type": "mc",
+   "q": "Na welke twee voorzetsels gebruik je — uitzonderlijk — de <strong>vrije</strong> staat?",
+   "options": [
+    "<span class=\"tar\">n</span> 'van' en <span class=\"tar\">x</span> 'op'",
+    "<span class=\"tar\">aṛ</span> 'tot' en <span class=\"tar\">břa</span> 'zonder'",
+    "<span class=\"tar\">ḏi</span> 'in' en <span class=\"tar\">akeḏ</span> 'met'",
+    "geen — alle voorzetsels nemen verbonden staat"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">břa āryaz-nnes</span> 'zonder haar man' — wel een voorzetsel, maar FS. Bijna alle andere voorzetsels triggeren AS. Dit is een ezelsbruggetje waard."
+  },
+  {
+   "type": "match",
+   "q": "Welke staat hoort bij de positie?",
+   "pairs": [
+    {
+     "left": "alleenstaand naamwoord (\"een man\")",
+     "leftIsTar": false,
+     "right": "vrije staat (FS)"
+    },
+    {
+     "left": "onderwerp <em>vóór</em> het werkwoord",
+     "leftIsTar": false,
+     "right": "vrije staat (FS)"
+    },
+    {
+     "left": "lijdend voorwerp",
+     "leftIsTar": false,
+     "right": "vrije staat (FS)"
+    },
+    {
+     "left": "onderwerp <em>na</em> het werkwoord",
+     "leftIsTar": false,
+     "right": "verbonden staat (AS)"
+    },
+    {
+     "left": "na <span class=\"tar\">n</span> 'van'",
+     "leftIsTar": false,
+     "right": "verbonden staat (AS)"
+    }
+   ],
+   "explain": "Geheugensteun: 'in rust' = FS, 'in een groep' (vastgemaakt aan ww of voorzetsel) = AS. Eenmaal automatisch, lees je het verschil meteen."
+  }
+ ],
+ "les-17": [
+  {
+   "type": "mc",
+   "q": "Wat betekent <strong>VSO</strong>?",
+   "options": [
+    "Voornaamwoord — Suffix — Object",
+    "Werkwoord — Onderwerp — Object",
+    "Verleden — Staat — Ontkenning",
+    "Voorzetsel — Stam — Oorsprong"
+   ],
+   "correct": 1,
+   "explain": "V = Verb (werkwoord), S = Subject (onderwerp), O = Object (lijdend voorwerp). In Tarifit is de <em>standaard</em>-volgorde: werkwoord eerst, dan pas het onderwerp. Nederlands is doorgaans SVO of SOV."
+  },
+  {
+   "type": "mc",
+   "q": "In welke staat staat het onderwerp als het <em>na</em> het werkwoord komt?",
+   "options": [
+    "vrije staat",
+    "verbonden staat",
+    "meervoudsvorm",
+    "geen verschil"
+   ],
+   "correct": 1,
+   "explain": "Na het werkwoord (VSO-volgorde): verbonden staat. <span class=\"tar\">yexḏem wāryaz</span> — <span class=\"tar\">wāryaz</span> (AS) omdat het onderwerp na het ww staat. Les 15 behandelde dit als principe; hier zie je het in actie."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">yexḏem wāryaz</span>",
+   "correct": "de man werkt",
+   "accept": [
+    "de man werkt",
+    "de man is aan het werken"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "Letterlijk 'werkt de man' — VSO. Maar Nederlands zet het onderwerp vooraan, dus vertaal je het als 'de man werkt'."
+  },
+  {
+   "type": "mc",
+   "q": "Je wilt 'de man werkt' zeggen met <strong>nadruk</strong> op 'de man'. Hoe doe je dat?",
+   "options": [
+    "<span class=\"tar\">yexḏem wāryaz</span> — gewone VSO",
+    "<span class=\"tar\">āryaz, yexḏem</span> — onderwerp eerst (topicalisatie, vrije staat)",
+    "<span class=\"tar\">wāryaz yexḏem</span>",
+    "dat kan niet in Tarifit"
+   ],
+   "correct": 1,
+   "explain": "Topicalisatie: het onderwerp vooraan in vrije staat, een komma erachter, dan het werkwoord. Zo benadruk je 'de man' (en niet iemand anders). Het is grammaticaal, maar afwijkend van de gewone volgorde."
+  },
+  {
+   "type": "mc",
+   "q": "Is het verplicht om het onderwerp uittespreken in een Tarifit-zin?",
+   "options": [
+    "ja — altijd",
+    "nee — de werkwoordvervoeging zegt al wie het doet",
+    "alleen bij meervoud",
+    "alleen bij ontkenning"
+   ],
+   "correct": 1,
+   "explain": "Pro-drop: <span class=\"tar\">yexḏem</span> betekent 'hij werkt' — geen apart 'hij' nodig. Het prefix <span class=\"tar\">y-</span> markeert 3SG:M al. Hetzelfde als in Spaans of Arabisch."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">qa yewca baba ṯṯmenyaṯ i Mimun</span>",
+   "correct": "mijn vader heeft geld aan Mimoun gegeven",
+   "accept": [
+    "mijn vader heeft geld aan Mimoun gegeven",
+    "mijn vader gaf Mimoun geld",
+    "mijn vader gaf geld aan Mimoun"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "Volgorde: <span class=\"tar\">qa</span> (aspect) — <span class=\"tar\">yewca</span> (werkwoord) — <span class=\"tar\">baba</span> (onderwerp, familiewoord = geen staat-wisseling) — <span class=\"tar\">ṯṯmenyaṯ</span> (object) — <span class=\"tar\">i Mimun</span> (voorzetselgroep). Klassiek VSO + voorzetselgroep achteraan."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is de functie van <span class=\"tar\">qa</span> in <span class=\"tar\">qa yewca baba ṯṯmenyaṯ i Mimun</span>?",
+   "options": [
+    "het is het werkwoord voor 'geven'",
+    "het is een vraagpartikel",
+    "het markeert dat de actie lopend of al plaatsgevonden is (aspect-partikel)",
+    "het is de ontkenning"
+   ],
+   "correct": 2,
+   "explain": "<span class=\"tar\">qa</span> staat preverbal en geeft aan dat de actie realiteit is — lopend of al gebeurd. Zie Les 09 voor de aspectwerking van <span class=\"tar\">qa</span>."
+  },
+  {
+   "type": "match",
+   "q": "Koppel elke volgorde aan zijn betekenis of functie:",
+   "pairs": [
+    {
+     "left": "V — O (geen onderwerp)",
+     "leftIsTar": false,
+     "right": "pro-drop: ww-vervoeging volstaat"
+    },
+    {
+     "left": "V — S — O (VSO)",
+     "leftIsTar": false,
+     "right": "standaard verbale zin"
+    },
+    {
+     "left": "S, V — O (topic eerst)",
+     "leftIsTar": false,
+     "right": "nadruk op het onderwerp"
+    },
+    {
+     "left": "onderwerp na ww",
+     "leftIsTar": false,
+     "right": "→ verbonden staat verplicht"
+    }
+   ],
+   "explain": "VSO is de basisregel, maar Tarifit is flexibeler dan je denkt: clitica, topicalisatie en vraagconstructies kunnen de volgorde aanpassen."
+  }
+ ],
+ "les-18": [
+  {
+   "type": "mc",
+   "q": "Welke twee voorzetsels nemen <strong>vrije staat</strong> in plaats van verbonden staat?",
+   "options": [
+    "<span class=\"tar\">ḏi</span> 'in' en <span class=\"tar\">x</span> 'op'",
+    "<span class=\"tar\">aṛ</span> 'tot' en <span class=\"tar\">břa</span> 'zonder'",
+    "<span class=\"tar\">n</span> 'van' en <span class=\"tar\">s</span> 'met'",
+    "geen — alle nemen verbonden staat"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">aṛ</span> en <span class=\"tar\">břa</span> zijn de twee uitzonderingen. Alle andere voorzetsels triggeren verbonden staat."
+  },
+  {
+   "type": "mc",
+   "q": "Voorzetsel voor <strong>'in'</strong>:",
+   "options": [
+    "<span class=\"tar\">ḏi</span>",
+    "<span class=\"tar\">x</span>",
+    "<span class=\"tar\">f</span>",
+    "<span class=\"tar\">ɣaa</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ḏi ṯaḏḏarṯ</span> 'in het huis'. Triggert verbonden staat."
+  },
+  {
+   "type": "mc",
+   "q": "Voorzetsel voor <strong>'op'</strong>:",
+   "options": [
+    "<span class=\"tar\">x</span>",
+    "<span class=\"tar\">ḏi</span>",
+    "<span class=\"tar\">f</span>",
+    "<span class=\"tar\">ɣaa</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">x uyis</span> 'op het paard'. Verbonden staat van <span class=\"tar\">ayis</span> is <span class=\"tar\">uyis</span>."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">zi Naḍuār</span>",
+   "correct": "uit Nador",
+   "accept": [
+    "uit Nador",
+    "van Nador",
+    "vanuit Nador"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">zi</span> = 'van, uit'. Geografische namen veranderen niet van staat (Klasse II)."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is het verschil tussen <span class=\"tar\">s</span> en <span class=\"tar\">akeḏ</span>?",
+   "options": [
+    "geen verschil — synoniemen",
+    "<span class=\"tar\">s</span> = met (instrument); <span class=\"tar\">akeḏ</span> = met (gezelschap)",
+    "<span class=\"tar\">s</span> is verleden, <span class=\"tar\">akeḏ</span> toekomst",
+    "<span class=\"tar\">s</span> is formeel, <span class=\"tar\">akeḏ</span> informeel"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">s ṯmazixṯ</span> 'in het Berbers' (middel); <span class=\"tar\">akeḏ uma-s</span> 'met zijn broer' (samen). Net als Nederlands 'met een hamer' vs 'met mijn vriend'."
+  },
+  {
+   "type": "mc",
+   "q": "Tarifit heeft geen werkwoord voor 'hebben'. Hoe druk je 'ik heb een auto' uit?",
+   "options": [
+    "onmogelijk — gebruik het Arabisch",
+    "<span class=\"tar\">necc ḏ ṯṯumubin</span>",
+    "<span class=\"tar\">ɣari ijjen ṯṯumubin</span> (bij-mij één auto)",
+    "<span class=\"tar\">ṯṯumubin-inu</span>"
+   ],
+   "correct": 2,
+   "explain": "<span class=\"tar\">ɣaa</span> + persoon = 'bij X'. <span class=\"tar\">ɣari</span> = <span class=\"tar\">ɣaa</span> + <span class=\"tar\">-i</span> (bij mij). Letterlijk 'bij mij één auto' = 'ik heb een auto'."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe zeg je <strong>'bij hem'</strong> (bezit-constructie)?",
+   "options": [
+    "<span class=\"tar\">ɣaas</span>",
+    "<span class=\"tar\">ɣaac</span>",
+    "<span class=\"tar\">ɣaaɣ</span>",
+    "<span class=\"tar\">ɣaak</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ɣaa</span> + suffix <span class=\"tar\">-s</span> (3SG) = <span class=\"tar\">ɣaas</span>. Voorbeeld: <span class=\"tar\">ɣaas ijj uma-s</span> 'ze heeft een broer'."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">břa ṯamɣārṯ-nnes</span>",
+   "correct": "zonder zijn vrouw",
+   "accept": [
+    "zonder zijn vrouw",
+    "zonder haar man"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">břa</span> neemt vrije staat — vandaar <span class=\"tar\">ṯamɣārṯ</span> (FS). <span class=\"tar\">nnes</span> = 'van hem/haar'."
+  },
+  {
+   "type": "match",
+   "q": "Koppel elk voorzetsel aan zijn betekenis:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">ḏi</span>",
+     "leftIsTar": true,
+     "right": "in"
+    },
+    {
+     "left": "<span class=\"tar\">zi</span>",
+     "leftIsTar": true,
+     "right": "van / uit"
+    },
+    {
+     "left": "<span class=\"tar\">i</span>",
+     "leftIsTar": true,
+     "right": "aan, voor"
+    },
+    {
+     "left": "<span class=\"tar\">am</span>",
+     "leftIsTar": true,
+     "right": "zoals"
+    },
+    {
+     "left": "<span class=\"tar\">ḏ</span>",
+     "leftIsTar": true,
+     "right": "en (verbindt twee NPs)"
+    }
+   ],
+   "explain": "Let op: <span class=\"tar\">ḏ</span> als 'en' werkt alleen tussen naamwoordgroepen."
+  },
+  {
+   "type": "mc",
+   "q": "Wat betekent <span class=\"tar\">ɣaaneɣ ṯaḏḏarṯ</span>?",
+   "options": [
+    "hun huis",
+    "wij hebben een huis",
+    "het huis is weg",
+    "een groot huis"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ɣaaneɣ</span> = <span class=\"tar\">ɣaa</span> + <span class=\"tar\">-neɣ</span> (bij ons). Letterlijk 'bij ons een huis' = 'wij hebben een huis'."
+  }
+ ],
+ "les-20": [
+  {
+   "type": "mc",
+   "q": "Welk cijfer is het <strong>enige</strong> Berberse (niet-Arabische) getal van 1 tot 10?",
+   "options": [
+    "<span class=\"tar\">ṯnayen</span> (2)",
+    "<span class=\"tar\">ijjen</span> (1)",
+    "<span class=\"tar\">xemsa</span> (5)",
+    "<span class=\"tar\">ɛecra</span> (10)"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ijjen</span> / <span class=\"tar\">icṯen</span> is Berbers erfgoed. De rest (2–10) zijn leenwoorden uit het Arabisch — handig als je Arabisch kent."
+  },
+  {
+   "type": "mc",
+   "q": "Waarom heeft 'één' twee vormen (<span class=\"tar\">ijjen</span> en <span class=\"tar\">icṯen</span>)?",
+   "options": [
+    "het zijn dialectvarianten",
+    "<span class=\"tar\">ijjen</span> is mannelijk, <span class=\"tar\">icṯen</span> is vrouwelijk",
+    "het eerste is formeel, het tweede informeel",
+    "ze hebben verschillende getallen"
+   ],
+   "correct": 1,
+   "explain": "Alleen '1' maakt geslachtsonderscheid: <span class=\"tar\">ijjen wāryaz</span> 'een man', <span class=\"tar\">icṯ ṯamɣārṯ</span> 'een vrouw'. Cijfers 2–10 hebben geen geslachtsvormen."
+  },
+  {
+   "type": "mc",
+   "q": "Schrijf het Tarifit-woord voor <strong>3</strong>:",
+   "options": [
+    "<span class=\"tar\">ṯřaṯa</span>",
+    "<span class=\"tar\">sin</span>",
+    "<span class=\"tar\">kkuẓ</span>",
+    "<span class=\"tar\">semmuss</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ṯřaṯa</span> is de Tarifit-uitspraak van het Arabische <em>thalatha</em> (drie). Let op de <span class=\"tar\">ř</span> — in Tarifit is de oude <em>l</em> een <em>ř</em>-klank geworden."
+  },
+  {
+   "type": "mc",
+   "q": "Schrijf het Tarifit-woord voor <strong>7</strong>:",
+   "options": [
+    "<span class=\"tar\">seḇɛa</span>",
+    "<span class=\"tar\">setta</span>",
+    "<span class=\"tar\">ṯmanya</span>",
+    "<span class=\"tar\">tesɛa</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">seḇɛa</span> — uit Arabisch <em>sab'a</em>. De <span class=\"tar\">ɛ</span> is de Arabische <em>'ayn</em>-klank."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe zeg je <strong>drie vrouwen</strong>?",
+   "options": [
+    "<span class=\"tar\">ṯřaṯa n ṯemɣarin</span>",
+    "<span class=\"tar\">ṯřaṯa ṯemɣarin</span>",
+    "<span class=\"tar\">ijjen n ṯemɣarin</span>",
+    "<span class=\"tar\">ṯemɣarin ṯřaṯa</span>"
+   ],
+   "correct": 0,
+   "explain": "Voor 2 en hoger staat altijd <span class=\"tar\">n</span> 'van' tussen het cijfer en het naamwoord: cijfer + <span class=\"tar\">n</span> + naamwoord (mv). Letterlijk 'drie van vrouwen'."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe zeg je <strong>één man</strong>?",
+   "options": [
+    "<span class=\"tar\">ijjen n wāryaz</span>",
+    "<span class=\"tar\">ijjen wāryaz</span>",
+    "<span class=\"tar\">wāryaz ijjen</span>",
+    "<span class=\"tar\">ṯnayen wāryaz</span>"
+   ],
+   "correct": 1,
+   "explain": "Bij 'één' gebruik je <strong>geen</strong> <span class=\"tar\">n</span>. <span class=\"tar\">ijjen wāryaz</span> — direct naast elkaar, het naamwoord in verbonden staat (<span class=\"tar\">wāryaz</span>)."
+  },
+  {
+   "type": "mc",
+   "q": "<span class=\"tar\">ijjen</span> betekent zowel 'één' als …?",
+   "options": [
+    "'geen'",
+    "het onbepaald lidwoord 'een'",
+    "'een paar'",
+    "'veel'"
+   ],
+   "correct": 1,
+   "explain": "Net als Duits <em>ein</em> of Engels <em>one/a</em>: <span class=\"tar\">ijjen ṯaḏḏarṯ</span> kan 'een huis' of 'één huis' betekenen. Context bepaalt of het telwoord of lidwoord is."
+  },
+  {
+   "type": "mc",
+   "q": "Schrijf het Tarifit-woord voor <strong>10</strong>:",
+   "options": [
+    "<span class=\"tar\">ɛecra</span>",
+    "<span class=\"tar\">tesɛa</span>",
+    "<span class=\"tar\">ṯmanya</span>",
+    "<span class=\"tar\">seḇɛa</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ɛecra</span> — uit Arabisch <em>'ashara</em>. De <span class=\"tar\">ɛ</span> is de <em>'ayn</em>-klank."
+  },
+  {
+   "type": "match",
+   "q": "Koppel cijfer en Tarifit-woord:",
+   "pairs": [
+    {
+     "left": "2",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">ṯnayen</span>"
+    },
+    {
+     "left": "4",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">aaḇɛa</span>"
+    },
+    {
+     "left": "6",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">setta</span>"
+    },
+    {
+     "left": "8",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">ṯmenya</span>"
+    },
+    {
+     "left": "9",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">ṯesɛa</span>"
+    }
+   ],
+   "explain": "De 'oneven' nummers 3, 5, 7 ken je al (<span class=\"tar\">ṯřaṯa, xemsa, seḇɛa</span>). Leer 2, 4, 6, 8, 9 als nieuwe set."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">xemsa n yewdan</span>",
+   "correct": "vijf mensen",
+   "accept": [
+    "vijf mensen",
+    "5 mensen"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">xemsa</span> (5) + <span class=\"tar\">n</span> + <span class=\"tar\">yewdan</span> (meervoud van 'persoon'). Standaardpatroon."
+  }
+ ],
+ "les-21": [
+  {
+   "type": "mc",
+   "q": "Vraagwoord voor <strong>'wie'</strong>:",
+   "options": [
+    "<span class=\"tar\">wi</span>",
+    "<span class=\"tar\">may</span>",
+    "<span class=\"tar\">mani</span>",
+    "<span class=\"tar\">wic</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">wi yewṯa uḥenjia-nni?</span> 'Wie sloeg de jongen?' Het vraagwoord staat vooraan — het werkwoord volgt daarna normaal."
+  },
+  {
+   "type": "mc",
+   "q": "Vraagwoord voor <strong>'wanneer'</strong>:",
+   "options": [
+    "<span class=\"tar\">meřmi</span>",
+    "<span class=\"tar\">mani</span>",
+    "<span class=\"tar\">mecḥař</span>",
+    "<span class=\"tar\">may</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">meřmi ṯṯettsed?</span> 'Wanneer slaap je?' Let op de <span class=\"tar\">ř</span> — geen gewone <em>r</em>."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">mayemmi</span>",
+   "correct": "waarom",
+   "accept": [
+    "waarom"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">mayemmi ṯeṯrud?</span> 'Waarom huil je?' <span class=\"tar\">mayemmi</span> = letterlijk zoiets als 'wat de oorzaak van?'."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">mamec</span>",
+   "correct": "hoe",
+   "accept": [
+    "hoe"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">mamec yegga manay-a?</span> 'Hoe heeft hij dat gedaan?' <span class=\"tar\">mamec</span> vraagt naar de manier."
+  },
+  {
+   "type": "mc",
+   "q": "Welk partikel opent een formele <strong>ja/nee-vraag</strong>?",
+   "options": [
+    "<span class=\"tar\">illa</span>",
+    "<span class=\"tar\">ma</span>",
+    "<span class=\"tar\">ad</span>",
+    "<span class=\"tar\">min</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ma ḏ cekk?</span> 'Ben jij het?' — <span class=\"tar\">ma</span> aan het begin maakt er een expliciete vraag van. Je kunt ook alleen de intonatie verhogen, net als in Nederlands."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is het verschil tussen <span class=\"tar\">mani</span> en <span class=\"tar\">manis</span>?",
+   "options": [
+    "geen — synoniemen",
+    "<span class=\"tar\">mani</span> = waar; <span class=\"tar\">manis</span> = waar vandaan",
+    "<span class=\"tar\">mani</span> is formeel, <span class=\"tar\">manis</span> informeel",
+    "<span class=\"tar\">mani</span> vraagt naar personen, <span class=\"tar\">manis</span> naar plaatsen"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">mani ṯṯiřid?</span> 'Waar woon je?' versus <span class=\"tar\">manis ɣa ṯaḏfeḏ?</span> 'Waar ga je in?' (welke kant / van welke richting)."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe vraag je <strong>'hoeveel'</strong>?",
+   "options": [
+    "<span class=\"tar\">mecḥař</span>",
+    "<span class=\"tar\">meřmi</span>",
+    "<span class=\"tar\">mani</span>",
+    "<span class=\"tar\">may</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">mecḥař iwezzen?</span> 'Hoeveel weegt het?' Comes from Arabisch <em>shḥal</em>."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">zi meřmi?</span>",
+   "correct": "sinds wanneer?",
+   "accept": [
+    "sinds wanneer?",
+    "since when?",
+    "vanaf wanneer?"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "Voorzetsel <span class=\"tar\">zi</span> 'van/uit' + vraagwoord <span class=\"tar\">meřmi</span> 'wanneer' = 'vanaf wanneer / sinds wanneer'. Voorzetsels combineren vrijuit met vraagwoorden."
+  },
+  {
+   "type": "match",
+   "q": "Koppel vraagwoord aan betekenis:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">wi</span>",
+     "leftIsTar": true,
+     "right": "wie"
+    },
+    {
+     "left": "<span class=\"tar\">min</span>",
+     "leftIsTar": true,
+     "right": "wat"
+    },
+    {
+     "left": "<span class=\"tar\">mani</span>",
+     "leftIsTar": true,
+     "right": "waar"
+    },
+    {
+     "left": "<span class=\"tar\">mecḥař</span>",
+     "leftIsTar": true,
+     "right": "hoeveel"
+    },
+    {
+     "left": "<span class=\"tar\">mamec</span>",
+     "leftIsTar": true,
+     "right": "hoe"
+    }
+   ],
+   "explain": "Acht vraagwoorden totaal in de les. De vijf hier zijn de meest frequente. <span class=\"tar\">meřmi</span> (wanneer) en <span class=\"tar\">mayemmi</span> (waarom) zijn extra."
+  }
+ ],
+ "les-22": [
+  {
+   "type": "mc",
+   "q": "Hoe omhul je een werkwoord om 'niet' te zeggen?",
+   "options": [
+    "<span class=\"tar\">waa</span> … <span class=\"tar\">ca</span> rondom het werkwoord",
+    "alleen <span class=\"tar\">waa</span> voor het werkwoord",
+    "alleen <span class=\"tar\">ca</span> na het werkwoord",
+    "<span class=\"tar\">ad</span> … <span class=\"tar\">ca</span>"
+   ],
+   "correct": 0,
+   "explain": "Net als Frans <em>ne... pas</em>: <span class=\"tar\">waa</span> staat ervóór, <span class=\"tar\">ca</span> staat erna. Beide zijn nodig in de standaardontkenning."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">waa yus-d ca</span>",
+   "correct": "hij is niet gekomen",
+   "accept": [
+    "hij is niet gekomen",
+    "hij kwam niet"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">yus-d</span> 'hij is gekomen' → <span class=\"tar\">waa yus-d ca</span> 'hij is niet gekomen'. Let op: de werkwoordvorm zelf kan ook veranderen bij ontkenning (zie Negatief Perfectief)."
+  },
+  {
+   "type": "mc",
+   "q": "Bij ontkenning van de Perfectief verandert de werkwoordvorm. Wat verandert er?",
+   "options": [
+    "helemaal niets — ontkenning is altijd hetzelfde",
+    "de <span class=\"tar\">a</span> in de stam wordt <span class=\"tar\">i</span> (Negatief Perfectief)",
+    "het werkwoord verdwijnt",
+    "de <span class=\"tar\">i</span> wordt <span class=\"tar\">a</span>"
+   ],
+   "correct": 1,
+   "explain": "Voorbeeld: <span class=\"tar\">wda</span> (vallen, Pf.) → <span class=\"tar\">wdi</span> (NP): <span class=\"tar\">waa wdi ca</span> 'hij is niet gevallen'. Hetzelfde: <span class=\"tar\">řmeḏ</span> → <span class=\"tar\">řmiḏ</span>, <span class=\"tar\">udef</span> → <span class=\"tar\">udif</span>."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe zeg je <strong>'niet eten!'</strong> (verbod)?",
+   "options": [
+    "<span class=\"tar\">waa cciɣ ca</span>",
+    "<span class=\"tar\">waa tett</span>",
+    "<span class=\"tar\">ca tett</span>",
+    "<span class=\"tar\">waa ad cciɣ</span>"
+   ],
+   "correct": 1,
+   "explain": "Verbod: <span class=\"tar\">waa</span> + Imperfectief (geen <span class=\"tar\">ca</span>). <span class=\"tar\">tett</span> is de Imperfectief van 'eten'. Vergelijk: <span class=\"tar\">waa ṯeggweḏ ca</span> 'wees niet bang' — ook Imperfectief, maar hier met optioneel <span class=\"tar\">ca</span>."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe ontkent je 'ik heb gegeten' (<span class=\"tar\">cciɣ</span>)?",
+   "options": [
+    "<span class=\"tar\">waa cciɣ ca</span>",
+    "<span class=\"tar\">ur cciɣ ca</span>",
+    "<span class=\"tar\">waa cciɣ ara</span>",
+    "<span class=\"tar\">ur cciɣ ara</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">waa</span> + <span class=\"tar\">cciɣ</span> + <span class=\"tar\">ca</span>. De stam <span class=\"tar\">cc</span> verandert niet hier (geen <em>a</em> om naar <em>i</em> te veranderen)."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">waa ṯ-yezri ḥedd</span>",
+   "correct": "niemand zag hem",
+   "accept": [
+    "niemand zag hem",
+    "niemand heeft hem gezien"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">waa</span> … <span class=\"tar\">ḥedd</span> = 'niemand'. Letterlijk 'niet zag hem niemand'. De ontkenner <span class=\"tar\">ḥedd</span> vervangt het onderwerp."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe zeg je <strong>'nooit'</strong>?",
+   "options": [
+    "<span class=\"tar\">walu</span>",
+    "<span class=\"tar\">ḥedd</span>",
+    "<span class=\"tar\">ɛemmaas</span>",
+    "<span class=\"tar\">ura ḏ</span>"
+   ],
+   "correct": 2,
+   "explain": "<span class=\"tar\">ɛemmaas waa d-yusi</span> 'hij is nooit gekomen'. <span class=\"tar\">walu</span> = 'niets', <span class=\"tar\">ḥedd</span> = 'niemand', <span class=\"tar\">ura ḏ</span> = 'zelfs niet'."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">cem waaǧi bu ḏ yemma</span>",
+   "correct": "jij bent niet mijn moeder",
+   "accept": [
+    "jij bent niet mijn moeder",
+    "jij bent niet m'n moeder"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">waaǧi</span> ontkent een naamwoordelijk predikaat ('X is niet Y'). Verschilt van <span class=\"tar\">waa</span> + werkwoord: dat ontkent werkwoordzinnen."
+  },
+  {
+   "type": "match",
+   "q": "Koppel ontkenner aan betekenis:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">waa … ca</span>",
+     "leftIsTar": true,
+     "right": "standaard werkwoordontkenning"
+    },
+    {
+     "left": "<span class=\"tar\">waa … ḥedd</span>",
+     "leftIsTar": true,
+     "right": "niemand"
+    },
+    {
+     "left": "<span class=\"tar\">waa … walu</span>",
+     "leftIsTar": true,
+     "right": "niets"
+    },
+    {
+     "left": "<span class=\"tar\">ɛemmaas waa</span>",
+     "leftIsTar": true,
+     "right": "nooit"
+    },
+    {
+     "left": "<span class=\"tar\">waaǧi</span>",
+     "leftIsTar": true,
+     "right": "is niet (naamwoordelijk predikaat)"
+    }
+   ],
+   "explain": "Vijf ontkenningspatronen. Onthoud: <span class=\"tar\">waa … ca</span> is de basisversie. De rest zijn specialisaties voor specifieke negatiebetekenissen."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe ontkent je 'hij zal eten' (<span class=\"tar\">ad yecc</span>)?",
+   "options": [
+    "<span class=\"tar\">waa ad yecc ca</span>",
+    "<span class=\"tar\">waa yetett ca</span> — Negatief Imperfectief zonder <span class=\"tar\">ad</span>",
+    "<span class=\"tar\">ad waa yecc</span>",
+    "kan niet — toekomst heeft geen ontkenning"
+   ],
+   "correct": 1,
+   "explain": "Bij ontkenning van <span class=\"tar\">ad</span> + Aorist gebruik je de Negatief Imperfectief zonder <span class=\"tar\">ad</span>. Dus <em>niet</em> <span class=\"tar\">waa ad yecc</span> — dat is onjuist."
+  }
+ ],
+ "les-23": [
+  {
+   "type": "mc",
+   "q": "In het Nederlands staat na 'ik wil' een infinitief: 'ik wil <strong>gaan</strong>'. Wat gebruikt Tarifit?",
+   "options": [
+    "ook een infinitief",
+    "twee volledig vervoegde werkwoorden naast elkaar",
+    "alleen de Perfectief van het tweede werkwoord",
+    "een naamwoord"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">xseɣ ad meřceɣ</span> = letterlijk 'ik-wil ik-zal-trouwen'. Beide werkwoorden zijn vervoegd voor dezelfde persoon. Tarifit heeft geen infinitief — dit is de standaardvervanging."
+  },
+  {
+   "type": "mc",
+   "q": "Wat volgt op <span class=\"tar\">xes</span> 'willen'?",
+   "options": [
+    "Imperfectief alleen",
+    "<span class=\"tar\">ad</span> + Aorist",
+    "Perfectief",
+    "geen vaste regel"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">xseɣ ad ariɣ</span> 'ik wil schrijven'. Het partikel <span class=\"tar\">ad</span> markeert de niet-gerealiseerde actie — dezelfde functie als in toekomstconstructies (Les 10). Hetzelfde geldt voor <span class=\"tar\">zemmaa</span> 'kunnen'."
+  },
+  {
+   "type": "mc",
+   "q": "Wat volgt op <span class=\"tar\">bda</span> 'beginnen'?",
+   "options": [
+    "<span class=\"tar\">ad</span> + Aorist",
+    "Imperfectief",
+    "Perfectief",
+    "alleen een naamwoord"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">yebda yeṯxemmem</span> 'hij begon na te denken' — <span class=\"tar\">yeṯxemmem</span> is de Imperfectief van 'denken'. Hetzelfde bij <span class=\"tar\">qqim</span> 'doorgaan met': altijd Imperfectief."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">xseɣ ad ariɣ</span>",
+   "correct": "ik wil schrijven",
+   "accept": [
+    "ik wil schrijven"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">xseɣ</span> = 1SG van <span class=\"tar\">xes</span> 'willen'. <span class=\"tar\">ad ariɣ</span> = 1SG Aorist van <span class=\"tar\">ari</span> 'schrijven' met toekomst-partikel."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">waa zemmaay ad sbaay</span>",
+   "correct": "ik kan niet meer wachten",
+   "accept": [
+    "ik kan niet meer wachten",
+    "ik kan niet wachten"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">zemmaa</span> 'kunnen', ontkend: <span class=\"tar\">waa zemmaay ca</span>. <span class=\"tar\">sba</span> = wachten. <span class=\"tar\">ad sbaay</span> = 'ik zal wachten'. Samen: 'ik kan het wachten niet'."
+  },
+  {
+   "type": "mc",
+   "q": "Hulpwerkwoord voor <strong>'kunnen'</strong>:",
+   "options": [
+    "<span class=\"tar\">zemmaa</span>",
+    "<span class=\"tar\">yewwi</span>",
+    "<span class=\"tar\">smeyyer</span>",
+    "<span class=\"tar\">iwweḏ</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">zemmaa</span> + <span class=\"tar\">ad</span> + Aorist. Net als <span class=\"tar\">xes</span>: beide nemen <span class=\"tar\">ad</span> + Aorist als complement."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe druk je 'hij werd dokter' uit?",
+   "options": [
+    "<span class=\"tar\">ḏ adbib yeqqim</span>",
+    "<span class=\"tar\">qa yedweř ḏ adbib</span>",
+    "<span class=\"tar\">yexḏem ḏ adbib</span>",
+    "<span class=\"tar\">ad yegg ḏ adbib</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">dweř</span> = 'worden' (verandering van toestand). <span class=\"tar\">ḏ</span> + naamwoord drukken de nieuwe toestand uit. <span class=\"tar\">qa yedweř ḏ adbib</span> = 'hij is dokter geworden'."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe zeg je 'hij weet <strong>dat</strong> ik zal schrijven'?",
+   "options": [
+    "<span class=\"tar\">yessen ḏ ariɣ</span>",
+    "<span class=\"tar\">yessen illa ad ariɣ</span>",
+    "<span class=\"tar\">yessen niɣ ad ariɣ</span>",
+    "<span class=\"tar\">yessen břa ad ariɣ</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">illa</span> introduceert een 'dat'-bijzin na werkwoorden als 'weten', 'zeggen', 'zien'. Bij ontkenning: <span class=\"tar\">ma</span> in plaats van <span class=\"tar\">illa</span>."
+  },
+  {
+   "type": "match",
+   "q": "Koppel hulpwerkwoord aan zijn complement:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">xes</span> (willen)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">ad</span> + Aorist"
+    },
+    {
+     "left": "<span class=\"tar\">zemmaa</span> (kunnen)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">ad</span> + Aorist"
+    },
+    {
+     "left": "<span class=\"tar\">bda</span> (beginnen)",
+     "leftIsTar": true,
+     "right": "Imperfectief"
+    },
+    {
+     "left": "<span class=\"tar\">qqim</span> (doorgaan)",
+     "leftIsTar": true,
+     "right": "Imperfectief"
+    },
+    {
+     "left": "<span class=\"tar\">dweř</span> (worden)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">ḏ</span> + naamwoord"
+    }
+   ],
+   "explain": "Twee groepen: 'willen / kunnen' neemt <span class=\"tar\">ad</span> + Aorist; 'beginnen / doorgaan' neemt Imperfectief. <span class=\"tar\">dweř</span> is de uitzondering."
+  }
+ ],
+ "les-24": [
+  {
+   "type": "mc",
+   "q": "Welk suffix is lijdend voorwerp <strong>'hem / haar / het'</strong> achter het werkwoord?",
+   "options": [
+    "<span class=\"tar\">-ayi</span>",
+    "<span class=\"tar\">-ṯ</span>",
+    "<span class=\"tar\">-c</span>",
+    "<span class=\"tar\">-asen</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">-ṯ</span> = 3SG DO (hem / haar / het). <span class=\"tar\">yecc-iṯ</span> 'hij heeft het opgegeten'. De <em>i</em> voor het suffix is een verbindingsklinker die na een klinker-eindigend werkwoord verschijnt."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is het verschil tussen DO-suffix <span class=\"tar\">-ṯ</span> en IO-suffix <span class=\"tar\">-as</span>?",
+   "options": [
+    "geen verschil",
+    "<span class=\"tar\">-ṯ</span> = lijdend voorwerp (hem/haar); <span class=\"tar\">-as</span> = meewerkend voorwerp (aan hem/haar)",
+    "<span class=\"tar\">-ṯ</span> is mannelijk, <span class=\"tar\">-as</span> vrouwelijk",
+    "<span class=\"tar\">-ṯ</span> is verleden, <span class=\"tar\">-as</span> heden"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">yecc-iṯ</span> 'hij at het op' (DO). <span class=\"tar\">yenna-as</span> 'hij zei tegen hem/haar' (IO). Twee aparte suffix-sets — vergelijkbaar met Nederlands 'hem' (acc.) vs 'aan hem' (dat.)."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">yessufɣ-iṯ</span>",
+   "correct": "hij heeft hem naar buiten gelaten",
+   "accept": [
+    "hij heeft hem naar buiten gelaten",
+    "hij liet hem naar buiten"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">ssufeɣ</span> 'naar buiten laten' (causatief van <span class=\"tar\">ffeɣ</span>) + <span class=\"tar\">-iṯ</span> (DO hem/haar). De <span class=\"tar\">i</span> is een verbindingsklinker tussen klinker-stam en clitic."
+  },
+  {
+   "type": "mc",
+   "q": "IO-suffix voor <strong>'aan mij'</strong>:",
+   "options": [
+    "<span class=\"tar\">-ayi</span>",
+    "<span class=\"tar\">-as</span>",
+    "<span class=\"tar\">-aɣ</span>",
+    "<span class=\"tar\">-aten</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ṯenna-ayi</span> 'ze zei tegen mij'. DO-suffix 'mij' is ook <span class=\"tar\">-ayi</span> — beide vallen samen voor 1SG. Betekenis hangt af van het werkwoord."
+  },
+  {
+   "type": "mc",
+   "q": "IO-suffix voor <strong>'aan hem / haar'</strong>:",
+   "options": [
+    "<span class=\"tar\">-as</span>",
+    "<span class=\"tar\">-ayi</span>",
+    "<span class=\"tar\">-aɣ</span>",
+    "<span class=\"tar\">-aten</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">wciɣ-as pabu</span> 'ik gaf hem een kalkoen'. <span class=\"tar\">-as</span> is het IO van 3SG — geslacht niet uitgedrukt."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">yenna-am</span>",
+   "correct": "hij zei tegen jou",
+   "accept": [
+    "hij zei tegen jou",
+    "hij zei het aan jou"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">-am</span> = IO 2SG:V (aan jou, vrouw). Tegen man zou het <span class=\"tar\">yenna-ac</span> worden."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is de vaste volgorde als je zowel IO als DO aan het werkwoord plakt?",
+   "options": [
+    "DO — IO — <span class=\"tar\">ḏ</span>",
+    "IO — DO — <span class=\"tar\">ḏ</span> (hierheen)",
+    "<span class=\"tar\">ḏ</span> — IO — DO",
+    "geen vaste volgorde"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">yiwy-ac-ṯ-id</span> 'hij heeft het hierheen gebracht voor jou': <span class=\"tar\">-ac</span> (IO aan jou) — <span class=\"tar\">-ṯ</span> (DO het) — <span class=\"tar\">-iḏ</span> (hierheen). Altijd in die volgorde."
+  },
+  {
+   "type": "mc",
+   "q": "Wat doet het suffix <span class=\"tar\">-d</span> (hierheen) aan een werkwoord?",
+   "options": [
+    "het maakt het werkwoord verleden tijd",
+    "het geeft aan dat de actie richting de spreker gaat",
+    "het ontkent het werkwoord",
+    "het maakt er een vraag van"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">yedweř ɣaa Naḍuār</span> (spreker <em>niet</em> in Nador) vs <span class=\"tar\">yedweř-d ɣaa Naḍuār</span> (spreker <em>is</em> in Nador). Het perspectief van de spreker zit ingebakken in het werkwoord."
+  },
+  {
+   "type": "match",
+   "q": "Koppel DO-suffix aan persoon:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">-ayi</span>",
+     "leftIsTar": true,
+     "right": "mij"
+    },
+    {
+     "left": "<span class=\"tar\">-c</span>",
+     "leftIsTar": true,
+     "right": "jou (M)"
+    },
+    {
+     "left": "<span class=\"tar\">-ṯ</span>",
+     "leftIsTar": true,
+     "right": "hem / haar / het"
+    },
+    {
+     "left": "<span class=\"tar\">-aneɣ</span>",
+     "leftIsTar": true,
+     "right": "ons"
+    },
+    {
+     "left": "<span class=\"tar\">-ṯen</span>",
+     "leftIsTar": true,
+     "right": "hen (M)"
+    }
+   ],
+   "explain": "DO-suffixen zijn compacter dan de vrije voornaamwoorden. Leer ze als set: <span class=\"tar\">-ayi / -c / -cem / -ṯ / -aneɣ / …</span>"
+  }
+ ],
+ "les-26": [
+  {
+   "type": "mc",
+   "q": "Hoe verbind je twee <strong>naamwoorden</strong> met 'en'?",
+   "options": [
+    "geen apart woord — gewoon naast elkaar",
+    "<span class=\"tar\">ḏ</span> tussen de twee naamwoorden",
+    "<span class=\"tar\">niɣ</span>",
+    "<span class=\"tar\">maca</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">necc ḏ uma</span> 'ik en mijn broer'. <span class=\"tar\">ḏ</span> werkt alleen tussen naamwoordgroepen. Twee werkwoordzinnen verbind je door ze gewoon naast elkaar te zetten (juxtapositie)."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe verbind je twee <strong>werkwoordzinnen</strong> met 'en'?",
+   "options": [
+    "<span class=\"tar\">ḏ</span> ertussen",
+    "<span class=\"tar\">niɣ</span> ertussen",
+    "juxtapositie — geen apart woord",
+    "<span class=\"tar\">maca</span> ertussen"
+   ],
+   "correct": 2,
+   "explain": "Tarifit zet zinnen eenvoudig naast elkaar: 'hij deed dit, hij deed dat'. Het onderscheid met <span class=\"tar\">ḏ</span> is subtiel maar grammaticaal correct — <span class=\"tar\">ḏ</span> hoort echt alleen bij naamwoorden."
+  },
+  {
+   "type": "mc",
+   "q": "Voegwoord voor <strong>'of'</strong>:",
+   "options": [
+    "<span class=\"tar\">niɣ</span>",
+    "<span class=\"tar\">maca</span>",
+    "<span class=\"tar\">řami</span>",
+    "<span class=\"tar\">ḏ</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ma ḏ azeggwaɣ niɣ ḏ acemřař?</span> 'Is het rood of wit?' <span class=\"tar\">niɣ</span> werkt zowel tussen NPs als tussen zinnen."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is het nuanceverschil tussen <span class=\"tar\">maca</span> en <span class=\"tar\">seɛɛa</span>?",
+   "options": [
+    "geen verschil — synoniemen",
+    "<span class=\"tar\">maca</span> = gewone 'maar'; <span class=\"tar\">seɛɛa</span> = 'maar in werkelijkheid / eigenlijk'",
+    "<span class=\"tar\">maca</span> is formeel, <span class=\"tar\">seɛɛa</span> informeel",
+    "<span class=\"tar\">maca</span> is oud, <span class=\"tar\">seɛɛa</span> modern"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">seɛɛa</span> drukt een correctie of contrast uit: 'ik dacht X, maar in werkelijkheid is het Y'. <span class=\"tar\">maca</span> is de neutrale tegenstelling."
+  },
+  {
+   "type": "mc",
+   "q": "Welk 'als' gebruik je voor een open hypothese ('als je wilt...')?",
+   "options": [
+    "<span class=\"tar\">mři</span>",
+    "<span class=\"tar\">mařa</span>",
+    "<span class=\"tar\">niɣ</span>",
+    "<span class=\"tar\">waxxa</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">mařa ṯexseḏ a ḏam-ṯ-newc</span> 'als je wilt, geven we hem aan jou' — een open voorwaarde die kan uitkomen. <span class=\"tar\">mři</span> / <span class=\"tar\">meɛlik</span> zijn counterfactueel: de situatie is <em>niet</em> het geval."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">mři ḏ-usiɣ ifi cciɣ</span>",
+   "correct": "als ik gekomen was, zou ik gegeten hebben",
+   "accept": [
+    "als ik gekomen was zou ik gegeten hebben",
+    "als ik was gekomen had ik gegeten"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "Counterfactueel: ik ben <em>niet</em> gekomen, dus ik heb ook niet gegeten. <span class=\"tar\">mři</span> triggert clitic-fronting in de bijzin (zie ook Les 10 uitleg)."
+  },
+  {
+   "type": "mc",
+   "q": "Wanneer gebruik je <span class=\"tar\">umi</span> en wanneer <span class=\"tar\">xmi</span>?",
+   "options": [
+    "geen verschil",
+    "<span class=\"tar\">umi</span> = wanneer (verleden); <span class=\"tar\">xmi</span> = wanneer (heden / toekomst)",
+    "<span class=\"tar\">umi</span> is formeel, <span class=\"tar\">xmi</span> informeel",
+    "<span class=\"tar\">umi</span> is verleden, <span class=\"tar\">xmi</span> is vraagwoord"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">umi ḏ-yusa</span> 'toen hij hier kwam' (verleden). <span class=\"tar\">xmi ɣa ṯaḏfeḏ</span> 'wanneer je binnenkomt' (toekomstig / heden). Vergelijkbaar met het verschil tussen Engels <em>when</em> (past) en <em>when</em> (future) in bijzinnen."
+  },
+  {
+   "type": "mc",
+   "q": "Voegwoord voor <strong>'omdat'</strong>:",
+   "options": [
+    "<span class=\"tar\">puřki</span>",
+    "<span class=\"tar\">řami</span>",
+    "<span class=\"tar\">niɣ</span>",
+    "<span class=\"tar\">maca</span>"
+   ],
+   "correct": 0,
+   "explain": "Zowel <span class=\"tar\">puřki</span> als <span class=\"tar\">lianna</span> zijn gangbaar. <span class=\"tar\">lianna</span> is meer Arabisch-georiënteerd. <span class=\"tar\">puřki</span> voelt meer Tarifit-eigen aan."
+  },
+  {
+   "type": "match",
+   "q": "Koppel voegwoord aan functie:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">ḏ</span>",
+     "leftIsTar": true,
+     "right": "'en' tussen naamwoorden"
+    },
+    {
+     "left": "<span class=\"tar\">niɣ</span>",
+     "leftIsTar": true,
+     "right": "'of'"
+    },
+    {
+     "left": "<span class=\"tar\">maca</span>",
+     "leftIsTar": true,
+     "right": "'maar'"
+    },
+    {
+     "left": "<span class=\"tar\">mařa</span>",
+     "leftIsTar": true,
+     "right": "'als' (hypothese)"
+    },
+    {
+     "left": "<span class=\"tar\">qbeř</span>",
+     "leftIsTar": true,
+     "right": "'voordat'"
+    }
+   ],
+   "explain": "Vijf basisvoegwoorden. Combineer ze met tijds-aanwijzers (<span class=\"tar\">umi, xmi, awaṛn umi</span>) om complexe zinnen te bouwen."
+  }
+ ],
+ "les-27": [
+  {
+   "type": "mc",
+   "q": "Wat doet <span class=\"tar\">tuɣa</span> in een zin?",
+   "options": [
+    "het markeert toekomst",
+    "het zet de situatie in het verleden — 'was / was bezig'",
+    "het ontkent",
+    "het stelt een vraag"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">tuɣa-c ḏ ameddukeř inu</span> 'jij was mijn vriend'. <span class=\"tar\">tuɣa</span> is geen werkwoord maar een partikel dat de situatie vóór nu plaatst. Negatief: <span class=\"tar\">tuyi</span>."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">tuɣa-ayi ḏi ṯaḏḏarṯ</span>",
+   "correct": "ik was thuis",
+   "accept": [
+    "ik was thuis",
+    "ik was in huis"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">tuɣa</span> + suffix <span class=\"tar\">-ayi</span> (mij) = 'ik was'. <span class=\"tar\">ḏi ṯaḏḏarṯ</span> = 'in het huis'. Samen: 'ik was thuis'."
+  },
+  {
+   "type": "mc",
+   "q": "Tijdsbijwoord voor <strong>'morgen'</strong>:",
+   "options": [
+    "<span class=\"tar\">ṯiwecca</span>",
+    "<span class=\"tar\">iḏelli</span>",
+    "<span class=\"tar\">řebda</span>",
+    "<span class=\"tar\">daɣen</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ṯiwecca</span> — onthoud de beginletter <span class=\"tar\">ṯ</span> (vrouwelijk prefix). Komt regelmatig voor in verhalen die 'de volgende ochtend' beschrijven."
+  },
+  {
+   "type": "mc",
+   "q": "Tijdsbijwoord voor <strong>'altijd'</strong>:",
+   "options": [
+    "<span class=\"tar\">řebda</span>",
+    "<span class=\"tar\">ṯiwecca</span>",
+    "<span class=\"tar\">daɣen</span>",
+    "<span class=\"tar\">iḏelli</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">řebda</span> = altijd, steeds. Let op de <span class=\"tar\">ř</span> (geen gewone <em>r</em> — zie Les 25)."
+  },
+  {
+   "type": "mc",
+   "q": "Waarom heeft 'twee jaar' een aparte vorm (<span class=\"tar\">ɛamayen</span>) i.p.v. '2 + n + jaar'?",
+   "options": [
+    "dat is de Arabische dualise — een speciale tweetal-uitgang",
+    "het is een uitzondering zonder reden",
+    "alleen in de schrijftaal zo",
+    "het is hetzelfde als drie jaar"
+   ],
+   "correct": 0,
+   "explain": "Arabisch heeft een dualis-uitgang <span class=\"tar\">-ayen</span> voor twee eenheden. Tarifit heeft die overgenomen voor dag, maand en jaar: <span class=\"tar\">yumayen</span> (twee dagen), <span class=\"tar\">cehrayen</span> (twee maanden), <span class=\"tar\">ɛamayen</span> (twee jaar)."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe zeg je <strong>'drie jaar'</strong>?",
+   "options": [
+    "<span class=\"tar\">ṯřaṯa n ɛam</span>",
+    "<span class=\"tar\">ṯeřṯ snin</span>",
+    "<span class=\"tar\">ɛamayen</span>",
+    "<span class=\"tar\">ṯřaṯa ɛamayen</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ṯeřṯ snin</span> — hier wordt het Arabische meervoud <span class=\"tar\">snin</span> gebruikt (jaren). Voor 3+ gebruik je de normale telstructuur maar met <span class=\"tar\">snin</span>, niet <span class=\"tar\">ɛam</span>."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">zzman tuɣa ṯnayen n duru tsekkʷa</span>",
+   "correct": "vroeger was twee duro veel waard",
+   "accept": [
+    "vroeger was twee duro veel waard",
+    "in de oude tijd was twee duro veel waard"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">zzman</span> = 'vroeger, in de oude tijd'. <span class=\"tar\">tuɣa</span> = 'was'. <span class=\"tar\">ṯnayen n duro</span> = 'twee duro'. <span class=\"tar\">tsekkʷa</span> = 'heeft waarde'. Klassiek gebruik van <span class=\"tar\">zzman + tuɣa</span> samen."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe zeg je <strong>'overdag'</strong>?",
+   "options": [
+    "<span class=\"tar\">s nnhaa</span>",
+    "<span class=\"tar\">s řiřeḥ</span>",
+    "<span class=\"tar\">x wass</span>",
+    "<span class=\"tar\">ɣer wass</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">s</span> = met / in (instrument-voorzetsel). <span class=\"tar\">nnhaa</span> = dag. Letterlijk 'met de dag'. Hetzelfde patroon: <span class=\"tar\">s ǧiřeṯ</span> = ''s nachts'."
+  },
+  {
+   "type": "match",
+   "q": "Koppel tijdsbijwoord aan betekenis:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">řexxu</span>",
+     "leftIsTar": true,
+     "right": "nu"
+    },
+    {
+     "left": "<span class=\"tar\">řexḏenni</span>",
+     "leftIsTar": true,
+     "right": "toen, in die tijd"
+    },
+    {
+     "left": "<span class=\"tar\">zzman</span>",
+     "leftIsTar": true,
+     "right": "vroeger, in de oude tijd"
+    },
+    {
+     "left": "<span class=\"tar\">ṯiwecca</span>",
+     "leftIsTar": true,
+     "right": "morgen"
+    },
+    {
+     "left": "<span class=\"tar\">řebda</span>",
+     "leftIsTar": true,
+     "right": "altijd"
+    }
+   ],
+   "explain": "Vijf kern-tijdsbijwoorden. Combineer ze met <span class=\"tar\">tuɣa</span> (was) of de werkwoord-aspectvormen om tijdscontexten te situeren."
+  }
+ ],
+ "les-28": [
+  {
+   "type": "mc",
+   "q": "Bijvoeglijke naamwoorden in Tarifit gedragen zich grammaticaal als…",
+   "options": [
+    "werkwoorden — geen geslacht of getal",
+    "naamwoorden — ze verbuigen voor geslacht en getal",
+    "voorzetsels — ze zijn onveranderlijk",
+    "voornaamwoorden"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ameqqṛan</span> (groot, M:SG) → <span class=\"tar\">ṯameqqṛanṯ</span> (V:SG) → <span class=\"tar\">imeqqṛanen</span> (M:PL). Net als naamwoorden: <span class=\"tar\">a-/ṯa-</span>-prefix, <span class=\"tar\">-ṯ</span>-suffix voor V, <span class=\"tar\">i-…-en</span> voor M:PL."
+  },
+  {
+   "type": "mc",
+   "q": "Geef de <strong>vrouwelijk enkelvoud</strong>-vorm van <span class=\"tar\">amezzyan</span> 'klein':",
+   "options": [
+    "<span class=\"tar\">ṯamezzyanṯ</span>",
+    "<span class=\"tar\">imezzyanen</span>",
+    "<span class=\"tar\">amezzyan</span>",
+    "<span class=\"tar\">ṯimezzyaniṯ</span>"
+   ],
+   "correct": 0,
+   "explain": "Standaardpatroon: <span class=\"tar\">ṯa-</span> + stam + <span class=\"tar\">-ṯ</span>. Hetzelfde als bij naamwoorden in les 11."
+  },
+  {
+   "type": "mc",
+   "q": "Geef de <strong>mannelijk meervoud</strong>-vorm van <span class=\"tar\">azeggʷaɣ</span> 'rood':",
+   "options": [
+    "<span class=\"tar\">izeggʷaɣen</span>",
+    "<span class=\"tar\">ṯazeggʷaɣṯ</span>",
+    "<span class=\"tar\">azeggʷaɣ</span>",
+    "<span class=\"tar\">ṯizeggʷaɣin</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">a-</span> → <span class=\"tar\">i-</span>, suffix <span class=\"tar\">-en</span>. Standaard meervoud-patroon."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe zeg je <strong>'het grote land'</strong> (bepaald)?",
+   "options": [
+    "<span class=\"tar\">ṯammuaṯ ḏ ṯameqqṛanṯ</span>",
+    "<span class=\"tar\">ṯammuaṯ ṯameqqṛanṯ</span>",
+    "<span class=\"tar\">ameqqṛan ṯammuaṯ</span>",
+    "<span class=\"tar\">ṯammuaṯ n ameqqṛan</span>"
+   ],
+   "correct": 1,
+   "explain": "Bepaalde naamwoordgroep: naamwoord + bijvoeglijk naamwoord direct naast elkaar, zonder <span class=\"tar\">ḏ</span>. <span class=\"tar\">ḏ</span> gebruik je alleen bij onbepaald: <span class=\"tar\">ijjen weyyur ḏ ameqqṛan</span> 'een grote ezel'."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe zeg je <strong>'een groot huis'</strong> (onbepaald)?",
+   "options": [
+    "<span class=\"tar\">ṯaḏḏarṯ ṯameqqṛanṯ</span>",
+    "<span class=\"tar\">ijjen ṯaḏḏarṯ ḏ ṯameqqṛanṯ</span>",
+    "<span class=\"tar\">ṯameqqṛanṯ n ṯaḏḏarṯ</span>",
+    "<span class=\"tar\">ṯaḏḏarṯ n ṯameqqṛanṯ</span>"
+   ],
+   "correct": 1,
+   "explain": "Onbepaald: <span class=\"tar\">ijjen</span> (één) + naamwoord + <span class=\"tar\">ḏ</span> + bijv. nw. De <span class=\"tar\">ḏ</span> fungeert hier als een koppel-element. Vergelijk: bepaald = naast elkaar, onbepaald = met <span class=\"tar\">ḏ</span>."
+  },
+  {
+   "type": "mc",
+   "q": "Je schrijft <span class=\"tar\">n wāryaz ameqqṛan</span> 'van de grote man'. In welke staat staat <span class=\"tar\">ameqqṛan</span>?",
+   "options": [
+    "verbonden staat — want het staat na <span class=\"tar\">n</span>",
+    "vrije staat — bijvoeglijke naamwoorden blijven altijd vrij",
+    "meervoudsvorm",
+    "geen staat"
+   ],
+   "correct": 1,
+   "explain": "Bijvoeglijke naamwoorden staan <strong>altijd in vrije staat</strong>, ongeacht de staat van het naamwoord ervoor. <span class=\"tar\">wāryaz</span> is AS (na <span class=\"tar\">n</span>), maar <span class=\"tar\">ameqqṛan</span> blijft FS."
+  },
+  {
+   "type": "mc",
+   "q": "Welke twee bijvoeglijke naamwoorden verbuigen <strong>niet</strong> voor geslacht of getal?",
+   "options": [
+    "<span class=\"tar\">ameqqṛan</span> en <span class=\"tar\">amezzyan</span>",
+    "<span class=\"tar\">jjdid</span> en <span class=\"tar\">nneɣni</span>",
+    "<span class=\"tar\">acemřař</span> en <span class=\"tar\">aberkan</span>",
+    "alle bijvoeglijke naamwoorden zijn onveranderlijk"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">jjdid</span> 'nieuw' en <span class=\"tar\">nneɣni</span> 'ander' zijn onveranderlijk — ze zijn geleend uit het Arabisch en hebben nooit het Berber-verbogeningspatroon overgenomen."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">qutci-nni yeyran</span>",
+   "correct": "de dure auto",
+   "accept": [
+    "de dure auto",
+    "die dure auto"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "Letterlijk 'de auto die duur is'. Veel 'bijvoeglijke' eigenschappen worden in Tarifit uitgedrukt via een betrekkelijke bijzin (Les 32). <span class=\"tar\">yeyran</span> = 'hij is duur' (Perfectief van 'duur zijn')."
+  },
+  {
+   "type": "match",
+   "q": "Koppel elk bijvoeglijk naamwoord aan zijn betekenis:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">aberkan</span>",
+     "leftIsTar": true,
+     "right": "zwart"
+    },
+    {
+     "left": "<span class=\"tar\">azegza</span>",
+     "leftIsTar": true,
+     "right": "blauw / groen"
+    },
+    {
+     "left": "<span class=\"tar\">awessaa</span>",
+     "leftIsTar": true,
+     "right": "oud"
+    },
+    {
+     "left": "<span class=\"tar\">amezdaɣ</span>",
+     "leftIsTar": true,
+     "right": "schoon"
+    },
+    {
+     "left": "<span class=\"tar\">aneggaru</span>",
+     "leftIsTar": true,
+     "right": "laatste"
+    }
+   ],
+   "explain": "Kleuren en eigenschappen. <span class=\"tar\">azegza</span> dekt zowel blauw als groen — net als in veel andere talen is er één woord voor het blauwig-groene spectrum."
+  }
+ ],
+ "les-29": [
+  {
+   "type": "mc",
+   "q": "Wat betekent de <strong>collectief</strong>-vorm zoals <span class=\"tar\">ɛenba</span>?",
+   "options": [
+    "precies één druif",
+    "een grote hoeveelheid",
+    "de soort in het algemeen — druiven als categorie",
+    "druiven die rijp zijn"
+   ],
+   "correct": 2,
+   "explain": "<span class=\"tar\">sɣiɣ ɛenba</span> 'ik kocht druiven' — niet één specifieke druif, maar druiven als massa of soort. Dit gebruik je bij 'heb je appels?', 'ik eet graag vijgen' enz."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe maak je van de collectief <span class=\"tar\">ɛenba</span> het <strong>telbaar enkelvoud</strong> 'één druif'?",
+   "options": [
+    "geen apart woord — context bepaalt het",
+    "vrouwelijk enkelvoud: <span class=\"tar\">ṯaɛenbaṯ</span>",
+    "mannelijk enkelvoud: <span class=\"tar\">aɛenba</span>",
+    "meervoud: <span class=\"tar\">iɛenbaṯin</span>"
+   ],
+   "correct": 1,
+   "explain": "Telbaar enkelvoud = vrouwelijk enkelvoud (met <span class=\"tar\">ṯa-…-ṯ</span>). Dit is een systematische regel: <span class=\"tar\">ɛenba</span> → <span class=\"tar\">ṯaɛenbaṯ</span>; <span class=\"tar\">řbacua</span> → <span class=\"tar\">ṯbacuaṯ</span>."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe zeg je <strong>'ik kocht druiven'</strong> (de soort, niet één stuk)?",
+   "options": [
+    "<span class=\"tar\">sɣiɣ ɛenba</span>",
+    "<span class=\"tar\">sɣiɣ yiwen n ɛenba</span>",
+    "<span class=\"tar\">sɣiɣ ṯɛenbaṯ</span>",
+    "<span class=\"tar\">asɣiɣ ɛenba</span>"
+   ],
+   "correct": 0,
+   "explain": "Collectief <span class=\"tar\">ɛenba</span> — geen vrouwelijk prefix of suffix nodig. Net als Engels 'I bought grapes' zonder lidwoord."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe zeg je <strong>'ik at één vijg'</strong>?",
+   "options": [
+    "<span class=\"tar\">cciɣ ṯbacuaṯ</span>",
+    "<span class=\"tar\">cciɣ bacua</span>",
+    "<span class=\"tar\">cciɣ ibacuawen</span>",
+    "<span class=\"tar\">cciɣ ṯibacuawin</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ṯbacuaṯ</span> = één vijg (telbaar V-ev). De collectief was <span class=\"tar\">řbacua</span> (vijgen in het algemeen)."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe zeg je <strong>'drie druiven'</strong>?",
+   "options": [
+    "<span class=\"tar\">ṯřaṯa n ɛenba</span>",
+    "<span class=\"tar\">ṯřaṯa n ṯiɛenbaṯin</span>",
+    "<span class=\"tar\">ṯřaṯa ṯaɛenbaṯ</span>",
+    "<span class=\"tar\">ṯaɛenbaṯ ṯřaṯa</span>"
+   ],
+   "correct": 1,
+   "explain": "Telbaar meervoud = vrouwelijk meervoud (<span class=\"tar\">ṯi-…-in</span>). Drie of meer stuks: telwoord + <span class=\"tar\">n</span> + V-mv. <span class=\"tar\">ṯiɛenbaṯin</span> = druiven (tellend)."
+  },
+  {
+   "type": "mc",
+   "q": "Waarom is <span class=\"tar\">aman</span> 'water' bijzonder?",
+   "options": [
+    "het is een mannelijk woord",
+    "het bestaat alleen als meervoud (plurale tantum) — ook voor één massa",
+    "het heeft geen collectief",
+    "het is een Arabisch leenwoord"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">aman</span> is grammaticaal altijd meervoud, ook als je het over één glas water hebt. Net als Nederlands 'scharen' (altijd mv) of Arabisch <em>miyaah</em>. Ook <span class=\"tar\">řehrua</span> (kruiden) valt in deze categorie."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">řbacua qa attas</span>",
+   "correct": "vijgen zijn er veel",
+   "accept": [
+    "vijgen zijn er veel",
+    "er zijn veel vijgen"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">řbacua</span> = collectief (vijgen als soort). <span class=\"tar\">qa attas</span> = 'zijn er veel'. Collectief gebruikt als onderwerp van een algemenee uitspraak."
+  },
+  {
+   "type": "match",
+   "q": "Koppel gebruik aan de juiste vorm voor '<span class=\"tar\">řbacua</span>' (vijgen):",
+   "pairs": [
+    {
+     "left": "'ik hou van vijgen' (soort algemeen)",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">řbacua</span> (collectief)"
+    },
+    {
+     "left": "'ik at één vijg'",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">ṯbacuaṯ</span> (telbaar ev)"
+    },
+    {
+     "left": "'vier vijgen'",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">ṯibacuarin</span> (telbaar mv)"
+    },
+    {
+     "left": "'water' (altijd mv)",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">aman</span> (plurale tantum)"
+    }
+   ],
+   "explain": "Drie lagen: collectief (soort) → telbaar enkelvoud (één stuk, V:SG) → telbaar meervoud (stuks, V:PL). Een systeem dat je ook in het Arabisch tegenkomt."
+  }
+ ],
+ "les-31": [
+  {
+   "type": "mc",
+   "q": "Tarifit heeft drie R-letters. Welke komt historisch van een <strong>l</strong>?",
+   "options": [
+    "<span class=\"tar\">r</span> (gewone rollende r)",
+    "<span class=\"tar\">ř</span> (vroeger een l)",
+    "<span class=\"tar\">ṛ</span> (donkere r)",
+    "geen — l bestond nooit"
+   ],
+   "correct": 1,
+   "explain": "In andere Berber-dialecten staat nog gewoon <em>l</em>. In Nador-Tarifit is die veranderd in <span class=\"tar\">ř</span>. Vandaar <span class=\"tar\">uř</span> (hart) waar andere dialecten <span class=\"tar\">ul</span> hebben."
+  },
+  {
+   "type": "mc",
+   "q": "Waartoe veranderde dubbele <span class=\"tar\">ll</span> in Nador-Tarifit?",
+   "options": [
+    "<span class=\"tar\">rr</span>",
+    "<span class=\"tar\">ǧ</span>",
+    "<span class=\"tar\">ṯ</span>",
+    "verdween volledig"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">yelli</span> (dochter in andere dialecten) → <span class=\"tar\">yeǧi</span>. <span class=\"tar\">ulli</span> (vee) → <span class=\"tar\">uǧi</span>. De dubbele <em>ll</em> is een zachtere variant dan enkelvoudige <em>l</em>, en viel samen met het <span class=\"tar\">ǧ</span>-klank."
+  },
+  {
+   "type": "mc",
+   "q": "Waartoe veranderde de combinatie <span class=\"tar\">lt</span>?",
+   "options": [
+    "<span class=\"tar\">rd</span>",
+    "<span class=\"tar\">tc</span>",
+    "<span class=\"tar\">kt</span>",
+    "bleef <span class=\"tar\">lt</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">taɣyult</span> (ezelin in andere dialecten) → <span class=\"tar\">ṯaɣyutc</span>. De combinatie l+t assimileerde tot <span class=\"tar\">tc</span>. Je ziet dit ook in het 'ei'-voorbeeld uit de les: <span class=\"tar\">ṯameǧatc</span>."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe schrijven we <span class=\"tar\">Naḍur</span> in het learntarifit-alfabet (gevocaliseerde r)?",
+   "options": [
+    "<span class=\"tar\">Naḍuār</span>",
+    "<span class=\"tar\">Naḍur</span>",
+    "<span class=\"tar\">Naḍwār</span>",
+    "<span class=\"tar\">Naḍūr</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">-ur</span> → schrijfwijze <span class=\"tar\">-uār</span> (macron boven a, r blijft). Vandaar <span class=\"tar\">Naḍuār</span>. Klinkt als 'Naadoer': de r is vocalisch geworden."
+  },
+  {
+   "type": "mc",
+   "q": "Wat gebeurt er met <span class=\"tar\">-ar</span> aan het einde van een woord door vocalisatie?",
+   "options": [
+    "wordt <span class=\"tar\">-ir</span>",
+    "wordt <span class=\"tar\">-ār</span> (macron boven a, r blijft in schrijfwijze; klinkt als lange a)",
+    "wordt <span class=\"tar\">-ur</span>",
+    "niets — blijft <span class=\"tar\">-ar</span>"
+   ],
+   "correct": 1,
+   "explain": "Patroon: <span class=\"tar\">-ar</span> → schrijfwijze <span class=\"tar\">-ār</span>. <span class=\"tar\">aayaz</span> → <span class=\"tar\">āryaz</span> 'man'. De r blijft in schrijfwijze maar klinkt als een lange a."
+  },
+  {
+   "type": "mc",
+   "q": "Wat gebeurt er met <span class=\"tar\">-ir</span> door vocalisatie?",
+   "options": [
+    "wordt <span class=\"tar\">-aa</span>",
+    "wordt <span class=\"tar\">-yār</span> (schrijfwijze; klinkt als yaa)",
+    "wordt <span class=\"tar\">-uaa</span>",
+    "niets"
+   ],
+   "correct": 1,
+   "explain": "Patroon: <span class=\"tar\">-ir</span> → schrijfwijze <span class=\"tar\">-yār</span>. <span class=\"tar\">irden</span> (tarwe) → <span class=\"tar\">yārḏen</span>. Klinkt als yaaḏen: de i + r worden een lange yaa."
+  },
+  {
+   "type": "mc",
+   "q": "Wanneer vindt <em>geen</em> vocalisatie van de r plaats?",
+   "options": [
+    "altijd — alle r's worden klinkers",
+    "als de r gevolgd wordt door een echte klinker (a, i, u)",
+    "als het woord meer dan twee lettergrepen heeft",
+    "alleen in leenwoorden"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ru</span> 'huilen' — r vóór u → gewone r. <span class=\"tar\">ari</span> 'schrijven' — r vóór i → gewone r. Vocalisatie treedt alleen op waar de r <em>niet</em> direct gevolgd wordt door een klinker."
+  },
+  {
+   "type": "match",
+   "q": "Koppel het ouderetaalpatroon aan de Nador-Tarifit-variant:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">ul</span> (l)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">uř</span>"
+    },
+    {
+     "left": "<span class=\"tar\">yelli</span> (ll)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">yeǧi</span>"
+    },
+    {
+     "left": "<span class=\"tar\">taɣyult</span> (lt)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">ṯaɣyutc</span>"
+    },
+    {
+     "left": "<span class=\"tar\">aayaz</span> (-ar vocalisatie)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">āryaz</span>"
+    }
+   ],
+   "explain": "Vier klankwetten in één les. Samen verklaren ze waarom veel Tarifit-woorden er anders uitzien dan in verwante Berbertalen — maar de structuur is dezelfde."
+  },
+  {
+   "type": "mc",
+   "q": "Een spreker zegt <span class=\"tar\">ṯamɣārṯ</span>. Welk geschreven woord hoort daarbij?",
+   "options": [
+    "<span class=\"tar\">ṯamɣārṯ</span>",
+    "<span class=\"tar\">ṯamɣārṯ</span>",
+    "<span class=\"tar\">ṯamɣāṯ</span>",
+    "<span class=\"tar\">ṯamɣart</span>"
+   ],
+   "correct": 0,
+   "explain": "Vocalisatiepatroon: <span class=\"tar\">-ar</span> → schrijfwijze <span class=\"tar\">-ār</span>. Dus <span class=\"tar\">ṯamɣārṯ</span> 'vrouw'. De uitspraak klinkt als <span class=\"tar\">ṯamɣārṯ</span>. Op deze site ook als <span class=\"tar\">ṯamɣārṯ</span>."
+  }
+ ],
+ "les-32": [
+  {
+   "type": "mc",
+   "q": "Wat betekent het prefix <span class=\"tar\">ss-</span> op een werkwoord?",
+   "options": [
+    "het maakt het werkwoord passief",
+    "het voegt 'laten / doen' toe — causatief",
+    "het maakt het wederkerig",
+    "het plaatst de actie in het verleden"
+   ],
+   "correct": 1,
+   "explain": "Causatief: <span class=\"tar\">cc</span> 'eten' → <span class=\"tar\">ssecc</span> 'te eten geven / voeren'. Nederlands gebruikt twee aparte werkwoorden; Tarifit doet hetzelfde met één prefix."
+  },
+  {
+   "type": "mc",
+   "q": "Geef de causatief van <span class=\"tar\">cc</span> 'eten':",
+   "options": [
+    "<span class=\"tar\">ssecc</span>",
+    "<span class=\"tar\">cc</span>",
+    "<span class=\"tar\">ttwacecc</span>",
+    "<span class=\"tar\">isscc</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ss-</span> + <span class=\"tar\">cc</span> = <span class=\"tar\">ssecc</span> 'voeren, te eten geven'. Let op: de stam is al een dubbele medeklinker, die blijft staan."
+  },
+  {
+   "type": "mc",
+   "q": "Geef de causatief van <span class=\"tar\">řmeḏ</span> 'leren':",
+   "options": [
+    "<span class=\"tar\">ssřmeḏ</span>",
+    "<span class=\"tar\">řmeḏ</span>",
+    "<span class=\"tar\">ttwařmeḏ</span>",
+    "<span class=\"tar\">ussřmeḏ</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ssřmeḏ</span> = 'onderwijzen' (laten leren). Standaard: <span class=\"tar\">ss-</span> + stam. Geen klankwijziging nodig hier."
+  },
+  {
+   "type": "mc",
+   "q": "Regel 1: een werkwoord met <strong>dubbele beginmedeklinker</strong> (zoals <span class=\"tar\">ggenfa</span>) — wat gebeurt er met de causatief?",
+   "options": [
+    "de dubbeling blijft: <span class=\"tar\">ssggenfa</span>",
+    "de dubbeling wordt enkelvoudig: <span class=\"tar\">sgenfa</span>",
+    "de stam valt weg",
+    "het prefix wordt <span class=\"tar\">s-</span> in plaats van <span class=\"tar\">ss-</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ggenfa</span> → <span class=\"tar\">sgenfa</span> (niet <span class=\"tar\">ssggenfa</span>). De dubbele beginklinker wordt enkelvoudig om stapeling te voorkomen. Zo ook <span class=\"tar\">bbdu</span> → <span class=\"tar\">sbedu</span>."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe wordt <span class=\"tar\">ffeɣ</span> 'uitgaan' als causatief?",
+   "options": [
+    "<span class=\"tar\">ssffeɣ</span>",
+    "<span class=\"tar\">ssufeɣ</span>",
+    "<span class=\"tar\">sifeɣ</span>",
+    "<span class=\"tar\">feɣ</span>"
+   ],
+   "correct": 1,
+   "explain": "Regel 2: werkwoorden met dubbele beginmedeklinker én maar één medeklinker daarna krijgen een <span class=\"tar\">u</span> tussen prefix en stam: <span class=\"tar\">ss</span> + <span class=\"tar\">u</span> + <span class=\"tar\">feɣ</span> = <span class=\"tar\">ssufeɣ</span> 'uitlaten'."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe wordt <span class=\"tar\">adef</span> 'binnengaan' als causatief?",
+   "options": [
+    "<span class=\"tar\">ssadef</span>",
+    "<span class=\"tar\">ssidef</span>",
+    "<span class=\"tar\">ssudef</span>",
+    "<span class=\"tar\">def</span>"
+   ],
+   "correct": 1,
+   "explain": "Regel 3: werkwoorden met initiële <span class=\"tar\">a</span> — die <span class=\"tar\">a</span> wordt <span class=\"tar\">i</span>: <span class=\"tar\">ssidef</span>. Hetzelfde: <span class=\"tar\">aheř</span> → <span class=\"tar\">ssiheř</span> 'vermoeien'."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">yessgenfa-yi adbib</span>",
+   "correct": "de dokter heeft mij genezen",
+   "accept": [
+    "de dokter heeft mij genezen",
+    "de dokter genas mij"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">sgenfa</span> = causatief van <span class=\"tar\">ggenfa</span> 'genezen (zelf beter worden)'. Met <span class=\"tar\">ss-</span> wordt het 'doen genezen'. <span class=\"tar\">-yi</span> = mij (DO-suffix)."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">yessecc aydi-nnes</span>",
+   "correct": "hij voert zijn hond",
+   "accept": [
+    "hij voert zijn hond",
+    "hij geeft zijn hond te eten"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">ssecc</span> = causatief van <span class=\"tar\">cc</span> 'eten'. <span class=\"tar\">aydi-nnes</span> = 'zijn hond' (verbonden staat van <span class=\"tar\">aydi</span>)."
+  },
+  {
+   "type": "match",
+   "q": "Koppel basiswerkwoord aan causatief:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">azzeř</span> (rennen)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">ssizzeř</span> (laten rennen)"
+    },
+    {
+     "left": "<span class=\"tar\">ffeɣ</span> (uitgaan)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">ssufeɣ</span> (uitlaten)"
+    },
+    {
+     "left": "<span class=\"tar\">adef</span> (binnengaan)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">ssidef</span> (binnenlaten)"
+    },
+    {
+     "left": "<span class=\"tar\">su</span> (drinken)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">sessu</span> (te drinken geven)"
+    },
+    {
+     "left": "<span class=\"tar\">řmeḏ</span> (leren)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">ssřmeḏ</span> (onderwijzen)"
+    }
+   ],
+   "explain": "Eén prefix, tientallen nieuwe werkwoorden. Zodra je de drie klankregels beheerst, kun je elk causatief zelf bouwen."
+  }
+ ],
+ "les-33": [
+  {
+   "type": "mc",
+   "q": "Wat drukt <span class=\"tar\">mm-</span> (of zijn varianten) primair uit?",
+   "options": [
+    "een passief — 'X wordt gedaan'",
+    "een wederkerige of middel-betekenis — 'elkaar X-en'",
+    "een causatief — 'X laten doen'",
+    "een toekomst"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">neɣ</span> 'doden' → <span class=\"tar\">mneɣ</span> 'vechten' (= elkaar doden). <span class=\"tar\">řaɣa</span> 'roepen' → <span class=\"tar\">mřaɣa</span> 'elkaar roepen'. Het is <em>niet</em> hetzelfde als reflexief ('zichzelf') — dat gaat via <span class=\"tar\">ixef-nnes</span>."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">mřaɣa</span>",
+   "correct": "elkaar roepen",
+   "accept": [
+    "elkaar roepen",
+    "roepen naar elkaar"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">řaɣa</span> 'roepen' + wederkerend prefix <span class=\"tar\">mř-</span> = <span class=\"tar\">mřaɣa</span>. De variant <span class=\"tar\">mř-</span> verschijnt voor stammen met een initiële <span class=\"tar\">a</span>."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is het verschil tussen <span class=\"tar\">mm-</span> (wederkerig) en <span class=\"tar\">ixef-nnes</span>?",
+   "options": [
+    "geen verschil",
+    "<span class=\"tar\">mm-</span> = 'elkaar'; <span class=\"tar\">ixef-nnes</span> = 'zichzelf'",
+    "<span class=\"tar\">mm-</span> is verleden; <span class=\"tar\">ixef-nnes</span> is toekomst",
+    "<span class=\"tar\">mm-</span> is formeel; <span class=\"tar\">ixef-nnes</span> is informeel"
+   ],
+   "correct": 1,
+   "explain": "Valkuil voor Nederlandstaligen: <span class=\"tar\">mm-</span> is reflexief noch identiek aan 'zichzelf'. <span class=\"tar\">yewṯa ixef-nnes</span> = 'hij sloeg zichzelf'. <span class=\"tar\">mneɣ</span> = 'ze doden elkaar'."
+  },
+  {
+   "type": "mc",
+   "q": "Wat doet <span class=\"tar\">twa-</span> op een werkwoord?",
+   "options": [
+    "maakt het wederkerig",
+    "maakt het causatief",
+    "maakt een echte passief — 'X wordt gedaan'",
+    "maakt het toekomst"
+   ],
+   "correct": 2,
+   "explain": "<span class=\"tar\">zzu</span> 'planten' → <span class=\"tar\">twazzu</span> 'geplant worden'. <span class=\"tar\">cc</span> 'eten' → <span class=\"tar\">twacc</span> 'gegeten worden'. Verschil met <span class=\"tar\">mm-</span>: <span class=\"tar\">twa-</span> is altijd passief zonder actor."
+  },
+  {
+   "type": "mc",
+   "q": "Wat zijn de <strong>twee beperkingen</strong> van <span class=\"tar\">twa-</span>?",
+   "options": [
+    "geen beperkingen",
+    "je kunt de actor niet noemen, én er is geen Imperfectief-vorm",
+    "alleen in het verleden bruikbaar",
+    "alleen bij transitieve werkwoorden"
+   ],
+   "correct": 1,
+   "explain": "Belangrijk: <span class=\"tar\">twacc</span> = 'het werd gegeten', maar je kunt NIET zeggen 'het werd gegeten door Jan'. Verder heeft <span class=\"tar\">twa-</span> geen Imperfectief — alleen Perfectief."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">temmenz ṯṯumubin-nni</span>",
+   "correct": "die auto is verkocht",
+   "accept": [
+    "die auto is verkocht",
+    "die auto werd verkocht"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">menz</span> 'verkopen', <span class=\"tar\">mm-</span>-variant → <span class=\"tar\">temmenz</span> 'verkocht worden' (Perfectief). <span class=\"tar\">ṯṯumubin-nni</span> = 'die auto' (<span class=\"tar\">-nni</span> = eerder genoemde)."
+  },
+  {
+   "type": "mc",
+   "q": "Wat betekent het als <span class=\"tar\">tetmenza ṯṯumubin-nni</span> in de <strong>Imperfectief</strong> staat?",
+   "options": [
+    "dezelfde betekenis als de Perfectief",
+    "'die auto is verkoopbaar' — mogelijkheid, niet resultaat",
+    "'die auto wordt altijd verkocht'",
+    "het kan niet — <span class=\"tar\">twa-</span> heeft geen Imperfectief"
+   ],
+   "correct": 1,
+   "explain": "Dit is een subtiel punt uit de uitleg: bij <span class=\"tar\">mm-</span>-werkwoorden (niet bij <span class=\"tar\">twa-</span>) heeft de Imperfectief-vorm soms een 'kan X worden'-betekenis. <span class=\"tar\">tetmenza</span> = 'ze is verkoopbaar'."
+  },
+  {
+   "type": "mc",
+   "q": "Combineer prefixen: passief van <span class=\"tar\">ssizzeř</span> 'laten rennen' — wat is het resultaat?",
+   "options": [
+    "<span class=\"tar\">twasizzeř</span>",
+    "<span class=\"tar\">twizzeř</span>",
+    "<span class=\"tar\">ssizzeř</span>",
+    "<span class=\"tar\">usizzeř</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">twa-</span> + <span class=\"tar\">sizzeř</span> = <span class=\"tar\">twasizzeř</span> 'gemaakt worden te rennen'. Prefixen kunnen gestapeld worden: causatief → dan passief eroverheen."
+  },
+  {
+   "type": "match",
+   "q": "Koppel prefix aan functie:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">ss-</span>",
+     "leftIsTar": true,
+     "right": "causatief ('laten X-en')"
+    },
+    {
+     "left": "<span class=\"tar\">mm-</span> / <span class=\"tar\">m-</span>",
+     "leftIsTar": true,
+     "right": "wederkerig ('elkaar X-en')"
+    },
+    {
+     "left": "<span class=\"tar\">twa-</span>",
+     "leftIsTar": true,
+     "right": "passief ('X wordt gedaan')"
+    },
+    {
+     "left": "<span class=\"tar\">ixef-nnes</span>",
+     "leftIsTar": false,
+     "right": "reflexief ('zichzelf X-en')"
+    }
+   ],
+   "explain": "Drie productieve werkwoord-prefixen + de reflexieve constructie. Samen zijn ze het hele systeem van Tarifit-werkwoord-derivatie."
+  }
+ ],
+ "les-34": [
+  {
+   "type": "mc",
+   "q": "Hoe werkt een <strong>onbepaalde</strong> betrekkelijke bijzin in Tarifit?",
+   "options": [
+    "er staat een apart 'die/dat' als verbinder",
+    "de bijzin plakt direct achter het onbepaalde hoofdwoord, met een voornaamwoord dat terugsloeg",
+    "het werkwoord krijgt een participium-vorm",
+    "er zijn geen onbepaalde bijzinnen"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">iwden ɣaa ijjen ṯaḏḏarṯ [ṯexřa]</span> 'ze kwamen bij een huis dat verlaten was'. De bijzin staat direct na <span class=\"tar\">ṯaḏḏarṯ</span>, en <span class=\"tar\">ṯexřa</span> verwijst terug naar het huis (anaphorisch pronomen)."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is een kenmerk van de <strong>bepaalde</strong> betrekkelijke bijzin?",
+   "options": [
+    "er is een terugverwijzend voornaamwoord in de bijzin",
+    "het werkwoord in de bijzin krijgt soms een participium-vorm (<span class=\"tar\">y-STAM-en</span>), geen terugverwijzer",
+    "het is altijd hetzelfde als de onbepaalde bijzin",
+    "er is geen werkwoord"
+   ],
+   "correct": 1,
+   "explain": "Bepaald: <span class=\"tar\">āryaz [d-yusin]</span> 'de man die hier kwam'. <span class=\"tar\">yusin</span> is een participium-achtige vorm. Geen apart voornaamwoord dat terugverwijst naar 'de man'."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe ziet de participium-vorm eruit?",
+   "options": [
+    "alleen het kale werkwoord",
+    "<span class=\"tar\">y-</span> prefix + STAM + <span class=\"tar\">-en</span> suffix",
+    "altijd hetzelfde als de Perfectief",
+    "alleen de Imperfectief"
+   ],
+   "correct": 1,
+   "explain": "Participium: <span class=\"tar\">y-</span> + stam + <span class=\"tar\">-en</span>. Geen persoonsvervoeging — het is een naamwoordachtige werkwoordsvorm. <span class=\"tar\">wenni [ixeddmen řebda]</span> 'hij die altijd werkt'."
+  },
+  {
+   "type": "mc",
+   "q": "Wat verandert er met <span class=\"tar\">ad</span> in een bepaalde betrekkelijke bijzin?",
+   "options": [
+    "het verdwijnt volledig",
+    "het verandert in <span class=\"tar\">ɣa</span>",
+    "het wordt <span class=\"tar\">a</span>",
+    "niets"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">āryaz-enni [d ɣa yasen]</span> 'de man die gaat komen'. In bijzinnen wordt <span class=\"tar\">ad</span> altijd <span class=\"tar\">ɣa</span> (zie ook Les 10 — uitleg §7.1). Dit geldt ook voor vraagwoord-vragen en cleft-zinnen."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">āryaz [d-yusin]</span>",
+   "correct": "de man die hier kwam",
+   "accept": [
+    "de man die hier kwam",
+    "de man die is gekomen"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">d-</span> = richtings-element 'hierheen'. <span class=\"tar\">yusin</span> = participium van 'komen'. Samen: 'de man die hierheen gekomen is'."
+  },
+  {
+   "type": "mc",
+   "q": "Je wilt 'de man die ik hierheen bracht' zeggen. Welke verbinder gebruik je?",
+   "options": [
+    "geen — direct achter het naamwoord",
+    "<span class=\"tar\">i</span> als relatieve marker (voor DO-bijzinnen)",
+    "<span class=\"tar\">umi</span>",
+    "<span class=\"tar\">wi</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">āryaz [i d-iwyeɣ]</span> 'de man die ik hierheen bracht'. <span class=\"tar\">i</span> verbindt het hoofdwoord met de bijzin als het hoofdwoord het lijdend voorwerp is."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">āryaz [umi ṯ-wciɣ]</span>",
+   "correct": "de man aan wie ik het gaf",
+   "accept": [
+    "de man aan wie ik het gaf",
+    "de man die ik het gaf"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">umi</span> = 'aan wie' (indirecte betrekking). <span class=\"tar\">ṯ-wciɣ</span> = 'ik gaf het' (clitic fronting). Samen: 'de man aan wie ik het gaf'."
+  },
+  {
+   "type": "match",
+   "q": "Koppel type bijzin aan zijn kenmerk:",
+   "pairs": [
+    {
+     "left": "onbepaald ('een man die...')",
+     "leftIsTar": false,
+     "right": "bijzin erachteraan + anaphorisch pronomen"
+    },
+    {
+     "left": "bepaald onderwerp ('de man die...')",
+     "leftIsTar": false,
+     "right": "participium (<span class=\"tar\">y-STAM-en</span>), geen terugverwijzer"
+    },
+    {
+     "left": "bepaald DO ('de man die ik zag')",
+     "leftIsTar": false,
+     "right": "marker <span class=\"tar\">i</span> + clitic fronting"
+    },
+    {
+     "left": "bepaald IO ('de man aan wie...')",
+     "leftIsTar": false,
+     "right": "marker <span class=\"tar\">umi</span>"
+    }
+   ],
+   "explain": "Vier patronen. Het onderscheid onbepaald / bepaald is het sleutelprincipe — daarna kiest het type rol (onderwerp / DO / IO) welk kenmerk de bijzin krijgt."
+  }
+ ],
+ "les-35": [
+  {
+   "type": "mc",
+   "q": "Wat is de <strong>structuur</strong> van een cleft-zin?",
+   "options": [
+    "gewone VSO-zin met stijgende intonatie",
+    "<span class=\"tar\">ḏ</span> + benadrukt element + <span class=\"tar\">i</span> + relatieve bijzin",
+    "vraagwoord + werkwoord",
+    "werkwoord + <span class=\"tar\">ca</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ḏ baba i d-yiwden</span> 'het is mijn vader die is aangekomen'. Twee delen: (1) <span class=\"tar\">ḏ baba</span> = het predicaat, (2) <span class=\"tar\">i d-yiwden</span> = de relatieve bijzin met verplichte marker <span class=\"tar\">i</span>."
+  },
+  {
+   "type": "mc",
+   "q": "Waarvoor gebruik je een cleft-zin?",
+   "options": [
+    "verleden tijd aanduiden",
+    "voor nadruk of contrast — 'het is juist X die...'",
+    "een ja/nee-vraag stellen",
+    "een gebod uitdrukken"
+   ],
+   "correct": 1,
+   "explain": "Neutrale mededeling: <span class=\"tar\">yus-d baba</span> 'mijn vader is gekomen'. Met nadruk: <span class=\"tar\">ḏ baba i d-yiwden</span> 'het is MIJN VADER die is gekomen' (niet iemand anders). Klassiek antwoord op 'wie was dat?'."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">ḏ baba i d-yiwden</span>",
+   "correct": "het is mijn vader die is aangekomen",
+   "accept": [
+    "het is mijn vader die is aangekomen",
+    "mijn vader is het die gekomen is"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">ḏ</span> + <span class=\"tar\">baba</span> = het predicaat. <span class=\"tar\">i</span> = relatieve marker. <span class=\"tar\">d-yiwden</span> = 'hierheen aangekomen'. De cleft-structuur is vergelijkbaar met Frans <em>c'est mon père qui est arrivé</em>."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">ḏ Mimun i ẓṛiɣ</span>",
+   "correct": "het is Mimoun die ik zag",
+   "accept": [
+    "het is Mimoun die ik zag",
+    "Mimoun is degene die ik zag"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "DO-cleft: het lijdend voorwerp (<span class=\"tar\">Mimun</span>) wordt benadrukt. Na <span class=\"tar\">i</span> staat de bijzin waarbij Mimun het DO is — vandaar clitic fronting: <span class=\"tar\">ẓṛiɣ</span> staat er al zo."
+  },
+  {
+   "type": "mc",
+   "q": "Wat zijn de <strong>twee verschillen</strong> tussen een cleft en een vraagwoord-vraag?",
+   "options": [
+    "geen verschil",
+    "cleft gebruikt <span class=\"tar\">ḏ</span> vóór en <span class=\"tar\">i</span> als verbinder; vraag gebruikt noch <span class=\"tar\">ḏ</span> noch <span class=\"tar\">i</span>",
+    "vraag gebruikt <span class=\"tar\">i</span>, cleft niet",
+    "cleft is altijd in het verleden"
+   ],
+   "correct": 1,
+   "explain": "Cleft: <span class=\"tar\">ḏ netta i d-yusin</span>. Vraag: <span class=\"tar\">wi d-yusin?</span>. Geen <span class=\"tar\">ḏ</span>, geen <span class=\"tar\">i</span> in de vraag. De participium-structuur van de bijzin is identiek."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe zeg je <strong>'het is hij die hier kwam'</strong>?",
+   "options": [
+    "<span class=\"tar\">netta d-yusin</span>",
+    "<span class=\"tar\">ḏ netta i d-yusin</span>",
+    "<span class=\"tar\">wi d-yusin netta</span>",
+    "<span class=\"tar\">netta i d-yusin ḏ</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ḏ</span> aan het begin, dan het benadrukte element (<span class=\"tar\">netta</span>), dan <span class=\"tar\">i</span>, dan de bijzin. Vaste volgorde."
+  },
+  {
+   "type": "mc",
+   "q": "De <span class=\"tar\">ḏ</span> in cleft-zinnen is het<br> <span class=\"tar\">ḏ</span> voor 'en' (tussen NPs)?",
+   "options": [
+    "ja — exact hetzelfde woord",
+    "nee — dit is het predikaat-partikel <span class=\"tar\">ḏ</span> ('het is')",
+    "het is een vraagpartikel",
+    "het is een richting-element"
+   ],
+   "correct": 1,
+   "explain": "Tarifit heeft meerdere woorden geschreven als <span class=\"tar\">ḏ</span>. In cleft-zinnen is het het predicaat-partikel 'het is, dit is'. In '<span class=\"tar\">necc ḏ uma</span>' is het 'en'. Contextueel onderscheiden ze zich altijd."
+  },
+  {
+   "type": "match",
+   "q": "Koppel zin aan type:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">yus-d baba</span>",
+     "leftIsTar": true,
+     "right": "neutrale mededeling"
+    },
+    {
+     "left": "<span class=\"tar\">ḏ baba i d-yiwden</span>",
+     "leftIsTar": true,
+     "right": "nadruk-cleft"
+    },
+    {
+     "left": "<span class=\"tar\">wi d-yusin?</span>",
+     "leftIsTar": true,
+     "right": "vraagwoord-vraag"
+    },
+    {
+     "left": "<span class=\"tar\">ḏ Mimun i ẓṛiɣ</span>",
+     "leftIsTar": true,
+     "right": "DO-cleft"
+    }
+   ],
+   "explain": "Dezelfde participium-bijzin (<span class=\"tar\">d-yusin</span>) verschijnt in drie constructies — maar de omhulling bepaalt of het een vraag, nadruk of DO-cleft is."
+  }
+ ],
+ "les-36": [
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">Ḥenna ṯuɣa ṯessen ijjen wattas n ṯḥuja</span>",
+   "correct": "mijn grootmoeder kende veel verhalen",
+   "accept": [
+    "mijn grootmoeder kende veel verhalen",
+    "mijn oma kende veel verhalen"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">Ḥenna</span> = mijn oma (familiewoord). <span class=\"tar\">ṯuɣa</span> = verleden partikel. <span class=\"tar\">ṯessen</span> = zij weet/kent. <span class=\"tar\">ijjen wattas</span> = een hoop. <span class=\"tar\">n ṯḥuja</span> = van verhalen."
+  },
+  {
+   "type": "mc",
+   "q": "Welke functie heeft <span class=\"tar\">i</span> in <span class=\"tar\">mamec i ɛeqřeɣ</span>?",
+   "options": [
+    "het is het voegwoord 'en'",
+    "het is de relatieve marker — 'hoe ik mij herinner'",
+    "het is het voorzetsel 'aan'",
+    "het is een vraagpartikel"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">mamec i ɛeqřeɣ</span> = 'hoe ik mij herinner'. <span class=\"tar\">mamec</span> is het vraagwoord 'hoe', en <span class=\"tar\">i</span> is de relatieve marker die de bijzin inleidt. Een patroon uit Les 32."
+  },
+  {
+   "type": "mc",
+   "q": "Waarom staat <span class=\"tar\">ɣa</span> in <span class=\"tar\">i ɣa raḥeɣ</span> in plaats van <span class=\"tar\">ad</span>?",
+   "options": [
+    "het is een typfout",
+    "in bijzinnen wordt <span class=\"tar\">ad</span> altijd <span class=\"tar\">ɣa</span>",
+    "het is een Arabisch leenwoord",
+    "het is de Imperfectief"
+   ],
+   "correct": 1,
+   "explain": "Vaste regel (Les 10 en 32): in betrekkelijke bijzinnen, vraagwoord-vragen en cleft-zinnen wordt <span class=\"tar\">ad</span> automatisch <span class=\"tar\">ɣa</span>. Zo ook <span class=\"tar\">min ɣa negg?</span> 'wat zullen we doen?'."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal de dialoogzin: <span class=\"tar\">A ɛli-inu, ma ṯettsed niɣ ɛad waa ṯettised ca?</span>",
+   "correct": "mijn Ali, ben je al aan het slapen of nog niet?",
+   "accept": [
+    "mijn Ali ben je al aan het slapen of nog niet?",
+    "Ali, slaap je al of nog niet?"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">A ɛli-inu</span> = aanroep. <span class=\"tar\">ma</span> = vraagpartikel. <span class=\"tar\">ṯettsed</span> = Imperfectief 2SG van slapen. <span class=\"tar\">niɣ</span> = of. <span class=\"tar\">ɛad waa...ca</span> = 'nog niet'."
+  },
+  {
+   "type": "mc",
+   "q": "In de tekst staat <span class=\"tar\">degg\" xxam</span> — wat is dit?",
+   "options": [
+    "een eigennaam",
+    "een samentrekking van <span class=\"tar\">ḏi</span> + <span class=\"tar\">wexxam</span> = 'in de kamer'",
+    "een werkwoord",
+    "een telwoord"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ḏi</span> 'in' + <span class=\"tar\">wexxam</span> (verbonden staat van <span class=\"tar\">axxam</span> 'kamer') samengevoegd in snel spreken. Een voorbeeld van fonetische assimilatie in echte spreektaal."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe zegt de jongen 'ik ben nog niet aan het slapen'?",
+   "options": [
+    "<span class=\"tar\">necc ɛad waa ttiseɣ ca</span>",
+    "<span class=\"tar\">necc waa ttiseɣ ca</span>",
+    "<span class=\"tar\">necc ɛad ttiseɣ</span>",
+    "<span class=\"tar\">necc ɛad waa ttiseɣ</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">necc</span> = ik. <span class=\"tar\">ɛad</span> = nog. <span class=\"tar\">waa...ca</span> = ontkenning. <span class=\"tar\">ttiseɣ</span> = Negatieve Imperfectief 1SG van slapen."
+  },
+  {
+   "type": "mc",
+   "q": "In <span class=\"tar\">wattas n yewdan</span> — welke staat heeft <span class=\"tar\">yewdan</span>?",
+   "options": [
+    "vrije staat",
+    "verbonden staat — het staat na het voorzetsel <span class=\"tar\">n</span>",
+    "meervoud van een bijvoeglijk naamwoord",
+    "het is een werkwoord"
+   ],
+   "correct": 1,
+   "explain": "Na <span class=\"tar\">n</span> 'van' komt altijd verbonden staat (Les 15). <span class=\"tar\">yewdan</span> is de verbonden staat van 'mensen'. Vrije staat zou <span class=\"tar\">iwdan</span> zijn."
+  },
+  {
+   "type": "match",
+   "q": "Koppel tekstelement aan zijn grammaticale rol:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">ṯuɣa</span>",
+     "leftIsTar": true,
+     "right": "verleden partikel"
+    },
+    {
+     "left": "<span class=\"tar\">xminni</span>",
+     "leftIsTar": true,
+     "right": "voegwoord 'wanneer'"
+    },
+    {
+     "left": "<span class=\"tar\">waa … ca</span>",
+     "leftIsTar": true,
+     "right": "ontkenning"
+    },
+    {
+     "left": "<span class=\"tar\">jaa</span>",
+     "leftIsTar": true,
+     "right": "voorzetsel 'tussen'"
+    },
+    {
+     "left": "<span class=\"tar\">i</span> in bijzin",
+     "leftIsTar": true,
+     "right": "relatieve marker"
+    }
+   ],
+   "explain": "Een echte tekst combineert alles tegelijk. Herken de blokken: partikel + voegwoord + ontkenning + voorzetsel + bijzin-marker."
+  }
+ ],
+ "les-37": [
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">adef-d</span>",
+   "correct": "kom binnen",
+   "accept": [
+    "kom binnen",
+    "kom binnen!"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "Imperatief van <span class=\"tar\">adef</span> 'binnengaan' + richting-marker <span class=\"tar\">-d</span> 'hierheen'. Samen: 'ga naar binnen (hierheen)'. Let op: de causatief was <span class=\"tar\">ssidef</span> 'binnenlaten' (Les 29)."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">qa-ṯ ḏi ṯaḏḏarṯ</span>",
+   "correct": "ze is thuis",
+   "accept": [
+    "ze is thuis",
+    "hij is thuis",
+    "ze is in huis"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">qa</span> = pseudo-werkwoord locatief. <span class=\"tar\">-ṯ</span> = hij/zij/het. <span class=\"tar\">ḏi ṯaḏḏarṯ</span> = 'in het huis'. Samen: 'hij/zij is thuis'. Dagelijks gebruikt."
+  },
+  {
+   "type": "mc",
+   "q": "Je wilt thee aanbieden met <span class=\"tar\">ma ṯexsed atay?</span>. Wat zeg je als de persoon zegt: 'ja'?",
+   "options": [
+    "<span class=\"tar\">aqq-ec mliḥ?</span>",
+    "<span class=\"tar\">aɣ-ac</span>",
+    "<span class=\"tar\">adef-d</span>",
+    "<span class=\"tar\">waa ṯexsed ca</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">aɣ-ac</span> = 'hier heb je 'm' (pseudo-werkwoord <span class=\"tar\">aɣ</span> + IO-suffix <span class=\"tar\">-ac</span> 'aan jou M'). Bij een vrouw zou het <span class=\"tar\">aɣ-am</span> worden. Gesignaleerd in Les 05 en Les 31."
+  },
+  {
+   "type": "mc",
+   "q": "In het afscheidsgesprek: <span class=\"tar\">a nemřaqa, in ca' Allah</span> — wat betekent dit?",
+   "options": [
+    "we zullen nooit meer praten",
+    "we zullen elkaar weerzien, zo Allah het wil",
+    "tot morgen",
+    "blijf gezond"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">a nemřaqa</span> = 'wij zullen elkaar ontmoeten' (<span class=\"tar\">ad</span> + wederkerig <span class=\"tar\">mřaqa</span>). <span class=\"tar\">in ca' Allah</span> = Arabisch 'als God het wil'. Samen: de standaard Riffijnse afscheidsgroet."
+  },
+  {
+   "type": "mc",
+   "q": "Hoe zeg je <strong>'ik ga naar de markt'</strong>?",
+   "options": [
+    "<span class=\"tar\">a raḥey ɣaa ssuq</span>",
+    "<span class=\"tar\">ad raḥey ɣaa ssuq</span>",
+    "<span class=\"tar\">a raḥey f ssuq</span>",
+    "<span class=\"tar\">raḥey ɣaa ssuq</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">a raḥeɣ</span> = 'ik zal gaan' (<span class=\"tar\">ad</span> + Aorist, maar vóór <span class=\"tar\">r</span>: <span class=\"tar\">ad</span> → <span class=\"tar\">a</span>). <span class=\"tar\">ɣaa ssuq</span> = 'naar de markt'."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">meřmi ɣa ṯeqqebed?</span>",
+   "correct": "wanneer kom je terug?",
+   "accept": [
+    "wanneer kom je terug?",
+    "wanneer ga je terugkomen?"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">meřmi</span> = wanneer (vraagwoord). <span class=\"tar\">ɣa</span> = <span class=\"tar\">ad</span> in een vraagwoord-context. <span class=\"tar\">ṯeqqebed</span> = 2SG van 'terugkeren'. Een typisch praktische vraag."
+  },
+  {
+   "type": "mc",
+   "q": "Het gesprek bevat <span class=\"tar\">ḥamḏullah</span> en <span class=\"tar\">baṛakallahu fic</span>. Wat zijn dit?",
+   "options": [
+    "Tarifit-woorden",
+    "Arabische uitdrukkingen die in Tarifit-gesprekken heel gewoon zijn",
+    "formele schrijftaalvormen",
+    "dialectwoorden uit het westen van Marokko"
+   ],
+   "correct": 1,
+   "explain": "Code-switching met Arabisch is de norm in Riffijnse gesprekken, ook bij vloeiende Tarifit-sprekers. Religieuze uitdrukkingen (<span class=\"tar\">ḥamḏullah</span>, <span class=\"tar\">baṛakallahu</span>, <span class=\"tar\">in ca' Allah</span>) worden vrijwel altijd Arabisch gezegd."
+  },
+  {
+   "type": "mc",
+   "q": "Aan het einde van de cursus: welke vaardigheid bouw je nu het best verder uit?",
+   "options": [
+    "meer grammaticatabellen studeren",
+    "actief luisteren naar sprekers en korte gesprekken proberen",
+    "wachten tot alles perfect is",
+    "alleen schrijven"
+   ],
+   "correct": 1,
+   "explain": "Actieve input (luisteren naar familieleden, Tarifit-tv) + output (korte zinnen proberen) is de bewezen route. De grammatica zit erin — nu moet het automatisch worden."
+  },
+  {
+   "type": "match",
+   "q": "Koppel dialoogzin aan haar functie:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">adef-d</span>",
+     "leftIsTar": true,
+     "right": "uitnodiging om binnen te komen"
+    },
+    {
+     "left": "<span class=\"tar\">qa-ṯ ɣaa Naḍuār</span>",
+     "leftIsTar": true,
+     "right": "locatie aangeven"
+    },
+    {
+     "left": "<span class=\"tar\">aɣ-ac</span>",
+     "leftIsTar": true,
+     "right": "iets overhandigen (aan man)"
+    },
+    {
+     "left": "<span class=\"tar\">beslama</span>",
+     "leftIsTar": true,
+     "right": "afscheid nemen ('vrede')"
+    },
+    {
+     "left": "<span class=\"tar\">a nemřaqa</span>",
+     "leftIsTar": true,
+     "right": "belofte van weerzien"
+    }
+   ],
+   "explain": "Je hebt alle 36 lessen voltooid. Met deze zinnen kun je al functioneren in alledaagse Riffijnse gesprekken. Volgende stap: gebruik ze."
+  }
+ ],
+ "les-38": [
+  {
+   "type": "mc",
+   "q": "Welk woord opent traditioneel een Tarifit-sprookje?",
+   "options": [
+    "<span class=\"tar\">uca</span>",
+    "<span class=\"tar\">yekkaa</span>",
+    "<span class=\"tar\">aqqa</span>",
+    "<span class=\"tar\">řexxu</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">yekkaa</span> = letterlijk 'het rees' (Perfectief van <span class=\"tar\">kkaa</span> 'opstaan'). Als verteltaalformule betekent het 'er was eens'. Vergelijkbaar met Nederlands 'Er was eens' of Arabisch <em>kan ɣa ma kan</em>."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal: <span class=\"tar\">Yekkaa ijj uzeǧid ɣaas ijjen yiyyaa n yārḏen yemyaa</span>",
+   "correct": "er was eens een koning die een groot tarweveld had",
+   "accept": [
+    "er was eens een koning die een groot tarweveld had",
+    "er was een koning met een groot tarweveld"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">yekkaa</span> = er was eens. <span class=\"tar\">ijj uzeǧid</span> = één koning (verbonden staat na <span class=\"tar\">ijj</span>). <span class=\"tar\">ɣaas</span> = bij hem (bezit). <span class=\"tar\">yiyyaa n yārḏen</span> = tarweveld. <span class=\"tar\">yemyaa</span> = het was groot."
+  },
+  {
+   "type": "mc",
+   "q": "Wat betekent het verteltaalwoord <span class=\"tar\">uca</span>?",
+   "options": [
+    "'er was eens'",
+    "'toen, vervolgens' — markeert de volgende stap in het verhaal",
+    "'maar'",
+    "'en nu'"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">uca yus-d zeɛma yemsennaḏ</span> 'toen kwam het zo dat het overhing'. <span class=\"tar\">uca</span> is een vertelwoord dat de verhaallijn vooruitdrijft — vergelijkbaar met Frans <em>alors</em> of Arabisch <em>ṯumma</em>."
+  },
+  {
+   "type": "mc",
+   "q": "Wat is de vaste openingsformule vóór het eigenlijke verhaal?",
+   "options": [
+    "<span class=\"tar\">Ḥajit-ek</span>",
+    "<span class=\"tar\">Ḥajit-em</span>",
+    "<span class=\"tar\">Ḥajit</span>",
+    "<span class=\"tar\">Ḥajit-en</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">Ḥajit-ek</span> — Arabisch leenwoord, letterlijk 'ik vertel je'. Staat als rituele aankondiging vóór het verhaal. Net als de sprookjesformule in andere culturen."
+  },
+  {
+   "type": "mc",
+   "q": "In de zin <span class=\"tar\">uca kkinṯ ssin ṯmeḥtac</span> — welk geslacht/getal heeft <span class=\"tar\">kkinṯ</span>?",
+   "options": [
+    "3SG:M",
+    "3PL:F",
+    "1SG",
+    "2PL:M"
+   ],
+   "correct": 1,
+   "explain": "Het suffix <span class=\"tar\">-enṯ</span> / <span class=\"tar\">-ṯ</span> in de Perfectief = 3PL:V (zij, vrouwen). <span class=\"tar\">kkinṯ</span> = 'zij (vrouwen) gingen langs'. De drie maaisters zijn vrouwen, vandaar de vrouwelijke meervoudsvorm."
+  },
+  {
+   "type": "mc",
+   "q": "De eerste maaister begint haar wens met <span class=\"tar\">mri ḏayi ɣa yawi...</span>. Welk type 'als' is dit?",
+   "options": [
+    "open hypothese (<span class=\"tar\">mařa</span>)",
+    "counterfactueel — de situatie is niet zo (<span class=\"tar\">mři</span>)",
+    "een vraag",
+    "een ontkenning"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">mři</span> = 'als (maar)' voor wensdenken / counterfactueel. De maaister droomt van een situatie die nog niet werkelijkheid is. <span class=\"tar\">mařa</span> zou een open hypothese zijn die wél kan uitkomen."
+  },
+  {
+   "type": "translate",
+   "q": "Vertaal het verteltaalwoord: <span class=\"tar\">zeɛma</span>",
+   "correct": "zogezegd",
+   "accept": [
+    "zogezegd",
+    "zo",
+    "naar het schijnt"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">zeɛma</span> is een Arabisch leenwoord dat in vertelling de spreker distantieert van het gezegde: 'naar het schijnt', 'zogezegd'. Typisch in verhalen en roddel."
+  },
+  {
+   "type": "mc",
+   "q": "In <span class=\"tar\">yemsennaḏ</span> herken je het prefix <span class=\"tar\">m-</span>. Wat duidt dit aan?",
+   "options": [
+    "een causatief",
+    "een passief",
+    "een wederkerig of middel-betekenis (Les 30)",
+    "een verleden"
+   ],
+   "correct": 2,
+   "explain": "<span class=\"tar\">yemsennaḏ</span> = 'het hangt over' — de <span class=\"tar\">m-</span> is de middel-variant van <span class=\"tar\">mm-</span> die een positie of toestand aanduidt. Hetzelfde prefix als in <span class=\"tar\">mřaɣa</span> 'elkaar roepen'."
+  },
+  {
+   "type": "match",
+   "q": "Koppel verteltaalwoord aan functie:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">yekkaa</span>",
+     "leftIsTar": true,
+     "right": "'er was eens' — sprookjes-opener"
+    },
+    {
+     "left": "<span class=\"tar\">Ḥajit-ek</span>",
+     "leftIsTar": true,
+     "right": "rituele aankondiging voor het verhaal"
+    },
+    {
+     "left": "<span class=\"tar\">uca</span>",
+     "leftIsTar": true,
+     "right": "'toen, vervolgens' — verhaallijn vooruit"
+    },
+    {
+     "left": "<span class=\"tar\">zeɛma</span>",
+     "leftIsTar": true,
+     "right": "'zogezegd' — distantie van de spreker"
+    }
+   ],
+   "explain": "Tarifit-verhalen hebben een rijke set verteltaalwoorden. Herken je <span class=\"tar\">yekkaa</span> en <span class=\"tar\">uca</span>, dan volg je elke Tarifit-tekst."
+  }
+ ]
+}

@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Sentences · Tarifit Course</title>
+  <link rel="stylesheet" href="/styles.css?v=7">
+  <style>.zn-controls {
+      position: sticky;
+      top: 65px;
+      background: var(--bg);
+      padding: 16px 0 8px;
+      z-index: 50;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 24px;
+    }
+    @media (max-width: 720px) {.zn-controls {
+        top: max(56px, calc(52px + env(safe-area-inset-top)));
+        padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right);
+      }.zn-filters {
+        flex-direction: column;
+        align-items: stretch;
+      }.zn-filter-group {
+        flex-wrap: wrap;
+      }
+    }.zn-search {
+      width: 100%;
+      padding: 12px 18px;
+      font-family: var(--font-serif);
+      font-size: 17px;
+      border: 1px solid var(--rule-strong);
+      background: white;
+      color: var(--text);
+      border-radius: 4px;
+      outline: none;
+      transition: border-color 0.15s;
+    }.zn-search:focus { border-color: var(--accent); }.zn-stats {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 8px;
+      font-style: italic;
+    }.zn-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      margin-top: 12px;
+      font-size: 13px;
+    }.zn-filter-group {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }.zn-filter-label {
+      color: var(--text-muted);
+      font-style: italic;
+      margin-right: 6px;
+    }.zn-select, .zn-page-input {
+      padding: 5px 11px;
+      min-height: 32px;
+      font-family: var(--font-display);
+      font-size: 12px;
+      letter-spacing: 0.02em;
+      color: var(--text-soft);
+      background: var(--bg);
+      border: 1px solid var(--rule);
+      border-radius: 4px;
+      cursor: pointer;
+    }.zn-page-input {
+      width: 90px;
+      cursor: text;
+    }.zn-toggle {
+      display: flex;
+      gap: 4px;
+      margin-left: auto;
+    }.zn-toggle-btn {
+      padding: 5px 14px;
+      min-height: 32px;
+      font-family: var(--font-display);
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      color: var(--text-soft);
+      background: var(--bg);
+      border: 1px solid var(--rule);
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+    }.zn-toggle-btn.is-active {
+      color: white;
+      background: var(--accent);
+      border-color: var(--accent);
+    }.zn-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }.zn-card {
+      padding: 14px 4px;
+      border-bottom: 1px solid var(--rule);
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+    }.zn-card-main { flex: 1; min-width: 0; }.zn-tarifit {
+      font-family: var(--font-serif);
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--accent);
+      letter-spacing: 0.01em;
+      font-synthesis: none;
+      text-rendering: optimizeLegibility;
+    }.zn-vertaling {
+      margin-top: 4px;
+      color: var(--text);
+      font-size: 15px;
+      line-height: 1.5;
+    }.zn-vertaling.zn-fallback { font-style: italic; color: var(--text-muted); }.zn-fallback-label {
+      font-size: 10px;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      border: 1px solid var(--rule);
+      border-radius: 2px;
+      padding: 0 4px;
+      margin-left: 4px;
+      font-style: normal;
+      vertical-align: middle;
+    }.zn-meta {
+      margin-top: 6px;
+      font-size: 12px;
+      color: var(--text-muted);
+    }.zn-meta .zn-chip {
+      display: inline-block;
+      padding: 1px 6px;
+      font-family: var(--font-display);
+      font-size: 10px;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      background: var(--bg-warm);
+      border: 1px solid var(--rule);
+      border-radius: 2px;
+      margin-left: 6px;
+      text-transform: uppercase;
+    }.zn-copy {
+      flex-shrink: 0;
+      padding: 6px 12px;
+      font-family: var(--font-display);
+      font-size: 11px;
+      letter-spacing: 0.04em;
+      color: var(--text-soft);
+      background: var(--bg);
+      border: 1px solid var(--rule);
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+    }.zn-copy:hover { color: var(--accent); border-color: var(--accent); }.zn-copy.is-copied {
+      color: white;
+      background: var(--accent);
+      border-color: var(--accent);
+    }.zn-empty {
+      text-align: center;
+      padding: 48px;
+      color: var(--text-muted);
+      font-style: italic;
+    }.zn-info {
+      background: var(--bg-warm);
+      border: 1px solid var(--rule);
+      padding: 18px 22px;
+      border-radius: 4px;
+      margin-bottom: 24px;
+      font-size: 15px;
+      line-height: 1.55;
+    }.zn-info p { margin: 0 0 8px; }.zn-info p:last-child { margin: 0; }.zn-assumption {
+      font-size: 13px;
+      font-style: italic;
+      color: var(--text-muted);
+      margin: 8px 0 20px;
+    }.zn-dialogue-card {
+      border: 1px solid var(--rule);
+      border-radius: 4px;
+      padding: 16px 18px;
+      margin-bottom: 20px;
+    }.zn-dialogue-title {
+      font-family: var(--font-display);
+      font-size: 12px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }.zn-dialogue-line {
+      padding: 6px 0;
+      max-width: 80%;
+    }.zn-dialogue-line.dlg-b { margin-left: auto; text-align: right; }.zn-dialogue-line .zn-tarifit { font-size: 16px; }.zn-dialogue-line .zn-vertaling { font-size: 13px; color: var(--text-muted); margin-top: 2px; }.zn-error {
+      background: #fff4e6;
+      border-left: 3px solid #b85c00;
+      padding: 18px 22px;
+      border-radius: 0 4px 4px 0;
+      color: #5e2f00;
+      margin: 24px 0;
+    }.zn-error code {
+      background: rgba(0,0,0,0.06);
+      padding: 1px 6px;
+      border-radius: 3px;
+      font-family: var(--font-mono);
+      font-size: 0.9em;
+      color: #5e2f00;
+    }.zn-loading {
+      text-align: center;
+      padding: 64px;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="index.html" class="brand" aria-label="Tarifit — to home">
+        <span class="brand-mark var-diamond" aria-hidden="true">
+          <span class="lozenge"><span class="yaz">ⵣ</span></span>
+        </span>
+        <span class="brand-mark var-wordmark" aria-hidden="true">
+          <span class="yaz-large">ⵣ</span>
+        </span>
+        <span class="brand-mark var-tile" aria-hidden="true">
+          <span class="tile"></span>
+        </span>
+        <span class="brand-word">Tarif<span class="accent">it</span></span>
+      </a>
+      <nav class="topnav" aria-label="Main menu">
+        <a href="course.html">Course</a>
+        <a href="exercises.html">Exercises</a>
+        <a href="grammar.html">Grammar</a>
+        <a href="wordlist.html">Wordlist</a>
+        <a href="zinnen.html" class="active">Sentences</a>
+        <a href="suggest-word.html" class="nav-quiet">Suggest a word</a>
+        <a href="book.html">The book</a>
+
+        <span class="lang-switch" role="group" aria-label="Language">
+          <a href="/nl/zinnen.html" hreflang="nl">NL</a>
+          <span class="lang-sep" aria-hidden="true">/</span>
+          <a href="/en/zinnen.html" class="active" hreflang="en">EN</a>
+        </span>
+      </nav>
+    </div>
+  </header>
+
+  <main class="boek-container" style="max-width: 1080px;">
+    <div class="boek-intro" style="margin-bottom: 24px;">
+      <div class="eyebrow">attested material</div>
+      <h1 style="font-family: var(--font-display); font-size: 44px; font-weight: 500; letter-spacing: -0.02em; margin: 0 0 16px;">Sentences</h1>
+      <p class="lead">Sentences taken literally from the book, with source reference — to search, read, or practice with.</p>
+
+      <div class="zn-info">
+        <p><strong>Source:</strong> every sentence comes literally from <em>An Introduction to Tarifiyt Berber</em> (Mourigh &amp; Kossmann 2019). The source is shown with each sentence (e.g. <code>book p. 52</code>).</p>
+        <p><strong>Search &amp; filter:</strong> diacritics are ignored, so <code>taddart</code> also finds <em class="tar">ṯaddarṯ</em>. Filter by topic (context) or page number.</p>
+        <p><strong>Missing English translation?</strong> Some sentences temporarily show the Dutch translation in italics with the label <span class="zn-fallback-label">NL</span> — that means the English translation is still missing from the source.</p>
+      </div>
+    </div>
+
+    <div class="zn-controls">
+      <input type="text" class="zn-search" id="searchBox" placeholder="Search a sentence (Tarifit or English)..." autocomplete="off">
+
+      <div class="zn-filters">
+        <div class="zn-filter-group" id="contextFilterGroup">
+          <span class="zn-filter-label">Topic:</span>
+          <select id="contextSelect" class="zn-select"><option value="">all</option></select>
+        </div>
+        <div class="zn-filter-group" id="hoofdstukFilterGroup" style="display:none;">
+          <span class="zn-filter-label">Chapter:</span>
+          <select id="hoofdstukSelect" class="zn-select"><option value="">all</option></select>
+        </div>
+        <div class="zn-filter-group">
+          <span class="zn-filter-label">Page:</span>
+          <input type="number" class="zn-page-input" id="pageInput" placeholder="e.g. 52" min="1">
+        </div>
+        <div class="zn-toggle" id="viewToggle">
+          <button class="zn-toggle-btn is-active" data-view="lijst">List</button>
+          <button class="zn-toggle-btn" data-view="dialogen">Dialogues</button>
+        </div>
+      </div>
+
+      <div class="zn-stats" id="stats"></div>
+    </div>
+
+    <p class="zn-assumption" id="dialogueAssumption" style="display:none;">
+      Speaker alternation is a display assumption; the book is authoritative.
+    </p>
+
+    <div id="zinnenList">
+      <div class="zn-loading">Loading sentences...</div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Data: <code>/assets/zinnen/zinnen.csv</code>. To add new rows, just edit that CSV and push — this page loads the list automatically (no separate HTML change needed). If you see an older view: hard refresh (Ctrl+F5).</p>
+    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-light);">
+      Questions or feedback? <a href="#" onclick="window.location.href = 'mai' + 'lto:' + 'Idriesti' + '@' + 'outlook.com'; return false;" style="color: inherit; text-decoration: underline;">Idriesti@outlook.com</a>
+    </p>
+  </footer>
+
+  <script src="/assets/js/tarifit-search.js"></script>
+  <script>
+    // ENTRIES columns (fixed order from assets/zinnen/zinnen.csv):
+    // 0 tarifit · 1 nl · 2 en · 3 gloss · 4 hoofdstuk · 5 les · 6 bron · 7 tags
+    let ENTRIES = [];
+    let FILTER_QUERY = '';
+    let FILTER_CONTEXT = '';
+    let FILTER_HOOFDSTUK = '';
+    let FILTER_PAGE = '';
+    let VIEW = 'lijst';
+
+    function prettifyContext(c) {
+      if (!c) return '';
+      const s = c.replace(/-/g, ' ').trim();
+      return s.charAt(0).toUpperCase() + s.slice(1);
+    }
+
+    function extractTag(tags, name) {
+      const m = tags.match(new RegExp(name + ':([^;]+)'));
+      return m ? m[1].trim() : '';
+    }
+
+    function copySentence(btn, text) {
+      const done = () => {
+        const original = btn.textContent;
+        btn.textContent = 'Copied!';
+        btn.classList.add('is-copied');
+        setTimeout(() => { btn.textContent = original; btn.classList.remove('is-copied'); }, 1400);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done).catch(() => {});
+      } else {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand('copy'); done(); } catch (e) {}
+        document.body.removeChild(ta);
+      }
+    }
+
+    function renderEntry(e) {
+      const fallback = e.translation === '' ? '' : (e.usedFallback ? ' zn-fallback' : '');
+      const translationHtml = e.translation
+        ? `<div class="zn-vertaling${fallback}">${escapeHtml(e.translation)}${e.usedFallback ? ' <span class="zn-fallback-label">NL</span>' : ''}</div>`
+        : '';
+      const metaParts = [escapeHtml(e.bron || '—')];
+      if (e.hoofdstuk) metaParts.push('§' + escapeHtml(e.hoofdstuk));
+      let meta = metaParts.join(' · ');
+      if (e.context) meta += `<span class="zn-chip">${escapeHtml(prettifyContext(e.context))}</span>`;
+      return `<div class="zn-card" data-tarifit="${escapeHtml(e.tarifit)}">`
+        + `<div class="zn-card-main">`
+        + `<div class="zn-tarifit">${escapeHtml(e.tarifit)}</div>`
+        + translationHtml
+        + `<div class="zn-meta">${meta}</div>`
+        + `</div>`
+        + `<button class="zn-copy" type="button">Copy</button>`
+        + `</div>`;
+    }
+
+    function renderList(entries) {
+      const container = document.getElementById('zinnenList');
+      if (entries.length === 0) {
+        container.innerHTML = '<div class="zn-empty">No sentences found for the current filters.</div>';
+        return;
+      }
+      container.innerHTML = `<div class="zn-list">${entries.map(renderEntry).join('')}</div>`;
+      container.querySelectorAll('.zn-copy').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const tarifit = btn.closest('.zn-card').dataset.tarifit;
+          copySentence(btn, tarifit);
+        });
+      });
+    }
+
+    function renderDialogues(entries) {
+      const container = document.getElementById('zinnenList');
+      const dialogueEntries = entries.filter(e => e.context === 'dialogues');
+      if (dialogueEntries.length === 0) {
+        container.innerHTML = '<div class="zn-empty">No dialogues found for the current filters.</div>';
+        return;
+      }
+      const byPage = {};
+      dialogueEntries.forEach(e => {
+        (byPage[e.bron] = byPage[e.bron] || []).push(e);
+      });
+      const pages = Object.keys(byPage).sort((a, b) => (pageNum(a) - pageNum(b)));
+      let html = '';
+      pages.forEach(bron => {
+        const lines = byPage[bron].sort((a, b) => a.idTag.localeCompare(b.idTag));
+        html += `<div class="zn-dialogue-card"><div class="zn-dialogue-title">Dialogue · ${escapeHtml(bron)}</div>`;
+        lines.forEach((e, i) => {
+          const side = i % 2 === 0 ? 'dlg-a' : 'dlg-b';
+          html += `<div class="zn-dialogue-line ${side}">`
+            + `<div class="zn-tarifit">${escapeHtml(e.tarifit)}</div>`
+            + (e.translation ? `<div class="zn-vertaling">${escapeHtml(e.translation)}</div>` : '')
+            + `</div>`;
+        });
+        html += `</div>`;
+      });
+      container.innerHTML = html;
+    }
+
+    function pageNum(bron) {
+      const m = (bron || '').match(/(\d+)/);
+      return m ? parseInt(m[1], 10) : 999999;
+    }
+
+    function updateStats(entries) {
+      document.getElementById('stats').textContent = `${entries.length} of ${ENTRIES.length} sentences`;
+    }
+
+    function applyFilters() {
+      const q = FILTER_QUERY.trim().toLowerCase();
+      const nq = q ? normalize(q) : '';
+      const filtered = ENTRIES.filter(e => {
+        if (FILTER_CONTEXT && e.context !== FILTER_CONTEXT) return false;
+        if (FILTER_HOOFDSTUK && e.hoofdstuk !== FILTER_HOOFDSTUK) return false;
+        if (FILTER_PAGE && String(e.pageNum) !== FILTER_PAGE) return false;
+        if (q) {
+          if (e.searchText.includes(nq)) return true;
+          if (e.translation.toLowerCase().includes(q)) return true;
+          return false;
+        }
+        return true;
+      });
+      if (VIEW === 'dialogen') {
+        renderDialogues(filtered);
+      } else {
+        renderList(filtered.slice().sort((a, b) => a.pageNum - b.pageNum || a.idTag.localeCompare(b.idTag)));
+      }
+      updateStats(filtered);
+      return filtered;
+    }
+
+    function setView(view) {
+      VIEW = view;
+      document.querySelectorAll('#viewToggle .zn-toggle-btn').forEach(b => {
+        b.classList.toggle('is-active', b.dataset.view === view);
+      });
+      document.getElementById('dialogueAssumption').style.display = view === 'dialogen' ? 'block' : 'none';
+      applyFilters();
+    }
+
+    function buildContextOptions(entries) {
+      const counts = {};
+      entries.forEach(e => { if (e.context) counts[e.context] = (counts[e.context] || 0) + 1; });
+      const select = document.getElementById('contextSelect');
+      Object.keys(counts).sort((a, b) => counts[b] - counts[a]).forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c;
+        opt.textContent = `${prettifyContext(c)} (${counts[c]})`;
+        select.appendChild(opt);
+      });
+    }
+
+    function buildHoofdstukOptions(entries) {
+      const values = new Set(entries.map(e => e.hoofdstuk).filter(Boolean));
+      if (values.size === 0) return;
+      document.getElementById('hoofdstukFilterGroup').style.display = '';
+      const select = document.getElementById('hoofdstukSelect');
+      Array.from(values).sort().forEach(h => {
+        const opt = document.createElement('option');
+        opt.value = h;
+        opt.textContent = '§' + h;
+        select.appendChild(opt);
+      });
+    }
+
+    function showError(html) {
+      document.getElementById('zinnenList').innerHTML = `<div class="zn-error">${html}</div>`;
+    }
+
+    fetchTarifitCSV('/assets/zinnen/zinnen.csv', {
+      onSuccess: rows => {
+        const dataRows = rows.slice(1);
+        ENTRIES = dataRows.filter(r => r.length >= 1 && r[0].trim()).map(r => {
+          const tarifit = r[0].trim();
+          const nl = (r[1] || '').trim();
+          const en = (r[2] || '').trim();
+          const hoofdstuk = (r[4] || '').trim();
+          const bron = (r[6] || '').trim();
+          const tags = (r[7] || '').trim();
+          const usedFallback = !en && !!nl;
+          return {
+            tarifit, nl, en, hoofdstuk, bron, tags,
+            translation: en || nl,
+            usedFallback,
+            context: extractTag(tags, 'context'),
+            idTag: extractTag(tags, 'id'),
+            pageNum: pageNum(bron),
+            searchText: normalize(tarifit),
+          };
+        });
+        buildContextOptions(ENTRIES);
+        buildHoofdstukOptions(ENTRIES);
+        applyFilters();
+
+        document.getElementById('searchBox').addEventListener('input', e => {
+          FILTER_QUERY = e.target.value;
+          applyFilters();
+        });
+        document.getElementById('contextSelect').addEventListener('change', e => {
+          FILTER_CONTEXT = e.target.value;
+          applyFilters();
+        });
+        document.getElementById('hoofdstukSelect').addEventListener('change', e => {
+          FILTER_HOOFDSTUK = e.target.value;
+          applyFilters();
+        });
+        document.getElementById('pageInput').addEventListener('input', e => {
+          FILTER_PAGE = e.target.value.trim();
+          applyFilters();
+        });
+        document.querySelectorAll('#viewToggle .zn-toggle-btn').forEach(b => {
+          b.addEventListener('click', () => setView(b.dataset.view));
+        });
+
+        const params = new URLSearchParams(location.search);
+        const les = params.get('les');
+        if (les) {
+          FILTER_QUERY = '';
+          // Lesson filter: show sentences whose lesson column matches (stap 3.2, later).
+        }
+      },
+      onFileProtocol: () => {
+        showError('<strong>The sentences cannot be loaded directly from your hard drive.</strong>' +
+          '<p>Browsers block <code>fetch()</code> on <code>file://</code> addresses for security reasons. Start the local server:</p>' +
+          '<p><code>.\\serve.ps1</code> in PowerShell, and then open <code>http://127.0.0.1:8080/zinnen.html</code>.</p>');
+      },
+      onOtherError: err => {
+        showError('<strong>The sentences could not be loaded.</strong>' +
+          `<p>Error: <code>${escapeHtml(err.message)}</code></p>` +
+          '<p>Check if <code>assets/zinnen/zinnen.csv</code> exists.</p>');
+      },
+    });
+  </script>
+  <script>
+    // Preserve scroll position when switching languages
+    document.querySelectorAll('.lang-switch a').forEach(function(a) {
+      a.addEventListener('click', function(e) {
+        if (window.location.hash) {
+          e.preventDefault();
+          window.location.href = a.getAttribute('href') + window.location.hash;
+        }
+      });
+    });
+  </script>
+</body>
+</html>

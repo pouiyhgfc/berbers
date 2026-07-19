@@ -1,0 +1,664 @@
+[
+ {
+  "norm": "di",
+  "cursus_forms": {
+   "ḏi": 8,
+   "di": 1
+  },
+  "uitleg_forms": {
+   "ḏi": 14
+  },
+  "totaal": 23
+ },
+ {
+  "norm": "taddart",
+  "cursus_forms": {
+   "ṯaḏḏarṯ": 11
+  },
+  "uitleg_forms": {
+   "ṯaddarṯ": 1,
+   "ṯaḏḏarṯ": 9
+  },
+  "totaal": 21
+ },
+ {
+  "norm": "bra",
+  "cursus_forms": {
+   "břa": 5
+  },
+  "uitleg_forms": {
+   "ḇřa": 13
+  },
+  "totaal": 18
+ },
+ {
+  "norm": "tuɣa",
+  "cursus_forms": {
+   "tuɣa": 2,
+   "ṯuɣa": 8
+  },
+  "uitleg_forms": {
+   "ṯuɣa": 7
+  },
+  "totaal": 17
+ },
+ {
+  "norm": "ameqqran",
+  "cursus_forms": {
+   "ameqqran": 1,
+   "ameqqṛan": 6
+  },
+  "uitleg_forms": {
+   "ameqqran": 9
+  },
+  "totaal": 16
+ },
+ {
+  "norm": "tamɣart",
+  "cursus_forms": {
+   "ṯamɣārṯ": 6,
+   "tamɣart": 1
+  },
+  "uitleg_forms": {
+   "ṯamɣārṯ": 7
+  },
+  "totaal": 14
+ },
+ {
+  "norm": "mara",
+  "cursus_forms": {
+   "mařa": 3,
+   "Mara": 2
+  },
+  "uitleg_forms": {
+   "mařa": 4
+  },
+  "totaal": 9
+ },
+ {
+  "norm": "tmazixt",
+  "cursus_forms": {
+   "ṯmazixṯ": 2
+  },
+  "uitleg_forms": {
+   "ṯmazixt": 1,
+   "ṯmazixṯ": 5
+  },
+  "totaal": 8
+ },
+ {
+  "norm": "trata",
+  "cursus_forms": {
+   "ṯřaṯa": 3
+  },
+  "uitleg_forms": {
+   "ṯřaṯa": 2,
+   "ṯřata": 3
+  },
+  "totaal": 8
+ },
+ {
+  "norm": "mri",
+  "cursus_forms": {
+   "mři": 2,
+   "Mri": 1,
+   "mri": 1
+  },
+  "uitleg_forms": {
+   "mři": 4
+  },
+  "totaal": 8
+ },
+ {
+  "norm": "d-yusin",
+  "cursus_forms": {
+   "d-yusin": 4
+  },
+  "uitleg_forms": {
+   "ḏ-yusin": 4
+  },
+  "totaal": 8
+ },
+ {
+  "norm": "teqqim",
+  "cursus_forms": {
+   "ṯeqqim": 3
+  },
+  "uitleg_forms": {
+   "teqqim": 2,
+   "ṯeqqim": 2
+  },
+  "totaal": 7
+ },
+ {
+  "norm": "aked",
+  "cursus_forms": {
+   "aked": 2
+  },
+  "uitleg_forms": {
+   "akeḏ": 5
+  },
+  "totaal": 7
+ },
+ {
+  "norm": "jjdid",
+  "cursus_forms": {
+   "jjdid": 4
+  },
+  "uitleg_forms": {
+   "jjḏiḏ": 3
+  },
+  "totaal": 7
+ },
+ {
+  "norm": "ttmenyat",
+  "cursus_forms": {
+   "ṯṯmenyaṯ": 2
+  },
+  "uitleg_forms": {
+   "ttmenyaṯ": 4
+  },
+  "totaal": 6
+ },
+ {
+  "norm": "ttumubin",
+  "cursus_forms": {
+   "ṯṯumubin": 1
+  },
+  "uitleg_forms": {
+   "ttumubin": 5
+  },
+  "totaal": 6
+ },
+ {
+  "norm": "tameqqrant",
+  "cursus_forms": {
+   "ṯameqqṛanṯ": 3
+  },
+  "uitleg_forms": {
+   "ṯameqqranṯ": 3
+  },
+  "totaal": 6
+ },
+ {
+  "norm": "adef",
+  "cursus_forms": {
+   "adef": 2
+  },
+  "uitleg_forms": {
+   "aḏef": 4
+  },
+  "totaal": 6
+ },
+ {
+  "norm": "tɣir",
+  "cursus_forms": {
+   "ṯɣiř": 2
+  },
+  "uitleg_forms": {
+   "tɣiř": 4
+  },
+  "totaal": 6
+ },
+ {
+  "norm": "qqiment",
+  "cursus_forms": {
+   "qqimenṯ": 3
+  },
+  "uitleg_forms": {
+   "qqiment": 2
+  },
+  "totaal": 5
+ },
+ {
+  "norm": "titt",
+  "cursus_forms": {
+   "ṯitṯ": 2
+  },
+  "uitleg_forms": {
+   "ṯitt": 3
+  },
+  "totaal": 5
+ },
+ {
+  "norm": "tiri",
+  "cursus_forms": {
+   "ṯiři": 1
+  },
+  "uitleg_forms": {
+   "ṯiři": 1,
+   "tiři": 3
+  },
+  "totaal": 5
+ },
+ {
+  "norm": "tameǧatc",
+  "cursus_forms": {
+   "ṯameǧatc": 1
+  },
+  "uitleg_forms": {
+   "tameǧatc": 2,
+   "ṯameǧatc": 2
+  },
+  "totaal": 5
+ },
+ {
+  "norm": "ɛad",
+  "cursus_forms": {
+   "ɛad": 3
+  },
+  "uitleg_forms": {
+   "ɛaḏ": 2
+  },
+  "totaal": 5
+ },
+ {
+  "norm": "teffeɣ",
+  "cursus_forms": {
+   "ṯeffeɣ": 2
+  },
+  "uitleg_forms": {
+   "teffeɣ": 1,
+   "ṯeffeɣ": 1
+  },
+  "totaal": 4
+ },
+ {
+  "norm": "din",
+  "cursus_forms": {
+   "ḏin": 1
+  },
+  "uitleg_forms": {
+   "ḏin": 2,
+   "din": 1
+  },
+  "totaal": 4
+ },
+ {
+  "norm": "wda",
+  "cursus_forms": {
+   "wda": 1
+  },
+  "uitleg_forms": {
+   "wḏa": 3
+  },
+  "totaal": 4
+ },
+ {
+  "norm": "yetxemmem",
+  "cursus_forms": {
+   "yeṯxemmem": 2
+  },
+  "uitleg_forms": {
+   "yetxemmem": 2
+  },
+  "totaal": 4
+ },
+ {
+  "norm": "texsed",
+  "cursus_forms": {
+   "ṯexseḏ": 1,
+   "ṯexsed": 1
+  },
+  "uitleg_forms": {
+   "ṯexseḏ": 2
+  },
+  "totaal": 4
+ },
+ {
+  "norm": "degg",
+  "cursus_forms": {
+   "degg": 2
+  },
+  "uitleg_forms": {
+   "ḏegg": 2
+  },
+  "totaal": 4
+ },
+ {
+  "norm": "teqqiment",
+  "cursus_forms": {
+   "ṯeqqimenṯ": 2
+  },
+  "uitleg_forms": {
+   "teqqiment": 1
+  },
+  "totaal": 3
+ },
+ {
+  "norm": "iduraa",
+  "cursus_forms": {
+   "iduraa": 1
+  },
+  "uitleg_forms": {
+   "iḏuraa": 1,
+   "iduraa": 1
+  },
+  "totaal": 3
+ },
+ {
+  "norm": "udef",
+  "cursus_forms": {
+   "udef": 1
+  },
+  "uitleg_forms": {
+   "uḏef": 2
+  },
+  "totaal": 3
+ },
+ {
+  "norm": "bda",
+  "cursus_forms": {
+   "bda": 1
+  },
+  "uitleg_forms": {
+   "ḇḏa": 2
+  },
+  "totaal": 3
+ },
+ {
+  "norm": "adbib",
+  "cursus_forms": {
+   "adbib": 2
+  },
+  "uitleg_forms": {
+   "aḏbib": 1
+  },
+  "totaal": 3
+ },
+ {
+  "norm": "tuɣa-c",
+  "cursus_forms": {
+   "tuɣa-c": 1,
+   "ṯuɣa-c": 1
+  },
+  "uitleg_forms": {
+   "ṯuɣa-c": 1
+  },
+  "totaal": 3
+ },
+ {
+  "norm": "tuɣa-ayi",
+  "cursus_forms": {
+   "tuɣa-ayi": 1,
+   "ṯuɣa-ayi": 1
+  },
+  "uitleg_forms": {
+   "ṯuɣa-ayi": 1
+  },
+  "totaal": 3
+ },
+ {
+  "norm": "tuyi",
+  "cursus_forms": {
+   "tuyi": 1,
+   "ṯuyi": 1
+  },
+  "uitleg_forms": {
+   "ṯuyi": 1
+  },
+  "totaal": 3
+ },
+ {
+  "norm": "zzu",
+  "cursus_forms": {
+   "zzu": 1
+  },
+  "uitleg_forms": {
+   "ẓẓu": 1,
+   "zzu": 1
+  },
+  "totaal": 3
+ },
+ {
+  "norm": "tessen",
+  "cursus_forms": {
+   "ṯessen": 2
+  },
+  "uitleg_forms": {
+   "tessen": 1
+  },
+  "totaal": 3
+ },
+ {
+  "norm": "tettised",
+  "cursus_forms": {
+   "ṯettised": 2
+  },
+  "uitleg_forms": {
+   "ṯettiseḏ": 1
+  },
+  "totaal": 3
+ },
+ {
+  "norm": "dinni",
+  "cursus_forms": {
+   "ḏinni": 1
+  },
+  "uitleg_forms": {
+   "ḏinni": 1,
+   "dinni": 1
+  },
+  "totaal": 3
+ },
+ {
+  "norm": "remmed",
+  "cursus_forms": {
+   "řemmed": 1
+  },
+  "uitleg_forms": {
+   "řemmeḏ": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "takeccutt",
+  "cursus_forms": {
+   "ṯakeccutṯ": 1
+  },
+  "uitleg_forms": {
+   "ṯakeccutt": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "azru",
+  "cursus_forms": {
+   "azru": 1
+  },
+  "uitleg_forms": {
+   "azṛu": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "tittawin",
+  "cursus_forms": {
+   "ṯitṯawin": 1
+  },
+  "uitleg_forms": {
+   "ṯiṭṭawin": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "ttirid",
+  "cursus_forms": {
+   "ṯṯiřid": 1
+  },
+  "uitleg_forms": {
+   "ttiřid": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "ttettsed",
+  "cursus_forms": {
+   "ṯṯettsed": 1
+  },
+  "uitleg_forms": {
+   "ttettsed": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "tetrud",
+  "cursus_forms": {
+   "ṯeṯrud": 1
+  },
+  "uitleg_forms": {
+   "ṯetrud": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "wdi",
+  "cursus_forms": {
+   "wdi": 1
+  },
+  "uitleg_forms": {
+   "wḏi": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "rmid",
+  "cursus_forms": {
+   "řmid": 1
+  },
+  "uitleg_forms": {
+   "řmiḏ": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "udif",
+  "cursus_forms": {
+   "udif": 1
+  },
+  "uitleg_forms": {
+   "uḏif": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "taɣyutc",
+  "cursus_forms": {
+   "ṯaɣyutc": 1
+  },
+  "uitleg_forms": {
+   "taɣyutc": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "tanwatc",
+  "cursus_forms": {
+   "ṯanwatc": 1
+  },
+  "uitleg_forms": {
+   "tanwatc": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "tiferfrin",
+  "cursus_forms": {
+   "ṯifeřfrin": 1
+  },
+  "uitleg_forms": {
+   "ṯifeřfřin": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "taɛeddist",
+  "cursus_forms": {
+   "ṯaɛeddisṯ": 1
+  },
+  "uitleg_forms": {
+   "ṯaɛeḏḏisṯ": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "iad",
+  "cursus_forms": {
+   "iaḍ": 1
+  },
+  "uitleg_forms": {
+   "iaḏ": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "ssiad",
+  "cursus_forms": {
+   "ssiaḍ": 1
+  },
+  "uitleg_forms": {
+   "ssiaḏ": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "tɣir-ayi",
+  "cursus_forms": {
+   "ṯɣiř-ayi": 1
+  },
+  "uitleg_forms": {
+   "tɣiř-ayi": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "tɣir-asen",
+  "cursus_forms": {
+   "ṯɣiř-asen": 1
+  },
+  "uitleg_forms": {
+   "tɣiř-asen": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "dayi-tɣir",
+  "cursus_forms": {
+   "ḏayi-ṯɣiř": 1
+  },
+  "uitleg_forms": {
+   "ḏayi-tɣiř": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "ayarraf",
+  "cursus_forms": {
+   "ayarraf": 1
+  },
+  "uitleg_forms": {
+   "ayaṛṛaf": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "d-yiwden",
+  "cursus_forms": {
+   "d-yiwden": 1
+  },
+  "uitleg_forms": {
+   "ḏ-yiwden": 1
+  },
+  "totaal": 2
+ },
+ {
+  "norm": "d-yesya",
+  "cursus_forms": {
+   "d-yesya": 1
+  },
+  "uitleg_forms": {
+   "ḏ-yesya": 1
+  },
+  "totaal": 2
+ }
+]

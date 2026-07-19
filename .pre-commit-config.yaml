@@ -1,0 +1,18 @@
+# Drift-borging (stap 3.6): regenereert _ai/ en bewaakt drift + NL/EN-pariteit bij elke commit.
+#
+# Installeren (eenmalig):
+#   pip install pre-commit
+#   pre-commit install
+#
+# Bewerkt iemand met de hand een _ai/-bestand, dan regenereert `make check` het uit de bron;
+# `git diff --exit-code _ai/` ziet het verschil en de commit FAALT. Zo blokkeert de hook de
+# oude werkwijze. De hook draait alleen als de bron of een gegenereerd bestand verandert.
+repos:
+  - repo: local
+    hooks:
+      - id: regen-en-check
+        name: Regenereer _ai/ en controleer drift + NL/EN-pariteit
+        entry: make check
+        language: system
+        pass_filenames: false
+        files: '^(assets/woordenlijst/woordenlijst\.csv|nl/.*\.html|en/.*\.html|_ai/.*\.md|_project/scripts/.*\.py|Makefile)$'

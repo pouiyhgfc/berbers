@@ -1,0 +1,26 @@
+name: check-generated
+
+# Stap 3.6 — bewaakt bij elke push/PR dat _ai/ niet achterloopt op de bron en dat de
+# NL/EN-Tarifit-pariteit niet onverwacht wijzigt. Draait dezelfde `make check` als lokaal.
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install beautifulsoup4 lxml
+
+      - name: make check (regenereer _ai/ + drift- en pariteitscheck)
+        run: make check

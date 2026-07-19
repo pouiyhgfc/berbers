@@ -1,0 +1,36 @@
+Les 01 (Klanken &amp; alfabet, niveau 1): uitleg=#h3 (Hoofdstuk 2: Klanken, schrijfwijze &amp; uitspraak) boekp=📖 Boek p. 21–33 | oef=#oef-les-01 | prev=None next=les-02 -> OK
+Les 02 (Persoonlijke voornaamwoorden, niveau 1): uitleg=#h6 (Hoofdstuk 5: Voornaamwoorden) boekp=📖 Boek p. 65–71 | oef=#oef-les-02 | prev=les-01 next=les-03 -> OK
+Les 03 ("Ik ben..." — zinnen zonder werkwoord, niveau 1): uitleg=#h14 (Hoofdstuk 13: "Be"-constructies) boekp=📖 Boek p. 113–127 | oef=#oef-les-03 | prev=les-02 next=les-04 -> OK
+Les 04 (Familiewoorden, niveau 1): uitleg=#h4 (Hoofdstuk 3: Naamwoorden, sectie 3.6) boekp=📖 Boek p. 35–50 | oef=#oef-les-04 | prev=les-03 next=les-05 -> OK
+Les 05 (Begroetingen &amp; dagelijkse uitdrukkingen, niveau 1): uitleg=#h9 (Hoofdstuk 8: Pseudo-werkwoorden) boekp=📖 Boek p. 83–86 | oef=#oef-les-05 | prev=les-04 next=les-06 -> OK
+Les 06 (Wat is een werkwoord in Tarifit?, niveau 2): uitleg=#h5 (Hoofdstuk 4: Werkwoorden) boekp=📖 Boek p. 51–64 | oef=#oef-les-06 | prev=les-05 next=les-07 -> OK
+Les 07 (Vervoeging: ik / jij / hij / zij, niveau 2): uitleg=#h5 (Hoofdstuk 4: Werkwoorden) boekp=📖 Boek p. 51–64 | oef=#oef-les-07 | prev=les-06 next=les-08 -> OK
+Les 08 (Vervoeging: wij / jullie / zij, niveau 2): uitleg=#h5 (Hoofdstuk 4: Werkwoorden) boekp=📖 Boek p. 51–64 | oef=#oef-les-08 | prev=les-07 next=les-09 -> OK
+Les 09 (Aspect: afgerond vs lopend, niveau 2): uitleg=#h5 (Hoofdstuk 4 + 13) boekp=📖 Boek p. 51–64 | oef=#oef-les-09 | prev=les-08 next=les-10 -> OK
+Les 10 (Toekomst met <span class="tar">ad</span>, niveau 2): uitleg=#h8 (Hoofdstuk 7: Verbale complex) boekp=📖 Boek p. 77–82 | oef=#oef-les-10 | prev=les-09 next=les-11 -> OK
+Les 11 (Mannelijk vs vrouwelijk, niveau 3): uitleg=#h4 (Hoofdstuk 3: Naamwoorden) boekp=📖 Boek p. 35–50 | oef=#oef-les-11 | prev=les-10 next=les-12 -> OK
+Les 12 (Enkelvoud vs meervoud, niveau 3): uitleg=#h4 (Hoofdstuk 3: Naamwoorden) boekp=📖 Boek p. 35–50 | oef=#oef-les-12 | prev=les-11 next=les-13 -> OK
+Les 13 ("Mijn, jouw, zijn, haar...", niveau 3): uitleg=#h6 (Hoofdstuk 5: Voornaamwoorden) boekp=📖 Boek p. 65–71 | oef=#oef-les-13 | prev=les-12 next=les-14 -> OK
+Les 14 ("Deze" en "die", niveau 3): uitleg=#h7 (Hoofdstuk 6: Aanwijzende voornaamwoorden) boekp=📖 Boek p. 73–75 | oef=#oef-les-14 | prev=les-13 next=les-15 -> OK
+Les 15 (Vrije &amp; verbonden staat, niveau 3): uitleg=#h4 (Hoofdstuk 3: Naamwoorden) boekp=📖 Boek p. 35–50 | oef=#oef-les-15 | prev=les-14 next=les-16 -> OK
+Les 16 (Zinsvolgorde: VSO, niveau 4): uitleg=#h15 (Hoofdstuk 14: Zinsbouw) boekp=📖 Boek p. 129–134 | oef=#oef-les-16 | prev=les-15 next=les-17 -> OK
+Les 17 (Voorzetsels, niveau 4): uitleg=#h10 (Hoofdstuk 9: Voorzetsels) boekp=📖 Boek p. 87–96 | oef=#oef-les-17 | prev=les-16 next=les-18 -> OK
+Les 18 (Telwoorden 1–10, niveau 4): uitleg=#h11 (Hoofdstuk 10: Telwoorden) boekp=📖 Boek p. 97–102 | oef=#oef-les-18 | prev=les-17 next=les-19 -> OK
+Les 19 (Vraagwoorden, niveau 4): uitleg=#h13 (Hoofdstuk 12: Vragen stellen) boekp=📖 Boek p. 107–109 | oef=#oef-les-19 | prev=les-18 next=les-20 -> OK
+Les 20 (Ontkenning: "niet", niveau 4): uitleg=#h14 (Hoofdstuk 13: Ontkenning) boekp=📖 Boek p. 113–127 | oef=#oef-les-20 | prev=les-19 next=les-21 -> OK
+Les 21 (Willen, kunnen, beginnen, niveau 5): uitleg=#h17 (Hoofdstuk 16: Hulpwerkwoorden) boekp=📖 Boek p. 139–140 | oef=#oef-les-21 | prev=les-20 next=les-22 -> OK
+Les 22 (Voornaamwoorden-suffixen, niveau 5): uitleg=#h6 (Hoofdstuk 5: Voornaamwoorden) boekp=📖 Boek p. 65–71 | oef=#oef-les-22 | prev=les-21 next=les-23 -> OK
+Les 23 (En, of, maar, als, niveau 5): uitleg=#h18 (Hoofdstuk 17: Voegwoorden) boekp=📖 Boek p. 141–146 | oef=#oef-les-23 | prev=les-22 next=les-24 -> OK
+Les 24 (Tijd-uitdrukkingen, niveau 5): uitleg=#h14 (Hoofdstuk 13 + 10) boekp=📖 Boek p. 113–127 | oef=#oef-les-24 | prev=les-23 next=les-25 -> OK
+Les 25 (Bijzondere uitspraak: gevocaliseerde R, niveau 6): uitleg=#h3 (Hoofdstuk 2: Klanken, schrijfwijze &amp; uitspraak) boekp=📖 Boek p. 21–33 | oef=#oef-les-25 | prev=les-24 next=les-26 -> OK
+Les 26 (Bijvoeglijke naamwoorden, niveau 6): uitleg=#h12 (Hoofdstuk 11: Bijvoeglijke naamwoorden) boekp=📖 Boek p. 103–105 | oef=#oef-les-26 | prev=les-25 next=les-27 -> OK
+Les 27 (Collectief vs telbaar — fruit, groente, dieren, niveau 6): uitleg=#h4 (Hoofdstuk 3: Naamwoorden) boekp=📖 Boek p. 35–50 | oef=#oef-les-27 | prev=les-26 next=les-28 -> OK
+Les 28 (Tribale namen, <span class="tar">bu-</span>, <span class="tar">mu-</span>, niveau 6): uitleg=#h4 (Hoofdstuk 3: Naamwoorden) boekp=📖 Boek p. 35–50 | oef=#oef-les-28 | prev=les-27 next=les-29 -> OK
+Les 29 (Causatief: laat iemand X doen, niveau 7): uitleg=#h5 (Hoofdstuk 4.2.2) boekp=📖 Boek p. 51–64 | oef=#oef-les-29 | prev=les-28 next=les-30 -> OK
+Les 30 (Middel <span class="tar">mm-</span> en passief <span class="tar">twa-</span>, niveau 7): uitleg=#h5 (Hoofdstuk 4.2.3-4.2.5) boekp=📖 Boek p. 51–64 | oef=#oef-les-30 | prev=les-29 next=les-31 -> OK
+Les 31 (Pseudo-werkwoorden: <span class="tar">aqqa, ṯɣiř, ay</span>, niveau 7): uitleg=#h9 (Hoofdstuk 8: Pseudo-werkwoorden) boekp=📖 Boek p. 83–86 | oef=#oef-les-31 | prev=les-30 next=les-32 -> OK
+Les 32 (Betrekkelijke bijzinnen ("die..."), niveau 7): uitleg=#h16 (Hoofdstuk 15: Betrekkelijke bijzinnen) boekp=📖 Boek p. 135–138 | oef=#oef-les-32 | prev=les-31 next=les-33 -> OK
+Les 33 (Cleft-zinnen ("het is X die..."), niveau 7): uitleg=#h16 (Hoofdstuk 15.3) boekp=📖 Boek p. 135–138 | oef=#oef-les-33 | prev=les-32 next=les-34 -> OK
+Les 34 (Een verhaal lezen — over sprookjes vertellen, niveau 8): uitleg=#h19 (Hoofdstuk 18: Voorbeeldteksten) boekp=📖 Boek p. 147+ | oef=#oef-les-34 | prev=les-33 next=les-35 -> OK
+Les 35 (Het sprookje van de parel-jongen, niveau 8): uitleg=#h19 (Hoofdstuk 18: Voorbeeldteksten) boekp=📖 Boek p. 147+ | oef=#oef-les-35 | prev=les-34 next=les-36 -> OK
+Les 36 (Praktische dialogen, niveau 8): uitleg=#h19 (Hoofdstuk 18: Voorbeeldteksten &amp; dialogen) boekp=📖 Boek p. 147+ | oef=#oef-les-36 | prev=les-35 next=None -> OK

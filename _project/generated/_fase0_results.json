@@ -1,0 +1,520 @@
+{
+ "cursus_lessons": {
+  "01": {
+   "niveau": "1",
+   "titel": "Klanken &amp; alfabet",
+   "uitleg_anchor": "h3",
+   "uitleg_crossname": "Hoofdstuk 2: Klanken, schrijfwijze &amp; uitspraak",
+   "oef_anchor": "oef-les-01",
+   "prev_target": null,
+   "prev_title": null,
+   "next_target": "les-02",
+   "next_title": "Voornaamwoorden"
+  },
+  "02": {
+   "niveau": "1",
+   "titel": "Persoonlijke voornaamwoorden",
+   "uitleg_anchor": "h6",
+   "uitleg_crossname": "Hoofdstuk 5: Voornaamwoorden",
+   "oef_anchor": "oef-les-02",
+   "prev_target": "les-01",
+   "prev_title": "Klanken &amp; alfabet",
+   "next_target": "les-03",
+   "next_title": "\"Ik ben...\""
+  },
+  "03": {
+   "niveau": "1",
+   "titel": "\"Ik ben...\" — zinnen zonder werkwoord",
+   "uitleg_anchor": "h14",
+   "uitleg_crossname": "Hoofdstuk 13: \"Be\"-constructies",
+   "oef_anchor": "oef-les-03",
+   "prev_target": "les-02",
+   "prev_title": "Voornaamwoorden",
+   "next_target": "les-04",
+   "next_title": "Familiewoorden"
+  },
+  "04": {
+   "niveau": "1",
+   "titel": "Familiewoorden",
+   "uitleg_anchor": "h4",
+   "uitleg_crossname": "Hoofdstuk 3: Naamwoorden, sectie 3.6",
+   "oef_anchor": "oef-les-04",
+   "prev_target": "les-03",
+   "prev_title": "\"Ik ben...\"",
+   "next_target": "les-05",
+   "next_title": "Begroetingen"
+  },
+  "05": {
+   "niveau": "1",
+   "titel": "Begroetingen &amp; dagelijkse uitdrukkingen",
+   "uitleg_anchor": "h9",
+   "uitleg_crossname": "Hoofdstuk 8: Pseudo-werkwoorden",
+   "oef_anchor": "oef-les-05",
+   "prev_target": "les-04",
+   "prev_title": "Familiewoorden",
+   "next_target": "les-06",
+   "next_title": "Wat is een werkwoord"
+  },
+  "06": {
+   "niveau": "2",
+   "titel": "Wat is een werkwoord in Tarifit?",
+   "uitleg_anchor": "h5",
+   "uitleg_crossname": "Hoofdstuk 4: Werkwoorden",
+   "oef_anchor": "oef-les-06",
+   "prev_target": "les-05",
+   "prev_title": "Begroetingen",
+   "next_target": "les-07",
+   "next_title": "Vervoeging ik/jij/hij/zij"
+  },
+  "07": {
+   "niveau": "2",
+   "titel": "Vervoeging: ik / jij / hij / zij",
+   "uitleg_anchor": "h5",
+   "uitleg_crossname": "Hoofdstuk 4: Werkwoorden",
+   "oef_anchor": "oef-les-07",
+   "prev_target": "les-06",
+   "prev_title": "Wat is een werkwoord",
+   "next_target": "les-08",
+   "next_title": "Vervoeging wij/jullie/zij"
+  },
+  "08": {
+   "niveau": "2",
+   "titel": "Vervoeging: wij / jullie / zij",
+   "uitleg_anchor": "h5",
+   "uitleg_crossname": "Hoofdstuk 4: Werkwoorden",
+   "oef_anchor": "oef-les-08",
+   "prev_target": "les-07",
+   "prev_title": "Vervoeging ik/jij/hij/zij",
+   "next_target": "les-09",
+   "next_title": "Aspect"
+  },
+  "09": {
+   "niveau": "2",
+   "titel": "Aspect: afgerond vs lopend",
+   "uitleg_anchor": "h5",
+   "uitleg_crossname": "Hoofdstuk 4 + 13",
+   "oef_anchor": "oef-les-09",
+   "prev_target": "les-08",
+   "prev_title": "Vervoeging wij/jullie/zij",
+   "next_target": "les-10",
+   "next_title": "Toekomst met <em>ad</em>"
+  },
+  "10": {
+   "niveau": "2",
+   "titel": "Toekomst met <span class=\"tar\">ad</span>",
+   "uitleg_anchor": "h8",
+   "uitleg_crossname": "Hoofdstuk 7: Verbale complex",
+   "oef_anchor": "oef-les-10",
+   "prev_target": "les-09",
+   "prev_title": "Aspect",
+   "next_target": "les-11",
+   "next_title": "Mannelijk vs vrouwelijk"
+  },
+  "11": {
+   "niveau": "3",
+   "titel": "Mannelijk vs vrouwelijk",
+   "uitleg_anchor": "h4",
+   "uitleg_crossname": "Hoofdstuk 3: Naamwoorden",
+   "oef_anchor": "oef-les-11",
+   "prev_target": "les-10",
+   "prev_title": "Toekomst met <em>ad</em>",
+   "next_target": "les-12",
+   "next_title": "Enkelvoud vs meervoud"
+  },
+  "12": {
+   "niveau": "3",
+   "titel": "Enkelvoud vs meervoud",
+   "uitleg_anchor": "h4",
+   "uitleg_crossname": "Hoofdstuk 3: Naamwoorden",
+   "oef_anchor": "oef-les-12",
+   "prev_target": "les-11",
+   "prev_title": "Mannelijk vs vrouwelijk",
+   "next_target": "les-13",
+   "next_title": "\"Mijn, jouw, zijn...\""
+  },
+  "13": {
+   "niveau": "3",
+   "titel": "\"Mijn, jouw, zijn, haar...\"",
+   "uitleg_anchor": "h6",
+   "uitleg_crossname": "Hoofdstuk 5: Voornaamwoorden",
+   "oef_anchor": "oef-les-13",
+   "prev_target": "les-12",
+   "prev_title": "Enkelvoud vs meervoud",
+   "next_target": "les-14",
+   "next_title": "\"Deze\" en \"die\""
+  },
+  "14": {
+   "niveau": "3",
+   "titel": "\"Deze\" en \"die\"",
+   "uitleg_anchor": "h7",
+   "uitleg_crossname": "Hoofdstuk 6: Aanwijzende voornaamwoorden",
+   "oef_anchor": "oef-les-14",
+   "prev_target": "les-13",
+   "prev_title": "\"Mijn, jouw, zijn...\"",
+   "next_target": "les-15",
+   "next_title": "Vrije &amp; verbonden staat"
+  },
+  "15": {
+   "niveau": "3",
+   "titel": "Vrije &amp; verbonden staat",
+   "uitleg_anchor": "h4",
+   "uitleg_crossname": "Hoofdstuk 3: Naamwoorden",
+   "oef_anchor": "oef-les-15",
+   "prev_target": "les-14",
+   "prev_title": "\"Deze\" en \"die\"",
+   "next_target": "les-16",
+   "next_title": "Zinsvolgorde"
+  },
+  "16": {
+   "niveau": "4",
+   "titel": "Zinsvolgorde: VSO",
+   "uitleg_anchor": "h15",
+   "uitleg_crossname": "Hoofdstuk 14: Zinsbouw",
+   "oef_anchor": "oef-les-16",
+   "prev_target": "les-15",
+   "prev_title": "Vrije &amp; verbonden staat",
+   "next_target": "les-17",
+   "next_title": "Voorzetsels"
+  },
+  "17": {
+   "niveau": "4",
+   "titel": "Voorzetsels",
+   "uitleg_anchor": "h10",
+   "uitleg_crossname": "Hoofdstuk 9: Voorzetsels",
+   "oef_anchor": "oef-les-17",
+   "prev_target": "les-16",
+   "prev_title": "Zinsvolgorde",
+   "next_target": "les-18",
+   "next_title": "Telwoorden"
+  },
+  "18": {
+   "niveau": "4",
+   "titel": "Telwoorden 1–10",
+   "uitleg_anchor": "h11",
+   "uitleg_crossname": "Hoofdstuk 10: Telwoorden",
+   "oef_anchor": "oef-les-18",
+   "prev_target": "les-17",
+   "prev_title": "Voorzetsels",
+   "next_target": "les-19",
+   "next_title": "Vraagwoorden"
+  },
+  "19": {
+   "niveau": "4",
+   "titel": "Vraagwoorden",
+   "uitleg_anchor": "h13",
+   "uitleg_crossname": "Hoofdstuk 12: Vragen stellen",
+   "oef_anchor": "oef-les-19",
+   "prev_target": "les-18",
+   "prev_title": "Telwoorden",
+   "next_target": "les-20",
+   "next_title": "Ontkenning"
+  },
+  "20": {
+   "niveau": "4",
+   "titel": "Ontkenning: \"niet\"",
+   "uitleg_anchor": "h14",
+   "uitleg_crossname": "Hoofdstuk 13: Ontkenning",
+   "oef_anchor": "oef-les-20",
+   "prev_target": "les-19",
+   "prev_title": "Vraagwoorden",
+   "next_target": "les-21",
+   "next_title": "Willen, kunnen, beginnen"
+  },
+  "21": {
+   "niveau": "5",
+   "titel": "Willen, kunnen, beginnen",
+   "uitleg_anchor": "h17",
+   "uitleg_crossname": "Hoofdstuk 16: Hulpwerkwoorden",
+   "oef_anchor": "oef-les-21",
+   "prev_target": "les-20",
+   "prev_title": "Ontkenning",
+   "next_target": "les-22",
+   "next_title": "Voornaamwoorden-suffixen"
+  },
+  "22": {
+   "niveau": "5",
+   "titel": "Voornaamwoorden-suffixen",
+   "uitleg_anchor": "h6",
+   "uitleg_crossname": "Hoofdstuk 5: Voornaamwoorden",
+   "oef_anchor": "oef-les-22",
+   "prev_target": "les-21",
+   "prev_title": "Willen, kunnen, beginnen",
+   "next_target": "les-23",
+   "next_title": "En, of, maar, als"
+  },
+  "23": {
+   "niveau": "5",
+   "titel": "En, of, maar, als",
+   "uitleg_anchor": "h18",
+   "uitleg_crossname": "Hoofdstuk 17: Voegwoorden",
+   "oef_anchor": "oef-les-23",
+   "prev_target": "les-22",
+   "prev_title": "Voornaamwoorden-suffixen",
+   "next_target": "les-24",
+   "next_title": "Tijd-uitdrukkingen"
+  },
+  "24": {
+   "niveau": "5",
+   "titel": "Tijd-uitdrukkingen",
+   "uitleg_anchor": "h14",
+   "uitleg_crossname": "Hoofdstuk 13 + 10",
+   "oef_anchor": "oef-les-24",
+   "prev_target": "les-23",
+   "prev_title": "En, of, maar, als",
+   "next_target": "les-25",
+   "next_title": "Bijzondere uitspraak"
+  },
+  "25": {
+   "niveau": "6",
+   "titel": "Bijzondere uitspraak: gevocaliseerde R",
+   "uitleg_anchor": "h3",
+   "uitleg_crossname": "Hoofdstuk 2: Klanken, schrijfwijze &amp; uitspraak",
+   "oef_anchor": "oef-les-25",
+   "prev_target": "les-24",
+   "prev_title": "Tijd-uitdrukkingen",
+   "next_target": "les-26",
+   "next_title": "Bijvoeglijke naamwoorden"
+  },
+  "26": {
+   "niveau": "6",
+   "titel": "Bijvoeglijke naamwoorden",
+   "uitleg_anchor": "h12",
+   "uitleg_crossname": "Hoofdstuk 11: Bijvoeglijke naamwoorden",
+   "oef_anchor": "oef-les-26",
+   "prev_target": "les-25",
+   "prev_title": "Bijzondere uitspraak",
+   "next_target": "les-27",
+   "next_title": "Collectief vs telbaar"
+  },
+  "27": {
+   "niveau": "6",
+   "titel": "Collectief vs telbaar — fruit, groente, dieren",
+   "uitleg_anchor": "h4",
+   "uitleg_crossname": "Hoofdstuk 3: Naamwoorden",
+   "oef_anchor": "oef-les-27",
+   "prev_target": "les-26",
+   "prev_title": "Bijvoeglijke naamwoorden",
+   "next_target": "les-28",
+   "next_title": "Tribale namen"
+  },
+  "28": {
+   "niveau": "6",
+   "titel": "Tribale namen, <span class=\"tar\">bu-</span>, <span class=\"tar\">mu-</span>",
+   "uitleg_anchor": "h4",
+   "uitleg_crossname": "Hoofdstuk 3: Naamwoorden",
+   "oef_anchor": "oef-les-28",
+   "prev_target": "les-27",
+   "prev_title": "Collectief vs telbaar",
+   "next_target": "les-29",
+   "next_title": "Causatief"
+  },
+  "29": {
+   "niveau": "7",
+   "titel": "Causatief: laat iemand X doen",
+   "uitleg_anchor": "h5",
+   "uitleg_crossname": "Hoofdstuk 4.2.2",
+   "oef_anchor": "oef-les-29",
+   "prev_target": "les-28",
+   "prev_title": "Tribale namen",
+   "next_target": "les-30",
+   "next_title": "Middel &amp; passief"
+  },
+  "30": {
+   "niveau": "7",
+   "titel": "Middel <span class=\"tar\">mm-</span> en passief <span class=\"tar\">twa-</span>",
+   "uitleg_anchor": "h5",
+   "uitleg_crossname": "Hoofdstuk 4.2.3-4.2.5",
+   "oef_anchor": "oef-les-30",
+   "prev_target": "les-29",
+   "prev_title": "Causatief",
+   "next_target": "les-31",
+   "next_title": "Pseudo-werkwoorden"
+  },
+  "31": {
+   "niveau": "7",
+   "titel": "Pseudo-werkwoorden: <span class=\"tar\">aqqa, ṯɣiř, ay</span>",
+   "uitleg_anchor": "h9",
+   "uitleg_crossname": "Hoofdstuk 8: Pseudo-werkwoorden",
+   "oef_anchor": "oef-les-31",
+   "prev_target": "les-30",
+   "prev_title": "Middel &amp; passief",
+   "next_target": "les-32",
+   "next_title": "Betrekkelijke bijzinnen"
+  },
+  "32": {
+   "niveau": "7",
+   "titel": "Betrekkelijke bijzinnen (\"die...\")",
+   "uitleg_anchor": "h16",
+   "uitleg_crossname": "Hoofdstuk 15: Betrekkelijke bijzinnen",
+   "oef_anchor": "oef-les-32",
+   "prev_target": "les-31",
+   "prev_title": "Pseudo-werkwoorden",
+   "next_target": "les-33",
+   "next_title": "Cleft-zinnen"
+  },
+  "33": {
+   "niveau": "7",
+   "titel": "Cleft-zinnen (\"het is X die...\")",
+   "uitleg_anchor": "h16",
+   "uitleg_crossname": "Hoofdstuk 15.3",
+   "oef_anchor": "oef-les-33",
+   "prev_target": "les-32",
+   "prev_title": "Betrekkelijke bijzinnen",
+   "next_target": "les-34",
+   "next_title": "Een verhaal lezen"
+  },
+  "34": {
+   "niveau": "8",
+   "titel": "Een verhaal lezen — over sprookjes vertellen",
+   "uitleg_anchor": "h19",
+   "uitleg_crossname": "Hoofdstuk 18: Voorbeeldteksten",
+   "oef_anchor": "oef-les-34",
+   "prev_target": "les-33",
+   "prev_title": "Cleft-zinnen",
+   "next_target": "les-35",
+   "next_title": "Het sprookje"
+  },
+  "35": {
+   "niveau": "8",
+   "titel": "Het sprookje van de parel-jongen",
+   "uitleg_anchor": "h19",
+   "uitleg_crossname": "Hoofdstuk 18: Voorbeeldteksten",
+   "oef_anchor": "oef-les-35",
+   "prev_target": "les-34",
+   "prev_title": "Een verhaal lezen",
+   "next_target": "les-36",
+   "next_title": "Dialogen"
+  },
+  "36": {
+   "niveau": "8",
+   "titel": "Praktische dialogen",
+   "uitleg_anchor": "h19",
+   "uitleg_crossname": "Hoofdstuk 18: Voorbeeldteksten &amp; dialogen",
+   "oef_anchor": "oef-les-36",
+   "prev_target": "les-35",
+   "prev_title": "Het sprookje",
+   "next_target": null,
+   "next_title": null
+  }
+ },
+ "uitleg_chapters": {
+  "h1": {
+   "titel": "Cursus-aantekeningen",
+   "boekpagina": null
+  },
+  "h2": {
+   "titel": "Hoofdstuk 1 — Wat is Tarifit?",
+   "boekpagina": "📖 Boek p. 9–19"
+  },
+  "h3": {
+   "titel": "Hoofdstuk 2 — Klanken, schrijfwijze en uitspraak",
+   "boekpagina": "📖 Boek p. 21–33"
+  },
+  "h4": {
+   "titel": "Hoofdstuk 3 — Zelfstandige naamwoorden",
+   "boekpagina": "📖 Boek p. 35–50"
+  },
+  "h5": {
+   "titel": "Hoofdstuk 4 — Werkwoorden",
+   "boekpagina": "📖 Boek p. 51–64"
+  },
+  "h6": {
+   "titel": "Hoofdstuk 5 — Persoonlijke voornaamwoorden",
+   "boekpagina": "📖 Boek p. 65–71"
+  },
+  "h7": {
+   "titel": "Hoofdstuk 6 — Aanwijzende voornaamwoorden",
+   "boekpagina": "📖 Boek p. 73–75"
+  },
+  "h8": {
+   "titel": "Hoofdstuk 7 — Het verbale complex (clitica)",
+   "boekpagina": "📖 Boek p. 77–82"
+  },
+  "h9": {
+   "titel": "Hoofdstuk 8 — Pseudo-werkwoorden",
+   "boekpagina": "📖 Boek p. 83–86"
+  },
+  "h10": {
+   "titel": "Hoofdstuk 9 — Voorzetsels",
+   "boekpagina": "📖 Boek p. 87–96"
+  },
+  "h11": {
+   "titel": "Hoofdstuk 10 — Telwoorden en hoeveelheden",
+   "boekpagina": "📖 Boek p. 97–102"
+  },
+  "h12": {
+   "titel": "Hoofdstuk 11 — De naamwoordgroep",
+   "boekpagina": "📖 Boek p. 103–105"
+  },
+  "h13": {
+   "titel": "Hoofdstuk 12 — Vragen stellen",
+   "boekpagina": "📖 Boek p. 107–109"
+  },
+  "h14": {
+   "titel": "Hoofdstuk 13 — Aspect, modus en ontkenning",
+   "boekpagina": "📖 Boek p. 113–127"
+  },
+  "h15": {
+   "titel": "Hoofdstuk 14 — Zinsbouw",
+   "boekpagina": "📖 Boek p. 129–134"
+  },
+  "h16": {
+   "titel": "Hoofdstuk 15 — Betrekkelijke bijzinnen",
+   "boekpagina": "📖 Boek p. 135–138"
+  },
+  "h17": {
+   "titel": "Hoofdstuk 16 — Hulpwerkwoorden",
+   "boekpagina": "📖 Boek p. 139–140"
+  },
+  "h18": {
+   "titel": "Hoofdstuk 17 — Voegwoorden",
+   "boekpagina": "📖 Boek p. 141–146"
+  },
+  "h19": {
+   "titel": "Hoofdstuk 18 — Voorbeeldteksten en dialogen",
+   "boekpagina": "📖 Boek p. 147+"
+  },
+  "h20": {
+   "titel": "Eindsamenvatting — De belangrijkste lessen",
+   "boekpagina": null
+  }
+ },
+ "oef_ids": [
+  "oef-les-01",
+  "oef-les-02",
+  "oef-les-03",
+  "oef-les-04",
+  "oef-les-05",
+  "oef-les-06",
+  "oef-les-07",
+  "oef-les-08",
+  "oef-les-09",
+  "oef-les-10",
+  "oef-les-11",
+  "oef-les-12",
+  "oef-les-13",
+  "oef-les-14",
+  "oef-les-15",
+  "oef-les-16",
+  "oef-les-17",
+  "oef-les-18",
+  "oef-les-19",
+  "oef-les-20",
+  "oef-les-21",
+  "oef-les-22",
+  "oef-les-23",
+  "oef-les-24",
+  "oef-les-25",
+  "oef-les-26",
+  "oef-les-27",
+  "oef-les-28",
+  "oef-les-29",
+  "oef-les-30",
+  "oef-les-31",
+  "oef-les-32",
+  "oef-les-33",
+  "oef-les-34",
+  "oef-les-35",
+  "oef-les-36"
+ ]
+}

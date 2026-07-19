@@ -1,0 +1,5235 @@
+{
+ "cursus_mismatches": [
+  {
+   "raw": "ameqqran",
+   "woordenlijst": [
+    "ameqqṛan"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "tamɣart",
+   "woordenlijst": [
+    "ṯamɣaṛṯ",
+    "ṯamɣārṯ"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "řejḏuḏ",
+   "woordenlijst": [
+    "řejduḏ"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "xari",
+   "woordenlijst": [
+    "xaři"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "ura",
+   "woordenlijst": [
+    "uřa"
+   ],
+   "count": 3
+  },
+  {
+   "raw": "ṯɣiř",
+   "woordenlijst": [
+    "tɣiř"
+   ],
+   "count": 4
+  },
+  {
+   "raw": "ṯxaḏenṯ",
+   "woordenlijst": [
+    "ṯxaḏent"
+   ],
+   "count": 2
+  },
+  {
+   "raw": "di",
+   "woordenlijst": [
+    "ḏi"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "ayarraf",
+   "woordenlijst": [
+    "ayaṛṛaf"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "ṯuɣa",
+   "woordenlijst": [
+    "tuɣa"
+   ],
+   "count": 9
+  },
+  {
+   "raw": "ṯitṯ",
+   "woordenlijst": [
+    "titt",
+    "ṯitt"
+   ],
+   "count": 2
+  },
+  {
+   "raw": "azru",
+   "woordenlijst": [
+    "azṛu"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "asrem",
+   "woordenlijst": [
+    "asřem"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "ṯitṯawin",
+   "woordenlijst": [
+    "ṯiṭṭawin"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "ṯṯmenyaṯ",
+   "woordenlijst": [
+    "ttmenyaṯ"
+   ],
+   "count": 2
+  },
+  {
+   "raw": "barra",
+   "woordenlijst": [
+    "ḇarra"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "břa",
+   "woordenlijst": [
+    "ḇřa"
+   ],
+   "count": 5
+  },
+  {
+   "raw": "aked",
+   "woordenlijst": [
+    "akeḏ"
+   ],
+   "count": 2
+  },
+  {
+   "raw": "ṯṯumubin",
+   "woordenlijst": [
+    "ttumubin"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "ṯesɛa",
+   "woordenlijst": [
+    "tesɛa"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "wda",
+   "woordenlijst": [
+    "wḏa"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "bda",
+   "woordenlijst": [
+    "ḇḏa"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "dweř",
+   "woordenlijst": [
+    "ḏweř"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "adbib",
+   "woordenlijst": [
+    "aḏbib",
+    "aḏḇiḇ"
+   ],
+   "count": 2
+  },
+  {
+   "raw": "řebda",
+   "woordenlijst": [
+    "řeḇḏa"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "ṯameqqṛanṯ",
+   "woordenlijst": [
+    "ṯameqqrant"
+   ],
+   "count": 3
+  },
+  {
+   "raw": "ṯamezzyanṯ",
+   "woordenlijst": [
+    "ṯamezzyant"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "aɣyur",
+   "woordenlijst": [
+    "aɣyuř"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "jjdid",
+   "woordenlijst": [
+    "jjdiḏ"
+   ],
+   "count": 4
+  },
+  {
+   "raw": "aaḇɛtac",
+   "woordenlijst": [
+    "aabɛtac"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "tseɛtac",
+   "woordenlijst": [
+    "ṯseɛtac"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "ṯřaṯin",
+   "woordenlijst": [
+    "ṯřatin"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "aaḇɛin",
+   "woordenlijst": [
+    "aabɛin"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "seḇɛin",
+   "woordenlijst": [
+    "sebɛin"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "tesɛin",
+   "woordenlijst": [
+    "ṯesɛin"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "ṯřata",
+   "woordenlijst": [
+    "ṯřaṯa"
+   ],
+   "count": 3
+  },
+  {
+   "raw": "iaḍ",
+   "woordenlijst": [
+    "iaḏ"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "ssiaḍ",
+   "woordenlijst": [
+    "ssiaḏ"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "adef",
+   "woordenlijst": [
+    "aḏef"
+   ],
+   "count": 2
+  },
+  {
+   "raw": "qřeb",
+   "woordenlijst": [
+    "qṛeb"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "zzu",
+   "woordenlijst": [
+    "ẓẓu"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "twazzu",
+   "woordenlijst": [
+    "ṯwazzu"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "twacc",
+   "woordenlijst": [
+    "ṯwacc"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "twasizzeř",
+   "woordenlijst": [
+    "ṯwasizzeř"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "cukṛan",
+   "woordenlijst": [
+    "cukran"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "Mara",
+   "woordenlijst": [
+    "mařa"
+   ],
+   "count": 2
+  }
+ ],
+ "uitleg_mismatches": [
+  {
+   "raw": "ṯuɣa",
+   "woordenlijst": [
+    "tuɣa"
+   ],
+   "count": 7
+  },
+  {
+   "raw": "bna",
+   "woordenlijst": [
+    "ḇna"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "ura",
+   "woordenlijst": [
+    "uřa"
+   ],
+   "count": 4
+  },
+  {
+   "raw": "ssuḍeṣ",
+   "woordenlijst": [
+    "ṣṣuḍeṣ"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "ameqqran",
+   "woordenlijst": [
+    "ameqqṛan"
+   ],
+   "count": 9
+  },
+  {
+   "raw": "taɣyutc",
+   "woordenlijst": [
+    "ṯaɣyutc"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "ṯaddarṯ",
+   "woordenlijst": [
+    "ṯaḏḏarṯ"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "ṯaɛeḏḏisṯ",
+   "woordenlijst": [
+    "ṯaɛeddisṯ"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "aabib",
+   "woordenlijst": [
+    "aaḇiḇ"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "ṯaabifṯ",
+   "woordenlijst": [
+    "ṯaaḇifṯ"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "ajḏiḏ",
+   "woordenlijst": [
+    "ajdiḏ"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "asrem",
+   "woordenlijst": [
+    "asřem"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "tteffaḥ",
+   "woordenlijst": [
+    "ṯteffaḥ"
+   ],
+   "count": 2
+  },
+  {
+   "raw": "aɣyur",
+   "woordenlijst": [
+    "aɣyuř"
+   ],
+   "count": 3
+  },
+  {
+   "raw": "barra",
+   "woordenlijst": [
+    "ḇarra"
+   ],
+   "count": 2
+  },
+  {
+   "raw": "ttiyara",
+   "woordenlijst": [
+    "ṭṭiyara",
+    "ṭṭiyaṛa"
+   ],
+   "count": 2
+  },
+  {
+   "raw": "xari",
+   "woordenlijst": [
+    "xaři"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "qřeb",
+   "woordenlijst": [
+    "qṛeb"
+   ],
+   "count": 3
+  },
+  {
+   "raw": "zzu",
+   "woordenlijst": [
+    "ẓẓu"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "twazzu",
+   "woordenlijst": [
+    "ṯwazzu"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "twacc",
+   "woordenlijst": [
+    "ṯwacc"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "iři",
+   "woordenlijst": [
+    "iri",
+    "iṛi"
+   ],
+   "count": 2
+  },
+  {
+   "raw": "tiři",
+   "woordenlijst": [
+    "ṯiři"
+   ],
+   "count": 3
+  },
+  {
+   "raw": "nniṯ",
+   "woordenlijst": [
+    "nniṭ"
+   ],
+   "count": 2
+  },
+  {
+   "raw": "ṯxaḏenṯ",
+   "woordenlijst": [
+    "ṯxaḏent"
+   ],
+   "count": 3
+  },
+  {
+   "raw": "aḏu",
+   "woordenlijst": [
+    "adu"
+   ],
+   "count": 3
+  },
+  {
+   "raw": "yeḏji-s",
+   "woordenlijst": [
+    "yedji-s"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "din",
+   "woordenlijst": [
+    "ḏin"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "swaḏday",
+   "woordenlijst": [
+    "swadday"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "aaḇɛtac",
+   "woordenlijst": [
+    "aabɛtac"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "tseɛtac",
+   "woordenlijst": [
+    "ṯseɛtac"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "ṯřaṯin",
+   "woordenlijst": [
+    "ṯřatin"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "aaḇɛin",
+   "woordenlijst": [
+    "aabɛin"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "seḇɛin",
+   "woordenlijst": [
+    "sebɛin"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "tesɛin",
+   "woordenlijst": [
+    "ṯesɛin"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "ṯřata",
+   "woordenlijst": [
+    "ṯřaṯa"
+   ],
+   "count": 3
+  },
+  {
+   "raw": "řeḇɛaḏ",
+   "woordenlijst": [
+    "řebɛaḏ"
+   ],
+   "count": 2
+  },
+  {
+   "raw": "arrud",
+   "woordenlijst": [
+    "arruḏ"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "ṯameqqranṯ",
+   "woordenlijst": [
+    "ṯameqqrant"
+   ],
+   "count": 3
+  },
+  {
+   "raw": "jjḏiḏ",
+   "woordenlijst": [
+    "jjdiḏ"
+   ],
+   "count": 3
+  },
+  {
+   "raw": "dweř",
+   "woordenlijst": [
+    "ḏweř"
+   ],
+   "count": 1
+  },
+  {
+   "raw": "řa",
+   "woordenlijst": [
+    "ra"
+   ],
+   "count": 4
+  }
+ ],
+ "cursus_unknown": [
+  {
+   "raw": "ḏ̣",
+   "count": 1
+  },
+  {
+   "raw": "iṭan",
+   "count": 1
+  },
+  {
+   "raw": "ṭuṛu",
+   "count": 1
+  },
+  {
+   "raw": "tc",
+   "count": 8
+  },
+  {
+   "raw": "āryaz",
+   "count": 13
+  },
+  {
+   "raw": "irden",
+   "count": 1
+  },
+  {
+   "raw": "curdu",
+   "count": 1
+  },
+  {
+   "raw": "cuarḏu",
+   "count": 1
+  },
+  {
+   "raw": "Naḍur",
+   "count": 2
+  },
+  {
+   "raw": "Naḍuār",
+   "count": 7
+  },
+  {
+   "raw": "cekk",
+   "count": 6
+  },
+  {
+   "raw": "cemm",
+   "count": 2
+  },
+  {
+   "raw": "niṯni",
+   "count": 1
+  },
+  {
+   "raw": "nihni",
+   "count": 1
+  },
+  {
+   "raw": "niṯenti",
+   "count": 1
+  },
+  {
+   "raw": "nihenti",
+   "count": 1
+  },
+  {
+   "raw": "Mimun",
+   "count": 7
+  },
+  {
+   "raw": "wanita",
+   "count": 1
+  },
+  {
+   "raw": "nnes",
+   "count": 2
+  },
+  {
+   "raw": "ammu",
+   "count": 3
+  },
+  {
+   "raw": "ibabaṯen",
+   "count": 1
+  },
+  {
+   "raw": "ṯiyemmaṯin",
+   "count": 1
+  },
+  {
+   "raw": "ayeṯma",
+   "count": 2
+  },
+  {
+   "raw": "issma",
+   "count": 2
+  },
+  {
+   "raw": "yeǧi",
+   "count": 2
+  },
+  {
+   "raw": "issi",
+   "count": 1
+  },
+  {
+   "raw": "ṯiḥennaṯin",
+   "count": 1
+  },
+  {
+   "raw": "ɛmumi",
+   "count": 1
+  },
+  {
+   "raw": "ɛwanti",
+   "count": 1
+  },
+  {
+   "raw": "xwari",
+   "count": 1
+  },
+  {
+   "raw": "xaci",
+   "count": 1
+  },
+  {
+   "raw": "xwaci",
+   "count": 1
+  },
+  {
+   "raw": "yemma-c",
+   "count": 5
+  },
+  {
+   "raw": "uma-s",
+   "count": 5
+  },
+  {
+   "raw": "učma-ṯney",
+   "count": 2
+  },
+  {
+   "raw": "aqq-ec",
+   "count": 4
+  },
+  {
+   "raw": "aqqa",
+   "count": 6
+  },
+  {
+   "raw": "ɛli-inu",
+   "count": 3
+  },
+  {
+   "raw": "aɣ-am",
+   "count": 2
+  },
+  {
+   "raw": "aɣ-am-ṯ",
+   "count": 2
+  },
+  {
+   "raw": "baṛakallahu",
+   "count": 3
+  },
+  {
+   "raw": "fik",
+   "count": 1
+  },
+  {
+   "raw": "aywa",
+   "count": 6
+  },
+  {
+   "raw": "ḥamḏullah",
+   "count": 3
+  },
+  {
+   "raw": "adef-d",
+   "count": 2
+  },
+  {
+   "raw": "qqimeɣ",
+   "count": 3
+  },
+  {
+   "raw": "ṯeqqimeḏ",
+   "count": 3
+  },
+  {
+   "raw": "yeqqim",
+   "count": 5
+  },
+  {
+   "raw": "ṯeqqim",
+   "count": 3
+  },
+  {
+   "raw": "neqqim",
+   "count": 3
+  },
+  {
+   "raw": "eɣ",
+   "count": 1
+  },
+  {
+   "raw": "eḏ",
+   "count": 1
+  },
+  {
+   "raw": "ṯ-",
+   "count": 7
+  },
+  {
+   "raw": "-eḏ",
+   "count": 1
+  },
+  {
+   "raw": "y-",
+   "count": 3
+  },
+  {
+   "raw": "i-",
+   "count": 5
+  },
+  {
+   "raw": "em",
+   "count": 1
+  },
+  {
+   "raw": "ṯeqqimem",
+   "count": 2
+  },
+  {
+   "raw": "enṯ",
+   "count": 2
+  },
+  {
+   "raw": "ṯeqqimenṯ",
+   "count": 2
+  },
+  {
+   "raw": "en",
+   "count": 1
+  },
+  {
+   "raw": "qqimen",
+   "count": 2
+  },
+  {
+   "raw": "qqimenṯ",
+   "count": 3
+  },
+  {
+   "raw": "-enṯ",
+   "count": 1
+  },
+  {
+   "raw": "qqimeṯ",
+   "count": 1
+  },
+  {
+   "raw": "qqimem",
+   "count": 1
+  },
+  {
+   "raw": "teteɣ",
+   "count": 2
+  },
+  {
+   "raw": "cciɣ",
+   "count": 8
+  },
+  {
+   "raw": "cca",
+   "count": 2
+  },
+  {
+   "raw": "tett",
+   "count": 3
+  },
+  {
+   "raw": "sess",
+   "count": 1
+  },
+  {
+   "raw": "tɣima",
+   "count": 1
+  },
+  {
+   "raw": "tru",
+   "count": 1
+  },
+  {
+   "raw": "ṯari",
+   "count": 2
+  },
+  {
+   "raw": "řemmed",
+   "count": 1
+  },
+  {
+   "raw": "řmiḏ",
+   "count": 1
+  },
+  {
+   "raw": "ṯecciḏ",
+   "count": 1
+  },
+  {
+   "raw": "yecca",
+   "count": 1
+  },
+  {
+   "raw": "ṯecca",
+   "count": 1
+  },
+  {
+   "raw": "ariɣ",
+   "count": 3
+  },
+  {
+   "raw": "ṯariḏ",
+   "count": 1
+  },
+  {
+   "raw": "ɣari",
+   "count": 5
+  },
+  {
+   "raw": "-d",
+   "count": 3
+  },
+  {
+   "raw": "aqq-",
+   "count": 1
+  },
+  {
+   "raw": "aqq-eṯ",
+   "count": 1
+  },
+  {
+   "raw": "aqq-ayi",
+   "count": 2
+  },
+  {
+   "raw": "aqq-awem",
+   "count": 1
+  },
+  {
+   "raw": "aqq-awem-ṯ",
+   "count": 1
+  },
+  {
+   "raw": "ha",
+   "count": 2
+  },
+  {
+   "raw": "ṯɣiř-ayi",
+   "count": 1
+  },
+  {
+   "raw": "ssehh",
+   "count": 2
+  },
+  {
+   "raw": "ṯɣiř-asen",
+   "count": 1
+  },
+  {
+   "raw": "ṯemmuṯ",
+   "count": 1
+  },
+  {
+   "raw": "waa",
+   "count": 26
+  },
+  {
+   "raw": "ḏayi-ṯɣiř",
+   "count": 1
+  },
+  {
+   "raw": "aɣ-as",
+   "count": 1
+  },
+  {
+   "raw": "adlis",
+   "count": 1
+  },
+  {
+   "raw": "qa-ṯ",
+   "count": 5
+  },
+  {
+   "raw": "ḏiha",
+   "count": 2
+  },
+  {
+   "raw": "qa-yen",
+   "count": 1
+  },
+  {
+   "raw": "yeggʷa-d",
+   "count": 1
+  },
+  {
+   "raw": "yetru",
+   "count": 1
+  },
+  {
+   "raw": "yenna-ac",
+   "count": 1
+  },
+  {
+   "raw": "uǧeǧid",
+   "count": 1
+  },
+  {
+   "raw": "igemmaa",
+   "count": 1
+  },
+  {
+   "raw": "ṯuɣa-c",
+   "count": 1
+  },
+  {
+   "raw": "ṯuɣa-ayi",
+   "count": 1
+  },
+  {
+   "raw": "c-ṯuɣa",
+   "count": 1
+  },
+  {
+   "raw": "ṯuyi",
+   "count": 1
+  },
+  {
+   "raw": "ṯecceḏ",
+   "count": 1
+  },
+  {
+   "raw": "yecc",
+   "count": 1
+  },
+  {
+   "raw": "ṯeffeɣ",
+   "count": 2
+  },
+  {
+   "raw": "neffeɣ",
+   "count": 2
+  },
+  {
+   "raw": "yaggʷeḥ",
+   "count": 2
+  },
+  {
+   "raw": "xseɣ",
+   "count": 3
+  },
+  {
+   "raw": "meřcey",
+   "count": 2
+  },
+  {
+   "raw": "xad",
+   "count": 4
+  },
+  {
+   "raw": "xa",
+   "count": 1
+  },
+  {
+   "raw": "ṯdu",
+   "count": 1
+  },
+  {
+   "raw": "-ṯ",
+   "count": 2
+  },
+  {
+   "raw": "ṯaḥenjiaṯ",
+   "count": 2
+  },
+  {
+   "raw": "aɛabib",
+   "count": 1
+  },
+  {
+   "raw": "ṯaɛabibṯ",
+   "count": 1
+  },
+  {
+   "raw": "ṯyatṯ",
+   "count": 1
+  },
+  {
+   "raw": "řeɛawḏa",
+   "count": 1
+  },
+  {
+   "raw": "ṯmazixṯ",
+   "count": 2
+  },
+  {
+   "raw": "ṯakeccutṯ",
+   "count": 1
+  },
+  {
+   "raw": "a-",
+   "count": 4
+  },
+  {
+   "raw": "-en",
+   "count": 2
+  },
+  {
+   "raw": "-an",
+   "count": 1
+  },
+  {
+   "raw": "ifunasen",
+   "count": 3
+  },
+  {
+   "raw": "iḥenjian",
+   "count": 1
+  },
+  {
+   "raw": "imezzyanen",
+   "count": 2
+  },
+  {
+   "raw": "-in",
+   "count": 2
+  },
+  {
+   "raw": "ṯifunasin",
+   "count": 2
+  },
+  {
+   "raw": "ṯiḥenjirin",
+   "count": 1
+  },
+  {
+   "raw": "izra",
+   "count": 1
+  },
+  {
+   "raw": "iserman",
+   "count": 1
+  },
+  {
+   "raw": "aydi",
+   "count": 1
+  },
+  {
+   "raw": "iṯan",
+   "count": 1
+  },
+  {
+   "raw": "iysan",
+   "count": 1
+  },
+  {
+   "raw": "-aw-",
+   "count": 1
+  },
+  {
+   "raw": "uřawen",
+   "count": 1
+  },
+  {
+   "raw": "baba-c",
+   "count": 2
+  },
+  {
+   "raw": "baba-m",
+   "count": 1
+  },
+  {
+   "raw": "baba-s",
+   "count": 2
+  },
+  {
+   "raw": "baba-ṯneɣ",
+   "count": 1
+  },
+  {
+   "raw": "baba-ṯwem",
+   "count": 1
+  },
+  {
+   "raw": "baba-ṯkenṯ",
+   "count": 1
+  },
+  {
+   "raw": "baba-ṯsen",
+   "count": 1
+  },
+  {
+   "raw": "baba-ṯsenṯ",
+   "count": 1
+  },
+  {
+   "raw": "nneɣ",
+   "count": 1
+  },
+  {
+   "raw": "nwem",
+   "count": 1
+  },
+  {
+   "raw": "nkenṯ",
+   "count": 1
+  },
+  {
+   "raw": "ncenṯ",
+   "count": 1
+  },
+  {
+   "raw": "nsen",
+   "count": 1
+  },
+  {
+   "raw": "nsenṯ",
+   "count": 1
+  },
+  {
+   "raw": "ṯaḏḏarṯ-inu",
+   "count": 1
+  },
+  {
+   "raw": "ṯaḏḏarṯ-nnes",
+   "count": 1
+  },
+  {
+   "raw": "āryaz-nnes",
+   "count": 2
+  },
+  {
+   "raw": "ṯamɣārṯ-nnes",
+   "count": 3
+  },
+  {
+   "raw": "nn-",
+   "count": 1
+  },
+  {
+   "raw": "-a",
+   "count": 1
+  },
+  {
+   "raw": "-enni",
+   "count": 3
+  },
+  {
+   "raw": "āryaz-a",
+   "count": 3
+  },
+  {
+   "raw": "āryaz-in",
+   "count": 1
+  },
+  {
+   "raw": "āryaz-enni",
+   "count": 2
+  },
+  {
+   "raw": "ṯaḏḏarṯ-a",
+   "count": 1
+  },
+  {
+   "raw": "ṯaḏḏarṯ-in",
+   "count": 1
+  },
+  {
+   "raw": "ṯaḏḏarṯ-enni",
+   "count": 1
+  },
+  {
+   "raw": "ifassenn-a",
+   "count": 1
+  },
+  {
+   "raw": "ifassenn-in",
+   "count": 1
+  },
+  {
+   "raw": "ifassen-ni",
+   "count": 1
+  },
+  {
+   "raw": "win",
+   "count": 1
+  },
+  {
+   "raw": "ṯa",
+   "count": 1
+  },
+  {
+   "raw": "ṯin",
+   "count": 1
+  },
+  {
+   "raw": "ṯenni",
+   "count": 3
+  },
+  {
+   "raw": "ina",
+   "count": 1
+  },
+  {
+   "raw": "inin",
+   "count": 1
+  },
+  {
+   "raw": "inni",
+   "count": 2
+  },
+  {
+   "raw": "ṯina",
+   "count": 1
+  },
+  {
+   "raw": "ṯinin",
+   "count": 1
+  },
+  {
+   "raw": "ṯinni",
+   "count": 2
+  },
+  {
+   "raw": "u-",
+   "count": 2
+  },
+  {
+   "raw": "wafunas",
+   "count": 1
+  },
+  {
+   "raw": "ṯfunasṯ",
+   "count": 1
+  },
+  {
+   "raw": "ṯfunasin",
+   "count": 2
+  },
+  {
+   "raw": "wa-",
+   "count": 1
+  },
+  {
+   "raw": "ṯa-",
+   "count": 1
+  },
+  {
+   "raw": "ṯe-",
+   "count": 1
+  },
+  {
+   "raw": "ṯi-",
+   "count": 1
+  },
+  {
+   "raw": "yewca",
+   "count": 2
+  },
+  {
+   "raw": "yexḏem",
+   "count": 5
+  },
+  {
+   "raw": "wāryaz",
+   "count": 10
+  },
+  {
+   "raw": "yus-d",
+   "count": 6
+  },
+  {
+   "raw": "aṛ",
+   "count": 6
+  },
+  {
+   "raw": "uyis",
+   "count": 1
+  },
+  {
+   "raw": "zi",
+   "count": 3
+  },
+  {
+   "raw": "ṯmeddiṯ",
+   "count": 3
+  },
+  {
+   "raw": "jar",
+   "count": 1
+  },
+  {
+   "raw": "ǧar",
+   "count": 1
+  },
+  {
+   "raw": "iduraa",
+   "count": 1
+  },
+  {
+   "raw": "ijj",
+   "count": 5
+  },
+  {
+   "raw": "ɣaaneɣ",
+   "count": 2
+  },
+  {
+   "raw": "ṯeǧa",
+   "count": 3
+  },
+  {
+   "raw": "ayyaw-nnes",
+   "count": 1
+  },
+  {
+   "raw": "yessawař",
+   "count": 1
+  },
+  {
+   "raw": "icṯen",
+   "count": 1
+  },
+  {
+   "raw": "ṯemɣarin",
+   "count": 1
+  },
+  {
+   "raw": "yewdan",
+   "count": 3
+  },
+  {
+   "raw": "icṯ",
+   "count": 1
+  },
+  {
+   "raw": "yewṯa",
+   "count": 1
+  },
+  {
+   "raw": "uḥenjia-nni",
+   "count": 1
+  },
+  {
+   "raw": "min",
+   "count": 3
+  },
+  {
+   "raw": "mayen",
+   "count": 1
+  },
+  {
+   "raw": "ṯaazzud",
+   "count": 1
+  },
+  {
+   "raw": "ṯṯiřid",
+   "count": 1
+  },
+  {
+   "raw": "ṯaḏfeḏ",
+   "count": 1
+  },
+  {
+   "raw": "ṯṯettsed",
+   "count": 1
+  },
+  {
+   "raw": "iwezzen",
+   "count": 1
+  },
+  {
+   "raw": "ṯeṯrud",
+   "count": 1
+  },
+  {
+   "raw": "manay-a",
+   "count": 1
+  },
+  {
+   "raw": "iwden-d",
+   "count": 1
+  },
+  {
+   "raw": "ssineɣ",
+   "count": 3
+  },
+  {
+   "raw": "wdi",
+   "count": 1
+  },
+  {
+   "raw": "řmid",
+   "count": 1
+  },
+  {
+   "raw": "udef",
+   "count": 1
+  },
+  {
+   "raw": "udif",
+   "count": 1
+  },
+  {
+   "raw": "ṯeggʷeḏ",
+   "count": 1
+  },
+  {
+   "raw": "ṯ-yezri",
+   "count": 1
+  },
+  {
+   "raw": "ḏas-nnin",
+   "count": 1
+  },
+  {
+   "raw": "d-yusi",
+   "count": 1
+  },
+  {
+   "raw": "waaǧi",
+   "count": 3
+  },
+  {
+   "raw": "yebda",
+   "count": 2
+  },
+  {
+   "raw": "yeṯxemmem",
+   "count": 2
+  },
+  {
+   "raw": "xes",
+   "count": 2
+  },
+  {
+   "raw": "zemmaay",
+   "count": 1
+  },
+  {
+   "raw": "sbaay",
+   "count": 1
+  },
+  {
+   "raw": "usaaḏun-nnes",
+   "count": 1
+  },
+  {
+   "raw": "itett-iṯ",
+   "count": 1
+  },
+  {
+   "raw": "yufi-ṯ",
+   "count": 1
+  },
+  {
+   "raw": "yedweř",
+   "count": 3
+  },
+  {
+   "raw": "yeggenfa",
+   "count": 1
+  },
+  {
+   "raw": "illa",
+   "count": 4
+  },
+  {
+   "raw": "belli",
+   "count": 1
+  },
+  {
+   "raw": "yessen",
+   "count": 1
+  },
+  {
+   "raw": "ṯessned",
+   "count": 1
+  },
+  {
+   "raw": "mmi-m",
+   "count": 1
+  },
+  {
+   "raw": "ṯexsed",
+   "count": 2
+  },
+  {
+   "raw": "fic",
+   "count": 2
+  },
+  {
+   "raw": "-ayi",
+   "count": 2
+  },
+  {
+   "raw": "-c",
+   "count": 1
+  },
+  {
+   "raw": "-cekk",
+   "count": 1
+  },
+  {
+   "raw": "-cem",
+   "count": 1
+  },
+  {
+   "raw": "-aneɣ",
+   "count": 2
+  },
+  {
+   "raw": "-ay",
+   "count": 1
+  },
+  {
+   "raw": "-kenniw",
+   "count": 1
+  },
+  {
+   "raw": "-kennint",
+   "count": 1
+  },
+  {
+   "raw": "-ṯen",
+   "count": 1
+  },
+  {
+   "raw": "-ṯenṯ",
+   "count": 1
+  },
+  {
+   "raw": "yessufɣ-iṯ",
+   "count": 1
+  },
+  {
+   "raw": "yecc-iṯ",
+   "count": 1
+  },
+  {
+   "raw": "ṯ-ẓṛiɣ",
+   "count": 1
+  },
+  {
+   "raw": "-ac",
+   "count": 1
+  },
+  {
+   "raw": "-am",
+   "count": 1
+  },
+  {
+   "raw": "-as",
+   "count": 1
+  },
+  {
+   "raw": "-awem",
+   "count": 1
+  },
+  {
+   "raw": "-akenṯ",
+   "count": 1
+  },
+  {
+   "raw": "-asen",
+   "count": 1
+  },
+  {
+   "raw": "-asenṯ",
+   "count": 1
+  },
+  {
+   "raw": "wciɣ-as",
+   "count": 1
+  },
+  {
+   "raw": "pabu",
+   "count": 1
+  },
+  {
+   "raw": "yenna-am",
+   "count": 1
+  },
+  {
+   "raw": "ṯenna-ayi",
+   "count": 1
+  },
+  {
+   "raw": "ɣaak",
+   "count": 1
+  },
+  {
+   "raw": "ɣaam",
+   "count": 1
+  },
+  {
+   "raw": "ɣaawem",
+   "count": 1
+  },
+  {
+   "raw": "ɣaakenṯ",
+   "count": 1
+  },
+  {
+   "raw": "ɣaasen",
+   "count": 1
+  },
+  {
+   "raw": "ɣaasenṯ",
+   "count": 2
+  },
+  {
+   "raw": "yiwy-ac-ṯ-id",
+   "count": 1
+  },
+  {
+   "raw": "ac",
+   "count": 1
+  },
+  {
+   "raw": "iḏ",
+   "count": 1
+  },
+  {
+   "raw": "yedweř-d",
+   "count": 1
+  },
+  {
+   "raw": "yiwy-am-ṯ-iḏ",
+   "count": 1
+  },
+  {
+   "raw": "zzayes",
+   "count": 1
+  },
+  {
+   "raw": "cem-awyeɣ",
+   "count": 1
+  },
+  {
+   "raw": "cem-ṯiwyeɣ",
+   "count": 1
+  },
+  {
+   "raw": "azeggʷaɣ",
+   "count": 3
+  },
+  {
+   "raw": "maca",
+   "count": 1
+  },
+  {
+   "raw": "seɛɛa",
+   "count": 1
+  },
+  {
+   "raw": "ṯexseḏ",
+   "count": 1
+  },
+  {
+   "raw": "ḏam-ṯ-newc",
+   "count": 1
+  },
+  {
+   "raw": "mři",
+   "count": 2
+  },
+  {
+   "raw": "meɛlik",
+   "count": 1
+  },
+  {
+   "raw": "ḏ-usiɣ",
+   "count": 1
+  },
+  {
+   "raw": "ifi",
+   "count": 1
+  },
+  {
+   "raw": "fami",
+   "count": 1
+  },
+  {
+   "raw": "xmi",
+   "count": 1
+  },
+  {
+   "raw": "xemmi",
+   "count": 1
+  },
+  {
+   "raw": "zegga",
+   "count": 1
+  },
+  {
+   "raw": "lianna",
+   "count": 1
+  },
+  {
+   "raw": "ḥuma",
+   "count": 1
+  },
+  {
+   "raw": "baš",
+   "count": 1
+  },
+  {
+   "raw": "duru",
+   "count": 1
+  },
+  {
+   "raw": "tsekkʷa",
+   "count": 1
+  },
+  {
+   "raw": "řexṯu",
+   "count": 1
+  },
+  {
+   "raw": "ǧiřeṯ",
+   "count": 1
+  },
+  {
+   "raw": "wezyen",
+   "count": 1
+  },
+  {
+   "raw": "imeqqṛanen",
+   "count": 1
+  },
+  {
+   "raw": "ṯimeqqṛanin",
+   "count": 1
+  },
+  {
+   "raw": "ṯimezzyanin",
+   "count": 1
+  },
+  {
+   "raw": "ṯazeggʷaɣṯ",
+   "count": 1
+  },
+  {
+   "raw": "izeggʷaɣen",
+   "count": 1
+  },
+  {
+   "raw": "ṯizeggʷaɣin",
+   "count": 1
+  },
+  {
+   "raw": "ṯacemřařṯ",
+   "count": 1
+  },
+  {
+   "raw": "icemřařen",
+   "count": 1
+  },
+  {
+   "raw": "ṯicemřařin",
+   "count": 1
+  },
+  {
+   "raw": "ṯammuaṯ-a",
+   "count": 1
+  },
+  {
+   "raw": "weyyur",
+   "count": 1
+  },
+  {
+   "raw": "qutci-nni",
+   "count": 1
+  },
+  {
+   "raw": "yeyran",
+   "count": 1
+  },
+  {
+   "raw": "aberkan",
+   "count": 1
+  },
+  {
+   "raw": "azegza",
+   "count": 1
+  },
+  {
+   "raw": "azewwaɣ",
+   "count": 1
+  },
+  {
+   "raw": "amellaḥ",
+   "count": 1
+  },
+  {
+   "raw": "amezdaɣ",
+   "count": 1
+  },
+  {
+   "raw": "aṯ-",
+   "count": 1
+  },
+  {
+   "raw": "bu-",
+   "count": 3
+  },
+  {
+   "raw": "mu-",
+   "count": 1
+  },
+  {
+   "raw": "aṯ",
+   "count": 2
+  },
+  {
+   "raw": "mm-",
+   "count": 8
+  },
+  {
+   "raw": "m-",
+   "count": 2
+  },
+  {
+   "raw": "ṯmarṯ",
+   "count": 1
+  },
+  {
+   "raw": "iqeṛɛiyen",
+   "count": 1
+  },
+  {
+   "raw": "ɛenba",
+   "count": 2
+  },
+  {
+   "raw": "ṯaɛenbaṯ",
+   "count": 2
+  },
+  {
+   "raw": "ṯiɛenbaṯin",
+   "count": 2
+  },
+  {
+   "raw": "ṯbacuaṯ",
+   "count": 2
+  },
+  {
+   "raw": "ṯibacuarin",
+   "count": 2
+  },
+  {
+   "raw": "ṯifeřfecṯ",
+   "count": 1
+  },
+  {
+   "raw": "ṯifeřfrin",
+   "count": 1
+  },
+  {
+   "raw": "řecjuṛ",
+   "count": 1
+  },
+  {
+   "raw": "ṯasecjaṯ",
+   "count": 1
+  },
+  {
+   "raw": "ṯisecjura",
+   "count": 1
+  },
+  {
+   "raw": "ṯiɛeddisin",
+   "count": 1
+  },
+  {
+   "raw": "řebcaṛ",
+   "count": 1
+  },
+  {
+   "raw": "ṯabcecṯ",
+   "count": 1
+  },
+  {
+   "raw": "ṯibecṛin",
+   "count": 1
+  },
+  {
+   "raw": "sɣiɣ",
+   "count": 3
+  },
+  {
+   "raw": "settac",
+   "count": 1
+  },
+  {
+   "raw": "sḇeɛtac",
+   "count": 1
+  },
+  {
+   "raw": "waḥd-u-ɛicrin",
+   "count": 1
+  },
+  {
+   "raw": "ṯnayn-u-ɛicrin",
+   "count": 1
+  },
+  {
+   "raw": "mya-u-waḥiṯ",
+   "count": 1
+  },
+  {
+   "raw": "ṯeřṯ-mya",
+   "count": 1
+  },
+  {
+   "raw": "tiss",
+   "count": 1
+  },
+  {
+   "raw": "ṯeřṯ",
+   "count": 1
+  },
+  {
+   "raw": "snin",
+   "count": 1
+  },
+  {
+   "raw": "cḥaa",
+   "count": 1
+  },
+  {
+   "raw": "cuhuṛ",
+   "count": 1
+  },
+  {
+   "raw": "iyyam",
+   "count": 1
+  },
+  {
+   "raw": "maaṛatayen",
+   "count": 1
+  },
+  {
+   "raw": "imuṛan",
+   "count": 1
+  },
+  {
+   "raw": "ul",
+   "count": 1
+  },
+  {
+   "raw": "aɣyul",
+   "count": 1
+  },
+  {
+   "raw": "tili",
+   "count": 1
+  },
+  {
+   "raw": "acemlal",
+   "count": 1
+  },
+  {
+   "raw": "ll",
+   "count": 1
+  },
+  {
+   "raw": "yelli",
+   "count": 1
+  },
+  {
+   "raw": "ulli",
+   "count": 1
+  },
+  {
+   "raw": "uǧi",
+   "count": 1
+  },
+  {
+   "raw": "lluz",
+   "count": 1
+  },
+  {
+   "raw": "ǧuz",
+   "count": 1
+  },
+  {
+   "raw": "lt",
+   "count": 1
+  },
+  {
+   "raw": "taɣyult",
+   "count": 1
+  },
+  {
+   "raw": "tanwalt",
+   "count": 1
+  },
+  {
+   "raw": "ṯanwatc",
+   "count": 1
+  },
+  {
+   "raw": "of",
+   "count": 1
+  },
+  {
+   "raw": "amellal",
+   "count": 1
+  },
+  {
+   "raw": "imellalen",
+   "count": 1
+  },
+  {
+   "raw": "tamellalt",
+   "count": 1
+  },
+  {
+   "raw": "ameǧař",
+   "count": 1
+  },
+  {
+   "raw": "ṯameǧatc",
+   "count": 1
+  },
+  {
+   "raw": "ss-",
+   "count": 5
+  },
+  {
+   "raw": "sgenfa",
+   "count": 2
+  },
+  {
+   "raw": "sessu",
+   "count": 1
+  },
+  {
+   "raw": "ssufeɣ",
+   "count": 2
+  },
+  {
+   "raw": "ssřmeḏ",
+   "count": 1
+  },
+  {
+   "raw": "ssggenfa",
+   "count": 1
+  },
+  {
+   "raw": "ssffeɣ",
+   "count": 1
+  },
+  {
+   "raw": "ssadef",
+   "count": 1
+  },
+  {
+   "raw": "aheř",
+   "count": 1
+  },
+  {
+   "raw": "yessgenfa-yi",
+   "count": 1
+  },
+  {
+   "raw": "yessecc",
+   "count": 1
+  },
+  {
+   "raw": "aydi-nnes",
+   "count": 1
+  },
+  {
+   "raw": "t-ssidfeɣ",
+   "count": 1
+  },
+  {
+   "raw": "twa-",
+   "count": 9
+  },
+  {
+   "raw": "řaya",
+   "count": 1
+  },
+  {
+   "raw": "neqq",
+   "count": 2
+  },
+  {
+   "raw": "mneɣ",
+   "count": 2
+  },
+  {
+   "raw": "mmenḍar",
+   "count": 2
+  },
+  {
+   "raw": "mneqřeb",
+   "count": 1
+  },
+  {
+   "raw": "temmenz",
+   "count": 1
+  },
+  {
+   "raw": "ṯṯumubin-nni",
+   "count": 2
+  },
+  {
+   "raw": "tetmenza",
+   "count": 1
+  },
+  {
+   "raw": "twacaaz",
+   "count": 1
+  },
+  {
+   "raw": "icaaz",
+   "count": 1
+  },
+  {
+   "raw": "uyyaa",
+   "count": 2
+  },
+  {
+   "raw": "yetwacaaz",
+   "count": 1
+  },
+  {
+   "raw": "yewt-ayi",
+   "count": 1
+  },
+  {
+   "raw": "sseyyed",
+   "count": 1
+  },
+  {
+   "raw": "[ucaay-as",
+   "count": 1
+  },
+  {
+   "raw": "aysum]",
+   "count": 1
+  },
+  {
+   "raw": "iwden",
+   "count": 1
+  },
+  {
+   "raw": "[ṯexřa]",
+   "count": 1
+  },
+  {
+   "raw": "[d",
+   "count": 1
+  },
+  {
+   "raw": "yasen]",
+   "count": 1
+  },
+  {
+   "raw": "[ixeddmen",
+   "count": 1
+  },
+  {
+   "raw": "řebda]",
+   "count": 1
+  },
+  {
+   "raw": "[d-yusin]",
+   "count": 1
+  },
+  {
+   "raw": "[i",
+   "count": 2
+  },
+  {
+   "raw": "d-iwyeɣ]",
+   "count": 1
+  },
+  {
+   "raw": "ssaaseɣ",
+   "count": 1
+  },
+  {
+   "raw": "řkas-nni]",
+   "count": 1
+  },
+  {
+   "raw": "[umi",
+   "count": 2
+  },
+  {
+   "raw": "ṯ-wciɣ]",
+   "count": 1
+  },
+  {
+   "raw": "yegg",
+   "count": 1
+  },
+  {
+   "raw": "ṯiggesṯ]",
+   "count": 1
+  },
+  {
+   "raw": "d-yusin",
+   "count": 4
+  },
+  {
+   "raw": "d-ṯusin",
+   "count": 1
+  },
+  {
+   "raw": "d-usin",
+   "count": 1
+  },
+  {
+   "raw": "d-usinṯ",
+   "count": 1
+  },
+  {
+   "raw": "nhar-a",
+   "count": 1
+  },
+  {
+   "raw": "d-yiwden",
+   "count": 1
+  },
+  {
+   "raw": "ẓṛiɣ",
+   "count": 2
+  },
+  {
+   "raw": "nečč",
+   "count": 1
+  },
+  {
+   "raw": "ṯ-yezrin",
+   "count": 1
+  },
+  {
+   "raw": "d-yesya",
+   "count": 1
+  },
+  {
+   "raw": "wattas",
+   "count": 4
+  },
+  {
+   "raw": "ɛeqřey",
+   "count": 2
+  },
+  {
+   "raw": "xminni",
+   "count": 3
+  },
+  {
+   "raw": "raḥey",
+   "count": 4
+  },
+  {
+   "raw": "ttseɣ",
+   "count": 2
+  },
+  {
+   "raw": "degg",
+   "count": 2
+  },
+  {
+   "raw": "xxam",
+   "count": 2
+  },
+  {
+   "raw": "jaa",
+   "count": 2
+  },
+  {
+   "raw": "yayeṯma",
+   "count": 2
+  },
+  {
+   "raw": "wexxam",
+   "count": 1
+  },
+  {
+   "raw": "ṯessen",
+   "count": 2
+  },
+  {
+   "raw": "ṯḥuja",
+   "count": 2
+  },
+  {
+   "raw": "ṯettsed",
+   "count": 2
+  },
+  {
+   "raw": "ɛad",
+   "count": 3
+  },
+  {
+   "raw": "ṯettised",
+   "count": 2
+  },
+  {
+   "raw": "ttiseɣ",
+   "count": 1
+  },
+  {
+   "raw": "aɣ-ac",
+   "count": 1
+  },
+  {
+   "raw": "ṯrahed",
+   "count": 1
+  },
+  {
+   "raw": "ṯeqqebed",
+   "count": 1
+  },
+  {
+   "raw": "qebbeɣ",
+   "count": 1
+  },
+  {
+   "raw": "ṯeḥřeced",
+   "count": 1
+  },
+  {
+   "raw": "ggenfiɣ",
+   "count": 1
+  },
+  {
+   "raw": "beslama",
+   "count": 1
+  },
+  {
+   "raw": "nemřaqa",
+   "count": 1
+  },
+  {
+   "raw": "in",
+   "count": 1
+  },
+  {
+   "raw": "ca'",
+   "count": 1
+  },
+  {
+   "raw": "Allah",
+   "count": 1
+  },
+  {
+   "raw": "yekkaa",
+   "count": 2
+  },
+  {
+   "raw": "xas",
+   "count": 2
+  },
+  {
+   "raw": "nraḥ",
+   "count": 1
+  },
+  {
+   "raw": "nteggʷeḏ",
+   "count": 1
+  },
+  {
+   "raw": "Ḥajit-ek",
+   "count": 2
+  },
+  {
+   "raw": "Yekkaa",
+   "count": 3
+  },
+  {
+   "raw": "uzeǧid",
+   "count": 2
+  },
+  {
+   "raw": "yiyyaa",
+   "count": 2
+  },
+  {
+   "raw": "yemyaa",
+   "count": 2
+  },
+  {
+   "raw": "Uca",
+   "count": 2
+  },
+  {
+   "raw": "yemsennaḏ",
+   "count": 2
+  },
+  {
+   "raw": "kkinṯ",
+   "count": 2
+  },
+  {
+   "raw": "ssin",
+   "count": 2
+  },
+  {
+   "raw": "ṯmeḥtac",
+   "count": 2
+  },
+  {
+   "raw": "uca",
+   "count": 1
+  },
+  {
+   "raw": "Mri",
+   "count": 1
+  },
+  {
+   "raw": "ḏayi",
+   "count": 1
+  },
+  {
+   "raw": "yawi",
+   "count": 1
+  },
+  {
+   "raw": "bab",
+   "count": 4
+  },
+  {
+   "raw": "yiyyaṛ-a",
+   "count": 4
+  },
+  {
+   "raw": "ḏas-ggeɣ",
+   "count": 3
+  },
+  {
+   "raw": "ajeǧab",
+   "count": 1
+  },
+  {
+   "raw": "uɣeyḏu",
+   "count": 1
+  },
+  {
+   "raw": "yiwy-ayi",
+   "count": 2
+  },
+  {
+   "raw": "ḏas-d-jjeɣ",
+   "count": 1
+  },
+  {
+   "raw": "mmi-s",
+   "count": 1
+  },
+  {
+   "raw": "ṯyuqiṯ",
+   "count": 1
+  },
+  {
+   "raw": "wuṛɣ",
+   "count": 1
+  },
+  {
+   "raw": "ṯenyirṯ",
+   "count": 1
+  },
+  {
+   "raw": "mri",
+   "count": 1
+  },
+  {
+   "raw": "ṯuɣa-ṯ",
+   "count": 1
+  },
+  {
+   "raw": "ḏinni",
+   "count": 1
+  },
+  {
+   "raw": "yeṯɛesses",
+   "count": 1
+  },
+  {
+   "raw": "yennuffaa",
+   "count": 1
+  },
+  {
+   "raw": "yesḥessa",
+   "count": 1
+  },
+  {
+   "raw": "iruḥ",
+   "count": 1
+  },
+  {
+   "raw": "yexḏeb",
+   "count": 1
+  },
+  {
+   "raw": "ṯamezwaruṯ",
+   "count": 1
+  }
+ ],
+ "uitleg_unknown": [
+  {
+   "raw": "ṯmazixt",
+   "count": 1
+  },
+  {
+   "raw": "řkasi",
+   "count": 1
+  },
+  {
+   "raw": "xa(d",
+   "count": 1
+  },
+  {
+   "raw": "iṭan",
+   "count": 1
+  },
+  {
+   "raw": "ṭuṛu",
+   "count": 1
+  },
+  {
+   "raw": "xdem",
+   "count": 1
+  },
+  {
+   "raw": "xeḏmeɣ",
+   "count": 3
+  },
+  {
+   "raw": "ekk",
+   "count": 1
+  },
+  {
+   "raw": "egg",
+   "count": 1
+  },
+  {
+   "raw": "ecc",
+   "count": 1
+  },
+  {
+   "raw": "ejj",
+   "count": 1
+  },
+  {
+   "raw": "nẓumm",
+   "count": 1
+  },
+  {
+   "raw": "aseggʷas",
+   "count": 1
+  },
+  {
+   "raw": "iggʷeḏ",
+   "count": 1
+  },
+  {
+   "raw": "hekkʷa",
+   "count": 1
+  },
+  {
+   "raw": "sekkʷa",
+   "count": 1
+  },
+  {
+   "raw": "izeddeɣ",
+   "count": 2
+  },
+  {
+   "raw": "yenḍu",
+   "count": 3
+  },
+  {
+   "raw": "yeǧi",
+   "count": 2
+  },
+  {
+   "raw": "uǧi",
+   "count": 1
+  },
+  {
+   "raw": "ǧaz",
+   "count": 1
+  },
+  {
+   "raw": "ameǧař",
+   "count": 2
+  },
+  {
+   "raw": "tameǧatc",
+   "count": 2
+  },
+  {
+   "raw": "tacemřatc",
+   "count": 1
+  },
+  {
+   "raw": "tanwatc",
+   "count": 1
+  },
+  {
+   "raw": "timeǧařin",
+   "count": 1
+  },
+  {
+   "raw": "ɣār",
+   "count": 1
+  },
+  {
+   "raw": "ḏ̣ār",
+   "count": 1
+  },
+  {
+   "raw": "kkar",
+   "count": 1
+  },
+  {
+   "raw": "cuarḏu",
+   "count": 1
+  },
+  {
+   "raw": "yezdeɣ",
+   "count": 1
+  },
+  {
+   "raw": "inettu",
+   "count": 1
+  },
+  {
+   "raw": "yedweř",
+   "count": 6
+  },
+  {
+   "raw": "yeddakkʷař",
+   "count": 1
+  },
+  {
+   "raw": "yenɣa",
+   "count": 2
+  },
+  {
+   "raw": "ineqq",
+   "count": 1
+  },
+  {
+   "raw": "yemřes",
+   "count": 1
+  },
+  {
+   "raw": "imeǧǧes",
+   "count": 1
+  },
+  {
+   "raw": "yefhem",
+   "count": 1
+  },
+  {
+   "raw": "ifehm-as",
+   "count": 1
+  },
+  {
+   "raw": "yenḍew",
+   "count": 1
+  },
+  {
+   "raw": "ineɣ",
+   "count": 1
+  },
+  {
+   "raw": "ṯazeǧafṯ",
+   "count": 1
+  },
+  {
+   "raw": "ṯmazixṯ",
+   "count": 5
+  },
+  {
+   "raw": "ṯabriṭ",
+   "count": 1
+  },
+  {
+   "raw": "ṯameǧatc",
+   "count": 2
+  },
+  {
+   "raw": "ṯimeǧařin",
+   "count": 1
+  },
+  {
+   "raw": "yifri",
+   "count": 1
+  },
+  {
+   "raw": "ḏegg",
+   "count": 2
+  },
+  {
+   "raw": "iḏuraa",
+   "count": 1
+  },
+  {
+   "raw": "zzegg",
+   "count": 1
+  },
+  {
+   "raw": "ḏuraa",
+   "count": 1
+  },
+  {
+   "raw": "ujeǧiḏ",
+   "count": 1
+  },
+  {
+   "raw": "ṯaḥenjiaṯ",
+   "count": 3
+  },
+  {
+   "raw": "āryaz",
+   "count": 12
+  },
+  {
+   "raw": "ṯɣattṯ",
+   "count": 1
+  },
+  {
+   "raw": "řeɛawḏa",
+   "count": 1
+  },
+  {
+   "raw": "ṯakeccutt",
+   "count": 1
+  },
+  {
+   "raw": "ifunasen",
+   "count": 3
+  },
+  {
+   "raw": "iḥenjian",
+   "count": 1
+  },
+  {
+   "raw": "imezzyanen",
+   "count": 1
+  },
+  {
+   "raw": "ṯifunasin",
+   "count": 2
+  },
+  {
+   "raw": "ṯiḥenjirin",
+   "count": 1
+  },
+  {
+   "raw": "ijḏaḏ",
+   "count": 1
+  },
+  {
+   "raw": "izra",
+   "count": 1
+  },
+  {
+   "raw": "iserman",
+   "count": 1
+  },
+  {
+   "raw": "uřawen",
+   "count": 1
+  },
+  {
+   "raw": "irawen",
+   "count": 1
+  },
+  {
+   "raw": "izizawen",
+   "count": 1
+  },
+  {
+   "raw": "ayeṯma",
+   "count": 2
+  },
+  {
+   "raw": "issma",
+   "count": 2
+  },
+  {
+   "raw": "aydi",
+   "count": 1
+  },
+  {
+   "raw": "iṯan",
+   "count": 1
+  },
+  {
+   "raw": "iysan",
+   "count": 1
+  },
+  {
+   "raw": "ṯatteffaḥṯ",
+   "count": 2
+  },
+  {
+   "raw": "ṯitteffaḥin",
+   "count": 2
+  },
+  {
+   "raw": "řbanan",
+   "count": 1
+  },
+  {
+   "raw": "ṯbananṯ",
+   "count": 1
+  },
+  {
+   "raw": "ṯibananin",
+   "count": 1
+  },
+  {
+   "raw": "xizzu",
+   "count": 1
+  },
+  {
+   "raw": "ṯxizzuṯ",
+   "count": 1
+  },
+  {
+   "raw": "ṯixizzuṯin",
+   "count": 1
+  },
+  {
+   "raw": "ṯifeřfecṯ",
+   "count": 1
+  },
+  {
+   "raw": "ṯifeřfřin",
+   "count": 1
+  },
+  {
+   "raw": "řleccin",
+   "count": 1
+  },
+  {
+   "raw": "ṯaleccinṯ",
+   "count": 1
+  },
+  {
+   "raw": "ṯileccinin",
+   "count": 1
+  },
+  {
+   "raw": "wafunas",
+   "count": 1
+  },
+  {
+   "raw": "ufunas",
+   "count": 1
+  },
+  {
+   "raw": "ṯfunasṯ",
+   "count": 1
+  },
+  {
+   "raw": "yifunasen",
+   "count": 1
+  },
+  {
+   "raw": "ṯfunasin",
+   "count": 2
+  },
+  {
+   "raw": "āryaz-a",
+   "count": 5
+  },
+  {
+   "raw": "ayyaw-nnes",
+   "count": 1
+  },
+  {
+   "raw": "yessawař",
+   "count": 1
+  },
+  {
+   "raw": "āryaz-enni",
+   "count": 4
+  },
+  {
+   "raw": "yexḏem",
+   "count": 4
+  },
+  {
+   "raw": "aṛ",
+   "count": 17
+  },
+  {
+   "raw": "amecnaw",
+   "count": 13
+  },
+  {
+   "raw": "yuzzeř",
+   "count": 1
+  },
+  {
+   "raw": "aqiḏun-nnes",
+   "count": 1
+  },
+  {
+   "raw": "ṯus-eḏ",
+   "count": 1
+  },
+  {
+   "raw": "āryaz-nnes",
+   "count": 2
+  },
+  {
+   "raw": "yeqqim",
+   "count": 4
+  },
+  {
+   "raw": "wāryaz",
+   "count": 8
+  },
+  {
+   "raw": "baba-s",
+   "count": 1
+  },
+  {
+   "raw": "yeccuř-iṯ",
+   "count": 1
+  },
+  {
+   "raw": "uɣi-ɣa",
+   "count": 3
+  },
+  {
+   "raw": "u-",
+   "count": 4
+  },
+  {
+   "raw": "ayṯ-",
+   "count": 4
+  },
+  {
+   "raw": "bu-",
+   "count": 4
+  },
+  {
+   "raw": "m(u)-",
+   "count": 4
+  },
+  {
+   "raw": "wexxam",
+   "count": 5
+  },
+  {
+   "raw": "axxam",
+   "count": 2
+  },
+  {
+   "raw": "řyabeṯ",
+   "count": 2
+  },
+  {
+   "raw": "řemḥyameṯ",
+   "count": 1
+  },
+  {
+   "raw": "ttiyaraṯ",
+   "count": 1
+  },
+  {
+   "raw": "ssekwilaṯ",
+   "count": 1
+  },
+  {
+   "raw": "řbankawaṯ",
+   "count": 1
+  },
+  {
+   "raw": "lfilmawaṯ",
+   "count": 1
+  },
+  {
+   "raw": "zznaqi",
+   "count": 1
+  },
+  {
+   "raw": "řeɣwabi",
+   "count": 1
+  },
+  {
+   "raw": "ǧiřeṯ",
+   "count": 2
+  },
+  {
+   "raw": "ǧyaři",
+   "count": 1
+  },
+  {
+   "raw": "ibabaṯen",
+   "count": 1
+  },
+  {
+   "raw": "ṯiyemmaṯin",
+   "count": 1
+  },
+  {
+   "raw": "issi",
+   "count": 1
+  },
+  {
+   "raw": "ɛmumi",
+   "count": 1
+  },
+  {
+   "raw": "ɛwazizi",
+   "count": 1
+  },
+  {
+   "raw": "ɛwanti",
+   "count": 1
+  },
+  {
+   "raw": "xwari",
+   "count": 1
+  },
+  {
+   "raw": "xwači",
+   "count": 1
+  },
+  {
+   "raw": "řeǧḏuḏ",
+   "count": 1
+  },
+  {
+   "raw": "ṯiḥennaṯin",
+   "count": 1
+  },
+  {
+   "raw": "řaẓ",
+   "count": 1
+  },
+  {
+   "raw": "faḏ",
+   "count": 1
+  },
+  {
+   "raw": "makla",
+   "count": 1
+  },
+  {
+   "raw": "aṯ-",
+   "count": 1
+  },
+  {
+   "raw": "Seid",
+   "count": 4
+  },
+  {
+   "raw": "aṯ",
+   "count": 1
+  },
+  {
+   "raw": "ṯ(u)-…-ṯ",
+   "count": 1
+  },
+  {
+   "raw": "ṯyayṯ-",
+   "count": 1
+  },
+  {
+   "raw": "ṯuseidṯ",
+   "count": 1
+  },
+  {
+   "raw": "ṯyayṯ",
+   "count": 1
+  },
+  {
+   "raw": "m(u",
+   "count": 1
+  },
+  {
+   "raw": "lqehwa",
+   "count": 2
+  },
+  {
+   "raw": "ṯyarrabuṯ",
+   "count": 2
+  },
+  {
+   "raw": "mu",
+   "count": 2
+  },
+  {
+   "raw": "yyemzan",
+   "count": 1
+  },
+  {
+   "raw": "iyemzan",
+   "count": 1
+  },
+  {
+   "raw": "uzeǧif",
+   "count": 2
+  },
+  {
+   "raw": "ṯquqqucin",
+   "count": 2
+  },
+  {
+   "raw": "qqimeṯ",
+   "count": 1
+  },
+  {
+   "raw": "qqimem",
+   "count": 1
+  },
+  {
+   "raw": "qqiment",
+   "count": 2
+  },
+  {
+   "raw": "qqimeɣ",
+   "count": 1
+  },
+  {
+   "raw": "ṯeqqimeḏ",
+   "count": 1
+  },
+  {
+   "raw": "teqqim",
+   "count": 2
+  },
+  {
+   "raw": "neqqim",
+   "count": 1
+  },
+  {
+   "raw": "ṯeqqimem",
+   "count": 1
+  },
+  {
+   "raw": "teqqiment",
+   "count": 1
+  },
+  {
+   "raw": "qqimen",
+   "count": 1
+  },
+  {
+   "raw": "cfa",
+   "count": 1
+  },
+  {
+   "raw": "ss-",
+   "count": 1
+  },
+  {
+   "raw": "sgenfa",
+   "count": 3
+  },
+  {
+   "raw": "ssufeɣ",
+   "count": 1
+  },
+  {
+   "raw": "mm-",
+   "count": 5
+  },
+  {
+   "raw": "nḍaa",
+   "count": 1
+  },
+  {
+   "raw": "mneɣ",
+   "count": 2
+  },
+  {
+   "raw": "nneqřeb",
+   "count": 2
+  },
+  {
+   "raw": "qzem",
+   "count": 1
+  },
+  {
+   "raw": "nnuqzem",
+   "count": 1
+  },
+  {
+   "raw": "m-",
+   "count": 1
+  },
+  {
+   "raw": "n-",
+   "count": 2
+  },
+  {
+   "raw": "ixef-nnes",
+   "count": 5
+  },
+  {
+   "raw": "yewṯa",
+   "count": 2
+  },
+  {
+   "raw": "twa-",
+   "count": 2
+  },
+  {
+   "raw": "xḏem",
+   "count": 1
+  },
+  {
+   "raw": "xeddmeɣ",
+   "count": 2
+  },
+  {
+   "raw": "uzzeř",
+   "count": 1
+  },
+  {
+   "raw": "uḏes",
+   "count": 1
+  },
+  {
+   "raw": "uḏef",
+   "count": 2
+  },
+  {
+   "raw": "ɣez",
+   "count": 2
+  },
+  {
+   "raw": "ɣza",
+   "count": 1
+  },
+  {
+   "raw": "ɣzi-",
+   "count": 1
+  },
+  {
+   "raw": "cca",
+   "count": 1
+  },
+  {
+   "raw": "cci-",
+   "count": 1
+  },
+  {
+   "raw": "ns",
+   "count": 1
+  },
+  {
+   "raw": "nsa",
+   "count": 1
+  },
+  {
+   "raw": "nsi-",
+   "count": 1
+  },
+  {
+   "raw": "ffuḏ",
+   "count": 1
+  },
+  {
+   "raw": "gguř",
+   "count": 1
+  },
+  {
+   "raw": "řemmeḏ",
+   "count": 1
+  },
+  {
+   "raw": "qeǧeḇ",
+   "count": 1
+  },
+  {
+   "raw": "messeḥ",
+   "count": 1
+  },
+  {
+   "raw": "tacaa",
+   "count": 1
+  },
+  {
+   "raw": "tazzeř",
+   "count": 1
+  },
+  {
+   "raw": "tessen",
+   "count": 1
+  },
+  {
+   "raw": "teffeɣ",
+   "count": 1
+  },
+  {
+   "raw": "tettu",
+   "count": 1
+  },
+  {
+   "raw": "neqq",
+   "count": 1
+  },
+  {
+   "raw": "ɣzi",
+   "count": 1
+  },
+  {
+   "raw": "kessi",
+   "count": 1
+  },
+  {
+   "raw": "tbedda",
+   "count": 2
+  },
+  {
+   "raw": "tegg",
+   "count": 1
+  },
+  {
+   "raw": "tett",
+   "count": 1
+  },
+  {
+   "raw": "sess",
+   "count": 1
+  },
+  {
+   "raw": "tru",
+   "count": 1
+  },
+  {
+   "raw": "wḏi",
+   "count": 1
+  },
+  {
+   "raw": "sgenfi",
+   "count": 1
+  },
+  {
+   "raw": "ufi-a",
+   "count": 1
+  },
+  {
+   "raw": "ufi",
+   "count": 1
+  },
+  {
+   "raw": "řmiḏ",
+   "count": 1
+  },
+  {
+   "raw": "uḏif",
+   "count": 1
+  },
+  {
+   "raw": "tbeddi",
+   "count": 1
+  },
+  {
+   "raw": "tadef",
+   "count": 1
+  },
+  {
+   "raw": "tidef",
+   "count": 1
+  },
+  {
+   "raw": "ssadaf",
+   "count": 1
+  },
+  {
+   "raw": "ssidif",
+   "count": 1
+  },
+  {
+   "raw": "waa",
+   "count": 42
+  },
+  {
+   "raw": "yegg",
+   "count": 2
+  },
+  {
+   "raw": "xad",
+   "count": 6
+  },
+  {
+   "raw": "yenna-as",
+   "count": 1
+  },
+  {
+   "raw": "ṯuḏes",
+   "count": 2
+  },
+  {
+   "raw": "yetseddaɛ-aneɣ",
+   "count": 1
+  },
+  {
+   "raw": "iteddez",
+   "count": 1
+  },
+  {
+   "raw": "aqqa",
+   "count": 6
+  },
+  {
+   "raw": "raḥ",
+   "count": 1
+  },
+  {
+   "raw": "aaḥ",
+   "count": 1
+  },
+  {
+   "raw": "ṯraḥ",
+   "count": 1
+  },
+  {
+   "raw": "ṯaḥ",
+   "count": 1
+  },
+  {
+   "raw": "ṯriḥ",
+   "count": 1
+  },
+  {
+   "raw": "ṯiḥ",
+   "count": 1
+  },
+  {
+   "raw": "yaggweḥ",
+   "count": 3
+  },
+  {
+   "raw": "cekk",
+   "count": 3
+  },
+  {
+   "raw": "cemm",
+   "count": 1
+  },
+  {
+   "raw": "niṯni",
+   "count": 1
+  },
+  {
+   "raw": "nihni",
+   "count": 2
+  },
+  {
+   "raw": "niṯenti",
+   "count": 1
+  },
+  {
+   "raw": "nihenti",
+   "count": 1
+  },
+  {
+   "raw": "Mimun",
+   "count": 7
+  },
+  {
+   "raw": "yesseqsa-ayi",
+   "count": 1
+  },
+  {
+   "raw": "ayi",
+   "count": 2
+  },
+  {
+   "raw": "ḏayi",
+   "count": 2
+  },
+  {
+   "raw": "ic",
+   "count": 1
+  },
+  {
+   "raw": "icekk",
+   "count": 1
+  },
+  {
+   "raw": "icem",
+   "count": 1
+  },
+  {
+   "raw": "iṯ",
+   "count": 2
+  },
+  {
+   "raw": "ṯ(ṯ",
+   "count": 2
+  },
+  {
+   "raw": "ḏaneɣ",
+   "count": 2
+  },
+  {
+   "raw": "ḏaɣ",
+   "count": 2
+  },
+  {
+   "raw": "ikenniw",
+   "count": 1
+  },
+  {
+   "raw": "ikennint",
+   "count": 1
+  },
+  {
+   "raw": "ṯen",
+   "count": 4
+  },
+  {
+   "raw": "iṯen",
+   "count": 1
+  },
+  {
+   "raw": "ṯenṯ",
+   "count": 2
+  },
+  {
+   "raw": "iṯenṯ",
+   "count": 1
+  },
+  {
+   "raw": "yecc-iṯ",
+   "count": 2
+  },
+  {
+   "raw": "yessufɣ-iṯ",
+   "count": 1
+  },
+  {
+   "raw": "ḏayi-yessufɣen",
+   "count": 1
+  },
+  {
+   "raw": "ac",
+   "count": 1
+  },
+  {
+   "raw": "ḏac",
+   "count": 1
+  },
+  {
+   "raw": "ḏam",
+   "count": 1
+  },
+  {
+   "raw": "ḏas",
+   "count": 1
+  },
+  {
+   "raw": "awem",
+   "count": 1
+  },
+  {
+   "raw": "ḏawem",
+   "count": 1
+  },
+  {
+   "raw": "akenṯ",
+   "count": 1
+  },
+  {
+   "raw": "acenṯ",
+   "count": 1
+  },
+  {
+   "raw": "ḏakenṯ",
+   "count": 1
+  },
+  {
+   "raw": "ḏacenṯ",
+   "count": 1
+  },
+  {
+   "raw": "asen",
+   "count": 1
+  },
+  {
+   "raw": "ḏasen",
+   "count": 1
+  },
+  {
+   "raw": "asenṯ",
+   "count": 1
+  },
+  {
+   "raw": "ḏasenṯ",
+   "count": 1
+  },
+  {
+   "raw": "wciɣ-as",
+   "count": 4
+  },
+  {
+   "raw": "pabu",
+   "count": 2
+  },
+  {
+   "raw": "ḏas-yewcin",
+   "count": 1
+  },
+  {
+   "raw": "Naḍuār",
+   "count": 2
+  },
+  {
+   "raw": "yedweř-d",
+   "count": 1
+  },
+  {
+   "raw": "yessiwd-iṯ-id",
+   "count": 1
+  },
+  {
+   "raw": "yessiwd-isenṯ-id",
+   "count": 1
+  },
+  {
+   "raw": "yus-eḏ",
+   "count": 2
+  },
+  {
+   "raw": "yiwy-ac-ṯ-id",
+   "count": 1
+  },
+  {
+   "raw": "kiḏes",
+   "count": 1
+  },
+  {
+   "raw": "kis",
+   "count": 1
+  },
+  {
+   "raw": "kiḏem",
+   "count": 1
+  },
+  {
+   "raw": "kim",
+   "count": 1
+  },
+  {
+   "raw": "ɣari",
+   "count": 6
+  },
+  {
+   "raw": "ɣaaneɣ",
+   "count": 1
+  },
+  {
+   "raw": "nnes",
+   "count": 2
+  },
+  {
+   "raw": "mmi-c",
+   "count": 1
+  },
+  {
+   "raw": "mmi-s",
+   "count": 3
+  },
+  {
+   "raw": "mmi-tneɣ",
+   "count": 1
+  },
+  {
+   "raw": "mmi-tsen",
+   "count": 1
+  },
+  {
+   "raw": "ṯ-awyeɣ",
+   "count": 1
+  },
+  {
+   "raw": "simanṯ",
+   "count": 2
+  },
+  {
+   "raw": "usiɣ-d",
+   "count": 1
+  },
+  {
+   "raw": "simanṯ-inu",
+   "count": 1
+  },
+  {
+   "raw": "yegga-ṯ",
+   "count": 1
+  },
+  {
+   "raw": "simanṯ-nnes",
+   "count": 1
+  },
+  {
+   "raw": "āryaz-in",
+   "count": 1
+  },
+  {
+   "raw": "stilu-ɣa",
+   "count": 2
+  },
+  {
+   "raw": "stilu-yin",
+   "count": 2
+  },
+  {
+   "raw": "stilu-nni",
+   "count": 2
+  },
+  {
+   "raw": "ifassenn-a",
+   "count": 2
+  },
+  {
+   "raw": "ifassenn-in",
+   "count": 1
+  },
+  {
+   "raw": "ifassen-ni",
+   "count": 1
+  },
+  {
+   "raw": "awessar-a",
+   "count": 1
+  },
+  {
+   "raw": "awessaa-nni",
+   "count": 1
+  },
+  {
+   "raw": "win",
+   "count": 2
+  },
+  {
+   "raw": "ṯa",
+   "count": 2
+  },
+  {
+   "raw": "ṯin",
+   "count": 3
+  },
+  {
+   "raw": "ṯenni",
+   "count": 2
+  },
+  {
+   "raw": "ina",
+   "count": 1
+  },
+  {
+   "raw": "inin",
+   "count": 1
+  },
+  {
+   "raw": "inni",
+   "count": 1
+  },
+  {
+   "raw": "ṯina",
+   "count": 1
+  },
+  {
+   "raw": "ṯinin",
+   "count": 1
+  },
+  {
+   "raw": "ṯinni",
+   "count": 1
+  },
+  {
+   "raw": "aya",
+   "count": 2
+  },
+  {
+   "raw": "wa-niṯa",
+   "count": 1
+  },
+  {
+   "raw": "wa-niṯaṯ",
+   "count": 1
+  },
+  {
+   "raw": "wa-niṯati",
+   "count": 1
+  },
+  {
+   "raw": "ṯa-niṯa",
+   "count": 1
+  },
+  {
+   "raw": "ṯa-niṯaṯ",
+   "count": 1
+  },
+  {
+   "raw": "wen",
+   "count": 3
+  },
+  {
+   "raw": "yin",
+   "count": 2
+  },
+  {
+   "raw": "manaya",
+   "count": 1
+  },
+  {
+   "raw": "manayin",
+   "count": 1
+  },
+  {
+   "raw": "ḏiha",
+   "count": 2
+  },
+  {
+   "raw": "ḏinni",
+   "count": 1
+  },
+  {
+   "raw": "ḏaniṯaṯ",
+   "count": 1
+  },
+  {
+   "raw": "ḏaniṯati",
+   "count": 1
+  },
+  {
+   "raw": "ssin",
+   "count": 1
+  },
+  {
+   "raw": "ssiha",
+   "count": 1
+  },
+  {
+   "raw": "ssenni",
+   "count": 1
+  },
+  {
+   "raw": "ammu",
+   "count": 2
+  },
+  {
+   "raw": "řexṯu",
+   "count": 1
+  },
+  {
+   "raw": "ṯeggenfa",
+   "count": 2
+  },
+  {
+   "raw": "ṯeffeɣ",
+   "count": 1
+  },
+  {
+   "raw": "neffeɣ",
+   "count": 1
+  },
+  {
+   "raw": "xa",
+   "count": 1
+  },
+  {
+   "raw": "yeyya",
+   "count": 1
+  },
+  {
+   "raw": "min",
+   "count": 6
+  },
+  {
+   "raw": "negg",
+   "count": 1
+  },
+  {
+   "raw": "yemmeṯ",
+   "count": 1
+  },
+  {
+   "raw": "ṯeqqim",
+   "count": 2
+  },
+  {
+   "raw": "ṯ-ẓṛiɣ",
+   "count": 1
+  },
+  {
+   "raw": "gguan",
+   "count": 1
+  },
+  {
+   "raw": "yiwy-am-ṯ-iḏ",
+   "count": 1
+  },
+  {
+   "raw": "zzayes",
+   "count": 1
+  },
+  {
+   "raw": "cem-awyeɣ",
+   "count": 1
+  },
+  {
+   "raw": "cem-ṯiwyeɣ",
+   "count": 1
+  },
+  {
+   "raw": "ḏ-yusin",
+   "count": 4
+  },
+  {
+   "raw": "ḏ-iwyeɣ",
+   "count": 1
+  },
+  {
+   "raw": "ḏ-yiwden",
+   "count": 1
+  },
+  {
+   "raw": "xemmi",
+   "count": 4
+  },
+  {
+   "raw": "meɛlik",
+   "count": 5
+  },
+  {
+   "raw": "mři",
+   "count": 4
+  },
+  {
+   "raw": "ḏ-yusa",
+   "count": 1
+  },
+  {
+   "raw": "ḏ-ṯaseḏ",
+   "count": 1
+  },
+  {
+   "raw": "ḥuma",
+   "count": 4
+  },
+  {
+   "raw": "baš",
+   "count": 3
+  },
+  {
+   "raw": "qa-ṯ",
+   "count": 3
+  },
+  {
+   "raw": "ṯuɣa-c",
+   "count": 1
+  },
+  {
+   "raw": "ṯuɣa-ayi",
+   "count": 1
+  },
+  {
+   "raw": "duru",
+   "count": 1
+  },
+  {
+   "raw": "tsekkwa",
+   "count": 1
+  },
+  {
+   "raw": "c-ṯuɣa",
+   "count": 4
+  },
+  {
+   "raw": "ṯuyi",
+   "count": 1
+  },
+  {
+   "raw": "aqq-eṯ",
+   "count": 1
+  },
+  {
+   "raw": "aqq-awem",
+   "count": 1
+  },
+  {
+   "raw": "aqq-awem-ṯ",
+   "count": 1
+  },
+  {
+   "raw": "ha",
+   "count": 2
+  },
+  {
+   "raw": "aqq-ayi",
+   "count": 1
+  },
+  {
+   "raw": "aqq-ec",
+   "count": 2
+  },
+  {
+   "raw": "tɣiř-asen",
+   "count": 1
+  },
+  {
+   "raw": "ṯemmuṯ",
+   "count": 2
+  },
+  {
+   "raw": "tɣiř-ayi",
+   "count": 1
+  },
+  {
+   "raw": "ssehh",
+   "count": 3
+  },
+  {
+   "raw": "ḏayi-tɣiř",
+   "count": 1
+  },
+  {
+   "raw": "tɣirey",
+   "count": 1
+  },
+  {
+   "raw": "tɣiren",
+   "count": 1
+  },
+  {
+   "raw": "azenna",
+   "count": 1
+  },
+  {
+   "raw": "yewda-d",
+   "count": 1
+  },
+  {
+   "raw": "aɣ-am",
+   "count": 1
+  },
+  {
+   "raw": "aɣ-am-ṯ",
+   "count": 1
+  },
+  {
+   "raw": "aɣ-awem-ṯ",
+   "count": 1
+  },
+  {
+   "raw": "ḏay-",
+   "count": 1
+  },
+  {
+   "raw": "xaf-",
+   "count": 1
+  },
+  {
+   "raw": "xa-",
+   "count": 1
+  },
+  {
+   "raw": "zi",
+   "count": 7
+  },
+  {
+   "raw": "zzay-",
+   "count": 2
+  },
+  {
+   "raw": "kid-",
+   "count": 1
+  },
+  {
+   "raw": "akid-",
+   "count": 1
+  },
+  {
+   "raw": "jar",
+   "count": 1
+  },
+  {
+   "raw": "jaa",
+   "count": 2
+  },
+  {
+   "raw": "jara-",
+   "count": 1
+  },
+  {
+   "raw": "saḏu",
+   "count": 3
+  },
+  {
+   "raw": "nn-",
+   "count": 3
+  },
+  {
+   "raw": "nnhar-nni",
+   "count": 1
+  },
+  {
+   "raw": "ḏayes",
+   "count": 2
+  },
+  {
+   "raw": "ṯɣiyiṯ",
+   "count": 1
+  },
+  {
+   "raw": "ḏeggw",
+   "count": 1
+  },
+  {
+   "raw": "uyis-nnes",
+   "count": 1
+  },
+  {
+   "raw": "yewḏa",
+   "count": 1
+  },
+  {
+   "raw": "weyyur",
+   "count": 3
+  },
+  {
+   "raw": "yessiweř",
+   "count": 1
+  },
+  {
+   "raw": "xafi",
+   "count": 1
+  },
+  {
+   "raw": "yessizz-eḏ",
+   "count": 1
+  },
+  {
+   "raw": "zeggw",
+   "count": 3
+  },
+  {
+   "raw": "Zayyu",
+   "count": 1
+  },
+  {
+   "raw": "xeddmen",
+   "count": 1
+  },
+  {
+   "raw": "wezyen",
+   "count": 1
+  },
+  {
+   "raw": "ṯmeddiṯ",
+   "count": 1
+  },
+  {
+   "raw": "ijj",
+   "count": 7
+  },
+  {
+   "raw": "uma-s",
+   "count": 5
+  },
+  {
+   "raw": "iqess",
+   "count": 1
+  },
+  {
+   "raw": "aysum-enni",
+   "count": 1
+  },
+  {
+   "raw": "ṯxeḏmesṯ",
+   "count": 1
+  },
+  {
+   "raw": "yeggwa",
+   "count": 2
+  },
+  {
+   "raw": "akides",
+   "count": 1
+  },
+  {
+   "raw": "yetmenya",
+   "count": 1
+  },
+  {
+   "raw": "ǧar",
+   "count": 1
+  },
+  {
+   "raw": "iduraa",
+   "count": 1
+  },
+  {
+   "raw": "tmenyanṯ",
+   "count": 1
+  },
+  {
+   "raw": "jarasenṯ",
+   "count": 1
+  },
+  {
+   "raw": "yews-iṯ",
+   "count": 1
+  },
+  {
+   "raw": "weyyur-nnes",
+   "count": 1
+  },
+  {
+   "raw": "yews-as-ṯ",
+   "count": 1
+  },
+  {
+   "raw": "-as",
+   "count": 1
+  },
+  {
+   "raw": "ḏyenni",
+   "count": 1
+  },
+  {
+   "raw": "ussen",
+   "count": 1
+  },
+  {
+   "raw": "ṯamɣārṯ-enni",
+   "count": 3
+  },
+  {
+   "raw": "uyuan",
+   "count": 1
+  },
+  {
+   "raw": "amcan-nni",
+   "count": 1
+  },
+  {
+   "raw": "yus-d",
+   "count": 5
+  },
+  {
+   "raw": "ṯamɣārṯ-nnes",
+   "count": 3
+  },
+  {
+   "raw": "wanita",
+   "count": 1
+  },
+  {
+   "raw": "yayeṯma",
+   "count": 1
+  },
+  {
+   "raw": "qibaṛi",
+   "count": 2
+  },
+  {
+   "raw": "ajemmaḏ",
+   "count": 1
+  },
+  {
+   "raw": "sennez",
+   "count": 1
+  },
+  {
+   "raw": "awriḏ",
+   "count": 1
+  },
+  {
+   "raw": "zzaṯes",
+   "count": 1
+  },
+  {
+   "raw": "ttaaf-nnes",
+   "count": 1
+  },
+  {
+   "raw": "icṯen",
+   "count": 2
+  },
+  {
+   "raw": "uāryaz",
+   "count": 1
+  },
+  {
+   "raw": "icṯ",
+   "count": 3
+  },
+  {
+   "raw": "ṯemɣarin",
+   "count": 2
+  },
+  {
+   "raw": "ṯeřṯ",
+   "count": 2
+  },
+  {
+   "raw": "snin",
+   "count": 9
+  },
+  {
+   "raw": "aaḇɛ",
+   "count": 1
+  },
+  {
+   "raw": "xems",
+   "count": 1
+  },
+  {
+   "raw": "sett",
+   "count": 1
+  },
+  {
+   "raw": "sḇeɛ",
+   "count": 1
+  },
+  {
+   "raw": "ṯmen",
+   "count": 1
+  },
+  {
+   "raw": "tseɛ",
+   "count": 1
+  },
+  {
+   "raw": "ɛecṛ",
+   "count": 1
+  },
+  {
+   "raw": "settac",
+   "count": 1
+  },
+  {
+   "raw": "sḇeɛtac",
+   "count": 1
+  },
+  {
+   "raw": "waḥd-u-ɛicrin",
+   "count": 1
+  },
+  {
+   "raw": "ṯnayn-u-ɛicrin",
+   "count": 1
+  },
+  {
+   "raw": "mya-u-waḥiṯ",
+   "count": 1
+  },
+  {
+   "raw": "ṯeřṯ-mya",
+   "count": 1
+  },
+  {
+   "raw": "tiss",
+   "count": 1
+  },
+  {
+   "raw": "cḥaa",
+   "count": 1
+  },
+  {
+   "raw": "cuhuṛ",
+   "count": 1
+  },
+  {
+   "raw": "iyyam",
+   "count": 1
+  },
+  {
+   "raw": "maaṛatayen",
+   "count": 1
+  },
+  {
+   "raw": "imuṛan",
+   "count": 1
+  },
+  {
+   "raw": "wattas",
+   "count": 1
+  },
+  {
+   "raw": "yijjen",
+   "count": 1
+  },
+  {
+   "raw": "ssineɣ",
+   "count": 8
+  },
+  {
+   "raw": "m(m)arra",
+   "count": 1
+  },
+  {
+   "raw": "mkuř",
+   "count": 1
+  },
+  {
+   "raw": "yiwi",
+   "count": 1
+  },
+  {
+   "raw": "ṯexseḏ",
+   "count": 2
+  },
+  {
+   "raw": "ṯegga",
+   "count": 1
+  },
+  {
+   "raw": "uma-s-enni",
+   "count": 1
+  },
+  {
+   "raw": "yis-a",
+   "count": 1
+  },
+  {
+   "raw": "Yusef",
+   "count": 1
+  },
+  {
+   "raw": "tsara",
+   "count": 1
+  },
+  {
+   "raw": "ccarie-enni",
+   "count": 1
+  },
+  {
+   "raw": "yessi-s-enni",
+   "count": 1
+  },
+  {
+   "raw": "ṯemza",
+   "count": 1
+  },
+  {
+   "raw": "aṛṛzeq-nnes",
+   "count": 1
+  },
+  {
+   "raw": "ṯammuaṯ-a",
+   "count": 1
+  },
+  {
+   "raw": "w-enneɣni",
+   "count": 1
+  },
+  {
+   "raw": "ṯ-enneɣni",
+   "count": 1
+  },
+  {
+   "raw": "ɣac",
+   "count": 1
+  },
+  {
+   "raw": "iwden-d",
+   "count": 1
+  },
+  {
+   "raw": "uḥenjia-nni",
+   "count": 1
+  },
+  {
+   "raw": "mayen",
+   "count": 1
+  },
+  {
+   "raw": "ṯaazzud",
+   "count": 1
+  },
+  {
+   "raw": "ttiřid",
+   "count": 1
+  },
+  {
+   "raw": "ṯaḏfeḏ",
+   "count": 1
+  },
+  {
+   "raw": "ttettsed",
+   "count": 1
+  },
+  {
+   "raw": "cḥař",
+   "count": 1
+  },
+  {
+   "raw": "iwezzen",
+   "count": 1
+  },
+  {
+   "raw": "mayaa",
+   "count": 1
+  },
+  {
+   "raw": "mix",
+   "count": 1
+  },
+  {
+   "raw": "ṯetrud",
+   "count": 1
+  },
+  {
+   "raw": "manay-a",
+   "count": 1
+  },
+  {
+   "raw": "ṯuḥřeḏ",
+   "count": 1
+  },
+  {
+   "raw": "ṯeggeḏ",
+   "count": 1
+  },
+  {
+   "raw": "mana",
+   "count": 2
+  },
+  {
+   "raw": "manawy-",
+   "count": 1
+  },
+  {
+   "raw": "manay-",
+   "count": 1
+  },
+  {
+   "raw": "ṯawyeḏ",
+   "count": 1
+  },
+  {
+   "raw": "ṯawḏ",
+   "count": 1
+  },
+  {
+   "raw": "yessen",
+   "count": 3
+  },
+  {
+   "raw": "illa",
+   "count": 8
+  },
+  {
+   "raw": "belli",
+   "count": 4
+  },
+  {
+   "raw": "yeggwa-ḏ",
+   "count": 1
+  },
+  {
+   "raw": "yenna-ac",
+   "count": 1
+  },
+  {
+   "raw": "ajeǧiḏ",
+   "count": 1
+  },
+  {
+   "raw": "ṯaaḥeḏ",
+   "count": 1
+  },
+  {
+   "raw": "ispunya",
+   "count": 1
+  },
+  {
+   "raw": "ṯuɣa-ṯ",
+   "count": 1
+  },
+  {
+   "raw": "uma…",
+   "count": 2
+  },
+  {
+   "raw": "amezzyan-nsen",
+   "count": 1
+  },
+  {
+   "raw": "ǧa",
+   "count": 2
+  },
+  {
+   "raw": "yiři",
+   "count": 1
+  },
+  {
+   "raw": "tiřiy",
+   "count": 1
+  },
+  {
+   "raw": "Tanja",
+   "count": 1
+  },
+  {
+   "raw": "yeǧan",
+   "count": 1
+  },
+  {
+   "raw": "Ḷḷah",
+   "count": 1
+  },
+  {
+   "raw": "yeǧa",
+   "count": 1
+  },
+  {
+   "raw": "yifan",
+   "count": 3
+  },
+  {
+   "raw": "ttumubin-a",
+   "count": 1
+  },
+  {
+   "raw": "ṯ-yifan",
+   "count": 1
+  },
+  {
+   "raw": "s-yifan",
+   "count": 1
+  },
+  {
+   "raw": "wayrad",
+   "count": 1
+  },
+  {
+   "raw": "issiwiř",
+   "count": 1
+  },
+  {
+   "raw": "das-teggen",
+   "count": 2
+  },
+  {
+   "raw": "ṯ-yezri",
+   "count": 1
+  },
+  {
+   "raw": "ḏas-nnin",
+   "count": 1
+  },
+  {
+   "raw": "dinni",
+   "count": 1
+  },
+  {
+   "raw": "ffaaq",
+   "count": 1
+  },
+  {
+   "raw": "ggeɣ",
+   "count": 1
+  },
+  {
+   "raw": "waaǧi",
+   "count": 3
+  },
+  {
+   "raw": "ǧi",
+   "count": 1
+  },
+  {
+   "raw": "yewca",
+   "count": 1
+  },
+  {
+   "raw": "landris-inu",
+   "count": 4
+  },
+  {
+   "raw": "Fatima",
+   "count": 4
+  },
+  {
+   "raw": "wciɣ-as-ṯ",
+   "count": 1
+  },
+  {
+   "raw": "nhar-a",
+   "count": 2
+  },
+  {
+   "raw": "uɣi",
+   "count": 2
+  },
+  {
+   "raw": "yewt-ayi",
+   "count": 1
+  },
+  {
+   "raw": "sseyyed",
+   "count": 1
+  },
+  {
+   "raw": "[ucaay-as",
+   "count": 1
+  },
+  {
+   "raw": "aysum]",
+   "count": 1
+  },
+  {
+   "raw": "iwden",
+   "count": 1
+  },
+  {
+   "raw": "[ṯexřa]",
+   "count": 1
+  },
+  {
+   "raw": "[d",
+   "count": 1
+  },
+  {
+   "raw": "yasen]",
+   "count": 1
+  },
+  {
+   "raw": "[ixeddmen",
+   "count": 1
+  },
+  {
+   "raw": "řebda]",
+   "count": 1
+  },
+  {
+   "raw": "[waa",
+   "count": 1
+  },
+  {
+   "raw": "ixeddmen",
+   "count": 1
+  },
+  {
+   "raw": "ca]",
+   "count": 1
+  },
+  {
+   "raw": "řmeskin",
+   "count": 1
+  },
+  {
+   "raw": "xeǧseɣ",
+   "count": 1
+  },
+  {
+   "raw": "[i",
+   "count": 3
+  },
+  {
+   "raw": "ḏayi-yewca",
+   "count": 1
+  },
+  {
+   "raw": "baba]",
+   "count": 1
+  },
+  {
+   "raw": "[umi",
+   "count": 2
+  },
+  {
+   "raw": "ṯiggesṯ]",
+   "count": 1
+  },
+  {
+   "raw": "ṯ-wciɣ]",
+   "count": 1
+  },
+  {
+   "raw": "ssaaseɣ",
+   "count": 1
+  },
+  {
+   "raw": "řkas-nni]",
+   "count": 1
+  },
+  {
+   "raw": "umeddukeř]",
+   "count": 1
+  },
+  {
+   "raw": "ẓṛiɣ",
+   "count": 1
+  },
+  {
+   "raw": "ḏawem-ṯ-yennan",
+   "count": 1
+  },
+  {
+   "raw": "ḏ-yesya",
+   "count": 1
+  },
+  {
+   "raw": "ṯawḏenṯ",
+   "count": 1
+  },
+  {
+   "raw": "yebda",
+   "count": 2
+  },
+  {
+   "raw": "yetxemmem",
+   "count": 2
+  },
+  {
+   "raw": "xseɣ",
+   "count": 1
+  },
+  {
+   "raw": "meřcey",
+   "count": 1
+  },
+  {
+   "raw": "xes",
+   "count": 1
+  },
+  {
+   "raw": "usaaḏun-nnes",
+   "count": 1
+  },
+  {
+   "raw": "itett-iṯ",
+   "count": 1
+  },
+  {
+   "raw": "yeccat-iṯ",
+   "count": 1
+  },
+  {
+   "raw": "itazzeř",
+   "count": 1
+  },
+  {
+   "raw": "xas",
+   "count": 1
+  },
+  {
+   "raw": "yufi-ṯ",
+   "count": 1
+  },
+  {
+   "raw": "yuf-iṯ",
+   "count": 1
+  },
+  {
+   "raw": "yeffeɣ",
+   "count": 1
+  },
+  {
+   "raw": "yeggenfa",
+   "count": 1
+  },
+  {
+   "raw": "ariɣ",
+   "count": 1
+  },
+  {
+   "raw": "ṯessned",
+   "count": 1
+  },
+  {
+   "raw": "mmi-m",
+   "count": 1
+  },
+  {
+   "raw": "teɛqr-iṯ",
+   "count": 1
+  },
+  {
+   "raw": "illa…",
+   "count": 1
+  },
+  {
+   "raw": "ma…",
+   "count": 1
+  },
+  {
+   "raw": "umeddukeř",
+   "count": 1
+  },
+  {
+   "raw": "yettef",
+   "count": 1
+  },
+  {
+   "raw": "azeggwaɣ",
+   "count": 1
+  },
+  {
+   "raw": "walayenni",
+   "count": 2
+  },
+  {
+   "raw": "seɛɛa",
+   "count": 3
+  },
+  {
+   "raw": "maca",
+   "count": 1
+  },
+  {
+   "raw": "waɛabib-inu",
+   "count": 1
+  },
+  {
+   "raw": "aɛabib-inu",
+   "count": 1
+  },
+  {
+   "raw": "yiwi-ṯ-id",
+   "count": 1
+  },
+  {
+   "raw": "yeddaa",
+   "count": 1
+  },
+  {
+   "raw": "ɣaawem",
+   "count": 1
+  },
+  {
+   "raw": "yemma-twem",
+   "count": 1
+  },
+  {
+   "raw": "ɛenti-twem",
+   "count": 1
+  },
+  {
+   "raw": "ḏam-ṯ-newc",
+   "count": 1
+  },
+  {
+   "raw": "ffiyenṯ",
+   "count": 1
+  },
+  {
+   "raw": "ffɣeɣ",
+   "count": 1
+  },
+  {
+   "raw": "ḏ-usiɣ",
+   "count": 1
+  },
+  {
+   "raw": "ifi",
+   "count": 3
+  },
+  {
+   "raw": "cciɣ",
+   "count": 2
+  },
+  {
+   "raw": "nzemmaa",
+   "count": 1
+  },
+  {
+   "raw": "ṯ-necc",
+   "count": 1
+  },
+  {
+   "raw": "fami",
+   "count": 1
+  },
+  {
+   "raw": "ṯ-yenɣa",
+   "count": 1
+  },
+  {
+   "raw": "ṯḥedd",
+   "count": 1
+  },
+  {
+   "raw": "xmi",
+   "count": 1
+  },
+  {
+   "raw": "traggwaḥen",
+   "count": 1
+  },
+  {
+   "raw": "teqqar-asen",
+   "count": 1
+  },
+  {
+   "raw": "aḥami",
+   "count": 1
+  },
+  {
+   "raw": "ḥama",
+   "count": 1
+  },
+  {
+   "raw": "zegga",
+   "count": 1
+  },
+  {
+   "raw": "ami",
+   "count": 1
+  },
+  {
+   "raw": "lianna",
+   "count": 1
+  },
+  {
+   "raw": "ḥima",
+   "count": 1
+  },
+  {
+   "raw": "ɛefseɣ",
+   "count": 1
+  },
+  {
+   "raw": "yettes",
+   "count": 1
+  },
+  {
+   "raw": "itett",
+   "count": 1
+  },
+  {
+   "raw": "xeřgeɣ",
+   "count": 1
+  },
+  {
+   "raw": "usin-d",
+   "count": 1
+  },
+  {
+   "raw": "lwalidin-inu",
+   "count": 1
+  },
+  {
+   "raw": "teggen",
+   "count": 1
+  },
+  {
+   "raw": "ssenwen",
+   "count": 1
+  },
+  {
+   "raw": "izřan",
+   "count": 1
+  },
+  {
+   "raw": "ṯettsed",
+   "count": 1
+  },
+  {
+   "raw": "ɛaḏ",
+   "count": 2
+  },
+  {
+   "raw": "ṯettiseḏ",
+   "count": 1
+  },
+  {
+   "raw": "ttiseɣ",
+   "count": 1
+  },
+  {
+   "raw": "yekkaa",
+   "count": 1
+  },
+  {
+   "raw": "uzeǧid",
+   "count": 1
+  },
+  {
+   "raw": "yiyyaa",
+   "count": 1
+  },
+  {
+   "raw": "yemyaa",
+   "count": 1
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+node_modules/
+_project/archief/
+_project/bronnen/
+*.pdf
+*.docx
+*.xlsx
