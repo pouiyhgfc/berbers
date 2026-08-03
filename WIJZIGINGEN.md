@@ -18,6 +18,7 @@
 | Een **les** | `nl/cursus.html` **én** `en/course.html` | `_ai/cursus.md`, `_ai/index.md` | Tarifit in beide identiek; alleen uitleg-taal verschilt |
 | **Grammatica** | `nl/uitleg.html` **én** `en/grammar.html` | `_ai/grammatica.md`, `_ai/index.md` | idem |
 | **Oefeningen** | `assets/oefeningen/exercises-nl.json` **én** `-en.json` | (niets) | beide talen gelijk opbouwen |
+| Een **zin** | `assets/zinnen/zinnen.csv` | `_ai/zinnen.md`, `_ai/index.md` | NL+EN in één bestand → automatisch synchroon |
 
 ## Concreet
 - **Woord:** pas de rij in `woordenlijst.csv` aan (kolommen `tarifit, nl, en, cefr, woordsoort,
@@ -28,6 +29,20 @@
   markdown terugkomt; de pariteitscheck waarschuwt als NL/EN uit elkaar lopen. → commit.
 - **Oefening:** pas `exercises-nl.json` en `exercises-en.json` allebei aan, test de oefenpagina,
   commit.
+- **Zin:** een zin komt letterlijk uit het boek of uit een geverifieerde bron; noteer de vindplaats
+  in `bron`. Verzin nooit een zin, ook niet "als voorbeeld". `make build` → `make check` → commit.
+  De site (`zinnen.html`, "Uit het boek"-blokken in `cursus.html`) leest `zinnen.csv` runtime uit
+  — een nieuwe rij pushen is genoeg, geen HTML-wijziging nodig.
+
+## Spellingharmonisatie zinnenbank (2026-07-19)
+`assets/zinnen/zinnen.csv` kwam uit boek-OCR en week op 205 tokens (376 zinnen) af van de
+learntarifit-schrijfwijze in `woordenlijst.csv` (ontbrekende diakrieten: `r`→`ř`, `t`→`ṯ`,
+`d`→`ḏ`, `h`→`ḥ`, `s`→`ṣ`, `z`→`ẓ`, `g`→`ɣ`, `c`→`ǧ`). Gedetecteerd met
+`_project/scripts/check_spelling_zinnen.py`, per patroon beoordeeld door Idries, toegepast met
+`_project/scripts/apply_spelling_zinnen.py --apply`. Rapporten (audit-trail):
+`_project/rapporten/spelling-kandidaten.csv` (beoordeeld, alle 205 op `status=ja`),
+`spelling-ambigu.csv` (10 dubbelzinnige tokens, 9 met de hand opgelost, `ɛri` bewust ongewijzigd),
+`onbekende-tokens.csv` (werklijst voor woordenlijst-uitbreiding, apart traject).
 
 ## Bekende afwijking (pariteit)
 `make parity` staat op *waarschuwen* omdat er nog één bewust/onbedoeld verschil is: het token `uyi`

@@ -1199,7 +1199,7 @@
 | yeği | dochter | daughter | ww |
 | yutub | Youtube | Youtube | ww |
 | yyaaf | grote rots | the cliff or abyss | ww |
-| yyawen | vol zijn, verzadigd zijn (van eten) | to be full, to be satiated (from food) | ww |
+| jjawen | vol zijn, verzadigd zijn (van eten) | to be full, to be satiated (from food) | ww |
 | zalamit / cciɛeř | lucifers | matches | ww |
 | zeḥḥef | mank lopen | walk with a limp | ww |
 | zzadj | bidden | to pray | ww |

@@ -16,10 +16,16 @@ Tarifit-token niet terugvinden, falen met een foutmelding (ze vullen niets aan).
 | Lessen | `nl/cursus.html` + `en/course.html` | `_ai/cursus.md` |
 | Grammatica | `nl/uitleg.html` + `en/grammar.html` | `_ai/grammatica.md` |
 | Oefeningen | `assets/oefeningen/exercises-nl.json` + `-en.json` | — |
-| AI-manifest | sjabloon in `_project/scripts/gen_index_md.py` | `_ai/index.md` |
+| Zinnen | `assets/zinnen/zinnen.csv` (handmatig gecureerd, geattesteerd) | `_ai/zinnen.md`, `nl/en zinnen.html` + "Uit het boek"-blokken in cursus.html (laden runtime, niet gegenereerd) |
+| AI-systeemprompt | sjabloon in `_project/scripts/gen_index_md.py` | `_ai/index.md` |
 
 `_ai/*.md` zijn context voor een taaloefen-chatbot en zijn volledig gegenereerd. Bewerk ze nooit
 met de hand (ze beginnen met een banner). Bewerk de bron en draai `make build`.
+
+De kolommen `les`/`hoofdstuk` in `zinnen.csv` zijn deels machinaal geclassificeerd (tag `auto` in
+`tags`, PLAN-ZINNEN-WEBSITE.md fase 3.1) op basis van de `context`-tag uit de boek-OCR. Handmatige
+correctie: waarde aanpassen én de `auto`-tag verwijderen — anders overschrijft een latere
+classificatieronde hem weer.
 
 ## CSV-schema
 6 kolommen met koprij: `tarifit,nl,en,cefr,woordsoort,tags`. Parsers mappen op **kolomnaam**, niet
