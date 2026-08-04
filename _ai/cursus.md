@@ -2388,7 +2388,7 @@ Merk op hoe vaak `ɣa` en `ad` opduiken in die bijzinnen — na een voegwoord ve
 | yeggua amen itett | hij liep en at tegelijkertijd |
 | nedweɣ x yijjen weɣyur amen xafes iqubac degg ɣaaynen | ik sprong op een ezel terwijl er waterkruiken op hem zaten in zijn zadeltassen |
 | yeggua itett | hij liep en at (tegelijkertijd) |
-| uca ruḥey ad ttseɣ zar yayetma, amen teggeɣ řeḇḏa | toen ging ik slapen tussen mijn broers zoals ik altijd deed |
+| uca ruḥeɣ ad ttseɣ zar yayetma, amen teggeɣ řeḇḏa | toen ging ik slapen tussen mijn broers zoals ik altijd deed |
 | jj ar ɣa kkseɣ recjur-a | laat (het) totdat ik deze bomen zal nemen |
 | yeqqim ifetteḥ arami yeua ijjen wesrem | hij bleef zwemmen, totdat hij een vis zag |
 | necc waa tettseɣ ḥama yaasa wezru-yin | ik zal niet slapen totdat die steen daarginds neergezet is |
@@ -2731,7 +2731,7 @@ Eén voorvoegsel verandert "rennen" in "laten rennen" en "eten" in "voeren". Waa
 | `azzeř` "rennen" | `ssizzeř` "laten rennen" |
 | `cc` "eten" | `ssecc` "voeden" |
 | `iaḏ` "dragen" | `ssiaḏ` "aankleden" |
-| `ffey` "naar buiten gaan" | `ssufey` "naar buiten laten gaan" |
+| `ffeɣ` "naar buiten gaan" | `ssufeɣ` "naar buiten laten gaan" |
 | `kkaa` "opstaan" | `sekkaa` "laten opstaan" |
 | `aḏef` "naar binnen gaan" | `ssidef` "naar binnen laten gaan" |
 
@@ -2740,7 +2740,7 @@ Eén voorvoegsel verandert "rennen" in "laten rennen" en "eten" in "voeren". Waa
 Het voorvoegsel past zich aan de stam aan:
 
 1. Begint de stam al met een dubbele medeklinker, dan blijft er één s over: `ggenfa` → `sgenfa`, `kkaa` → `sekkaa`.
-2. Botsen er te veel medeklinkers, dan schuift er een u tussen: `ffey` → `ssufey`.
+2. Botsen er te veel medeklinkers, dan schuift er een u tussen: `ffeɣ` → `ssufeɣ`.
 3. Begint de stam met een a-klank, dan wordt die een i: `aḏef` → `ssidef`, `iaḏ` → `ssiaḏ`.
 
 #### Wat het met de zin doet
@@ -2766,8 +2766,8 @@ Zelfde werkwoordsvorm, maar de verbonden staat maakt van de kruik het onderwerp 
 | ssecc | voeden |
 | iaḏ | dragen |
 | ssiaḏ | aankleden (iemand) |
-| ffey | naar buiten gaan |
-| ssufey | naar buiten laten gaan |
+| ffeɣ | naar buiten gaan |
+| ssufeɣ | naar buiten laten gaan |
 | kkaa | opstaan |
 | sekkaa | laten opstaan |
 | aḏef | naar binnen gaan |
@@ -2791,13 +2791,14 @@ Zelfde werkwoordsvorm, maar de verbonden staat maakt van de kruik het onderwerp 
 - `kkaa` · opstaan · A1 · handelingen
 - `ssiaḏ / sird` · wassen, kleden · A1 · huis & huishouden
 - `aḏef` · binnengaan, binnenkomen · A2 · handelingen
+- `ffeɣ` · uitgaan, Buitengaan · A2 · handelingen
 - `iaḏ` · aantrekken · A2 · kleding & sieraad
 - `ggenfa` · genezen, beter worden · B1 · gezondheid
 - `ssecc` · voeren, te eten geven · B1 · landbouw & veeteelt & visserij
 - `ssidef` · binnenlaten, naar binnen brengen · B1 · handelingen
 - `aqbuc` · kruik voor water · B2 · huis & huishouden
-- `i` · relatief-marker · B2 · functiewoorden
 
+- `i` · relatief-marker · B2 · functiewoorden
 - `ssizzeř` · doen rennen · B2 · handelingen
 
 ## Les 33 — mm- en twa-
@@ -2850,7 +2851,7 @@ Bij werkwoorden die zowel met als zonder lijdend voorwerp kunnen, ontstaat een d
 
 #### Stapelen maar
 
-De voorvoegsels laten zich combineren: `azzeř` "rennen" → `ssizzeř` "laten rennen" → `ṯwasizzeř` "gemaakt worden om te rennen". Of andersom: `neɣ` "doden" → `mneɣ` "vechten" → `ssemney` "laten vechten"; `ṛqa` "ontmoeten" → `mseřqa` "elkaar ontmoeten" → `semserqa` "elkaar laten ontmoeten".
+De voorvoegsels laten zich combineren: `azzeř` "rennen" → `ssizzeř` "laten rennen" → `ṯwasizzeř` "gemaakt worden om te rennen". Of andersom: `neɣ` "doden" → `mneɣ` "vechten" → `ssemneɣ` "laten vechten"; `ṛqa` "ontmoeten" → `mseřqa` "elkaar ontmoeten" → `semserqa` "elkaar laten ontmoeten".
 
 #### the middle prefix mm
 
@@ -2900,7 +2901,7 @@ De voorvoegsels laten zich combineren: `azzeř` "rennen" → `ssizzeř` "laten r
 | --- | --- |
 | neɣ | doden |
 | mneɣ | vechten |
-| ssemney | laten vechten |
+| ssemneɣ | laten vechten |
 | ṛqa | ontmoeten |
 | mseřqa | elkaar ontmoeten |
 | semserqa | elkaar laten ontmoeten |
@@ -2934,6 +2935,7 @@ De voorvoegsels laten zich combineren: `azzeř` "rennen" → `ssizzeř` "laten r
 - `mřewṯa` · elkaar slaan · B2 · handelingen
 - `nneḍfes` · gevouwen worden · B2 · handelingen
 - `nnuaẓem` · geopend worden · B2 · handelingen
+- `ssemneɣ` · doen vechten · B2 · handelingen
 - `ssizzeř` · doen rennen · B2 · handelingen
 - `ṛqa` · tegen iets aanlopen, spontaan ontmoeten · B2 · handelingen
 - `ṯwacc` · gegeten worden · B2 · eten & drinken
@@ -3110,8 +3112,8 @@ Zie je in die laatste twee de lipronding uit les 34 terugkomen? De u en w van he
 | Tarifit | Nederlands |
 | --- | --- |
 | n necc d necc | ik ben het |
-| a teffeɣ < ad tejfey | zij zal naar buiten gaan |
-| a nejfeɣ < ad nejfey | wij zullen naar buiten gaan |
+| a teffeɣ < ad tejfeɣ | zij zal naar buiten gaan |
+| a nejfeɣ < ad nejfeɣ | wij zullen naar buiten gaan |
 | yiwy-az-d ^yiwy-as-d | hij bracht naar hem hierheen |
 | degg ifri (< *di yifri) | in de grot |
 | zzegg duraa (< zzi iduraa) | van de bergen |
@@ -3403,7 +3405,7 @@ In `tuɣa xminni i ɣa raheɣ ad ttseɣ deggwxxam` — "wanneer ik in de kamer g
 
 - ḥima a nesqaa, niɣ ḥima a daneɣ-yawi yides ḏeɣya. — zodat wij stil zouden zijn, of zodat wij meteen in slaap zouden vallen (lett. zodat de slaap ons meteen zou meevoeren).
 
-- Mammec tuɣa kidney ttnus ḥenna ca n twafatin — zoals wanneer mijn grootmoeder soms bij ons sliep,
+- Mammec tuɣa kidneɣ ttnus ḥenna ca n twafatin — zoals wanneer mijn grootmoeder soms bij ons sliep,
 
 - uřa d nettaṯ tuɣa teqqar-aneɣ-d tiḥuja zi tinni yessaggwaden attas. — vertelde zij ons ook heel enge verhalen.
 

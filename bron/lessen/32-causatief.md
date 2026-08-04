@@ -21,7 +21,7 @@ Eén voorvoegsel verandert "rennen" in "laten rennen" en "eten" in "voeren". Waa
 | `azzeř` "rennen" | `ssizzeř` "laten rennen" |
 | `cc` "eten" | `ssecc` "voeden" |
 | `iaḏ` "dragen" | `ssiaḏ` "aankleden" |
-| `ffey` "naar buiten gaan" | `ssufey` "naar buiten laten gaan" |
+| `ffeɣ` "naar buiten gaan" | `ssufeɣ` "naar buiten laten gaan" |
 | `kkaa` "opstaan" | `sekkaa` "laten opstaan" |
 | `aḏef` "naar binnen gaan" | `ssidef` "naar binnen laten gaan" |
 
@@ -30,7 +30,7 @@ Eén voorvoegsel verandert "rennen" in "laten rennen" en "eten" in "voeren". Waa
 Het voorvoegsel past zich aan de stam aan:
 
 1. **Begint de stam al met een dubbele medeklinker**, dan blijft er één *s* over: `ggenfa` → `sgenfa`, `kkaa` → `sekkaa`.
-2. **Botsen er te veel medeklinkers**, dan schuift er een *u* tussen: `ffey` → `ssufey`.
+2. **Botsen er te veel medeklinkers**, dan schuift er een *u* tussen: `ffeɣ` → `ssufeɣ`.
 3. **Begint de stam met een a-klank**, dan wordt die een *i*: `aḏef` → `ssidef`, `iaḏ` → `ssiaḏ`.
 
 ### Wat het met de zin doet

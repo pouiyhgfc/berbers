@@ -56,8 +56,8 @@ a kisen tecc,zij zou met hen eten,she would eat with them,,2.8,34,boek p. 30,id:
 ijjen tmettut > izzentmettut,een vrouw,a woman,,2.8,34,boek p. 30,id:p30-03;context:lack-of-spirantization-after-alveolar-nasals;hoofdstuk:auto;les:auto
 haha-s n thenjiat > baba-s n thenjiat,de vader van het meisje,the father of the girl,,2.8,34,boek p. 30,id:p30-04;context:lack-of-spirantization-after-alveolar-nasals;hoofdstuk:auto;les:auto
 n necc d necc,ik ben het,it’s me,,2.8,35,boek p. 30,id:p30-05;context:other-consonant-assimilations;hoofdstuk:auto;les:auto
-a teffeɣ < ad tejfey,zij zal naar buiten gaan,she will go out,,2.8,35,boek p. 30,id:p30-06;context:other-consonant-assimilations;hoofdstuk:auto;les:auto
-a nejfeɣ < ad nejfey,wij zullen naar buiten gaan,we will go out,,2.8,35,boek p. 30,id:p30-07;context:other-consonant-assimilations;hoofdstuk:auto;les:auto
+a teffeɣ < ad tejfeɣ,zij zal naar buiten gaan,she will go out,,2.8,35,boek p. 30,id:p30-06;context:other-consonant-assimilations;hoofdstuk:auto;les:auto
+a nejfeɣ < ad nejfeɣ,wij zullen naar buiten gaan,we will go out,,2.8,35,boek p. 30,id:p30-07;context:other-consonant-assimilations;hoofdstuk:auto;les:auto
 yiwy-az-d ^yiwy-as-d,hij bracht naar hem hierheen,he brought to him over here,,2.8,35,boek p. 30,id:p30-08;context:other-consonant-assimilations;hoofdstuk:auto;les:auto
 degg ifri (< *di yifri),in de grot,in the cave,,2.8,35,boek p. 30,id:p30-09;context:other-consonant-assimilations;hoofdstuk:auto;les:auto
 zzegg duraa (< zzi iduraa),van de bergen,from the mountains,,2.8,35,boek p. 30,id:p30-10;context:other-consonant-assimilations;hoofdstuk:auto;les:auto
@@ -128,8 +128,8 @@ cc,eten,to eat,,4.2,32,boek p. 52,id:p52-10;context:the-causative-prefix-ss-;hoo
 ssecc,voeden,to feed,,4.2,32,boek p. 52,id:p52-11;context:the-causative-prefix-ss-;hoofdstuk:auto;les:auto
 iaḏ,dragen,to wear,,4.2,32,boek p. 52,id:p52-12;context:the-causative-prefix-ss-;hoofdstuk:auto;les:auto
 ssiaḏ,aankleden (iemand),to dress (somebody),,4.2,32,boek p. 52,id:p52-13;context:the-causative-prefix-ss-;hoofdstuk:auto;les:auto
-ffey,naar buiten gaan,to go out,,4.2,32,boek p. 53,id:p53-01;context:the-causative-prefix-ss-;hoofdstuk:auto;les:auto
-ssufey,naar buiten laten gaan,to let out,,4.2,32,boek p. 53,id:p53-02;context:the-causative-prefix-ss-;hoofdstuk:auto;les:auto
+ffeɣ,naar buiten gaan,to go out,,4.2,32,boek p. 53,id:p53-01;context:the-causative-prefix-ss-;hoofdstuk:auto;les:auto
+ssufeɣ,naar buiten laten gaan,to let out,,4.2,32,boek p. 53,id:p53-02;context:the-causative-prefix-ss-;hoofdstuk:auto;les:auto
 kkaa,opstaan,to rise,,4.2,32,boek p. 53,id:p53-03;context:the-causative-prefix-ss-;hoofdstuk:auto;les:auto
 sekkaa,laten opstaan,to make rise,,4.2,32,boek p. 53,id:p53-04;context:the-causative-prefix-ss-;hoofdstuk:auto;les:auto
 aḏef,naar binnen gaan,to go in,,4.2,32,boek p. 53,id:p53-05;context:the-causative-prefix-ss-;hoofdstuk:auto;les:auto
@@ -168,7 +168,7 @@ icaaz yiyyaa,het veld is geploegd,the field is ploughed,,4.2,33,boek p. 54,id:p5
 yetwacaaz yiyyaa,het veld is geploegd,the field has been ploughed,,4.2,33,boek p. 54,id:p54-19;context:the-passive-prefix-twa-;hoofdstuk:auto;les:auto
 neɣ,doden,to kill,,4.2,33,boek p. 55,id:p55-01;context:combined-derivations;hoofdstuk:auto;les:auto
 mneɣ,vechten,to fight,,4.2,33,boek p. 55,id:p55-02;context:combined-derivations;hoofdstuk:auto;les:auto
-ssemney,laten vechten,to make fight,,4.2,33,boek p. 55,id:p55-03;context:combined-derivations;hoofdstuk:auto;les:auto
+ssemneɣ,laten vechten,to make fight,,4.2,33,boek p. 55,id:p55-03;context:combined-derivations;hoofdstuk:auto;les:auto
 ṛqa,ontmoeten,to meet,,4.2,33,boek p. 55,id:p55-04;context:combined-derivations;hoofdstuk:auto;les:auto
 mseřqa,elkaar ontmoeten,to meet e.o.,,4.2,33,boek p. 55,id:p55-05;context:combined-derivations;hoofdstuk:auto;les:auto
 semserqa,elkaar laten ontmoeten,to make meet e.o.,,4.2,33,boek p. 55,id:p55-06;context:combined-derivations;hoofdstuk:auto;les:auto
@@ -672,7 +672,7 @@ xemmi traggwahen ɣaa ṯaddaaṯ teqqar-asen attas,"wanneer (of: terwijl) zij n
 yeggua amen itett,hij liep en at tegelijkertijd,he walked and ate at the same time,,17.2,28,boek p. 131,id:p131-06;context:temporal-subordination;hoofdstuk:auto;les:auto
 nedweɣ x yijjen weɣyur amen xafes iqubac degg ɣaaynen,ik sprong op een ezel terwijl er waterkruiken op hem zaten in zijn zadeltassen,I jumped on a donkey while there were water jars on him in his saddle bags,,17.2,28,boek p. 131,id:p131-07;context:temporal-subordination;hoofdstuk:auto;les:auto
 yeggua itett,hij liep en at (tegelijkertijd),he walked and ate (at the same time),,17.2,28,boek p. 131,id:p131-08;context:temporal-subordination;hoofdstuk:auto;les:auto
-"uca ruḥey ad ttseɣ zar yayetma, amen teggeɣ řeḇḏa",toen ging ik slapen tussen mijn broers zoals ik altijd deed,then 1 went to sleep between my brothers like I always did,,17.2,28,boek p. 131,id:p131-09;context:temporal-subordination;hoofdstuk:auto;les:auto
+"uca ruḥeɣ ad ttseɣ zar yayetma, amen teggeɣ řeḇḏa",toen ging ik slapen tussen mijn broers zoals ik altijd deed,then 1 went to sleep between my brothers like I always did,,17.2,28,boek p. 131,id:p131-09;context:temporal-subordination;hoofdstuk:auto;les:auto
 jj ar ɣa kkseɣ recjur-a,laat (het) totdat ik deze bomen zal nemen,leave (it) until 1 will take these trees,,17.2,28,boek p. 132,id:p132-01;context:temporal-subordination;hoofdstuk:auto;les:auto
 yeqqim ifetteḥ arami yeua ijjen wesrem,"hij bleef zwemmen, totdat hij een vis zag","he kept on swimming, until he saw a fish",,17.2,28,boek p. 132,id:p132-02;context:temporal-subordination;hoofdstuk:auto;les:auto
 necc waa tettseɣ ḥama yaasa wezru-yin,ik zal niet slapen totdat die steen daarginds neergezet is,I shall not sleep until that stone over there has been put down,,17.2,28,boek p. 132,id:p132-03;context:temporal-subordination;hoofdstuk:auto;les:auto
@@ -691,7 +691,7 @@ yemma tuɣa yaa a tessexsi ṯaftic n fqendif,mijn moeder doofde gewoon de pit v
 "niɣ a tsud x teftic n tsumeet a t-tessexsi,","of blies op de pit van de kaars om hem te doven,","or blow on the wick of the candle in order to put it out,",,,37,boek p. 134,id:p134-05;context:text
 uca a tessenta a daneɣ-d-ṯini ijjen tḥajit zi tinni yessaggwaden attas,"en dan begon zij ons een van de heel enge verhalen te vertellen,","and then she would begin to tell us one of the very scary stories,",,,37,boek p. 134,id:p134-06;context:text
 "ḥima a nesqaa, niɣ ḥima a daneɣ-yawi yides ḏeɣya.","zodat wij stil zouden zijn, of zodat wij meteen in slaap zouden vallen (lett. zodat de slaap ons meteen zou meevoeren).","so that we would keep quiet, or so that we would fall asleep immediately (lit. so that sleep would carry us away immediately).",,,37,boek p. 135,id:p135-01;context:text
-Mammec tuɣa kidney ttnus ḥenna ca n twafatin,"zoals wanneer mijn grootmoeder soms bij ons sliep,","Like when my grandmother would sleep at our place some times,",,,37,boek p. 135,id:p135-02;context:text
+Mammec tuɣa kidneɣ ttnus ḥenna ca n twafatin,"zoals wanneer mijn grootmoeder soms bij ons sliep,","Like when my grandmother would sleep at our place some times,",,,37,boek p. 135,id:p135-02;context:text
 uřa d nettaṯ tuɣa teqqar-aneɣ-d tiḥuja zi tinni yessaggwaden attas.,vertelde zij ons ook heel enge verhalen.,she would also tell us very scary stories.,,,37,boek p. 135,id:p135-03;context:text
 Amecnaw tḥajit n wemziw niɣ amecnaw tḥajit-enni n tenni yeccin mmi-s,"zoals het verhaal van de menseneter, of zoals het verhaal van de vrouw die haar zoon opat,","Like the story of the ogre, or like the story of the woman that ate her son,",,,37,boek p. 135,id:p135-04;context:text
 niɣ n tenni i tuɣa yetraḥen s ǧiret ɣaa imedran,of van de vrouw die 's nachts naar het kerkhof ging,or of the woman that used to go to the cemetery at night,,,37,boek p. 135,id:p135-05;context:text

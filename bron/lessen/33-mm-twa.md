@@ -50,7 +50,7 @@ Bij werkwoorden die zowel met als zonder lijdend voorwerp kunnen, ontstaat een d
 
 ### Stapelen maar
 
-De voorvoegsels laten zich combineren: `azzeř` "rennen" → `ssizzeř` "laten rennen" → `ṯwasizzeř` "gemaakt worden om te rennen". Of andersom: `neɣ` "doden" → `mneɣ` "vechten" → `ssemney` "laten vechten"; `ṛqa` "ontmoeten" → `mseřqa` "elkaar ontmoeten" → `semserqa` "elkaar laten ontmoeten".
+De voorvoegsels laten zich combineren: `azzeř` "rennen" → `ssizzeř` "laten rennen" → `ṯwasizzeř` "gemaakt worden om te rennen". Of andersom: `neɣ` "doden" → `mneɣ` "vechten" → `ssemneɣ` "laten vechten"; `ṛqa` "ontmoeten" → `mseřqa` "elkaar ontmoeten" → `semserqa` "elkaar laten ontmoeten".
 
 {{zinnen}}
 {{kernwoorden}}

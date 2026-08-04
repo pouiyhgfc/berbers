@@ -99,8 +99,8 @@ Totaal: 1208 zinnen.
 | `ijjen tmettut > izzentmettut` | een vrouw | a woman | — | §2.8 | boek p. 30 |
 | `haha-s n thenjiat > baba-s n thenjiat` | de vader van het meisje | the father of the girl | — | §2.8 | boek p. 30 |
 | `n necc d necc` | ik ben het | it’s me | — | §2.8 | boek p. 30 |
-| `a teffeɣ < ad tejfey` | zij zal naar buiten gaan | she will go out | — | §2.8 | boek p. 30 |
-| `a nejfeɣ < ad nejfey` | wij zullen naar buiten gaan | we will go out | — | §2.8 | boek p. 30 |
+| `a teffeɣ < ad tejfeɣ` | zij zal naar buiten gaan | she will go out | — | §2.8 | boek p. 30 |
+| `a nejfeɣ < ad nejfeɣ` | wij zullen naar buiten gaan | we will go out | — | §2.8 | boek p. 30 |
 | `yiwy-az-d ^yiwy-as-d` | hij bracht naar hem hierheen | he brought to him over here | — | §2.8 | boek p. 30 |
 | `degg ifri (< *di yifri)` | in de grot | in the cave | — | §2.8 | boek p. 30 |
 | `zzegg duraa (< zzi iduraa)` | van de bergen | from the mountains | — | §2.8 | boek p. 30 |
@@ -172,8 +172,8 @@ Totaal: 1208 zinnen.
 | `ssecc` | voeden | to feed | — | §4.2 | boek p. 52 |
 | `iaḏ` | dragen | to wear | — | §4.2 | boek p. 52 |
 | `ssiaḏ` | aankleden (iemand) | to dress (somebody) | — | §4.2 | boek p. 52 |
-| `ffey` | naar buiten gaan | to go out | — | §4.2 | boek p. 53 |
-| `ssufey` | naar buiten laten gaan | to let out | — | §4.2 | boek p. 53 |
+| `ffeɣ` | naar buiten gaan | to go out | — | §4.2 | boek p. 53 |
+| `ssufeɣ` | naar buiten laten gaan | to let out | — | §4.2 | boek p. 53 |
 | `kkaa` | opstaan | to rise | — | §4.2 | boek p. 53 |
 | `sekkaa` | laten opstaan | to make rise | — | §4.2 | boek p. 53 |
 | `aḏef` | naar binnen gaan | to go in | — | §4.2 | boek p. 53 |
@@ -212,7 +212,7 @@ Totaal: 1208 zinnen.
 | `yetwacaaz yiyyaa` | het veld is geploegd | the field has been ploughed | — | §4.2 | boek p. 54 |
 | `neɣ` | doden | to kill | — | §4.2 | boek p. 55 |
 | `mneɣ` | vechten | to fight | — | §4.2 | boek p. 55 |
-| `ssemney` | laten vechten | to make fight | — | §4.2 | boek p. 55 |
+| `ssemneɣ` | laten vechten | to make fight | — | §4.2 | boek p. 55 |
 | `ṛqa` | ontmoeten | to meet | — | §4.2 | boek p. 55 |
 | `mseřqa` | elkaar ontmoeten | to meet e.o. | — | §4.2 | boek p. 55 |
 | `semserqa` | elkaar laten ontmoeten | to make meet e.o. | — | §4.2 | boek p. 55 |
@@ -844,7 +844,7 @@ Totaal: 1208 zinnen.
 | `yeggua amen itett` | hij liep en at tegelijkertijd | he walked and ate at the same time | — | §17.2 | boek p. 131 |
 | `nedweɣ x yijjen weɣyur amen xafes iqubac degg ɣaaynen` | ik sprong op een ezel terwijl er waterkruiken op hem zaten in zijn zadeltassen | I jumped on a donkey while there were water jars on him in his saddle bags | — | §17.2 | boek p. 131 |
 | `yeggua itett` | hij liep en at (tegelijkertijd) | he walked and ate (at the same time) | — | §17.2 | boek p. 131 |
-| `uca ruḥey ad ttseɣ zar yayetma, amen teggeɣ řeḇḏa` | toen ging ik slapen tussen mijn broers zoals ik altijd deed | then 1 went to sleep between my brothers like I always did | — | §17.2 | boek p. 131 |
+| `uca ruḥeɣ ad ttseɣ zar yayetma, amen teggeɣ řeḇḏa` | toen ging ik slapen tussen mijn broers zoals ik altijd deed | then 1 went to sleep between my brothers like I always did | — | §17.2 | boek p. 131 |
 | `jj ar ɣa kkseɣ recjur-a` | laat (het) totdat ik deze bomen zal nemen | leave (it) until 1 will take these trees | — | §17.2 | boek p. 132 |
 | `yeqqim ifetteḥ arami yeua ijjen wesrem` | hij bleef zwemmen, totdat hij een vis zag | he kept on swimming, until he saw a fish | — | §17.2 | boek p. 132 |
 | `necc waa tettseɣ ḥama yaasa wezru-yin` | ik zal niet slapen totdat die steen daarginds neergezet is | I shall not sleep until that stone over there has been put down | — | §17.2 | boek p. 132 |
@@ -922,7 +922,7 @@ Totaal: 1208 zinnen.
 | `niɣ a tsud x teftic n tsumeet a t-tessexsi,` | of blies op de pit van de kaars om hem te doven, | or blow on the wick of the candle in order to put it out, | — | — | boek p. 134 |
 | `uca a tessenta a daneɣ-d-ṯini ijjen tḥajit zi tinni yessaggwaden attas` | en dan begon zij ons een van de heel enge verhalen te vertellen, | and then she would begin to tell us one of the very scary stories, | — | — | boek p. 134 |
 | `ḥima a nesqaa, niɣ ḥima a daneɣ-yawi yides ḏeɣya.` | zodat wij stil zouden zijn, of zodat wij meteen in slaap zouden vallen (lett. zodat de slaap ons meteen zou meevoeren). | so that we would keep quiet, or so that we would fall asleep immediately (lit. so that sleep would carry us away immediately). | — | — | boek p. 135 |
-| `Mammec tuɣa kidney ttnus ḥenna ca n twafatin` | zoals wanneer mijn grootmoeder soms bij ons sliep, | Like when my grandmother would sleep at our place some times, | — | — | boek p. 135 |
+| `Mammec tuɣa kidneɣ ttnus ḥenna ca n twafatin` | zoals wanneer mijn grootmoeder soms bij ons sliep, | Like when my grandmother would sleep at our place some times, | — | — | boek p. 135 |
 | `uřa d nettaṯ tuɣa teqqar-aneɣ-d tiḥuja zi tinni yessaggwaden attas.` | vertelde zij ons ook heel enge verhalen. | she would also tell us very scary stories. | — | — | boek p. 135 |
 | `Amecnaw tḥajit n wemziw niɣ amecnaw tḥajit-enni n tenni yeccin mmi-s` | zoals het verhaal van de menseneter, of zoals het verhaal van de vrouw die haar zoon opat, | Like the story of the ogre, or like the story of the woman that ate her son, | — | — | boek p. 135 |
 | `niɣ n tenni i tuɣa yetraḥen s ǧiret ɣaa imedran` | of van de vrouw die 's nachts naar het kerkhof ging | or of the woman that used to go to the cemetery at night | — | — | boek p. 135 |
