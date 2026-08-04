@@ -625,7 +625,7 @@ Twee kleine woorden die overal opduiken: `qa` maakt iets relevant voor nú, `tu�
 | --- | --- |
 | qa-t diha | hij is daarginds |
 | aaweř, qa a d-yas baba, qa a s-ineɣ | vlucht! mijn vader zal komen [qa ad + A] en hij zal je doden [qa ad + A]! |
-| qa a taaḥed yaa ḇarra | pas op met naar buiten gaan!, ga niet naar buiten! |
+| qa a taaḥed ɣaa ḇarra | pas op met naar buiten gaan!, ga niet naar buiten! |
 | qa ad iraḥ ɣaa ḇarra | pas op dat hij niet naar buiten gaat! |
 | qa a traḥed! | ga niet! |
 | qa a traḥed a t-tafed dinni | je zal gaan, en hem daar vinden |
@@ -2605,7 +2605,7 @@ Zie ook hoe de voornaamwoorden in `dayi-yewca` en `das-yewsin` vóór het werkwo
 | Tarifit | Nederlands |
 | --- | --- |
 | missa [i x ssaaseɣ řkas-nni] t tameqqrant | de tafel waarop ik dit glas zette is groot |
-| taḥenjiat [i yaa ǧa umedduker] | een meisje dat een vriend heeft |
+| taḥenjiat [i ɣaa ǧa umedduker] | een meisje dat een vriend heeft |
 
 #### Kernwoorden
 
@@ -3397,7 +3397,7 @@ In `tuɣa xminni i ɣa raheɣ ad ttseɣ deggwxxam` — "wanneer ik in de kamer g
 
 - jaa yayetma d yemma, — tussen mijn broers en mijn moeder,
 
-- yemma tuɣa yaa a tessexsi ṯaftic n fqendif — mijn moeder doofde gewoon de pit van de olielamp
+- yemma tuɣa ɣaa a tessexsi ṯaftic n fqendif — mijn moeder doofde gewoon de pit van de olielamp
 
 - niɣ a tsud x teftic n tsumeet a t-tessexsi, — of blies op de pit van de kaars om hem te doven,
 
@@ -3535,7 +3535,7 @@ In `tuɣa xminni i ɣa raheɣ ad ttseɣ deggwxxam` — "wanneer ik in de kamer g
 
 - Ksint-as aḥenjia-nni nnant-as, tmeɛɛec, tenn-as: — zij namen de jongen van haar weg en zeiden tegen haar, zij bedelde, zij zei tegen haar:
 
-- - A xači waa yaaney da ca, yaaney illa icten turn, — - tante, wij hebben hier niets, wij hebben alleen iemand die gebaard heeft,
+- - A xači waa ɣaaneɣ da ca, ɣaaneɣ illa icten turn, — - tante, wij hebben hier niets, wij hebben alleen iemand die gebaard heeft,
 
 - tendaa mmi-s tugi a t-tessyem, — en haar zoon weggegooid heeft, zij weigert hem op te voeden.
 

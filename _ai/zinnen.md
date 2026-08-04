@@ -340,7 +340,7 @@ Totaal: 1208 zinnen.
 |---------|------------|--------|-------|---|------|
 | `qa-t diha` | hij is daarginds | he is over there | — | §8.1 | boek p. 77 |
 | `aaweř, qa a d-yas baba, qa a s-ineɣ` | vlucht! mijn vader zal komen [qa ad + A] en hij zal je doden [qa ad + A]! | flee! my father will come [qa ad + A] and he will kill [qa ad + A] you! | — | §8.1 | boek p. 106 |
-| `qa a taaḥed yaa ḇarra` | pas op met naar buiten gaan!, ga niet naar buiten! | beware of going out!, do not go out! | — | §8.1 | boek p. 106 |
+| `qa a taaḥed ɣaa ḇarra` | pas op met naar buiten gaan!, ga niet naar buiten! | beware of going out!, do not go out! | — | §8.1 | boek p. 106 |
 | `qa ad iraḥ ɣaa ḇarra` | pas op dat hij niet naar buiten gaat! | beware that he goes out! | — | §8.1 | boek p. 106 |
 | `qa a traḥed!` | ga niet! | don’t go! | — | §8.1 | boek p. 106 |
 | `qa a traḥed a t-tafed dinni` | je zal gaan, en hem daar vinden | you will go, and find him there | — | §8.1 | boek p. 106 |
@@ -776,7 +776,7 @@ Totaal: 1208 zinnen.
 | `tenni [umi ɣa yegg ṯiggesṯ] yessexsar-it` | ieder aan wie hij een tatoeage maakte, verpestte hij haar | each one to whom he made a tattoo, he spoiled her | — | §15.1; §15.2 | boek p. 124 |
 | `aayaz [umi t-wsiɣ] d ameddukeř inu` | de man aan wie ik het gaf is mijn vriend | the man to whom I gave it is my friend | — | §15.1; §15.2 | boek p. 124 |
 | `missa [i x ssaaseɣ řkas-nni] t tameqqrant` | de tafel waarop ik dit glas zette is groot | the table on which I put this glass is big | — | §15.1; §15.2 | boek p. 125 |
-| `taḥenjiat [i yaa ǧa umedduker]` | een meisje dat een vriend heeft | a girl that has a boyfriend | — | §15.1; §15.2 | boek p. 125 |
+| `taḥenjiat [i ɣaa ǧa umedduker]` | een meisje dat een vriend heeft | a girl that has a boyfriend | — | §15.1; §15.2 | boek p. 125 |
 
 ## §15.3  (11)
 
@@ -918,7 +918,7 @@ Totaal: 1208 zinnen.
 | `Am neccin am wattas n yewdan mammec i ɛeqreɣ` | ik, zoals veel mensen, zoals ik het me herinner, | I, like many people, the way I remember, | — | — | boek p. 134 |
 | `tuɣa xminni i ɣa raheɣ ad ttseɣ deggwxxam` | wanneer ik in de kamer ging slapen | when I would go sleeping in the room | — | — | boek p. 134 |
 | `jaa yayetma d yemma,` | tussen mijn broers en mijn moeder, | between my brothers and my mother, | — | — | boek p. 134 |
-| `yemma tuɣa yaa a tessexsi ṯaftic n fqendif` | mijn moeder doofde gewoon de pit van de olielamp | my mother would just put out the wick of the oil lamp | — | — | boek p. 134 |
+| `yemma tuɣa ɣaa a tessexsi ṯaftic n fqendif` | mijn moeder doofde gewoon de pit van de olielamp | my mother would just put out the wick of the oil lamp | — | — | boek p. 134 |
 | `niɣ a tsud x teftic n tsumeet a t-tessexsi,` | of blies op de pit van de kaars om hem te doven, | or blow on the wick of the candle in order to put it out, | — | — | boek p. 134 |
 | `uca a tessenta a daneɣ-d-ṯini ijjen tḥajit zi tinni yessaggwaden attas` | en dan begon zij ons een van de heel enge verhalen te vertellen, | and then she would begin to tell us one of the very scary stories, | — | — | boek p. 134 |
 | `ḥima a nesqaa, niɣ ḥima a daneɣ-yawi yides ḏeɣya.` | zodat wij stil zouden zijn, of zodat wij meteen in slaap zouden vallen (lett. zodat de slaap ons meteen zou meevoeren). | so that we would keep quiet, or so that we would fall asleep immediately (lit. so that sleep would carry us away immediately). | — | — | boek p. 135 |
@@ -987,7 +987,7 @@ Totaal: 1208 zinnen.
 | `Wsint-as tehru uca sfesyent-as ddhen,` | zij gaven het haar, zij dronk, zij smolten boter voor haar, | They gave it to her, she drank, they melted butter for her, | — | — | boek p. 139 |
 | `teggent ddegg-nni, safi teshed, ttekk adu tmuat.` | zij deden dat soort dingen, toen viel zij flauw, zij viel flauw (lett. zij ging onder de grond door) | They did that sort of thing, then she fainted, she fainted (lit. she passed under the ground) | — | — | boek p. 140 |
 | `Ksint-as aḥenjia-nni nnant-as, tmeɛɛec, tenn-as:` | zij namen de jongen van haar weg en zeiden tegen haar, zij bedelde, zij zei tegen haar: | They took the boy away from her and said to her, she was begging, she said to her: | — | — | boek p. 140 |
-| `- A xači waa yaaney da ca, yaaney illa icten turn,` | - tante, wij hebben hier niets, wij hebben alleen iemand die gebaard heeft, | - Aunty, we don’t have anything here, we only have someone who has given birth, | — | — | boek p. 140 |
+| `- A xači waa ɣaaneɣ da ca, ɣaaneɣ illa icten turn,` | - tante, wij hebben hier niets, wij hebben alleen iemand die gebaard heeft, | - Aunty, we don’t have anything here, we only have someone who has given birth, | — | — | boek p. 140 |
 | `tendaa mmi-s tugi a t-tessyem,` | en haar zoon weggegooid heeft, zij weigert hem op te voeden. | and thrown away her son, she refuses to raise him. | — | — | boek p. 140 |
 | `mařa texsed a dam-t-newc a t-tesseymed.` | als je wilt, zullen we hem aan je geven zodat je hem kunt opvoeden. | If you want, we shall give him to you so that you can raise him. | — | — | boek p. 140 |
 | `Tenn-as: - wah a yessi ewcentt-ayi-t.` | zij zei: - oké, mijn dochters, geef hem aan mij. | She said: - Okay, my daughters, give him to me. | — | — | boek p. 140 |
@@ -1012,7 +1012,7 @@ Totaal: 1208 zinnen.
 | `Iɣaas i yijj ufunas yekhs-as irem-nni` | hij slachtte een os, hij trok de huid eraf | He slaughtered an ox, he took off the hide | — | — | boek p. 141 |
 | `yegg-it xas, yesyaad-as-t.` | en deed hem haar aan, hij liet haar hem dragen. | and put it on her, he made her wear it. | — | — | boek p. 141 |
 | `uca Wenni ɣaa ǧa ca n weɣyur, Wenni ɣaa ǧa ca ufunas,` | daarna, iedereen die een ezel had, iedereen die een os had, | After that, anyone who had a donkey, anyone who had an ox, | — | — | boek p. 142 |
-| `Wenni yaa ǧa ca n werɣem, aya ruḥus,` | iedereen die een kameel had, elk soort dier, | anyone who had a camel, any kind of animal, | — | — | boek p. 142 |
+| `Wenni ɣaa ǧa ca n werɣem, aya ruḥus,` | iedereen die een kameel had, elk soort dier, | anyone who had a camel, any kind of animal, | — | — | boek p. 142 |
 | `yesmuna-yas-t-id s kucci.` | bracht hij ze allemaal bij elkaar voor haar. | he would put them all together for her. | — | — | boek p. 142 |
 | `Yesmun-os-t-id, tebda ttras.` | hij bracht ze bij elkaar voor haar en zij begon ze te hoeden. | He put them together for her and she started herding them. | — | — | boek p. 142 |
 | `ruḥen wussan usin-d, ruḥen wussan usin-d,` | de dagen kwamen, de dagen gingen, de dagen kwamen, de dagen gingen, | The days came, the days went, the days came, the days went, | — | — | boek p. 142 |
@@ -1066,7 +1066,7 @@ Totaal: 1208 zinnen.
 | `- subḥanllah uccen imun akeḏ wucca!` | - verbazingwekkend!, een jakhals gaat samen met een windhond. | - Amazing!, a jackal goes together with a greyhound. | — | — | boek p. 145 |
 | `uca a as-yini netta:` | en hij zei dan: | And he would say: | — | — | boek p. 146 |
 | `- subḥanllah tenni yeccin mmi-s man ṯammuaṯ di teǧa?` | - verbazingwekkend! degene die haar zoon opat, in welk land is zij? | - Amazing! The one who ate her son, in which land is she? | — | — | boek p. 146 |
-| `A as-inin: - ruḥ a qa ntesra xas! Maca ruḥ yaa zzaṭ!` | en zij zeiden dan: - ga, wij hebben over haar gehoord. maar ga verder. | and they would say: - Go, we heard about her. But go further. | — | — | boek p. 146 |
+| `A as-inin: - ruḥ a qa ntesra xas! Maca ruḥ ɣaa zzaṭ!` | en zij zeiden dan: - ga, wij hebben over haar gehoord. maar ga verder. | and they would say: - Go, we heard about her. But go further. | — | — | boek p. 146 |
 | `Yeqqim yeggwua yeggwua yeggwua uḥenjia-nni.` | de jongen bleef maar doorgaan en doorgaan en doorgaan. | The boy kept on going and going and going. | — | — | boek p. 146 |
 | `Wenni i kides ɣa yemserqan a das-yini:` | iedereen die hem ontmoette zei: | Everyone that met him said: | — | — | boek p. 146 |
 | `- subḥanllah uccen imun akeḏ wucca!` | - verbazingwekkend!, een jakhals gaat samen met een windhond. | - Amazing!, a jackal goes together with a greyhound. | — | — | boek p. 146 |
@@ -1168,7 +1168,7 @@ Totaal: 1208 zinnen.
 | `aysum nsent marra yeqqim-asent x tzeggwaat.` | al hun vlees bleef achter op de struiken. | All their flesh was left behind on the shrubs. | — | — | boek p. 153 |
 | `uca t ta d nettaṯ. Ar ḏaniṯa. Tekmer tḥajit.` | en dat is het dan. tot hier. het verhaal is afgelopen. | Then that is it. Until here. The story is finished. | — | — | boek p. 153 |
 | `ruheɣ ɣaa yinni yezznuzan muzika.` | ik ging naar degenen die muziek verkopen. | I went to those who sell music. | — | — | boek p. 153 |
-| `tadfeɣ yaa tḥuna.` | ik ging naar de winkels. | I went to the shops. | — | — | boek p. 154 |
+| `tadfeɣ ɣaa tḥuna.` | ik ging naar de winkels. | I went to the shops. | — | — | boek p. 154 |
 | `ca n marrat necc d umedduker inu,` | soms samen met een vriend | Sometimes together with a friend | — | — | boek p. 154 |
 | `uca ntegg-asen ddeɛwa, nessawar akisen.` | vermaanden wij hen, vermaanden wij hen, spraken wij met hen. | we admonished them, we admonished them, we talked to them. | — | — | boek p. 154 |
 | `nessfehham-iten min teggen.` | wij legden uit wat zij aan het doen waren. | We explained what they were doing. | — | — | boek p. 154 |
@@ -1235,7 +1235,7 @@ Totaal: 1208 zinnen.
 | `di zzina ṛṛaqem-llewwel, di lfawaḥic ṛṛaqem-llewwel.` | in overspel zijn zij de kampioenen, in ontucht zijn zij de kampioenen. | In adultery they are the champions, in fornication they are the champions. | — | — | boek p. 158 |
 | `min xeddmen, manaya qa nzarr-it s ṯiṭṭawin nneɣ,` | wat zij doen, ik heb het met mijn eigen ogen gezien, | What they do, I have seen it with my own eyes, | — | — | boek p. 159 |
 | `mayemmi necc hettaaɣ g wuraan attas.` | omdat ik veel bruiloften bijwoon. | because I attend a lot of weddings. | — | — | boek p. 159 |
-| `inni yetɣennjen yaa temɣarin.` | degenen die zingen tussen de vrouwen. | Those who sing among the women. | — | — | boek p. 159 |
+| `inni yetɣennjen ɣaa temɣarin.` | degenen die zingen tussen de vrouwen. | Those who sing among the women. | — | — | boek p. 159 |
 | `inni yetɣennjen ɣaa temɣarin di sala!` | degenen die zingen in de vrouwenkamer! | Those who sing in the women’s room! | — | — | boek p. 159 |
 | `tariq aqq-et ɣaa yaayazen itegg lḥadiṯ.` | Tariq is bij de mannen en vertelt hen over de hadith. | Tariq is with the men telling them about the hadith. | — | — | boek p. 159 |
 | `a tmenɛed x ujeǧif, a neqqim ḥayaa.` | je zou je handen op je hoofd leggen, we zouden versteld moeten staan. | You would put your hands on your head, we should be astonished. | — | — | boek p. 159 |
