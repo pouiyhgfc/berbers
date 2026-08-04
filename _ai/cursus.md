@@ -67,7 +67,13 @@ Voor we woorden gaan leren: eerst de klanken. Als de klinkers kloppen, klink je 
 
 #### De drie klinkers
 
-Tarifit heeft maar drie "echte" klinkers — a, i en u. De a klinkt als in bad, de i als in bit, de u als "oe" in boek. Drie voorbeelden uit de woordenlijst: `ru` "huilen", `ini` "zeggen", `ifri` "grot".
+Tarifit heeft maar drie "echte" klinkers. Elk voorbeeld hieronder begint met de klinker in kwestie:
+
+| Klinker | Klinkt als | Voorbeeld |
+| --- | --- | --- |
+| a | a in bad | `aman` "water" |
+| i | i in bit | `ifri` "grot" |
+| u | oe in boek | `uř` "hart" |
 
 #### De schwa e
 
@@ -250,11 +256,11 @@ Tarifit heeft drie verschillende R'en — en één ervan was vroeger een l. Deze
 
 #### De drie R'en
 
-| Letter | Wat is het? |
-| --- | --- |
-| r | gewone, kort rollende r |
-| `ř` | r-klank die vroeger een l was |
-| `ṛ` | donkere r (achter in de mond) |
+| Letter | Wat is het? | Voorbeeld |
+| --- | --- | --- |
+| r | gewone, kort rollende r | `ari` "ga omhoog!" |
+| `ř` | r-klank die vroeger een l was | `uř` "hart" |
+| `ṛ` | donkere r, achter in de mond | `azṛu` "steen" |
 
 #### Vroeger een l
 

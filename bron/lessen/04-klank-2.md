@@ -15,11 +15,11 @@ Tarifit heeft drie verschillende R'en — en één ervan was vroeger een *l*. De
 
 ### De drie R'en
 
-| Letter | Wat is het? |
-| --- | --- |
-| *r* | gewone, kort rollende r |
-| `ř` | r-klank die vroeger een *l* was |
-| `ṛ` | donkere r (achter in de mond) |
+| Letter | Wat is het? | Voorbeeld |
+| --- | --- | --- |
+| *r* | gewone, kort rollende r | `ari` "ga omhoog!" |
+| `ř` | r-klank die vroeger een *l* was | `uř` "hart" |
+| `ṛ` | donkere r, achter in de mond | `azṛu` "steen" |
 
 ### Vroeger een *l*
 
