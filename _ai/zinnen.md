@@ -1090,7 +1090,7 @@ Totaal: 1208 zinnen.
 | `Yenn-as: - A das-ttaaɣ ttif-Uah.` | hij zei: - ik zal hem om gastvrijheid vragen. | He said: - 1 will ask hospitality from him. | — | — | boek p. 147 |
 | `amezwaru teggwed. Yenn-as:` | eerst was zij bang. hij zei: | At first she was afraid. He said: | — | — | boek p. 147 |
 | `- Cem izzaa, necc a cem-d-dfaaɣ.` | - ga jij eerst, ik zal je volgen. | - You go first, I shall follow you. | — | — | boek p. 147 |
-| `Yaa izzaa sscn-ayi ṯaddaaṯ waha.` | ga gewoon eerst en wijs me het huis. | Just go first and show me the house. | — | — | boek p. 148 |
+| `ɣaa izzaa sscn-ayi ṯaddaaṯ waha.` | ga gewoon eerst en wijs me het huis. | Just go first and show me the house. | — | — | boek p. 148 |
 | `uca yendeh yis nnes, yiwi kis uccen akeḏ wucca.` | hij leidde zijn paard, hij nam de jakhals en de windhond met zich mee. | He guided his horse, he took with him the jackal and the greyhound. | — | — | boek p. 148 |
 | `Ggwuan. Iwden ɣaa ṯaddaaṯ.` | zij liepen lange tijd. zij kwamen aan bij het huis. | They went a long time. They arrived at the house. | — | — | boek p. 148 |
 | `Tenn-as: - Aq-ac da ijjen yaazzu xak.` | zij zei: - er is hier iemand die naar je op zoek is. | She said: - There is someone here that is looking for you. | — | — | boek p. 148 |
@@ -1134,7 +1134,7 @@ Totaal: 1208 zinnen.
 | `‘mařa yiwy-ayi bab n yiyyar-a` | 'als de meester van dit veld met mij trouwt | ‘If the master of this field marries me | — | — | boek p. 151 |
 | `a das-d-jjeɣ mmi-s ɣaas ṯiyuqiṯ n wuaɣ di tenyiat’.` | zal ik hem een zoon geven met een gouden parel op zijn voorhoofd.' | I will give him a son with a golden pearl on his forehead.’ | — | — | boek p. 151 |
 | `Yenn-as: - Iwyex-t tejj-ayi-t-id.` | hij zei: - ik trouwde met haar en zij baarde hem. | He said: - 1 married her and she gave birth to him. | — | — | boek p. 151 |
-| `Faaheɣ iɛezb-ayi řḥař. Yaa uneggaru tecc-ayi-t.` | ik was blij, ik was heel tevreden. uiteindelijk heeft zij hem opgegeten. | I was happy, I was very pleased. In the end she has eaten him. | — | — | boek p. 151 |
+| `Faaheɣ iɛezb-ayi řḥař. ɣaa uneggaru tecc-ayi-t.` | ik was blij, ik was heel tevreden. uiteindelijk heeft zij hem opgegeten. | I was happy, I was very pleased. In the end she has eaten him. | — | — | boek p. 151 |
 | `Yenn-as: - mamec yegga?` | hij zei: - hoe zag hij eruit? | He said: - What was he like? | — | — | boek p. 151 |
 | `Yenn-as: - ɣaas ṯiyuqiṯ n wuaɣ di tenyiat.` | hij zei: - hij had een gouden parel op zijn voorhoofd. | He said: - He had a golden pearl on his forehead. | — | — | boek p. 151 |
 | `ɣaas aaḇɛa idudan, ineqs-as ijjen.` | hij had vier vingers, waarvan er één ontbrak. | He had four fingers, one of of which was lacking. | — | — | boek p. 151 |
