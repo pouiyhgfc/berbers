@@ -863,7 +863,7 @@ Totaal: 1208 zinnen.
 |---------|------------|--------|-------|---|------|
 | `yessawar` | hij spreekt | he speaks | — | — | boek p. 17 |
 | `tessawarent` | jij spreekt | you speak | — | — | boek p. 17 |
-| `ssiwef` | spreek! | speak! | — | — | boek p. 17 |
+| `ssiweř` | spreek! | speak! | — | — | boek p. 17 |
 | `ṯaddaaṯ uzeǧid` | het huis van de koning | the house of the king | — | — | boek p. 31 |
 | `ameddukeř ama` | een vriend van mijn broer | a friend of my brother | — | — | boek p. 31 |
 | `ca imendi` | wat gerst | some barley | — | — | boek p. 31 |
@@ -934,12 +934,12 @@ Totaal: 1208 zinnen.
 | `xenni i ɣa tessen ḥenna belli yiwy-aneɣ yides` | wanneer mijn grootmoeder wist dat wij in slaap gevallen waren | when my grandmother would know that we had fallen asleep | — | — | boek p. 135 |
 | `uca a tesqaa ḥima uřa d nettaṯ a tettes.` | stopte zij met praten zodat zij ook kon slapen. | she would stop speaking so that she could sleep too. | — | — | boek p. 135 |
 | `maca ca n twaratin tesriɣ-as i ḥenna ttraɣa-ayi-d` | maar soms hoorde ik mijn grootmoeder mij roepen: | But sometimes I heard my grandmother call me: | — | — | boek p. 135 |
-| `‘A ɛri inu, a ɛri inu, ma tettsed niɣ ɛad waa tettised?’` | 'Ali, mijn Ali, slaap je, of slaap je nog niet?' | ‘Ali, my Ali, are you asleep, or are you not yet asleep?’ | — | — | boek p. 135 |
+| `‘A ɛli inu, a ɛli inu, ma tettsed niɣ ɛad waa tettised?’` | 'Ali, mijn Ali, slaap je, of slaap je nog niet?' | ‘Ali, my Ali, are you asleep, or are you not yet asleep?’ | — | — | boek p. 135 |
 | `A das-iniɣ necc: ‘A ḥenna, necc ɛad waa ttiseɣ ca.'` | ik antwoordde dan: 'Grootmoeder, ik slaap nog niet.' | I would answer: ‘Grandmother, I’m not yet asleep.’ | — | — | boek p. 136 |
 | `Uca a tsiɣi ḥenna a dayi-d-teqqar tḥajit-enni.` | dan ging mijn grootmoeder verder met mij het verhaal te vertellen. | Then my grandmother would continue telling me the story. | — | — | boek p. 136 |
 | `uca tuɣa ḥenna kuř ṯwaṛa a tesqaa,` | dan stopte mijn grootmoeder keer op keer met praten, | Then my grandmother would time and again stop speaking, | — | — | boek p. 136 |
 | `uca a dayi-d-traɣa` | en riep mij: | and call me: | — | — | boek p. 136 |
-| `‘A ɛri inu, a ɛri inu, ma tettsed niɣ ɛad? Waa tettised ca?’` | 'Ali, mijn Ali, slaap je of nog niet? Slaap je niet?' | ‘Ali, my Ali, are you asleep or not yet? Aren’t you sleep?’ | — | — | boek p. 136 |
+| `‘A ɛli inu, a ɛli inu, ma tettsed niɣ ɛad? Waa tettised ca?’` | 'Ali, mijn Ali, slaap je of nog niet? Slaap je niet?' | ‘Ali, my Ali, are you asleep or not yet? Aren’t you sleep?’ | — | — | boek p. 136 |
 | `kuř ṯwaṛa a dayi-d-traɣa,` | zij vroeg het mij keer op keer, | She would ask me time and again, | — | — | boek p. 136 |
 | `txezzar-ayi ma yiwy-ayi yides niɣ ɛad.` | kijkend of ik in slaap gevallen was of nog niet. | looking whether I had fallen asleep or not yet. | — | — | boek p. 136 |
 | `ruḥ xac, a xac nraḥ waa nteggwed! ḥazit-ek!` | 'wij zullen erdoorheen gaan zonder angst.' | 'We will go through it without fear. ’ | — | — | boek p. 136 |
@@ -1097,7 +1097,7 @@ Totaal: 1208 zinnen.
 | `yeffeɣ ujeǧid-nni, a qa d azedzid. yeffeɣ, yenn-as:` | de koning kwam naar buiten, het was een koning. hij kwam naar buiten en zei: | The king came out, it was a king. He came out and said: | — | — | boek p. 148 |
 | `- Min c-d-yecqan?` | - wat heeft je hierheen gebracht? | - What has brought you here? | — | — | boek p. 148 |
 | `Yenn-as: - Ttaaɣ ɣaak ttif-llah,` | hij zei: - ik vraag om gastvrijheid, | He said: - I ask for hospitality, | — | — | boek p. 148 |
-| `a dayi-tessensed nhar-a mařa yexs wur nnec.` | u zou mij vannacht moeten uitnodigen, als uw hart het wil. | you should invite me for the night today, if your heart wants. | — | — | boek p. 148 |
+| `a dayi-tessensed nhar-a mařa yexs wuř nnec.` | u zou mij vannacht moeten uitnodigen, als uw hart het wil. | you should invite me for the night today, if your heart wants. | — | — | boek p. 148 |
 | `Yenn-as: - marḥba! Aqa-cek ɣari d anewji!` | hij zei: - welkom! je bent mijn gast. | He said: - Welcome! You are my guest. | — | — | boek p. 148 |
 | `uca yenn-as netta: - aḏef.` | toen zei hij: - kom binnen! | Then he said: - Come in! | — | — | boek p. 148 |
 | `Yessidf-it yeqqn-as yis-nni.` | hij liet hem binnen, hij bond het paard voor hem vast. | He let him in, he tied for him the horse. | — | — | boek p. 148 |
@@ -1248,7 +1248,7 @@ Totaal: 1208 zinnen.
 | `iwyent-id imedyazen,` | zij brachten de zangers, | They brought the singers, | — | — | boek p. 159 |
 | `udfen-d zi tewwaat n temɣarin ɣaa temɣarin,` | zij kwamen binnen door de deur van de vrouwen naar de vrouwen, | they came in through the door of the women to the women, | — | — | boek p. 160 |
 | `tɣennjen dinni, cetthen ḏin.` | zij zingen daar, zij dansen daar.' | they sing there, they dance there.’ | — | — | boek p. 160 |
-| `nniɣ-as: ‘necc qa waa zemmaaɣ ad sbaaɣ qa a dayi-ibedd wur.’` | ik zei: 'ik kan dit niet meer verdragen, mijn hart houdt bijna op met kloppen.' | I said: ‘I can not stand this anymore, my heart almost stops beating.’ | — | — | boek p. 160 |
+| `nniɣ-as: ‘necc qa waa zemmaaɣ ad sbaaɣ qa a dayi-ibedd wuř.’` | ik zei: 'ik kan dit niet meer verdragen, mijn hart houdt bijna op met kloppen.' | I said: ‘I can not stand this anymore, my heart almost stops beating.’ | — | — | boek p. 160 |
 | `nniɣ-as: ‘a ɣaasen adfeɣ ḏin. dinni (i) ɣa adfeɣ, ḏin.’` | ik zei: 'ik zal daarheen naar hen gaan, daarheen zal ik gaan, daarheen.' | I said: ‘I will go to them there, there I will go, there.’ | — | — | boek p. 160 |
 | `a ṯiři tezrim-tet x yutub , waa t-tezrim ca?` | misschien heb je het op YouTube gezien. heb je het niet gezien? | You may have seen it on YouTube. Haven’t you seen it? | — | — | boek p. 160 |
 | `udfeɣ ḏin, ksiɣ kiḏi kamira nniɣ-as i yijjen:` | ik ging daar naar binnen, nam een camera mee, ik zei tegen een jongen: | 1 entered there, took a camera with me, I said to a guy: | — | — | boek p. 160 |
@@ -1306,13 +1306,13 @@ Totaal: 1208 zinnen.
 | `a nettaa sid-arebbi-lɛalamin a daneɣ-yesreh,` | laten we de Heer smeken om ons te verbeteren, | Let’s beg the Lord to improve us, | — | — | boek p. 164 |
 | `a daneɣ-yeḥfed, a daneɣ-yessaa.` | om ons te behoeden, om ons te beschermen. | to preserve us, to shield us. | — | — | boek p. 164 |
 | `bismillah a nebda, bismillah a nenteq` | in Gods naam zullen wij beginnen, in Gods naam zullen wij spreken, | In God’s name we will begin, in God’s name we will speak, | — | — | boek p. 164 |
-| `bismillah a nekkes zeggw ur nneɣ axeyyeq` | in Gods naam zullen wij ons verdriet wegnemen. | In God’s name we will take away our sadnecc. | — | — | boek p. 164 |
+| `bismillah a nekkes zeggw uř nneɣ axeyyeq` | in Gods naam zullen wij ons verdriet wegnemen. | In God’s name we will take away our sadnecc. | — | — | boek p. 164 |
 | `bismillah a nebda ɛad waa nebdi zi ca` | in Gods naam zullen wij beginnen, wij zijn nog niet begonnen. | In God’s name we will begin, we still haven’t begun. | — | — | boek p. 164 |
 | `a nexzaa ma ntawy-it-d niɣ waa t-id-ntiwi ca` | wij zullen zien of wij er goed in zijn of niet. | We shall see whether we are good at it or whether we are not. | — | — | boek p. 164 |
 | `ad truɣ ad truɣ wi ɣa rqiɣ a t-ssruɣ` | ik zal huilen en huilen, wie ik ook tegenkom, ik zal hem laten huilen. | I will cry and cry, whoever I encounter I will make him cry. | — | — | boek p. 164 |
 | `mami leɛziz inu i ma ɛad a t-ttuɣ?` | mijn liefste, zal ik hem kunnen vergeten? | My sweetheart will I be able to forget him? | — | — | boek p. 164 |
 | `kkiɣ sadu wuatu ḥesbeɣ ṯifray nnes` | ik liep onder de vijgenboom door en telde zijn bladeren | I passed under the fig tree and counted its leaves | — | — | boek p. 165 |
-| `mmerqiɣ ak llif min iru wur nnes` | ik ontmoette mijn liefste, zijn hart huilde veel. | I met my sweetheart, his heart wept a lot. | — | — | boek p. 165 |
+| `mmerqiɣ ak llif min iru wuř nnes` | ik ontmoette mijn liefste, zijn hart huilde veel. | I met my sweetheart, his heart wept a lot. | — | — | boek p. 165 |
 | `mařa truḥed Aliman qqbbi waa das-isemmeh` | als je naar Duitsland gaat, moge de Heer je niet vergeven | If you go to Germany may the Lord not forgive you | — | — | boek p. 165 |
 | `tejjid fesqef inu deggw brid iseyyeh` | je liet mijn geest verspreid achter over de hele weg. | You left my mind spilled all over the road. | — | — | boek p. 165 |
 | `mařa truḥed Aliman gg-ayi di rbar nnec` | als je naar Duitsland gaat, houd mij in je gedachten | If you go to Germany, keep me in your thoughts | — | — | boek p. 165 |
@@ -1326,22 +1326,22 @@ Totaal: 1208 zinnen.
 | `aya ṛalla yemma, a yemma inu qettiɣ` | o mijn lieve moeder, ik val af. | O my dear mother, I am losing weight. | — | — | boek p. 166 |
 | `iwḏan ssawaren di ddat inu tesriɣ` | mensen praten en in mijn lichaam voel ik het. | People talk and in my body I hear it. | — | — | boek p. 166 |
 | `siḏi ɛri n nnadua a rmaasa n teḥramin` | Sidi Ali van Nador, o haven van meisjes, | Sidi Ali of Nador, o harbour of girls, | — | — | boek p. 166 |
-| `ad isebbaa arebbi ur inu meskin` | moge God mijn arme hart van geduld voorzien. | May God provide my poor heart with patience. | — | — | boek p. 166 |
-| `yexs-icem wur inu yexs-icem zi ṯemẓi` | mijn hart houdt van je, het houdt van je sinds de kindertijd | My heart loves you, it loves you since childhood | — | — | boek p. 166 |
+| `ad isebbaa arebbi uř inu meskin` | moge God mijn arme hart van geduld voorzien. | May God provide my poor heart with patience. | — | — | boek p. 166 |
+| `yexs-icem wuř inu yexs-icem zi ṯemẓi` | mijn hart houdt van je, het houdt van je sinds de kindertijd | My heart loves you, it loves you since childhood | — | — | boek p. 166 |
 | `mayemmi dayi-tejjid, tejjid-ayi da wehd-i?` | waarom heb je mij verlaten, mij hier alleen achtergelaten? | Why have you left me, left me here alone? | — | — | boek p. 166 |
 | `aya muřay nneɣ a uma inu sseɛḏ nnec` | o onze bruidegom, mijn geliefde broeder, wat heb jij geluk, | O our groom, my beloved brother, how lucky you are, | — | — | boek p. 166 |
-| `wellah illa tiwyed tenni yexs wur nnec` | ik zweer dat je met degene getrouwd bent die je hart verlangt. | I swear that you have married the one whom your heart desires. | — | — | boek p. 166 |
+| `wellah illa tiwyed tenni yexs wuř nnec` | ik zweer dat je met degene getrouwd bent die je hart verlangt. | I swear that you have married the one whom your heart desires. | — | — | boek p. 166 |
 | `aya muřay nneɣ a zzin d arifi` | o onze bruidegom, o Rifse schoonheid, | O our groom, o Riffian beauty, | — | — | boek p. 166 |
 | `zzin am wanita i mani ɣa yiri?` | zo'n schoonheid, zou die ergens anders kunnen bestaan? | A beauty like this, could there be anywhere else? | — | — | boek p. 166 |
 | `awi-d aǧun-nni tuɣa nniɣ nehřa` | geef mij die tamboerijn die ik niet wilde hebben, | Give me that tambourine which I did not want to have, | — | — | boek p. 167 |
-| `amcum-a n wur inu yugi a dayi-yehna` | dit vervloekte hart van mij is rusteloos. | This damned heart of mine is restless. | — | — | boek p. 167 |
+| `amcum-a n wuř inu yugi a dayi-yehna` | dit vervloekte hart van mij is rusteloos. | This damned heart of mine is restless. | — | — | boek p. 167 |
 | `ṛalla ṯasřiṯ nneɣ mebruk a wecma` | onze bruid, gefeliciteerd o zus, | Our bride, congratulations o sister, | — | — | boek p. 167 |
 | `neccin ntedɛa akidem s řehna` | wij bidden dat je vrede vindt. | We pray that you find peace. | — | — | boek p. 167 |
 | `ṛalla ṯasřiṯ nneɣ taqedduḥt n danun` | onze bruid, o blikje Danone (een yoghurtmerk) | Our bride, o can of Danone (a yoghurt mark) | — | — | boek p. 167 |
 | `aabbi yewc-am zzin waa dam-t-yewci s řqanun` | God heeft je overvloedig schoonheid gegeven. | God has given you beauty in abundance. | — | — | boek p. 167 |
-| `a talimaniyyet, ma ammu i yexs wur nnem?` | o Duitse vrouw, is dit je hartsverlangen? | O German woman, is this your heart’s desire? | — | — | boek p. 167 |
+| `a talimaniyyet, ma ammu i yexs wuř nnem?` | o Duitse vrouw, is dit je hartsverlangen? | O German woman, is this your heart’s desire? | — | — | boek p. 167 |
 | `sellm-as a d-yaaggweh, char inu aan nnem.` | laat hem naar huis gaan, één maand is hij van mij, de rest van het jaar is hij van jou. | Allow him to go home, one month he is mine, the year round he is yours. | — | — | boek p. 167 |
-| `mayen yuɣin ur inu, ibedd waa ixeddem.` | wat is er met mijn hart gebeurd, het staat stil en werkt niet | What happened to my heart, it stands still and doesn’t work | — | — | boek p. 167 |
+| `mayen yuɣin uř inu, ibedd waa ixeddem.` | wat is er met mijn hart gebeurd, het staat stil en werkt niet | What happened to my heart, it stands still and doesn’t work | — | — | boek p. 167 |
 | `yenna-ayi wedbib: d lḥubb i dayem.` | de dokter vertelde mij: het is dat je verliefd bent. | The doctor told me: It is that you are in love. | — | — | boek p. 167 |
 | `tus-ed tenna-ayi: llif nnem isekkaa.` | zij kwam naar mij toe en zei: jouw liefste wordt altijd dronken | She came to me and said: Your sweetheart always gets drunk | — | — | boek p. 167 |
 | `mařa netta yescaa, necc ad sweɣ kṯaa` | als hij dronken wordt, zal ik (nog) meer drinken. | if he gets drunk, I will drink (even) more. | — | — | boek p. 168 |

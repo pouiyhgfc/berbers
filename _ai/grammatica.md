@@ -759,7 +759,7 @@ Vrouwelijke vormen: `ṯ(u)-…-ṯ` voor één vrouw, `ṯyayṯ-` voor meerder
 
 Met lichaamsdelen krijgt `bu-/m(u)-` een expressieve waarde:
 
-- `bu yyemzan` (M) / `m iyemzan` (V) "(wo)man met lelijke grote tanden"
+- `bu yyemzan` (M) / `m iɣemzan` (V) "(wo)man met lelijke grote tanden"
 - `b uzeǧif` / `m uzeǧif` "(wo)man met een groot lelijk hoofd"
 - `bu ṯquqqucin` / `mu ṯquqqucin` "kinǧe met mooie ogen"
 
@@ -1691,7 +1691,7 @@ Sommige voorzetsels zijn opgebouwd uit een ruimtelijk element + een basisvoorzet
 | `swaḏday i / n` | onder |
 | `sennez i / n` | boven |
 | `awriḏ i / n` | naar (hierheen) |
-| `ayirin i / n` | naar (daarheen) |
+| `aɣirin i / n` | naar (daarheen) |
 
 De laatste twee zijn directioneel — ze geven aan in welke richting iets gaat ten opzichte van de spreker. Daarmee zijn ze complementair aan `qibaṛi` "vóór" en `awaṛn` "achter" (die positie aanduiden).
 
@@ -2132,7 +2132,7 @@ De meest voorkomende: `ca` "iets / niet eens" (in het boek geschreven als š met
 | `ḥedd` | niemand | `waa ṯ-yezri ḥedd` "niemand heeft hem gezien" |
 | `walu` | niets | `waa ḏas-nnin walu` "ze zeiden niets tegen hem" |
 | `ura d` | zelfs niet | `waa ɣari ura ḏ ijjen` "ik heb helemaal niemand" |
-| `qaɛ` | totaal, geheel | `waa dinni bu ffaaq qaɛ` "er is daar helemaal geen verschil" |
+| `qaɛ` | totaal, geheel | `waa dinni bu řfaaq qaɛ` "er is daar helemaal geen verschil" |
 | `ɛemmaas` | nooit | `waa ggeɣ ɛemmaas` "ik doe het nooit" |
 
 #### Drie regels rond `bu`

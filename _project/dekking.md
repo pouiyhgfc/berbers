@@ -27,7 +27,7 @@
 | 21 | vragen | 30 | 20 | 9 | af | — |
 | 22 | ontkenning | 39 | 26 | 10 | af | — |
 | 23 | voorzetsels-1 | 28 | 19 | 10 | af | — |
-| 24 | voorzetsels-2 | 37 | 22 | 0 | af | — |
+| 24 | voorzetsels-2 | 37 | 23 | 0 | af | — |
 | 25 | object-suffixen | 20 | 6 | 9 | af | 05 |
 | 26 | fronting | 24 | 11 | 0 | af | — |
 | 27 | en-of-maar | 14 | 25 | 18 | af | — |
@@ -35,13 +35,13 @@
 | 29 | willen-kunnen | 14 | 11 | 9 | af | — |
 | 30 | relatieven | 13 | 23 | 8 | af | — |
 | 31 | cleft | 11 | 11 | 8 | af | — |
-| 32 | causatief | 19 | 13 | 9 | af | — |
-| 33 | mm-twa | 41 | 28 | 9 | af | — |
+| 32 | causatief | 19 | 14 | 9 | af | — |
+| 33 | mm-twa | 41 | 29 | 9 | af | — |
 | 34 | keelklanken | 14 | 5 | 0 | af | — |
 | 35 | geminatie | 25 | 6 | 0 | af | — |
 | 36 | dialogen | 70 | 54 | 9 | af | — |
 | 37 | sprookje | 96 | 60 | 17 | concept | — |
-| 38 | izran | 42 | 54 | 0 | af | — |
+| 38 | izran | 42 | 55 | 0 | af | — |
 
 ## Per contextstring
 

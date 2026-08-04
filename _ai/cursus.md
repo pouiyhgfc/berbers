@@ -2041,6 +2041,7 @@ Voor preciezere plaatsbepalingen combineert Tarifit een naamwoord met `n` of `i`
 - `ṯaddaaṯ` · huis · A1 · huis & huishouden
 - `ṯameddiṯ` · avond · A1 · tijd
 - `amesřem` · moslim · A2 · religie & leven-dood
+- `aɣirin` · daarheen · A2 · plaats & richting & geografie
 - `mbra` · Behalve · A2 · functiewoorden
 - `sennej` · Hierboven · A2 · plaats & richting & geografie
 - `swadday` · naar beneden, omlaag · A2 · plaats & richting & geografie
@@ -3429,7 +3430,7 @@ In `tuɣa xminni i ɣa raheɣ ad ttseɣ deggwxxam` — "wanneer ik in de kamer g
 
 - maca ca n twaratin tesriɣ-as i ḥenna ttraɣa-ayi-d — maar soms hoorde ik mijn grootmoeder mij roepen:
 
-- ‘A ɛri inu, a ɛri inu, ma tettsed niɣ ɛad waa tettised?’ — 'Ali, mijn Ali, slaap je, of slaap je nog niet?'
+- ‘A ɛli inu, a ɛli inu, ma tettsed niɣ ɛad waa tettised?’ — 'Ali, mijn Ali, slaap je, of slaap je nog niet?'
 
 - A das-iniɣ necc: ‘A ḥenna, necc ɛad waa ttiseɣ ca.' — ik antwoordde dan: 'Grootmoeder, ik slaap nog niet.'
 
@@ -3439,7 +3440,7 @@ In `tuɣa xminni i ɣa raheɣ ad ttseɣ deggwxxam` — "wanneer ik in de kamer g
 
 - uca a dayi-d-traɣa — en riep mij:
 
-- ‘A ɛri inu, a ɛri inu, ma tettsed niɣ ɛad? Waa tettised ca?’ — 'Ali, mijn Ali, slaap je of nog niet? Slaap je niet?'
+- ‘A ɛli inu, a ɛli inu, ma tettsed niɣ ɛad? Waa tettised ca?’ — 'Ali, mijn Ali, slaap je of nog niet? Slaap je niet?'
 
 - kuř ṯwaṛa a dayi-d-traɣa, — zij vroeg het mij keer op keer,
 
@@ -3677,7 +3678,7 @@ Liefde en gemis voeren de boventoon — vaak over iemand die naar Europa vertrok
 
 - bismillah a nebda, bismillah a nenteq — in Gods naam zullen wij beginnen, in Gods naam zullen wij spreken,
 
-- bismillah a nekkes zeggw ur nneɣ axeyyeq — in Gods naam zullen wij ons verdriet wegnemen.
+- bismillah a nekkes zeggw uř nneɣ axeyyeq — in Gods naam zullen wij ons verdriet wegnemen.
 
 - bismillah a nebda ɛad waa nebdi zi ca — in Gods naam zullen wij beginnen, wij zijn nog niet begonnen.
 
@@ -3691,7 +3692,7 @@ Liefde en gemis voeren de boventoon — vaak over iemand die naar Europa vertrok
 
 - kkiɣ sadu wuatu ḥesbeɣ ṯifray nnes — ik liep onder de vijgenboom door en telde zijn bladeren
 
-- mmerqiɣ ak llif min iru wur nnes — ik ontmoette mijn liefste, zijn hart huilde veel.
+- mmerqiɣ ak llif min iru wuř nnes — ik ontmoette mijn liefste, zijn hart huilde veel.
 
 - mařa truḥed Aliman qqbbi waa das-isemmeh — als je naar Duitsland gaat, moge de Heer je niet vergeven
 
@@ -3721,15 +3722,15 @@ Liefde en gemis voeren de boventoon — vaak over iemand die naar Europa vertrok
 
 - siḏi ɛri n nnadua a rmaasa n teḥramin — Sidi Ali van Nador, o haven van meisjes,
 
-- ad isebbaa arebbi ur inu meskin — moge God mijn arme hart van geduld voorzien.
+- ad isebbaa arebbi uř inu meskin — moge God mijn arme hart van geduld voorzien.
 
-- yexs-icem wur inu yexs-icem zi ṯemẓi — mijn hart houdt van je, het houdt van je sinds de kindertijd
+- yexs-icem wuř inu yexs-icem zi ṯemẓi — mijn hart houdt van je, het houdt van je sinds de kindertijd
 
 - mayemmi dayi-tejjid, tejjid-ayi da wehd-i? — waarom heb je mij verlaten, mij hier alleen achtergelaten?
 
 - aya muřay nneɣ a uma inu sseɛḏ nnec — o onze bruidegom, mijn geliefde broeder, wat heb jij geluk,
 
-- wellah illa tiwyed tenni yexs wur nnec — ik zweer dat je met degene getrouwd bent die je hart verlangt.
+- wellah illa tiwyed tenni yexs wuř nnec — ik zweer dat je met degene getrouwd bent die je hart verlangt.
 
 - aya muřay nneɣ a zzin d arifi — o onze bruidegom, o Rifse schoonheid,
 
@@ -3739,7 +3740,7 @@ Liefde en gemis voeren de boventoon — vaak over iemand die naar Europa vertrok
 
 - awi-d aǧun-nni tuɣa nniɣ nehřa — geef mij die tamboerijn die ik niet wilde hebben,
 
-- amcum-a n wur inu yugi a dayi-yehna — dit vervloekte hart van mij is rusteloos.
+- amcum-a n wuř inu yugi a dayi-yehna — dit vervloekte hart van mij is rusteloos.
 
 - ṛalla ṯasřiṯ nneɣ mebruk a wecma — onze bruid, gefeliciteerd o zus,
 
@@ -3749,11 +3750,11 @@ Liefde en gemis voeren de boventoon — vaak over iemand die naar Europa vertrok
 
 - aabbi yewc-am zzin waa dam-t-yewci s řqanun — God heeft je overvloedig schoonheid gegeven.
 
-- a talimaniyyet, ma ammu i yexs wur nnem? — o Duitse vrouw, is dit je hartsverlangen?
+- a talimaniyyet, ma ammu i yexs wuř nnem? — o Duitse vrouw, is dit je hartsverlangen?
 
 - sellm-as a d-yaaggweh, char inu aan nnem. — laat hem naar huis gaan, één maand is hij van mij, de rest van het jaar is hij van jou.
 
-- mayen yuɣin ur inu, ibedd waa ixeddem. — wat is er met mijn hart gebeurd, het staat stil en werkt niet
+- mayen yuɣin uř inu, ibedd waa ixeddem. — wat is er met mijn hart gebeurd, het staat stil en werkt niet
 
 - yenna-ayi wedbib: d lḥubb i dayem. — de dokter vertelde mij: het is dat je verliefd bent.
 
@@ -3792,6 +3793,7 @@ Liefde en gemis voeren de boventoon — vaak over iemand die naar Europa vertrok
 - `nnec / nnem` · Jouw · A1 · functiewoorden
 - `ruḥ` · gaan · A1 · handelingen
 - `uma` · Broer · A1 · familie & mensen
+- `uř` · hart · A1 · lichaam
 - `walu` · geen, niets · A1 · functiewoorden
 - `wi` · wie? · A1 · functiewoorden
 - `yemma` · Mama, Moeder · A1 · familie & mensen

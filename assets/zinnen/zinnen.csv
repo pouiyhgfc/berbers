@@ -1,7 +1,7 @@
 tarifit,nl,en,gloss,hoofdstuk,les,bron,tags
 yessawar,hij spreekt,he speaks,,,glossen,boek p. 17,id:p17-01;context:glosses-and-abbreviations
 tessawarent,jij spreekt,you speak,,,glossen,boek p. 17,id:p17-02;context:glosses-and-abbreviations
-ssiwef,spreek!,speak!,,,glossen,boek p. 17,id:p17-03;context:glosses-and-abbreviations
+ssiweř,spreek!,speak!,,,glossen,boek p. 17,id:p17-03;context:glosses-and-abbreviations
 iřes,tong,tongue,,2.2,02,boek p. 23,id:p23-01;context:vowels;hoofdstuk:auto;les:auto
 iřess-a,deze tong,this tongue,,2.2,02,boek p. 23,id:p23-02;context:vowels;hoofdstuk:auto;les:auto
 iřess inu,mijn tong,my tongue,,2.2,02,boek p. 23,id:p23-03;context:vowels;hoofdstuk:auto;les:auto
@@ -703,12 +703,12 @@ a teqqaa a teqqaa a daneɣ-d-tɛawed tḥajit-enni,"vertelde en vertelde en vert
 xenni i ɣa tessen ḥenna belli yiwy-aneɣ yides,wanneer mijn grootmoeder wist dat wij in slaap gevallen waren,when my grandmother would know that we had fallen asleep,,,37,boek p. 135,id:p135-11;context:text
 uca a tesqaa ḥima uřa d nettaṯ a tettes.,stopte zij met praten zodat zij ook kon slapen.,she would stop speaking so that she could sleep too.,,,37,boek p. 135,id:p135-12;context:text
 maca ca n twaratin tesriɣ-as i ḥenna ttraɣa-ayi-d,maar soms hoorde ik mijn grootmoeder mij roepen:,But sometimes I heard my grandmother call me:,,,37,boek p. 135,id:p135-13;context:text
-"‘A ɛri inu, a ɛri inu, ma tettsed niɣ ɛad waa tettised?’","'Ali, mijn Ali, slaap je, of slaap je nog niet?'","‘Ali, my Ali, are you asleep, or are you not yet asleep?’",,,37,boek p. 135,id:p135-14;context:text
+"‘A ɛli inu, a ɛli inu, ma tettsed niɣ ɛad waa tettised?’","'Ali, mijn Ali, slaap je, of slaap je nog niet?'","‘Ali, my Ali, are you asleep, or are you not yet asleep?’",,,37,boek p. 135,id:p135-14;context:text
 "A das-iniɣ necc: ‘A ḥenna, necc ɛad waa ttiseɣ ca.'","ik antwoordde dan: 'Grootmoeder, ik slaap nog niet.'","I would answer: ‘Grandmother, I’m not yet asleep.’",,,37,boek p. 136,id:p136-01;context:text
 Uca a tsiɣi ḥenna a dayi-d-teqqar tḥajit-enni.,dan ging mijn grootmoeder verder met mij het verhaal te vertellen.,Then my grandmother would continue telling me the story.,,,37,boek p. 136,id:p136-02;context:text
 "uca tuɣa ḥenna kuř ṯwaṛa a tesqaa,","dan stopte mijn grootmoeder keer op keer met praten,","Then my grandmother would time and again stop speaking,",,,37,boek p. 136,id:p136-03;context:text
 uca a dayi-d-traɣa,en riep mij:,and call me:,,,37,boek p. 136,id:p136-04;context:text
-"‘A ɛri inu, a ɛri inu, ma tettsed niɣ ɛad? Waa tettised ca?’","'Ali, mijn Ali, slaap je of nog niet? Slaap je niet?'","‘Ali, my Ali, are you asleep or not yet? Aren’t you sleep?’",,,37,boek p. 136,id:p136-05;context:text
+"‘A ɛli inu, a ɛli inu, ma tettsed niɣ ɛad? Waa tettised ca?’","'Ali, mijn Ali, slaap je of nog niet? Slaap je niet?'","‘Ali, my Ali, are you asleep or not yet? Aren’t you sleep?’",,,37,boek p. 136,id:p136-05;context:text
 "kuř ṯwaṛa a dayi-d-traɣa,","zij vroeg het mij keer op keer,","She would ask me time and again,",,,37,boek p. 136,id:p136-06;context:text
 txezzar-ayi ma yiwy-ayi yides niɣ ɛad.,kijkend of ik in slaap gevallen was of nog niet.,looking whether I had fallen asleep or not yet.,,,37,boek p. 136,id:p136-07;context:text
 "ruḥ xac, a xac nraḥ waa nteggwed! ḥazit-ek!",'wij zullen erdoorheen gaan zonder angst.','We will go through it without fear. ’,,,37,boek p. 136,id:p136-08;context:text
@@ -866,7 +866,7 @@ Tenn-as: - Aq-ac da ijjen yaazzu xak.,zij zei: - er is hier iemand die naar je o
 "yeffeɣ ujeǧid-nni, a qa d azedzid. yeffeɣ, yenn-as:","de koning kwam naar buiten, het was een koning. hij kwam naar buiten en zei:","The king came out, it was a king. He came out and said:",,,leesboek,boek p. 148,id:p148-05;context:text
 - Min c-d-yecqan?,- wat heeft je hierheen gebracht?,- What has brought you here?,,,leesboek,boek p. 148,id:p148-06;context:text
 "Yenn-as: - Ttaaɣ ɣaak ttif-llah,","hij zei: - ik vraag om gastvrijheid,","He said: - I ask for hospitality,",,,leesboek,boek p. 148,id:p148-07;context:text
-a dayi-tessensed nhar-a mařa yexs wur nnec.,"u zou mij vannacht moeten uitnodigen, als uw hart het wil.","you should invite me for the night today, if your heart wants.",,,leesboek,boek p. 148,id:p148-08;context:text
+a dayi-tessensed nhar-a mařa yexs wuř nnec.,"u zou mij vannacht moeten uitnodigen, als uw hart het wil.","you should invite me for the night today, if your heart wants.",,,leesboek,boek p. 148,id:p148-08;context:text
 Yenn-as: - marḥba! Aqa-cek ɣari d anewji!,hij zei: - welkom! je bent mijn gast.,He said: - Welcome! You are my guest.,,,leesboek,boek p. 148,id:p148-09;context:text
 uca yenn-as netta: - aḏef.,toen zei hij: - kom binnen!,Then he said: - Come in!,,,leesboek,boek p. 148,id:p148-10;context:text
 Yessidf-it yeqqn-as yis-nni.,"hij liet hem binnen, hij bond het paard voor hem vast.","He let him in, he tied for him the horse.",,,leesboek,boek p. 148,id:p148-11;context:text
@@ -1017,7 +1017,7 @@ timɣarin i d-yiwyen kucci.,het zijn de vrouwen die alles gedaan hebben.,It is t
 "iwyent-id imedyazen,","zij brachten de zangers,","They brought the singers,",,,leesboek,boek p. 159,id:p159-13;context:text
 "udfen-d zi tewwaat n temɣarin ɣaa temɣarin,","zij kwamen binnen door de deur van de vrouwen naar de vrouwen,","they came in through the door of the women to the women,",,,leesboek,boek p. 160,id:p160-01;context:text
 "tɣennjen dinni, cetthen ḏin.","zij zingen daar, zij dansen daar.'","they sing there, they dance there.’",,,leesboek,boek p. 160,id:p160-02;context:text
-nniɣ-as: ‘necc qa waa zemmaaɣ ad sbaaɣ qa a dayi-ibedd wur.’,"ik zei: 'ik kan dit niet meer verdragen, mijn hart houdt bijna op met kloppen.'","I said: ‘I can not stand this anymore, my heart almost stops beating.’",,,leesboek,boek p. 160,id:p160-03;context:text
+nniɣ-as: ‘necc qa waa zemmaaɣ ad sbaaɣ qa a dayi-ibedd wuř.’,"ik zei: 'ik kan dit niet meer verdragen, mijn hart houdt bijna op met kloppen.'","I said: ‘I can not stand this anymore, my heart almost stops beating.’",,,leesboek,boek p. 160,id:p160-03;context:text
 "nniɣ-as: ‘a ɣaasen adfeɣ ḏin. dinni (i) ɣa adfeɣ, ḏin.’","ik zei: 'ik zal daarheen naar hen gaan, daarheen zal ik gaan, daarheen.'","I said: ‘I will go to them there, there I will go, there.’",,,leesboek,boek p. 160,id:p160-04;context:text
 "a ṯiři tezrim-tet x yutub , waa t-tezrim ca?",misschien heb je het op YouTube gezien. heb je het niet gezien?,You may have seen it on YouTube. Haven’t you seen it?,,,leesboek,boek p. 160,id:p160-05;context:text
 "udfeɣ ḏin, ksiɣ kiḏi kamira nniɣ-as i yijjen:","ik ging daar naar binnen, nam een camera mee, ik zei tegen een jongen:","1 entered there, took a camera with me, I said to a guy:",,,leesboek,boek p. 160,id:p160-06;context:text
@@ -1075,13 +1075,13 @@ a nettaa arebbi-lɛalamin a xaneɣ itub.,laten we de Heer smeken om genade met o
 "a nettaa sid-arebbi-lɛalamin a daneɣ-yesreh,","laten we de Heer smeken om ons te verbeteren,","Let’s beg the Lord to improve us,",,,leesboek,boek p. 164,id:p164-03;context:text
 "a daneɣ-yeḥfed, a daneɣ-yessaa.","om ons te behoeden, om ons te beschermen.","to preserve us, to shield us.",,,leesboek,boek p. 164,id:p164-04;context:text
 "bismillah a nebda, bismillah a nenteq","in Gods naam zullen wij beginnen, in Gods naam zullen wij spreken,","In God’s name we will begin, in God’s name we will speak,",,,38,boek p. 164,id:p164-05;context:songs-(izran)
-bismillah a nekkes zeggw ur nneɣ axeyyeq,in Gods naam zullen wij ons verdriet wegnemen.,In God’s name we will take away our sadnecc.,,,38,boek p. 164,id:p164-06;context:songs-(izran)
+bismillah a nekkes zeggw uř nneɣ axeyyeq,in Gods naam zullen wij ons verdriet wegnemen.,In God’s name we will take away our sadnecc.,,,38,boek p. 164,id:p164-06;context:songs-(izran)
 bismillah a nebda ɛad waa nebdi zi ca,"in Gods naam zullen wij beginnen, wij zijn nog niet begonnen.","In God’s name we will begin, we still haven’t begun.",,,38,boek p. 164,id:p164-07;context:songs-(izran)
 a nexzaa ma ntawy-it-d niɣ waa t-id-ntiwi ca,wij zullen zien of wij er goed in zijn of niet.,We shall see whether we are good at it or whether we are not.,,,38,boek p. 164,id:p164-08;context:songs-(izran)
 ad truɣ ad truɣ wi ɣa rqiɣ a t-ssruɣ,"ik zal huilen en huilen, wie ik ook tegenkom, ik zal hem laten huilen.","I will cry and cry, whoever I encounter I will make him cry.",,,38,boek p. 164,id:p164-09;context:songs-(izran)
 mami leɛziz inu i ma ɛad a t-ttuɣ?,"mijn liefste, zal ik hem kunnen vergeten?",My sweetheart will I be able to forget him?,,,38,boek p. 164,id:p164-10;context:songs-(izran)
 kkiɣ sadu wuatu ḥesbeɣ ṯifray nnes,ik liep onder de vijgenboom door en telde zijn bladeren,I passed under the fig tree and counted its leaves,,,38,boek p. 165,id:p165-01;context:songs-(izran)
-mmerqiɣ ak llif min iru wur nnes,"ik ontmoette mijn liefste, zijn hart huilde veel.","I met my sweetheart, his heart wept a lot.",,,38,boek p. 165,id:p165-02;context:songs-(izran)
+mmerqiɣ ak llif min iru wuř nnes,"ik ontmoette mijn liefste, zijn hart huilde veel.","I met my sweetheart, his heart wept a lot.",,,38,boek p. 165,id:p165-02;context:songs-(izran)
 mařa truḥed Aliman qqbbi waa das-isemmeh,"als je naar Duitsland gaat, moge de Heer je niet vergeven",If you go to Germany may the Lord not forgive you,,,38,boek p. 165,id:p165-03;context:songs-(izran)
 tejjid fesqef inu deggw brid iseyyeh,je liet mijn geest verspreid achter over de hele weg.,You left my mind spilled all over the road.,,,38,boek p. 165,id:p165-04;context:songs-(izran)
 mařa truḥed Aliman gg-ayi di rbar nnec,"als je naar Duitsland gaat, houd mij in je gedachten","If you go to Germany, keep me in your thoughts",,,38,boek p. 165,id:p165-05;context:songs-(izran)
@@ -1095,22 +1095,22 @@ min xafi icedden tinni n ccayatin?,wat heeft mij verslaafd gemaakt aan het werk 
 "aya ṛalla yemma, a yemma inu qettiɣ","o mijn lieve moeder, ik val af.","O my dear mother, I am losing weight.",,,38,boek p. 166,id:p166-02;context:songs-(izran)
 iwḏan ssawaren di ddat inu tesriɣ,mensen praten en in mijn lichaam voel ik het.,People talk and in my body I hear it.,,,38,boek p. 166,id:p166-03;context:songs-(izran)
 siḏi ɛri n nnadua a rmaasa n teḥramin,"Sidi Ali van Nador, o haven van meisjes,","Sidi Ali of Nador, o harbour of girls,",,,38,boek p. 166,id:p166-04;context:songs-(izran)
-ad isebbaa arebbi ur inu meskin,moge God mijn arme hart van geduld voorzien.,May God provide my poor heart with patience.,,,38,boek p. 166,id:p166-05;context:songs-(izran)
-yexs-icem wur inu yexs-icem zi ṯemẓi,"mijn hart houdt van je, het houdt van je sinds de kindertijd","My heart loves you, it loves you since childhood",,,38,boek p. 166,id:p166-06;context:songs-(izran)
+ad isebbaa arebbi uř inu meskin,moge God mijn arme hart van geduld voorzien.,May God provide my poor heart with patience.,,,38,boek p. 166,id:p166-05;context:songs-(izran)
+yexs-icem wuř inu yexs-icem zi ṯemẓi,"mijn hart houdt van je, het houdt van je sinds de kindertijd","My heart loves you, it loves you since childhood",,,38,boek p. 166,id:p166-06;context:songs-(izran)
 "mayemmi dayi-tejjid, tejjid-ayi da wehd-i?","waarom heb je mij verlaten, mij hier alleen achtergelaten?","Why have you left me, left me here alone?",,,38,boek p. 166,id:p166-07;context:songs-(izran)
 aya muřay nneɣ a uma inu sseɛḏ nnec,"o onze bruidegom, mijn geliefde broeder, wat heb jij geluk,","O our groom, my beloved brother, how lucky you are,",,,38,boek p. 166,id:p166-08;context:songs-(izran)
-wellah illa tiwyed tenni yexs wur nnec,ik zweer dat je met degene getrouwd bent die je hart verlangt.,I swear that you have married the one whom your heart desires.,,,38,boek p. 166,id:p166-09;context:songs-(izran)
+wellah illa tiwyed tenni yexs wuř nnec,ik zweer dat je met degene getrouwd bent die je hart verlangt.,I swear that you have married the one whom your heart desires.,,,38,boek p. 166,id:p166-09;context:songs-(izran)
 aya muřay nneɣ a zzin d arifi,"o onze bruidegom, o Rifse schoonheid,","O our groom, o Riffian beauty,",,,38,boek p. 166,id:p166-10;context:songs-(izran)
 zzin am wanita i mani ɣa yiri?,"zo'n schoonheid, zou die ergens anders kunnen bestaan?","A beauty like this, could there be anywhere else?",,,38,boek p. 166,id:p166-11;context:songs-(izran)
 awi-d aǧun-nni tuɣa nniɣ nehřa,"geef mij die tamboerijn die ik niet wilde hebben,","Give me that tambourine which I did not want to have,",,,38,boek p. 167,id:p167-01;context:songs-(izran)
-amcum-a n wur inu yugi a dayi-yehna,dit vervloekte hart van mij is rusteloos.,This damned heart of mine is restless.,,,38,boek p. 167,id:p167-02;context:songs-(izran)
+amcum-a n wuř inu yugi a dayi-yehna,dit vervloekte hart van mij is rusteloos.,This damned heart of mine is restless.,,,38,boek p. 167,id:p167-02;context:songs-(izran)
 ṛalla ṯasřiṯ nneɣ mebruk a wecma,"onze bruid, gefeliciteerd o zus,","Our bride, congratulations o sister,",,,38,boek p. 167,id:p167-03;context:songs-(izran)
 neccin ntedɛa akidem s řehna,wij bidden dat je vrede vindt.,We pray that you find peace.,,,38,boek p. 167,id:p167-04;context:songs-(izran)
 ṛalla ṯasřiṯ nneɣ taqedduḥt n danun,"onze bruid, o blikje Danone (een yoghurtmerk)","Our bride, o can of Danone (a yoghurt mark)",,,38,boek p. 167,id:p167-05;context:songs-(izran)
 aabbi yewc-am zzin waa dam-t-yewci s řqanun,God heeft je overvloedig schoonheid gegeven.,God has given you beauty in abundance.,,,38,boek p. 167,id:p167-06;context:songs-(izran)
-"a talimaniyyet, ma ammu i yexs wur nnem?","o Duitse vrouw, is dit je hartsverlangen?","O German woman, is this your heart’s desire?",,,38,boek p. 167,id:p167-07;context:songs-(izran)
+"a talimaniyyet, ma ammu i yexs wuř nnem?","o Duitse vrouw, is dit je hartsverlangen?","O German woman, is this your heart’s desire?",,,38,boek p. 167,id:p167-07;context:songs-(izran)
 "sellm-as a d-yaaggweh, char inu aan nnem.","laat hem naar huis gaan, één maand is hij van mij, de rest van het jaar is hij van jou.","Allow him to go home, one month he is mine, the year round he is yours.",,,38,boek p. 167,id:p167-08;context:songs-(izran)
-"mayen yuɣin ur inu, ibedd waa ixeddem.","wat is er met mijn hart gebeurd, het staat stil en werkt niet","What happened to my heart, it stands still and doesn’t work",,,38,boek p. 167,id:p167-09;context:songs-(izran)
+"mayen yuɣin uř inu, ibedd waa ixeddem.","wat is er met mijn hart gebeurd, het staat stil en werkt niet","What happened to my heart, it stands still and doesn’t work",,,38,boek p. 167,id:p167-09;context:songs-(izran)
 yenna-ayi wedbib: d lḥubb i dayem.,de dokter vertelde mij: het is dat je verliefd bent.,The doctor told me: It is that you are in love.,,,38,boek p. 167,id:p167-10;context:songs-(izran)
 tus-ed tenna-ayi: llif nnem isekkaa.,zij kwam naar mij toe en zei: jouw liefste wordt altijd dronken,She came to me and said: Your sweetheart always gets drunk,,,38,boek p. 167,id:p167-11;context:songs-(izran)
 "mařa netta yescaa, necc ad sweɣ kṯaa","als hij dronken wordt, zal ik (nog) meer drinken.","if he gets drunk, I will drink (even) more.",,,38,boek p. 168,id:p168-01;context:songs-(izran)

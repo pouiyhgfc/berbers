@@ -670,7 +670,7 @@
 | ayencic | Lip | Lip | znw_m_ev |
 | ayezzim | de wond | the wound | znw_m_ev |
 | ayeř (1) | ophangen | to hang | ww |
-| ayirin | daarheen | over there | ww |
+| aɣirin | daarheen | over there | ww |
 | ayyaw | kleinkind, kleinzoon | grandchild | znw_m_ev |
 | ayyaw / yeǧis n ɛzizi | Neef (vaderszijde) | nephew (paternal side) | znw_m_ev |
 | ayṯ | die van (stam-affiliatie) | that of (tribal affiliation) | znw_m_ev |
