@@ -2,6 +2,130 @@
  "les-01": [
   {
    "type": "mc",
+   "q": "What does <span class=\"tar\">aqq-ec mliḥ?</span> literally mean?",
+   "options": [
+    "are you good?",
+    "where are you going?",
+    "what are you doing?",
+    "Welcome"
+   ],
+   "correct": 0,
+   "explain": "Literally 'are you good?' — a regular greeting in Riffian families."
+  },
+  {
+   "type": "mc",
+   "q": "What does <span class=\"tar\">waxxa</span> mean?",
+   "options": [
+    "Thank you",
+    "okay, agreed",
+    "wait a minute",
+    "goodbye"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">waxxa</span> is a common word of agreement in all Moroccan languages."
+  },
+  {
+   "type": "mc",
+   "q": "Complete: <span class=\"tar\">aɣ-am-<span class=\"blank\">?</span></span> means 'here you have it (V)' (= offering of a thing to a woman).",
+   "options": [
+    "<span class=\"tar\">-ṯ</span>",
+    "<span class=\"tar\">-s</span>",
+    "<span class=\"tar\">-m</span>",
+    "<span class=\"tar\">-d</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">-ṯ</span> is the direct object clitic 'it' (3SG:M). The order in <span class=\"tar\">aɣ-am-ṯ</span> is: <em>aɣ</em> + indirect object (to you V) + direct object (it)."
+  },
+  {
+   "type": "mc",
+   "q": "Translate: <strong>'it is I'</strong>.",
+   "options": [
+    "<span class=\"tar\">ḏ necc</span>",
+    "<span class=\"tar\">necc ḏ</span>",
+    "<span class=\"tar\">ḏ netta</span>",
+    "<span class=\"tar\">ḏ kem</span>"
+   ],
+   "correct": 0,
+   "explain": "With <span class=\"tar\">ḏ</span> in front you emphasize the predicate — 'it's me (and no one else)'."
+  },
+  {
+   "type": "match",
+   "q": "Match each expression to its meaning.",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">řexxu</span>",
+     "leftIsTar": true,
+     "right": "now"
+    },
+    {
+     "left": "<span class=\"tar\">ammu</span>",
+     "leftIsTar": true,
+     "right": "like this, this way"
+    },
+    {
+     "left": "<span class=\"tar\">waxxa</span>",
+     "leftIsTar": true,
+     "right": "okay"
+    },
+    {
+     "left": "<span class=\"tar\">ḏ necc</span>",
+     "leftIsTar": true,
+     "right": "it's me"
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "q": "What form of <span class=\"tar\">aɣ-…</span> do you use with <strong>several men</strong> when you offer them something?",
+   "options": [
+    "<span class=\"tar\">aɣ-am</span>",
+    "<span class=\"tar\">aɣ-ac</span>",
+    "<span class=\"tar\">aɣ-awem</span>",
+    "<span class=\"tar\">aɣ-as</span>"
+   ],
+   "correct": 2,
+   "explain": "<span class=\"tar\">-awem</span> is the indirect-object clitic 'to you (M)'. <span class=\"tar\">-am</span> = to you (F), <span class=\"tar\">-ac</span> = to you (M), <span class=\"tar\">-as</span> = to him/her."
+  },
+  {
+   "type": "mc",
+   "q": "What does <span class=\"tar\">aɣ-am</span> mean?",
+   "options": [
+    "here you go (to a man)",
+    "here you go (to a woman)",
+    "here you go (to several men)",
+    "well done"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">aɣ-am</span> = \"here you go\", addressed to a man. For a woman it is <span class=\"tar\">aɣ-am-ṯ</span>, for several men <span class=\"tar\">aɣ-awem</span>."
+  },
+  {
+   "type": "mc",
+   "q": "You want to say 'it's me' in Tarifit. Which form do you use?",
+   "options": [
+    "<span class=\"tar\">necc ḏ</span>",
+    "<span class=\"tar\">ḏ necc</span>",
+    "<span class=\"tar\">necc</span>",
+    "<span class=\"tar\">ḏ necc ḏ</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ḏ necc</span> — with <span class=\"tar\">ḏ</span> at the front, the emphasis falls on the predicate: \"it is me (and no one else)\"."
+  },
+  {
+   "type": "mc",
+   "q": "Which word means 'okay' or 'agreed' in Tarifit?",
+   "options": [
+    "<span class=\"tar\">mliḥ</span>",
+    "<span class=\"tar\">řexxu</span>",
+    "<span class=\"tar\">waxxa</span>",
+    "<span class=\"tar\">aɣ-am</span>"
+   ],
+   "correct": 2,
+   "explain": "<span class=\"tar\">waxxa</span> means \"okay, agreed\" and is a widely used expression of agreement."
+  }
+ ],
+ "les-02": [
+  {
+   "type": "mc",
    "q": "How many <strong>real</strong> vowels does Tarifit have?",
    "options": [
     "2",
@@ -123,7 +247,7 @@
    "explain": "Tarifit has three real vowels: <span class=\"tar\">a</span>, <span class=\"tar\">i</span> and <span class=\"tar\">u</span>. The schwa <span class=\"tar\">e</span> is not a full vowel and has a different status."
   }
  ],
- "les-02": [
+ "les-03": [
   {
    "type": "mc",
    "q": "What form do you use with a <strong>woman</strong> when you want to say 'you'?",
@@ -226,9 +350,7 @@
    ],
    "correct": 1,
    "explain": "<span class=\"tar\">nitnenṯ</span> is used for a group of exclusively women. For a mixed group or men, use <span class=\"tar\">nitni</span>."
-  }
- ],
- "les-03": [
+  },
   {
    "type": "mc",
    "q": "Fill in the missing particle: <span class=\"tar\">necc <span class=\"blank\">?</span> Mimun</span> — 'I am Mimoun'.",
@@ -326,6 +448,131 @@
   }
  ],
  "les-04": [
+  {
+   "type": "mc",
+   "q": "Tarifit has three R letters. Which historically comes from a <strong>l</strong>?",
+   "options": [
+    "<span class=\"tar\">r</span> (plain rolling r)",
+    "<span class=\"tar\">ř</span> (formerly l)",
+    "<span class=\"tar\">ṛ</span> (dark r)",
+    "none — l never existed"
+   ],
+   "correct": 1,
+   "explain": "In other Berber dialects it is still simply <em>l</em>. In Nador-Tarifit it has been changed to <span class=\"tar\">ř</span>. Hence <span class=\"tar\">uř</span> (heart) where other dialects have <span class=\"tar\">ul</span>."
+  },
+  {
+   "type": "mc",
+   "q": "What did double <span class=\"tar\">ll</span> change to Nador-Tarifit?",
+   "options": [
+    "<span class=\"tar\">rr</span>",
+    "<span class=\"tar\">ǧ</span>",
+    "<span class=\"tar\">ṯ</span>",
+    "disappeared completely"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">yelli</span> (daughter in other dialects) → <span class=\"tar\">yeǧi</span>. <span class=\"tar\">ulli</span> (cattle) → <span class=\"tar\">uǧi</span>. The double <em>ll</em> is a softer variant than single <em>l</em>, and coincided with the <span class=\"tar\">ǧ</span> sound."
+  },
+  {
+   "type": "mc",
+   "q": "What changed the combination <span class=\"tar\">lt</span>?",
+   "options": [
+    "<span class=\"tar\">rd</span>",
+    "<span class=\"tar\">tc</span>",
+    "<span class=\"tar\">kt</span>",
+    "stayed <span class=\"tar\">lt</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">taɣyult</span> (donkey in other dialects) → <span class=\"tar\">ṯaɣyutc</span>. The combination l+t assimilated to <span class=\"tar\">tc</span>. You also see this in the 'egg' example from the lesson: <span class=\"tar\">ṯameǧatc</span>."
+  },
+  {
+   "type": "mc",
+   "q": "How do we write <span class=\"tar\">Naḍur</span> in the learntarifit alphabet (vocalized r)?",
+   "options": [
+    "<span class=\"tar\">Naḍuār</span>",
+    "<span class=\"tar\">Naḍur</span>",
+    "<span class=\"tar\">Naḍwār</span>",
+    "<span class=\"tar\">Naḍūr</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">-ur</span> → notation <span class=\"tar\">-uār</span> (macron above a, r remains). Hence <span class=\"tar\">Naḍuār</span>. Sounds like 'Naadoer': the r has become vocal."
+  },
+  {
+   "type": "mc",
+   "q": "What happens to <span class=\"tar\">-ar</span> at the end of a word through vocalization?",
+   "options": [
+    "becomes <span class=\"tar\">-ir</span>",
+    "becomes <span class=\"tar\">-ār</span> (macron above a, r remains in spelling; sounds like long a)",
+    "becomes <span class=\"tar\">-ur</span>",
+    "nothing — remains <span class=\"tar\">-ar</span>"
+   ],
+   "correct": 1,
+   "explain": "Pattern: <span class=\"tar\">-ar</span> → spelling <span class=\"tar\">-ār</span>. <span class=\"tar\">aayaz</span> → <span class=\"tar\">āryaz</span> 'man'. The r remains in spelling but sounds like a long a."
+  },
+  {
+   "type": "mc",
+   "q": "What happens to <span class=\"tar\">-ir</span> through vocalization?",
+   "options": [
+    "becomes <span class=\"tar\">-aa</span>",
+    "becomes <span class=\"tar\">-yār</span> (notation; sounds like yaa)",
+    "becomes <span class=\"tar\">-uaa</span>",
+    "nothing"
+   ],
+   "correct": 1,
+   "explain": "Pattern: <span class=\"tar\">-ir</span> → spelling <span class=\"tar\">-yār</span>. <span class=\"tar\">irden</span> (wheat) → <span class=\"tar\">yārḏen</span>. Sounds like yaaḏen: the i + r becomes a long yaa."
+  },
+  {
+   "type": "mc",
+   "q": "When does <em>no</em> vocalization of the r occur?",
+   "options": [
+    "always — all r's become vowels",
+    "if the r is followed by a real vowel (a, i, u)",
+    "if the word has more than two syllables",
+    "only in loanwords"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ru</span> 'cry' — r before u → regular r. <span class=\"tar\">ari</span> 'write' — r before i → regular r. Vocalization only occurs where the r is <em>not</em> immediately followed by a vowel."
+  },
+  {
+   "type": "match",
+   "q": "Link the parent language pattern to the Nador-Tarifit variant:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">ul</span> (l)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">uř</span>"
+    },
+    {
+     "left": "<span class=\"tar\">yelli</span> (ll)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">yeǧi</span>"
+    },
+    {
+     "left": "<span class=\"tar\">taɣyult</span> (lt)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">ṯaɣyutc</span>"
+    },
+    {
+     "left": "<span class=\"tar\">aayaz</span> (-ar vocalisatie)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">āryaz</span>"
+    }
+   ],
+   "explain": "Four sound laws in one lesson. Together they explain why many Tarifit words look different from related Berber languages ​​— but the structure is the same."
+  },
+  {
+   "type": "mc",
+   "q": "A speaker says <span class=\"tar\">ṯamɣārṯ</span>. Which written word belongs to this?",
+   "options": [
+    "<span class=\"tar\">ṯamɣārṯ</span>",
+    "<span class=\"tar\">ṯamɣārṯ</span>",
+    "<span class=\"tar\">ṯamɣāṯ</span>",
+    "<span class=\"tar\">ṯamɣart</span>"
+   ],
+   "correct": 0,
+   "explain": "Vocalization pattern: <span class=\"tar\">-ar</span> → spelling <span class=\"tar\">-ār</span>. So <span class=\"tar\">ṯamɣārṯ</span> 'woman'. The pronunciation sounds like <span class=\"tar\">ṯamɣārṯ</span>. Also on this site as <span class=\"tar\">ṯamɣārṯ</span>."
+  }
+ ],
+ "les-05": [
   {
    "type": "match",
    "q": "Match each family word with its meaning.",
@@ -456,130 +703,6 @@
    ],
    "correct": 1,
    "explain": "<span class=\"tar\">baba</span>, <span class=\"tar\">yemma</span> and <span class=\"tar\">uma</span> are kinship terms that already contain \"my\". <span class=\"tar\">āryaz</span> is a regular noun without built-in possession."
-  }
- ],
- "les-05": [
-  {
-   "type": "mc",
-   "q": "What does <span class=\"tar\">aqq-ec mliḥ?</span> literally mean?",
-   "options": [
-    "are you good?",
-    "where are you going?",
-    "what are you doing?",
-    "Welcome"
-   ],
-   "correct": 0,
-   "explain": "Literally 'are you good?' — a regular greeting in Riffian families."
-  },
-  {
-   "type": "mc",
-   "q": "What does <span class=\"tar\">waxxa</span> mean?",
-   "options": [
-    "Thank you",
-    "okay, agreed",
-    "wait a minute",
-    "goodbye"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">waxxa</span> is a common word of agreement in all Moroccan languages."
-  },
-  {
-   "type": "mc",
-   "q": "Complete: <span class=\"tar\">aɣ-am-<span class=\"blank\">?</span></span> means 'here you have it (V)' (= offering of a thing to a woman).",
-   "options": [
-    "<span class=\"tar\">-ṯ</span>",
-    "<span class=\"tar\">-s</span>",
-    "<span class=\"tar\">-m</span>",
-    "<span class=\"tar\">-d</span>"
-   ],
-   "correct": 0,
-   "explain": "<span class=\"tar\">-ṯ</span> is the direct object clitic 'it' (3SG:M). The order in <span class=\"tar\">aɣ-am-ṯ</span> is: <em>aɣ</em> + indirect object (to you V) + direct object (it)."
-  },
-  {
-   "type": "mc",
-   "q": "Translate: <strong>'it is I'</strong>.",
-   "options": [
-    "<span class=\"tar\">ḏ necc</span>",
-    "<span class=\"tar\">necc ḏ</span>",
-    "<span class=\"tar\">ḏ netta</span>",
-    "<span class=\"tar\">ḏ kem</span>"
-   ],
-   "correct": 0,
-   "explain": "With <span class=\"tar\">ḏ</span> in front you emphasize the predicate — 'it's me (and no one else)'."
-  },
-  {
-   "type": "match",
-   "q": "Match each expression to its meaning.",
-   "pairs": [
-    {
-     "left": "<span class=\"tar\">řexxu</span>",
-     "leftIsTar": true,
-     "right": "now"
-    },
-    {
-     "left": "<span class=\"tar\">ammu</span>",
-     "leftIsTar": true,
-     "right": "like this, this way"
-    },
-    {
-     "left": "<span class=\"tar\">waxxa</span>",
-     "leftIsTar": true,
-     "right": "okay"
-    },
-    {
-     "left": "<span class=\"tar\">ḏ necc</span>",
-     "leftIsTar": true,
-     "right": "it's me"
-    }
-   ]
-  },
-  {
-   "type": "mc",
-   "q": "What form of <span class=\"tar\">aɣ-…</span> do you use with <strong>several men</strong> when you offer them something?",
-   "options": [
-    "<span class=\"tar\">aɣ-am</span>",
-    "<span class=\"tar\">aɣ-ac</span>",
-    "<span class=\"tar\">aɣ-awem</span>",
-    "<span class=\"tar\">aɣ-as</span>"
-   ],
-   "correct": 2,
-   "explain": "<span class=\"tar\">-awem</span> is the indirect-object clitic 'to you (M)'. <span class=\"tar\">-am</span> = to you (F), <span class=\"tar\">-ac</span> = to you (M), <span class=\"tar\">-as</span> = to him/her."
-  },
-  {
-   "type": "mc",
-   "q": "What does <span class=\"tar\">aɣ-am</span> mean?",
-   "options": [
-    "here you go (to a man)",
-    "here you go (to a woman)",
-    "here you go (to several men)",
-    "well done"
-   ],
-   "correct": 0,
-   "explain": "<span class=\"tar\">aɣ-am</span> = \"here you go\", addressed to a man. For a woman it is <span class=\"tar\">aɣ-am-ṯ</span>, for several men <span class=\"tar\">aɣ-awem</span>."
-  },
-  {
-   "type": "mc",
-   "q": "You want to say 'it's me' in Tarifit. Which form do you use?",
-   "options": [
-    "<span class=\"tar\">necc ḏ</span>",
-    "<span class=\"tar\">ḏ necc</span>",
-    "<span class=\"tar\">necc</span>",
-    "<span class=\"tar\">ḏ necc ḏ</span>"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">ḏ necc</span> — with <span class=\"tar\">ḏ</span> at the front, the emphasis falls on the predicate: \"it is me (and no one else)\"."
-  },
-  {
-   "type": "mc",
-   "q": "Which word means 'okay' or 'agreed' in Tarifit?",
-   "options": [
-    "<span class=\"tar\">mliḥ</span>",
-    "<span class=\"tar\">řexxu</span>",
-    "<span class=\"tar\">waxxa</span>",
-    "<span class=\"tar\">aɣ-am</span>"
-   ],
-   "correct": 2,
-   "explain": "<span class=\"tar\">waxxa</span> means \"okay, agreed\" and is a widely used expression of agreement."
   }
  ],
  "les-06": [
@@ -730,9 +853,7 @@
    ],
    "correct": 0,
    "explain": "3PL:F = STEM + <span class=\"tar\">-enṯ</span>: <span class=\"tar\">qqimenṯ</span>. No prefix for the third person plural."
-  }
- ],
- "les-07": [
+  },
   {
    "type": "mc",
    "q": "Which suffix belongs to <strong>ik</strong> in the standard pattern?",
@@ -888,9 +1009,7 @@
    ],
    "correct": 0,
    "explain": "1SG = stem + <span class=\"tar\">-iɣ</span>: <span class=\"tar\">cciɣ</span>. Note: <span class=\"tar\">necc</span> means \"I\" (pronoun), <span class=\"tar\">cciɣ</span> is the verb form."
-  }
- ],
- "les-08": [
+  },
   {
    "type": "mc",
    "q": "What prefix does <strong>we</strong> have in <span class=\"tar\">neqqim</span>?",
@@ -1067,7 +1186,7 @@
    "explain": "2PL:M = <span class=\"tar\">ṯ-</span> + STEM + <span class=\"tar\">-em</span>: <span class=\"tar\">ṯexḏemem</span>. The prefix <span class=\"tar\">ṯ-</span> signals that it is \"you\" (not \"they\")."
   }
  ],
- "les-09": [
+ "les-07": [
   {
    "type": "mc",
    "q": "What does a Tarifit verb <strong>not</strong> directly encode?",
@@ -1239,135 +1358,7 @@
    "explain": "<span class=\"tar\">cciɣ</span> is the Perfective (completed action). <span class=\"tar\">qa teteɣ</span> combines the particle <span class=\"tar\">qa</span> with the Imperfective stem <span class=\"tar\">tett</span> to express an ongoing action right now."
   }
  ],
- "les-10": [
-  {
-   "type": "mc",
-   "q": "What makes a pseudo-verb different from a regular verb?",
-   "options": [
-    "it has no meaning",
-    "it does not have aspect triplets (Perfective / Imperfective / Aorist), but can receive personal suffixes",
-    "it only exists in the plural",
-    "it is never used in everyday speech"
-   ],
-   "correct": 1,
-   "explain": "Pseudo-verbs behave at the interface: they do take pronoun suffixes and the direction element <span class=\"tar\">-d</span>, but have no verb aspect. Compare French <em>voici</em>: not a verb, but you can say <em>le-voici</em>."
-  },
-  {
-   "type": "mc",
-   "q": "What does <span class=\"tar\">aqqa</span> do?",
-   "options": [
-    "it denies",
-    "it presents something or someone — 'look here, here is...'",
-    "it asks a question",
-    "it expresses future"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">aqqa ṯxaḏenṯ</span> 'here is the ring'. <span class=\"tar\">aqq-eṯ</span> 'here he is'. <span class=\"tar\">aqq-ayi</span> 'here I am'. The stem <span class=\"tar\">aqq-</span> then takes the DO suffix."
-  },
-  {
-   "type": "translate",
-   "q": "Translation: <span class=\"tar\">aqq-ec mliḥ?</span>",
-   "correct": "ben jij goed?",
-   "accept": [
-    "ben jij goed?",
-    "gaat het goed met jou?"
-   ],
-   "placeholder": "Nederlands",
-   "explain": "The standard greeting in Tarifit. Literally: 'are you looking — well?' <span class=\"tar\">aqq-ec</span> = 'you here' (2SG suffix). <span class=\"tar\">mliḥ</span> = 'good'. Already learned in Lesson 05 — now you see the pseudo-verb structure."
-  },
-  {
-   "type": "mc",
-   "q": "How do you say <strong>'here I am'</strong> with <span class=\"tar\">aqqa</span>?",
-   "options": [
-    "<span class=\"tar\">aqq-ayi</span>",
-    "<span class=\"tar\">aqqa</span>",
-    "<span class=\"tar\">aqq-as</span>",
-    "<span class=\"tar\">aqq-ak</span>"
-   ],
-   "correct": 0,
-   "explain": "<span class=\"tar\">aqq-</span> + DO suffix <span class=\"tar\">-ayi</span> (me) = <span class=\"tar\">aqq-ayi</span>. You don't have to add a separate pronoun."
-  },
-  {
-   "type": "translate",
-   "q": "Translation: <span class=\"tar\">ṯɣiř-ayi ḏ ssehh</span>",
-   "correct": "het lijkt mij waar",
-   "accept": [
-    "het lijkt mij waar",
-    "ik dacht dat het waar was",
-    "naar mijn idee is het waar"
-   ],
-   "placeholder": "Nederlands",
-   "explain": "<span class=\"tar\">ṯɣiř</span> + IO suffix = 'it looks like X'. <span class=\"tar\">-ayi</span> = to me. <span class=\"tar\">ḏ ssehh</span> = 'it is the truth'. Together: 'it seems true to me'."
-  },
-  {
-   "type": "mc",
-   "q": "What are the <strong>three</strong> main uses of <span class=\"tar\">qa</span>?",
-   "options": [
-    "future, past, question",
-    "locative ('here is'), ongoing action (+ Imperfective), recent perfective ('just happened')",
-    "denial, confirmation, repetition",
-    "it has only one use"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">qa-ṯ ḏiha</span> (he is there). <span class=\"tar\">qa yetru</span> (he is crying). <span class=\"tar\">qa yenna-ac</span> (he just told you...). Three functions, one particle."
-  },
-  {
-   "type": "mc",
-   "q": "Where can <span class=\"tar\">qa</span> <strong>not</strong> be used?",
-   "options": [
-    "in main sentences",
-    "in subordinate clauses or after question words",
-    "with the Imperfective",
-    "it is always useful"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">qa</span> is a main clause particle. After question words (<span class=\"tar\">min, mani</span>) and in subordinate clauses it is dropped and you use the verb form without <span class=\"tar\">qa</span>. Nor can it be denied."
-  },
-  {
-   "type": "translate",
-   "q": "Translation: <span class=\"tar\">ṯuɣa-c ḏ ameddukeř inu</span>",
-   "correct": "jij was mijn vriend",
-   "accept": [
-    "jij was mijn vriend",
-    "je was mijn vriend"
-   ],
-   "placeholder": "Nederlands",
-   "explain": "<span class=\"tar\">ṯuɣa</span> + suffix <span class=\"tar\">-c</span> (you) = 'you were'. <span class=\"tar\">ḏ ameddukeř inu</span> = 'my friend'. Negative: <span class=\"tar\">ṯuyi</span>."
-  },
-  {
-   "type": "match",
-   "q": "Link pseudo-verb to function:",
-   "pairs": [
-    {
-     "left": "<span class=\"tar\">aqqa</span>",
-     "leftIsTar": true,
-     "right": "'here is / look here' (presentational)"
-    },
-    {
-     "left": "<span class=\"tar\">aɣ</span>",
-     "leftIsTar": true,
-     "right": "'here you have it' (when handing over)"
-    },
-    {
-     "left": "<span class=\"tar\">ṯɣiř</span>",
-     "leftIsTar": true,
-     "right": "'it seems' (+ IO: to X)"
-    },
-    {
-     "left": "<span class=\"tar\">qa</span>",
-     "leftIsTar": true,
-     "right": "current relevance (ongoing, locative, recent)"
-    },
-    {
-     "left": "<span class=\"tar\">ṯuɣa</span>",
-     "leftIsTar": true,
-     "right": "past state ('was')"
-    }
-   ],
-   "explain": "Five pseudo-verbs, each with its own niche. <span class=\"tar\">qa</span> and <span class=\"tar\">ṯuɣa</span> are the most frequent in stories and conversations."
-  }
- ],
- "les-11": [
+ "les-08": [
   {
    "type": "mc",
    "q": "Which particle do you put in front of the Aorist to say 'I will eat'?",
@@ -1542,7 +1533,261 @@
    "explain": "Before the prefix <span class=\"tar\">ṯ-</span>, <span class=\"tar\">ad</span> is shortened to <span class=\"tar\">a</span>: <span class=\"tar\">a ṯeffeɣ</span>. The <span class=\"tar\">ḏ</span> drops before <span class=\"tar\">ṯ-</span> and <span class=\"tar\">n-</span>."
   }
  ],
- "les-12": [
+ "les-09": [
+  {
+   "type": "mc",
+   "q": "What makes a pseudo-verb different from a regular verb?",
+   "options": [
+    "it has no meaning",
+    "it does not have aspect triplets (Perfective / Imperfective / Aorist), but can receive personal suffixes",
+    "it only exists in the plural",
+    "it is never used in everyday speech"
+   ],
+   "correct": 1,
+   "explain": "Pseudo-verbs behave at the interface: they do take pronoun suffixes and the direction element <span class=\"tar\">-d</span>, but have no verb aspect. Compare French <em>voici</em>: not a verb, but you can say <em>le-voici</em>."
+  },
+  {
+   "type": "mc",
+   "q": "What does <span class=\"tar\">aqqa</span> do?",
+   "options": [
+    "it denies",
+    "it presents something or someone — 'look here, here is...'",
+    "it asks a question",
+    "it expresses future"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">aqqa ṯxaḏenṯ</span> 'here is the ring'. <span class=\"tar\">aqq-eṯ</span> 'here he is'. <span class=\"tar\">aqq-ayi</span> 'here I am'. The stem <span class=\"tar\">aqq-</span> then takes the DO suffix."
+  },
+  {
+   "type": "translate",
+   "q": "Translation: <span class=\"tar\">aqq-ec mliḥ?</span>",
+   "correct": "ben jij goed?",
+   "accept": [
+    "ben jij goed?",
+    "gaat het goed met jou?"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "The standard greeting in Tarifit. Literally: 'are you looking — well?' <span class=\"tar\">aqq-ec</span> = 'you here' (2SG suffix). <span class=\"tar\">mliḥ</span> = 'good'. Already learned in Lesson 05 — now you see the pseudo-verb structure."
+  },
+  {
+   "type": "mc",
+   "q": "How do you say <strong>'here I am'</strong> with <span class=\"tar\">aqqa</span>?",
+   "options": [
+    "<span class=\"tar\">aqq-ayi</span>",
+    "<span class=\"tar\">aqqa</span>",
+    "<span class=\"tar\">aqq-as</span>",
+    "<span class=\"tar\">aqq-ak</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">aqq-</span> + DO suffix <span class=\"tar\">-ayi</span> (me) = <span class=\"tar\">aqq-ayi</span>. You don't have to add a separate pronoun."
+  },
+  {
+   "type": "translate",
+   "q": "Translation: <span class=\"tar\">ṯɣiř-ayi ḏ ssehh</span>",
+   "correct": "het lijkt mij waar",
+   "accept": [
+    "het lijkt mij waar",
+    "ik dacht dat het waar was",
+    "naar mijn idee is het waar"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">ṯɣiř</span> + IO suffix = 'it looks like X'. <span class=\"tar\">-ayi</span> = to me. <span class=\"tar\">ḏ ssehh</span> = 'it is the truth'. Together: 'it seems true to me'."
+  },
+  {
+   "type": "mc",
+   "q": "What are the <strong>three</strong> main uses of <span class=\"tar\">qa</span>?",
+   "options": [
+    "future, past, question",
+    "locative ('here is'), ongoing action (+ Imperfective), recent perfective ('just happened')",
+    "denial, confirmation, repetition",
+    "it has only one use"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">qa-ṯ ḏiha</span> (he is there). <span class=\"tar\">qa yetru</span> (he is crying). <span class=\"tar\">qa yenna-ac</span> (he just told you...). Three functions, one particle."
+  },
+  {
+   "type": "mc",
+   "q": "Where can <span class=\"tar\">qa</span> <strong>not</strong> be used?",
+   "options": [
+    "in main sentences",
+    "in subordinate clauses or after question words",
+    "with the Imperfective",
+    "it is always useful"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">qa</span> is a main clause particle. After question words (<span class=\"tar\">min, mani</span>) and in subordinate clauses it is dropped and you use the verb form without <span class=\"tar\">qa</span>. Nor can it be denied."
+  },
+  {
+   "type": "translate",
+   "q": "Translation: <span class=\"tar\">ṯuɣa-c ḏ ameddukeř inu</span>",
+   "correct": "jij was mijn vriend",
+   "accept": [
+    "jij was mijn vriend",
+    "je was mijn vriend"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">ṯuɣa</span> + suffix <span class=\"tar\">-c</span> (you) = 'you were'. <span class=\"tar\">ḏ ameddukeř inu</span> = 'my friend'. Negative: <span class=\"tar\">ṯuyi</span>."
+  },
+  {
+   "type": "match",
+   "q": "Link pseudo-verb to function:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">aqqa</span>",
+     "leftIsTar": true,
+     "right": "'here is / look here' (presentational)"
+    },
+    {
+     "left": "<span class=\"tar\">aɣ</span>",
+     "leftIsTar": true,
+     "right": "'here you have it' (when handing over)"
+    },
+    {
+     "left": "<span class=\"tar\">ṯɣiř</span>",
+     "leftIsTar": true,
+     "right": "'it seems' (+ IO: to X)"
+    },
+    {
+     "left": "<span class=\"tar\">qa</span>",
+     "leftIsTar": true,
+     "right": "current relevance (ongoing, locative, recent)"
+    },
+    {
+     "left": "<span class=\"tar\">ṯuɣa</span>",
+     "leftIsTar": true,
+     "right": "past state ('was')"
+    }
+   ],
+   "explain": "Five pseudo-verbs, each with its own niche. <span class=\"tar\">qa</span> and <span class=\"tar\">ṯuɣa</span> are the most frequent in stories and conversations."
+  },
+  {
+   "type": "mc",
+   "q": "What does <span class=\"tar\">tuɣa</span> do in a sentence?",
+   "options": [
+    "it marks future",
+    "it puts the situation in the past — 'was / was busy'",
+    "it denies",
+    "it asks a question"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">tuɣa-c ḏ ameddukeř inu</span> 'you were my friend'. <span class=\"tar\">tuɣa</span> is not a verb but a particle that places the situation before now. Negative: <span class=\"tar\">tuyi</span>."
+  },
+  {
+   "type": "translate",
+   "q": "Translation: <span class=\"tar\">tuɣa-ayi ḏi ṯaḏḏarṯ</span>",
+   "correct": "ik was thuis",
+   "accept": [
+    "ik was thuis",
+    "ik was in huis"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">tuɣa</span> + suffix <span class=\"tar\">-ayi</span> (me) = 'I was'. <span class=\"tar\">ḏi ṯaḏḏarṯ</span> = 'in the house'. Together: 'I was home'."
+  },
+  {
+   "type": "mc",
+   "q": "Time adverb for <strong>'tomorrow'</strong>:",
+   "options": [
+    "<span class=\"tar\">ṯiwecca</span>",
+    "<span class=\"tar\">iḏelli</span>",
+    "<span class=\"tar\">řebda</span>",
+    "<span class=\"tar\">daɣen</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ṯiwecca</span> — remember the initial <span class=\"tar\">ṯ</span> (feminine prefix). Occurs frequently in stories describing 'the next morning'."
+  },
+  {
+   "type": "mc",
+   "q": "Time adverb for <strong>'always'</strong>:",
+   "options": [
+    "<span class=\"tar\">řebda</span>",
+    "<span class=\"tar\">ṯiwecca</span>",
+    "<span class=\"tar\">daɣen</span>",
+    "<span class=\"tar\">iḏelli</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">řebda</span> = always, always. Note the <span class=\"tar\">ř</span> (not a regular <em>r</em> — see Lesson 25)."
+  },
+  {
+   "type": "mc",
+   "q": "Why does 'two years' have a separate form (<span class=\"tar\">ɛamayen</span>) instead of '2 + n + years'?",
+   "options": [
+    "that is the Arabic dualise — a special dual ending",
+    "it is an exception without reason",
+    "only in written language",
+    "it is the same as three years"
+   ],
+   "correct": 0,
+   "explain": "Arabic has a dualis ending <span class=\"tar\">-ayen</span> for two units. Tarifit has adopted them for day, month and year: <span class=\"tar\">yumayen</span> (two days), <span class=\"tar\">cehrayen</span> (two months), <span class=\"tar\">ɛamayen</span> (two years)."
+  },
+  {
+   "type": "mc",
+   "q": "How do you say <strong>'three years'</strong>?",
+   "options": [
+    "<span class=\"tar\">ṯřaṯa n ɛam</span>",
+    "<span class=\"tar\">ṯeřṯ snin</span>",
+    "<span class=\"tar\">ɛamayen</span>",
+    "<span class=\"tar\">ṯřaṯa ɛamayen</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ṯeřṯ snin</span> — here the Arabic plural <span class=\"tar\">snin</span> is used (years). For 3+, use the normal counting structure but with <span class=\"tar\">snin</span>, not <span class=\"tar\">ɛam</span>."
+  },
+  {
+   "type": "translate",
+   "q": "Translation: <span class=\"tar\">zzman tuɣa ṯnayen n duru tsekkʷa</span>",
+   "correct": "vroeger was twee duro veel waard",
+   "accept": [
+    "vroeger was twee duro veel waard",
+    "in de oude tijd was twee duro veel waard"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">zzman</span> = 'back in the day, in the old days'. <span class=\"tar\">tuɣa</span> = 'was'. <span class=\"tar\">ṯnayen n duro</span> = 'two duro'. <span class=\"tar\">tsekkʷa</span> = 'has value'. Classic use of <span class=\"tar\">zzman + tuɣa</span> together."
+  },
+  {
+   "type": "mc",
+   "q": "How do you say <strong>'during the day'</strong>?",
+   "options": [
+    "<span class=\"tar\">s nnhaa</span>",
+    "<span class=\"tar\">s řiřeḥ</span>",
+    "<span class=\"tar\">x wass</span>",
+    "<span class=\"tar\">ɣer wass</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">s</span> = with / in (instrument preposition). <span class=\"tar\">nnhaa</span> = day. Literally 'by the day'. Same pattern: <span class=\"tar\">s ǧiřeṯ</span> = 'at night'."
+  },
+  {
+   "type": "match",
+   "q": "Link time adverb to meaning:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">řexxu</span>",
+     "leftIsTar": true,
+     "right": "now"
+    },
+    {
+     "left": "<span class=\"tar\">řexḏenni</span>",
+     "leftIsTar": true,
+     "right": "then, at that time"
+    },
+    {
+     "left": "<span class=\"tar\">zzman</span>",
+     "leftIsTar": true,
+     "right": "back in the day, in the old days"
+    },
+    {
+     "left": "<span class=\"tar\">ṯiwecca</span>",
+     "leftIsTar": true,
+     "right": "tomorrow"
+    },
+    {
+     "left": "<span class=\"tar\">řebda</span>",
+     "leftIsTar": true,
+     "right": "always"
+    }
+   ],
+   "explain": "Five core temporal adverbs. Combine them with <span class=\"tar\">tuɣa</span> (was) or the verb aspect forms to situate temporal contexts."
+  }
+ ],
+ "les-11": [
   {
    "type": "mc",
    "q": "What does the most feminine singular form look like?",
@@ -1667,7 +1912,7 @@
    "explain": "Important insight: not every M-word has a regular V-pendant. For people/animals where the two really differ, Tarifit uses separate stems — just like Dutch."
   }
  ],
- "les-13": [
+ "les-12": [
   {
    "type": "mc",
    "q": "The main rule for masculine plural: <span class=\"tar\">a-</span> becomes...",
@@ -1924,6 +2169,148 @@
     }
    ],
    "explain": "Eight question words in total in the lesson. The five here are the most frequent. <span class=\"tar\">meřmi</span> (when) and <span class=\"tar\">mayemmi</span> (why) are extra."
+  }
+ ],
+ "les-13": [
+  {
+   "type": "mc",
+   "q": "What is the <strong>free state</strong>?",
+   "options": [
+    "a form that only occurs after a preposition",
+    "the dictionary form — the word 'at rest', alone or at the beginning of the sentence",
+    "only the plural form",
+    "a verb form"
+   ],
+   "correct": 1,
+   "explain": "The free state (FS) is what you find in a glossary. <span class=\"tar\">āryaz</span> 'man', <span class=\"tar\">ṯafunasṯ</span> 'cow' — these are FS forms."
+  },
+  {
+   "type": "mc",
+   "q": "When do you use the <strong>connected state</strong>?",
+   "options": [
+    "always",
+    "never — it no longer exists",
+    "especially after prepositions and as a subject <em>after</em> the verb",
+    "only in written language"
+   ],
+   "correct": 2,
+   "explain": "Connected state (AS) appears where the noun attaches to something: after most prepositions (<span class=\"tar\">n wāryaz</span> 'of the man') and as a VSO subject (<span class=\"tar\">yexḏem wāryaz</span> 'the man works')."
+  },
+  {
+   "type": "mc",
+   "q": "What happens to <span class=\"tar\">a-</span> when transitioning to connected state (M ev)?",
+   "options": [
+    "it disappears without replacement",
+    "it becomes <span class=\"tar\">wa-</span> or <span class=\"tar\">u-</span>",
+    "it becomes <span class=\"tar\">ṯa-</span>",
+    "it doubles"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">āryaz</span> (FS) → <span class=\"tar\">wāryaz</span> (AS); <span class=\"tar\">afunas</span> → <span class=\"tar\">wafunas</span>. The <span class=\"tar\">w-</span> points to the old emphasis that was lost in FS."
+  },
+  {
+   "type": "mc",
+   "q": "Associated state of <span class=\"tar\">āryaz</span> 'man':",
+   "options": [
+    "<span class=\"tar\">wāryaz</span>",
+    "<span class=\"tar\">āryaz</span>",
+    "<span class=\"tar\">uryaz</span>",
+    "<span class=\"tar\">yāryaz</span>"
+   ],
+   "correct": 0,
+   "explain": "For example in <span class=\"tar\">yeqqim wāryaz</span> 'the man stayed' (subject after verb, so AS)."
+  },
+  {
+   "type": "mc",
+   "q": "Related state of <span class=\"tar\">ṯafunasṯ</span> 'cow':",
+   "options": [
+    "<span class=\"tar\">ṯfunasṯ</span>",
+    "<span class=\"tar\">ṯafunasṯ</span>",
+    "<span class=\"tar\">afunasṯ</span>",
+    "<span class=\"tar\">ṯifunasṯ</span>"
+   ],
+   "correct": 0,
+   "explain": "V ev: <span class=\"tar\">ṯa-</span> becomes <span class=\"tar\">ṯ-</span>. The <em>a</em> disappears. Ditto <span class=\"tar\">ṯamɣārṯ</span> → <span class=\"tar\">ṯmɣārṯ</span>."
+  },
+  {
+   "type": "translate",
+   "q": "Translation: <span class=\"tar\">yeqqim wāryaz</span>",
+   "correct": "de man bleef",
+   "accept": [
+    "de man bleef",
+    "de man bleef zitten",
+    "de man is gebleven"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "The verb comes first (VSO), the subject <span class=\"tar\">āryaz</span> comes after and therefore must be in AS — hence <span class=\"tar\">wāryaz</span>. Sentence order is elaborated in Lesson 16."
+  },
+  {
+   "type": "mc",
+   "q": "What is the difference between <span class=\"tar\">āryaz yexḏem</span> and <span class=\"tar\">yexḏem wāryaz</span>?",
+   "options": [
+    "the first is past, the second is present",
+    "the first is a question, the second a statement",
+    "no difference in meaning - only position and therefore: SV (FS) or VS (AS)",
+    "the first is M, the second V"
+   ],
+   "correct": 2,
+   "explain": "Both mean 'the man works'. The difference is in <em>structure</em>: subject in front = FS (<span class=\"tar\">āryaz</span>); subject after ww = AS (<span class=\"tar\">wāryaz</span>). Stylistically and emphatically different, but not semantically."
+  },
+  {
+   "type": "mc",
+   "q": "What type of word has <strong>no</strong> state distinction?",
+   "options": [
+    "Class I nouns (most)",
+    "Class II loanwords (<span class=\"tar\">ssaḇun</span> 'soap') and family words (<span class=\"tar\">baba</span>)",
+    "only plurals",
+    "all nouns have state distinctions"
+   ],
+   "correct": 1,
+   "explain": "Class II (Arabic loanwords) and Class III (family words) remain unchanged in any position. Adjectives are also always in the free state — regardless of the word they describe."
+  },
+  {
+   "type": "mc",
+   "q": "After which two prepositions do you use — exceptionally — the <strong>free</strong> condition?",
+   "options": [
+    "<span class=\"tar\">n</span> 'from' and <span class=\"tar\">x</span> 'on'",
+    "<span class=\"tar\">aṛ</span> 'to' and <span class=\"tar\">břa</span> 'without'",
+    "<span class=\"tar\">ḏi</span> 'in' and <span class=\"tar\">akeḏ</span> 'with'",
+    "none — all prepositions take a connected state"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">břa āryaz-nnes</span> 'without her husband' — a preposition, but FS. Almost all other prepositions trigger AS. This is worth a mnemonic."
+  },
+  {
+   "type": "match",
+   "q": "Which state corresponds to the position?",
+   "pairs": [
+    {
+     "left": "single noun (\"a man\")",
+     "leftIsTar": false,
+     "right": "free state (FS)"
+    },
+    {
+     "left": "subject <em>before</em> the verb",
+     "leftIsTar": false,
+     "right": "free state (FS)"
+    },
+    {
+     "left": "direct object",
+     "leftIsTar": false,
+     "right": "free state (FS)"
+    },
+    {
+     "left": "subject <em>after</em> the verb",
+     "leftIsTar": false,
+     "right": "connected state (AS)"
+    },
+    {
+     "left": "na <span class=\"tar\">n</span> 'of'",
+     "leftIsTar": false,
+     "right": "connected state (AS)"
+    }
+   ],
+   "explain": "Mnemonic: 'at rest' = FS, 'in a group' (attached to verb or preposition) = AS. Once automatic, you can read the difference immediately."
   }
  ],
  "les-14": [
@@ -2213,146 +2600,386 @@
  "les-16": [
   {
    "type": "mc",
-   "q": "What is the <strong>free state</strong>?",
+   "q": "Adjectives in Tarifit behave grammatically like…",
    "options": [
-    "a form that only occurs after a preposition",
-    "the dictionary form — the word 'at rest', alone or at the beginning of the sentence",
-    "only the plural form",
-    "a verb form"
+    "verbs — no gender or number",
+    "nouns — they inflect for gender and number",
+    "prepositions — they are invariable",
+    "pronouns"
    ],
    "correct": 1,
-   "explain": "The free state (FS) is what you find in a glossary. <span class=\"tar\">āryaz</span> 'man', <span class=\"tar\">ṯafunasṯ</span> 'cow' — these are FS forms."
+   "explain": "<span class=\"tar\">ameqqṛan</span> (large, M:SG) → <span class=\"tar\">ṯameqqṛanṯ</span> (F:SG) → <span class=\"tar\">imeqqṛanen</span> (M:PL). Like nouns: <span class=\"tar\">a-/ṯa-</span>-prefix, <span class=\"tar\">-ṯ</span>-suffix for V, <span class=\"tar\">i-…-en</span> for M:PL."
   },
   {
    "type": "mc",
-   "q": "When do you use the <strong>connected state</strong>?",
+   "q": "Give the <strong>feminine singular</strong> form of <span class=\"tar\">amezzyan</span> 'small':",
    "options": [
-    "always",
-    "never — it no longer exists",
-    "especially after prepositions and as a subject <em>after</em> the verb",
-    "only in written language"
+    "<span class=\"tar\">ṯamezzyanṯ</span>",
+    "<span class=\"tar\">imezzyanen</span>",
+    "<span class=\"tar\">amezzyan</span>",
+    "<span class=\"tar\">ṯimezzyaniṯ</span>"
    ],
-   "correct": 2,
-   "explain": "Connected state (AS) appears where the noun attaches to something: after most prepositions (<span class=\"tar\">n wāryaz</span> 'of the man') and as a VSO subject (<span class=\"tar\">yexḏem wāryaz</span> 'the man works')."
+   "correct": 0,
+   "explain": "Standard pattern: <span class=\"tar\">ṯa-</span> + stem + <span class=\"tar\">-ṯ</span>. Same as with nouns in lesson 11."
   },
   {
    "type": "mc",
-   "q": "What happens to <span class=\"tar\">a-</span> when transitioning to connected state (M ev)?",
+   "q": "Give the <strong>masculine plural</strong> form of <span class=\"tar\">azeggʷaɣ</span> 'red':",
    "options": [
-    "it disappears without replacement",
-    "it becomes <span class=\"tar\">wa-</span> or <span class=\"tar\">u-</span>",
-    "it becomes <span class=\"tar\">ṯa-</span>",
-    "it doubles"
+    "<span class=\"tar\">izeggʷaɣen</span>",
+    "<span class=\"tar\">ṯazeggʷaɣṯ</span>",
+    "<span class=\"tar\">azeggʷaɣ</span>",
+    "<span class=\"tar\">ṯizeggʷaɣin</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">a-</span> → <span class=\"tar\">i-</span>, suffix <span class=\"tar\">-en</span>. Standard plural pattern."
+  },
+  {
+   "type": "mc",
+   "q": "How do you say <strong>'the big country'</strong> (specific)?",
+   "options": [
+    "<span class=\"tar\">ṯammuaṯ ḏ ṯameqqṛanṯ</span>",
+    "<span class=\"tar\">ṯammuaṯ ṯameqqṛanṯ</span>",
+    "<span class=\"tar\">ameqqṛan ṯammuaṯ</span>",
+    "<span class=\"tar\">ṯammuaṯ n ameqqṛan</span>"
    ],
    "correct": 1,
-   "explain": "<span class=\"tar\">āryaz</span> (FS) → <span class=\"tar\">wāryaz</span> (AS); <span class=\"tar\">afunas</span> → <span class=\"tar\">wafunas</span>. The <span class=\"tar\">w-</span> points to the old emphasis that was lost in FS."
+   "explain": "Particular noun phrase: noun + adjective directly next to each other, without <span class=\"tar\">ḏ</span>. <span class=\"tar\">ḏ</span> is only used with indefinite: <span class=\"tar\">ijjen weyyur ḏ ameqqṛan</span> 'a big donkey'."
   },
   {
    "type": "mc",
-   "q": "Associated state of <span class=\"tar\">āryaz</span> 'man':",
+   "q": "How do you say <strong>'a big house'</strong> (indefinite)?",
    "options": [
-    "<span class=\"tar\">wāryaz</span>",
-    "<span class=\"tar\">āryaz</span>",
-    "<span class=\"tar\">uryaz</span>",
-    "<span class=\"tar\">yāryaz</span>"
+    "<span class=\"tar\">ṯaḏḏarṯ ṯameqqṛanṯ</span>",
+    "<span class=\"tar\">ijjen ṯaḏḏarṯ ḏ ṯameqqṛanṯ</span>",
+    "<span class=\"tar\">ṯameqqṛanṯ n ṯaḏḏarṯ</span>",
+    "<span class=\"tar\">ṯaḏḏarṯ n ṯameqqṛanṯ</span>"
    ],
-   "correct": 0,
-   "explain": "For example in <span class=\"tar\">yeqqim wāryaz</span> 'the man stayed' (subject after verb, so AS)."
+   "correct": 1,
+   "explain": "Indefinite: <span class=\"tar\">ijjen</span> (one) + noun + <span class=\"tar\">ḏ</span> + e.g. nv. The <span class=\"tar\">ḏ</span> acts as a linking element here. Compare: definite = next to each other, indefinite = with <span class=\"tar\">ḏ</span>."
   },
   {
    "type": "mc",
-   "q": "Related state of <span class=\"tar\">ṯafunasṯ</span> 'cow':",
+   "q": "You write <span class=\"tar\">n wāryaz ameqqṛan</span> 'of the great man'. What state is <span class=\"tar\">ameqqṛan</span> in?",
    "options": [
-    "<span class=\"tar\">ṯfunasṯ</span>",
-    "<span class=\"tar\">ṯafunasṯ</span>",
-    "<span class=\"tar\">afunasṯ</span>",
-    "<span class=\"tar\">ṯifunasṯ</span>"
+    "connected — because it is after <span class=\"tar\">n</span>",
+    "free state — adjectives always remain free",
+    "plural form",
+    "no state"
    ],
-   "correct": 0,
-   "explain": "V ev: <span class=\"tar\">ṯa-</span> becomes <span class=\"tar\">ṯ-</span>. The <em>a</em> disappears. Ditto <span class=\"tar\">ṯamɣārṯ</span> → <span class=\"tar\">ṯmɣārṯ</span>."
+   "correct": 1,
+   "explain": "Adjectives are <strong>always in a free state</strong>, regardless of the state of the noun before it. <span class=\"tar\">wāryaz</span> is AS (after <span class=\"tar\">n</span>), but <span class=\"tar\">ameqqṛan</span> remains FS."
+  },
+  {
+   "type": "mc",
+   "q": "Which two adjectives do not inflect for gender or number?",
+   "options": [
+    "<span class=\"tar\">ameqqṛan</span> and <span class=\"tar\">amezzyan</span>",
+    "<span class=\"tar\">jjdid</span> and <span class=\"tar\">nneɣni</span>",
+    "<span class=\"tar\">acemřař</span> and <span class=\"tar\">aberkan</span>",
+    "all adjectives are invariable"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">jjdid</span> 'new' and <span class=\"tar\">nneɣni</span> 'other' are invariant — they were borrowed from Arabic and never adopted the Berber inflection pattern."
   },
   {
    "type": "translate",
-   "q": "Translation: <span class=\"tar\">yeqqim wāryaz</span>",
-   "correct": "de man bleef",
+   "q": "Translation: <span class=\"tar\">qutci-nni yeyran</span>",
+   "correct": "de dure auto",
    "accept": [
-    "de man bleef",
-    "de man bleef zitten",
-    "de man is gebleven"
+    "de dure auto",
+    "die dure auto"
    ],
    "placeholder": "Nederlands",
-   "explain": "The verb comes first (VSO), the subject <span class=\"tar\">āryaz</span> comes after and therefore must be in AS — hence <span class=\"tar\">wāryaz</span>. Sentence order is elaborated in Lesson 16."
-  },
-  {
-   "type": "mc",
-   "q": "What is the difference between <span class=\"tar\">āryaz yexḏem</span> and <span class=\"tar\">yexḏem wāryaz</span>?",
-   "options": [
-    "the first is past, the second is present",
-    "the first is a question, the second a statement",
-    "no difference in meaning - only position and therefore: SV (FS) or VS (AS)",
-    "the first is M, the second V"
-   ],
-   "correct": 2,
-   "explain": "Both mean 'the man works'. The difference is in <em>structure</em>: subject in front = FS (<span class=\"tar\">āryaz</span>); subject after ww = AS (<span class=\"tar\">wāryaz</span>). Stylistically and emphatically different, but not semantically."
-  },
-  {
-   "type": "mc",
-   "q": "What type of word has <strong>no</strong> state distinction?",
-   "options": [
-    "Class I nouns (most)",
-    "Class II loanwords (<span class=\"tar\">ssaḇun</span> 'soap') and family words (<span class=\"tar\">baba</span>)",
-    "only plurals",
-    "all nouns have state distinctions"
-   ],
-   "correct": 1,
-   "explain": "Class II (Arabic loanwords) and Class III (family words) remain unchanged in any position. Adjectives are also always in the free state — regardless of the word they describe."
-  },
-  {
-   "type": "mc",
-   "q": "After which two prepositions do you use — exceptionally — the <strong>free</strong> condition?",
-   "options": [
-    "<span class=\"tar\">n</span> 'from' and <span class=\"tar\">x</span> 'on'",
-    "<span class=\"tar\">aṛ</span> 'to' and <span class=\"tar\">břa</span> 'without'",
-    "<span class=\"tar\">ḏi</span> 'in' and <span class=\"tar\">akeḏ</span> 'with'",
-    "none — all prepositions take a connected state"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">břa āryaz-nnes</span> 'without her husband' — a preposition, but FS. Almost all other prepositions trigger AS. This is worth a mnemonic."
+   "explain": "Literally 'the car that is expensive'. Many 'adjectival' qualities are expressed in Tarifit through a relative clause (Lesson 32). <span class=\"tar\">yeyran</span> = 'he is expensive' (Perfective of 'to be expensive')."
   },
   {
    "type": "match",
-   "q": "Which state corresponds to the position?",
+   "q": "Match each adjective with its meaning:",
    "pairs": [
     {
-     "left": "single noun (\"a man\")",
-     "leftIsTar": false,
-     "right": "free state (FS)"
+     "left": "<span class=\"tar\">aberkan</span>",
+     "leftIsTar": true,
+     "right": "black"
     },
     {
-     "left": "subject <em>before</em> the verb",
-     "leftIsTar": false,
-     "right": "free state (FS)"
+     "left": "<span class=\"tar\">azegza</span>",
+     "leftIsTar": true,
+     "right": "blue/green"
     },
     {
-     "left": "direct object",
-     "leftIsTar": false,
-     "right": "free state (FS)"
+     "left": "<span class=\"tar\">awessaa</span>",
+     "leftIsTar": true,
+     "right": "old"
     },
     {
-     "left": "subject <em>after</em> the verb",
-     "leftIsTar": false,
-     "right": "connected state (AS)"
+     "left": "<span class=\"tar\">amezdaɣ</span>",
+     "leftIsTar": true,
+     "right": "beautiful"
     },
     {
-     "left": "na <span class=\"tar\">n</span> 'of'",
-     "leftIsTar": false,
-     "right": "connected state (AS)"
+     "left": "<span class=\"tar\">aneggaru</span>",
+     "leftIsTar": true,
+     "right": "last"
     }
    ],
-   "explain": "Mnemonic: 'at rest' = FS, 'in a group' (attached to verb or preposition) = AS. Once automatic, you can read the difference immediately."
+   "explain": "Colors and properties. <span class=\"tar\">azegza</span> covers both blue and green — as in many other languages, there is one word for the bluish-green spectrum."
   }
  ],
  "les-17": [
+  {
+   "type": "mc",
+   "q": "What is the <strong>only</strong> Berber (non-Arabic) number from 1 to 10?",
+   "options": [
+    "<span class=\"tar\">ṯnayen</span> (2)",
+    "<span class=\"tar\">ijjen</span> (1)",
+    "<span class=\"tar\">xemsa</span> (5)",
+    "<span class=\"tar\">ɛecra</span> (10)"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ijjen</span> / <span class=\"tar\">icṯen</span> is Berber heritage. The rest (2–10) are loanwords from Arabic — useful if you know Arabic."
+  },
+  {
+   "type": "mc",
+   "q": "Why does 'one' have two forms (<span class=\"tar\">ijjen</span> and <span class=\"tar\">icṯen</span>)?",
+   "options": [
+    "they are dialect variants",
+    "<span class=\"tar\">ijjen</span> is masculine, <span class=\"tar\">icṯen</span> is feminine",
+    "the first is formal, the second informal",
+    "they have different numbers"
+   ],
+   "correct": 1,
+   "explain": "Only '1' makes a gender distinction: <span class=\"tar\">ijjen wāryaz</span> 'a man', <span class=\"tar\">icṯ ṯamɣārṯ</span> 'a woman'. Numbers 2–10 have no gender forms."
+  },
+  {
+   "type": "mc",
+   "q": "Write the Tarifit word for <strong>3</strong>:",
+   "options": [
+    "<span class=\"tar\">ṯřaṯa</span>",
+    "<span class=\"tar\">sin</span>",
+    "<span class=\"tar\">kkuẓ</span>",
+    "<span class=\"tar\">semmuss</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ṯřaṯa</span> is the Tarifit pronunciation of the Arabic <em>thalatha</em> (three). Note the <span class=\"tar\">ř</span> — in Tarifit the old <em>l</em> has become a <em>ř</em> sound."
+  },
+  {
+   "type": "mc",
+   "q": "Write the Tarifit word for <strong>7</strong>:",
+   "options": [
+    "<span class=\"tar\">seḇɛa</span>",
+    "<span class=\"tar\">setta</span>",
+    "<span class=\"tar\">ṯmanya</span>",
+    "<span class=\"tar\">tesɛa</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">seḇɛa</span> — from Arabic <em>sab'a</em>. The <span class=\"tar\">ɛ</span> is the Arabic <em>'ayn</em> sound."
+  },
+  {
+   "type": "mc",
+   "q": "How do you say <strong>three women</strong>?",
+   "options": [
+    "<span class=\"tar\">ṯřaṯa n ṯemɣarin</span>",
+    "<span class=\"tar\">ṯřaṯa ṯemɣarin</span>",
+    "<span class=\"tar\">ijjen n ṯemɣarin</span>",
+    "<span class=\"tar\">ṯemɣarin ṯřaṯa</span>"
+   ],
+   "correct": 0,
+   "explain": "For 2 and higher there is always <span class=\"tar\">n</span> 'van' between the number and the noun: number + <span class=\"tar\">n</span> + noun (pl). Literally 'three of women'."
+  },
+  {
+   "type": "mc",
+   "q": "How do you say <strong>one man</strong>?",
+   "options": [
+    "<span class=\"tar\">ijjen n wāryaz</span>",
+    "<span class=\"tar\">ijjen wāryaz</span>",
+    "<span class=\"tar\">wāryaz ijjen</span>",
+    "<span class=\"tar\">ṯnayen wāryaz</span>"
+   ],
+   "correct": 1,
+   "explain": "With 'one' you use <strong>no</strong> <span class=\"tar\">n</span>. <span class=\"tar\">ijjen wāryaz</span> — right next to each other, the noun in a connected state (<span class=\"tar\">wāryaz</span>)."
+  },
+  {
+   "type": "mc",
+   "q": "<span class=\"tar\">ijjen</span> means both 'one' and...?",
+   "options": [
+    "'no'",
+    "the indefinite article 'a'",
+    "'a few'",
+    "'a lot of'"
+   ],
+   "correct": 1,
+   "explain": "Like German <em>ein</em> or English <em>one/a</em>: <span class=\"tar\">ijjen ṯaḏḏarṯ</span> can mean 'a house' or 'one house'. Context determines whether it is a numeral or an article."
+  },
+  {
+   "type": "mc",
+   "q": "Write the Tarifit word for <strong>10</strong>:",
+   "options": [
+    "<span class=\"tar\">ɛecra</span>",
+    "<span class=\"tar\">tesɛa</span>",
+    "<span class=\"tar\">ṯmanya</span>",
+    "<span class=\"tar\">seḇɛa</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ɛecra</span> — from Arabic <em>'ashara</em>. The <span class=\"tar\">ɛ</span> is the <em>'ayn</em> sound."
+  },
+  {
+   "type": "match",
+   "q": "Link number and Tarifit word:",
+   "pairs": [
+    {
+     "left": "2",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">ṯnayen</span>"
+    },
+    {
+     "left": "4",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">aaḇɛa</span>"
+    },
+    {
+     "left": "6",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">setta</span>"
+    },
+    {
+     "left": "8",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">ṯmenya</span>"
+    },
+    {
+     "left": "9",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">ṯesɛa</span>"
+    }
+   ],
+   "explain": "You already know the 'odd' numbers 3, 5, 7 (<span class=\"tar\">ṯřaṯa, xemsa, seḇɛa</span>). Learn 2, 4, 6, 8, 9 as a new set."
+  },
+  {
+   "type": "translate",
+   "q": "Translation: <span class=\"tar\">xemsa n yewdan</span>",
+   "correct": "vijf mensen",
+   "accept": [
+    "vijf mensen",
+    "5 mensen"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">xemsa</span> (5) + <span class=\"tar\">n</span> + <span class=\"tar\">yewdan</span> (plural of 'person'). Standard pattern."
+  }
+ ],
+ "les-18": [
+  {
+   "type": "mc",
+   "q": "What does the <strong>collective</strong> form such as <span class=\"tar\">ɛenba</span> mean?",
+   "options": [
+    "exactly one grape",
+    "a large quantity",
+    "the species in general — grapes as a category",
+    "grapes that are ripe"
+   ],
+   "correct": 2,
+   "explain": "<span class=\"tar\">sɣiɣ ɛenba</span> 'I bought grapes' — not one specific grape, but grapes as a mass or species. You use this for 'do you have apples?', 'I like to eat figs', etc."
+  },
+  {
+   "type": "mc",
+   "q": "How do you make the collective <span class=\"tar\">ɛenba</span> the <strong>countable singular</strong> 'one grape'?",
+   "options": [
+    "not a separate word — context determines it",
+    "feminine singular: <span class=\"tar\">ṯaɛenbaṯ</span>",
+    "masculine singular: <span class=\"tar\">aɛenba</span>",
+    "plural: <span class=\"tar\">iɛenbaṯin</span>"
+   ],
+   "correct": 1,
+   "explain": "Countable singular = feminine singular (with <span class=\"tar\">ṯa-…-ṯ</span>). This is a systematic rule: <span class=\"tar\">ɛenba</span> → <span class=\"tar\">ṯaɛenbaṯ</span>; <span class=\"tar\">řbacua</span> → <span class=\"tar\">ṯbacuaṯ</span>."
+  },
+  {
+   "type": "mc",
+   "q": "How do you say <strong>'I bought grapes'</strong> (the kind, not one piece)?",
+   "options": [
+    "<span class=\"tar\">sɣiɣ ɛenba</span>",
+    "<span class=\"tar\">sɣiɣ yiwen n ɛenba</span>",
+    "<span class=\"tar\">sɣiɣ ṯɛenbaṯ</span>",
+    "<span class=\"tar\">asɣiɣ ɛenba</span>"
+   ],
+   "correct": 0,
+   "explain": "Collective <span class=\"tar\">ɛenba</span> — no feminine prefix or suffix needed. Just like English 'I bought grapes' without article."
+  },
+  {
+   "type": "mc",
+   "q": "How do you say <strong>'I ate one fig'</strong>?",
+   "options": [
+    "<span class=\"tar\">cciɣ ṯbacuaṯ</span>",
+    "<span class=\"tar\">cciɣ bacua</span>",
+    "<span class=\"tar\">cciɣ ibacuawen</span>",
+    "<span class=\"tar\">cciɣ ṯibacuawin</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ṯbacuaṯ</span> = one fig (countable V-ev). The collective was <span class=\"tar\">řbacua</span> (figs in general)."
+  },
+  {
+   "type": "mc",
+   "q": "How do you say <strong>'three grapes'</strong>?",
+   "options": [
+    "<span class=\"tar\">ṯřaṯa n ɛenba</span>",
+    "<span class=\"tar\">ṯřaṯa n ṯiɛenbaṯin</span>",
+    "<span class=\"tar\">ṯřaṯa ṯaɛenbaṯ</span>",
+    "<span class=\"tar\">ṯaɛenbaṯ ṯřaṯa</span>"
+   ],
+   "correct": 1,
+   "explain": "Countable plural = feminine plural (<span class=\"tar\">ṯi-…-in</span>). Three or more pieces: numeral + <span class=\"tar\">n</span> + V-pl. <span class=\"tar\">ṯiɛenbaṯin</span> = grapes (counting)."
+  },
+  {
+   "type": "mc",
+   "q": "Why is <span class=\"tar\">aman</span> 'water' special?",
+   "options": [
+    "it is a masculine word",
+    "it exists only as a plural (plural tantum) — also for one mass",
+    "it has no collective",
+    "it is an Arabic loanword"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">aman</span> is always grammatically plural, even when you are talking about one glass of water. Just like Dutch 'shears' (always mv) or Arabic <em>miyaah</em>. <span class=\"tar\">řehrua</span> (herbs) also falls into this category."
+  },
+  {
+   "type": "translate",
+   "q": "Translation: <span class=\"tar\">řbacua qa attas</span>",
+   "correct": "vijgen zijn er veel",
+   "accept": [
+    "vijgen zijn er veel",
+    "er zijn veel vijgen"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">řbacua</span> = collective (figs as a species). <span class=\"tar\">qa attas</span> = 'there are many'. Collectively used as the subject of a general statement."
+  },
+  {
+   "type": "match",
+   "q": "Match usage with the correct form for '<span class=\"tar\">řbacua</span>' (figs):",
+   "pairs": [
+    {
+     "left": "'I like figs' (kind of general)",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">řbacua</span> (collective)"
+    },
+    {
+     "left": "'I ate one fig'",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">ṯbacuaṯ</span> (countable ev)"
+    },
+    {
+     "left": "'four figs'",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">ṯibacuarin</span> (countable pl)"
+    },
+    {
+     "left": "'water' (always plural)",
+     "leftIsTar": false,
+     "right": "<span class=\"tar\">aman</span> (plural tantum)"
+    }
+   ],
+   "explain": "Three layers: collective (kind) → countable singular (one piece, V:SG) → countable plural (pieces, V:PL). A system that you also encounter in Arabic."
+  }
+ ],
+ "les-19": [
   {
    "type": "mc",
    "q": "What does <strong>VSO</strong> mean?",
@@ -2581,288 +3208,6 @@
     }
    ],
    "explain": "Three productive verb prefixes + the reflexive construction. Together they are the entire system of Tarifit verb derivation."
-  }
- ],
- "les-18": [
-  {
-   "type": "mc",
-   "q": "Which two prepositions take <strong>free state</strong> instead of connected state?",
-   "options": [
-    "<span class=\"tar\">ḏi</span> 'in' and <span class=\"tar\">x</span> 'on'",
-    "<span class=\"tar\">aṛ</span> 'to' and <span class=\"tar\">břa</span> 'without'",
-    "<span class=\"tar\">n</span> 'of' and <span class=\"tar\">s</span> 'with'",
-    "none — all take connected state"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">aṛ</span> and <span class=\"tar\">břa</span> are the two exceptions. All other prepositions trigger connected state."
-  },
-  {
-   "type": "mc",
-   "q": "Preposition for <strong>'in'</strong>:",
-   "options": [
-    "<span class=\"tar\">ḏi</span>",
-    "<span class=\"tar\">x</span>",
-    "<span class=\"tar\">f</span>",
-    "<span class=\"tar\">ɣaa</span>"
-   ],
-   "correct": 0,
-   "explain": "<span class=\"tar\">ḏi ṯaḏḏarṯ</span> 'in the house'. Triggers connected state."
-  },
-  {
-   "type": "mc",
-   "q": "Preposition for <strong>'on'</strong>:",
-   "options": [
-    "<span class=\"tar\">x</span>",
-    "<span class=\"tar\">ḏi</span>",
-    "<span class=\"tar\">f</span>",
-    "<span class=\"tar\">ɣaa</span>"
-   ],
-   "correct": 0,
-   "explain": "<span class=\"tar\">x uyis</span> 'on the horse'. Associated state of <span class=\"tar\">ayis</span> is <span class=\"tar\">uyis</span>."
-  },
-  {
-   "type": "translate",
-   "q": "Translate: <span class=\"tar\">zi Naḍuār</span>",
-   "correct": "uit Nador",
-   "accept": [
-    "uit Nador",
-    "van Nador",
-    "vanuit Nador"
-   ],
-   "placeholder": "Nederlands",
-   "explain": "<span class=\"tar\">zi</span> = 'of, from'. Geographic names do not change state (Class II)."
-  },
-  {
-   "type": "mc",
-   "q": "What is the difference between <span class=\"tar\">s</span> and <span class=\"tar\">akeḏ</span>?",
-   "options": [
-    "no difference — synonyms",
-    "<span class=\"tar\">s</span> = with (instrument); <span class=\"tar\">akeḏ</span> = with (company)",
-    "<span class=\"tar\">s</span> is past, <span class=\"tar\">akeḏ</span> future",
-    "<span class=\"tar\">s</span> is formal, <span class=\"tar\">akeḏ</span> informal"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">s ṯmazixṯ</span> 'in Berber' (middle); <span class=\"tar\">akeḏ uma-s</span> 'with his brother' (together). Just like Dutch 'with a hammer' vs 'with my friend'."
-  },
-  {
-   "type": "mc",
-   "q": "Tarifit has no verb for 'to have'. How do you express 'I have a car'?",
-   "options": [
-    "impossible — use Arabic",
-    "<span class=\"tar\">necc ḏ ṯṯumubin</span>",
-    "<span class=\"tar\">ɣari ijjen ṯṯumubin</span> (one car with me)",
-    "<span class=\"tar\">ṯṯumubin-inu</span>"
-   ],
-   "correct": 2,
-   "explain": "<span class=\"tar\">ɣaa</span> + person = 'at X'. <span class=\"tar\">ɣari</span> = <span class=\"tar\">ɣaa</span> + <span class=\"tar\">-i</span> (for me). Literally 'one car with me' = 'I have a car'."
-  },
-  {
-   "type": "mc",
-   "q": "How do you say 'with him' (possession construction)?",
-   "options": [
-    "<span class=\"tar\">ɣaas</span>",
-    "<span class=\"tar\">ɣaac</span>",
-    "<span class=\"tar\">ɣaaɣ</span>",
-    "<span class=\"tar\">ɣaak</span>"
-   ],
-   "correct": 0,
-   "explain": "<span class=\"tar\">ɣaa</span> + suffix <span class=\"tar\">-s</span> (3SG) = <span class=\"tar\">ɣaas</span>. Example: <span class=\"tar\">ɣaas ijj uma-s</span> 'she has a brother'."
-  },
-  {
-   "type": "translate",
-   "q": "Translation: <span class=\"tar\">břa ṯamɣārṯ-nnes</span>",
-   "correct": "zonder zijn vrouw",
-   "accept": [
-    "zonder zijn vrouw",
-    "zonder haar man"
-   ],
-   "placeholder": "Nederlands",
-   "explain": "<span class=\"tar\">břa</span> takes free state — hence <span class=\"tar\">ṯamɣārṯ</span> (FS). <span class=\"tar\">nnes</span> = 'his/her'."
-  },
-  {
-   "type": "match",
-   "q": "Match each preposition to its meaning:",
-   "pairs": [
-    {
-     "left": "<span class=\"tar\">ḏi</span>",
-     "leftIsTar": true,
-     "right": "in"
-    },
-    {
-     "left": "<span class=\"tar\">zi</span>",
-     "leftIsTar": true,
-     "right": "from"
-    },
-    {
-     "left": "<span class=\"tar\">i</span>",
-     "leftIsTar": true,
-     "right": "on, for"
-    },
-    {
-     "left": "<span class=\"tar\">am</span>",
-     "leftIsTar": true,
-     "right": "like"
-    },
-    {
-     "left": "<span class=\"tar\">ḏ</span>",
-     "leftIsTar": true,
-     "right": "and (connects two NPs)"
-    }
-   ],
-   "explain": "Note: <span class=\"tar\">ḏ</span> as 'and' only works between noun phrases."
-  },
-  {
-   "type": "mc",
-   "q": "What does <span class=\"tar\">ɣaaneɣ ṯaḏḏarṯ</span> mean?",
-   "options": [
-    "their house",
-    "we have a house",
-    "the house is gone",
-    "a big house"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">ɣaaneɣ</span> = <span class=\"tar\">ɣaa</span> + <span class=\"tar\">-neɣ</span> (with us). Literally 'with us a house' = 'we have a house'."
-  }
- ],
- "les-20": [
-  {
-   "type": "mc",
-   "q": "What is the <strong>only</strong> Berber (non-Arabic) number from 1 to 10?",
-   "options": [
-    "<span class=\"tar\">ṯnayen</span> (2)",
-    "<span class=\"tar\">ijjen</span> (1)",
-    "<span class=\"tar\">xemsa</span> (5)",
-    "<span class=\"tar\">ɛecra</span> (10)"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">ijjen</span> / <span class=\"tar\">icṯen</span> is Berber heritage. The rest (2–10) are loanwords from Arabic — useful if you know Arabic."
-  },
-  {
-   "type": "mc",
-   "q": "Why does 'one' have two forms (<span class=\"tar\">ijjen</span> and <span class=\"tar\">icṯen</span>)?",
-   "options": [
-    "they are dialect variants",
-    "<span class=\"tar\">ijjen</span> is masculine, <span class=\"tar\">icṯen</span> is feminine",
-    "the first is formal, the second informal",
-    "they have different numbers"
-   ],
-   "correct": 1,
-   "explain": "Only '1' makes a gender distinction: <span class=\"tar\">ijjen wāryaz</span> 'a man', <span class=\"tar\">icṯ ṯamɣārṯ</span> 'a woman'. Numbers 2–10 have no gender forms."
-  },
-  {
-   "type": "mc",
-   "q": "Write the Tarifit word for <strong>3</strong>:",
-   "options": [
-    "<span class=\"tar\">ṯřaṯa</span>",
-    "<span class=\"tar\">sin</span>",
-    "<span class=\"tar\">kkuẓ</span>",
-    "<span class=\"tar\">semmuss</span>"
-   ],
-   "correct": 0,
-   "explain": "<span class=\"tar\">ṯřaṯa</span> is the Tarifit pronunciation of the Arabic <em>thalatha</em> (three). Note the <span class=\"tar\">ř</span> — in Tarifit the old <em>l</em> has become a <em>ř</em> sound."
-  },
-  {
-   "type": "mc",
-   "q": "Write the Tarifit word for <strong>7</strong>:",
-   "options": [
-    "<span class=\"tar\">seḇɛa</span>",
-    "<span class=\"tar\">setta</span>",
-    "<span class=\"tar\">ṯmanya</span>",
-    "<span class=\"tar\">tesɛa</span>"
-   ],
-   "correct": 0,
-   "explain": "<span class=\"tar\">seḇɛa</span> — from Arabic <em>sab'a</em>. The <span class=\"tar\">ɛ</span> is the Arabic <em>'ayn</em> sound."
-  },
-  {
-   "type": "mc",
-   "q": "How do you say <strong>three women</strong>?",
-   "options": [
-    "<span class=\"tar\">ṯřaṯa n ṯemɣarin</span>",
-    "<span class=\"tar\">ṯřaṯa ṯemɣarin</span>",
-    "<span class=\"tar\">ijjen n ṯemɣarin</span>",
-    "<span class=\"tar\">ṯemɣarin ṯřaṯa</span>"
-   ],
-   "correct": 0,
-   "explain": "For 2 and higher there is always <span class=\"tar\">n</span> 'van' between the number and the noun: number + <span class=\"tar\">n</span> + noun (pl). Literally 'three of women'."
-  },
-  {
-   "type": "mc",
-   "q": "How do you say <strong>one man</strong>?",
-   "options": [
-    "<span class=\"tar\">ijjen n wāryaz</span>",
-    "<span class=\"tar\">ijjen wāryaz</span>",
-    "<span class=\"tar\">wāryaz ijjen</span>",
-    "<span class=\"tar\">ṯnayen wāryaz</span>"
-   ],
-   "correct": 1,
-   "explain": "With 'one' you use <strong>no</strong> <span class=\"tar\">n</span>. <span class=\"tar\">ijjen wāryaz</span> — right next to each other, the noun in a connected state (<span class=\"tar\">wāryaz</span>)."
-  },
-  {
-   "type": "mc",
-   "q": "<span class=\"tar\">ijjen</span> means both 'one' and...?",
-   "options": [
-    "'no'",
-    "the indefinite article 'a'",
-    "'a few'",
-    "'a lot of'"
-   ],
-   "correct": 1,
-   "explain": "Like German <em>ein</em> or English <em>one/a</em>: <span class=\"tar\">ijjen ṯaḏḏarṯ</span> can mean 'a house' or 'one house'. Context determines whether it is a numeral or an article."
-  },
-  {
-   "type": "mc",
-   "q": "Write the Tarifit word for <strong>10</strong>:",
-   "options": [
-    "<span class=\"tar\">ɛecra</span>",
-    "<span class=\"tar\">tesɛa</span>",
-    "<span class=\"tar\">ṯmanya</span>",
-    "<span class=\"tar\">seḇɛa</span>"
-   ],
-   "correct": 0,
-   "explain": "<span class=\"tar\">ɛecra</span> — from Arabic <em>'ashara</em>. The <span class=\"tar\">ɛ</span> is the <em>'ayn</em> sound."
-  },
-  {
-   "type": "match",
-   "q": "Link number and Tarifit word:",
-   "pairs": [
-    {
-     "left": "2",
-     "leftIsTar": false,
-     "right": "<span class=\"tar\">ṯnayen</span>"
-    },
-    {
-     "left": "4",
-     "leftIsTar": false,
-     "right": "<span class=\"tar\">aaḇɛa</span>"
-    },
-    {
-     "left": "6",
-     "leftIsTar": false,
-     "right": "<span class=\"tar\">setta</span>"
-    },
-    {
-     "left": "8",
-     "leftIsTar": false,
-     "right": "<span class=\"tar\">ṯmenya</span>"
-    },
-    {
-     "left": "9",
-     "leftIsTar": false,
-     "right": "<span class=\"tar\">ṯesɛa</span>"
-    }
-   ],
-   "explain": "You already know the 'odd' numbers 3, 5, 7 (<span class=\"tar\">ṯřaṯa, xemsa, seḇɛa</span>). Learn 2, 4, 6, 8, 9 as a new set."
-  },
-  {
-   "type": "translate",
-   "q": "Translation: <span class=\"tar\">xemsa n yewdan</span>",
-   "correct": "vijf mensen",
-   "accept": [
-    "vijf mensen",
-    "5 mensen"
-   ],
-   "placeholder": "Nederlands",
-   "explain": "<span class=\"tar\">xemsa</span> (5) + <span class=\"tar\">n</span> + <span class=\"tar\">yewdan</span> (plural of 'person'). Standard pattern."
   }
  ],
  "les-21": [
@@ -3133,131 +3478,145 @@
  "les-23": [
   {
    "type": "mc",
-   "q": "In Dutch, after 'I want' there is an infinitive: 'I want to go'. What does Tarifit use?",
+   "q": "Which two prepositions take <strong>free state</strong> instead of connected state?",
    "options": [
-    "also an infinitive",
-    "two fully conjugated verbs next to each other",
-    "only the Perfective of the second verb",
-    "a noun"
+    "<span class=\"tar\">ḏi</span> 'in' and <span class=\"tar\">x</span> 'on'",
+    "<span class=\"tar\">aṛ</span> 'to' and <span class=\"tar\">břa</span> 'without'",
+    "<span class=\"tar\">n</span> 'of' and <span class=\"tar\">s</span> 'with'",
+    "none — all take connected state"
    ],
    "correct": 1,
-   "explain": "<span class=\"tar\">xseɣ ad meřceɣ</span> = literally 'I-want-I-will-get-married'. Both verbs are conjugated for the same person. Tarifit has no infinitive — this is the standard substitution."
+   "explain": "<span class=\"tar\">aṛ</span> and <span class=\"tar\">břa</span> are the two exceptions. All other prepositions trigger connected state."
   },
   {
    "type": "mc",
-   "q": "What follows <span class=\"tar\">xes</span> 'want'?",
+   "q": "Preposition for <strong>'in'</strong>:",
    "options": [
-    "Imperfect only",
-    "<span class=\"tar\">ad</span> + Aorist",
-    "Perfective",
-    "no hard and fast rule"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">xseɣ ad ariɣ</span> 'I want to write'. The particle <span class=\"tar\">ad</span> marks the unrealized action — the same function as in future constructions (Lesson 10). The same applies to <span class=\"tar\">zemmaa</span> 'be able to'."
-  },
-  {
-   "type": "mc",
-   "q": "What follows <span class=\"tar\">bda</span> 'begin'?",
-   "options": [
-    "<span class=\"tar\">ad</span> + Aorist",
-    "Imperfective",
-    "Perfective",
-    "only a noun"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">yebda yeṯxemmem</span> 'he began to think' — <span class=\"tar\">yeṯxemmem</span> is the Imperfective of 'think'. Same with <span class=\"tar\">qqim</span> 'continue with': always Imperfective."
-  },
-  {
-   "type": "translate",
-   "q": "Translation: <span class=\"tar\">xseɣ ad ariɣ</span>",
-   "correct": "ik wil schrijven",
-   "accept": [
-    "ik wil schrijven"
-   ],
-   "placeholder": "Nederlands",
-   "explain": "<span class=\"tar\">xseɣ</span> = 1SG of <span class=\"tar\">xes</span> 'want'. <span class=\"tar\">ad ariɣ</span> = 1SG Aorist of <span class=\"tar\">ari</span> 'write' with future particle."
-  },
-  {
-   "type": "translate",
-   "q": "Translate: <span class=\"tar\">waa zemmaay ad sbaay</span>",
-   "correct": "ik kan niet meer wachten",
-   "accept": [
-    "ik kan niet meer wachten",
-    "ik kan niet wachten"
-   ],
-   "placeholder": "Nederlands",
-   "explain": "<span class=\"tar\">zemmaa</span> 'can', negated: <span class=\"tar\">waa zemmaay ca</span>. <span class=\"tar\">sba</span> = wait. <span class=\"tar\">ad sbaay</span> = 'I will wait'. Together: 'I can't wait'."
-  },
-  {
-   "type": "mc",
-   "q": "Auxiliary verb for <strong>'can'</strong>:",
-   "options": [
-    "<span class=\"tar\">zemmaa</span>",
-    "<span class=\"tar\">yewwi</span>",
-    "<span class=\"tar\">smeyyer</span>",
-    "<span class=\"tar\">iwweḏ</span>"
+    "<span class=\"tar\">ḏi</span>",
+    "<span class=\"tar\">x</span>",
+    "<span class=\"tar\">f</span>",
+    "<span class=\"tar\">ɣaa</span>"
    ],
    "correct": 0,
-   "explain": "<span class=\"tar\">zemmaa</span> + <span class=\"tar\">ad</span> + Aorist. Just like <span class=\"tar\">xes</span>: both take <span class=\"tar\">ad</span> + Aorist as complement."
+   "explain": "<span class=\"tar\">ḏi ṯaḏḏarṯ</span> 'in the house'. Triggers connected state."
   },
   {
    "type": "mc",
-   "q": "How do you express 'he became a doctor'?",
+   "q": "Preposition for <strong>'on'</strong>:",
    "options": [
-    "<span class=\"tar\">ḏ adbib yeqqim</span>",
-    "<span class=\"tar\">qa yedweř ḏ adbib</span>",
-    "<span class=\"tar\">yexḏem ḏ adbib</span>",
-    "<span class=\"tar\">ad yegg ḏ adbib</span>"
+    "<span class=\"tar\">x</span>",
+    "<span class=\"tar\">ḏi</span>",
+    "<span class=\"tar\">f</span>",
+    "<span class=\"tar\">ɣaa</span>"
    ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">dweř</span> = 'become' (change of state). <span class=\"tar\">ḏ</span> + noun express the new state. <span class=\"tar\">qa yedweř ḏ adbib</span> = 'he became a doctor'."
+   "correct": 0,
+   "explain": "<span class=\"tar\">x uyis</span> 'on the horse'. Associated state of <span class=\"tar\">ayis</span> is <span class=\"tar\">uyis</span>."
+  },
+  {
+   "type": "translate",
+   "q": "Translate: <span class=\"tar\">zi Naḍuār</span>",
+   "correct": "uit Nador",
+   "accept": [
+    "uit Nador",
+    "van Nador",
+    "vanuit Nador"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">zi</span> = 'of, from'. Geographic names do not change state (Class II)."
   },
   {
    "type": "mc",
-   "q": "How do you say 'he knows that I will write'?",
+   "q": "What is the difference between <span class=\"tar\">s</span> and <span class=\"tar\">akeḏ</span>?",
    "options": [
-    "<span class=\"tar\">yessen ḏ ariɣ</span>",
-    "<span class=\"tar\">yessen illa ad ariɣ</span>",
-    "<span class=\"tar\">yessen niɣ ad ariɣ</span>",
-    "<span class=\"tar\">yessen břa ad ariɣ</span>"
+    "no difference — synonyms",
+    "<span class=\"tar\">s</span> = with (instrument); <span class=\"tar\">akeḏ</span> = with (company)",
+    "<span class=\"tar\">s</span> is past, <span class=\"tar\">akeḏ</span> future",
+    "<span class=\"tar\">s</span> is formal, <span class=\"tar\">akeḏ</span> informal"
    ],
    "correct": 1,
-   "explain": "<span class=\"tar\">illa</span> introduces a 'that' clause after verbs such as 'know', 'say', 'see'. In negation: <span class=\"tar\">ma</span> instead of <span class=\"tar\">illa</span>."
+   "explain": "<span class=\"tar\">s ṯmazixṯ</span> 'in Berber' (middle); <span class=\"tar\">akeḏ uma-s</span> 'with his brother' (together). Just like Dutch 'with a hammer' vs 'with my friend'."
+  },
+  {
+   "type": "mc",
+   "q": "Tarifit has no verb for 'to have'. How do you express 'I have a car'?",
+   "options": [
+    "impossible — use Arabic",
+    "<span class=\"tar\">necc ḏ ṯṯumubin</span>",
+    "<span class=\"tar\">ɣari ijjen ṯṯumubin</span> (one car with me)",
+    "<span class=\"tar\">ṯṯumubin-inu</span>"
+   ],
+   "correct": 2,
+   "explain": "<span class=\"tar\">ɣaa</span> + person = 'at X'. <span class=\"tar\">ɣari</span> = <span class=\"tar\">ɣaa</span> + <span class=\"tar\">-i</span> (for me). Literally 'one car with me' = 'I have a car'."
+  },
+  {
+   "type": "mc",
+   "q": "How do you say 'with him' (possession construction)?",
+   "options": [
+    "<span class=\"tar\">ɣaas</span>",
+    "<span class=\"tar\">ɣaac</span>",
+    "<span class=\"tar\">ɣaaɣ</span>",
+    "<span class=\"tar\">ɣaak</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">ɣaa</span> + suffix <span class=\"tar\">-s</span> (3SG) = <span class=\"tar\">ɣaas</span>. Example: <span class=\"tar\">ɣaas ijj uma-s</span> 'she has a brother'."
+  },
+  {
+   "type": "translate",
+   "q": "Translation: <span class=\"tar\">břa ṯamɣārṯ-nnes</span>",
+   "correct": "zonder zijn vrouw",
+   "accept": [
+    "zonder zijn vrouw",
+    "zonder haar man"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">břa</span> takes free state — hence <span class=\"tar\">ṯamɣārṯ</span> (FS). <span class=\"tar\">nnes</span> = 'his/her'."
   },
   {
    "type": "match",
-   "q": "Link auxiliary verb to its complement:",
+   "q": "Match each preposition to its meaning:",
    "pairs": [
     {
-     "left": "<span class=\"tar\">xes</span> (willen)",
+     "left": "<span class=\"tar\">ḏi</span>",
      "leftIsTar": true,
-     "right": "<span class=\"tar\">ad</span> + Aorist"
+     "right": "in"
     },
     {
-     "left": "<span class=\"tar\">zemmaa</span> (kunnen)",
+     "left": "<span class=\"tar\">zi</span>",
      "leftIsTar": true,
-     "right": "<span class=\"tar\">ad</span> + Aorist"
+     "right": "from"
     },
     {
-     "left": "<span class=\"tar\">bda</span> (beginnen)",
+     "left": "<span class=\"tar\">i</span>",
      "leftIsTar": true,
-     "right": "Imperfective"
+     "right": "on, for"
     },
     {
-     "left": "<span class=\"tar\">qqim</span> (doorgaan)",
+     "left": "<span class=\"tar\">am</span>",
      "leftIsTar": true,
-     "right": "Imperfective"
+     "right": "like"
     },
     {
-     "left": "<span class=\"tar\">dweř</span> (worden)",
+     "left": "<span class=\"tar\">ḏ</span>",
      "leftIsTar": true,
-     "right": "<span class=\"tar\">ḏ</span> + noun"
+     "right": "and (connects two NPs)"
     }
    ],
-   "explain": "Two groups: 'want/can' takes <span class=\"tar\">ad</span> + Aorist; 'begin/continue' takes Imperfective. <span class=\"tar\">dweř</span> is the exception."
+   "explain": "Note: <span class=\"tar\">ḏ</span> as 'and' only works between noun phrases."
+  },
+  {
+   "type": "mc",
+   "q": "What does <span class=\"tar\">ɣaaneɣ ṯaḏḏarṯ</span> mean?",
+   "options": [
+    "their house",
+    "we have a house",
+    "the house is gone",
+    "a big house"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ɣaaneɣ</span> = <span class=\"tar\">ɣaa</span> + <span class=\"tar\">-neɣ</span> (with us). Literally 'with us a house' = 'we have a house'."
   }
  ],
- "les-24": [
+ "les-25": [
   {
    "type": "mc",
    "q": "Which suffix is ​​the direct object <strong>'him / her / it'</strong> after the verb?",
@@ -3385,7 +3744,7 @@
    "explain": "DO suffixes are more compact than free pronouns. Learn them as a set: <span class=\"tar\">-ayi / -c / -cem / -ṯ / -aneɣ / …</span>"
   }
  ],
- "les-26": [
+ "les-27": [
   {
    "type": "mc",
    "q": "How do you connect two <strong>nouns</strong> with 'and'?",
@@ -3637,498 +3996,353 @@
    "explain": "Vocalization pattern: <span class=\"tar\">-ar</span> → spelling <span class=\"tar\">-ār</span>. So <span class=\"tar\">ṯamɣārṯ</span> 'woman'. The pronunciation sounds like <span class=\"tar\">ṯamɣārṯ</span>. Also on this site as <span class=\"tar\">ṯamɣārṯ</span>."
   }
  ],
- "les-27": [
-  {
-   "type": "mc",
-   "q": "What does <span class=\"tar\">tuɣa</span> do in a sentence?",
-   "options": [
-    "it marks future",
-    "it puts the situation in the past — 'was / was busy'",
-    "it denies",
-    "it asks a question"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">tuɣa-c ḏ ameddukeř inu</span> 'you were my friend'. <span class=\"tar\">tuɣa</span> is not a verb but a particle that places the situation before now. Negative: <span class=\"tar\">tuyi</span>."
-  },
-  {
-   "type": "translate",
-   "q": "Translation: <span class=\"tar\">tuɣa-ayi ḏi ṯaḏḏarṯ</span>",
-   "correct": "ik was thuis",
-   "accept": [
-    "ik was thuis",
-    "ik was in huis"
-   ],
-   "placeholder": "Nederlands",
-   "explain": "<span class=\"tar\">tuɣa</span> + suffix <span class=\"tar\">-ayi</span> (me) = 'I was'. <span class=\"tar\">ḏi ṯaḏḏarṯ</span> = 'in the house'. Together: 'I was home'."
-  },
-  {
-   "type": "mc",
-   "q": "Time adverb for <strong>'tomorrow'</strong>:",
-   "options": [
-    "<span class=\"tar\">ṯiwecca</span>",
-    "<span class=\"tar\">iḏelli</span>",
-    "<span class=\"tar\">řebda</span>",
-    "<span class=\"tar\">daɣen</span>"
-   ],
-   "correct": 0,
-   "explain": "<span class=\"tar\">ṯiwecca</span> — remember the initial <span class=\"tar\">ṯ</span> (feminine prefix). Occurs frequently in stories describing 'the next morning'."
-  },
-  {
-   "type": "mc",
-   "q": "Time adverb for <strong>'always'</strong>:",
-   "options": [
-    "<span class=\"tar\">řebda</span>",
-    "<span class=\"tar\">ṯiwecca</span>",
-    "<span class=\"tar\">daɣen</span>",
-    "<span class=\"tar\">iḏelli</span>"
-   ],
-   "correct": 0,
-   "explain": "<span class=\"tar\">řebda</span> = always, always. Note the <span class=\"tar\">ř</span> (not a regular <em>r</em> — see Lesson 25)."
-  },
-  {
-   "type": "mc",
-   "q": "Why does 'two years' have a separate form (<span class=\"tar\">ɛamayen</span>) instead of '2 + n + years'?",
-   "options": [
-    "that is the Arabic dualise — a special dual ending",
-    "it is an exception without reason",
-    "only in written language",
-    "it is the same as three years"
-   ],
-   "correct": 0,
-   "explain": "Arabic has a dualis ending <span class=\"tar\">-ayen</span> for two units. Tarifit has adopted them for day, month and year: <span class=\"tar\">yumayen</span> (two days), <span class=\"tar\">cehrayen</span> (two months), <span class=\"tar\">ɛamayen</span> (two years)."
-  },
-  {
-   "type": "mc",
-   "q": "How do you say <strong>'three years'</strong>?",
-   "options": [
-    "<span class=\"tar\">ṯřaṯa n ɛam</span>",
-    "<span class=\"tar\">ṯeřṯ snin</span>",
-    "<span class=\"tar\">ɛamayen</span>",
-    "<span class=\"tar\">ṯřaṯa ɛamayen</span>"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">ṯeřṯ snin</span> — here the Arabic plural <span class=\"tar\">snin</span> is used (years). For 3+, use the normal counting structure but with <span class=\"tar\">snin</span>, not <span class=\"tar\">ɛam</span>."
-  },
-  {
-   "type": "translate",
-   "q": "Translation: <span class=\"tar\">zzman tuɣa ṯnayen n duru tsekkʷa</span>",
-   "correct": "vroeger was twee duro veel waard",
-   "accept": [
-    "vroeger was twee duro veel waard",
-    "in de oude tijd was twee duro veel waard"
-   ],
-   "placeholder": "Nederlands",
-   "explain": "<span class=\"tar\">zzman</span> = 'back in the day, in the old days'. <span class=\"tar\">tuɣa</span> = 'was'. <span class=\"tar\">ṯnayen n duro</span> = 'two duro'. <span class=\"tar\">tsekkʷa</span> = 'has value'. Classic use of <span class=\"tar\">zzman + tuɣa</span> together."
-  },
-  {
-   "type": "mc",
-   "q": "How do you say <strong>'during the day'</strong>?",
-   "options": [
-    "<span class=\"tar\">s nnhaa</span>",
-    "<span class=\"tar\">s řiřeḥ</span>",
-    "<span class=\"tar\">x wass</span>",
-    "<span class=\"tar\">ɣer wass</span>"
-   ],
-   "correct": 0,
-   "explain": "<span class=\"tar\">s</span> = with / in (instrument preposition). <span class=\"tar\">nnhaa</span> = day. Literally 'by the day'. Same pattern: <span class=\"tar\">s ǧiřeṯ</span> = 'at night'."
-  },
-  {
-   "type": "match",
-   "q": "Link time adverb to meaning:",
-   "pairs": [
-    {
-     "left": "<span class=\"tar\">řexxu</span>",
-     "leftIsTar": true,
-     "right": "now"
-    },
-    {
-     "left": "<span class=\"tar\">řexḏenni</span>",
-     "leftIsTar": true,
-     "right": "then, at that time"
-    },
-    {
-     "left": "<span class=\"tar\">zzman</span>",
-     "leftIsTar": true,
-     "right": "back in the day, in the old days"
-    },
-    {
-     "left": "<span class=\"tar\">ṯiwecca</span>",
-     "leftIsTar": true,
-     "right": "tomorrow"
-    },
-    {
-     "left": "<span class=\"tar\">řebda</span>",
-     "leftIsTar": true,
-     "right": "always"
-    }
-   ],
-   "explain": "Five core temporal adverbs. Combine them with <span class=\"tar\">tuɣa</span> (was) or the verb aspect forms to situate temporal contexts."
-  }
- ],
- "les-28": [
-  {
-   "type": "mc",
-   "q": "Adjectives in Tarifit behave grammatically like…",
-   "options": [
-    "verbs — no gender or number",
-    "nouns — they inflect for gender and number",
-    "prepositions — they are invariable",
-    "pronouns"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">ameqqṛan</span> (large, M:SG) → <span class=\"tar\">ṯameqqṛanṯ</span> (F:SG) → <span class=\"tar\">imeqqṛanen</span> (M:PL). Like nouns: <span class=\"tar\">a-/ṯa-</span>-prefix, <span class=\"tar\">-ṯ</span>-suffix for V, <span class=\"tar\">i-…-en</span> for M:PL."
-  },
-  {
-   "type": "mc",
-   "q": "Give the <strong>feminine singular</strong> form of <span class=\"tar\">amezzyan</span> 'small':",
-   "options": [
-    "<span class=\"tar\">ṯamezzyanṯ</span>",
-    "<span class=\"tar\">imezzyanen</span>",
-    "<span class=\"tar\">amezzyan</span>",
-    "<span class=\"tar\">ṯimezzyaniṯ</span>"
-   ],
-   "correct": 0,
-   "explain": "Standard pattern: <span class=\"tar\">ṯa-</span> + stem + <span class=\"tar\">-ṯ</span>. Same as with nouns in lesson 11."
-  },
-  {
-   "type": "mc",
-   "q": "Give the <strong>masculine plural</strong> form of <span class=\"tar\">azeggʷaɣ</span> 'red':",
-   "options": [
-    "<span class=\"tar\">izeggʷaɣen</span>",
-    "<span class=\"tar\">ṯazeggʷaɣṯ</span>",
-    "<span class=\"tar\">azeggʷaɣ</span>",
-    "<span class=\"tar\">ṯizeggʷaɣin</span>"
-   ],
-   "correct": 0,
-   "explain": "<span class=\"tar\">a-</span> → <span class=\"tar\">i-</span>, suffix <span class=\"tar\">-en</span>. Standard plural pattern."
-  },
-  {
-   "type": "mc",
-   "q": "How do you say <strong>'the big country'</strong> (specific)?",
-   "options": [
-    "<span class=\"tar\">ṯammuaṯ ḏ ṯameqqṛanṯ</span>",
-    "<span class=\"tar\">ṯammuaṯ ṯameqqṛanṯ</span>",
-    "<span class=\"tar\">ameqqṛan ṯammuaṯ</span>",
-    "<span class=\"tar\">ṯammuaṯ n ameqqṛan</span>"
-   ],
-   "correct": 1,
-   "explain": "Particular noun phrase: noun + adjective directly next to each other, without <span class=\"tar\">ḏ</span>. <span class=\"tar\">ḏ</span> is only used with indefinite: <span class=\"tar\">ijjen weyyur ḏ ameqqṛan</span> 'a big donkey'."
-  },
-  {
-   "type": "mc",
-   "q": "How do you say <strong>'a big house'</strong> (indefinite)?",
-   "options": [
-    "<span class=\"tar\">ṯaḏḏarṯ ṯameqqṛanṯ</span>",
-    "<span class=\"tar\">ijjen ṯaḏḏarṯ ḏ ṯameqqṛanṯ</span>",
-    "<span class=\"tar\">ṯameqqṛanṯ n ṯaḏḏarṯ</span>",
-    "<span class=\"tar\">ṯaḏḏarṯ n ṯameqqṛanṯ</span>"
-   ],
-   "correct": 1,
-   "explain": "Indefinite: <span class=\"tar\">ijjen</span> (one) + noun + <span class=\"tar\">ḏ</span> + e.g. nv. The <span class=\"tar\">ḏ</span> acts as a linking element here. Compare: definite = next to each other, indefinite = with <span class=\"tar\">ḏ</span>."
-  },
-  {
-   "type": "mc",
-   "q": "You write <span class=\"tar\">n wāryaz ameqqṛan</span> 'of the great man'. What state is <span class=\"tar\">ameqqṛan</span> in?",
-   "options": [
-    "connected — because it is after <span class=\"tar\">n</span>",
-    "free state — adjectives always remain free",
-    "plural form",
-    "no state"
-   ],
-   "correct": 1,
-   "explain": "Adjectives are <strong>always in a free state</strong>, regardless of the state of the noun before it. <span class=\"tar\">wāryaz</span> is AS (after <span class=\"tar\">n</span>), but <span class=\"tar\">ameqqṛan</span> remains FS."
-  },
-  {
-   "type": "mc",
-   "q": "Which two adjectives do not inflect for gender or number?",
-   "options": [
-    "<span class=\"tar\">ameqqṛan</span> and <span class=\"tar\">amezzyan</span>",
-    "<span class=\"tar\">jjdid</span> and <span class=\"tar\">nneɣni</span>",
-    "<span class=\"tar\">acemřař</span> and <span class=\"tar\">aberkan</span>",
-    "all adjectives are invariable"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">jjdid</span> 'new' and <span class=\"tar\">nneɣni</span> 'other' are invariant — they were borrowed from Arabic and never adopted the Berber inflection pattern."
-  },
-  {
-   "type": "translate",
-   "q": "Translation: <span class=\"tar\">qutci-nni yeyran</span>",
-   "correct": "de dure auto",
-   "accept": [
-    "de dure auto",
-    "die dure auto"
-   ],
-   "placeholder": "Nederlands",
-   "explain": "Literally 'the car that is expensive'. Many 'adjectival' qualities are expressed in Tarifit through a relative clause (Lesson 32). <span class=\"tar\">yeyran</span> = 'he is expensive' (Perfective of 'to be expensive')."
-  },
-  {
-   "type": "match",
-   "q": "Match each adjective with its meaning:",
-   "pairs": [
-    {
-     "left": "<span class=\"tar\">aberkan</span>",
-     "leftIsTar": true,
-     "right": "black"
-    },
-    {
-     "left": "<span class=\"tar\">azegza</span>",
-     "leftIsTar": true,
-     "right": "blue/green"
-    },
-    {
-     "left": "<span class=\"tar\">awessaa</span>",
-     "leftIsTar": true,
-     "right": "old"
-    },
-    {
-     "left": "<span class=\"tar\">amezdaɣ</span>",
-     "leftIsTar": true,
-     "right": "beautiful"
-    },
-    {
-     "left": "<span class=\"tar\">aneggaru</span>",
-     "leftIsTar": true,
-     "right": "last"
-    }
-   ],
-   "explain": "Colors and properties. <span class=\"tar\">azegza</span> covers both blue and green — as in many other languages, there is one word for the bluish-green spectrum."
-  }
- ],
  "les-29": [
   {
    "type": "mc",
-   "q": "What does the <strong>collective</strong> form such as <span class=\"tar\">ɛenba</span> mean?",
+   "q": "In Dutch, after 'I want' there is an infinitive: 'I want to go'. What does Tarifit use?",
    "options": [
-    "exactly one grape",
-    "a large quantity",
-    "the species in general — grapes as a category",
-    "grapes that are ripe"
-   ],
-   "correct": 2,
-   "explain": "<span class=\"tar\">sɣiɣ ɛenba</span> 'I bought grapes' — not one specific grape, but grapes as a mass or species. You use this for 'do you have apples?', 'I like to eat figs', etc."
-  },
-  {
-   "type": "mc",
-   "q": "How do you make the collective <span class=\"tar\">ɛenba</span> the <strong>countable singular</strong> 'one grape'?",
-   "options": [
-    "not a separate word — context determines it",
-    "feminine singular: <span class=\"tar\">ṯaɛenbaṯ</span>",
-    "masculine singular: <span class=\"tar\">aɛenba</span>",
-    "plural: <span class=\"tar\">iɛenbaṯin</span>"
+    "also an infinitive",
+    "two fully conjugated verbs next to each other",
+    "only the Perfective of the second verb",
+    "a noun"
    ],
    "correct": 1,
-   "explain": "Countable singular = feminine singular (with <span class=\"tar\">ṯa-…-ṯ</span>). This is a systematic rule: <span class=\"tar\">ɛenba</span> → <span class=\"tar\">ṯaɛenbaṯ</span>; <span class=\"tar\">řbacua</span> → <span class=\"tar\">ṯbacuaṯ</span>."
+   "explain": "<span class=\"tar\">xseɣ ad meřceɣ</span> = literally 'I-want-I-will-get-married'. Both verbs are conjugated for the same person. Tarifit has no infinitive — this is the standard substitution."
   },
   {
    "type": "mc",
-   "q": "How do you say <strong>'I bought grapes'</strong> (the kind, not one piece)?",
+   "q": "What follows <span class=\"tar\">xes</span> 'want'?",
    "options": [
-    "<span class=\"tar\">sɣiɣ ɛenba</span>",
-    "<span class=\"tar\">sɣiɣ yiwen n ɛenba</span>",
-    "<span class=\"tar\">sɣiɣ ṯɛenbaṯ</span>",
-    "<span class=\"tar\">asɣiɣ ɛenba</span>"
-   ],
-   "correct": 0,
-   "explain": "Collective <span class=\"tar\">ɛenba</span> — no feminine prefix or suffix needed. Just like English 'I bought grapes' without article."
-  },
-  {
-   "type": "mc",
-   "q": "How do you say <strong>'I ate one fig'</strong>?",
-   "options": [
-    "<span class=\"tar\">cciɣ ṯbacuaṯ</span>",
-    "<span class=\"tar\">cciɣ bacua</span>",
-    "<span class=\"tar\">cciɣ ibacuawen</span>",
-    "<span class=\"tar\">cciɣ ṯibacuawin</span>"
-   ],
-   "correct": 0,
-   "explain": "<span class=\"tar\">ṯbacuaṯ</span> = one fig (countable V-ev). The collective was <span class=\"tar\">řbacua</span> (figs in general)."
-  },
-  {
-   "type": "mc",
-   "q": "How do you say <strong>'three grapes'</strong>?",
-   "options": [
-    "<span class=\"tar\">ṯřaṯa n ɛenba</span>",
-    "<span class=\"tar\">ṯřaṯa n ṯiɛenbaṯin</span>",
-    "<span class=\"tar\">ṯřaṯa ṯaɛenbaṯ</span>",
-    "<span class=\"tar\">ṯaɛenbaṯ ṯřaṯa</span>"
+    "Imperfect only",
+    "<span class=\"tar\">ad</span> + Aorist",
+    "Perfective",
+    "no hard and fast rule"
    ],
    "correct": 1,
-   "explain": "Countable plural = feminine plural (<span class=\"tar\">ṯi-…-in</span>). Three or more pieces: numeral + <span class=\"tar\">n</span> + V-pl. <span class=\"tar\">ṯiɛenbaṯin</span> = grapes (counting)."
+   "explain": "<span class=\"tar\">xseɣ ad ariɣ</span> 'I want to write'. The particle <span class=\"tar\">ad</span> marks the unrealized action — the same function as in future constructions (Lesson 10). The same applies to <span class=\"tar\">zemmaa</span> 'be able to'."
   },
   {
    "type": "mc",
-   "q": "Why is <span class=\"tar\">aman</span> 'water' special?",
+   "q": "What follows <span class=\"tar\">bda</span> 'begin'?",
    "options": [
-    "it is a masculine word",
-    "it exists only as a plural (plural tantum) — also for one mass",
-    "it has no collective",
-    "it is an Arabic loanword"
+    "<span class=\"tar\">ad</span> + Aorist",
+    "Imperfective",
+    "Perfective",
+    "only a noun"
    ],
    "correct": 1,
-   "explain": "<span class=\"tar\">aman</span> is always grammatically plural, even when you are talking about one glass of water. Just like Dutch 'shears' (always mv) or Arabic <em>miyaah</em>. <span class=\"tar\">řehrua</span> (herbs) also falls into this category."
+   "explain": "<span class=\"tar\">yebda yeṯxemmem</span> 'he began to think' — <span class=\"tar\">yeṯxemmem</span> is the Imperfective of 'think'. Same with <span class=\"tar\">qqim</span> 'continue with': always Imperfective."
   },
   {
    "type": "translate",
-   "q": "Translation: <span class=\"tar\">řbacua qa attas</span>",
-   "correct": "vijgen zijn er veel",
+   "q": "Translation: <span class=\"tar\">xseɣ ad ariɣ</span>",
+   "correct": "ik wil schrijven",
    "accept": [
-    "vijgen zijn er veel",
-    "er zijn veel vijgen"
+    "ik wil schrijven"
    ],
    "placeholder": "Nederlands",
-   "explain": "<span class=\"tar\">řbacua</span> = collective (figs as a species). <span class=\"tar\">qa attas</span> = 'there are many'. Collectively used as the subject of a general statement."
+   "explain": "<span class=\"tar\">xseɣ</span> = 1SG of <span class=\"tar\">xes</span> 'want'. <span class=\"tar\">ad ariɣ</span> = 1SG Aorist of <span class=\"tar\">ari</span> 'write' with future particle."
+  },
+  {
+   "type": "translate",
+   "q": "Translate: <span class=\"tar\">waa zemmaay ad sbaay</span>",
+   "correct": "ik kan niet meer wachten",
+   "accept": [
+    "ik kan niet meer wachten",
+    "ik kan niet wachten"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">zemmaa</span> 'can', negated: <span class=\"tar\">waa zemmaay ca</span>. <span class=\"tar\">sba</span> = wait. <span class=\"tar\">ad sbaay</span> = 'I will wait'. Together: 'I can't wait'."
+  },
+  {
+   "type": "mc",
+   "q": "Auxiliary verb for <strong>'can'</strong>:",
+   "options": [
+    "<span class=\"tar\">zemmaa</span>",
+    "<span class=\"tar\">yewwi</span>",
+    "<span class=\"tar\">smeyyer</span>",
+    "<span class=\"tar\">iwweḏ</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">zemmaa</span> + <span class=\"tar\">ad</span> + Aorist. Just like <span class=\"tar\">xes</span>: both take <span class=\"tar\">ad</span> + Aorist as complement."
+  },
+  {
+   "type": "mc",
+   "q": "How do you express 'he became a doctor'?",
+   "options": [
+    "<span class=\"tar\">ḏ adbib yeqqim</span>",
+    "<span class=\"tar\">qa yedweř ḏ adbib</span>",
+    "<span class=\"tar\">yexḏem ḏ adbib</span>",
+    "<span class=\"tar\">ad yegg ḏ adbib</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">dweř</span> = 'become' (change of state). <span class=\"tar\">ḏ</span> + noun express the new state. <span class=\"tar\">qa yedweř ḏ adbib</span> = 'he became a doctor'."
+  },
+  {
+   "type": "mc",
+   "q": "How do you say 'he knows that I will write'?",
+   "options": [
+    "<span class=\"tar\">yessen ḏ ariɣ</span>",
+    "<span class=\"tar\">yessen illa ad ariɣ</span>",
+    "<span class=\"tar\">yessen niɣ ad ariɣ</span>",
+    "<span class=\"tar\">yessen břa ad ariɣ</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">illa</span> introduces a 'that' clause after verbs such as 'know', 'say', 'see'. In negation: <span class=\"tar\">ma</span> instead of <span class=\"tar\">illa</span>."
   },
   {
    "type": "match",
-   "q": "Match usage with the correct form for '<span class=\"tar\">řbacua</span>' (figs):",
+   "q": "Link auxiliary verb to its complement:",
    "pairs": [
     {
-     "left": "'I like figs' (kind of general)",
-     "leftIsTar": false,
-     "right": "<span class=\"tar\">řbacua</span> (collective)"
+     "left": "<span class=\"tar\">xes</span> (willen)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">ad</span> + Aorist"
     },
     {
-     "left": "'I ate one fig'",
-     "leftIsTar": false,
-     "right": "<span class=\"tar\">ṯbacuaṯ</span> (countable ev)"
+     "left": "<span class=\"tar\">zemmaa</span> (kunnen)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">ad</span> + Aorist"
     },
     {
-     "left": "'four figs'",
-     "leftIsTar": false,
-     "right": "<span class=\"tar\">ṯibacuarin</span> (countable pl)"
+     "left": "<span class=\"tar\">bda</span> (beginnen)",
+     "leftIsTar": true,
+     "right": "Imperfective"
     },
     {
-     "left": "'water' (always plural)",
-     "leftIsTar": false,
-     "right": "<span class=\"tar\">aman</span> (plural tantum)"
+     "left": "<span class=\"tar\">qqim</span> (doorgaan)",
+     "leftIsTar": true,
+     "right": "Imperfective"
+    },
+    {
+     "left": "<span class=\"tar\">dweř</span> (worden)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">ḏ</span> + noun"
     }
    ],
-   "explain": "Three layers: collective (kind) → countable singular (one piece, V:SG) → countable plural (pieces, V:PL). A system that you also encounter in Arabic."
+   "explain": "Two groups: 'want/can' takes <span class=\"tar\">ad</span> + Aorist; 'begin/continue' takes Imperfective. <span class=\"tar\">dweř</span> is the exception."
+  }
+ ],
+ "les-30": [
+  {
+   "type": "mc",
+   "q": "How does an <strong>indefinite</strong> relative clause work in Tarifit?",
+   "options": [
+    "there is a separate 'that/that' as a connector",
+    "the subordinate clause sticks directly after the indefinite main word, with a pronoun that followed back",
+    "the verb takes on a participle form",
+    "there are no indefinite clauses"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">iwden ɣaa ijjen ṯaḏḏarṯ [ṯexřa]</span> 'they came to a house that was deserted'. The subordinate clause comes immediately after <span class=\"tar\">ṯaḏḏarṯ</span>, and <span class=\"tar\">ṯexřa</span> refers back to the house (anaphoric pronoun)."
+  },
+  {
+   "type": "mc",
+   "q": "What is a characteristic of the <strong>certain</strong> relative clause?",
+   "options": [
+    "there is a referring pronoun in the subordinate clause",
+    "the verb in the subordinate clause sometimes gets a participle form (<span class=\"tar\">y-STAM-en</span>), no referrer",
+    "it is always the same as the indefinite clause",
+    "there is no verb"
+   ],
+   "correct": 1,
+   "explain": "Determined: <span class=\"tar\">āryaz [d-yusin]</span> 'the man who came here'. <span class=\"tar\">yusin</span> is a participle-like form. No separate pronoun that refers back to 'the man'."
+  },
+  {
+   "type": "mc",
+   "q": "What does the participle form look like?",
+   "options": [
+    "just the bare verb",
+    "<span class=\"tar\">y-</span> prefix + STEM + <span class=\"tar\">-en</span> suffix",
+    "always the same as the Perfective",
+    "only the Imperfective"
+   ],
+   "correct": 1,
+   "explain": "Participle: <span class=\"tar\">y-</span> + stem + <span class=\"tar\">-en</span>. Not a personal conjugation — it's a noun-like verb form. <span class=\"tar\">wenni [ixeddmen řebda]</span> 'he who always works'."
+  },
+  {
+   "type": "mc",
+   "q": "What changes with <span class=\"tar\">ad</span> in a certain relative clause?",
+   "options": [
+    "it disappears completely",
+    "it changes to <span class=\"tar\">ɣa</span>",
+    "it becomes <span class=\"tar\">a</span>",
+    "nothing"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">āryaz-enni [d ɣa yasen]</span> 'the man who is to come'. In dependent clauses, <span class=\"tar\">ad</span> always becomes <span class=\"tar\">ɣa</span> (see also Lesson 10 — explanation §7.1). This also applies to interrogative questions and cleft sentences."
+  },
+  {
+   "type": "translate",
+   "q": "Translation: <span class=\"tar\">āryaz [d-yusin]</span>",
+   "correct": "de man die hier kwam",
+   "accept": [
+    "de man die hier kwam",
+    "de man die is gekomen"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">d-</span> = direction element 'this way'. <span class=\"tar\">yusin</span> = participle of 'come'. Together: 'the man who came here'."
+  },
+  {
+   "type": "mc",
+   "q": "You want to say \"the man I brought here.\" Which connector do you use?",
+   "options": [
+    "none — immediately after the noun",
+    "<span class=\"tar\">i</span> as relative marker (for DO clauses)",
+    "<span class=\"tar\">umi</span>",
+    "<span class=\"tar\">wi</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">āryaz [i d-iwyeɣ]</span> 'the man I brought here'. <span class=\"tar\">i</span> connects the main word to the subordinate clause if the main word is the direct object."
+  },
+  {
+   "type": "translate",
+   "q": "Translation: <span class=\"tar\">āryaz [umi ṯ-wciɣ]</span>",
+   "correct": "de man aan wie ik het gaf",
+   "accept": [
+    "de man aan wie ik het gaf",
+    "de man die ik het gaf"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">umi</span> = 'to whom' (indirect relation). <span class=\"tar\">ṯ-wciɣ</span> = 'I gave it' (clitic fronting). Together: 'the man I gave it to'."
+  },
+  {
+   "type": "match",
+   "q": "Link type of clause to its characteristic:",
+   "pairs": [
+    {
+     "left": "indefinite ('a man who...')",
+     "leftIsTar": false,
+     "right": "dependent clause after it + anaphoric pronoun"
+    },
+    {
+     "left": "certain subject ('the man who...')",
+     "leftIsTar": false,
+     "right": "participle (<span class=\"tar\">y-STAM-en</span>), no return pointer"
+    },
+    {
+     "left": "determined DO ('the man I saw')",
+     "leftIsTar": false,
+     "right": "marker <span class=\"tar\">i</span> + clitic fronting"
+    },
+    {
+     "left": "determined IO ('the man to whom...')",
+     "leftIsTar": false,
+     "right": "marker <span class=\"tar\">umi</span>"
+    }
+   ],
+   "explain": "Four patterns. The indefinite/definite distinction is the key principle — then the type of role (subject / DO / IO) chooses which feature the subordinate clause gets."
   }
  ],
  "les-31": [
   {
    "type": "mc",
-   "q": "Tarifit has three R letters. Which historically comes from a <strong>l</strong>?",
+   "q": "What is the <strong>structure</strong> of a cleft sentence?",
    "options": [
-    "<span class=\"tar\">r</span> (plain rolling r)",
-    "<span class=\"tar\">ř</span> (formerly l)",
-    "<span class=\"tar\">ṛ</span> (dark r)",
-    "none — l never existed"
+    "regular VSO phrase with rising intonation",
+    "<span class=\"tar\">ḏ</span> + emphasized element + <span class=\"tar\">i</span> + relative clause",
+    "question word + verb",
+    "verb + <span class=\"tar\">ca</span>"
    ],
    "correct": 1,
-   "explain": "In other Berber dialects it is still simply <em>l</em>. In Nador-Tarifit it has been changed to <span class=\"tar\">ř</span>. Hence <span class=\"tar\">uř</span> (heart) where other dialects have <span class=\"tar\">ul</span>."
+   "explain": "<span class=\"tar\">ḏ baba i d-yiwden</span> 'it is my father who has arrived'. Two parts: (1) <span class=\"tar\">ḏ baba</span> = the predicate, (2) <span class=\"tar\">i d-yiwden</span> = the relative clause with obligatory marker <span class=\"tar\">i</span>."
   },
   {
    "type": "mc",
-   "q": "What did double <span class=\"tar\">ll</span> change to Nador-Tarifit?",
+   "q": "What do you use a cleft sentence for?",
    "options": [
-    "<span class=\"tar\">rr</span>",
-    "<span class=\"tar\">ǧ</span>",
-    "<span class=\"tar\">ṯ</span>",
-    "disappeared completely"
+    "indicate past tense",
+    "for emphasis or contrast — 'it is precisely X that...'",
+    "ask a yes/no question",
+    "express a commandment"
    ],
    "correct": 1,
-   "explain": "<span class=\"tar\">yelli</span> (daughter in other dialects) → <span class=\"tar\">yeǧi</span>. <span class=\"tar\">ulli</span> (cattle) → <span class=\"tar\">uǧi</span>. The double <em>ll</em> is a softer variant than single <em>l</em>, and coincided with the <span class=\"tar\">ǧ</span> sound."
+   "explain": "Neutral message: <span class=\"tar\">yus-d baba</span> 'my father has come'. Emphasis: <span class=\"tar\">ḏ baba i d-yiwden</span> 'it is MY FATHER who has come' (not anyone else). Classic answer to 'who was that?'."
+  },
+  {
+   "type": "translate",
+   "q": "Translate: <span class=\"tar\">ḏ baba i d-yiwden</span>",
+   "correct": "het is mijn vader die is aangekomen",
+   "accept": [
+    "het is mijn vader die is aangekomen",
+    "mijn vader is het die gekomen is"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">ḏ</span> + <span class=\"tar\">baba</span> = the predicate. <span class=\"tar\">i</span> = relative marker. <span class=\"tar\">d-yiwden</span> = 'arrived here'. The cleft structure is similar to French <em>c'est mon père qui est arrivé</em>."
+  },
+  {
+   "type": "translate",
+   "q": "Translation: <span class=\"tar\">ḏ Mimun i ẓṛiɣ</span>",
+   "correct": "het is Mimoun die ik zag",
+   "accept": [
+    "het is Mimoun die ik zag",
+    "Mimoun is degene die ik zag"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "DO cleft: the direct object (<span class=\"tar\">Mimun</span>) is emphasized. After <span class=\"tar\">i</span> is the subordinate clause where Mimun is the DO — hence clitic fronting: <span class=\"tar\">ẓṛiɣ</span> is already there."
   },
   {
    "type": "mc",
-   "q": "What changed the combination <span class=\"tar\">lt</span>?",
+   "q": "What are the <strong>two differences</strong> between a cleft and a question word question?",
    "options": [
-    "<span class=\"tar\">rd</span>",
-    "<span class=\"tar\">tc</span>",
-    "<span class=\"tar\">kt</span>",
-    "stayed <span class=\"tar\">lt</span>"
+    "no difference",
+    "cleft uses <span class=\"tar\">ḏ</span> before and <span class=\"tar\">i</span> as connector; query uses neither <span class=\"tar\">ḏ</span> nor <span class=\"tar\">i</span>",
+    "query uses <span class=\"tar\">i</span>, cleft does not",
+    "cleft is always in the past"
    ],
    "correct": 1,
-   "explain": "<span class=\"tar\">taɣyult</span> (donkey in other dialects) → <span class=\"tar\">ṯaɣyutc</span>. The combination l+t assimilated to <span class=\"tar\">tc</span>. You also see this in the 'egg' example from the lesson: <span class=\"tar\">ṯameǧatc</span>."
+   "explain": "Cleft: <span class=\"tar\">ḏ netta i d-yusin</span>. Question: <span class=\"tar\">wi d-yusin?</span>. No <span class=\"tar\">ḏ</span>, no <span class=\"tar\">i</span> in the question. The participle structure of the dependent clause is identical."
   },
   {
    "type": "mc",
-   "q": "How do we write <span class=\"tar\">Naḍur</span> in the learntarifit alphabet (vocalized r)?",
+   "q": "How do you say <strong>'it is he who came here'</strong>?",
    "options": [
-    "<span class=\"tar\">Naḍuār</span>",
-    "<span class=\"tar\">Naḍur</span>",
-    "<span class=\"tar\">Naḍwār</span>",
-    "<span class=\"tar\">Naḍūr</span>"
+    "<span class=\"tar\">netta d-yusin</span>",
+    "<span class=\"tar\">ḏ netta i d-yusin</span>",
+    "<span class=\"tar\">wi d-yusin netta</span>",
+    "<span class=\"tar\">netta i d-yusin ḏ</span>"
    ],
-   "correct": 0,
-   "explain": "<span class=\"tar\">-ur</span> → notation <span class=\"tar\">-uār</span> (macron above a, r remains). Hence <span class=\"tar\">Naḍuār</span>. Sounds like 'Naadoer': the r has become vocal."
+   "correct": 1,
+   "explain": "<span class=\"tar\">ḏ</span> at the beginning, then the emphasized element (<span class=\"tar\">netta</span>), then <span class=\"tar\">i</span>, then the dependent clause. Fixed order."
   },
   {
    "type": "mc",
-   "q": "What happens to <span class=\"tar\">-ar</span> at the end of a word through vocalization?",
+   "q": "The <span class=\"tar\">ḏ</span> in cleft sentences is the<br> <span class=\"tar\">ḏ</span> for 'and' (between NPs)?",
    "options": [
-    "becomes <span class=\"tar\">-ir</span>",
-    "becomes <span class=\"tar\">-ār</span> (macron above a, r remains in spelling; sounds like long a)",
-    "becomes <span class=\"tar\">-ur</span>",
-    "nothing — remains <span class=\"tar\">-ar</span>"
+    "yes — exactly the same word",
+    "no — this is the predicate particle <span class=\"tar\">ḏ</span> ('it is')",
+    "it is a demand particle",
+    "it is a direction element"
    ],
    "correct": 1,
-   "explain": "Pattern: <span class=\"tar\">-ar</span> → spelling <span class=\"tar\">-ār</span>. <span class=\"tar\">aayaz</span> → <span class=\"tar\">āryaz</span> 'man'. The r remains in spelling but sounds like a long a."
-  },
-  {
-   "type": "mc",
-   "q": "What happens to <span class=\"tar\">-ir</span> through vocalization?",
-   "options": [
-    "becomes <span class=\"tar\">-aa</span>",
-    "becomes <span class=\"tar\">-yār</span> (notation; sounds like yaa)",
-    "becomes <span class=\"tar\">-uaa</span>",
-    "nothing"
-   ],
-   "correct": 1,
-   "explain": "Pattern: <span class=\"tar\">-ir</span> → spelling <span class=\"tar\">-yār</span>. <span class=\"tar\">irden</span> (wheat) → <span class=\"tar\">yārḏen</span>. Sounds like yaaḏen: the i + r becomes a long yaa."
-  },
-  {
-   "type": "mc",
-   "q": "When does <em>no</em> vocalization of the r occur?",
-   "options": [
-    "always — all r's become vowels",
-    "if the r is followed by a real vowel (a, i, u)",
-    "if the word has more than two syllables",
-    "only in loanwords"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">ru</span> 'cry' — r before u → regular r. <span class=\"tar\">ari</span> 'write' — r before i → regular r. Vocalization only occurs where the r is <em>not</em> immediately followed by a vowel."
+   "explain": "Tarifit has written several words as <span class=\"tar\">ḏ</span>. In cleft sentences it is the predicate particle 'it is, this is'. In '<span class=\"tar\">necc ḏ uma</span>' it is 'and'. They are always contextually distinct."
   },
   {
    "type": "match",
-   "q": "Link the parent language pattern to the Nador-Tarifit variant:",
+   "q": "Link sentence to type:",
    "pairs": [
     {
-     "left": "<span class=\"tar\">ul</span> (l)",
+     "left": "<span class=\"tar\">yus-d baba</span>",
      "leftIsTar": true,
-     "right": "<span class=\"tar\">uř</span>"
+     "right": "neutral message"
     },
     {
-     "left": "<span class=\"tar\">yelli</span> (ll)",
+     "left": "<span class=\"tar\">ḏ baba i d-yiwden</span>",
      "leftIsTar": true,
-     "right": "<span class=\"tar\">yeǧi</span>"
+     "right": "emphasis-cleft"
     },
     {
-     "left": "<span class=\"tar\">taɣyult</span> (lt)",
+     "left": "<span class=\"tar\">wi d-yusin?</span>",
      "leftIsTar": true,
-     "right": "<span class=\"tar\">ṯaɣyutc</span>"
+     "right": "questionword-question"
     },
     {
-     "left": "<span class=\"tar\">aayaz</span> (-ar vocalisatie)",
+     "left": "<span class=\"tar\">ḏ Mimun i ẓṛiɣ</span>",
      "leftIsTar": true,
-     "right": "<span class=\"tar\">āryaz</span>"
+     "right": "DO cleft"
     }
    ],
-   "explain": "Four sound laws in one lesson. Together they explain why many Tarifit words look different from related Berber languages ​​— but the structure is the same."
-  },
-  {
-   "type": "mc",
-   "q": "A speaker says <span class=\"tar\">ṯamɣārṯ</span>. Which written word belongs to this?",
-   "options": [
-    "<span class=\"tar\">ṯamɣārṯ</span>",
-    "<span class=\"tar\">ṯamɣārṯ</span>",
-    "<span class=\"tar\">ṯamɣāṯ</span>",
-    "<span class=\"tar\">ṯamɣart</span>"
-   ],
-   "correct": 0,
-   "explain": "Vocalization pattern: <span class=\"tar\">-ar</span> → spelling <span class=\"tar\">-ār</span>. So <span class=\"tar\">ṯamɣārṯ</span> 'woman'. The pronunciation sounds like <span class=\"tar\">ṯamɣārṯ</span>. Also on this site as <span class=\"tar\">ṯamɣārṯ</span>."
+   "explain": "The same participle clause (<span class=\"tar\">d-yusin</span>) appears in three constructions — but the wrapper determines whether it is a question, emphasis, or DO cleft."
   }
  ],
  "les-32": [
@@ -4382,345 +4596,7 @@
    "explain": "Three productive verb prefixes + the reflexive construction. Together they are the entire system of Tarifit verb derivation."
   }
  ],
- "les-34": [
-  {
-   "type": "mc",
-   "q": "How does an <strong>indefinite</strong> relative clause work in Tarifit?",
-   "options": [
-    "there is a separate 'that/that' as a connector",
-    "the subordinate clause sticks directly after the indefinite main word, with a pronoun that followed back",
-    "the verb takes on a participle form",
-    "there are no indefinite clauses"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">iwden ɣaa ijjen ṯaḏḏarṯ [ṯexřa]</span> 'they came to a house that was deserted'. The subordinate clause comes immediately after <span class=\"tar\">ṯaḏḏarṯ</span>, and <span class=\"tar\">ṯexřa</span> refers back to the house (anaphoric pronoun)."
-  },
-  {
-   "type": "mc",
-   "q": "What is a characteristic of the <strong>certain</strong> relative clause?",
-   "options": [
-    "there is a referring pronoun in the subordinate clause",
-    "the verb in the subordinate clause sometimes gets a participle form (<span class=\"tar\">y-STAM-en</span>), no referrer",
-    "it is always the same as the indefinite clause",
-    "there is no verb"
-   ],
-   "correct": 1,
-   "explain": "Determined: <span class=\"tar\">āryaz [d-yusin]</span> 'the man who came here'. <span class=\"tar\">yusin</span> is a participle-like form. No separate pronoun that refers back to 'the man'."
-  },
-  {
-   "type": "mc",
-   "q": "What does the participle form look like?",
-   "options": [
-    "just the bare verb",
-    "<span class=\"tar\">y-</span> prefix + STEM + <span class=\"tar\">-en</span> suffix",
-    "always the same as the Perfective",
-    "only the Imperfective"
-   ],
-   "correct": 1,
-   "explain": "Participle: <span class=\"tar\">y-</span> + stem + <span class=\"tar\">-en</span>. Not a personal conjugation — it's a noun-like verb form. <span class=\"tar\">wenni [ixeddmen řebda]</span> 'he who always works'."
-  },
-  {
-   "type": "mc",
-   "q": "What changes with <span class=\"tar\">ad</span> in a certain relative clause?",
-   "options": [
-    "it disappears completely",
-    "it changes to <span class=\"tar\">ɣa</span>",
-    "it becomes <span class=\"tar\">a</span>",
-    "nothing"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">āryaz-enni [d ɣa yasen]</span> 'the man who is to come'. In dependent clauses, <span class=\"tar\">ad</span> always becomes <span class=\"tar\">ɣa</span> (see also Lesson 10 — explanation §7.1). This also applies to interrogative questions and cleft sentences."
-  },
-  {
-   "type": "translate",
-   "q": "Translation: <span class=\"tar\">āryaz [d-yusin]</span>",
-   "correct": "de man die hier kwam",
-   "accept": [
-    "de man die hier kwam",
-    "de man die is gekomen"
-   ],
-   "placeholder": "Nederlands",
-   "explain": "<span class=\"tar\">d-</span> = direction element 'this way'. <span class=\"tar\">yusin</span> = participle of 'come'. Together: 'the man who came here'."
-  },
-  {
-   "type": "mc",
-   "q": "You want to say \"the man I brought here.\" Which connector do you use?",
-   "options": [
-    "none — immediately after the noun",
-    "<span class=\"tar\">i</span> as relative marker (for DO clauses)",
-    "<span class=\"tar\">umi</span>",
-    "<span class=\"tar\">wi</span>"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">āryaz [i d-iwyeɣ]</span> 'the man I brought here'. <span class=\"tar\">i</span> connects the main word to the subordinate clause if the main word is the direct object."
-  },
-  {
-   "type": "translate",
-   "q": "Translation: <span class=\"tar\">āryaz [umi ṯ-wciɣ]</span>",
-   "correct": "de man aan wie ik het gaf",
-   "accept": [
-    "de man aan wie ik het gaf",
-    "de man die ik het gaf"
-   ],
-   "placeholder": "Nederlands",
-   "explain": "<span class=\"tar\">umi</span> = 'to whom' (indirect relation). <span class=\"tar\">ṯ-wciɣ</span> = 'I gave it' (clitic fronting). Together: 'the man I gave it to'."
-  },
-  {
-   "type": "match",
-   "q": "Link type of clause to its characteristic:",
-   "pairs": [
-    {
-     "left": "indefinite ('a man who...')",
-     "leftIsTar": false,
-     "right": "dependent clause after it + anaphoric pronoun"
-    },
-    {
-     "left": "certain subject ('the man who...')",
-     "leftIsTar": false,
-     "right": "participle (<span class=\"tar\">y-STAM-en</span>), no return pointer"
-    },
-    {
-     "left": "determined DO ('the man I saw')",
-     "leftIsTar": false,
-     "right": "marker <span class=\"tar\">i</span> + clitic fronting"
-    },
-    {
-     "left": "determined IO ('the man to whom...')",
-     "leftIsTar": false,
-     "right": "marker <span class=\"tar\">umi</span>"
-    }
-   ],
-   "explain": "Four patterns. The indefinite/definite distinction is the key principle — then the type of role (subject / DO / IO) chooses which feature the subordinate clause gets."
-  }
- ],
- "les-35": [
-  {
-   "type": "mc",
-   "q": "What is the <strong>structure</strong> of a cleft sentence?",
-   "options": [
-    "regular VSO phrase with rising intonation",
-    "<span class=\"tar\">ḏ</span> + emphasized element + <span class=\"tar\">i</span> + relative clause",
-    "question word + verb",
-    "verb + <span class=\"tar\">ca</span>"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">ḏ baba i d-yiwden</span> 'it is my father who has arrived'. Two parts: (1) <span class=\"tar\">ḏ baba</span> = the predicate, (2) <span class=\"tar\">i d-yiwden</span> = the relative clause with obligatory marker <span class=\"tar\">i</span>."
-  },
-  {
-   "type": "mc",
-   "q": "What do you use a cleft sentence for?",
-   "options": [
-    "indicate past tense",
-    "for emphasis or contrast — 'it is precisely X that...'",
-    "ask a yes/no question",
-    "express a commandment"
-   ],
-   "correct": 1,
-   "explain": "Neutral message: <span class=\"tar\">yus-d baba</span> 'my father has come'. Emphasis: <span class=\"tar\">ḏ baba i d-yiwden</span> 'it is MY FATHER who has come' (not anyone else). Classic answer to 'who was that?'."
-  },
-  {
-   "type": "translate",
-   "q": "Translate: <span class=\"tar\">ḏ baba i d-yiwden</span>",
-   "correct": "het is mijn vader die is aangekomen",
-   "accept": [
-    "het is mijn vader die is aangekomen",
-    "mijn vader is het die gekomen is"
-   ],
-   "placeholder": "Nederlands",
-   "explain": "<span class=\"tar\">ḏ</span> + <span class=\"tar\">baba</span> = the predicate. <span class=\"tar\">i</span> = relative marker. <span class=\"tar\">d-yiwden</span> = 'arrived here'. The cleft structure is similar to French <em>c'est mon père qui est arrivé</em>."
-  },
-  {
-   "type": "translate",
-   "q": "Translation: <span class=\"tar\">ḏ Mimun i ẓṛiɣ</span>",
-   "correct": "het is Mimoun die ik zag",
-   "accept": [
-    "het is Mimoun die ik zag",
-    "Mimoun is degene die ik zag"
-   ],
-   "placeholder": "Nederlands",
-   "explain": "DO cleft: the direct object (<span class=\"tar\">Mimun</span>) is emphasized. After <span class=\"tar\">i</span> is the subordinate clause where Mimun is the DO — hence clitic fronting: <span class=\"tar\">ẓṛiɣ</span> is already there."
-  },
-  {
-   "type": "mc",
-   "q": "What are the <strong>two differences</strong> between a cleft and a question word question?",
-   "options": [
-    "no difference",
-    "cleft uses <span class=\"tar\">ḏ</span> before and <span class=\"tar\">i</span> as connector; query uses neither <span class=\"tar\">ḏ</span> nor <span class=\"tar\">i</span>",
-    "query uses <span class=\"tar\">i</span>, cleft does not",
-    "cleft is always in the past"
-   ],
-   "correct": 1,
-   "explain": "Cleft: <span class=\"tar\">ḏ netta i d-yusin</span>. Question: <span class=\"tar\">wi d-yusin?</span>. No <span class=\"tar\">ḏ</span>, no <span class=\"tar\">i</span> in the question. The participle structure of the dependent clause is identical."
-  },
-  {
-   "type": "mc",
-   "q": "How do you say <strong>'it is he who came here'</strong>?",
-   "options": [
-    "<span class=\"tar\">netta d-yusin</span>",
-    "<span class=\"tar\">ḏ netta i d-yusin</span>",
-    "<span class=\"tar\">wi d-yusin netta</span>",
-    "<span class=\"tar\">netta i d-yusin ḏ</span>"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">ḏ</span> at the beginning, then the emphasized element (<span class=\"tar\">netta</span>), then <span class=\"tar\">i</span>, then the dependent clause. Fixed order."
-  },
-  {
-   "type": "mc",
-   "q": "The <span class=\"tar\">ḏ</span> in cleft sentences is the<br> <span class=\"tar\">ḏ</span> for 'and' (between NPs)?",
-   "options": [
-    "yes — exactly the same word",
-    "no — this is the predicate particle <span class=\"tar\">ḏ</span> ('it is')",
-    "it is a demand particle",
-    "it is a direction element"
-   ],
-   "correct": 1,
-   "explain": "Tarifit has written several words as <span class=\"tar\">ḏ</span>. In cleft sentences it is the predicate particle 'it is, this is'. In '<span class=\"tar\">necc ḏ uma</span>' it is 'and'. They are always contextually distinct."
-  },
-  {
-   "type": "match",
-   "q": "Link sentence to type:",
-   "pairs": [
-    {
-     "left": "<span class=\"tar\">yus-d baba</span>",
-     "leftIsTar": true,
-     "right": "neutral message"
-    },
-    {
-     "left": "<span class=\"tar\">ḏ baba i d-yiwden</span>",
-     "leftIsTar": true,
-     "right": "emphasis-cleft"
-    },
-    {
-     "left": "<span class=\"tar\">wi d-yusin?</span>",
-     "leftIsTar": true,
-     "right": "questionword-question"
-    },
-    {
-     "left": "<span class=\"tar\">ḏ Mimun i ẓṛiɣ</span>",
-     "leftIsTar": true,
-     "right": "DO cleft"
-    }
-   ],
-   "explain": "The same participle clause (<span class=\"tar\">d-yusin</span>) appears in three constructions — but the wrapper determines whether it is a question, emphasis, or DO cleft."
-  }
- ],
  "les-36": [
-  {
-   "type": "translate",
-   "q": "Translation: <span class=\"tar\">Ḥenna ṯuɣa ṯessen ijjen wattas n ṯḥuja</span>",
-   "correct": "mijn grootmoeder kende veel verhalen",
-   "accept": [
-    "mijn grootmoeder kende veel verhalen",
-    "mijn oma kende veel verhalen"
-   ],
-   "placeholder": "Nederlands",
-   "explain": "<span class=\"tar\">Ḥenna</span> = my grandmother (family word). <span class=\"tar\">ṯuɣa</span> = past particle. <span class=\"tar\">ṯessen</span> = she knows/knows. <span class=\"tar\">ijjen wattas</span> = a lot. <span class=\"tar\">n ṯḥuja</span> = of stories."
-  },
-  {
-   "type": "mc",
-   "q": "What function does <span class=\"tar\">i</span> have in <span class=\"tar\">mamec i ɛeqřeɣ</span>?",
-   "options": [
-    "it is the conjunction 'and'",
-    "it is the relative marker — 'how I remember'",
-    "it is the preposition 'on'",
-    "it is a demand particle"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">mamec i ɛeqřeɣ</span> = 'how I remember'. <span class=\"tar\">mamec</span> is the question word 'how', and <span class=\"tar\">i</span> is the relative marker that introduces the clause. A pattern from Lesson 32."
-  },
-  {
-   "type": "mc",
-   "q": "Why is <span class=\"tar\">ɣa</span> in <span class=\"tar\">i ɣa raḥeɣ</span> instead of <span class=\"tar\">ad</span>?",
-   "options": [
-    "it's a typo",
-    "in dependent clauses, <span class=\"tar\">ad</span> always becomes <span class=\"tar\">ɣa</span>",
-    "it is an Arabic loanword",
-    "it is the Imperfective"
-   ],
-   "correct": 1,
-   "explain": "Fixed rule (Lesson 10 and 32): in relative clauses, interrogative questions and cleft sentences, <span class=\"tar\">ad</span> automatically becomes <span class=\"tar\">ɣa</span>. Likewise <span class=\"tar\">min ɣa negg?</span> 'what shall we do?'."
-  },
-  {
-   "type": "translate",
-   "q": "Translate the dialogue sentence: <span class=\"tar\">A ɛli-inu, ma ṯettsed niɣ ɛad waa ṯettised ca?</span>",
-   "correct": "mijn Ali, ben je al aan het slapen of nog niet?",
-   "accept": [
-    "mijn Ali ben je al aan het slapen of nog niet?",
-    "Ali, slaap je al of nog niet?"
-   ],
-   "placeholder": "Nederlands",
-   "explain": "<span class=\"tar\">A ɛli-inu</span> = invocation. <span class=\"tar\">ma</span> = demand particle. <span class=\"tar\">ṯettsed</span> = Imperfective 2SG of sleeping. <span class=\"tar\">niɣ</span> = or. <span class=\"tar\">ɛad waa...ca</span> = 'not yet'."
-  },
-  {
-   "type": "mc",
-   "q": "The text says <span class=\"tar\">degg\" xxam</span> — what is this?",
-   "options": [
-    "a proper name",
-    "a contraction of <span class=\"tar\">ḏi</span> + <span class=\"tar\">wexxam</span> = 'in the room'",
-    "a verb",
-    "a number word"
-   ],
-   "correct": 1,
-   "explain": "<span class=\"tar\">ḏi</span> 'in' + <span class=\"tar\">wexxam</span> (related state of <span class=\"tar\">axxam</span> 'room') merged into speaking quickly. An example of phonetic assimilation in real spoken language."
-  },
-  {
-   "type": "mc",
-   "q": "How does the boy say 'I'm not sleeping yet'?",
-   "options": [
-    "<span class=\"tar\">necc ɛad waa ttiseɣ ca</span>",
-    "<span class=\"tar\">necc waa ttiseɣ ca</span>",
-    "<span class=\"tar\">necc ɛad ttiseɣ</span>",
-    "<span class=\"tar\">necc ɛad waa ttiseɣ</span>"
-   ],
-   "correct": 0,
-   "explain": "<span class=\"tar\">necc</span> = i. <span class=\"tar\">ɛad</span> = yet. <span class=\"tar\">waa...ca</span> = denial. <span class=\"tar\">ttiseɣ</span> = Negative Imperfective 1SG of sleeping."
-  },
-  {
-   "type": "mc",
-   "q": "In <span class=\"tar\">wattas n yewdan</span> — which state does <span class=\"tar\">yewdan</span> have?",
-   "options": [
-    "free state",
-    "connected state — it comes after the preposition <span class=\"tar\">n</span>",
-    "plural of an adjective",
-    "it's a verb"
-   ],
-   "correct": 1,
-   "explain": "After <span class=\"tar\">n</span> 'van' always comes connected state (Lesson 15). <span class=\"tar\">yewdan</span> is the connected state of 'people'. Free state would be <span class=\"tar\">iwdan</span>."
-  },
-  {
-   "type": "match",
-   "q": "Link text element to its grammatical role:",
-   "pairs": [
-    {
-     "left": "<span class=\"tar\">ṯuɣa</span>",
-     "leftIsTar": true,
-     "right": "past particle"
-    },
-    {
-     "left": "<span class=\"tar\">xminni</span>",
-     "leftIsTar": true,
-     "right": "conjunction 'when'"
-    },
-    {
-     "left": "<span class=\"tar\">waa … ca</span>",
-     "leftIsTar": true,
-     "right": "denial"
-    },
-    {
-     "left": "<span class=\"tar\">jaa</span>",
-     "leftIsTar": true,
-     "right": "preposition 'between'"
-    },
-    {
-     "left": "<span class=\"tar\">i</span> in bijzin",
-     "leftIsTar": true,
-     "right": "relative marker"
-    }
-   ],
-   "explain": "A real text combines everything at once. Recognize the blocks: particle + conjunction + negation + preposition + dependent clause marker."
-  }
- ],
- "les-37": [
   {
    "type": "translate",
    "q": "Translation: <span class=\"tar\">adef-d</span>",
@@ -4848,7 +4724,121 @@
    "explain": "You have completed all 36 lessons. With these sentences you can already function in everyday Riffian conversations. Next step: use them."
   }
  ],
- "les-38": [
+ "les-37": [
+  {
+   "type": "translate",
+   "q": "Translation: <span class=\"tar\">Ḥenna ṯuɣa ṯessen ijjen wattas n ṯḥuja</span>",
+   "correct": "mijn grootmoeder kende veel verhalen",
+   "accept": [
+    "mijn grootmoeder kende veel verhalen",
+    "mijn oma kende veel verhalen"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">Ḥenna</span> = my grandmother (family word). <span class=\"tar\">ṯuɣa</span> = past particle. <span class=\"tar\">ṯessen</span> = she knows/knows. <span class=\"tar\">ijjen wattas</span> = a lot. <span class=\"tar\">n ṯḥuja</span> = of stories."
+  },
+  {
+   "type": "mc",
+   "q": "What function does <span class=\"tar\">i</span> have in <span class=\"tar\">mamec i ɛeqřeɣ</span>?",
+   "options": [
+    "it is the conjunction 'and'",
+    "it is the relative marker — 'how I remember'",
+    "it is the preposition 'on'",
+    "it is a demand particle"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">mamec i ɛeqřeɣ</span> = 'how I remember'. <span class=\"tar\">mamec</span> is the question word 'how', and <span class=\"tar\">i</span> is the relative marker that introduces the clause. A pattern from Lesson 32."
+  },
+  {
+   "type": "mc",
+   "q": "Why is <span class=\"tar\">ɣa</span> in <span class=\"tar\">i ɣa raḥeɣ</span> instead of <span class=\"tar\">ad</span>?",
+   "options": [
+    "it's a typo",
+    "in dependent clauses, <span class=\"tar\">ad</span> always becomes <span class=\"tar\">ɣa</span>",
+    "it is an Arabic loanword",
+    "it is the Imperfective"
+   ],
+   "correct": 1,
+   "explain": "Fixed rule (Lesson 10 and 32): in relative clauses, interrogative questions and cleft sentences, <span class=\"tar\">ad</span> automatically becomes <span class=\"tar\">ɣa</span>. Likewise <span class=\"tar\">min ɣa negg?</span> 'what shall we do?'."
+  },
+  {
+   "type": "translate",
+   "q": "Translate the dialogue sentence: <span class=\"tar\">A ɛli-inu, ma ṯettsed niɣ ɛad waa ṯettised ca?</span>",
+   "correct": "mijn Ali, ben je al aan het slapen of nog niet?",
+   "accept": [
+    "mijn Ali ben je al aan het slapen of nog niet?",
+    "Ali, slaap je al of nog niet?"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">A ɛli-inu</span> = invocation. <span class=\"tar\">ma</span> = demand particle. <span class=\"tar\">ṯettsed</span> = Imperfective 2SG of sleeping. <span class=\"tar\">niɣ</span> = or. <span class=\"tar\">ɛad waa...ca</span> = 'not yet'."
+  },
+  {
+   "type": "mc",
+   "q": "The text says <span class=\"tar\">degg\" xxam</span> — what is this?",
+   "options": [
+    "a proper name",
+    "a contraction of <span class=\"tar\">ḏi</span> + <span class=\"tar\">wexxam</span> = 'in the room'",
+    "a verb",
+    "a number word"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ḏi</span> 'in' + <span class=\"tar\">wexxam</span> (related state of <span class=\"tar\">axxam</span> 'room') merged into speaking quickly. An example of phonetic assimilation in real spoken language."
+  },
+  {
+   "type": "mc",
+   "q": "How does the boy say 'I'm not sleeping yet'?",
+   "options": [
+    "<span class=\"tar\">necc ɛad waa ttiseɣ ca</span>",
+    "<span class=\"tar\">necc waa ttiseɣ ca</span>",
+    "<span class=\"tar\">necc ɛad ttiseɣ</span>",
+    "<span class=\"tar\">necc ɛad waa ttiseɣ</span>"
+   ],
+   "correct": 0,
+   "explain": "<span class=\"tar\">necc</span> = i. <span class=\"tar\">ɛad</span> = yet. <span class=\"tar\">waa...ca</span> = denial. <span class=\"tar\">ttiseɣ</span> = Negative Imperfective 1SG of sleeping."
+  },
+  {
+   "type": "mc",
+   "q": "In <span class=\"tar\">wattas n yewdan</span> — which state does <span class=\"tar\">yewdan</span> have?",
+   "options": [
+    "free state",
+    "connected state — it comes after the preposition <span class=\"tar\">n</span>",
+    "plural of an adjective",
+    "it's a verb"
+   ],
+   "correct": 1,
+   "explain": "After <span class=\"tar\">n</span> 'van' always comes connected state (Lesson 15). <span class=\"tar\">yewdan</span> is the connected state of 'people'. Free state would be <span class=\"tar\">iwdan</span>."
+  },
+  {
+   "type": "match",
+   "q": "Link text element to its grammatical role:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">ṯuɣa</span>",
+     "leftIsTar": true,
+     "right": "past particle"
+    },
+    {
+     "left": "<span class=\"tar\">xminni</span>",
+     "leftIsTar": true,
+     "right": "conjunction 'when'"
+    },
+    {
+     "left": "<span class=\"tar\">waa … ca</span>",
+     "leftIsTar": true,
+     "right": "denial"
+    },
+    {
+     "left": "<span class=\"tar\">jaa</span>",
+     "leftIsTar": true,
+     "right": "preposition 'between'"
+    },
+    {
+     "left": "<span class=\"tar\">i</span> in bijzin",
+     "leftIsTar": true,
+     "right": "relative marker"
+    }
+   ],
+   "explain": "A real text combines everything at once. Recognize the blocks: particle + conjunction + negation + preposition + dependent clause marker."
+  },
   {
    "type": "mc",
    "q": "What word traditionally opens a Tarifit fairy tale?",

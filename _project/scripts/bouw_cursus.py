@@ -472,7 +472,7 @@ def render_sidebar(lessen_per_blok: dict[str, list[Manifest]], kaarten: list[Man
         delen.append('<div class="sidebar-section">')
         delen.append(f'<div class="sidebar-section-label">{labels["kaarten"]}</div>')
         for k in kaarten:
-            delen.append(f'<a href="#{k.slug}"><span class="num">📖</span> {k.titel}</a>')
+            delen.append(f'<a href="kaarten.html#{k.slug}"><span class="num">📖</span> {k.titel}</a>')
         delen.append("</div>")
     delen.append('<div class="sidebar-section">')
     delen.append(f'<div class="sidebar-section-label">{labels["naslagwerk"]}</div>')
@@ -679,6 +679,32 @@ def bouw_taal(
     controleer_html(f"{labels['dir']}/lezen.html", lezen_html)
     (taal_dir / "lezen.html").write_text(lezen_html, encoding="utf-8")
     print(f"geschreven: {labels['dir']}/lezen.html ({len(tekst_rows)} zin(nen))")
+
+    # Kaarten: naslagkaarten (alfabet, getallen, glossen) op één pagina. Ze horen bij geen
+    # blok en hebben geen doel/oefeningen — alleen tekst en eventueel een zinnenblok.
+    if kaarten:
+        kaart_secties = []
+        for k in kaarten:
+            groepen = resolve_zinnen_grouped(k, context_index, id_index)
+            rijen = [r for _s, _w, rows in groepen for r in rows]
+            placeholders = {
+                "{{zinnen}}": render_zinnenblok(k, groepen, taal) if groepen else "",
+                "{{kernwoorden}}": "",
+                "{{oefeningen}}": "",
+            }
+            delen = ['<section class="lesson">', f'<h2 id="{k.slug}">{k.titel}</h2>']
+            pagina = boekpagina(rijen, prefix=labels["boek_prefix"])
+            if pagina:
+                delen.append(f'<p class="source">{pagina}</p>')
+            delen.append(render_body(les_body_voor_taal(k, taal, labels), placeholders))
+            delen.append("</section>")
+            kaart_secties.append("\n".join(delen))
+        inhoud = f'<div class="eyebrow">{labels["kaarten"]}</div>\n<h1>{labels["kaarten"]}</h1>\n\n'
+        inhoud += "\n\n<!-- ============================================ -->\n\n".join(kaart_secties)
+        kaart_html = render_pagina(sjabloon_pad, f'{labels["kaarten"]} · Tarifit', sidebar_html, inhoud)
+        controleer_html(f"{labels['dir']}/kaarten.html", kaart_html)
+        (taal_dir / "kaarten.html").write_text(kaart_html, encoding="utf-8")
+        print(f"geschreven: {labels['dir']}/kaarten.html ({len(kaarten)} kaart(en))")
 
     # §9 F8 — cutover: nl/cursus.html + en/course.html worden het gegenereerde overzicht.
     overzicht_inhoud = render_overzicht(lessen_per_blok, kaarten, context_index, id_index, taal, labels)
