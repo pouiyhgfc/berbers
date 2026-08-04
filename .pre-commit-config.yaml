@@ -15,4 +15,4 @@ repos:
         entry: make check
         language: system
         pass_filenames: false
-        files: '^(assets/woordenlijst/woordenlijst\.csv|nl/.*\.html|en/.*\.html|_ai/.*\.md|_project/scripts/.*\.py|Makefile)$'
+        files: '^(assets/woordenlijst/woordenlijst\.csv|assets/zinnen/zinnen\.csv|nl/.*\.html|en/.*\.html|_ai/.*\.md|_project/scripts/.*\.py|bron/.*|Makefile)$'

@@ -37,6 +37,37 @@ zijn; alleen de uitleg-taal verschilt. `make parity` bewaakt dit. **Status:** ge
 *waarschuwen* — er is nog één bekend verschil (`uyi` staat alleen in `en/grammar.html`). Zet
 `PARITY_MODE = "strict"` in `_project/scripts/check_parity.py` zodra de paren gelijk zijn.
 
+## Bronmodel cursus
+
+De 38-lessen cursus (`nl/blok-*.html`, `en/blok-*.html`, `nl/lezen.html`, `en/lezen.html`,
+`nl/cursus.html`, `en/course.html`) is **volledig gegenereerd**. Bewerk nooit een `blok-N.html`,
+`lezen.html` of `cursus.html`/`course.html` met de hand — draai `make cursus` opnieuw.
+
+| Inhoud | Canonieke bron | Genereert via |
+|---|---|---|
+| Lesmanifests (38) | `bron/lessen/*.md` | `_project/scripts/bouw_cursus.py` |
+| Kaarten (3) | `bron/kaarten/*.md` | idem |
+| EN-lestekst (optioneel, per les) | `bron/lessen/en/{id}.md` | idem — ontbreekt dit bestand, dan toont de EN-pagina de NL-body met een "vertaling volgt"-banner |
+| Selectie-defaults | `bron/selecties/*.txt`, `bron/besluiten/*.txt` | idem |
+| Sjablonen (head/footer/scripts) | `bron/sjablonen/pagina-{nl,en}.html` | hand-onderhouden bron, geen kopie meer |
+| §-ankers in `nl/uitleg.html`/`en/grammar.html` | idempotent toegevoegd | `_project/scripts/gen_ankers.py` |
+| `zinnen.csv` kolom `les` | afgeleid uit de claims in `bron/lessen/` | `bouw_cursus.py` (schrijft **alleen** die kolom terug) |
+
+Validators: `check_bronnen.py` (manifests, ankers, Tarifit-in-proza), `check_register.py`
+(canonieke spelling, waarschuwmodus zolang `bron/register-spelling.csv` ontbreekt),
+`check_dekking.py` (dekkingsrapport → `_project/dekking.md`). Makefile: `make cursus` (ankers +
+bouw), `make check-cursus` (cursus + alle drie validators), zit in `make check`.
+
+**Oude ankerlinks** (`cursus.html#les-NN` met de nummering van vóór de herstructurering, o.a.
+vanuit `nl/oefeningen.html`/`en/exercises.html`) worden client-side omgeleid: een inline script
+op `nl/cursus.html`/`en/course.html` (`OUD_NAAR_NIEUW`-tabel in `bouw_cursus.py`) herkent het
+oude hash-fragment en stuurt door naar `blok-N.html#les-NN` (nieuwe nummering). Dit **moet**
+client-side — een `#hash` wordt nooit naar de server verstuurd, dus `vercel.json` kan zo'n
+redirect niet uitdrukken. De oude `nl/cursus.html`/`en/course.html` staan gearchiveerd in
+`_project/archief/cursus-oud-{nl,en}.html`.
+
+Details en het volledige bouwplan: `plan/BOUWPLAN-CURSUS-UITVOERING.md`.
+
 ## Werkwijze
 1. Bewerk de canonieke bron.
 2. `make build` (regenereert `_ai/`). Op een systeem zonder `python3`-binary: `make build PYTHON=python`.

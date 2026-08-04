@@ -944,6 +944,7 @@ em, i { font-style: italic; }
   font-weight: 500;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
+  overflow-wrap: break-word;
 }
 
 /* ============================================
@@ -1634,4 +1635,181 @@ button,
 .wl-filter-btn,
 .wl-export-btn {
   touch-action: manipulation;
+}
+
+/* ============================================
+   Cursus (bouwplan §6/§8) — zinnenblokken, kernwoorden, dun/concept-badges,
+   sidebar-voortgang. Gebruikt uitsluitend bestaande custom properties.
+   ============================================ */
+
+/* §4.8 — zinnenblok: standaardtabel per geclaimde sectie. De tabel zit in een eigen
+   scroll-wrapper (i.p.v. .content als geheel) zodat alleen de tabel horizontaal scrolt op
+   smalle schermen — de rest van de pagina blijft op zijn plek (fase F7-DoD: geen
+   paginabrede horizontale scroll op 390px). */
+.tabelwrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 24px 0;
+}
+.tabelwrapper .zinnen-tabel { margin: 0; min-width: 420px; }
+.zinnen-tabel td { overflow-wrap: break-word; }
+.zinnenblok h3 { margin-top: 32px; }
+.zinnenblok h3:first-child { margin-top: 0; }
+
+/* Dialoog (les 36): om-en-om, sprekersregels, geen tabel. */
+.dialoog { margin: 24px 0; }
+.dialoog-regel {
+  max-width: 80%;
+  margin: 0 0 14px;
+  padding: 10px 16px;
+  border-radius: 3px;
+  background: var(--sand);
+  border: 1px solid var(--rule);
+}
+.dialoog-regel.spreker-b { margin-left: auto; background: var(--paper); }
+.dialoog-regel p { margin: 0; }
+.dialoog-regel p.nl { color: var(--ink-mute); font-size: 14px; margin-top: 2px; }
+
+/* Sprookje (les 37): regel-voor-regel. Izran (les 38): couplet, met scheiding op
+   paginawissel. Allebei dezelfde eenvoudige tar/nl-paragraafopbouw als leesregels. */
+.leesregels p.tar,
+.couplet p.tar { margin: 0 0 2px; }
+.leesregels p.nl,
+.couplet p.nl { margin: 0 0 14px; color: var(--ink-mute); font-size: 15px; }
+.couplet-scheiding { height: 1px; background: var(--rule); margin: 24px 0; }
+
+/* §4.3 — kernwoorden */
+.kernwoorden { margin: 32px 0; }
+.kernwoorden-lijst {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+}
+.kernwoorden-lijst li { margin: 0; font-size: 15px; }
+.cefr-badge {
+  display: inline-block;
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: .04em;
+  color: var(--ink-mute);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  padding: 0 4px;
+}
+
+/* ::: verdieping — inklapbaar extra blok */
+details.verdieping {
+  margin: 28px 0;
+  padding: 16px 20px;
+  background: var(--sand);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+}
+details.verdieping summary {
+  cursor: pointer;
+  font-family: var(--f-display);
+  font-style: italic;
+  color: var(--rif-red);
+}
+details.verdieping[open] summary { margin-bottom: 14px; }
+
+/* Status-badges (dun/concept) — in de eyebrow én in de sidebar. */
+.badge {
+  display: inline-block;
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  padding: 1px 6px;
+  border-radius: 2px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.badge-dun { color: var(--ink-mute); border: 1px solid var(--rule-strong); }
+.badge-concept { color: var(--rif-red); border: 1px solid var(--rif-red); }
+.sidebar a .badge { font-size: 9px; padding: 0 4px; }
+
+/* Voortgangsbolletje per les in de sidebar (cursus-ui.js). */
+.sidebar-progress-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-left: 6px;
+  vertical-align: middle;
+  background: var(--rule-strong);
+}
+.sidebar-progress-dot.is-partial { background: var(--clay); }
+.sidebar-progress-dot.is-done { background: var(--rif-red); }
+.sidebar-progress-dot.is-perfect { background: #4a7c2a; }
+
+/* aria-current is functioneel gelijk aan .active (cursus-ui.js zet ze samen) — geen
+   losse visuele regel nodig, maar screenreaders/keyboard-nav lezen het attribuut. */
+.sidebar a[aria-current="true"] { color: var(--rif-red); }
+
+/* Vertaling-ontbreekt-banner (EN-pagina's zonder bron/lessen/en/NN.md). */
+.vertaling-banner {
+  margin: 0 0 20px;
+  padding: 10px 14px;
+  font-size: 14px;
+  color: var(--ink-mute);
+  background: var(--paper);
+  border: 1px dashed var(--rule-strong);
+  border-radius: 2px;
+}
+
+@media (max-width: 720px) {
+  .tabelwrapper .zinnen-tabel { min-width: 340px; }
+  .dialoog-regel { max-width: 92%; }
+}
+
+/* Overzichtspagina (nl/cursus.html, en/course.html — fase F8-cutover). */
+.overzicht-voortgang:empty { display: none; }
+.overzicht-voortgang { margin: 0 0 40px; }
+.overzicht-voortgang-balk {
+  height: 6px;
+  border-radius: 3px;
+  background: var(--sand-deep);
+  overflow: hidden;
+}
+.overzicht-voortgang-balk-fill { height: 100%; background: var(--rif-red); }
+.overzicht-voortgang-label {
+  margin-top: 8px;
+  font-family: var(--f-mono);
+  font-size: 12px;
+  color: var(--ink-mute);
+  letter-spacing: .04em;
+}
+.overzicht-blok { margin: 0 0 48px; }
+.overzicht-blok h2 {
+  font-family: var(--f-display);
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0 0 14px;
+}
+.overzicht-lessen {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 4px;
+}
+.overzicht-lessen li { margin: 0; }
+.overzicht-les-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 2px;
+  color: var(--ink);
+  text-decoration: none;
+}
+.overzicht-les-link:hover { background: var(--sand); }
+.overzicht-les-link .num {
+  font-family: var(--f-mono);
+  font-size: 12px;
+  color: var(--ink-mute);
+  width: 22px;
 }

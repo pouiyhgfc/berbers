@@ -1,7 +1,9 @@
 /* ============================================
    Tarifit Cursus — oefening-engine
    Vanilla JS, geen frameworks. Voortgang in localStorage.
-   Vraagtypes: mc | fill | translate | match
+   Vraagtypes: mc | fill | translate | match | ordenen | kies-in-tabel
+   (kies-in-tabel is qua weergave identiek aan mc — alleen de herkomst van de
+   options verschilt, dat is een auteursregel, geen renderverschil.)
    ============================================ */
 
 (function () {
@@ -31,6 +33,7 @@
       type_translate: 'Vertalen',
       type_match: 'Koppelen',
       type_fill: 'Invullen',
+      type_ordenen: 'Ordenen',
       result_perfect: 'Alles goed!',
       result_good: 'Goed gedaan!',
       result_ok: 'Blijf oefenen!',
@@ -56,6 +59,7 @@
       type_translate: 'Translate',
       type_match: 'Match',
       type_fill: 'Fill in',
+      type_ordenen: 'Reorder',
       result_perfect: 'Perfect!',
       result_good: 'Well done!',
       result_ok: 'Keep practicing!',
@@ -82,6 +86,10 @@
     } catch (e) {
       /* localStorage kan vol of geblokkeerd zijn — stille fallback */
     }
+    // cursus-ui.js luistert hierop om de voortgang-bolletjes in de sidebar te verversen.
+    try {
+      window.dispatchEvent(new CustomEvent('tarifit-progress-updated'));
+    } catch (e) { /* CustomEvent kan ontbreken in zeer oude browsers — negeren */ }
   }
 
   function clearLessonProgress(lessonId) {
@@ -297,6 +305,105 @@
     return a;
   }
 
+  /**
+   * Deterministische shuffle op basis van een tekst-seed (zin_id) — §8: "toont de
+   * woorden geschud (seed = zin_id, dus stabiel)". Simpele string-hash -> mulberry32 PRNG,
+   * geen crypto nodig, alleen stabiliteit tussen page-loads.
+   */
+  function seededShuffle(arr, seed) {
+    let h = 1779033703 ^ String(seed).length;
+    for (let i = 0; i < String(seed).length; i++) {
+      h = Math.imul(h ^ String(seed).charCodeAt(i), 3432918353);
+      h = (h << 13) | (h >>> 19);
+    }
+    let state = h >>> 0;
+    function rand() {
+      state |= 0; state = (state + 0x6D2B79F5) | 0;
+      let t = Math.imul(state ^ (state >>> 15), 1 | state);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    }
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(rand() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  /**
+   * "ordenen" — §8: gebruiker tikt de geschudde woorden in de juiste (bron-)volgorde aan.
+   * De bronzin zelf staat nooit in exercises-nl.json (R1/R2) — alleen zin_id; de tekst komt
+   * uit window.tarifitZinnenReady (les-zinnen.js, dezelfde CSV-fetch als het "Uit het
+   * boek"-blok).
+   */
+  function renderOrdenen(article, ex, onResult, zinnenIndex) {
+    const bronzin = zinnenIndex ? zinnenIndex[ex.zin_id] : null;
+    if (!bronzin) {
+      const warn = pickElement('div', 'exercise-error', 'Kan bronzin niet laden.');
+      article.appendChild(warn);
+      onResult(false, null);
+      return;
+    }
+
+    const woorden = bronzin.tarifit.split(/\s+/).filter(Boolean);
+    const geschud = seededShuffle(woorden, ex.zin_id);
+
+    const wrap = pickElement('div', 'exercise-ordenen');
+    const answerRow = pickElement('div', 'exercise-ordenen-answer');
+    answerRow.setAttribute('aria-label', t('answer_label'));
+    const poolRow = pickElement('div', 'exercise-ordenen-pool');
+
+    const gekozen = []; // indices in geschud, in kliekvolgorde
+
+    function maakWoordKnop(woord, idx, inPool) {
+      const btn = pickElement('button', 'exercise-ordenen-woord tar', woord);
+      btn.type = 'button';
+      btn.dataset.idx = String(idx);
+      btn.addEventListener('click', () => {
+        if (inPool) {
+          gekozen.push(idx);
+        } else {
+          const pos = gekozen.indexOf(idx);
+          if (pos !== -1) gekozen.splice(pos, 1);
+        }
+        herteken();
+      });
+      return btn;
+    }
+
+    function herteken() {
+      poolRow.innerHTML = '';
+      answerRow.innerHTML = '';
+      geschud.forEach((woord, idx) => {
+        if (gekozen.includes(idx)) return;
+        poolRow.appendChild(maakWoordKnop(woord, idx, true));
+      });
+      gekozen.forEach(idx => {
+        answerRow.appendChild(maakWoordKnop(geschud[idx], idx, false));
+      });
+      submit.disabled = gekozen.length !== woorden.length;
+    }
+
+    const submit = pickElement('button', 'exercise-submit', t('check'));
+    submit.type = 'button';
+    submit.disabled = true;
+    submit.addEventListener('click', () => {
+      const volgorde = gekozen.map(idx => geschud[idx]).join(' ');
+      const isCorrect = volgorde === woorden.join(' ');
+      poolRow.querySelectorAll('button').forEach(b => b.disabled = true);
+      answerRow.querySelectorAll('button').forEach(b => b.disabled = true);
+      submit.disabled = true;
+      onResult(isCorrect, woorden.join(' '));
+    });
+
+    herteken();
+    wrap.appendChild(answerRow);
+    wrap.appendChild(poolRow);
+    wrap.appendChild(submit);
+    article.appendChild(wrap);
+  }
+
   // ----------------------------------------
   // Voltooiingscherm
   // ----------------------------------------
@@ -341,7 +448,7 @@
   // Hoofdlogica per oefening-blok
   // ----------------------------------------
 
-  function buildExercise(ex, idx, lessonId, onProgress) {
+  function buildExercise(ex, idx, lessonId, onProgress, zinnenIndex) {
     const article = pickElement('article', 'exercise');
     article.dataset.idx = String(idx);
 
@@ -352,7 +459,9 @@
       mc: t('type_mc'),
       translate: t('type_translate'),
       match: t('type_match'),
-      fill: t('type_fill')
+      fill: t('type_fill'),
+      ordenen: t('type_ordenen'),
+      'kies-in-tabel': t('type_mc')
     };
     const badge = pickElement('span', 'exercise-type-badge', typeLabels[ex.type] || ex.type);
     numRow.appendChild(num);
@@ -388,9 +497,10 @@
       onProgress(idx, isCorrect);
     }
 
-    if (ex.type === 'mc') renderMc(article, ex, onResult);
+    if (ex.type === 'mc' || ex.type === 'kies-in-tabel') renderMc(article, ex, onResult);
     else if (ex.type === 'fill' || ex.type === 'translate') renderInput(article, ex, onResult);
     else if (ex.type === 'match') renderMatch(article, ex, onResult);
+    else if (ex.type === 'ordenen') renderOrdenen(article, ex, onResult, zinnenIndex);
 
     article.appendChild(feedback);
     return article;
@@ -404,8 +514,8 @@
       .replace(/"/g, '&quot;');
   }
 
-  function setupBlock(block, exercises) {
-    const lessonId = block.dataset.lesson;
+  function setupBlock(block, exercises, zinnenIndex) {
+    const lessonId = block.dataset.lesson || block.dataset.les;
     if (!Array.isArray(exercises) || !exercises.length) return;
 
     // Header
@@ -440,7 +550,7 @@
       const article = buildExercise(ex, idx, lessonId, (i, ok) => {
         results[i] = ok;
         updateProgress();
-      });
+      }, zinnenIndex);
       block.appendChild(article);
     });
 
@@ -454,7 +564,7 @@
       clearLessonProgress(lessonId);
       // Reset zonder pagina-reload — wis en herbouw het blok
       block.innerHTML = '';
-      setupBlock(block, exercises);
+      setupBlock(block, exercises, zinnenIndex);
     });
     actions.appendChild(summary);
     actions.appendChild(reset);
@@ -462,11 +572,19 @@
   }
 
   async function init() {
-    const blocks = document.querySelectorAll('.exercises[data-lesson]');
+    // .exercises[data-lesson] = bestaande oefeningen.html; .oefeningen[data-les] = de
+    // gegenereerde nl/blok-N.html-pagina's (bouw_cursus.py, §6 stap 4). Zelfde engine, twee
+    // markup-conventies naast elkaar — oefeningen.html blijft ongewijzigd werken.
+    const blocks = document.querySelectorAll('.exercises[data-lesson], .oefeningen[data-les]');
     if (!blocks.length) return;
 
     const lang = isEng ? 'en' : 'nl';
     const jsonUrl = '/assets/oefeningen/exercises-' + lang + '.json';
+
+    // Alleen nodig voor het type "ordenen"; window.tarifitZinnenReady komt van
+    // les-zinnen.js (moet vóór dit script geladen zijn). Ontbreekt het (pagina zonder dat
+    // script), dan blijft zinnenIndex leeg en toont renderOrdenen een nette foutmelding.
+    const zinnenIndexPromise = window.tarifitZinnenReady || Promise.resolve({});
 
     let allExercises = null;
     try {
@@ -475,17 +593,20 @@
       allExercises = await res.json();
     } catch (_) {
       // Fallback: lees inline JSON als externe fetch mislukt (legacy/offline)
+      const zinnenIndex = await zinnenIndexPromise;
       blocks.forEach(block => {
         const dataScript = block.querySelector('script[type="application/json"]');
         if (!dataScript) return;
-        try { setupBlock(block, JSON.parse(dataScript.textContent)); } catch (_) {}
+        try { setupBlock(block, JSON.parse(dataScript.textContent), zinnenIndex); } catch (_) {}
       });
       return;
     }
 
+    const zinnenIndex = await zinnenIndexPromise;
     blocks.forEach(block => {
-      const exercises = allExercises[block.dataset.lesson];
-      if (exercises) setupBlock(block, exercises);
+      const lessonId = block.dataset.lesson || block.dataset.les;
+      const exercises = allExercises[lessonId];
+      if (exercises) setupBlock(block, exercises, zinnenIndex);
     });
   }
 

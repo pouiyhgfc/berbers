@@ -3,9 +3,13 @@ Fase 3, Stap 3.5 — NL/EN-pariteitscheck.
 
 De Tarifit-tekst in de NL- en EN-bronpagina's hoort identiek te zijn; alleen de uitleg-taal
 verschilt. Deze check vergelijkt de Tarifit-tokenverzamelingen:
-    nl/cursus.html  ↔  en/course.html
-    nl/uitleg.html  ↔  en/grammar.html
+    nl/blok-1..8.html  ↔  en/blok-1..8.html
+    nl/uitleg.html     ↔  en/grammar.html
 en meldt per paar de verschillen.
+
+Sinds fase F8 (cutover) zijn nl/cursus.html en en/course.html het gegenereerde overzicht
+(géén Tarifit meer) — de lesinhoud zelf staat in de acht blokpagina's, dus die vergelijkt
+deze check nu in plaats van het oude cursus↔course-paar.
 
 Kalibratie (plan): draai deze check één keer op de huidige bestanden. Zijn er nu al bewuste
 verschillen, zet de check dan eerst op *waarschuwen*; maak hem hard zodra NL/EN gelijk zijn.
@@ -39,7 +43,9 @@ _CSV_FETCH_RE = re.compile(r"fetchTarifitCSV\(\s*['\"]([^'\"]+)['\"]")
 PARITY_MODE = "warn"
 
 PAIRS = [
-    ("cursus ↔ course", ROOT / "nl/cursus.html", ROOT / "en/course.html"),
+    (f"blok-{n} ↔ blok-{n}", ROOT / f"nl/blok-{n}.html", ROOT / f"en/blok-{n}.html")
+    for n in range(1, 9)
+] + [
     ("uitleg ↔ grammar", ROOT / "nl/uitleg.html", ROOT / "en/grammar.html"),
 ]
 

@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>{{TITEL}}</title>
+  <link rel="stylesheet" href="/styles.css?v=7">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="index.html" class="brand" aria-label="Tarifit — naar home">
+        <span class="brand-mark var-diamond" aria-hidden="true">
+          <span class="lozenge"><span class="yaz">ⵣ</span></span>
+        </span>
+        <span class="brand-mark var-wordmark" aria-hidden="true">
+          <span class="yaz-large">ⵣ</span>
+        </span>
+        <span class="brand-mark var-tile" aria-hidden="true">
+          <span class="tile"></span>
+        </span>
+        <span class="brand-word">Tarif<span class="accent">it</span></span>
+      </a>
+      <nav class="topnav" aria-label="Hoofdmenu">
+        <a href="cursus.html" class="active">Cursus</a>
+        <a href="oefeningen.html">Oefeningen</a>
+        <a href="uitleg.html">Uitleg</a>
+        <a href="woordenlijst.html">Woordenlijst</a>
+        <a href="zinnen.html">Zinnen</a>
+        <a href="woord-inzenden.html" class="nav-quiet">Woord voorstellen</a>
+        <a href="boek.html">Het boek</a>
+      
+        <span class="lang-switch" role="group" aria-label="Language">
+          <a href="/nl/cursus.html" class="active" hreflang="nl">NL</a>
+          <span class="lang-sep" aria-hidden="true">/</span>
+          <a href="/en/course.html" hreflang="en">EN</a>
+        </span>
+      </nav>
+    </div>
+  </header>
+
+  <div class="app">
+    <aside class="sidebar" id="sidebar">
+      <button class="sidebar-toggle" id="sidebar-toggle" aria-expanded="false" aria-controls="sidebar-nav">
+        <span class="sidebar-toggle-label">Naar les springen</span>
+        <span class="sidebar-toggle-arrow" aria-hidden="true">▾</span>
+      </button>
+      <div class="sidebar-nav" id="sidebar-nav">
+{{SIDEBAR}}
+      </div><!-- /.sidebar-nav -->
+    </aside>
+
+    <main class="content">
+{{INHOUD}}
+    </main>
+  </div>
+
+  <footer>
+    <p>Gebaseerd op Mourigh &amp; Kossmann (2019). Schrijfwijze volgens learntarifit.</p>
+      <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-light);">
+      Vragen of opmerkingen? <a href="#" onclick="window.location.href = 'mai' + 'lto:' + 'Idriesti' + '@' + 'outlook.com'; return false;" style="color: inherit; text-decoration: underline;">Idriesti@outlook.com</a>
+    </p>
+  </footer>
+
+  <script>
+    // Preserve scroll position when switching languages
+    document.querySelectorAll('.lang-switch a').forEach(function(a) {
+      a.addEventListener('click', function(e) {
+        if (window.location.hash) {
+          e.preventDefault();
+          window.location.href = a.getAttribute('href') + window.location.hash;
+        }
+      });
+    });
+  </script>
+  <script src="/assets/js/tarifit-search.js"></script>
+  <script src="/assets/js/les-zinnen.js"></script>
+  <script src="/assets/cursus/cursus.js?v=8"></script>
+  <script src="/assets/js/cursus-ui.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

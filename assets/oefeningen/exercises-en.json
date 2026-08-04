@@ -1805,6 +1805,125 @@
    ],
    "correct": 2,
    "explain": "In addition to the main rule, there are stem shifts, infix <span class=\"tar\">-aw-</span> and suppletive plurals. No prediction rule works 100% — hence: pairwise learning."
+  },
+  {
+   "type": "fill",
+   "q": "Question word for <strong>'who'</strong>:",
+   "correct": "wi",
+   "accept": [
+    "wi"
+   ],
+   "placeholder": "tarifit",
+   "explain": "<span class=\"tar\">wi yewṯa uḥenjia-nni?</span> 'Who hit the boy?' The question word comes first — the verb normally follows afterwards."
+  },
+  {
+   "type": "fill",
+   "q": "Question word for <strong>'when'</strong>:",
+   "correct": "meřmi",
+   "accept": [
+    "meřmi"
+   ],
+   "placeholder": "tarifit",
+   "explain": "<span class=\"tar\">meřmi ṯṯettsed?</span> 'When do you sleep?' Note the <span class=\"tar\">ř</span> — not a regular <em>r</em>."
+  },
+  {
+   "type": "translate",
+   "q": "Translation: <span class=\"tar\">mayemmi</span>",
+   "correct": "waarom",
+   "accept": [
+    "waarom"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">mayemmi ṯeṯrud?</span> 'Why are you crying?' <span class=\"tar\">mayemmi</span> = literally something like 'what causes?'."
+  },
+  {
+   "type": "translate",
+   "q": "Translation: <span class=\"tar\">mamec</span>",
+   "correct": "hoe",
+   "accept": [
+    "hoe"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">mamec yegga manay-a?</span> 'How did he do that?' <span class=\"tar\">mamec</span> asks about the way."
+  },
+  {
+   "type": "mc",
+   "q": "Which particle opens a formal <strong>yes/no question</strong>?",
+   "options": [
+    "<span class=\"tar\">illa</span>",
+    "<span class=\"tar\">mon</span>",
+    "<span class=\"tar\">ad</span>",
+    "<span class=\"tar\">min</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ma ḏ cekk?</span> 'Is it you?' — <span class=\"tar\">ma</span> at the beginning makes it an explicit question. You can also just increase the intonation, just like in Dutch."
+  },
+  {
+   "type": "mc",
+   "q": "What is the difference between <span class=\"tar\">mani</span> and <span class=\"tar\">manis</span>?",
+   "options": [
+    "none — synonyms",
+    "<span class=\"tar\">mani</span> = true; <span class=\"tar\">manis</span> = where from",
+    "<span class=\"tar\">mani</span> is formal, <span class=\"tar\">manis</span> informal",
+    "<span class=\"tar\">mani</span> asks about people, <span class=\"tar\">manis</span> about places"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">mani ṯṯiřid?</span> 'Where do you live?' versus <span class=\"tar\">manis ɣa ṯaḏfeḏ?</span> 'What are you going into?' (which side / from which direction)."
+  },
+  {
+   "type": "fill",
+   "q": "How do you ask 'how much'</strong>?",
+   "correct": "mecḥař",
+   "accept": [
+    "mecḥař",
+    "mechař"
+   ],
+   "placeholder": "tarifit",
+   "explain": "<span class=\"tar\">mecḥař iwezzen?</span> 'How much does it weigh?' Comes from Arabic <em>shḥal</em>."
+  },
+  {
+   "type": "translate",
+   "q": "Translate: <span class=\"tar\">zi meřmi?</span>",
+   "correct": "sinds wanneer?",
+   "accept": [
+    "sinds wanneer?",
+    "since when?",
+    "vanaf wanneer?"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "Preposition <span class=\"tar\">zi</span> 'from/from' + question word <span class=\"tar\">meřmi</span> 'when' = 'from when / since when'. Prepositions combine freely with question words."
+  },
+  {
+   "type": "match",
+   "q": "Link question word to meaning:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">wi</span>",
+     "leftIsTar": true,
+     "right": "Who"
+    },
+    {
+     "left": "<span class=\"tar\">min</span>",
+     "leftIsTar": true,
+     "right": "what"
+    },
+    {
+     "left": "<span class=\"tar\">mani</span>",
+     "leftIsTar": true,
+     "right": "Where"
+    },
+    {
+     "left": "<span class=\"tar\">mecḥař</span>",
+     "leftIsTar": true,
+     "right": "how many"
+    },
+    {
+     "left": "<span class=\"tar\">mamec</span>",
+     "leftIsTar": true,
+     "right": "how"
+    }
+   ],
+   "explain": "Eight question words in total in the lesson. The five here are the most frequent. <span class=\"tar\">meřmi</span> (when) and <span class=\"tar\">mayemmi</span> (why) are extra."
   }
  ],
  "les-14": [
@@ -2343,6 +2462,125 @@
     }
    ],
    "explain": "VSO is the basic rule, but Tarifit is more flexible than you think: clitics, topicalization and question constructions can adjust the order."
+  },
+  {
+   "type": "mc",
+   "q": "What does <span class=\"tar\">mm-</span> (or its variants) primarily express?",
+   "options": [
+    "a passive — 'X is done'",
+    "a reciprocal or middle meaning — 'Xing each other'",
+    "a causative — 'Have X done'",
+    "a future"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">neɣ</span> 'kill' → <span class=\"tar\">mneɣ</span> 'fight' (= kill each other). <span class=\"tar\">řaɣa</span> 'call' → <span class=\"tar\">mřaɣa</span> 'call each other'. It is <em>not</em> the same as reflexive ('itself') — that goes via <span class=\"tar\">ixef-nnes</span>."
+  },
+  {
+   "type": "translate",
+   "q": "Translation: <span class=\"tar\">mřaɣa</span>",
+   "correct": "elkaar roepen",
+   "accept": [
+    "elkaar roepen",
+    "roepen naar elkaar"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">řaɣa</span> 'call' + reflexive prefix <span class=\"tar\">mř-</span> = <span class=\"tar\">mřaɣa</span>. The variant <span class=\"tar\">mř-</span> appears for stems with an initial <span class=\"tar\">a</span>."
+  },
+  {
+   "type": "mc",
+   "q": "What is the difference between <span class=\"tar\">mm-</span> (reciprocal) and <span class=\"tar\">ixef-nnes</span>?",
+   "options": [
+    "no difference",
+    "<span class=\"tar\">mm-</span> = 'each other'; <span class=\"tar\">ixef-nnes</span> = 'himself'",
+    "<span class=\"tar\">mm-</span> is past; <span class=\"tar\">ixef-nnes</span> is the future",
+    "<span class=\"tar\">mm-</span> is formal; <span class=\"tar\">ixef-nnes</span> is informal"
+   ],
+   "correct": 1,
+   "explain": "Pitfall for Dutch speakers: <span class=\"tar\">mm-</span> is neither reflexive nor identical to 'itself'. <span class=\"tar\">yewṯa ixef-nnes</span> = 'he hit himself'. <span class=\"tar\">mneɣ</span> = 'they kill each other'."
+  },
+  {
+   "type": "mc",
+   "q": "What does <span class=\"tar\">twa-</span> do on a verb?",
+   "options": [
+    "makes it reciprocal",
+    "makes it causative",
+    "makes a real passive — 'X is done'",
+    "makes it future"
+   ],
+   "correct": 2,
+   "explain": "<span class=\"tar\">zzu</span> 'to plant' → <span class=\"tar\">twazzu</span> 'to be planted'. <span class=\"tar\">cc</span> 'to eat' → <span class=\"tar\">twacc</span> 'to be eaten'. Difference with <span class=\"tar\">mm-</span>: <span class=\"tar\">twa-</span> is always passive without an actor."
+  },
+  {
+   "type": "mc",
+   "q": "What are the <strong>two limitations</strong> of <span class=\"tar\">twa-</span>?",
+   "options": [
+    "no restrictions",
+    "you cannot name the actor, and there is no imperfective form",
+    "only useful in the past",
+    "only with transitive verbs"
+   ],
+   "correct": 1,
+   "explain": "Important: <span class=\"tar\">twacc</span> = 'it was eaten', but you CANNOT say 'it was eaten by John'. Furthermore, <span class=\"tar\">twa-</span> has no Imperfective — only Perfective."
+  },
+  {
+   "type": "translate",
+   "q": "Translation: <span class=\"tar\">temmenz ṯṯumubin-nni</span>",
+   "correct": "die auto is verkocht",
+   "accept": [
+    "die auto is verkocht",
+    "die auto werd verkocht"
+   ],
+   "placeholder": "Nederlands",
+   "explain": "<span class=\"tar\">menz</span> 'to sell', <span class=\"tar\">mm-</span> variant → <span class=\"tar\">temmenz</span> 'to be sold' (Perfect). <span class=\"tar\">ṯṯumubin-nni</span> = 'that car' (<span class=\"tar\">-nni</span> = aforementioned)."
+  },
+  {
+   "type": "mc",
+   "q": "What does it mean when <span class=\"tar\">tetmenza ṯṯumubin-nni</span> is in the <strong>Imperfective</strong>?",
+   "options": [
+    "same meaning as the Perfective",
+    "“that car is sellable” — possibility, not outcome",
+    "'that car is always sold'",
+    "it can't be — <span class=\"tar\">twa-</span> has no Imperfective"
+   ],
+   "correct": 1,
+   "explain": "This is a subtle point from the explanation: with <span class=\"tar\">mm-</span> verbs (not with <span class=\"tar\">twa-</span>) the Imperfective form sometimes has a 'can become X' meaning. <span class=\"tar\">tetmenza</span> = 'she is salable'."
+  },
+  {
+   "type": "fill",
+   "q": "Combine prefixes: passive from <span class=\"tar\">ssizzeř</span> 'let run' — what is the result?",
+   "correct": "twasizzeř",
+   "accept": [
+    "twasizzeř"
+   ],
+   "placeholder": "tarifit",
+   "explain": "<span class=\"tar\">twa-</span> + <span class=\"tar\">sizzeř</span> = <span class=\"tar\">twasizzeř</span> 'to be made to run'. Prefixes can be stacked: causative → then passive over it."
+  },
+  {
+   "type": "match",
+   "q": "Link prefix to function:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">ss-</span>",
+     "leftIsTar": true,
+     "right": "causative ('let X')"
+    },
+    {
+     "left": "<span class=\"tar\">mm-</span> / <span class=\"tar\">m-</span>",
+     "leftIsTar": true,
+     "right": "reciprocal ('Xing each other')"
+    },
+    {
+     "left": "<span class=\"tar\">twa-</span>",
+     "leftIsTar": true,
+     "right": "passive ('X is done')"
+    },
+    {
+     "left": "<span class=\"tar\">ixef-nnes</span>",
+     "leftIsTar": false,
+     "right": "reflexive ('Xing oneself')"
+    }
+   ],
+   "explain": "Three productive verb prefixes + the reflexive construction. Together they are the entire system of Tarifit verb derivation."
   }
  ],
  "les-18": [
@@ -3274,6 +3512,129 @@
     }
    ],
    "explain": "Five basic conjunctions. Combine them with tense markers (<span class=\"tar\">umi, xmi, awaṛn umi</span>) to build complex sentences."
+  },
+  {
+   "type": "mc",
+   "q": "Tarifit has three R letters. Which historically comes from a <strong>l</strong>?",
+   "options": [
+    "<span class=\"tar\">r</span> (plain rolling r)",
+    "<span class=\"tar\">ř</span> (formerly l)",
+    "<span class=\"tar\">ṛ</span> (dark r)",
+    "none — l never existed"
+   ],
+   "correct": 1,
+   "explain": "In other Berber dialects it is still simply <em>l</em>. In Nador-Tarifit it has been changed to <span class=\"tar\">ř</span>. Hence <span class=\"tar\">uř</span> (heart) where other dialects have <span class=\"tar\">ul</span>."
+  },
+  {
+   "type": "mc",
+   "q": "What did double <span class=\"tar\">ll</span> change to Nador-Tarifit?",
+   "options": [
+    "<span class=\"tar\">rr</span>",
+    "<span class=\"tar\">ǧ</span>",
+    "<span class=\"tar\">ṯ</span>",
+    "disappeared completely"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">yelli</span> (daughter in other dialects) → <span class=\"tar\">yeǧi</span>. <span class=\"tar\">ulli</span> (cattle) → <span class=\"tar\">uǧi</span>. The double <em>ll</em> is a softer variant than single <em>l</em>, and coincided with the <span class=\"tar\">ǧ</span> sound."
+  },
+  {
+   "type": "mc",
+   "q": "What changed the combination <span class=\"tar\">lt</span>?",
+   "options": [
+    "<span class=\"tar\">rd</span>",
+    "<span class=\"tar\">tc</span>",
+    "<span class=\"tar\">kt</span>",
+    "stayed <span class=\"tar\">lt</span>"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">taɣyult</span> (donkey in other dialects) → <span class=\"tar\">ṯaɣyutc</span>. The combination l+t assimilated to <span class=\"tar\">tc</span>. You also see this in the 'egg' example from the lesson: <span class=\"tar\">ṯameǧatc</span>."
+  },
+  {
+   "type": "fill",
+   "q": "How do we write <span class=\"tar\">Naḍur</span> in the learntarifit alphabet (vocalized r)?",
+   "correct": "Naḍuār",
+   "accept": [
+    "Naḍuār",
+    "naḍuār"
+   ],
+   "placeholder": "tarifit",
+   "explain": "<span class=\"tar\">-ur</span> → notation <span class=\"tar\">-uār</span> (macron above a, r remains). Hence <span class=\"tar\">Naḍuār</span>. Sounds like 'Naadoer': the r has become vocal."
+  },
+  {
+   "type": "mc",
+   "q": "What happens to <span class=\"tar\">-ar</span> at the end of a word through vocalization?",
+   "options": [
+    "becomes <span class=\"tar\">-ir</span>",
+    "becomes <span class=\"tar\">-ār</span> (macron above a, r remains in spelling; sounds like long a)",
+    "becomes <span class=\"tar\">-ur</span>",
+    "nothing — remains <span class=\"tar\">-ar</span>"
+   ],
+   "correct": 1,
+   "explain": "Pattern: <span class=\"tar\">-ar</span> → spelling <span class=\"tar\">-ār</span>. <span class=\"tar\">aayaz</span> → <span class=\"tar\">āryaz</span> 'man'. The r remains in spelling but sounds like a long a."
+  },
+  {
+   "type": "mc",
+   "q": "What happens to <span class=\"tar\">-ir</span> through vocalization?",
+   "options": [
+    "becomes <span class=\"tar\">-aa</span>",
+    "becomes <span class=\"tar\">-yār</span> (notation; sounds like yaa)",
+    "becomes <span class=\"tar\">-uaa</span>",
+    "nothing"
+   ],
+   "correct": 1,
+   "explain": "Pattern: <span class=\"tar\">-ir</span> → spelling <span class=\"tar\">-yār</span>. <span class=\"tar\">irden</span> (wheat) → <span class=\"tar\">yārḏen</span>. Sounds like yaaḏen: the i + r becomes a long yaa."
+  },
+  {
+   "type": "mc",
+   "q": "When does <em>no</em> vocalization of the r occur?",
+   "options": [
+    "always — all r's become vowels",
+    "if the r is followed by a real vowel (a, i, u)",
+    "if the word has more than two syllables",
+    "only in loanwords"
+   ],
+   "correct": 1,
+   "explain": "<span class=\"tar\">ru</span> 'cry' — r before u → regular r. <span class=\"tar\">ari</span> 'write' — r before i → regular r. Vocalization only occurs where the r is <em>not</em> immediately followed by a vowel."
+  },
+  {
+   "type": "match",
+   "q": "Link the parent language pattern to the Nador-Tarifit variant:",
+   "pairs": [
+    {
+     "left": "<span class=\"tar\">ul</span> (l)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">uř</span>"
+    },
+    {
+     "left": "<span class=\"tar\">yelli</span> (ll)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">yeǧi</span>"
+    },
+    {
+     "left": "<span class=\"tar\">taɣyult</span> (lt)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">ṯaɣyutc</span>"
+    },
+    {
+     "left": "<span class=\"tar\">aayaz</span> (-ar vocalisatie)",
+     "leftIsTar": true,
+     "right": "<span class=\"tar\">āryaz</span>"
+    }
+   ],
+   "explain": "Four sound laws in one lesson. Together they explain why many Tarifit words look different from related Berber languages ​​— but the structure is the same."
+  },
+  {
+   "type": "translate",
+   "q": "A speaker says <span class=\"tar\">ṯamɣārṯ</span>. Which written word belongs to this?",
+   "correct": "ṯamɣārṯ",
+   "accept": [
+    "ṯamɣārṯ",
+    "tamɣārt",
+    "ṯamɣart",
+    "tamɣart"
+   ],
+   "placeholder": "schrijfvorm",
+   "explain": "Vocalization pattern: <span class=\"tar\">-ar</span> → spelling <span class=\"tar\">-ār</span>. So <span class=\"tar\">ṯamɣārṯ</span> 'woman'. The pronunciation sounds like <span class=\"tar\">ṯamɣārṯ</span>. Also on this site as <span class=\"tar\">ṯamɣārṯ</span>."
   }
  ],
  "les-27": [

@@ -7,10 +7,17 @@
 // Lessen zonder zinnen krijgen niets. Faalt de fetch, dan verschijnt er stil niets — de
 // cursus mag nooit breken op de zinnenbank. Gebruikt parseCSV/normalize/escapeHtml/
 // fetchTarifitCSV uit tarifit-search.js (moet vóór dit bestand geladen zijn).
+//
+// Exporteert ook window.tarifitZinnenReady — een Promise die resolvet naar een
+// zin-id -> {tarifit, nl} index van dezelfde CSV-fetch. cursus.js (oefening-engine, type
+// "ordenen") gebruikt die om de bronzin bij een zin_id op te halen zonder een tweede fetch
+// en zonder de zin zelf in exercises-nl.json te hoeven zetten (§8 van het cursusbouwplan).
 // ==============================================================
 
 (function () {
   var MAX_PER_LES = 5;
+  var resolveZinnenReady;
+  window.tarifitZinnenReady = new Promise(function (resolve) { resolveZinnenReady = resolve; });
   var LANG = document.documentElement.lang === 'en' ? 'en' : 'nl';
   var LABELS = LANG === 'en'
     ? { heading: 'From the book', more: 'more on the sentences page', fallback: 'NL' }
@@ -61,6 +68,19 @@
     return byLes;
   }
 
+  function buildIdIndex(rows) {
+    // kolommen: 0 tarifit · 1 nl · 2 en · 7 tags (bevat "id:pNNN-NN")
+    var byId = {};
+    rows.slice(1).forEach(function (r) {
+      var tarifit = (r[0] || '').trim();
+      var tags = (r[7] || '').trim();
+      var id = extractTag(tags, 'id');
+      if (!tarifit || !id) return;
+      byId[id] = { tarifit: tarifit, nl: (r[1] || '').trim(), en: (r[2] || '').trim() };
+    });
+    return byId;
+  }
+
   // Inline styles i.p.v. een CSS-wijziging in styles.css of cursus.html — gebruikt de
   // bestaande globale custom properties, geen nieuwe klassen nodig in het stylesheet.
   var STYLE = {
@@ -107,8 +127,9 @@
         div.innerHTML = renderBlock(entries, section.id);
         section.appendChild(div.firstChild);
       });
+      resolveZinnenReady(buildIdIndex(rows));
     },
-    onFileProtocol: function () {},
-    onOtherError: function () {},
+    onFileProtocol: function () { resolveZinnenReady({}); },
+    onOtherError: function () { resolveZinnenReady({}); },
   });
 })();

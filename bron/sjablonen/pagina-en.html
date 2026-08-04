@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<title>{{TITEL}}</title>
+<link href="/styles.css?v=7" rel="stylesheet"/>
+</head>
+<body>
+<header class="topbar">
+<div class="topbar-inner">
+<a aria-label="Tarifit — naar home" class="brand" href="index.html">
+<span aria-hidden="true" class="brand-mark var-diamond">
+<span class="lozenge"><span class="yaz">ⵣ</span></span>
+</span>
+<span aria-hidden="true" class="brand-mark var-wordmark">
+<span class="yaz-large">ⵣ</span>
+</span>
+<span aria-hidden="true" class="brand-mark var-tile">
+<span class="tile"></span>
+</span>
+<span class="brand-word">Tarif<span class="accent">it</span></span>
+</a>
+<nav class="topnav" aria-label="Main menu"><a class="active" href="course.html">Course</a>
+        <a href="exercises.html">Exercises</a>
+        <a href="grammar.html">Grammar</a>
+        <a href="wordlist.html">Wordlist</a>
+        <a href="zinnen.html">Sentences</a>
+        <a class="nav-quiet" href="suggest-word.html">Suggest a word</a>
+        <a href="book.html">The book</a>
+        <span aria-label="Language" class="lang-switch" role="group">
+          <a href="/nl/cursus.html" hreflang="nl">NL</a>
+          <span aria-hidden="true" class="lang-sep">/</span>
+          <a class="active" href="/en/course.html" hreflang="en">EN</a>
+        </span></nav>
+</div>
+</header>
+<div class="app">
+<aside class="sidebar" id="sidebar">
+<button aria-controls="sidebar-nav" aria-expanded="false" class="sidebar-toggle" id="sidebar-toggle">
+<span class="sidebar-toggle-label">Jump to lesson</span>
+<span aria-hidden="true" class="sidebar-toggle-arrow">▾</span>
+</button>
+<div class="sidebar-nav" id="sidebar-nav">
+{{SIDEBAR}}
+</div><!-- /.sidebar-nav -->
+</aside>
+<main class="content">
+{{INHOUD}}
+</main>
+</div>
+<footer>
+<p>Based on Mourigh &amp; Kossmann (2019). Spelling according to learntarifit.</p>
+    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-light);">
+      Questions or feedback? <a href="#" onclick="window.location.href = 'mai' + 'lto:' + 'Idriesti' + '@' + 'outlook.com'; return false;" style="color: inherit; text-decoration: underline;">Idriesti@outlook.com</a>
+    </p>
+  </footer>
+<script>
+    // Preserve scroll position when switching languages
+    document.querySelectorAll('.lang-switch a').forEach(function(a) {
+      a.addEventListener('click', function(e) {
+        if (window.location.hash) {
+          e.preventDefault();
+          window.location.href = a.getAttribute('href') + window.location.hash;
+        }
+      });
+    });
+  </script>
+  <script src="/assets/js/tarifit-search.js"></script>
+  <script src="/assets/js/les-zinnen.js"></script>
+  <script src="/assets/cursus/cursus.js?v=8"></script>
+  <script src="/assets/js/cursus-ui.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
