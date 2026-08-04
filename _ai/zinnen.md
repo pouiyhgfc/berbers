@@ -16,10 +16,10 @@ Totaal: 1208 zinnen.
 | Tarifit | Nederlands | Engels | Gloss | § | Bron |
 |---------|------------|--------|-------|---|------|
 | `iřes` | tong | tongue | — | §2.2 | boek p. 23 |
-| `ifess-a` | deze tong | this tongue | — | §2.2 | boek p. 23 |
-| `ifess inu` | mijn tong | my tongue | — | §2.2 | boek p. 23 |
-| `ssfehmey` | ik deed begrijpen | I made understand | — | §2.2 | boek p. 23 |
-| `ssfehmeyy-as` | ik deed hem begrijpen | I made him understand | — | §2.2 | boek p. 23 |
+| `iřess-a` | deze tong | this tongue | — | §2.2 | boek p. 23 |
+| `iřess inu` | mijn tong | my tongue | — | §2.2 | boek p. 23 |
+| `ssfehmeɣ` | ik deed begrijpen | I made understand | — | §2.2 | boek p. 23 |
+| `ssfehmeɣɣ-as` | ik deed hem begrijpen | I made him understand | — | §2.2 | boek p. 23 |
 | `yessefhem` | hij legde uit | he explained | — | §2.2 | boek p. 23 |
 | `yessfehm-as` | hij legde het hem uit | he explained to him | — | §2.2 | boek p. 23 |
 | `yessefhem ayyaw inu > yessfehm ayyaw inu` | hij deed mijn kleinzoon begrijpen | he made my grandson understand | — | §2.2 | boek p. 23 |

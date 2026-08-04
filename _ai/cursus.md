@@ -92,10 +92,10 @@ De w en y zijn de medeklinker-versies van u en i. Je ziet ze vaak aan het begin 
 | Tarifit | Nederlands |
 | --- | --- |
 | iřes | tong |
-| ifess-a | deze tong |
-| ifess inu | mijn tong |
-| ssfehmey | ik deed begrijpen |
-| ssfehmeyy-as | ik deed hem begrijpen |
+| iřess-a | deze tong |
+| iřess inu | mijn tong |
+| ssfehmeɣ | ik deed begrijpen |
+| ssfehmeɣɣ-as | ik deed hem begrijpen |
 | yessefhem | hij legde uit |
 | yessfehm-as | hij legde het hem uit |
 | yessefhem ayyaw inu > yessfehm ayyaw inu | hij deed mijn kleinzoon begrijpen |
